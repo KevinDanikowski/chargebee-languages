@@ -1,0 +1,13 @@
+key,value,reference value,description
+inapp_checkout.review.subscribe_btn.current_charge_present.txt,Pagar %{amount} e subscrever,Pay %{amount} & subscribe,Pay %{amount} & subscribe
+inapp_checkout.review.billing_shipping.header,Faturação e envio,Billing & Shipping,Billing & Shipping
+inapp_portal.home.address.link_text,Moradas de faturação e envio,Billing & Shipping Addresses,Billing & Shipping Addresses
+inapp_portal.address.header,Moradas de faturação e envio,Billing & Shipping Addresses,Billing & Shipping Addresses
+inapp_portal.subscription.next.renewing_estimate.now_zero," %{amount} cobrado dos créditos disponíveis."," %{amount} charged from available credits."," %{amount} charged from available credits."
+inapp_portal.subscription.canceled.reason_code.info,A assinatura foi cancelada pelo motivo '%{reason}',Your subscription was canceled with the reason '%{reason}',Your subscription was canceled with the reason '%{reason}'
+inapp_portal.subscription.sch_cancel.reason_code.info,A assinatura será cancelada pelo motivo '%{reason}',Your subscription will be canceled with the reason '%{reason}',Your subscription will be canceled with the reason '%{reason}'
+inapp_portal.home.promotions.link_text,Indicar e ganhar,Refer & Earn,Refer & Earn
+inapp_portal.password.validation.special,Pelo menos um caractere especial @$!%*#?&(),"At least one special character @$!%*#?&() ","At least one special character @$!%*#?&() "
+inapp_portal.contract_term.summary.end_action_renew_once,O contrato é renovado por mais um período em,"Contract renews for one more term on ","Contract renews for one more term on "
+inapp_checkout.gift.gift_details.schedule.subheading,Data e hora do presente,Gift date & time,Gift date & time
+inapp_checkout.gift.review.btn.txt,Pagar %{amount} e enviar presente,Pay %{amount} & place gift order,Pay %{amount} & place gift order

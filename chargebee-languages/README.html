@@ -1,0 +1,153 @@
+<html>
+<head>
+	<title>Readme - Multi Language</title>
+	<style type="text/css">
+	body{
+		font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+		color: #424242;
+	}
+	.cb-wrapper{
+		max-width: 960px;
+		width: 100%;
+		margin: 60px auto;
+	}
+	.cb-card{
+		margin-bottom: 90px;
+	}
+	.cb-card h1{
+	    font-size: 15px;
+    	text-transform: uppercase;
+    	color: #212121;
+	}
+	.cb-card h1 span{
+	    font-size: 13px;
+	    color: #969696;
+	    text-transform: none;
+	}
+	.cb-card p{
+		font-size: 13px;
+    	margin-bottom: 9px;
+	}
+	.cb-card ul{
+		margin: 21px 30px;
+		padding: 0;
+		position: relative;
+		list-style: none;
+	}
+	.cb-card li{
+	    font-size: 13px;
+    	margin-bottom: 9px;
+    	padding-left: 15px;
+	}
+	.cb-card li:before{
+		content: '-';
+		position: absolute;
+		left: 0;
+	}
+	.cb-card li ul{
+		list-style: disc;
+	}
+	.cb-card li ul li{
+		padding-left: 0
+	}
+	.cb-card li ul li:before{
+		content: '';
+	}
+	.cb-figure{
+		margin: 30px 0;
+	}
+	.cb-figure__title{
+		font-size: 13px;
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+	.cb-figure__img-container{
+		display: inline-block;
+		border: 1px solid #dedede;
+	    padding: 10px;
+	}
+	.img-responsive{
+		width: auto;
+		max-width: 100%;
+		height: auto;
+		max-height: 420px;
+	}
+	.cb-highlight{
+		font-weight: bold;
+		color: #000;
+	}
+	.cb-c-red{
+		color: #F44336;
+	}
+	</style>
+</head>
+<body>
+	<div class="cb-wrapper">
+		<div class="cb-card">
+			<h1>General instructions</h1>
+			<ul>
+				<li>
+					You can enter/modify the translation for each field/attribute (called as ‘keys’ in the csv files).
+				</li>
+				<li>
+				Please <span class="cb-highlight cb-c-red">DO NOT</span> modify the field labels/ keys in any way. 
+				</li>
+				<li>
+					Please <span class="cb-highlight cb-c-red">DO NOT</span> change the folder/file names as it WILL throw errors while uploading the pack.
+				</li>
+			</ul>
+		</div>
+		
+		<div class="cb-card">
+			<h1>Mandatory Folder</h1>
+			<p><span class="cb-highlight"> You need to provide translation ‘values’ in each file mandatorily.</span> If the translation value is not entered, Chargebee will NOT be translating the field, it will appear in the default language.
+			</p>
+			<p><span class="cb-highlight">Note:</span> hosted_pages_themes.csv file contains themes related fields such as fonts etc, please do not translate these fields, however you can enter any specific font values if required.
+			</p>
+			<p>Other fields are for reference only, you need not edit the details</p>
+
+			<div class="cb-figure">
+				<div class="cb-figure__title">Here’s a sample ‘csv’ file listing the PLANS in your site - </div>
+				<div class="cb-figure__img">
+					<div class="cb-figure__img-container">
+						<img src="https://d190vb4jo83j4z.cloudfront.net/i18n/1.png" class="img-responsive">
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		
+		<div class="cb-card">
+			<h1>Optional Folder</h1>
+			<p>This folder contains the list of attributes which need not necessarily require translation as Chargebee provides the default translated values. </p>
+			<p>The default translations are present in the ‘value’ column.</p>
+			<p>However, you can overwrite/update the translation text if you want to.</p>
+			<p>This folder contains list of attributes of Hosted Pages and Customer Portal.</p>
+			<ul>
+				<li>
+					If you have updated the field values, then the fields will be listed in the csv files and you can provide a translated value for those fields, for instance, you have edited “checkout.page.title” from “Checkout” to “CART Checkout”
+					<ul>
+						<li>Chargebee will have default translation for the term “Checkout”</li>
+						<li>You should provide the updated translation for “CART Checkout”</li></ul>
+				</li>
+				<li>
+				If you have not updated the field translation, then the default translation will be shown (even if the field is modified in the application)</li>
+			</ul>
+
+			<div class="cb-figure">
+				<div class="cb-figure__title">Here’s a sample (german) csv file with the default translation populated -</div>
+				<div class="cb-figure__img">
+					<div class="cb-figure__img-container">
+						<img src="https://d190vb4jo83j4z.cloudfront.net/i18n/2.png" class="img-responsive"> 
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		
+		<div class="cb-card">
+			<h1>EMAILs</h1>
+			<p> The translation of the emails for your customers will can be updated in your Chargebee site by navigating to <i> Settings > Configure Chargebee > Email Notifications </i>. 
+	</div>
+</body>
+</html>

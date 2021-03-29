@@ -1,5 +1,7 @@
 const fs = require('fs')
 const csv = require('csv-parser')
+const fixHTML = require('./utils/fixHTML')
+const { fixChargebeeVariables, htmlAndVariablesMatch } = require('./utils/helpers')
 
 const LANGUAGE_FOLDER = __dirname + '/chargebee-languages'
 const symbols = [
@@ -46,20 +48,28 @@ const getLanguageFromDir = dir => {
   return dir.substr(languageStartIndex, 2)
 }
 
-// chargebee variables look like %{variable} or {N} such as {0} or {1}
-const fixChargebeeVariables = (origional, translation) => {}
-
 const postTranslationProcessing = (origional, translation) => {
-  let shouldReview = false
   let formattedTranslation = translation
-  // fix html
-  // fix chargebee variables
-  // trim end and begining white space (only if the origional isn't)
-  // check for matching html tags before and after, otherwise flag
-  //
+
+  // 1. fix chargebee variables
+  formattedTranslation = fixChargebeeVariables(formattedTranslation)
+
+  // 2. fix html
+  formattedTranslation = fixHTML(formattedTranslation)
+
+  // 3. if white space was lost, add it back
+  if (origional.charAt(origional.length) === ' ' && formattedTranslation.charAt(formattedTranslation.length) !== ' ') {
+    formattedTranslation = ' ' + formattedTranslation
+  }
+  if (origional.charAt(0) === ' ' && formattedTranslation.charAt(0) !== ' ') {
+    formattedTranslation = formattedTranslation + ' '
+  }
+
+  // 4. need to review if html tags or variables don't match
+  const checksPass = htmlAndVariablesMatch(origional, formattedTranslation)
 
   return {
-    shouldReview,
+    shouldReview: !checksPass,
     translation: formattedTranslation,
   }
 }

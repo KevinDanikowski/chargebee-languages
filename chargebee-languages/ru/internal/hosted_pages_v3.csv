@@ -2,6 +2,7 @@ key,value,reference value,description
 hp_v3.pm.agreement.stripe_sepa,,"By providing your IBAN and confirming this payment, you are authorizing %{merchant_name}, the creditor and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited.","By providing your IBAN and confirming this payment, you are authorizing %{merchant_name}, the creditor and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited."
 hp_v3.inapp_checkout.registered_gst_txt,,I have registered for GST,I have registered for GST
 hp_v3.direct_debit.gocardless_becs_nz_title,,Direct Debit Instruction,Direct Debit Instruction
+hp_v3.bank_based_payments.owner_name,,Name,Owner name for SEPA conversion in bank based payments
 hp_v3.pm.agreement.gocardless_becs_nz_2_b,,terms and conditions.,terms and conditions.
 hp_v3.pm.agreement.gocardless_becs_nz_2_a,,I agree that this authority is subject to my bank’s terms and conditions that relate to my account and to the specific initiator,I agree that this authority is subject to my bank’s terms and conditions that relate to my account and to the specific initiator
 hp_v3.pm.bancontact_desc,,recurring via SEPA Direct Debit,Bancontact desc
@@ -163,6 +164,7 @@ hp_v3.portal.url_error,,Invalid Url,Requested Url is not valid
 hp_v3.paynow.days_overdue,,%{days} day/s overdue,3 day/s overdue
 hp_v3.pm.ideal,,iDEAL,iDEAL name
 hp_v3.portal.not_allowed,,Not allowed,Portal access not allowed
+hp_v3.paynow.select_field_default,,Pick an option,select fields default prompt
 hp_v3.portal.more_items_txt,,more item,2 more items
 hp_v3.pm.giropay_desc,,recurring via SEPA Direct Debit,Giropay desc
 hp_v3.direct_debit.company,,Company,Company

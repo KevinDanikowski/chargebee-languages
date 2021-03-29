@@ -5,21 +5,29 @@ const PromisePool = require('@supercharge/promise-pool')
 const csv = require('csv-parser')
 const createCsvWriter = require('csv-writer').createObjectCsvWriter
 const { handleTextReplacement, asyncForEach, postTranslationProcessing } = require('./utils/helpers')
-const translator = require('./translator')
 const {
   chargebeeLanguageSymbols,
   recommendedReplacements,
   recommendedIgnoreValues,
   recommendedWarnIfValuesTranslated,
 } = require('./utils/constants')
+const fileExists = file => fs.existsSync(file)
+const translator = fileExists('./translator.js')
+  ? require('./translator')
+  : async ({ to, from, text }) => {
+      // sample translator function
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve(`(${to}) ${text}`)
+        }, 50)
+      })
+    }
 
 const CONTENT_DIR = process.env.LANGUAGE_DIRECTORY || 'chargebee-languages'
 const LANGUAGE_FOLDER = __dirname + '/' + CONTENT_DIR
 const english = 'en'
 
 const PRE_TRANSLATED_CONTENT = {}
-
-const fileExists = file => fs.existsSync(file)
 
 const addTranslatedContent = (languageSymbol, text, translation) => {
   if (typeof text !== 'string' || text.length === 0 || !translation || typeof translation !== 'string') return
@@ -310,6 +318,7 @@ if (process.env.SAVE_UNREVIEWED_TRANSLATIONS) {
     translator,
     logs: true,
     folders: ['bg'],
+    updateKeys: ['enum.contract_term_base.action_at_term_end.name.renew'],
     updateFiles: ['enums.csv'],
   })
 }

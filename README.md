@@ -38,7 +38,14 @@ runTranslation({
 const {recommendedReplacements, recommendedIgnoreValues, recommendedWarnIfValuesTranslated} = require('./utils/constants)
 ```
 
-**Second**, add your translator function in the `translator.js`. There are many simple to use packages.
+**Second**, add a `translator.js` file for your translator. There are many simple to use packages. The function should look like so:
+
+```js
+module.exports = async ({ to, from, text }) => {
+  /*... translate stuff ... */
+  return translatedText
+}
+```
 
 **Third**, if you wish, replace the `chargebee-languages` folder with your languages. If you prefer a different directory, add the env variable `LANGUAGE_DIRECTORY` such as `LANGUAGE_DIRECTORY=my_folder`
 

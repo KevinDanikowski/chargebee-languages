@@ -306,12 +306,31 @@ const saveReviewedTranslations = async ({ folders = directories }) => {
   console.info(`Finished saving all applicable files.`)
 }
 
+const deleteReviewFiles = async ({ folders = directories }) => {
+  const languages = directories.filter(lang => folders.includes(lang))
+  const deleteFile = file => fs.unlinkSync(file)
+
+  await asyncForEach(languages, async language => {
+    const unreviewedFile = LANGUAGE_FOLDER + '/' + language + '/UNREVIEWED_TRANSLATIONS.json'
+    const failedFile = LANGUAGE_FOLDER + '/' + language + '/FAILED_TRANSLATIONS.json'
+    if (fileExists(unreviewedFile)) deleteFile(unreviewedFile)
+    if (fileExists(failedFile)) deleteFile(failedFile)
+  })
+}
+
 if (process.env.SAVE_UNREVIEWED_TRANSLATIONS) {
   const prompt = new Confirm(
     'Have you updated the "translated" values in the JSON files (easily confused with "value" values)?'
   )
   prompt.run().then(() => {
     saveReviewedTranslations({})
+  })
+} else if (process.env.DELETE_REVIEW_FILES) {
+  const prompt = new Confirm(
+    'Are you sure you want to delete all UNREVIEWED_TRANSLATIONS.json and FAILED_TRANSLATIONS.json files?'
+  )
+  prompt.run().then(() => {
+    deleteReviewFiles({})
   })
 } else {
   runTranslation({
@@ -320,5 +339,6 @@ if (process.env.SAVE_UNREVIEWED_TRANSLATIONS) {
     folders: ['bg'],
     updateKeys: ['enum.contract_term_base.action_at_term_end.name.renew'],
     updateFiles: ['enums.csv'],
+    ignoreFiles: ['organization_details.csv'],
   })
 }

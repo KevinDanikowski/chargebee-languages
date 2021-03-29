@@ -4,7 +4,7 @@ Chargebee allows a certain number of languages out of the box (https://www.charg
 
 # Running
 
-**First**, edit the config in `TranslateChargebee.js` if the defaults don't work for you. FYI there is around 2250 keys to translate per blank language.
+**First: Config**, edit the config in `TranslateChargebee.js` if the defaults don't work for you. FYI there is around 2250 keys to translate per blank language.
 
 ```js
 /* Config Options */
@@ -38,7 +38,7 @@ runTranslation({
 const {recommendedReplacements, recommendedIgnoreValues, recommendedWarnIfValuesTranslated} = require('./utils/constants)
 ```
 
-**Second**, add a `translator.js` file for your translator. There are many simple to use packages. The function should look like so:
+**Second: Translator**, add a `translator.js` file for your translator. There are many simple to use packages. The function should look like so:
 
 ```js
 module.exports = async ({ to, from, text }) => {
@@ -47,13 +47,15 @@ module.exports = async ({ to, from, text }) => {
 }
 ```
 
-**Third**, if you wish, replace the `chargebee-languages` folder with your languages. If you prefer a different directory, add the env variable `LANGUAGE_DIRECTORY` such as `LANGUAGE_DIRECTORY=my_folder`
+**Third: language export**, if you wish, replace the `chargebee-languages` folder with your languages. If you prefer a different directory, add the env variable `LANGUAGE_DIRECTORY` such as `LANGUAGE_DIRECTORY=my_folder`
 
-**Fourth**, run it with the command `npm run translate` which runs the `TranslateChargebee.js` file
+**Fourth: run to Translate**, run it with the command `npm run translate` which runs the `TranslateChargebee.js` file
 
-**Fifth**, check on your translations to review and error translations located in the `chargebee-languages` as `UNREVIEWED_TRANSLATIONS.json` and `FAILED_TRANSLATIONS.json`
+**Fifth: Review**, check on your translations to review and error translations located in the `chargebee-languages/<relevant_language>` as `UNREVIEWED_TRANSLATIONS.json` and `FAILED_TRANSLATIONS.json`. \*In the `UNREVIEWED_TRANSLATIONS.json` **change the `translation` value.\*** This will be used in the next step.
 
-**Sixth**, after you've reviewed the `UNREVIEWED_TRANSLATIONS.json`, run `npm run save-reviewed` to save the now reviewed translations.
+**Sixth: Save reviewed**, after you've reviewed the `UNREVIEWED_TRANSLATIONS.json` and edited all the `translation` values, run `npm run save-reviewed` to save the now reviewed translations.
+
+**Seventh: Delete reviewed and failed**, run `npm run delete-reviews` to delete the `UNREVIEWED_TRANSLATIONS.json` and `FAILED_TRANSLATIONS.json` in all the language directories.
 
 # Contributions
 

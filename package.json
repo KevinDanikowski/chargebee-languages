@@ -6,7 +6,7 @@
   "scripts": {
     "translate": "node TranslateChargebee.js",
     "save-reviewed": "SAVE_UNREVIEWED_TRANSLATIONS=true node TranslateChargebee.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "delete-reviews": "DELETE_REVIEW_FILES=true node TranslateChargebee.js"
   },
   "author": "",
   "license": "MIT",

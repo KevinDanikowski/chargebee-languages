@@ -88,19 +88,19 @@ const getDirCSVEntries = async ({ dir, updateFiles, ignoreFiles, useTranslatedVa
   let formattedEntries = []
 
   let files = []
-  if (Array.isArray(updateFiles)) {
-    if (Array.isArray(updateFiles) || Array.isArray(ignoreFiles)) {
-      files = allFiles.filter(file => {
-        let include = true
-        if (Array.isArray(ignoreFiles) && ignoreFiles.includes(file)) {
-          include = false
-        } else if (Array.isArray(updateFiles) && !updateFiles.includes(file)) {
-          include = false
-        }
+  if (Array.isArray(updateFiles) || Array.isArray(ignoreFiles)) {
+    files = allFiles.filter(file => {
+      let include = true
+      if (Array.isArray(ignoreFiles) && ignoreFiles.includes(file)) {
+        include = false
+      } else if (Array.isArray(updateFiles) && !updateFiles.includes(file)) {
+        include = false
+      }
 
-        return include
-      })
-    }
+      return include
+    })
+  } else {
+    files = allFiles
   }
 
   await asyncForEach(useTranslatedValuesIfAvailable ? allFiles : files, async file => {

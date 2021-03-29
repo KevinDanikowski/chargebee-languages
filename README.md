@@ -2,6 +2,10 @@
 
 Chargebee allows a certain number of languages out of the box (https://www.chargebee.com/docs/supported-locales.html), roughly 6. There are, however, around 30 supported by chargebee which you can choose to translate yourself (https://www.chargebee.com/docs/configure-multiple-languages.html). Here is a simple node package to translate those languages easily and efficiently.
 
+# Using Pre-translated values
+
+There is a sample provided for all the languages that are machine translated that are free for you to use. These do not include `mandatory` folders or those CSV files. You will need to run TranslateChargebee.js after adding your `mandatory` folders. There are no guarantees the translations are correct, as they were made by a machine translator.
+
 # Running
 
 **First: Config**, edit the config in `TranslateChargebee.js` if the defaults don't work for you. FYI there is around 2250 keys to translate per blank language.
@@ -12,8 +16,8 @@ const config = {
   folders, // array of language folders you want to include such as ['vi', 'zh']
   ignoreKeys, // array of keys to ignore (runs before inclusion logic)
   updateKeys, // array of keys to include
-  updateFiles, // array of CSV files to ignore (runs before inclusion logic)
-  ignoreFiles, // array of CSV files to include
+  ignoreFiles, // default to some CSV files in mandatory directory. array of CSV files to ignore (runs before inclusion logic)
+  updateFiles, // array of CSV files to include
   useTranslatedValuesIfAvailable, // Default to true, uses already translated value to avoid running translation fn() again
   ignoreIfValue, // Default to true, if you want to re-translate all values, set this to false
   reviewBadTranslations, // Defaults to true, if we notice an html or variable mishap, we will put in a separate review file

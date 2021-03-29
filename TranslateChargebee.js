@@ -333,12 +333,20 @@ if (process.env.SAVE_UNREVIEWED_TRANSLATIONS) {
     deleteReviewFiles({})
   })
 } else {
+  // typically you don't want to translate these files, or you want to be sure you do. They're all in the mandatory folder.
+  const defaultIgnoreFiles = [
+    'invoice_customizations.csv',
+    'item_addon.csv',
+    'item_family.csv',
+    'item_plan.csv',
+    'item_price_addon.csv',
+    'item_price_plan.csv',
+    'organization_details.csv',
+  ]
   runTranslation({
     translator,
     logs: true,
     folders: ['bg'],
-    updateKeys: ['enum.contract_term_base.action_at_term_end.name.renew'],
-    updateFiles: ['enums.csv'],
-    ignoreFiles: ['organization_details.csv'],
+    ignoreFiles: defaultIgnoreFiles,
   })
 }

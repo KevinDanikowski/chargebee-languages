@@ -1,7 +1,9 @@
 const fs = require('fs')
 const csv = require('csv-parser')
+const createCsvWriter = require('csv-writer').createObjectCsvWriter
 const fixHTML = require('./utils/fixHTML')
 const { fixChargebeeVariables, htmlAndVariablesMatch } = require('./utils/helpers')
+const translator = require('./translator')
 
 const LANGUAGE_FOLDER = __dirname + '/chargebee-languages'
 const symbols = [
@@ -114,9 +116,24 @@ const parseCSV = (source, filterAndFormat = true) => {
   })
 }
 
-const getDirCSVEntries = async dir => {
-  const files = getCSVsInDir(dir)
+const getDirCSVEntries = async (dir, updateFiles, ignoreFiles) => {
+  let files = (allFiles = getCSVsInDir(dir))
   let formattedEntries = []
+
+  if (Array.isArray(updateFiles)) {
+    if (Array.isArray(updateFiles) || Array.isArray(ignoreFiles)) {
+      files = files.filter(file => {
+        let include = true
+        if (Array.isArray(ignoreFiles) && ignoreFiles.includes(file)) {
+          include = false
+        } else if (Array.isArray(updateFiles) && !updateFiles.includes(file)) {
+          include = false
+        }
+
+        return include
+      })
+    }
+  }
 
   await asyncForEach(files, async file => {
     const entries = await parseCSV(dir + '/' + file)
@@ -130,19 +147,34 @@ const getDirCSVEntries = async dir => {
 const updateCSVs = async entries => {
   const CSV = {}
   entries.forEach(entry => {
-    const thisCSV = CSV[source]
+    const thisCSV = CSV[entry.source]
     if (thisCSV) {
       thisCSV.push(entry)
     } else {
-      CSV[source] = [entry]
+      CSV[entry.source] = [entry]
     }
   })
   const CSVsToUpdate = Object.keys(CSV)
   await asyncForEach(CSVsToUpdate, async file => {
     const entriesToUpdate = CSV[file]
-    // either get file entries and update the corresponding ones, and rewrite the whole file
-    // or
-    // update specific rows
+
+    if (Array.isArray(entriesToUpdate) && entriesToUpdate.length > 0) {
+      // 1. get entries
+      const csvContent = await parseCSV(file, false)
+      // 2. update entries
+      const formattedEntries = csvContent.map(content => {
+        const translatedEntry = entriesToUpdate.find(entry => entry.key === content.key)
+
+        return translatedEntry && translatedEntry.translation ? { ...content, value: translatedEntry.translation } : content
+      })
+
+      // 3. write updated file
+      const csvWriter = createCsvWriter({
+        path: file,
+        header: Object.keys(csvContent[0]).map(key => ({ id: key, title: key })),
+      })
+      await csvWriter.writeRecords(formattedEntries) // returns a promise
+    }
   })
 }
 
@@ -152,10 +184,13 @@ const runTranslation = async ({
   folders = directories,
   ignoreKeys,
   updateKeys,
+  updateFiles,
+  ignoreFiles,
   useTranslatedValuesIfAvailable = true,
   ignoreIfValue = true,
   reviewBrokenTranslations = true,
   translator,
+  logs = false,
 }) => {
   const languages = directories.filter(lang => folders.includes(lang))
 
@@ -166,7 +201,7 @@ const runTranslation = async ({
     let allLanguageEntries = []
 
     await asyncForEach(categories, async category => {
-      const entries = await getDirCSVEntries(dir + '/' + category)
+      const entries = await getDirCSVEntries(dir + '/' + category, updateFiles, ignoreFiles)
 
       allLanguageEntries = [...allLanguageEntries, ...entries]
     })
@@ -206,6 +241,7 @@ const runTranslation = async ({
           successfulTranslations.push(translatedEntry)
         }
       } catch (e) {
+        if (logs) console.error('Translation Error', e)
         failedTranslations.push(entry)
       }
     })
@@ -221,9 +257,20 @@ const runTranslation = async ({
         'utf-8'
       )
     }
+    if (failedTranslations.length > 0) {
+      fs.writeFileSync(
+        LANGUAGE_FOLDER + '/FAILED_TRANSLATIONS.json',
+        JSON.stringify(failedTranslations),
+        'utf-8'
+      )
+    }
   })
 }
 
 runTranslation({
+  translator,
+  logs: true,
   folders: ['bg'],
+  updateFiles: ['hosted_privacy_settings.csv'],
+  updateKeys: ['static.hosted_pages_setting.tos_url_label'],
 })

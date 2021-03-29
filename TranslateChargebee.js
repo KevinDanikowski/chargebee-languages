@@ -1,5 +1,6 @@
 const fs = require('fs')
 const { get: _get, set: _set } = require('lodash')
+const PromisePool = require('@supercharge/promise-pool')
 const csv = require('csv-parser')
 const createCsvWriter = require('csv-writer').createObjectCsvWriter
 const fixHTML = require('./utils/fixHTML')
@@ -197,6 +198,7 @@ const runTranslation = async ({
   reviewBrokenTranslations = true,
   translator,
   logs = false,
+  concurrentTranslations = 3,
 }) => {
   const languages = directories.filter(lang => folders.includes(lang))
 
@@ -234,7 +236,7 @@ const runTranslation = async ({
     let unreviewedTranslations = []
 
     // 1. translate entries with workers
-    await asyncForEach(entriesToTranslate, async entry => {
+    await PromisePool.for(entriesToTranslate).withConcurrency(concurrentTranslations).process(async entry => {
       try {
         let formattedTranslation
         const language = getLanguageFromDir(entry.source)
@@ -288,6 +290,5 @@ runTranslation({
   translator,
   logs: true,
   folders: ['bg'],
-  updateFiles: ['hosted_privacy_settings.csv'],
-  updateKeys: ['static.hosted_pages_setting.tos_url_label'],
+  updateFiles: ['countries.csv'],
 })

@@ -18,6 +18,7 @@ ignoreIfValue, // Default to true, if you want to re-translate all values, set t
 reviewBrokenTranslations, // Defaults to true, if we notice an html or variable mishap, we will put in a separate review file
 translator, // translator.js function
 logs, // defaults to false
+concurrentTranslations, // defaults to 3
 */
 // example config
 runTranslation({

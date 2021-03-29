@@ -47,11 +47,11 @@ module.exports = async ({ to, from, text }) => {
 }
 ```
 
-**Third: language export**, if you wish, replace the `chargebee-languages` folder with your languages. If you prefer a different directory, add the env variable `LANGUAGE_DIRECTORY` such as `LANGUAGE_DIRECTORY=my_folder`
+**Third: language export**, if you wish, replace the `chargebee-languages` folder with your languages. If you prefer a different directory, add the env variable `LANGUAGE_DIRECTORY` such as `LANGUAGE_DIRECTORY=my_folder`. _Note: mandatory folders aren't pushed to the repo, you need to add yours manually._
 
 **Fourth: run to Translate**, run it with the command `npm run translate` which runs the `TranslateChargebee.js` file
 
-**Fifth: Review**, check on your translations to review and error translations located in the `chargebee-languages/<relevant_language>` as `UNREVIEWED_TRANSLATIONS.json` and `FAILED_TRANSLATIONS.json`. \*In the `UNREVIEWED_TRANSLATIONS.json` **change the `translation` value.\*** This will be used in the next step.
+**Fifth: Review**, check on your translations to review and error translations located in the `chargebee-languages/<relevant_language>` as `UNREVIEWED_TRANSLATIONS.json` and `FAILED_TRANSLATIONS.json`. _In the `UNREVIEWED_TRANSLATIONS.json` change the `translation` value._ This will be used in the next step.
 
 **Sixth: Save reviewed**, after you've reviewed the `UNREVIEWED_TRANSLATIONS.json` and edited all the `translation` values, run `npm run save-reviewed` to save the now reviewed translations.
 

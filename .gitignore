@@ -4,3 +4,5 @@ node_modules
 # ignore mandatory CSV directories because it's site specific
 mandatory
 UNREVIEWED_TRANSLATIONS.json
+FAILED_TRANSLATIONS.json
+translator.js

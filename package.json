@@ -4,6 +4,7 @@
   "description": "",
   "main": "TranslateChargebee.js",
   "scripts": {
+    "translate": "node TranslateChargebee.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

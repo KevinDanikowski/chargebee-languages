@@ -98,7 +98,7 @@ const parseCSV = (source, filterAndFormat = true) => {
       .on('end', () => {
         if (filterAndFormat) {
           const filteredResults = results.filter(data => {
-            // if no 'reference value' then english doesn't have a value, so no point to use it
+            // if no 'reference value' then english doesn't have a value, so no point to use or translate it
             if (data.key && typeof data.value === 'string' && data['reference value']) {
               return true
             } else {

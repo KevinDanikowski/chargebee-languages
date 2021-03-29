@@ -137,6 +137,39 @@ const validHTML5Tags = [
   'xmp',
 ]
 
+const chargebeeLanguageSymbols = [
+  'bg',
+  'cs',
+  'da',
+  'de',
+  'es',
+  'et',
+  'fi',
+  'fr',
+  'hu',
+  'id',
+  'it',
+  'ja',
+  'ko',
+  'lt',
+  'lv',
+  'nl',
+  'no',
+  'pl',
+  'pt',
+  'ro',
+  'ru',
+  'sk',
+  'sl',
+  'sv',
+  'th',
+  'tr',
+  'uk',
+  'vi',
+  'zh',
+]
+
 module.exports = {
   validHTML5Tags,
+  chargebeeLanguageSymbols,
 }

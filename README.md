@@ -31,7 +31,7 @@ runTranslation({
 
 **Second**, add your translator function in the `translator.js`. There are many simple to use packages.
 
-**Third**, if you wish, replace the `chargebee-languages` folder with your languages.
+**Third**, if you wish, replace the `chargebee-languages` folder with your languages. If you prefer a different directory, add the env variable `LANGUAGE_DIRECTORY` such as `LANGUAGE_DIRECTORY=my_folder`
 
 **Fourth**, run it with the command `npm run translate` which runs the `TranslateChargebee.js` file
 

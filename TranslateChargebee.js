@@ -1,43 +1,34 @@
 const fs = require('fs')
+const { get: _get, set: _set } = require('lodash')
 const csv = require('csv-parser')
 const createCsvWriter = require('csv-writer').createObjectCsvWriter
 const fixHTML = require('./utils/fixHTML')
 const { fixChargebeeVariables, htmlAndVariablesMatch } = require('./utils/helpers')
 const translator = require('./translator')
+const { chargebeeLanguageSymbols } = require('./utils/constants')
 
-const LANGUAGE_FOLDER = __dirname + '/chargebee-languages'
-const symbols = [
-  'bg',
-  'cs',
-  'da',
-  'de',
-  'es',
-  'et',
-  'fi',
-  'fr',
-  'hu',
-  'id',
-  'it',
-  'ja',
-  'ko',
-  'lt',
-  'lv',
-  'nl',
-  'no',
-  'pl',
-  'pt',
-  'ro',
-  'ru',
-  'sk',
-  'sl',
-  'sv',
-  'th',
-  'tr',
-  'uk',
-  'vi',
-  'zh',
-]
+const CONTENT_DIR = process.env.LANGUAGE_DIRECTORY || 'chargebee-languages'
+const LANGUAGE_FOLDER = __dirname + '/' + CONTENT_DIR
 const english = 'en'
+
+const PRE_TRANSLATED_CONTENT = {}
+
+const addTranslatedContent = (languageSymbol, text, translation) => {
+  if (typeof text !== 'string' || text.length === 0 || !translation || typeof translation !== 'string') return
+  const keyPath = `${languageSymbol}.${text}`
+  const existingTranslation = _get(PRE_TRANSLATED_CONTENT, keyPath, null)
+  if (!existingTranslation) {
+    _set(PRE_TRANSLATED_CONTENT, keyPath, translation)
+  }
+  return
+}
+
+const getTranslatedContent = (languageSymbol, text) => {
+  if (typeof text !== 'string' || text.length === 0) return null
+  const keyPath = `${languageSymbol}.${text}`
+  const existingTranslation = _get(PRE_TRANSLATED_CONTENT, keyPath, null)
+  return existingTranslation
+}
 
 const asyncForEach = async (array, callback) => {
   for (let index = 0; index < array.length; index++) {
@@ -116,13 +107,14 @@ const parseCSV = (source, filterAndFormat = true) => {
   })
 }
 
-const getDirCSVEntries = async (dir, updateFiles, ignoreFiles) => {
-  let files = (allFiles = getCSVsInDir(dir))
+const getDirCSVEntries = async ({ dir, updateFiles, ignoreFiles, useTranslatedValuesIfAvailable }) => {
+  const allFiles = getCSVsInDir(dir)
   let formattedEntries = []
 
+  let files = []
   if (Array.isArray(updateFiles)) {
     if (Array.isArray(updateFiles) || Array.isArray(ignoreFiles)) {
-      files = files.filter(file => {
+      files = allFiles.filter(file => {
         let include = true
         if (Array.isArray(ignoreFiles) && ignoreFiles.includes(file)) {
           include = false
@@ -135,10 +127,22 @@ const getDirCSVEntries = async (dir, updateFiles, ignoreFiles) => {
     }
   }
 
-  await asyncForEach(files, async file => {
+  await asyncForEach(useTranslatedValuesIfAvailable ? allFiles : files, async file => {
     const entries = await parseCSV(dir + '/' + file)
 
-    formattedEntries = [...formattedEntries, ...entries]
+    if (useTranslatedValuesIfAvailable) {
+      // build pre-translated map here
+      const lang = getLanguageFromDir(dir)
+      entries.forEach(entry => {
+        addTranslatedContent(lang, entry['reference value'], entry.value)
+      })
+    }
+
+    // only add entries if they should be included
+    if (files.includes(file)) {
+      // true every time for !useTranslatedValuesIfAvailable
+      formattedEntries = [...formattedEntries, ...entries]
+    }
   })
 
   return formattedEntries
@@ -165,7 +169,9 @@ const updateCSVs = async entries => {
       const formattedEntries = csvContent.map(content => {
         const translatedEntry = entriesToUpdate.find(entry => entry.key === content.key)
 
-        return translatedEntry && translatedEntry.translation ? { ...content, value: translatedEntry.translation } : content
+        return translatedEntry && translatedEntry.translation
+          ? { ...content, value: translatedEntry.translation }
+          : content
       })
 
       // 3. write updated file
@@ -178,7 +184,7 @@ const updateCSVs = async entries => {
   })
 }
 
-const directories = getDirectories(LANGUAGE_FOLDER).filter(d => symbols.includes(d))
+const directories = getDirectories(LANGUAGE_FOLDER).filter(d => chargebeeLanguageSymbols.includes(d))
 
 const runTranslation = async ({
   folders = directories,
@@ -201,7 +207,12 @@ const runTranslation = async ({
     let allLanguageEntries = []
 
     await asyncForEach(categories, async category => {
-      const entries = await getDirCSVEntries(dir + '/' + category, updateFiles, ignoreFiles)
+      const entries = await getDirCSVEntries({
+        dir: dir + '/' + category,
+        updateFiles,
+        ignoreFiles,
+        useTranslatedValuesIfAvailable,
+      })
 
       allLanguageEntries = [...allLanguageEntries, ...entries]
     })
@@ -225,10 +236,20 @@ const runTranslation = async ({
     // 1. translate entries with workers
     await asyncForEach(entriesToTranslate, async entry => {
       try {
+        let formattedTranslation
         const language = getLanguageFromDir(entry.source)
         const text = entry['reference value']
-        const translation = await translator({ to: language, from: english, text })
-        const formattedTranslation = postTranslationProcessing(text, translation)
+        const existingTranslation = getTranslatedContent(language, text)
+        if (useTranslatedValuesIfAvailable && existingTranslation) {
+          // if content already translated, use that
+          formattedTranslation = { translation: existingTranslation, shouldReview: false }
+        } else {
+          translation = await translator({ to: language, from: english, text })
+          formattedTranslation = postTranslationProcessing(text, translation)
+          if (useTranslatedValuesIfAvailable && !formattedTranslation.shouldReview) {
+            addTranslatedContent(language, text, formattedTranslation.translation)
+          }
+        }
         const translatedEntry = {
           ...entry,
           translation: formattedTranslation.translation,
@@ -258,11 +279,7 @@ const runTranslation = async ({
       )
     }
     if (failedTranslations.length > 0) {
-      fs.writeFileSync(
-        LANGUAGE_FOLDER + '/FAILED_TRANSLATIONS.json',
-        JSON.stringify(failedTranslations),
-        'utf-8'
-      )
+      fs.writeFileSync(LANGUAGE_FOLDER + '/FAILED_TRANSLATIONS.json', JSON.stringify(failedTranslations), 'utf-8')
     }
   })
 }

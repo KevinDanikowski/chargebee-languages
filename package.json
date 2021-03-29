@@ -5,6 +5,7 @@
   "main": "TranslateChargebee.js",
   "scripts": {
     "translate": "node TranslateChargebee.js",
+    "save-reviewed": "SAVE_UNREVIEWED_TRANSLATIONS=true node TranslateChargebee.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,6 +14,7 @@
     "@supercharge/promise-pool": "^1.6.1",
     "csv-parser": "^3.0.0",
     "csv-writer": "^1.6.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "prompt-confirm": "^2.0.4"
   }
 }

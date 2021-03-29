@@ -1,18 +1,25 @@
 const fs = require('fs')
+const Confirm = require('prompt-confirm')
 const { get: _get, set: _set } = require('lodash')
 const PromisePool = require('@supercharge/promise-pool')
 const csv = require('csv-parser')
 const createCsvWriter = require('csv-writer').createObjectCsvWriter
-const fixHTML = require('./utils/fixHTML')
-const { fixChargebeeVariables, htmlAndVariablesMatch } = require('./utils/helpers')
+const { handleTextReplacement, asyncForEach, postTranslationProcessing } = require('./utils/helpers')
 const translator = require('./translator')
-const { chargebeeLanguageSymbols } = require('./utils/constants')
+const {
+  chargebeeLanguageSymbols,
+  recommendedReplacements,
+  recommendedIgnoreValues,
+  recommendedWarnIfValuesTranslated,
+} = require('./utils/constants')
 
 const CONTENT_DIR = process.env.LANGUAGE_DIRECTORY || 'chargebee-languages'
 const LANGUAGE_FOLDER = __dirname + '/' + CONTENT_DIR
 const english = 'en'
 
 const PRE_TRANSLATED_CONTENT = {}
+
+const fileExists = file => fs.existsSync(file)
 
 const addTranslatedContent = (languageSymbol, text, translation) => {
   if (typeof text !== 'string' || text.length === 0 || !translation || typeof translation !== 'string') return
@@ -31,41 +38,9 @@ const getTranslatedContent = (languageSymbol, text) => {
   return existingTranslation
 }
 
-const asyncForEach = async (array, callback) => {
-  for (let index = 0; index < array.length; index++) {
-    await callback(array[index], index, array)
-  }
-}
-
 const getLanguageFromDir = dir => {
   const languageStartIndex = LANGUAGE_FOLDER.length + 1
   return dir.substr(languageStartIndex, 2)
-}
-
-const postTranslationProcessing = (origional, translation) => {
-  let formattedTranslation = translation
-
-  // 1. fix chargebee variables
-  formattedTranslation = fixChargebeeVariables(formattedTranslation)
-
-  // 2. fix html
-  formattedTranslation = fixHTML(formattedTranslation)
-
-  // 3. if white space was lost, add it back
-  if (origional.charAt(origional.length) === ' ' && formattedTranslation.charAt(formattedTranslation.length) !== ' ') {
-    formattedTranslation = ' ' + formattedTranslation
-  }
-  if (origional.charAt(0) === ' ' && formattedTranslation.charAt(0) !== ' ') {
-    formattedTranslation = formattedTranslation + ' '
-  }
-
-  // 4. need to review if html tags or variables don't match
-  const checksPass = htmlAndVariablesMatch(origional, formattedTranslation)
-
-  return {
-    shouldReview: !checksPass,
-    translation: formattedTranslation,
-  }
 }
 
 const getDirectories = source => {
@@ -163,7 +138,7 @@ const updateCSVs = async entries => {
   await asyncForEach(CSVsToUpdate, async file => {
     const entriesToUpdate = CSV[file]
 
-    if (Array.isArray(entriesToUpdate) && entriesToUpdate.length > 0) {
+    if (fileExists(file) && Array.isArray(entriesToUpdate) && entriesToUpdate.length > 0) {
       // 1. get entries
       const csvContent = await parseCSV(file, false)
       // 2. update entries
@@ -195,10 +170,13 @@ const runTranslation = async ({
   ignoreFiles,
   useTranslatedValuesIfAvailable = true,
   ignoreIfValue = true,
-  reviewBrokenTranslations = true,
+  reviewBadTranslations = true,
   translator,
   logs = false,
   concurrentTranslations = 3,
+  replacements = recommendedReplacements, // NOTE: replacement happens AFTER looking for existing translation
+  ignoreValues = recommendedIgnoreValues, // NOTE: ignore values happens AFTER replacements
+  warnIfValuesTranslated = recommendedWarnIfValuesTranslated,
 }) => {
   const languages = directories.filter(lang => folders.includes(lang))
 
@@ -236,59 +214,102 @@ const runTranslation = async ({
     let unreviewedTranslations = []
 
     // 1. translate entries with workers
-    await PromisePool.for(entriesToTranslate).withConcurrency(concurrentTranslations).process(async entry => {
-      try {
-        let formattedTranslation
-        const language = getLanguageFromDir(entry.source)
-        const text = entry['reference value']
-        const existingTranslation = getTranslatedContent(language, text)
-        if (useTranslatedValuesIfAvailable && existingTranslation) {
-          // if content already translated, use that
-          formattedTranslation = { translation: existingTranslation, shouldReview: false }
-        } else {
-          translation = await translator({ to: language, from: english, text })
-          formattedTranslation = postTranslationProcessing(text, translation)
-          if (useTranslatedValuesIfAvailable && !formattedTranslation.shouldReview) {
-            addTranslatedContent(language, text, formattedTranslation.translation)
+    await PromisePool.for(entriesToTranslate)
+      .withConcurrency(concurrentTranslations)
+      .process(async entry => {
+        try {
+          let formattedTranslation
+          const language = getLanguageFromDir(entry.source)
+          let text = entry['reference value']
+          const existingTranslation = getTranslatedContent(language, text)
+          text = handleTextReplacement(replacements, text)
+          if (ignoreValues.includes(text)) {
+            formattedTranslation = { translation: text }
+          } else if (useTranslatedValuesIfAvailable && existingTranslation) {
+            // if content already translated, use that
+            formattedTranslation = { translation: existingTranslation }
+          } else {
+            translation = await translator({ to: language, from: english, text })
+            formattedTranslation = postTranslationProcessing(text, translation, warnIfValuesTranslated)
+            if (useTranslatedValuesIfAvailable && !formattedTranslation.shouldReview) {
+              addTranslatedContent(language, text, formattedTranslation.translation)
+            }
           }
-        }
-        const translatedEntry = {
-          ...entry,
-          translation: formattedTranslation.translation,
-        }
+          const translatedEntry = {
+            ...entry,
+            translation: formattedTranslation.translation,
+          }
 
-        if (reviewBrokenTranslations && formattedTranslation.shouldReview) {
-          // will make separate review file for these, typically broken variables or html
-          unreviewedTranslations.push(translatedEntry)
-        } else {
-          successfulTranslations.push(translatedEntry)
+          if (reviewBadTranslations && formattedTranslation.shouldReview) {
+            // we make separate review file for these, typically broken variables or html
+            unreviewedTranslations.push({ ...translatedEntry, reason: formattedTranslation.reason })
+          } else {
+            successfulTranslations.push(translatedEntry)
+          }
+        } catch (e) {
+          if (logs) console.error('Translation Error', e)
+          failedTranslations.push(entry)
         }
-      } catch (e) {
-        if (logs) console.error('Translation Error', e)
-        failedTranslations.push(entry)
-      }
-    })
+      })
 
     // 2. update CSVs
     await updateCSVs(successfulTranslations)
 
     // 3. push all errored texts to new JSON file for checking
     if (unreviewedTranslations.length > 0) {
-      fs.writeFileSync(
-        LANGUAGE_FOLDER + '/UNREVIEWED_TRANSLATIONS.json',
-        JSON.stringify(unreviewedTranslations),
-        'utf-8'
-      )
+      const file = dir + '/UNREVIEWED_TRANSLATIONS.json'
+      fs.writeFileSync(file, JSON.stringify(unreviewedTranslations), 'utf-8')
+      console.info(`Created unreviewed translations file ${file}`)
     }
     if (failedTranslations.length > 0) {
-      fs.writeFileSync(LANGUAGE_FOLDER + '/FAILED_TRANSLATIONS.json', JSON.stringify(failedTranslations), 'utf-8')
+      const file = dir + '/FAILED_TRANSLATIONS.json'
+      fs.writeFileSync(file, JSON.stringify(failedTranslations), 'utf-8')
+      console.info(`Created failed translations file ${file}`)
     }
+
+    console.info(`Finished translating ${language}`)
   })
 }
 
-runTranslation({
-  translator,
-  logs: true,
-  folders: ['bg'],
-  updateFiles: ['countries.csv'],
-})
+const saveReviewedTranslations = async ({ folders = directories }) => {
+  const languages = directories.filter(lang => folders.includes(lang))
+
+  await asyncForEach(languages, async language => {
+    const file = LANGUAGE_FOLDER + '/' + language + '/UNREVIEWED_TRANSLATIONS.json'
+    const reviewedJSON = fileExists(file) ? require(file) : null
+
+    if (reviewedJSON && Array.isArray(reviewedJSON)) {
+      const isValidEntry = entry => {
+        let valid = false
+        if (typeof entry === 'object' && entry.source && entry.value && entry['reference value'] && entry.translation) {
+          valid = true
+        }
+        return valid
+      }
+      const entries = reviewedJSON.filter(isValidEntry)
+
+      if (entries.length > 0) {
+        await updateCSVs(entries)
+        console.info(`Finished saving ${language} from ${file}`)
+      }
+    }
+  })
+
+  console.info(`Finished saving all applicable files.`)
+}
+
+if (process.env.SAVE_UNREVIEWED_TRANSLATIONS) {
+  const prompt = new Confirm(
+    'Have you updated the "translated" values in the JSON files (easily confused with "value" values)?'
+  )
+  prompt.run().then(() => {
+    saveReviewedTranslations({})
+  })
+} else {
+  runTranslation({
+    translator,
+    logs: true,
+    folders: ['bg'],
+    updateFiles: ['enums.csv'],
+  })
+}

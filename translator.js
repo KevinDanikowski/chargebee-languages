@@ -6,6 +6,6 @@ module.exports = async ({ to, from, text }) => {
   return new Promise((resolve, reject) => {
     setTimeout(function() {
       resolve(sampleTest())
-    }, 100)
+    }, 50)
   })
 }

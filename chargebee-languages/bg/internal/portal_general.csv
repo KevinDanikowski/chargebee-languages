@@ -1,11 +1,11 @@
 key,value,reference value,description
-portal.stripe_acc_status_reason.errored,,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
-portal.change_password.reenter_new_password,,Passwords do not match,Passwords do not match
-portal.change_password.new_password_not_same,,New password is same as the current password,New password is same as the current password
-portal.change_password.current_password.incorrect,,The password you gave is incorrect,The password you gave is incorrect
-portal.stripe_acc_status_reason.verification_failed,,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
-portal.account_details.address,,Address,Address Label
-portal.stripe_acc_status_reason.validated,,The bank account is not yet verified,The bank account is not yet verified
-portal.stripe_acc_status_reason.verified,,The bank account is verified,The bank account is verified
-portal.stripe_acc_status_reason.new,,The bank account is not yet verified,The bank account is not yet verified
-portal.change_password.recently_used,,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again
+portal.stripe_acc_status_reason.errored,"Последният превод, изпратен до банковата сметка, не бе успешен. Банковата сметка не може да се използва за бъдещи плащания",Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
+portal.change_password.reenter_new_password,Паролите не съвпадат,Passwords do not match,Passwords do not match
+portal.change_password.new_password_not_same,Новата парола е същата като текущата парола,New password is same as the current password,New password is same as the current password
+portal.change_password.current_password.incorrect,"Паролата, която сте дали, е неправилна",The password you gave is incorrect,The password you gave is incorrect
+portal.stripe_acc_status_reason.verification_failed,Максималните опити за потвърждаване на банковата сметка са преминали,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
+portal.account_details.address,Адрес,Address,Address Label
+portal.stripe_acc_status_reason.validated,Банковата сметка все още не е потвърдена,The bank account is not yet verified,The bank account is not yet verified
+portal.stripe_acc_status_reason.verified,Банковата сметка е потвърдена,The bank account is verified,The bank account is verified
+portal.stripe_acc_status_reason.new,Банковата сметка все още не е потвърдена,The bank account is not yet verified,The bank account is not yet verified
+portal.change_password.recently_used,Наскоро използваните пароли не могат да бъдат използвани отново,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again

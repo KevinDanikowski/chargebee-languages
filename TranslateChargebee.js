@@ -302,7 +302,7 @@ const saveReviewedTranslations = async ({ folders = directories }) => {
     if (reviewedJSON && Array.isArray(reviewedJSON)) {
       const isValidEntry = entry => {
         let valid = false
-        if (typeof entry === 'object' && entry.source && entry.value && entry['reference value'] && entry.translation) {
+        if (typeof entry === 'object' && entry.source && entry['reference value'] && entry.translation) {
           valid = true
         }
         return valid
@@ -359,6 +359,7 @@ if (process.env.SAVE_UNREVIEWED_TRANSLATIONS) {
   runTranslation({
     translator,
     logs: true,
+    concurrentTranslations: 10,
     folders: ['bg'],
     ignoreFiles: defaultIgnoreFiles,
   })

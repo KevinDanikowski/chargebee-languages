@@ -245,6 +245,8 @@ const recommendedIgnoreValues = [
   'giropay',
   'iDEAL',
   '{0}',
+  '.',
+  '","',
 ]
 
 const recommendedWarnIfValuesTranslated = ['3D', '@$!%*#?&()']

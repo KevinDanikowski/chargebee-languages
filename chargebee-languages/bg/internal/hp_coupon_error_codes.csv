@@ -1,28 +1,28 @@
 key,value,reference value,description
-exceeded_allowed_coupon_code_limit,,Only {0} coupon codes allowed per coupon set.,Only {0} coupon codes allowed per coupon set.
-invalid_request_with_no_applicable_coupon,,coupon not found or not a applicable coupon,coupon not found or not a applicable coupon
-api_coupon_not_applied,,coupon {0} has not been applied on this subscription,coupon {0} has not been applied on this subscription
-error_while_uploading_coupon_code,,Error during upload. Duplicate coupon code found at row {0}.,Error during upload. Duplicate coupon code found at row {0}.
-already_redeemed,,The coupon {0} is already redeemed for this subscription,The coupon {0} is already redeemed for this subscription
-rec_coupon_not_supported,,Coupon {0} cannot be applied as only one-time coupons are supported,Coupon {0} cannot be applied as only one-time coupons are supported
-cannot_delete_archived_coupon_code,,Cannot delete used coupon code,Cannot delete used coupon code
-un_supported_file_format,,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
-cannot_delete_exhausted_coupon_set,,Cannot delete exhausted Coupon Set,Cannot delete exhausted Coupon Set
-max_redemptions_reached,,The passed coupon {0} has already been redeemed {1} times. No more redemptions are allowed,Maximum redemption count of the coupon is exceeded.
-too_many_characters_in_coupon_code,,More than {0} characters is found at coupon code in row {1},More than {0} characters is found at coupon code in row {1}
-invalid_coupon,,No such coupon found,No such coupon found
-coupon_set_name_alreay_exists,,coupon set name already exists for another coupon.,coupon set name already exists for another coupon.
-applicable_item_limit_exceeded,,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.
-invalid_subscription_state,,Invalid subscription state to apply/change coupon,Invalid subscription state to apply/change coupon
-exceeded_allowed_coupon_set_limit,,Only {0} coupon sets allowed per coupon.,Only {0} coupon sets allowed per coupon.
-cannot_archive_redeemed_coupon_code,,Cannot archive a redeemed coupon code,Cannot archive a redeemed coupon code
-two_coupons_of_same_type,,This coupon cannot be applied for this subscription. Please contact the seller for more details.,This coupon cannot be applied for this subscription. Please contact the seller for more details.
-no_such_coupon,,No such coupon {0} to redeem,Coupon is not found
-coupon_not_applicable,,Coupon {0} cannot be applied as it is not applicable to any of the items,Coupon is not applicable for any of the passed item
-no_coupon_code_found,,No coupon codes found in the file.,No coupon codes found in the file.
-coupon_expired,,Applied coupon {0} has already expired on {1},Applied coupon {0} has already expired on {1}
-invalid_request_with_no_coupon,,No coupons have been applied on this subscription,No coupons have been applied on this subscription
-could_not_read_the_file,,Could not able to read the content in CSV file.,Could not able to read the content in CSV file.
-invalid_coupon_code,,Invalid coupon code,Invalid coupon code
-coupon_code_not_applicable_for_this_coupon,,Coupon code is not applicable for this coupon,Coupon code is not applicable for this coupon
-coupon_code_already_exists,,Coupon code already exists. Duplicate not allowed,Coupon code already exists. Duplicate not allowed
+exceeded_allowed_coupon_code_limit,Разрешени са само {0} кодове на купони за комплект купони.,Only {0} coupon codes allowed per coupon set.,Only {0} coupon codes allowed per coupon set.
+invalid_request_with_no_applicable_coupon,купон не е намерен или не е приложим талон,coupon not found or not a applicable coupon,coupon not found or not a applicable coupon
+api_coupon_not_applied,купон {0} не е приложен за този абонамент,coupon {0} has not been applied on this subscription,coupon {0} has not been applied on this subscription
+error_while_uploading_coupon_code,Грешка при качване. Дублиран код на талон е намерен на ред {0}.,Error during upload. Duplicate coupon code found at row {0}.,Error during upload. Duplicate coupon code found at row {0}.
+already_redeemed,Купонът {0} вече е осребрен за този абонамент,The coupon {0} is already redeemed for this subscription,The coupon {0} is already redeemed for this subscription
+rec_coupon_not_supported,"Купон {0} не може да се приложи, тъй като се поддържат само еднократни купони",Coupon {0} cannot be applied as only one-time coupons are supported,Coupon {0} cannot be applied as only one-time coupons are supported
+cannot_delete_archived_coupon_code,Не може да се изтрие използвания код на купон,Cannot delete used coupon code,Cannot delete used coupon code
+un_supported_file_format,Неподдържан файлов формат. Разрешени са само CSV файлове,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
+cannot_delete_exhausted_coupon_set,Изчерпаният комплект купони не може да бъде изтрит,Cannot delete exhausted Coupon Set,Cannot delete exhausted Coupon Set
+max_redemptions_reached,Предаденият талон {0} вече е осребрен {1} пъти. Не се разрешават повече откупувания,The passed coupon {0} has already been redeemed {1} times. No more redemptions are allowed,Maximum redemption count of the coupon is exceeded.
+too_many_characters_in_coupon_code,В кода на талона в ред {1} се намират повече от {0} знака,More than {0} characters is found at coupon code in row {1},More than {0} characters is found at coupon code in row {1}
+invalid_coupon,Не е намерен такъв талон,No such coupon found,No such coupon found
+coupon_set_name_alreay_exists,име на купон набор вече съществува за друг купон.,coupon set name already exists for another coupon.,coupon set name already exists for another coupon.
+applicable_item_limit_exceeded,"Един или повече талони съдържа повече от {0} приложими артикула. Моля, свържете се с support@chargebee.com за повече подробности.",One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.
+invalid_subscription_state,Невалидно състояние на абонамента за прилагане / промяна на талон,Invalid subscription state to apply/change coupon,Invalid subscription state to apply/change coupon
+exceeded_allowed_coupon_set_limit,На талон са разрешени само {0} комплекта купони.,Only {0} coupon sets allowed per coupon.,Only {0} coupon sets allowed per coupon.
+cannot_archive_redeemed_coupon_code,Не може да се архивира осребрен код на талон,Cannot archive a redeemed coupon code,Cannot archive a redeemed coupon code
+two_coupons_of_same_type,"Този талон не може да бъде приложен за този абонамент. Моля, свържете се с продавача за повече подробности.",This coupon cannot be applied for this subscription. Please contact the seller for more details.,This coupon cannot be applied for this subscription. Please contact the seller for more details.
+no_such_coupon,Няма такъв талон {0} за осребряване,No such coupon {0} to redeem,Coupon is not found
+coupon_not_applicable,"Талон {0} не може да се приложи, тъй като не е приложим за нито един от елементите",Coupon {0} cannot be applied as it is not applicable to any of the items,Coupon is not applicable for any of the passed item
+no_coupon_code_found,Във файла не са намерени кодове на купони.,No coupon codes found in the file.,No coupon codes found in the file.
+coupon_expired,Приложеният талон {0} вече е изтекъл на {1},Applied coupon {0} has already expired on {1},Applied coupon {0} has already expired on {1}
+invalid_request_with_no_coupon,Към този абонамент не са приложени купони,No coupons have been applied on this subscription,No coupons have been applied on this subscription
+could_not_read_the_file,Не можах да прочета съдържанието в CSV файл.,Could not able to read the content in CSV file.,Could not able to read the content in CSV file.
+invalid_coupon_code,Невалиден код на талона,Invalid coupon code,Invalid coupon code
+coupon_code_not_applicable_for_this_coupon,Кодът на талона не е приложим за този талон,Coupon code is not applicable for this coupon,Coupon code is not applicable for this coupon
+coupon_code_already_exists,Кодът на купона вече съществува. Не се допуска дублиране,Coupon code already exists. Duplicate not allowed,Coupon code already exists. Duplicate not allowed

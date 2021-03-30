@@ -6,3 +6,4 @@ mandatory
 UNREVIEWED_TRANSLATIONS.json
 FAILED_TRANSLATIONS.json
 translator.js
+*.zip

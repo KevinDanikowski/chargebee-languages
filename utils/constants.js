@@ -196,6 +196,7 @@ const recommendedReplacements = {
   'Discounts/credits': 'Discounts or credits',
   'invoice(s)': 'one or more invoices',
   '</li<li>': '</li><li>',
+  [`<div class='text-center'>`]: `<div class="text-center">`,
 }
 
 // Some words here are only used in sentences, and not as a single value

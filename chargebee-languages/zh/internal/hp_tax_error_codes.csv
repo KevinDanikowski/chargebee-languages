@@ -19,7 +19,7 @@ eu_vat_not_applicable,增值税号码不适用于该国家/地区,VAT Number not
 zip_wrong_format,无法配置邮政编码-{0},cannot configure the zip values - {0},cannot configure the zip values - {0}
 invalid_zip_code,邮递区号无效,invalid zip/postal code,invalid zip/postal code
 org_address_not_config,由于无法确定商家税率，因此无法配置“含税价格类型”,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined
-registered_for_gst_not_applicable,,This option is applicable for Australia only.,This option is applicable for Australia only.
-invalid_vat_number,,You need to enter a valid VAT number.,You need to enter a valid VAT number.
+registered_for_gst_not_applicable,此选项仅适用于澳大利亚。,This option is applicable for Australia only.,This option is applicable for Australia only.
+invalid_vat_number,您需要输入有效的增值税号。,You need to enter a valid VAT number.,You need to enter a valid VAT number.
 unable_to_validate,由于VIES发生停机，因此无法验证增值税号。,Unable to validate VAT number as VIES is experiencing downtime.,Unable to validate VAT number as VIES is experiencing downtime.
 us_unsupported_prefix,通配符不能与ZIP + 4邮政编码一起使用-{0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0}

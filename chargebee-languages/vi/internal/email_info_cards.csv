@@ -175,7 +175,7 @@ trial_expiry_reminders.subscriptions.subscribed_to,Tóm tắt đăng ký,Subscri
 payments_and_credits_successful_payment.customer_payment_method.info,Phương thức thanh toán,Payment method,
 subscription_changed_all_other_changes.customer_balance.account_credits,Tín dụng khuyến mại,Promotional credits,
 payments_and_credits_refund_initiated.customer_payment_method.info,Đã hoàn lại qua,Refunded via,
-subscription_expiry_and_cancellations_cancellation_followups.customer_invoice_summary.not_paid_due_invoice_count,,Unpaid invoices,
+subscription_expiry_and_cancellations_cancellation_followups.customer_invoice_summary.not_paid_due_invoice_count,Chưa thanh toán một hoặc nhiều hóa đơn,Unpaid invoices,
 subscription_activated_from_future_state.customer_payment_method.info,Phương thức thanh toán,Payment method,
 payment_dunning_profile_for_initial_attempt.transaction.date,Khoản phí trước đó đã được thử vào,Previous charge attempted on,
 payment_method_expiry_invalidated_reminders.customer_payment_method.info,Phương thức thanh toán,Payment method,

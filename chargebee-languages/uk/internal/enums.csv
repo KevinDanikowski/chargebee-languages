@@ -177,7 +177,7 @@ enum.tax_reg_number_base.label.name.tax_reg_no,Податковий реєстр
 enum.invoice_customization_base.cn_title.name.refund,ВІДКРИТТЯ,REFUND,REFUND
 enum.item_price_base.period_unit.name.year,Рік,Year,Year
 enum.invoice_base.status.name.voided,Порожнеча,Voided,Indicates a voided invoice.
-enum.payment_method_base.type.name.generic,,Generic,Generic Payment Method.
+enum.payment_method_base.type.name.generic,Загальний,Generic,Generic Payment Method.
 enum.quote_base.status.name.accepted,Прийнято,Accepted,Accepted.
 enum.transaction_base.payment_method.name.unionpay,Unionpay,Unionpay,Unionpay
 enum.public_card_error_code.name.cvv_error,"Не вдалося перевірити код безпеки для вашої картки. Будь ласка, оновіть CVV і повторіть спробу.",Security Code validation failed for your card. Please update the CVV and try again.,Security Code validation failed for your card. Please update the CVV and try again.

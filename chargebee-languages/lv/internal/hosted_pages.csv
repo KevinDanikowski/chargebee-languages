@@ -51,4 +51,4 @@ hp.update_payment_method.details,Atjaunina maksājuma veida informāciju ...,Upd
 payment_method.info.direct_debit_no_bank_name,"bankas konta numurs, kas beidzas ar %{last4_digits}",bank account number ending with %{last4_digits},
 hp.paypal.desc,"Drošāks, vienkāršāks maksāšanas veids","The safer, easier way to pay","The safer, easier way to pay - one liner for paypal gateway payments"
 hp.copy,Kopēt,Copy,Copy URL
-hp.portal.bank_account,,bank account,bank account label
+hp.portal.bank_account,bankas konts,bank account,bank account label

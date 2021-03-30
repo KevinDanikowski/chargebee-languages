@@ -7,9 +7,9 @@ australia_tax_should_be_configured,이 필드를 선택하려면 호주 세금�
 tax.could_not_read_the_file,파일에 잘못된 값이 있습니다.,File contains invalid values,File contains invalid values
 unable_to_validate_abn,ABN 조회 서버가 다운되어 ABN을 처리 할 수 ​​없습니다.,Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
 no_header_found,헤더가 없거나 형식이 올바르지 않습니다.,Header are not present or not formatted properly.,Header are not present or not formatted properly.
-no_tax_rules_found,,File does not contain any tax rule,File does not contain any tax rule
+no_tax_rules_found,파일에 세금 규칙이 없습니다.,File does not contain any tax rule,File does not contain any tax rule
 tax.un_supported_file_format,지원되지 않는 파일 형식입니다. CSV 파일 만 허용됩니다.,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
-profile_service_type_error,,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.
+profile_service_type_error,이 세금 프로필은 이미 제품 유형 {0}에 매핑되어 있습니다. 하나의 제품 유형 만 프로필에 매핑 할 수 있습니다.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.
 tax.wrong_format,({0}) 값이 잘못되었습니다.,Value for ({0}) is invalid,Value for ({0}) is invalid
 file_not_found,세금 구성 파일을 찾을 수 없습니다.,Tax configuration file not found,Tax configuration file not found
 duplicate_column,열 ({0})이 파일에 두 번 이상 나타납니다.,The column ({0}) appears more than once in the file.,The column ({0}) appears more than once in the file.

@@ -9,9 +9,9 @@ line_item.desc.prorated_credits_for,Määritetyt hyvitykset %{date_range},Prorat
 line_item.coupon.free_quantity, Vapaa määrä, Free Quantity,Free quantity in a coupon
 line_item.coupon.ao_text_plural, %{coupon_details} käytetty rivikohtiin %{line_items} - %{disc_amt} %{pdf_inv_desc}.,%{coupon_details} applied on line items %{line_items} - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
 line_item.desc.stairstep_pricing, %{amount} %{unit} yksikölle,%{amount} for %{unit} units,Stairstep pricing description
-line_item.desc.total_units,,Total units - %{unit},Total units
-line_item.final_credit_correction.removed,,Additional Credits Removed,when amount is > than 0
-email.line_item.coupon.text,,<b>%{coupon_details} %{disc_amt} off</b> applied for %{line_item_desc}.,The applied on text for coupon
+line_item.desc.total_units,Yksiköt yhteensä - %{unit},Total units - %{unit},Total units
+line_item.final_credit_correction.removed,Lisäluotot poistettu,Additional Credits Removed,when amount is > than 0
+email.line_item.coupon.text,<b> %{coupon_details} %{disc_amt} alennus </b> haettu kohteelle %{line_item_desc}.,<b>%{coupon_details} %{disc_amt} off</b> applied for %{line_item_desc}.,The applied on text for coupon
 line_item.plan.set_up_fee,Asennusmaksu,Setup Fee,Plan set up fee - description at line item level
 line_item.desc.credit_adjustments,Määritetyt hyvitykset,Prorated Credits,Prorated credits given for a line item
 line_item.desc.reclaimed_account_credits,Tarjoushyvitykset palautettu,Promotional Credits Returned,promotional credits given for a line item

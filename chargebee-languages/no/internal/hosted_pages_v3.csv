@@ -67,16 +67,16 @@ hp_v3.inapp_checkout.vat,Vennligst skriv inn momsnummeret ditt,Please Enter your
 hp_v3.incl_tax.txt,skatteregler,Incl tax, The displayed amount is inclusive of tax
 hp_v3.portal.invalid,Ugyldig,Invalid,card has expired
 hp_v3.portal.term.weekly,ukentlig,weekly,weekly
-hp_v3.direct_debit.gocardless_pad_sub_header,,Pre-Authorized Debit,Pre-Authorized Debit
+hp_v3.direct_debit.gocardless_pad_sub_header,Forhåndsgodkjent debet,Pre-Authorized Debit,Pre-Authorized Debit
 hp_v3.portal.expired,Utløpt,Expired,card has expired
 hp_v3.inapp_checkout.pm.ach,ACH,ACH,ACH
 hp_v3.portal.term.week,uke,week,week
-hp_v3.portal.billing_edit,,Click to edit billing address,Change billing details
-hp_v3.pm.agreement.gocardless.contact,,For queries call us <b>%{merchant_phone}</b> or email us at <b>%{merchant_email}</b>,For queries call us %{merchant_phone} or email us at %{merchant_email}
+hp_v3.portal.billing_edit,Klikk for å redigere faktureringsadressen,Click to edit billing address,Change billing details
+hp_v3.pm.agreement.gocardless.contact,For spørsmål ring oss <b> %{merchant_phone} </b> eller e-post oss på <b> %{merchant_email} </b>,For queries call us <b>%{merchant_phone}</b> or email us at <b>%{merchant_email}</b>,For queries call us %{merchant_phone} or email us at %{merchant_email}
 hp_v3.direct_debit.pad,PAD,PAD,PAD
-hp_v3.direct_debit.bank_code,,Bank Code,Bank Code
-hp_v3.direct_debit.institution_number,,Institution Number,Institution Number
-hp_v3.inapp_checkout.select_field_default,,Pick an option,select fields default prompt
+hp_v3.direct_debit.bank_code,Bankkode,Bank Code,Bank Code
+hp_v3.direct_debit.institution_number,Institusjonsnummer,Institution Number,Institution Number
+hp_v3.inapp_checkout.select_field_default,Velg et alternativ,Pick an option,select fields default prompt
 hp_v3.portal.account_signup,Registrert på,Signed up on,Account was created on
 hp_v3.portal.ach.authorized,ACH autorisert,ACH Authorized,ACH Authorized
 hp_v3.direct_debit.gocardless_bacs.protected_prefix,Betalingen din er beskyttet av,Your payments are protected by,Your payments are protected by

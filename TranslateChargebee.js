@@ -326,8 +326,14 @@ const deleteReviewFiles = async ({ folders = directories }) => {
   await asyncForEach(languages, async language => {
     const unreviewedFile = LANGUAGE_FOLDER + '/' + language + '/UNREVIEWED_TRANSLATIONS.json'
     const failedFile = LANGUAGE_FOLDER + '/' + language + '/FAILED_TRANSLATIONS.json'
-    if (fileExists(unreviewedFile)) deleteFile(unreviewedFile)
-    if (fileExists(failedFile)) deleteFile(failedFile)
+    if (fileExists(unreviewedFile)) {
+      deleteFile(unreviewedFile)
+      console.info(`Deleted ${'/' + language + '/UNREVIEWED_TRANSLATIONS.json'}`)
+    }
+    if (fileExists(failedFile)) {
+      deleteFile(failedFile)
+      console.info(`Deleted ${'/' + language + '/FAILED_TRANSLATIONS.json'}`)
+    }
   })
 }
 

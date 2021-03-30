@@ -1,11 +1,11 @@
 key,value,reference value,description
-portal.stripe_acc_status_reason.errored,,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
-portal.change_password.reenter_new_password,,Passwords do not match,Passwords do not match
-portal.change_password.new_password_not_same,,New password is same as the current password,New password is same as the current password
-portal.change_password.current_password.incorrect,,The password you gave is incorrect,The password you gave is incorrect
-portal.stripe_acc_status_reason.verification_failed,,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
-portal.account_details.address,,Address,Address Label
-portal.stripe_acc_status_reason.validated,,The bank account is not yet verified,The bank account is not yet verified
-portal.stripe_acc_status_reason.verified,,The bank account is verified,The bank account is verified
-portal.stripe_acc_status_reason.new,,The bank account is not yet verified,The bank account is not yet verified
-portal.change_password.recently_used,,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again
+portal.stripe_acc_status_reason.errored,Ostatni przelew wysłany na konto bankowe nie powiódł się. Konto bankowe nie może być używane do przyszłych płatności,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
+portal.change_password.reenter_new_password,Hasła nie pasują do siebie,Passwords do not match,Passwords do not match
+portal.change_password.new_password_not_same,Nowe hasło jest takie samo jak obecne hasło,New password is same as the current password,New password is same as the current password
+portal.change_password.current_password.incorrect,Podane hasło jest nieprawidłowe,The password you gave is incorrect,The password you gave is incorrect
+portal.stripe_acc_status_reason.verification_failed,Maksymalna liczba prób weryfikacji konta bankowego została przekroczona,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
+portal.account_details.address,Adres,Address,Address Label
+portal.stripe_acc_status_reason.validated,Konto bankowe nie zostało jeszcze zweryfikowane,The bank account is not yet verified,The bank account is not yet verified
+portal.stripe_acc_status_reason.verified,Konto bankowe jest zweryfikowane,The bank account is verified,The bank account is verified
+portal.stripe_acc_status_reason.new,Konto bankowe nie zostało jeszcze zweryfikowane,The bank account is not yet verified,The bank account is not yet verified
+portal.change_password.recently_used,Niedawno używanych haseł nie można ponownie wykorzystać,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again

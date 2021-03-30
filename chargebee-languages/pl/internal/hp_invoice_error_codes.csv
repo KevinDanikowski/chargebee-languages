@@ -1,21 +1,21 @@
 key,value,reference value,description
-invalid_charge_start_and_end,,Invalid term period passed. line_item.date_from must be before line_item.date_to,Invalid term period passed. line_item.date_from must be before line_item.date_to
-xero_build_inprogress,,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.
-invalid_invoice_amount,,Invoice Amount {0} should be greater than zero,Invoice Amount {0} should be greater than zero
-record_payment_not_supported,,{0},{0}
-max_size_reached,,Exceeded maximum limit of card payments to refund,Exceeded maximum limit of card payments to refund
-recurring_addon_not_supported,,Recurring addon cannot be added to pending invoice.,Recurring addon cannot be added to pending invoice.
-hp_product_type_mismatch,,"Sorry, we are unable process your request. Please get in touch with the seller/merchant.","Sorry, we are unable process your request. Please get in touch with the seller/merchant."
-invalid_payment_amount,,{0},{0}
-refund_amount_too_big,,"Specified amount is greater than the allowed limit ''{0}'' ",The refund amount is greater than the invoice amount
-invalid_invoice_state,,{0},{0}
-xero_disabled,,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.
-no_card_present_for_refund,,Cannot process request as the payment method used for this transaction has been cleared.,Cannot process request as the payment method used for this transaction has been cleared.
-insufficient card payments,,Operation cannot be proceed since customers different card payments are required to refund,Operation cannot be proceed since customers different card payments are required to refund
-invoice_price_type,,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).
-referenced_line_item_not_found,,The referenced charge line item {0} is not attached to invoice {1},The referenced charge line item {0} is not attached to invoice {1}
-refund_failed,,Refund operation failed. Error message: {0},Refund operation failed. Error message: {0}
-operation_failed,,{0},{0}
-product_type_mismatch,,You cannot bill both digital and non-digital products using the same invoice.,You cannot bill both digital and non-digital products using the same invoice.
-invoice.operation_not_suppoerted,,{0},{0}
-address_change_not_supported,,Address cannot be changed as it changes the applied tax,Address cannot be changed as it changes the applied tax
+invalid_charge_start_and_end,Minął nieprawidłowy okres obowiązywania. line_item.date_from musi występować przed line_item.date_to,Invalid term period passed. line_item.date_from must be before line_item.date_to,Invalid term period passed. line_item.date_from must be before line_item.date_to
+xero_build_inprogress,Integracja Xero jest tymczasowo wyłączona ze względu na konserwację. Powinno się to zakończyć za kilka minut. Spróbuj później.,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.
+invalid_invoice_amount,Kwota faktury {0} powinna być większa od zera,Invoice Amount {0} should be greater than zero,Invoice Amount {0} should be greater than zero
+record_payment_not_supported,{0},{0},{0}
+max_size_reached,Przekroczono maksymalny limit płatności kartą do zwrotu,Exceeded maximum limit of card payments to refund,Exceeded maximum limit of card payments to refund
+recurring_addon_not_supported,Nie można dodać powtarzającego się dodatku do oczekującej faktury.,Recurring addon cannot be added to pending invoice.,Recurring addon cannot be added to pending invoice.
+hp_product_type_mismatch,"Przepraszamy, nie możemy przetworzyć Twojej prośby. Skontaktuj się ze sprzedawcą / handlowcem.","Sorry, we are unable process your request. Please get in touch with the seller/merchant.","Sorry, we are unable process your request. Please get in touch with the seller/merchant."
+invalid_payment_amount,{0},{0},{0}
+refund_amount_too_big,Określona kwota jest większa niż dozwolony limit „{0}”,Specified amount is greater than the allowed limit ''{0}'' ,The refund amount is greater than the invoice amount
+invalid_invoice_state,{0},{0},{0}
+xero_disabled,"Integracja z Xero jest wyłączona w Twojej witrynie. Aby uzyskać dodatkowe informacje i pomoc, skontaktuj się z support@chargebee.com.",Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.
+no_card_present_for_refund,"Nie można przetworzyć żądania, ponieważ metoda płatności używana w tej transakcji została wyczyszczona.",Cannot process request as the payment method used for this transaction has been cleared.,Cannot process request as the payment method used for this transaction has been cleared.
+insufficient card payments,"Operacja nie może być kontynuowana, ponieważ klienci muszą dokonać zwrotu różnych płatności kartą",Operation cannot be proceed since customers different card payments are required to refund,Operation cannot be proceed since customers different card payments are required to refund
+invoice_price_type,Wszystkie pozycje powinny mieć ten sam typ ceny (bez podatku / z podatkiem).,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).
+referenced_line_item_not_found,Wspomniana pozycja obciążenia {0} nie jest dołączona do faktury {1},The referenced charge line item {0} is not attached to invoice {1},The referenced charge line item {0} is not attached to invoice {1}
+refund_failed,Operacja zwrotu środków nie powiodła się. Komunikat o błędzie: {0},Refund operation failed. Error message: {0},Refund operation failed. Error message: {0}
+operation_failed,{0},{0},{0}
+product_type_mismatch,Nie możesz rozliczać produktów cyfrowych i niecyfrowych przy użyciu tej samej faktury.,You cannot bill both digital and non-digital products using the same invoice.,You cannot bill both digital and non-digital products using the same invoice.
+invoice.operation_not_suppoerted,{0},{0},{0}
+address_change_not_supported,"Nie można zmienić adresu, ponieważ zmienia on zastosowany podatek",Address cannot be changed as it changes the applied tax,Address cannot be changed as it changes the applied tax

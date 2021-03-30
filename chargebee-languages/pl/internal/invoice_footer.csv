@@ -1,26 +1,26 @@
 key,value,reference value,description
-invoice.transaction.credit_applied,,A credit of %{amount} was applied on %{date}.,A credit of amount was applied on date
-constants.taxes.avalara_partial_tax_desc,,*This amount is calculated based on the taxable amount which may vary based on the taxation laws in your country.,avalara partial tax descirption text
-invoice.transaction.voided_on,,Voided on %{date}.,Voided on date
-transaction.payment_method.by_card_null,," by Card.",payment with card
-transaction.payment_method.via_pm,," via %{payment_method}.",via payment method type
-invoice.footer.title.adjustments,,Adjustments,Adjustments footer title
-invoice.transaction.written_off,,%{amount} was written-off on %{date}.,Amount was writted off on date
-transaction.payment_method.by_card,," by %{card_type} card ending %{last4_digits}.",payment with card
-invoice.transaction.refunded_initiated,,%{amount} refund was initiated on %{date},Amount refund was initiated on date
-constants.invoice_customization.reverse_charge_msg,,VAT is not applicable on this invoice because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge message
-invoice.transaction.refunded_completed,,%{amount} was refunded on %{date},Amount refunded on date
-invoice.footer.title.payments,,Payments,Payment footer title
-constants.invoice_customization.cn_reverse_charge_msg,,VAT is not applicable on this credit note because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge mesage for credit note
-transaction.payment_method.offline_payment,,Offline Payment,Payment through other channels
-transaction.payment_method.to_card_null,," to Card.",payment with card
-constants.invoice_customization.vat_exemption_note_export_uk,,"Please note that as the UK is no longer part of the EU, our services are outside the scope of UK VAT.",VAT Export Note for UK
-transaction.payment_method.to_card,," to %{card_type} card ending %{last4_digits}.",payment with card
-invoice.footer.title.credits,,Credits,Credits footer title
-invoice.transaction.adjustment,,An adjustment of %{amount} was made on %{date}.,Adjustment of amount was made on date
-constants.invoice_customization.quote_reverse_charge_msg,,VAT is not applicable on this %{quote_title} because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge message
-invoice.transaction.chargeback_text,,A chargeback of %{amount} has been recorded as refund on %{date},A chargeback recorded on a date
-constants.invoice_customization.vat_exemption_note_export,,This export transaction is exempt from VAT as per Article 146 of the EU VAT Directive.," VAT Exemption for Export"
-transaction.payment_method.direct_debit,,ACH,Direct Debit heading
-transaction.payment_method.via_card_wallet_pm,," via  %{payment_method} ( %{card_type} card ending %{last4_digits} ).",via payment method type
-transaction.payment_method.by_pm,," by %{payment_method}.",by payment method type
+invoice.transaction.credit_applied,Kredyt w wysokości %{amount} został przyznany %{date}.,A credit of %{amount} was applied on %{date}.,A credit of amount was applied on date
+constants.taxes.avalara_partial_tax_desc,"* Kwota ta jest obliczana na podstawie podstawy opodatkowania, która może się różnić w zależności od przepisów podatkowych w Twoim kraju.",*This amount is calculated based on the taxable amount which may vary based on the taxation laws in your country.,avalara partial tax descirption text
+invoice.transaction.voided_on,Utrata ważności %{date}.,Voided on %{date}.,Voided on date
+transaction.payment_method.by_card_null, przez Card., by Card.,payment with card
+transaction.payment_method.via_pm, przez %{payment_method}., via %{payment_method}.,via payment method type
+invoice.footer.title.adjustments,Korekty,Adjustments,Adjustments footer title
+invoice.transaction.written_off, %{amount} został odpisany w dniu %{date}.,%{amount} was written-off on %{date}.,Amount was writted off on date
+transaction.payment_method.by_card, przez %{card_type} kartę kończącą się na %{last4_digits}., by %{card_type} card ending %{last4_digits}.,payment with card
+invoice.transaction.refunded_initiated,Zwrot %{amount} środków został zainicjowany %{date},%{amount} refund was initiated on %{date},Amount refund was initiated on date
+constants.invoice_customization.reverse_charge_msg,"VAT nie jest naliczany na tej fakturze, ponieważ podano ważny numer rejestracyjny VAT i zastosowano mechanizm odwrotnego obciążenia.",VAT is not applicable on this invoice because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge message
+invoice.transaction.refunded_completed, %{amount} został zwrócony w dniu %{date},%{amount} was refunded on %{date},Amount refunded on date
+invoice.footer.title.payments,Płatności,Payments,Payment footer title
+constants.invoice_customization.cn_reverse_charge_msg,"VAT nie ma zastosowania do tej noty kredytowej, ponieważ podano ważny numer rejestracyjny VAT i zastosowano mechanizm odwrotnego obciążenia.",VAT is not applicable on this credit note because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge mesage for credit note
+transaction.payment_method.offline_payment,Płatność offline,Offline Payment,Payment through other channels
+transaction.payment_method.to_card_null, do karty., to Card.,payment with card
+constants.invoice_customization.vat_exemption_note_export_uk,"Należy pamiętać, że ponieważ Wielka Brytania nie jest już częścią UE, nasze usługi nie są objęte brytyjskim podatkiem VAT.","Please note that as the UK is no longer part of the EU, our services are outside the scope of UK VAT.",VAT Export Note for UK
+transaction.payment_method.to_card, na kartę %{card_type} kończącą się na %{last4_digits}., to %{card_type} card ending %{last4_digits}.,payment with card
+invoice.footer.title.credits,Kredyty,Credits,Credits footer title
+invoice.transaction.adjustment,Dnia %{date} dokonano korekty w wysokości %{amount}.,An adjustment of %{amount} was made on %{date}.,Adjustment of amount was made on date
+constants.invoice_customization.quote_reverse_charge_msg,"VAT nie ma zastosowania do tego %{quote_title}, ponieważ podano ważny numer rejestracyjny VAT i zastosowano mechanizm odwrotnego obciążenia.",VAT is not applicable on this %{quote_title} because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge message
+invoice.transaction.chargeback_text,Obciążenie zwrotne w wysokości %{amount} zostało zarejestrowane jako zwrot w dniu %{date},A chargeback of %{amount} has been recorded as refund on %{date},A chargeback recorded on a date
+constants.invoice_customization.vat_exemption_note_export,Ta transakcja eksportowa jest zwolniona z podatku VAT zgodnie z art. 146 dyrektywy UE w sprawie podatku VAT.,This export transaction is exempt from VAT as per Article 146 of the EU VAT Directive., VAT Exemption for Export
+transaction.payment_method.direct_debit,ACH,ACH,Direct Debit heading
+transaction.payment_method.via_card_wallet_pm, przez %{payment_method} (karta %{card_type} kończąca się %{last4_digits})., via  %{payment_method} ( %{card_type} card ending %{last4_digits} ).,via payment method type
+transaction.payment_method.by_pm, przez %{payment_method}., by %{payment_method}.,by payment method type

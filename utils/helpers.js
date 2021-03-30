@@ -51,8 +51,7 @@ const attemptToFixVariables = (origional, translation) => {
 const fixChargebeeVariables = (origional, rawTranslated) => {
   let formattedString = rawTranslated
 
-  // fix switch from %{ to {{
-  formattedString = formattedString.replace(/{({) *([a-z0-9_\\-\\.]+) *(})/gi, '%$1$2$3')
+  // TODO: unhandled {{variable}} which only occurs in a few keys
 
   // fix the {N} such as {0} or {1} by removing added spaces
   formattedString = formattedString.replace(/({) *([0-9]) *(})/gi, '$1$2$3')

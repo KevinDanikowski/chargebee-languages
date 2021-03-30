@@ -1,23 +1,23 @@
 key,value,reference value,description
-line_item.coupon.non_discount_all,,%{coupon_details} of %{disc_amt} applied on %{line_items} line items.,The applied on text for coupon
-line_item.coupon.non_discount_singular,,%{coupon_details} of %{disc_amt} applied on line item %{line_items}.,The applied on text for coupon
-line_item.coupon.ao_text_singular,,%{coupon_details} applied on line item %{line_items} - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
-line_item.final_credit_correction.added,,Leftover Credits Added,when amount is < than 0
-line_item.plan.prorated_charges,,Prorated Charges,Prorated Charges for plan/addon prorated charges
-line_item.coupon.ao_text_all,,%{coupon_details} applied on %{line_items} line items - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
-line_item.desc.prorated_credits_for,,Prorated Credits for %{date_range},Protated Credits for 3rd oct to 15th oct
-line_item.coupon.free_quantity,," Free Quantity",Free quantity in a coupon
-line_item.coupon.ao_text_plural,,%{coupon_details} applied on line items %{line_items} - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
-line_item.desc.stairstep_pricing,,%{amount} for %{unit} units,Stairstep pricing description
-line_item.desc.total_units,,Total units - %{unit},Total units
-line_item.final_credit_correction.removed,,Additional Credits Removed,when amount is > than 0
-email.line_item.coupon.text,,<b>%{coupon_details} %{disc_amt} off</b> applied for %{line_item_desc}.,The applied on text for coupon
-line_item.plan.set_up_fee,,Setup Fee,Plan set up fee - description at line item level
-line_item.desc.credit_adjustments,,Prorated Credits,Prorated credits given for a line item
-line_item.desc.reclaimed_account_credits,,Promotional Credits Returned,promotional credits given for a line item
-line_item.desc.account_credits,,Promotional Credits,promotional credits given for a line item
-cn.discount.text,,Discounts/credits applied on this invoice,text
-line_item.desc.reclaimed_credit_adjusments,,Prorated Credits Returned,Prorated credits given for a line item
-line_item.fractional_correction,,Fractional Correction,Fractional Correction
-line_item.coupon.non_discount_plural,,%{coupon_details} of %{disc_amt} applied on line items %{line_items}.,The applied on text for coupon
-line_item.desc.units,,units,units
+line_item.coupon.non_discount_all, %{coupon_details} iš %{disc_amt} pritaikyta %{line_items} eilutės elementams.,%{coupon_details} of %{disc_amt} applied on %{line_items} line items.,The applied on text for coupon
+line_item.coupon.non_discount_singular, %{coupon_details} iš %{disc_amt} taikoma eilutės elementui %{line_items}.,%{coupon_details} of %{disc_amt} applied on line item %{line_items}.,The applied on text for coupon
+line_item.coupon.ao_text_singular, %{coupon_details} taikoma eilutei %{line_items} - %{disc_amt} %{pdf_inv_desc}.,%{coupon_details} applied on line item %{line_items} - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
+line_item.final_credit_correction.added,Pridėta likusių kreditų,Leftover Credits Added,when amount is < than 0
+line_item.plan.prorated_charges,Proporcingi mokesčiai,Prorated Charges,Prorated Charges for plan/addon prorated charges
+line_item.coupon.ao_text_all, %{coupon_details} pritaikyta %{line_items} eilutėms - %{disc_amt} %{pdf_inv_desc}.,%{coupon_details} applied on %{line_items} line items - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
+line_item.desc.prorated_credits_for,Proporcingi kreditai %{date_range},Prorated Credits for %{date_range},Protated Credits for 3rd oct to 15th oct
+line_item.coupon.free_quantity, Nemokamas kiekis, Free Quantity,Free quantity in a coupon
+line_item.coupon.ao_text_plural, %{coupon_details} taikoma eilutėms %{line_items} - %{disc_amt} %{pdf_inv_desc}.,%{coupon_details} applied on line items %{line_items} - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
+line_item.desc.stairstep_pricing, %{amount} už %{unit} vienetus,%{amount} for %{unit} units,Stairstep pricing description
+line_item.desc.total_units,Iš viso vienetų - %{unit},Total units - %{unit},Total units
+line_item.final_credit_correction.removed,Pašalinti papildomi kreditai,Additional Credits Removed,when amount is > than 0
+email.line_item.coupon.text,<b> %{coupon_details} %{disc_amt} nuolaida </b> pritaikyta %{line_item_desc}.,<b>%{coupon_details} %{disc_amt} off</b> applied for %{line_item_desc}.,The applied on text for coupon
+line_item.plan.set_up_fee,Sąrankos mokestis,Setup Fee,Plan set up fee - description at line item level
+line_item.desc.credit_adjustments,Proporcingi kreditai,Prorated Credits,Prorated credits given for a line item
+line_item.desc.reclaimed_account_credits,Grąžinti reklaminiai kreditai,Promotional Credits Returned,promotional credits given for a line item
+line_item.desc.account_credits,Reklaminiai kreditai,Promotional Credits,promotional credits given for a line item
+cn.discount.text,Šioje sąskaitoje faktūroje taikomos nuolaidos ar kreditai,Discounts/credits applied on this invoice,text
+line_item.desc.reclaimed_credit_adjusments,Sugrąžinti proporcingi kreditai,Prorated Credits Returned,Prorated credits given for a line item
+line_item.fractional_correction,Trupmeninė korekcija,Fractional Correction,Fractional Correction
+line_item.coupon.non_discount_plural, %{coupon_details} iš %{disc_amt} taikoma eilutės elementams %{line_items}.,%{coupon_details} of %{disc_amt} applied on line items %{line_items}.,The applied on text for coupon
+line_item.desc.units,vienetų,units,units

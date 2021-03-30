@@ -1,28 +1,28 @@
 key,value,reference value,description
-exceeded_allowed_coupon_code_limit,,Only {0} coupon codes allowed per coupon set.,Only {0} coupon codes allowed per coupon set.
-invalid_request_with_no_applicable_coupon,,coupon not found or not a applicable coupon,coupon not found or not a applicable coupon
-api_coupon_not_applied,,coupon {0} has not been applied on this subscription,coupon {0} has not been applied on this subscription
-error_while_uploading_coupon_code,,Error during upload. Duplicate coupon code found at row {0}.,Error during upload. Duplicate coupon code found at row {0}.
-already_redeemed,,The coupon {0} is already redeemed for this subscription,The coupon {0} is already redeemed for this subscription
-rec_coupon_not_supported,,Coupon {0} cannot be applied as only one-time coupons are supported,Coupon {0} cannot be applied as only one-time coupons are supported
-cannot_delete_archived_coupon_code,,Cannot delete used coupon code,Cannot delete used coupon code
-un_supported_file_format,,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
-cannot_delete_exhausted_coupon_set,,Cannot delete exhausted Coupon Set,Cannot delete exhausted Coupon Set
-max_redemptions_reached,,The passed coupon {0} has already been redeemed {1} times. No more redemptions are allowed,Maximum redemption count of the coupon is exceeded.
-too_many_characters_in_coupon_code,,More than {0} characters is found at coupon code in row {1},More than {0} characters is found at coupon code in row {1}
-invalid_coupon,,No such coupon found,No such coupon found
-coupon_set_name_alreay_exists,,coupon set name already exists for another coupon.,coupon set name already exists for another coupon.
-applicable_item_limit_exceeded,,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.
-invalid_subscription_state,,Invalid subscription state to apply/change coupon,Invalid subscription state to apply/change coupon
-exceeded_allowed_coupon_set_limit,,Only {0} coupon sets allowed per coupon.,Only {0} coupon sets allowed per coupon.
-cannot_archive_redeemed_coupon_code,,Cannot archive a redeemed coupon code,Cannot archive a redeemed coupon code
-two_coupons_of_same_type,,This coupon cannot be applied for this subscription. Please contact the seller for more details.,This coupon cannot be applied for this subscription. Please contact the seller for more details.
-no_such_coupon,,No such coupon {0} to redeem,Coupon is not found
-coupon_not_applicable,,Coupon {0} cannot be applied as it is not applicable to any of the items,Coupon is not applicable for any of the passed item
-no_coupon_code_found,,No coupon codes found in the file.,No coupon codes found in the file.
-coupon_expired,,Applied coupon {0} has already expired on {1},Applied coupon {0} has already expired on {1}
-invalid_request_with_no_coupon,,No coupons have been applied on this subscription,No coupons have been applied on this subscription
-could_not_read_the_file,,Could not able to read the content in CSV file.,Could not able to read the content in CSV file.
-invalid_coupon_code,,Invalid coupon code,Invalid coupon code
-coupon_code_not_applicable_for_this_coupon,,Coupon code is not applicable for this coupon,Coupon code is not applicable for this coupon
-coupon_code_already_exists,,Coupon code already exists. Duplicate not allowed,Coupon code already exists. Duplicate not allowed
+exceeded_allowed_coupon_code_limit,Vain {0} kuponkikoodia sallitaan kuponkisarjaa kohden.,Only {0} coupon codes allowed per coupon set.,Only {0} coupon codes allowed per coupon set.
+invalid_request_with_no_applicable_coupon,kuponkia ei löydy tai ei sovellettavaa kuponkia,coupon not found or not a applicable coupon,coupon not found or not a applicable coupon
+api_coupon_not_applied,kuponkia {0} ei ole käytetty tähän tilaukseen,coupon {0} has not been applied on this subscription,coupon {0} has not been applied on this subscription
+error_while_uploading_coupon_code,Virhe latauksen aikana. Riviltä {0} löytyy kaksoiskuponkikoodi.,Error during upload. Duplicate coupon code found at row {0}.,Error during upload. Duplicate coupon code found at row {0}.
+already_redeemed,Kuponki {0} on jo lunastettu tälle tilaukselle,The coupon {0} is already redeemed for this subscription,The coupon {0} is already redeemed for this subscription
+rec_coupon_not_supported,"Kuponkia {0} ei voi käyttää, koska vain kertaluonteisia kuponkeja tuetaan",Coupon {0} cannot be applied as only one-time coupons are supported,Coupon {0} cannot be applied as only one-time coupons are supported
+cannot_delete_archived_coupon_code,Käytettyä kuponkikoodia ei voi poistaa,Cannot delete used coupon code,Cannot delete used coupon code
+un_supported_file_format,Tiedostomuotoa ei tueta. Vain CSV-tiedostot ovat sallittuja,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
+cannot_delete_exhausted_coupon_set,Vanhentunutta kuponkisarjaa ei voi poistaa,Cannot delete exhausted Coupon Set,Cannot delete exhausted Coupon Set
+max_redemptions_reached,Hyväksytty kuponki {0} on jo lunastettu {1} kertaa. Enää lunastuksia ei sallita,The passed coupon {0} has already been redeemed {1} times. No more redemptions are allowed,Maximum redemption count of the coupon is exceeded.
+too_many_characters_in_coupon_code,Yli {0} merkkiä löytyy kuponkikoodista rivillä {1},More than {0} characters is found at coupon code in row {1},More than {0} characters is found at coupon code in row {1}
+invalid_coupon,Tällaista kuponkia ei löytynyt,No such coupon found,No such coupon found
+coupon_set_name_alreay_exists,kuponkijoukon nimi on jo olemassa toista kuponkia varten.,coupon set name already exists for another coupon.,coupon set name already exists for another coupon.
+applicable_item_limit_exceeded,Yhdessä tai useammassa kuponissa on enemmän kuin {0} sovellettavaa tuotetta. Ota yhteyttä osoitteeseen support@chargebee.com saadaksesi lisätietoja.,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.
+invalid_subscription_state,Kupongin hakeminen / muuttaminen on virheellinen tilaustila,Invalid subscription state to apply/change coupon,Invalid subscription state to apply/change coupon
+exceeded_allowed_coupon_set_limit,Kuponkia kohti sallitaan vain {0} kuponkisarjaa.,Only {0} coupon sets allowed per coupon.,Only {0} coupon sets allowed per coupon.
+cannot_archive_redeemed_coupon_code,Lunastettua kuponkikoodia ei voi arkistoida,Cannot archive a redeemed coupon code,Cannot archive a redeemed coupon code
+two_coupons_of_same_type,Tätä kuponkia ei voi käyttää tähän tilaukseen. Ota yhteyttä myyjään saadaksesi lisätietoja.,This coupon cannot be applied for this subscription. Please contact the seller for more details.,This coupon cannot be applied for this subscription. Please contact the seller for more details.
+no_such_coupon,Ei tällaista kuponkia {0} lunastettavaksi,No such coupon {0} to redeem,Coupon is not found
+coupon_not_applicable,"Kuponkia {0} ei voi käyttää, koska sitä ei voida soveltaa mihinkään tuotteeseen",Coupon {0} cannot be applied as it is not applicable to any of the items,Coupon is not applicable for any of the passed item
+no_coupon_code_found,Tiedostosta ei löytynyt kuponkikoodeja.,No coupon codes found in the file.,No coupon codes found in the file.
+coupon_expired,Käytetty kuponki {0} on jo vanhentunut {1},Applied coupon {0} has already expired on {1},Applied coupon {0} has already expired on {1}
+invalid_request_with_no_coupon,Tähän tilaukseen ei ole käytetty kuponkeja,No coupons have been applied on this subscription,No coupons have been applied on this subscription
+could_not_read_the_file,CSV-tiedoston sisältöä ei voitu lukea.,Could not able to read the content in CSV file.,Could not able to read the content in CSV file.
+invalid_coupon_code,Virheellinen kuponkikoodi,Invalid coupon code,Invalid coupon code
+coupon_code_not_applicable_for_this_coupon,Kuponkikoodia ei sovelleta tähän kuponkiin,Coupon code is not applicable for this coupon,Coupon code is not applicable for this coupon
+coupon_code_already_exists,Kuponkikoodi on jo olemassa. Kopiota ei sallita,Coupon code already exists. Duplicate not allowed,Coupon code already exists. Duplicate not allowed

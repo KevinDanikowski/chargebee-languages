@@ -1,27 +1,27 @@
 key,value,reference value,description
-zero_decimal_update_gateway,,Using {0} gateway with the configured currency is not allowed.,Using {0} gateway with the configured currency is not allowed.
-paypal_not_supported,,Selected currency is not supported since you have configured PayPal Express Checkout.,Selected currency is not supported since you have configured PayPal Express Checkout.
-paypal_setup_error,,An error occured while redirecting to PayPal.,An error occured while redirecting to PayPal.
-currency_not_supported,,Currency configured in Chargebee is not supported by {0}.,Currency configured in Chargebee is not supported by {0}.
-invalid_credential_with_message,,{0},{0}
-gateway_credential_missing,,Problem in processing your payment. Please try after some time.,Problem in processing your payment. Please try after some time.
-gw_credential_verification_failed,,{0},{0}
-gateway_down_with_message,,Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0},Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0}
-wepay_not_supported,,wepay gateway is not supported for this operation.,wepay gateway is not supported for this operation.
-delete_card_error,,Problem occurred while deleting the payment method. Please try after some time.,Problem occurred while deleting the payment method. Please try after some time.
-gateway_in_active_state,,Payment gateway is already in active state,Payment gateway is already in active state
-zero_decimal_update_site,,Chargebee doesn''t support the selected currency with {0} gateway.,Chargebee doesn''t support the selected currency with {0} gateway.
-default_gateway_not_configured,,Default payment gateway not configured.,Default payment gateway not configured.
-remove_archived_gw_not_supported,,Payment gateway cannot be removed as it is archived.,Payment gateway cannot be removed as it is archived.
-bank_account_payment_gateway_not_configured,,This operation is not supported as there is no payment gateway configured for bank account.,This operation is not supported as there is no payment gateway configured for bank account.
-empty_card_type_list,,Accepted Card types cannot not be empty,Accepted Card types cannot not be empty
-default_gateway_not_supported,,Default option is not supported for this gateway.,Default option is not supported for this gateway.
-gateway_not_supported,,Selected currency is not supported since you have configured {0}.,Selected currency is not supported since you have configured {0}.
-payment_gateway_not_configured,,This operation is not supported as there is no payment gateway configured.,This operation is not supported as there is no payment gateway configured.
-gateway_not_supported_for_mcp,,Chargebee doesn''t support multicurrency feature for {0} gateway.,Chargebee doesn''t support multicurrency feature for {0} gateway.
-gateway_configuration_failed,,{0}.,{0}.
-forbidden_to_remove,,Payment gateway cannot be removed as there are active subscriptions.,Payment gateway cannot be removed as there are active subscriptions.
-gateway_down,,Communication failure occurred when trying to contact the gateway. Please try after some time,Communication failure occurred when trying to contact the gateway. Please try after some time
-gocardless_redirect_error,,An error occured while redirecting to GoCardless.,An error occured while redirecting to GoCardless.
-invalid_credential,,Please check the submitted credentials. Not able to access the gateway.,Please check the submitted credentials. Not able to access the gateway.
-gateway_already_configured,,This gateway is already configured for the site. Probable reason: {0},This gateway is already configured for the site. Probable reason: {0}
+zero_decimal_update_gateway,Naudoti {0} šliuzą su sukonfigūruota valiuta neleidžiama.,Using {0} gateway with the configured currency is not allowed.,Using {0} gateway with the configured currency is not allowed.
+paypal_not_supported,"Pasirinkta valiuta nepalaikoma, nes sukonfigūravote „PayPal Express Checkout“.",Selected currency is not supported since you have configured PayPal Express Checkout.,Selected currency is not supported since you have configured PayPal Express Checkout.
+paypal_setup_error,Nukreipiant į „PayPal“ įvyko klaida.,An error occured while redirecting to PayPal.,An error occured while redirecting to PayPal.
+currency_not_supported,„Chargebee“ sukonfigūruota valiuta nepalaikoma {0}.,Currency configured in Chargebee is not supported by {0}.,Currency configured in Chargebee is not supported by {0}.
+invalid_credential_with_message,{0},{0},{0}
+gateway_credential_missing,Apdorojant mokėjimą kilo problema. Pabandykite po kurio laiko.,Problem in processing your payment. Please try after some time.,Problem in processing your payment. Please try after some time.
+gw_credential_verification_failed,{0},{0},{0}
+gateway_down_with_message,Ryšio sutrikimas įvyko bandant susisiekti su šliuzu. Pabandykite po kurio laiko. Tikėtina priežastis: {0},Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0},Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0}
+wepay_not_supported,„wepay“ vartai šiai operacijai nepalaikomi.,wepay gateway is not supported for this operation.,wepay gateway is not supported for this operation.
+delete_card_error,Ištrinant mokėjimo metodą kilo problema. Pabandykite po kurio laiko.,Problem occurred while deleting the payment method. Please try after some time.,Problem occurred while deleting the payment method. Please try after some time.
+gateway_in_active_state,Mokėjimo šliuzai jau yra aktyvios būsenos,Payment gateway is already in active state,Payment gateway is already in active state
+zero_decimal_update_site,„Chargebee“ nepalaiko pasirinktos valiutos su {0} vartais.,Chargebee doesn''t support the selected currency with {0} gateway.,Chargebee doesn''t support the selected currency with {0} gateway.
+default_gateway_not_configured,Numatytasis mokėjimo šliuzas nesukonfigūruotas.,Default payment gateway not configured.,Default payment gateway not configured.
+remove_archived_gw_not_supported,"Mokėjimo šliuzo negalima pašalinti, nes jis yra archyvuojamas.",Payment gateway cannot be removed as it is archived.,Payment gateway cannot be removed as it is archived.
+bank_account_payment_gateway_not_configured,"Ši operacija nepalaikoma, nes nėra banko sąsajos sukonfigūruotų mokėjimo šliuzų.",This operation is not supported as there is no payment gateway configured for bank account.,This operation is not supported as there is no payment gateway configured for bank account.
+empty_card_type_list,Priimtų kortelių tipai negali būti tušti,Accepted Card types cannot not be empty,Accepted Card types cannot not be empty
+default_gateway_not_supported,Numatytoji šio šliuzo parinktis nepalaikoma.,Default option is not supported for this gateway.,Default option is not supported for this gateway.
+gateway_not_supported,"Pasirinkta valiuta nepalaikoma, nes sukonfigūravote {0}.",Selected currency is not supported since you have configured {0}.,Selected currency is not supported since you have configured {0}.
+payment_gateway_not_configured,"Ši operacija nepalaikoma, nes nėra sukonfigūruotas mokėjimo šliuzas.",This operation is not supported as there is no payment gateway configured.,This operation is not supported as there is no payment gateway configured.
+gateway_not_supported_for_mcp,„Chargebee“ nepalaiko „{0} gateway“ kelių valiutų funkcijos.,Chargebee doesn''t support multicurrency feature for {0} gateway.,Chargebee doesn''t support multicurrency feature for {0} gateway.
+gateway_configuration_failed,{0}.,{0}.,{0}.
+forbidden_to_remove,"Mokėjimo šliuzo negalima pašalinti, nes yra aktyvių prenumeratų.",Payment gateway cannot be removed as there are active subscriptions.,Payment gateway cannot be removed as there are active subscriptions.
+gateway_down,[object Object],Communication failure occurred when trying to contact the gateway. Please try after some time,Communication failure occurred when trying to contact the gateway. Please try after some time
+gocardless_redirect_error,Nukreipiant į „GoCardless“ įvyko klaida.,An error occured while redirecting to GoCardless.,An error occured while redirecting to GoCardless.
+invalid_credential,Patikrinkite pateiktus kredencialus. Nepavyksta pasiekti šliuzo.,Please check the submitted credentials. Not able to access the gateway.,Please check the submitted credentials. Not able to access the gateway.
+gateway_already_configured,Šie vartai jau sukonfigūruoti svetainei. Tikėtina priežastis: {0},This gateway is already configured for the site. Probable reason: {0},This gateway is already configured for the site. Probable reason: {0}

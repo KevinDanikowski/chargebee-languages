@@ -1,6 +1,6 @@
 key,value,reference value,description
-ach-payment-info.title,,Bank Account Information,Bank Account Information
-resume-scheduled-info.title,,Remove Scheduled Resumption,Remove Scheduled Resumption
-pause-scheduled-info.title,,Remove Scheduled Pause,Remove Scheduled Pause
-discount.title,,Discount,Discount
-card.title,,Card Information,Card Information
+ach-payment-info.title,Bankkontoinformasjon,Bank Account Information,Bank Account Information
+resume-scheduled-info.title,Fjern planlagt gjenopptakelse,Remove Scheduled Resumption,Remove Scheduled Resumption
+pause-scheduled-info.title,Fjern planlagt pause,Remove Scheduled Pause,Remove Scheduled Pause
+discount.title,Rabatt,Discount,Discount
+card.title,Kortinformasjon,Card Information,Card Information

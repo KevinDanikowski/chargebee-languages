@@ -1,5 +1,5 @@
 key,value,reference value,description
-usage.label.date,,Date,Date
-usage.label.usage,,Usage,Usage
-usage.label.plan_or_addon,,Plan/Addon,Plan/Addon
-usage.label.usage_details,,Usage Details,Usage Details
+usage.label.date,데이트,Date,Date
+usage.label.usage,용법,Usage,Usage
+usage.label.plan_or_addon,계획 / 애드온,Plan/Addon,Plan/Addon
+usage.label.usage_details,사용법 세부 정보,Usage Details,Usage Details

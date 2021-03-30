@@ -1,26 +1,26 @@
 key,value,reference value,description
-invoice.transaction.credit_applied,,A credit of %{amount} was applied on %{date}.,A credit of amount was applied on date
-constants.taxes.avalara_partial_tax_desc,,*This amount is calculated based on the taxable amount which may vary based on the taxation laws in your country.,avalara partial tax descirption text
-invoice.transaction.voided_on,,Voided on %{date}.,Voided on date
-transaction.payment_method.by_card_null,," by Card.",payment with card
-transaction.payment_method.via_pm,," via %{payment_method}.",via payment method type
-invoice.footer.title.adjustments,,Adjustments,Adjustments footer title
-invoice.transaction.written_off,,%{amount} was written-off on %{date}.,Amount was writted off on date
-transaction.payment_method.by_card,," by %{card_type} card ending %{last4_digits}.",payment with card
-invoice.transaction.refunded_initiated,,%{amount} refund was initiated on %{date},Amount refund was initiated on date
-constants.invoice_customization.reverse_charge_msg,,VAT is not applicable on this invoice because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge message
-invoice.transaction.refunded_completed,,%{amount} was refunded on %{date},Amount refunded on date
-invoice.footer.title.payments,,Payments,Payment footer title
-constants.invoice_customization.cn_reverse_charge_msg,,VAT is not applicable on this credit note because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge mesage for credit note
-transaction.payment_method.offline_payment,,Offline Payment,Payment through other channels
-transaction.payment_method.to_card_null,," to Card.",payment with card
-constants.invoice_customization.vat_exemption_note_export_uk,,"Please note that as the UK is no longer part of the EU, our services are outside the scope of UK VAT.",VAT Export Note for UK
-transaction.payment_method.to_card,," to %{card_type} card ending %{last4_digits}.",payment with card
-invoice.footer.title.credits,,Credits,Credits footer title
-invoice.transaction.adjustment,,An adjustment of %{amount} was made on %{date}.,Adjustment of amount was made on date
-constants.invoice_customization.quote_reverse_charge_msg,,VAT is not applicable on this %{quote_title} because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge message
-invoice.transaction.chargeback_text,,A chargeback of %{amount} has been recorded as refund on %{date},A chargeback recorded on a date
-constants.invoice_customization.vat_exemption_note_export,,This export transaction is exempt from VAT as per Article 146 of the EU VAT Directive.," VAT Exemption for Export"
-transaction.payment_method.direct_debit,,ACH,Direct Debit heading
-transaction.payment_method.via_card_wallet_pm,," via  %{payment_method} ( %{card_type} card ending %{last4_digits} ).",via payment method type
-transaction.payment_method.by_pm,," by %{payment_method}.",by payment method type
+invoice.transaction.credit_applied,Krediit %{amount} rakendati kuupäeval %{date}.,A credit of %{amount} was applied on %{date}.,A credit of amount was applied on date
+constants.taxes.avalara_partial_tax_desc,"* See summa arvutatakse maksustatava summa põhjal, mis võib erineda vastavalt teie riigi maksuseadustele.",*This amount is calculated based on the taxable amount which may vary based on the taxation laws in your country.,avalara partial tax descirption text
+invoice.transaction.voided_on,Tühistatud %{date}.,Voided on %{date}.,Voided on date
+transaction.payment_method.by_card_null, kaardi järgi., by Card.,payment with card
+transaction.payment_method.via_pm, %{payment_method} kaudu., via %{payment_method}.,via payment method type
+invoice.footer.title.adjustments,Kohandused,Adjustments,Adjustments footer title
+invoice.transaction.written_off, %{amount} kanti %{date}.,%{amount} was written-off on %{date}.,Amount was writted off on date
+transaction.payment_method.by_card," %{card_type} kaardi järgi, lõppedes %{last4_digits}.", by %{card_type} card ending %{last4_digits}.,payment with card
+invoice.transaction.refunded_initiated, %{amount} tagasimakse algatati %{date},%{amount} refund was initiated on %{date},Amount refund was initiated on date
+constants.invoice_customization.reverse_charge_msg,"Käibemaksu sellele arvele ei kohaldata, kuna esitati kehtiv käibemaksukohustuslasena registreerimise number ja rakendatud on pöördmaksustamise mehhanism.",VAT is not applicable on this invoice because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge message
+invoice.transaction.refunded_completed, %{amount} tagastati %{date},%{amount} was refunded on %{date},Amount refunded on date
+invoice.footer.title.payments,Maksed,Payments,Payment footer title
+constants.invoice_customization.cn_reverse_charge_msg,"Käibemaksu sellele kreeditarvetele ei kohaldata, kuna esitati kehtiv käibemaksukohustuslasena registreerimise number ja rakendatud on pöördmaksustamise mehhanism.",VAT is not applicable on this credit note because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge mesage for credit note
+transaction.payment_method.offline_payment,Võrguühenduseta makse,Offline Payment,Payment through other channels
+transaction.payment_method.to_card_null, kaardile., to Card.,payment with card
+constants.invoice_customization.vat_exemption_note_export_uk,"Pange tähele, et kuna Ühendkuningriik ei kuulu enam ELi koosseisu, jäävad meie teenused Ühendkuningriigi käibemaksu kohaldamisalast välja.","Please note that as the UK is no longer part of the EU, our services are outside the scope of UK VAT.",VAT Export Note for UK
+transaction.payment_method.to_card," %{card_type} kaardile, mis lõpeb %{last4_digits}.", to %{card_type} card ending %{last4_digits}.,payment with card
+invoice.footer.title.credits,Autorid,Credits,Credits footer title
+invoice.transaction.adjustment, %{amount} korrigeeriti %{date}.,An adjustment of %{amount} was made on %{date}.,Adjustment of amount was made on date
+constants.invoice_customization.quote_reverse_charge_msg,"Käibemaksu sellele %{quote_title} ei kohaldata, kuna esitati kehtiv käibemaksukohustuslase registreerimisnumber ja rakendatud on pöördmaksustamise mehhanism.",VAT is not applicable on this %{quote_title} because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge message
+invoice.transaction.chargeback_text, %{amount} tagasimakse on registreeritud tagasimaksena %{date},A chargeback of %{amount} has been recorded as refund on %{date},A chargeback recorded on a date
+constants.invoice_customization.vat_exemption_note_export,See eksporditehing on käibemaksuvaba vastavalt ELi käibemaksudirektiivi artiklile 146.,This export transaction is exempt from VAT as per Article 146 of the EU VAT Directive., VAT Exemption for Export
+transaction.payment_method.direct_debit,ACH,ACH,Direct Debit heading
+transaction.payment_method.via_card_wallet_pm, %{payment_method} kaudu ( %{card_type} kaardi lõpuga %{last4_digits})., via  %{payment_method} ( %{card_type} card ending %{last4_digits} ).,via payment method type
+transaction.payment_method.by_pm, %{payment_method} järgi., by %{payment_method}.,by payment method type

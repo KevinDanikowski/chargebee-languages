@@ -1,39 +1,39 @@
 key,value,reference value,description
-minimal.card.page_heading,,Thank you for updating your payment method details!,Thank you for updating your payment method details!
-rhapsody.header.title,,My awesome subscription service,My awesome subscription service
-minimal.checkout.page_title,,Checkout,Checkout
-elegant.checkout.page_heading,,Thank you for subscribing!,Thank you for subscribing!
-inspire.portal.page_title,,Customer Portal,Customer Portal
-rhapsody.footer.content,,All Right Reserved. Copyright &copy; 2015.,All Right Reserved. Copyright &copy; 2015.
-minimal.thankyou.page_title,,Thank You,Thank You
-elegant.thankyou.page_heading,,You've successfully signed up!,You've successfully signed up!
-elegant.customer_portal.page_title,,Customer Portal,Customer Portal
-rhapsody.thankyou.page_heading,,You've successfully signed up!,You've successfully signed up!
-elegant.checkout.aside_content,,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>
-minimal.footer.content,,All Rights Reserved. Copyright &copy; 2015.,All Rights Reserved. Copyright &copy; 2015.
-elegant.header.title,,My awesome subscription service,My awesome subscription service
-rhapsody.thankyou.content,,Your account information has been sent to your email address.,Your account information has been sent to your email address.
-minimal.header.title,,My awesome subscription service,My awesome subscription service
-minimal.customer_portal.page_title,,Customer Portal,Customer Portal
-inspire.thankyou.page_title,,Thank You,Thank You
-minimal.card.aside_content,,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>
-minimal.thankyou.content,,Your account information has been sent to your email address.,Your account information has been sent to your email address.
-elegant.card.aside_content,,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>
-elegant.card.page_heading,,Thank you for updating your payment method details!,Thank you for updating your payment method details!
-minimal.card.page_title,,Update your payment method,Update your payment method
-inspire.thankyou.content,,<div class='text-center'><h3>You've successfully signed up!</h3><p>Your account information has been sent to your email address.</p></div>,<div class='text-center'><h3>You've successfully signed up!</h3><p>Your account information has been sent to your email address.</p></div>
-minimal.checkout.page_heading,,Thank you for subscribing!,Thank you for subscribing!
-rhapsody.card.page_title,,Update your payment method,Update your payment method
-rhapsody.checkout.page_title,,Checkout,Checkout
-rhapsody.thankyou.page_title,,Thank You,Thank You
-elegant.checkout.page_title,,Checkout,Checkout
-elegant.thankyou.content,,Your account information has been sent to your email address.,Your account information has been sent to your email address.
-elegant.card.page_title,,Update your payment method,Update your payment method
-rhapsody.customer_portal.page_title,,Customer Portal,Customer Portal
-minimal.thankyou.page_heading,,You've successfully signed up!,You've successfully signed up!
-elegant.footer.content,,All Rights Reserved. Copyright &copy; 2015.,All Rights Reserved. Copyright &copy; 2015.
-elegant.thankyou.page_title,,Thank You,Thank You
-inspire.card.page_title,,Update your payment method,Update your payment method
-inspire.header.title,,Company Name,Company Name
-inspire.checkout.page_title,,Checkout,Checkout
-minimal.checkout.aside_content,,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>
+minimal.card.page_heading,Terima kasih telah memperbarui detail metode pembayaran Anda!,Thank you for updating your payment method details!,Thank you for updating your payment method details!
+rhapsody.header.title,Layanan langganan saya yang luar biasa,My awesome subscription service,My awesome subscription service
+minimal.checkout.page_title,Periksa,Checkout,Checkout
+elegant.checkout.page_heading,Terima kasih telah berlangganan!,Thank you for subscribing!,Thank you for subscribing!
+inspire.portal.page_title,Portal Pelanggan,Customer Portal,Customer Portal
+rhapsody.footer.content,Hak cipta dilindungi Undang-undang. Hak Cipta © 2015.,All Right Reserved. Copyright &copy; 2015.,All Right Reserved. Copyright &copy; 2015.
+minimal.thankyou.page_title,Terima kasih,Thank You,Thank You
+elegant.thankyou.page_heading,Anda berhasil mendaftar!,You've successfully signed up!,You've successfully signed up!
+elegant.customer_portal.page_title,Portal Pelanggan,Customer Portal,Customer Portal
+rhapsody.thankyou.page_heading,Anda berhasil mendaftar!,You've successfully signed up!,You've successfully signed up!
+elegant.checkout.aside_content,<h4> Kami menghargai Privasi Anda. </h4> <p> Kami tidak akan menjual atau mendistribusikan informasi kontak Anda. Baca Kebijakan Privasi kami. </p> <hr> <h4> Pertanyaan Penagihan </h4> <p> Jangan ragu untuk menghubungi tim dukungan kami jika Anda memiliki pertanyaan. </p>,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>
+minimal.footer.content,Seluruh hak cipta. Hak Cipta © 2015.,All Rights Reserved. Copyright &copy; 2015.,All Rights Reserved. Copyright &copy; 2015.
+elegant.header.title,Layanan langganan saya yang luar biasa,My awesome subscription service,My awesome subscription service
+rhapsody.thankyou.content,Informasi akun Anda telah dikirim ke alamat email Anda.,Your account information has been sent to your email address.,Your account information has been sent to your email address.
+minimal.header.title,Layanan langganan saya yang luar biasa,My awesome subscription service,My awesome subscription service
+minimal.customer_portal.page_title,Portal Pelanggan,Customer Portal,Customer Portal
+inspire.thankyou.page_title,Terima kasih,Thank You,Thank You
+minimal.card.aside_content,<p> Harap perhatikan bahwa ini hanya pembaruan metode pembayaran Anda. </p> <p> Kami akan menagih Anda sesuai dengan konfigurasi penagihan Anda yang ada. </p>,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>
+minimal.thankyou.content,Informasi akun Anda telah dikirim ke alamat email Anda.,Your account information has been sent to your email address.,Your account information has been sent to your email address.
+elegant.card.aside_content,<p> Harap perhatikan bahwa ini hanya pembaruan metode pembayaran Anda. </p> <p> Kami akan menagih Anda sesuai dengan konfigurasi penagihan Anda yang ada. </p>,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>
+elegant.card.page_heading,Terima kasih telah memperbarui detail metode pembayaran Anda!,Thank you for updating your payment method details!,Thank you for updating your payment method details!
+minimal.card.page_title,Perbarui metode pembayaran Anda,Update your payment method,Update your payment method
+inspire.thankyou.content,"<div class=""text-center""> <h3> Anda berhasil mendaftar! </h3> <p> Informasi akun Anda telah dikirim ke alamat email Anda. </p> </div>",<div class='text-center'><h3>You've successfully signed up!</h3><p>Your account information has been sent to your email address.</p></div>,<div class='text-center'><h3>You've successfully signed up!</h3><p>Your account information has been sent to your email address.</p></div>
+minimal.checkout.page_heading,Terima kasih telah berlangganan!,Thank you for subscribing!,Thank you for subscribing!
+rhapsody.card.page_title,Perbarui metode pembayaran Anda,Update your payment method,Update your payment method
+rhapsody.checkout.page_title,Periksa,Checkout,Checkout
+rhapsody.thankyou.page_title,Terima kasih,Thank You,Thank You
+elegant.checkout.page_title,Periksa,Checkout,Checkout
+elegant.thankyou.content,Informasi akun Anda telah dikirim ke alamat email Anda.,Your account information has been sent to your email address.,Your account information has been sent to your email address.
+elegant.card.page_title,Perbarui metode pembayaran Anda,Update your payment method,Update your payment method
+rhapsody.customer_portal.page_title,Portal Pelanggan,Customer Portal,Customer Portal
+minimal.thankyou.page_heading,Anda berhasil mendaftar!,You've successfully signed up!,You've successfully signed up!
+elegant.footer.content,Seluruh hak cipta. Hak Cipta © 2015.,All Rights Reserved. Copyright &copy; 2015.,All Rights Reserved. Copyright &copy; 2015.
+elegant.thankyou.page_title,Terima kasih,Thank You,Thank You
+inspire.card.page_title,Perbarui metode pembayaran Anda,Update your payment method,Update your payment method
+inspire.header.title,Nama perusahaan,Company Name,Company Name
+inspire.checkout.page_title,Periksa,Checkout,Checkout
+minimal.checkout.aside_content,<h4> Kami menghargai Privasi Anda. </h4> <p> Kami tidak akan menjual atau mendistribusikan informasi kontak Anda. Baca Kebijakan Privasi kami. </p> <hr> <h4> Pertanyaan Penagihan </h4> <p> Jangan ragu untuk menghubungi tim dukungan kami jika Anda memiliki pertanyaan. </p>,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>

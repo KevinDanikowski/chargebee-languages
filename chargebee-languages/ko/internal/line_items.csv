@@ -1,23 +1,23 @@
 key,value,reference value,description
-line_item.coupon.non_discount_all,,%{coupon_details} of %{disc_amt} applied on %{line_items} line items.,The applied on text for coupon
-line_item.coupon.non_discount_singular,,%{coupon_details} of %{disc_amt} applied on line item %{line_items}.,The applied on text for coupon
-line_item.coupon.ao_text_singular,,%{coupon_details} applied on line item %{line_items} - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
-line_item.final_credit_correction.added,,Leftover Credits Added,when amount is < than 0
-line_item.plan.prorated_charges,,Prorated Charges,Prorated Charges for plan/addon prorated charges
-line_item.coupon.ao_text_all,,%{coupon_details} applied on %{line_items} line items - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
-line_item.desc.prorated_credits_for,,Prorated Credits for %{date_range},Protated Credits for 3rd oct to 15th oct
-line_item.coupon.free_quantity,," Free Quantity",Free quantity in a coupon
-line_item.coupon.ao_text_plural,,%{coupon_details} applied on line items %{line_items} - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
-line_item.desc.stairstep_pricing,,%{amount} for %{unit} units,Stairstep pricing description
-line_item.desc.total_units,,Total units - %{unit},Total units
-line_item.final_credit_correction.removed,,Additional Credits Removed,when amount is > than 0
-email.line_item.coupon.text,,<b>%{coupon_details} %{disc_amt} off</b> applied for %{line_item_desc}.,The applied on text for coupon
-line_item.plan.set_up_fee,,Setup Fee,Plan set up fee - description at line item level
-line_item.desc.credit_adjustments,,Prorated Credits,Prorated credits given for a line item
-line_item.desc.reclaimed_account_credits,,Promotional Credits Returned,promotional credits given for a line item
-line_item.desc.account_credits,,Promotional Credits,promotional credits given for a line item
-cn.discount.text,,Discounts/credits applied on this invoice,text
-line_item.desc.reclaimed_credit_adjusments,,Prorated Credits Returned,Prorated credits given for a line item
-line_item.fractional_correction,,Fractional Correction,Fractional Correction
-line_item.coupon.non_discount_plural,,%{coupon_details} of %{disc_amt} applied on line items %{line_items}.,The applied on text for coupon
-line_item.desc.units,,units,units
+line_item.coupon.non_discount_all, %{disc_amt} 중 %{coupon_details}가 %{line_items} 광고 항목에 적용되었습니다.,%{coupon_details} of %{disc_amt} applied on %{line_items} line items.,The applied on text for coupon
+line_item.coupon.non_discount_singular, %{disc_amt} 중 %{coupon_details}가 광고 항목 %{line_items}에 적용되었습니다.,%{coupon_details} of %{disc_amt} applied on line item %{line_items}.,The applied on text for coupon
+line_item.coupon.ao_text_singular, %{coupon_details}가 광고 항목 %{line_items}- %{disc_amt} %{pdf_inv_desc}에 적용되었습니다.,%{coupon_details} applied on line item %{line_items} - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
+line_item.final_credit_correction.added,남은 크레딧 추가,Leftover Credits Added,when amount is < than 0
+line_item.plan.prorated_charges,일할 계산 된 청구,Prorated Charges,Prorated Charges for plan/addon prorated charges
+line_item.coupon.ao_text_all, %{line_items} 광고 항목에 %{coupon_details} 적용- %{disc_amt} %{pdf_inv_desc}.,%{coupon_details} applied on %{line_items} line items - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
+line_item.desc.prorated_credits_for, %{date_range}에 대해 비례 배분 된 크레딧,Prorated Credits for %{date_range},Protated Credits for 3rd oct to 15th oct
+line_item.coupon.free_quantity, 무료 수량, Free Quantity,Free quantity in a coupon
+line_item.coupon.ao_text_plural, %{coupon_details} 광고 항목 %{line_items}- %{disc_amt} %{pdf_inv_desc}에 적용되었습니다.,%{coupon_details} applied on line items %{line_items} - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
+line_item.desc.stairstep_pricing, %{unit} 단위에 대한 %{amount},%{amount} for %{unit} units,Stairstep pricing description
+line_item.desc.total_units,총 단위- %{unit},Total units - %{unit},Total units
+line_item.final_credit_correction.removed,추가 크레딧 제거,Additional Credits Removed,when amount is > than 0
+email.line_item.coupon.text, %{line_item_desc}에 <b> %{coupon_details} %{disc_amt} 할인 </b>이 적용되었습니다.,<b>%{coupon_details} %{disc_amt} off</b> applied for %{line_item_desc}.,The applied on text for coupon
+line_item.plan.set_up_fee,설치비,Setup Fee,Plan set up fee - description at line item level
+line_item.desc.credit_adjustments,비례 배분 된 크레딧,Prorated Credits,Prorated credits given for a line item
+line_item.desc.reclaimed_account_credits,반환 된 프로모션 크레딧,Promotional Credits Returned,promotional credits given for a line item
+line_item.desc.account_credits,프로모션 크레딧,Promotional Credits,promotional credits given for a line item
+cn.discount.text,이 인보이스에 적용된 할인 또는 크레딧,Discounts/credits applied on this invoice,text
+line_item.desc.reclaimed_credit_adjusments,반환 된 비례 배분 된 크레딧,Prorated Credits Returned,Prorated credits given for a line item
+line_item.fractional_correction,부분 수정,Fractional Correction,Fractional Correction
+line_item.coupon.non_discount_plural, %{disc_amt} 중 %{coupon_details}가 광고 항목 %{line_items}에 적용되었습니다.,%{coupon_details} of %{disc_amt} applied on line items %{line_items}.,The applied on text for coupon
+line_item.desc.units,단위,units,units

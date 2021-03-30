@@ -1,25 +1,25 @@
 key,value,reference value,description
-invalid_column,,The value {1} in the column ({0}) is invalid,The value {1} in the column ({0}) is invalid
-invalid_column_header,,The column {0} is invalid.,The column {0} is invalid.
-billing_country_needed_to_collect_registered_for_gst_field,,You need to add a Billing Country to select this field.,You need to add a Billing Country to select this field.
-billing_country_needed,,Billing country needed to validate the VAT number.,Billing country needed to validate the VAT number.
-australia_tax_should_be_configured,,You need to enable tax for Australia to select this field,You need to enable tax for Australia to select this field
-tax.could_not_read_the_file,,File contains invalid values,File contains invalid values
-unable_to_validate_abn,,Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
-no_header_found,,Header are not present or not formatted properly.,Header are not present or not formatted properly.
-no_tax_rules_found,,File does not contain any tax rule,File does not contain any tax rule
-tax.un_supported_file_format,,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
-profile_service_type_error,,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.
-tax.wrong_format,,Value for ({0}) is invalid,Value for ({0}) is invalid
-file_not_found,,Tax configuration file not found,Tax configuration file not found
-duplicate_column,,The column ({0}) appears more than once in the file.,The column ({0}) appears more than once in the file.
-invalid_GSTIN,,You need to enter a valid GSTIN.,You need to enter a valid GSTIN.
-invalid_abn_number,,You need to enter a valid ABN.,You need to enter a valid ABN.
-eu_vat_not_applicable,,VAT Number not applicable for this country,VAT Number not applicable for this country
-zip_wrong_format,,cannot configure the zip values - {0},cannot configure the zip values - {0}
-invalid_zip_code,,invalid zip/postal code,invalid zip/postal code
-org_address_not_config,,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined
-registered_for_gst_not_applicable,,This option is applicable for Australia only.,This option is applicable for Australia only.
-invalid_vat_number,,You need to enter a valid VAT number.,You need to enter a valid VAT number.
-unable_to_validate,,Unable to validate VAT number as VIES is experiencing downtime.,Unable to validate VAT number as VIES is experiencing downtime.
-us_unsupported_prefix,,Wildcard characters cannot be used along with ZIP+4 postal codes - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0}
+invalid_column,Az oszlop ({0}) {1} értéke érvénytelen,The value {1} in the column ({0}) is invalid,The value {1} in the column ({0}) is invalid
+invalid_column_header,A (z) {0} oszlop érvénytelen.,The column {0} is invalid.,The column {0} is invalid.
+billing_country_needed_to_collect_registered_for_gst_field,A mező kiválasztásához hozzá kell adnia egy számlázási országot.,You need to add a Billing Country to select this field.,You need to add a Billing Country to select this field.
+billing_country_needed,Számlázási ország szükséges az áfa-szám érvényesítéséhez.,Billing country needed to validate the VAT number.,Billing country needed to validate the VAT number.
+australia_tax_should_be_configured,Ennek a mezőnek a kiválasztásához engedélyeznie kell az adót Ausztráliában,You need to enable tax for Australia to select this field,You need to enable tax for Australia to select this field
+tax.could_not_read_the_file,A fájl érvénytelen értékeket tartalmaz,File contains invalid values,File contains invalid values
+unable_to_validate_abn,"Nem lehet feldolgozni az ABN-t, mivel az ABN Lookup kiszolgáló nem működik.",Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
+no_header_found,"A fejléc nincs jelen, vagy nincs megfelelően formázva.",Header are not present or not formatted properly.,Header are not present or not formatted properly.
+no_tax_rules_found,A fájl nem tartalmaz adószabályt,File does not contain any tax rule,File does not contain any tax rule
+tax.un_supported_file_format,Nem támogatott fájlformátum. Csak CSV fájlok engedélyezettek,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
+profile_service_type_error,Ez az adóprofil már hozzárendelve a (z) {0} terméktípushoz. Csak egy terméktípust tud leképezni egy profilra.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.
+tax.wrong_format,A (z) ({0}) értéke érvénytelen,Value for ({0}) is invalid,Value for ({0}) is invalid
+file_not_found,Adókonfigurációs fájl nem található,Tax configuration file not found,Tax configuration file not found
+duplicate_column,Az oszlop ({0}) többször is megjelenik a fájlban.,The column ({0}) appears more than once in the file.,The column ({0}) appears more than once in the file.
+invalid_GSTIN,Érvényes GSTIN-t kell megadnia.,You need to enter a valid GSTIN.,You need to enter a valid GSTIN.
+invalid_abn_number,Érvényes ABN-t kell megadnia.,You need to enter a valid ABN.,You need to enter a valid ABN.
+eu_vat_not_applicable,ÁFA-szám nem alkalmazható ebben az országban,VAT Number not applicable for this country,VAT Number not applicable for this country
+zip_wrong_format,nem lehet konfigurálni a zip értékeket - {0},cannot configure the zip values - {0},cannot configure the zip values - {0}
+invalid_zip_code,érvénytelen irányítószám,invalid zip/postal code,invalid zip/postal code
+org_address_not_config,"Az inkluzív adóár típus nem konfigurálható, mivel a kereskedői adó mértékét nem lehetett meghatározni",Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined
+registered_for_gst_not_applicable,Ez a lehetőség csak Ausztráliára vonatkozik.,This option is applicable for Australia only.,This option is applicable for Australia only.
+invalid_vat_number,Érvényes áfa-számot kell megadnia.,You need to enter a valid VAT number.,You need to enter a valid VAT number.
+unable_to_validate,"Nem sikerült ellenőrizni az áfa-számot, mivel a VIES leállást tapasztal.",Unable to validate VAT number as VIES is experiencing downtime.,Unable to validate VAT number as VIES is experiencing downtime.
+us_unsupported_prefix,Helyettesítő karakterek nem használhatók ZIP + 4 irányítószámokkal együtt - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0}

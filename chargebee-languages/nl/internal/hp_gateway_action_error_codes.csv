@@ -1,27 +1,27 @@
 key,value,reference value,description
-zero_decimal_update_gateway,,Using {0} gateway with the configured currency is not allowed.,Using {0} gateway with the configured currency is not allowed.
-paypal_not_supported,,Selected currency is not supported since you have configured PayPal Express Checkout.,Selected currency is not supported since you have configured PayPal Express Checkout.
-paypal_setup_error,,An error occured while redirecting to PayPal.,An error occured while redirecting to PayPal.
-currency_not_supported,,Currency configured in Chargebee is not supported by {0}.,Currency configured in Chargebee is not supported by {0}.
-invalid_credential_with_message,,{0},{0}
-gateway_credential_missing,,Problem in processing your payment. Please try after some time.,Problem in processing your payment. Please try after some time.
-gw_credential_verification_failed,,{0},{0}
-gateway_down_with_message,,Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0},Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0}
-wepay_not_supported,,wepay gateway is not supported for this operation.,wepay gateway is not supported for this operation.
-delete_card_error,,Problem occurred while deleting the payment method. Please try after some time.,Problem occurred while deleting the payment method. Please try after some time.
-gateway_in_active_state,,Payment gateway is already in active state,Payment gateway is already in active state
-zero_decimal_update_site,,Chargebee doesn''t support the selected currency with {0} gateway.,Chargebee doesn''t support the selected currency with {0} gateway.
-default_gateway_not_configured,,Default payment gateway not configured.,Default payment gateway not configured.
-remove_archived_gw_not_supported,,Payment gateway cannot be removed as it is archived.,Payment gateway cannot be removed as it is archived.
-bank_account_payment_gateway_not_configured,,This operation is not supported as there is no payment gateway configured for bank account.,This operation is not supported as there is no payment gateway configured for bank account.
-empty_card_type_list,,Accepted Card types cannot not be empty,Accepted Card types cannot not be empty
-default_gateway_not_supported,,Default option is not supported for this gateway.,Default option is not supported for this gateway.
-gateway_not_supported,,Selected currency is not supported since you have configured {0}.,Selected currency is not supported since you have configured {0}.
-payment_gateway_not_configured,,This operation is not supported as there is no payment gateway configured.,This operation is not supported as there is no payment gateway configured.
-gateway_not_supported_for_mcp,,Chargebee doesn''t support multicurrency feature for {0} gateway.,Chargebee doesn''t support multicurrency feature for {0} gateway.
-gateway_configuration_failed,,{0}.,{0}.
-forbidden_to_remove,,Payment gateway cannot be removed as there are active subscriptions.,Payment gateway cannot be removed as there are active subscriptions.
-gateway_down,,Communication failure occurred when trying to contact the gateway. Please try after some time,Communication failure occurred when trying to contact the gateway. Please try after some time
-gocardless_redirect_error,,An error occured while redirecting to GoCardless.,An error occured while redirecting to GoCardless.
-invalid_credential,,Please check the submitted credentials. Not able to access the gateway.,Please check the submitted credentials. Not able to access the gateway.
-gateway_already_configured,,This gateway is already configured for the site. Probable reason: {0},This gateway is already configured for the site. Probable reason: {0}
+zero_decimal_update_gateway,Het gebruik van de {0} gateway met de geconfigureerde valuta is niet toegestaan.,Using {0} gateway with the configured currency is not allowed.,Using {0} gateway with the configured currency is not allowed.
+paypal_not_supported,De geselecteerde valuta wordt niet ondersteund sinds u PayPal Express Checkout heeft geconfigureerd.,Selected currency is not supported since you have configured PayPal Express Checkout.,Selected currency is not supported since you have configured PayPal Express Checkout.
+paypal_setup_error,Er is een fout opgetreden bij het omleiden naar PayPal.,An error occured while redirecting to PayPal.,An error occured while redirecting to PayPal.
+currency_not_supported,"Valuta die is geconfigureerd in Chargebee, wordt niet ondersteund door {0}.",Currency configured in Chargebee is not supported by {0}.,Currency configured in Chargebee is not supported by {0}.
+invalid_credential_with_message,{0},{0},{0}
+gateway_credential_missing,Probleem bij het verwerken van uw betaling. Probeer het na enige tijd.,Problem in processing your payment. Please try after some time.,Problem in processing your payment. Please try after some time.
+gw_credential_verification_failed,{0},{0},{0}
+gateway_down_with_message,Er is een communicatiefout opgetreden bij het contact maken met de gateway. Probeer het na enige tijd. Mogelijke reden: {0},Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0},Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0}
+wepay_not_supported,wepay gateway wordt niet ondersteund voor deze bewerking.,wepay gateway is not supported for this operation.,wepay gateway is not supported for this operation.
+delete_card_error,Er is een probleem opgetreden bij het verwijderen van de betaalmethode. Probeer het na enige tijd.,Problem occurred while deleting the payment method. Please try after some time.,Problem occurred while deleting the payment method. Please try after some time.
+gateway_in_active_state,Betalingsgateway is al actief,Payment gateway is already in active state,Payment gateway is already in active state
+zero_decimal_update_site,Chargebee ondersteunt de geselecteerde valuta met de {0} gateway niet.,Chargebee doesn''t support the selected currency with {0} gateway.,Chargebee doesn''t support the selected currency with {0} gateway.
+default_gateway_not_configured,Standaard betalingsgateway niet geconfigureerd.,Default payment gateway not configured.,Default payment gateway not configured.
+remove_archived_gw_not_supported,Betalingsgateway kan niet worden verwijderd omdat deze is gearchiveerd.,Payment gateway cannot be removed as it is archived.,Payment gateway cannot be removed as it is archived.
+bank_account_payment_gateway_not_configured,Deze bewerking wordt niet ondersteund omdat er geen betalingsgateway is geconfigureerd voor een bankrekening.,This operation is not supported as there is no payment gateway configured for bank account.,This operation is not supported as there is no payment gateway configured for bank account.
+empty_card_type_list,Geaccepteerde kaarttypes mogen niet leeg zijn,Accepted Card types cannot not be empty,Accepted Card types cannot not be empty
+default_gateway_not_supported,De standaardoptie wordt niet ondersteund voor deze gateway.,Default option is not supported for this gateway.,Default option is not supported for this gateway.
+gateway_not_supported,De geselecteerde valuta wordt niet ondersteund sinds u {0} heeft geconfigureerd.,Selected currency is not supported since you have configured {0}.,Selected currency is not supported since you have configured {0}.
+payment_gateway_not_configured,Deze bewerking wordt niet ondersteund omdat er geen betalingsgateway is geconfigureerd.,This operation is not supported as there is no payment gateway configured.,This operation is not supported as there is no payment gateway configured.
+gateway_not_supported_for_mcp,Chargebee ondersteunt de functie voor meerdere valuta's voor de {0} gateway niet.,Chargebee doesn''t support multicurrency feature for {0} gateway.,Chargebee doesn''t support multicurrency feature for {0} gateway.
+gateway_configuration_failed,{0}.,{0}.,{0}.
+forbidden_to_remove,Betalingsgateway kan niet worden verwijderd omdat er actieve abonnementen zijn.,Payment gateway cannot be removed as there are active subscriptions.,Payment gateway cannot be removed as there are active subscriptions.
+gateway_down,[object Object],Communication failure occurred when trying to contact the gateway. Please try after some time,Communication failure occurred when trying to contact the gateway. Please try after some time
+gocardless_redirect_error,Er is een fout opgetreden tijdens het omleiden naar GoCardless.,An error occured while redirecting to GoCardless.,An error occured while redirecting to GoCardless.
+invalid_credential,Controleer de ingediende inloggegevens. Geen toegang tot de gateway.,Please check the submitted credentials. Not able to access the gateway.,Please check the submitted credentials. Not able to access the gateway.
+gateway_already_configured,Deze gateway is al geconfigureerd voor de site. Mogelijke reden: {0},This gateway is already configured for the site. Probable reason: {0},This gateway is already configured for the site. Probable reason: {0}

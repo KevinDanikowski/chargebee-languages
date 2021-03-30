@@ -1,92 +1,92 @@
 key,value,reference value,description
-cbjs_grp.bank,,Bank,Bank
-cbjs_grp.select_bank,,Select Bank,Select Bank
-cbjs_grp.list_supported_bank,,Fetching list of supported banks,Fetching list of supported banks
-inapp_checkout.customer.header,,Add your account details,Add your account details
-inapp_checkout.customer.header.edit,,Editing account details,Editing account details
-inapp_checkout.customer.update,,Update,Update
-inapp_checkout.customer.next,,Next,Next
-inapp_checkout.billing_address.header,,Add your billing address,Add your billing address
-inapp_checkout.billing_address.header.edit,,Editing billing address,Editing billing address
-inapp_checkout.billing_address.update,,Update,Update
-inapp_checkout.billing_address.next,,Next,Next
-inapp_checkout.shipping_address.header,,Add your shipping address,Add your shipping address
-inapp_checkout.shipping_address.header.edit,,Editing shipping address,Editing shipping address
-inapp_checkout.shipping_address.update,,Update,Update
-inapp_checkout.shipping_address.next,,Next,Next
-inapp_checkout.choose_sa.header,,Choose Shipping address,Choose Shipping address
-inapp_checkout.billing_address.copy_to_shipping,,Ship to my billing address,Ship to my billing address
-inapp_checkout.shipping_address.choose.add,,Add New,Add New
-inapp_checkout.payment_method.choose.add,,Add Payment Method,Add Payment Method
-inapp_checkout.payment_method.header,,Add your payment details,Add your payment details
-inapp_checkout.payment_method.header.edit,,Editing payment details,Editing payment details
-inapp_checkout.payment_method.header.select,,Select a payment method,Select a payment method
-inapp_checkout.payment_method.footer.choose,,Choose a different payment method,Choose a different payment method
-inapp_checkout.payment_method.update,,Update,Update
-inapp_checkout.payment_method.next,,Next,Next
-inapp_checkout.subscription.header,,Add your subscription details,Add your subscription details
-inapp_checkout.invoice.header,,Add your purchase details,Add your purchase details
-inapp_checkout.subscription.header.edit,,Editing Subscription Details,Editing Subscription Details
-inapp_checkout.invoice.header.edit,,Editing Purchase Details,Editing Purchase Details
-inapp_checkout.subscription.update,,Update,Update
-inapp_checkout.invoice.update,,Update,Update
-inapp_checkout.subscription.next,,Next,Next
-inapp_checkout.invoice.next,,Next,Next
-inapp_checkout.review.header,,Complete your order,Complete your order
-inapp_checkout.pay_review.header,,Complete your order,Complete your order
-inapp_checkout.review.subscribe_btn.current_charge_present.txt,,Pay %{amount} & subscribe,Pay %{amount} & subscribe
-inapp_checkout.review.subscribe_btn.current_charge_zero.txt,,Subscribe,Subscribe
-inapp_checkout.review.order.header,,Order summary,Order summary
-inapp_checkout.review.account.header,,Account,Account
-inapp_checkout.review.billing.header,,Billing,Billing
-inapp_checkout.review.shipping.header,,Shipping,Shipping
-inapp_checkout.review.billing_shipping.header,,Billing & Shipping,Billing & Shipping
-inapp_checkout.review.subscription.header,,Subscription Details,Subscription Details
-inapp_checkout.review.invoice.header,,Purchase Details,Purchase Details
-inapp_checkout.review.pm.header,,Payment,Payment
-inapp_checkout.review.more,,Review Details,Review Details
-inapp_checkout.shipping_address.header.choose,,Choose Shipping Address,Choose Shipping Address
-inapp_checkout.choose_pm.header,,Choose Payment Method,Choose Payment Method
-inapp_checkout.coupon.apply,,Apply,Apply
-inapp_checkout.coupon.label,,Apply coupon,Apply coupon
-inapp_checkout.coupon.placeholder,,Enter coupon code,Enter coupon code
-inapp_checkout.cart.header.edit,,Edit order,Edit order
-inapp_checkout.cart.header,,Your order,Your order
-inapp_checkout.cart.next,,Proceed To Checkout,Proceed To Checkout
-inapp_checkout.cart.remove,,Remove,Remove
-inapp_checkout.cart.recommended_addon_title,,Recommended addons,Recommended addons
-inapp_checkout.payment_method.card.display_name,,Card,Card
-inapp_checkout.payment_method.paypal.display_name,,PayPal,PayPal
+cbjs_grp.bank,Bank,Bank,Bank
+cbjs_grp.select_bank,Velg Bank,Select Bank,Select Bank
+cbjs_grp.list_supported_bank,Henter liste over støttede banker,Fetching list of supported banks,Fetching list of supported banks
+inapp_checkout.customer.header,Legg til kontoopplysningene dine,Add your account details,Add your account details
+inapp_checkout.customer.header.edit,Redigere kontodetaljer,Editing account details,Editing account details
+inapp_checkout.customer.update,Oppdater,Update,Update
+inapp_checkout.customer.next,Neste,Next,Next
+inapp_checkout.billing_address.header,Legg til faktureringsadressen din,Add your billing address,Add your billing address
+inapp_checkout.billing_address.header.edit,Redigerer faktureringsadresse,Editing billing address,Editing billing address
+inapp_checkout.billing_address.update,Oppdater,Update,Update
+inapp_checkout.billing_address.next,Neste,Next,Next
+inapp_checkout.shipping_address.header,Legg til leveringsadresse,Add your shipping address,Add your shipping address
+inapp_checkout.shipping_address.header.edit,Redigerer leveringsadresse,Editing shipping address,Editing shipping address
+inapp_checkout.shipping_address.update,Oppdater,Update,Update
+inapp_checkout.shipping_address.next,Neste,Next,Next
+inapp_checkout.choose_sa.header,Velg leveringsadresse,Choose Shipping address,Choose Shipping address
+inapp_checkout.billing_address.copy_to_shipping,Send til faktureringsadressen min,Ship to my billing address,Ship to my billing address
+inapp_checkout.shipping_address.choose.add,Legg til ny,Add New,Add New
+inapp_checkout.payment_method.choose.add,Legg til betalingsmåte,Add Payment Method,Add Payment Method
+inapp_checkout.payment_method.header,Legg til betalingsinformasjonen din,Add your payment details,Add your payment details
+inapp_checkout.payment_method.header.edit,Redigere betalingsdetaljer,Editing payment details,Editing payment details
+inapp_checkout.payment_method.header.select,Velg en betalingsmetode,Select a payment method,Select a payment method
+inapp_checkout.payment_method.footer.choose,Velg en annen betalingsmåte,Choose a different payment method,Choose a different payment method
+inapp_checkout.payment_method.update,Oppdater,Update,Update
+inapp_checkout.payment_method.next,Neste,Next,Next
+inapp_checkout.subscription.header,Legg til abonnementsopplysningene dine,Add your subscription details,Add your subscription details
+inapp_checkout.invoice.header,Legg til dine kjøpsdetaljer,Add your purchase details,Add your purchase details
+inapp_checkout.subscription.header.edit,Redigere abonnementsdetaljer,Editing Subscription Details,Editing Subscription Details
+inapp_checkout.invoice.header.edit,Redigere kjøpsdetaljer,Editing Purchase Details,Editing Purchase Details
+inapp_checkout.subscription.update,Oppdater,Update,Update
+inapp_checkout.invoice.update,Oppdater,Update,Update
+inapp_checkout.subscription.next,Neste,Next,Next
+inapp_checkout.invoice.next,Neste,Next,Next
+inapp_checkout.review.header,Fullfør bestillingen,Complete your order,Complete your order
+inapp_checkout.pay_review.header,Fullfør bestillingen,Complete your order,Complete your order
+inapp_checkout.review.subscribe_btn.current_charge_present.txt,Betal %{amount} og abonner,Pay %{amount} & subscribe,Pay %{amount} & subscribe
+inapp_checkout.review.subscribe_btn.current_charge_zero.txt,Abonnere,Subscribe,Subscribe
+inapp_checkout.review.order.header,Bestillingssammendrag,Order summary,Order summary
+inapp_checkout.review.account.header,Regnskap,Account,Account
+inapp_checkout.review.billing.header,Fakturering,Billing,Billing
+inapp_checkout.review.shipping.header,Shipping,Shipping,Shipping
+inapp_checkout.review.billing_shipping.header,Fakturering av transport,Billing & Shipping,Billing & Shipping
+inapp_checkout.review.subscription.header,Abonnementsdetaljer,Subscription Details,Subscription Details
+inapp_checkout.review.invoice.header,Kjøpsdetaljer,Purchase Details,Purchase Details
+inapp_checkout.review.pm.header,innbetaling,Payment,Payment
+inapp_checkout.review.more,Gjennomgå detaljer,Review Details,Review Details
+inapp_checkout.shipping_address.header.choose,Velg leveringsadresse,Choose Shipping Address,Choose Shipping Address
+inapp_checkout.choose_pm.header,Velge betalingsmetode,Choose Payment Method,Choose Payment Method
+inapp_checkout.coupon.apply,Søke om,Apply,Apply
+inapp_checkout.coupon.label,Bruk kupong,Apply coupon,Apply coupon
+inapp_checkout.coupon.placeholder,Tast inn kupongkode,Enter coupon code,Enter coupon code
+inapp_checkout.cart.header.edit,Rediger ordren,Edit order,Edit order
+inapp_checkout.cart.header,Din bestilling,Your order,Your order
+inapp_checkout.cart.next,Fortsett til utsjekking,Proceed To Checkout,Proceed To Checkout
+inapp_checkout.cart.remove,Ta bort,Remove,Remove
+inapp_checkout.cart.recommended_addon_title,Anbefalte tillegg,Recommended addons,Recommended addons
+inapp_checkout.payment_method.card.display_name,Kort,Card,Card
+inapp_checkout.payment_method.paypal.display_name,PayPal,PayPal,PayPal
 inapp_checkout.thankyou.header,,,
 inapp_checkout.thankyou.body,,,
-inapp_checkout.thankyou.close,,CLOSE,CLOSE
-inapp_checkout.otp.enter,,Enter your six-digit one time password,Enter your six-digit one time password
-inapp_checkout.password.enter,,Enter your password,Enter your password
-inapp_checkout.otp.resend,,Resend the one time password,Resend the one time password
-inapp_checkout.login.via_otp,,Login via one time password,Login via one time password
-inapp_checkout.otp.enter_password,,Enter password instead,Enter password instead
-inapp_checkout.otp_resend.notify,,New one time password send to your email address,New one time password send to your email address
-inapp_checkout.checkuser.error.multiple_subscriptions_not_allowed,,You already have a subscription with us,You already have a subscription with us
-inapp_checkout.otp.guest,,Proceed as guest,Proceed as guest
-inapp_checkout.checkuser.email,,Enter email to proceed,Enter email to proceed
-inapp_checkout.checkuser.next,,Next,Next
-inapp_checkout.modal_button.confirm,,Confirm,Confirm
-inapp_checkout.modal_button.cancel,,Cancel,Cancel
-inapp_checkout.po_number.label,,PO Number,PO Number
+inapp_checkout.thankyou.close,LUKK,CLOSE,CLOSE
+inapp_checkout.otp.enter,Skriv inn ditt sekssifrede engangspassord,Enter your six-digit one time password,Enter your six-digit one time password
+inapp_checkout.password.enter,Skriv inn passordet ditt,Enter your password,Enter your password
+inapp_checkout.otp.resend,Send engangspassordet på nytt,Resend the one time password,Resend the one time password
+inapp_checkout.login.via_otp,Logg inn via engangspassord,Login via one time password,Login via one time password
+inapp_checkout.otp.enter_password,Skriv inn passord i stedet,Enter password instead,Enter password instead
+inapp_checkout.otp_resend.notify,Nytt engangspassord sendes til e-postadressen din,New one time password send to your email address,New one time password send to your email address
+inapp_checkout.checkuser.error.multiple_subscriptions_not_allowed,Du har allerede et abonnement hos oss,You already have a subscription with us,You already have a subscription with us
+inapp_checkout.otp.guest,Fortsett som gjest,Proceed as guest,Proceed as guest
+inapp_checkout.checkuser.email,Skriv inn e-post for å fortsette,Enter email to proceed,Enter email to proceed
+inapp_checkout.checkuser.next,Neste,Next,Next
+inapp_checkout.modal_button.confirm,Bekrefte,Confirm,Confirm
+inapp_checkout.modal_button.cancel,Avbryt,Cancel,Cancel
+inapp_checkout.po_number.label,postnummer,PO Number,PO Number
 inapp_checkout.items_in_total.custom_label,,,
 inapp_checkout.discounts_applied.label,,,
-inapp_checkout.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-inapp_checkout.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-inapp_checkout.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-inapp_checkout.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-inapp_checkout.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-inapp_checkout.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-inapp_checkout.card.billing_address,,Use my billing address as card address,Use my billing address as card address
-inapp_checkout.card.shipping_address,,Use my shipping address as card address,Use my shipping address as card address
-inapp_checkout.item.breakdown.show,,See Details,See Details
-inapp_checkout.item.breakdown.hide,,Hide Details,Hide Details
-inapp_checkout.cart.trial.info,,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
-inapp_checkout.cart.note.plan.trial,,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
+inapp_checkout.payment_method.bacs.guarantee.header,Tilbake til betaling,Back to Payment,Back to Payment
+inapp_checkout.payment_method.bank_account.btn.proceed_to_review,Fortsett til gjennomgang,Proceed to Review,Proceed to Review
+inapp_checkout.payment_method.bank_account.btn.enter_iban,Skriv inn IBAN,Enter IBAN,Enter IBAN
+inapp_checkout.payment_method.bank_account.btn.enter_local_details,Angi lokale bankopplysninger,Enter local bank details,Enter local bank details
+inapp_checkout.payment_method.bank_account.btn.enter_your_name,Skriv inn navnet ditt,Enter your name,Enter your name
+inapp_checkout.payment_method.bank_account.btn.enter_company_name,Skriv inn firmanavn,Enter company name,Enter company name
+inapp_checkout.card.billing_address,Bruk faktureringsadressen min som kortadresse,Use my billing address as card address,Use my billing address as card address
+inapp_checkout.card.shipping_address,Bruk leveringsadressen min som kortadresse,Use my shipping address as card address,Use my shipping address as card address
+inapp_checkout.item.breakdown.show,Se detaljer,See Details,See Details
+inapp_checkout.item.breakdown.hide,Skjul detaljer,Hide Details,Hide Details
+inapp_checkout.cart.trial.info,Du blir belastet etter prøveperioden %{plan_trial_period}.,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
+inapp_checkout.cart.note.plan.trial,Du blir belastet etter prøveperioden %{plan_trial_period}.,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
 inapp_checkout.review.note.plan.trial,,,
 inapp_checkout.payment_method.note.plan.trial,,,
 inapp_checkout.cart.note.plan.no_trial,,,
@@ -96,270 +96,270 @@ inapp_checkout.customer.note,,,
 inapp_checkout.subscription.note,,,
 inapp_checkout.shipping_address.note,,,
 inapp_checkout.billing_address.note,,,
-inapp_checkout.cart.pay_now.label,,Pay now,Pay now
-inapp_checkout.cart.next_charge.label,,Next charge on %{date},Next charge on %{date}
-inapp_checkout.order_summary.charge_now.label,,Chargeable now,Chargeable now
-inapp_checkout.order_summary.next_charge.label,,Charges on %{date},Charges on %{date}
-inapp_checkout.order.edit.link,,Edit order,Edit order
-inapp_checkout.estimate_display_screen.header,,Your order summary,Your order summary
-inapp_checkout.credits_applied.label,,Credits applied,Credits applied
-inapp_checkout.non_rec_addon.tag,,ONE-TIME,ONE-TIME
-inapp_checkout.coupon.description,,%{amount} coupon applied,%{amount} coupon applied
-inapp_checkout.free_quantity.description,,%{units} units free,%{units} units free
-inapp_checkout.referral.title,,Refer your friends,Refer your friends
-inapp_checkout.referral.cb_reward,,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.
-inapp_checkout.referral.custom_reward,,Refer your friends and we will reward you when they purchase their first subscription.,Refer your friends and we will reward you when they purchase their first subscription.
-inapp_checkout.referral.friend_discount,,Your friend will get %{referral_friend_discount} discount.,Your friend will get %{referral_friend_discount} discount.
-inapp_checkout.referral.link_label,,Your referral link,Your referral link
-inapp_checkout.review.threedsWarning.non_trial,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_checkout.review.threedsWarning.trial,,"You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
-inapp_checkout.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_checkout.otp_email.subject,,Your One Time Password (OTP),Your One Time Password (OTP)
-inapp_checkout.otp_email.salutation,,"Hi there,","Hi there,"
-inapp_checkout.otp_email.otp_line,,%{otp} is your one time password,%{otp} is your one time password
-inapp_checkout.otp_email.desc,,The one time password is valid for 5 minutes from the time it is generated.,The one time password is valid for 5 minutes from the time it is generated.
-inapp_checkout.otp_sms.body,,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.
-inapp_checkout.multi_decimal.quantity.error,,Enter valid quantity,Enter valid quantity
-inapp_checkout.qty,,Qty,Qty
-inapp_checkout.review.opm.cash.desc,,You can make the payment by cash,You can make the payment by cash
-inapp_checkout.review.opm.check.desc,,You can find the payment transfer details as part of the invoice,You can find the payment transfer details as part of the invoice
-inapp_checkout.review.opm.bank_transfer.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.review.opm.ach_credit.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.review.opm.sepa_credit.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.pm.consent.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.
-inapp_checkout.pm.never.save.txt,,Your payment information will not be saved in our system.,Your payment information will not be saved in our system.
-inapp_portal.recommended.addon.tag,,RECOMMENDED,RECOMMENDED
-inapp_portal.home.header,,Manage Subscriptions,Manage Subscriptions
-inapp_portal.locale.label,,Locale,Locale
-inapp_portal.home.footer,,Questions? Our Support Team would be glad to help,Questions? Our Support Team would be glad to help
-inapp_portal.home.account.link_text,,Account Information,Account Information
-inapp_portal.home.address.link_text,,Billing & Shipping Addresses,Billing & Shipping Addresses
-inapp_portal.home.payment_methods.link_text,,Payment Methods,Payment Methods
-inapp_portal.home.billing_history.link_text,,Billing History,Billing History
-inapp_portal.back,,Back,Back
-inapp_portal.subscription.header,,Subscription Details,Subscription Details
-inapp_portal.subscription.header.edit,,Edit Subscription Details,Edit Subscription Details
-inapp_portal.subscription.header.review,,Review subscription changes,Review subscription changes
-inapp_portal.account.header,,Account Details,Account Details
-inapp_portal.account.edit.txt,,Editing account details,Editing account details
-inapp_portal.account.header.edit,,Update your account details,Update your account details
-inapp_portal.account.header.edit.submit,,Update,Update
-inapp_portal.address.header,,Billing & Shipping Addresses,Billing & Shipping Addresses
-inapp_portal.address.billing.txt,,Billing,Billing
-inapp_portal.address.billing.edit.txt,,Editing billing details,Editing billing details
-inapp_portal.address.billing.add.txt,,Add your billing details,Add your billing details
-inapp_portal.address.shipping.txt,,Shipping,Shipping
-inapp_portal.address.shipping.edit.txt,,Editing shipping details,Editing shipping details
-inapp_portal.address.billing.header.edit,,Update your billing details,Update your billing details
-inapp_portal.address.billing.header.edit.submit,,Update,Update
-inapp_portal.address.shipping.header.edit,,Update your shipping details,Update your shipping details
-inapp_portal.address.shipping.header.edit.submit,,Update,Update
-inapp_portal.payment_method.header,,Payment Methods,Payment Methods
-inapp_portal.payment_method.link.add,,Add New,Add New
-inapp_portal.payment_method.link.add_new,,Add a payment method,Add a payment method
-inapp_portal.payment_method.header.add,,Add a payment method,Add a payment method
-inapp_portal.payment_method.header.select,,Select a payment method,Select a payment method
-inapp_portal.payment_method.footer.choose,,Choose a different payment method,Choose a different payment method
-inapp_portal.payment_method.header.add.submit,,Add,Add
-inapp_portal.payment_method.header.edit,,Update your payment method,Update your payment method
-inapp_portal.payment_method.header.edit.submit,,Update,Update
-inapp_portal.payment_method.header.verify,,Verify payment method,Verify payment method
-inapp_portal.payment_method.header.verify.submit,,Verify,Verify
-inapp_portal.billing_history.header,,Billing history,Billing history
-inapp_portal.billing_history.download,,Download,Download
-inapp_portal.billing_history.none,,No invoices to display,No invoices to display
-inapp_portal.subscription.header.edit.submit,,Review,Review
-inapp_portal.subscription.header.review.submit,,Update Subscription,Update Subscription
-inapp_portal.subscription.header.choose_pm,,Choose your payment method for this subscription,Choose your payment method for this subscription
-inapp_portal.subscription.update_sub_pm,,Update,Update
-inapp_portal.subscription.cancel.link.txt,,Cancel Subscription,Cancel Subscription
-inapp_portal.subscription.next.renewing_estimate.now,,You will be charged %{amount} for prorated charges via,You will be charged %{amount} for prorated charges via
-inapp_portal.subscription.next.renewing_estimate.eot.non_recurring,,You will be charged %{amount} via,You will be charged %{amount} via
-inapp_portal.subscription.next.renewing_estimate.eot,,You will be charged %{amount} every %{billing_period} via,You will be charged %{amount} every %{billing_period} via
-inapp_portal.subscription.next.renewing_estimate.eot.with_date,,Your next charge %{amount} will be on %{date} via,Your next charge %{amount} will be on %{date} via
-inapp_portal.subscription.next.credits_created.now,,You will not be charged for this change and %{amount} will be added as refundable credits,You will not be charged for this change and %{amount} will be added as refundable credits
-inapp_portal.subscription.details.trial.info,,"You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan","You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan"
-inapp_portal.subscription.details.cancellation_scheduled.info,,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
-inapp_portal.subscription.next.renewing_estimate.now_zero,," %{amount} charged from available credits."," %{amount} charged from available credits."
-inapp_portal.subscription.details.trial.info_today,,You trial will end today and you’ll be moved to the %{plan_name} plan,You trial will end today and you’ll be moved to the %{plan_name} plan
+inapp_checkout.cart.pay_now.label,Betal nå,Pay now,Pay now
+inapp_checkout.cart.next_charge.label,Neste kostnad på %{date},Next charge on %{date},Next charge on %{date}
+inapp_checkout.order_summary.charge_now.label,Betales nå,Chargeable now,Chargeable now
+inapp_checkout.order_summary.next_charge.label,Kostnader på %{date},Charges on %{date},Charges on %{date}
+inapp_checkout.order.edit.link,Rediger ordren,Edit order,Edit order
+inapp_checkout.estimate_display_screen.header,din ordre oppsummering,Your order summary,Your order summary
+inapp_checkout.credits_applied.label,Kreditter brukt,Credits applied,Credits applied
+inapp_checkout.non_rec_addon.tag,EN GANG,ONE-TIME,ONE-TIME
+inapp_checkout.coupon.description, %{amount} kupong brukt,%{amount} coupon applied,%{amount} coupon applied
+inapp_checkout.free_quantity.description, %{units} enheter gratis,%{units} units free,%{units} units free
+inapp_checkout.referral.title,Henvis vennene dine,Refer your friends,Refer your friends
+inapp_checkout.referral.cb_reward,"Henvis til vennene dine, så gir vi deg %{referral_credits} når de kjøper sitt første abonnement.",Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.
+inapp_checkout.referral.custom_reward,"Henvis til vennene dine, så belønner vi deg når de kjøper sitt første abonnement.",Refer your friends and we will reward you when they purchase their first subscription.,Refer your friends and we will reward you when they purchase their first subscription.
+inapp_checkout.referral.friend_discount,Din venn får %{referral_friend_discount} rabatt.,Your friend will get %{referral_friend_discount} discount.,Your friend will get %{referral_friend_discount} discount.
+inapp_checkout.referral.link_label,Henvisningskoblingen din,Your referral link,Your referral link
+inapp_checkout.review.threedsWarning.non_trial,Du kan bli omdirigert til banksiden din for sikker 3D-bekreftelse.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_checkout.review.threedsWarning.trial,"Du kan bli omdirigert til banksiden din for sikker 3D-bekreftelse som det kan belastes et tokenbeløp for, som vil bli fullstendig tilbakebetalt automatisk.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
+inapp_checkout.3ds.auth.txt,Jeg autoriserer %{organisation_name} til å lagre denne betalingsmåten og automatisk belaste denne betalingsmåten når et abonnement er knyttet til det.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_checkout.otp_email.subject,Ditt engangspassord (OTP),Your One Time Password (OTP),Your One Time Password (OTP)
+inapp_checkout.otp_email.salutation,"Hei der,","Hi there,","Hi there,"
+inapp_checkout.otp_email.otp_line, %{otp} er engangspassordet ditt,%{otp} is your one time password,%{otp} is your one time password
+inapp_checkout.otp_email.desc,Engangspassordet er gyldig i 5 minutter fra det genereres.,The one time password is valid for 5 minutes from the time it is generated.,The one time password is valid for 5 minutes from the time it is generated.
+inapp_checkout.otp_sms.body, %{otp} er engangspassordet ditt. Engangspassordet er gyldig i 5 minutter fra det genereres.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.
+inapp_checkout.multi_decimal.quantity.error,Angi gyldig mengde,Enter valid quantity,Enter valid quantity
+inapp_checkout.qty,Mengde,Qty,Qty
+inapp_checkout.review.opm.cash.desc,Du kan betale med kontanter,You can make the payment by cash,You can make the payment by cash
+inapp_checkout.review.opm.check.desc,Du finner detaljene for betalingsoverføring som en del av fakturaen,You can find the payment transfer details as part of the invoice,You can find the payment transfer details as part of the invoice
+inapp_checkout.review.opm.bank_transfer.desc,Du kan foreta innbetalingen til bankkontoopplysningene som finnes i fakturaen,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.review.opm.ach_credit.desc,Du kan foreta innbetalingen til bankkontoopplysningene som finnes i fakturaen,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.review.opm.sepa_credit.desc,Du kan foreta innbetalingen til bankkontoopplysningene som finnes i fakturaen,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.pm.consent.txt,Jeg autoriserer %{organisation_name} til å lagre denne betalingsmåten og automatisk belaste denne betalingsmåten for fremtidige transaksjoner knyttet til den.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.
+inapp_checkout.pm.never.save.txt,Betalingsinformasjonen din blir ikke lagret i systemet vårt.,Your payment information will not be saved in our system.,Your payment information will not be saved in our system.
+inapp_portal.recommended.addon.tag,ANBEFALT,RECOMMENDED,RECOMMENDED
+inapp_portal.home.header,Administrer abonnementer,Manage Subscriptions,Manage Subscriptions
+inapp_portal.locale.label,Lokalitet,Locale,Locale
+inapp_portal.home.footer,Spørsmål? Supportteamet vårt hjelper deg gjerne,Questions? Our Support Team would be glad to help,Questions? Our Support Team would be glad to help
+inapp_portal.home.account.link_text,Kontoinformasjon,Account Information,Account Information
+inapp_portal.home.address.link_text,Fakturerings- og fraktadresser,Billing & Shipping Addresses,Billing & Shipping Addresses
+inapp_portal.home.payment_methods.link_text,betalingsmetoder,Payment Methods,Payment Methods
+inapp_portal.home.billing_history.link_text,Faktureringshistorikk,Billing History,Billing History
+inapp_portal.back,Tilbake,Back,Back
+inapp_portal.subscription.header,Abonnementsdetaljer,Subscription Details,Subscription Details
+inapp_portal.subscription.header.edit,Rediger abonnementsdetaljer,Edit Subscription Details,Edit Subscription Details
+inapp_portal.subscription.header.review,Gjennomgå abonnementsendringene,Review subscription changes,Review subscription changes
+inapp_portal.account.header,kontodetaljer,Account Details,Account Details
+inapp_portal.account.edit.txt,Redigere kontodetaljer,Editing account details,Editing account details
+inapp_portal.account.header.edit,Oppdater kontoopplysningene dine,Update your account details,Update your account details
+inapp_portal.account.header.edit.submit,Oppdater,Update,Update
+inapp_portal.address.header,Fakturerings- og fraktadresser,Billing & Shipping Addresses,Billing & Shipping Addresses
+inapp_portal.address.billing.txt,Fakturering,Billing,Billing
+inapp_portal.address.billing.edit.txt,Redigere faktureringsdetaljer,Editing billing details,Editing billing details
+inapp_portal.address.billing.add.txt,Legg til faktureringsinformasjonen,Add your billing details,Add your billing details
+inapp_portal.address.shipping.txt,Shipping,Shipping,Shipping
+inapp_portal.address.shipping.edit.txt,Redigere forsendelsesdetaljer,Editing shipping details,Editing shipping details
+inapp_portal.address.billing.header.edit,Oppdater faktureringsinformasjonen,Update your billing details,Update your billing details
+inapp_portal.address.billing.header.edit.submit,Oppdater,Update,Update
+inapp_portal.address.shipping.header.edit,Oppdater fraktinformasjonen,Update your shipping details,Update your shipping details
+inapp_portal.address.shipping.header.edit.submit,Oppdater,Update,Update
+inapp_portal.payment_method.header,betalingsmetoder,Payment Methods,Payment Methods
+inapp_portal.payment_method.link.add,Legg til ny,Add New,Add New
+inapp_portal.payment_method.link.add_new,Legg til en betalingsmåte,Add a payment method,Add a payment method
+inapp_portal.payment_method.header.add,Legg til en betalingsmåte,Add a payment method,Add a payment method
+inapp_portal.payment_method.header.select,Velg en betalingsmetode,Select a payment method,Select a payment method
+inapp_portal.payment_method.footer.choose,Velg en annen betalingsmåte,Choose a different payment method,Choose a different payment method
+inapp_portal.payment_method.header.add.submit,Legge til,Add,Add
+inapp_portal.payment_method.header.edit,Oppdater betalingsmåten,Update your payment method,Update your payment method
+inapp_portal.payment_method.header.edit.submit,Oppdater,Update,Update
+inapp_portal.payment_method.header.verify,Bekreft betalingsmåte,Verify payment method,Verify payment method
+inapp_portal.payment_method.header.verify.submit,Bekrefte,Verify,Verify
+inapp_portal.billing_history.header,Faktureringshistorikk,Billing history,Billing history
+inapp_portal.billing_history.download,nedlasting,Download,Download
+inapp_portal.billing_history.none,Ingen eller flere fakturaer å vise,No invoices to display,No invoices to display
+inapp_portal.subscription.header.edit.submit,Anmeldelse,Review,Review
+inapp_portal.subscription.header.review.submit,Oppdater abonnement,Update Subscription,Update Subscription
+inapp_portal.subscription.header.choose_pm,Velg betalingsmåte for dette abonnementet,Choose your payment method for this subscription,Choose your payment method for this subscription
+inapp_portal.subscription.update_sub_pm,Oppdater,Update,Update
+inapp_portal.subscription.cancel.link.txt,Avbestille abonnementet,Cancel Subscription,Cancel Subscription
+inapp_portal.subscription.next.renewing_estimate.now,Du vil bli belastet %{amount} for forholdsmessige kostnader via,You will be charged %{amount} for prorated charges via,You will be charged %{amount} for prorated charges via
+inapp_portal.subscription.next.renewing_estimate.eot.non_recurring,Du blir belastet %{amount} via,You will be charged %{amount} via,You will be charged %{amount} via
+inapp_portal.subscription.next.renewing_estimate.eot,Du blir belastet %{amount} hver %{billing_period} via,You will be charged %{amount} every %{billing_period} via,You will be charged %{amount} every %{billing_period} via
+inapp_portal.subscription.next.renewing_estimate.eot.with_date,Din neste kostnad %{amount} vil være på %{date} via,Your next charge %{amount} will be on %{date} via,Your next charge %{amount} will be on %{date} via
+inapp_portal.subscription.next.credits_created.now,"Du blir ikke belastet for denne endringen, og %{amount} blir lagt til som refunderbare kreditter",You will not be charged for this change and %{amount} will be added as refundable credits,You will not be charged for this change and %{amount} will be added as refundable credits
+inapp_portal.subscription.details.trial.info,"Du har %{remaining_trial_period} av prøveperioden igjen. Etter at prøveperioden utløper, blir du flyttet til %{plan_name} -planen","You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan","You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan"
+inapp_portal.subscription.details.cancellation_scheduled.info,Abonnementet ditt blir kansellert den %{date},Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
+inapp_portal.subscription.next.renewing_estimate.now_zero, %{amount} belastet fra tilgjengelige kreditter., %{amount} charged from available credits., %{amount} charged from available credits.
+inapp_portal.subscription.details.trial.info_today,"Prøveperioden avsluttes i dag, og du blir flyttet til %{plan_name} -planen",You trial will end today and you’ll be moved to the %{plan_name} plan,You trial will end today and you’ll be moved to the %{plan_name} plan
 inapp_portal.subscription.details.active.info,,,
-inapp_portal.subscription.details.non_renewing.info,,Your subscription will end on %{date},Your subscription will end on %{date}
-inapp_portal.subscription.details.cancelled.info,,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription
-inapp_portal.subscription.details.paused.info,,Your subscription is currently paused.,Your subscription is currently paused.
-inapp_portal.subscription.details.future.info,,Your subscription will start on %{date},Your subscription will start on %{date}
-inapp_portal.subscription.edit.txt,,Edit Subscription,Edit Subscription
-inapp_portal.choose_change_subscription.header,,Change subscription,Change subscription
-inapp_portal.subscription.edit.chooser_question,,When do you want to change the subscription?,When do you want to change the subscription?
-inapp_portal.subscription.change.immediately.option,,Change immediately,Change immediately
-inapp_portal.subscription.change.eot.option,,Change on next renewal(%{date}),Change on next renewal(%{date})
-inapp_portal.subscription.change.specific_date.option,,Change on a specific date,Change on a specific date
-inapp_portal.subscription.change.option.submit,,Change subscription,Change subscription
-inapp_portal.subscription.change.options.proceed,,proceed,proceed
-inapp_portal.subscription.cancel.specific_date.option,,Cancel on a specific date,Cancel on a specific date
-inapp_portal.remove_scheduled_changes.txt,,Remove scheduled changes,Remove scheduled changes
-inapp_portal.subscription.remove_scheduled_cancellation.link_txt,,Remove scheduled cancellation,Remove scheduled cancellation
-inapp_portal.remove_scheduled_changes.info,,These changes will be applied to your subscription from next renewal( %{date} ),These changes will be applied to your subscription from next renewal( %{date} )
-inapp_portal.payment_method.header.view,,Payment Method Details,Payment Method Details
-inapp_portal.payment_method.view.remove,,Remove Payment Method,Remove Payment Method
-inapp_portal.payment_method.view.edit,,Edit Payment Method,Edit Payment Method
-inapp_portal.payment_method.view.remove_prompt,,Are you sure you want to remove this payment method?,Are you sure you want to remove this payment method?
-inapp_portal.subscription_cf.header.edit,,Update your subscription details,Update your subscription details
-inapp_portal.subscription_cf.header.edit.submit,,Update,Update
+inapp_portal.subscription.details.non_renewing.info,Abonnementet ditt avsluttes på %{date},Your subscription will end on %{date},Your subscription will end on %{date}
+inapp_portal.subscription.details.cancelled.info,KANSELLERT. Abonnementet ditt er kansellert. Kontakt oss for å aktivere abonnementet ditt på nytt,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription
+inapp_portal.subscription.details.paused.info,Abonnementet ditt er for øyeblikket midlertidig stoppet.,Your subscription is currently paused.,Your subscription is currently paused.
+inapp_portal.subscription.details.future.info,Abonnementet ditt starter %{date},Your subscription will start on %{date},Your subscription will start on %{date}
+inapp_portal.subscription.edit.txt,Rediger abonnement,Edit Subscription,Edit Subscription
+inapp_portal.choose_change_subscription.header,Bytt abonnement,Change subscription,Change subscription
+inapp_portal.subscription.edit.chooser_question,Når vil du endre abonnementet?,When do you want to change the subscription?,When do you want to change the subscription?
+inapp_portal.subscription.change.immediately.option,Bytt umiddelbart,Change immediately,Change immediately
+inapp_portal.subscription.change.eot.option,Endring ved neste fornyelse ( %{date}),Change on next renewal(%{date}),Change on next renewal(%{date})
+inapp_portal.subscription.change.specific_date.option,Endre på en bestemt dato,Change on a specific date,Change on a specific date
+inapp_portal.subscription.change.option.submit,Bytt abonnement,Change subscription,Change subscription
+inapp_portal.subscription.change.options.proceed,fortsette,proceed,proceed
+inapp_portal.subscription.cancel.specific_date.option,Avbryt på en bestemt dato,Cancel on a specific date,Cancel on a specific date
+inapp_portal.remove_scheduled_changes.txt,Fjern planlagte endringer,Remove scheduled changes,Remove scheduled changes
+inapp_portal.subscription.remove_scheduled_cancellation.link_txt,Fjern planlagt avbestilling,Remove scheduled cancellation,Remove scheduled cancellation
+inapp_portal.remove_scheduled_changes.info,Disse endringene blir brukt på abonnementet ditt fra neste fornyelse ( %{date}),These changes will be applied to your subscription from next renewal( %{date} ),These changes will be applied to your subscription from next renewal( %{date} )
+inapp_portal.payment_method.header.view,Betalingsmåte Detaljer,Payment Method Details,Payment Method Details
+inapp_portal.payment_method.view.remove,Fjern betalingsmåte,Remove Payment Method,Remove Payment Method
+inapp_portal.payment_method.view.edit,Rediger betalingsmåte,Edit Payment Method,Edit Payment Method
+inapp_portal.payment_method.view.remove_prompt,Er du sikker på at du vil fjerne denne betalingsmåten?,Are you sure you want to remove this payment method?,Are you sure you want to remove this payment method?
+inapp_portal.subscription_cf.header.edit,Oppdater abonnementsopplysningene dine,Update your subscription details,Update your subscription details
+inapp_portal.subscription_cf.header.edit.submit,Oppdater,Update,Update
 inapp_portal.discounts_applied.label,,,
 inapp_portal.items_in_total.custom_label,,,
 inapp_portal.more_items_txt.custom_label,,,
-inapp_portal.home.gift_sub.gifted_by,,Recieved from %{name},Recieved from %{name}
-inapp_portal.sub_details.gift.gifted_by,,Gifted by %{name},Gifted by %{name}
-inapp_portal.subscription.cancel.header,,Cancel Subscription,Cancel Subscription
-inapp_portal.subscription.cancel.header.submit,,Confirm Cancellation,Confirm Cancellation
-inapp_portal.subscription.cancel.when,,When do you want to cancel the subscription?,When do you want to cancel the subscription?
-inapp_portal.subscription.cancel.eot.option,,Cancel on next renewal  (%{date}),Cancel on next renewal  (%{date})
-inapp_portal.subscription.cancel.immediately.option,,Cancel Immediately,Cancel Immediately
-inapp_portal.subscription.cancel.immediately.info,,Your subscription will be canceled immediately,Your subscription will be canceled immediately
-inapp_portal.subscription.cancel.eot.info,,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
-inapp_portal.subscription.cancel.reason,,Reason for cancellation,Reason for cancellation
-inapp_portal.subscription.cancel.feedback,,Is there anything else you would like to let us know?,Is there anything else you would like to let us know?
-inapp_portal.subscription.cancel.reason.option,,Select a cancellation reason,Select a cancellation reason
-inapp_portal.subscription.canceled.reason_code.info,,Your subscription was canceled with the reason '%{reason}',Your subscription was canceled with the reason '%{reason}'
-inapp_portal.subscription.sch_cancel.reason_code.info,,Your subscription will be canceled with the reason '%{reason}',Your subscription will be canceled with the reason '%{reason}'
-inapp_portal.scheduled_changes.header,,View scheduled changes,View scheduled changes
-inapp_portal.scheduled_changes_navigation.header,,Changes from next renewal,Changes from next renewal
-inapp_portal.subscription_preview_navigation.header,,Subscription Details,Subscription Details
-inapp_portal.consent.header,,Permissions,Permissions
-inapp_portal.consent_section.name,,Permissions,Permissions
-inapp_portal.consent.revoke_alert,,Are you sure?,Are you sure?
-inapp_portal.consent.submit,,Update,Update
-inapp_portal.remove_scheduled_pause.confirm_txt,,The scheduled pause for your subscription will be removed. Continue?,The scheduled pause for your subscription will be removed. Continue?
-inapp_portal.resume_subscription_now.confirm_txt,,Your subscription will resume immediately. Continue?,Your subscription will resume immediately. Continue?
-inapp_portal.resume_now.link,,Resume now,Resume now
-inapp_portal.remove_scheduled_pause.link,,Remove Scheduled Pause,Remove Scheduled Pause
-inapp_portal.subscription.details.pause_scheduled.info,,Your subscription will be paused on %{date},Your subscription will be paused on %{date}
-inapp_portal.subscription.details.resume_scheduled.info,,Your subscription will resume on %{date},Your subscription will resume on %{date}
-inapp_portal.subscription.pause.link.txt,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.header,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.submit,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.immediate_indefinite.info,,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page
-inapp_portal.subscription.pause.immediate_fixed_time.info,,"Your subscription will be paused immediately, and will resume after %{pause_period_set} days.","Your subscription will be paused immediately, and will resume after %{pause_period_set} days."
-inapp_portal.subscription.pause.immediate_options.info,,Your subscription will be paused immediately.,Your subscription will be paused immediately.
-inapp_portal.subscription.pause.immediate_indefinite.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.immediate_fixed_time.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.immediate_options.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_indefinite.info,,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
-inapp_portal.subscription.pause.eot_fixed_time.info,,"Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days.","Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days."
-inapp_portal.subscription.pause.eot_options.info,,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
-inapp_portal.subscription.pause.eot_indefinite.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_fixed_time.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_options.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.chooser_question,,How long do you want to pause the subscription?,How long do you want to pause the subscription?
-inapp_portal.subscription.pause.custom_date,,Custom date,Custom date
-inapp_portal.subscription.pause.choose_specific_date,,(Choose a specific date),(Choose a specific date)
-inapp_portal.subscription.pause.pause_until,,Pause until,Pause until
-inapp_portal.payment_method_tag.primary,,Primary,Primary
-inapp_portal.payment_method_tag.backup,,Backup,Backup
-inapp_portal.payment_method.suggest_backup,,Backups come handy when your primary payment fails. Set a backup.,Backups come handy when your primary payment fails. Set a backup.
-inapp_portal.card.expiring,,Expires on %{card_expiry},Expires on %{card_expiry}
-inapp_portal.card.expired,,Expired on %{card_expiry},Expired on %{card_expiry}
-inapp_portal.pm.set_role.link,,Set this as primary or backup,Set this as primary or backup
-inapp_portal.pm.set_role.title,,Set this payment method as,Set this payment method as
-inapp_portal.pm.set_role.header,,Payment Method Settings,Payment Method Settings
-inapp_portal.pm.set_role.update_btn,,Update,Update
-inapp_portal.pm.set_role.skip_btn,,Skip,Skip
-inapp_portal.pm.remove_backup.link,,Remove as backup,Remove as backup
-inapp_portal.pm.remove_backup.message,,Remove backup? Backups come handy when your primary payment method fails.,Remove backup? Backups come handy when your primary payment method fails.
-inapp_portal.pm.remove_backup.confirm,,Remove,Remove
-inapp_portal.pm.set_primary.message,,Set this as primary? This will replace your current primary payment method,Set this as primary? This will replace your current primary payment method
-inapp_portal.pm.set_primary.confirm,,Confirm,Confirm
-inapp_portal.pm.set_primary.link,,Set as primary,Set as primary
-inapp_portal.pm.primary.desc.txt,,This is your primary payment method,This is your primary payment method
-inapp_portal.pm.backup.desc.txt,,This is your backup payment method,This is your backup payment method
-inapp_portal.pm.primary.warning.txt,,This will replace your current primary payment method,This will replace your current primary payment method
-inapp_portal.pm.backup.warning.txt,,This will replace your current backup payment method,This will replace your current backup payment method
-inapp_portal.pm.primary.info.txt,,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
-inapp_portal.pm.backup.info.txt,,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
-inapp_portal.pm.primary.desc.detail,,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
-inapp_portal.pm.backup.desc.detail,,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
-inapp_portal.subscription.details.pm_warning,,"Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription.","Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription."
-inapp_portal.error.future_date.required,,Please provide a future date in correct format to process the request.,Please provide a future date in correct format to process the request.
-inapp_portal.addon_item_price_selection.header,,Change addon frequency,Change addon frequency
-inapp_portal.addon_item_price_selection.title,,Select billing frequency,Select billing frequency
-inapp_portal.addon_item_price_selection.update.btn,,Update,Update
-inapp_portal.item_selection.header,,Change plan,Change plan
-inapp_portal.item_selection.title,,Select billing frequency,Select billing frequency
-inapp_portal.item_selection.update.btn,,Update,Update
-inapp_portal.subscription.reactivate.link.txt,,Reactivate Subscription,Reactivate Subscription
-inapp_portal.reactivate_confirm.txt,,Are you sure you want to reactivate this subscription?,Are you sure you want to reactivate this subscription?
-inapp_portal.remove_cancellation.confirm_txt,,Are you sure you want to remove the scheduled cancellation?,Are you sure you want to remove the scheduled cancellation?
-inapp_portal.remove_scheduled_changes_confirm.txt,,Are you sure you want to remove the scheduled changes?,Are you sure you want to remove the scheduled changes?
-inapp_portal.modal_button.confirm,,Confirm,Confirm
-inapp_portal.modal_button.cancel,,Cancel,Cancel
-inapp_portal.subscriptions.load_more,,Load more,Load more
-inapp_portal.subscriptions.more,,See all your subscriptions,See all your subscriptions
-inapp_portal.portal_home.close,,Exit,Exit
-inapp_portal.change_item.txt,,Change,Change
-inapp_portal.add_addons.txt,,Add Addons,Add Addons
-inapp_portal.add_addons.btn,,Add,Add
-inapp_portal.edit_addon_item.btn,,Edit,Edit
-inapp_portal.add_addons.non_rec.title,,ONE-TIME CHARGES,ONE-TIME CHARGES
-inapp_portal.item.breakdown.show,,See Details,See Details
-inapp_portal.item.breakdown.hide,,Hide Details,Hide Details
-inapp_portal.subscription.view_breakup,,View breakdown,View breakdown
-inapp_portal.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-inapp_portal.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-inapp_portal.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-inapp_portal.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-inapp_portal.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-inapp_portal.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-inapp_portal.payment_method.bank_account.stripe_ach_verify_note,,You have a maximum of 10 attempts to verify your payment method.,You have a maximum of 10 attempts to verify your payment method.
-inapp_portal.home.gift_bar,,Gifted %{number} subscriptions,Gifted %{number} subscriptions
-inapp_portal.home.gift_header,,GIFT SUBSCRIPTIONS,GIFT SUBSCRIPTIONS
-inapp_portal.gift_tag.scheduled,,Gift to %{name} scheduled,Gift to %{name} scheduled
-inapp_portal.gift_tag.unclaimed,,Gift yet to be claimed by %{name},Gift yet to be claimed by %{name}
-inapp_portal.gift_tag.claimed,,Gifted to %{name},Gifted to %{name}
-inapp_portal.gift_tag.canceled,,Gift to %{name} has been canceled,Gift to %{name} has been canceled
-inapp_portal.gift_tag.expired,,Gifted to %{name} has been expired,Gifted to %{name} has been expired
-inapp_portal.gift_details_notification.scheduled,,Your gift will be sent to the recipient via email on %{date},Your gift will be sent to the recipient via email on %{date}
-inapp_portal.gift_details_notification.unclaimed,,Your gift is yet to be claimed by the recipient.,Your gift is yet to be claimed by the recipient.
-inapp_portal.gift_details_notification.canceled,,Your gift has been canceled,Your gift has been canceled
+inapp_portal.home.gift_sub.gifted_by,Mottatt fra %{name},Recieved from %{name},Recieved from %{name}
+inapp_portal.sub_details.gift.gifted_by,Gavet av %{name},Gifted by %{name},Gifted by %{name}
+inapp_portal.subscription.cancel.header,Avbestille abonnementet,Cancel Subscription,Cancel Subscription
+inapp_portal.subscription.cancel.header.submit,Bekreft kansellering,Confirm Cancellation,Confirm Cancellation
+inapp_portal.subscription.cancel.when,Når vil du si opp abonnementet?,When do you want to cancel the subscription?,When do you want to cancel the subscription?
+inapp_portal.subscription.cancel.eot.option,Avbryt ved neste fornyelse ( %{date}),Cancel on next renewal  (%{date}),Cancel on next renewal  (%{date})
+inapp_portal.subscription.cancel.immediately.option,Avbryt umiddelbart,Cancel Immediately,Cancel Immediately
+inapp_portal.subscription.cancel.immediately.info,Abonnementet ditt blir kansellert umiddelbart,Your subscription will be canceled immediately,Your subscription will be canceled immediately
+inapp_portal.subscription.cancel.eot.info,Abonnementet ditt blir kansellert den %{date},Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
+inapp_portal.subscription.cancel.reason,Årsak til kansellering,Reason for cancellation,Reason for cancellation
+inapp_portal.subscription.cancel.feedback,Er det noe annet du vil gi oss beskjed om?,Is there anything else you would like to let us know?,Is there anything else you would like to let us know?
+inapp_portal.subscription.cancel.reason.option,Velg en avbestillingsårsak,Select a cancellation reason,Select a cancellation reason
+inapp_portal.subscription.canceled.reason_code.info,Abonnementet ditt ble kansellert med årsaken ' %{reason}',Your subscription was canceled with the reason '%{reason}',Your subscription was canceled with the reason '%{reason}'
+inapp_portal.subscription.sch_cancel.reason_code.info,Abonnementet ditt blir kansellert med årsaken ' %{reason}',Your subscription will be canceled with the reason '%{reason}',Your subscription will be canceled with the reason '%{reason}'
+inapp_portal.scheduled_changes.header,Vis planlagte endringer,View scheduled changes,View scheduled changes
+inapp_portal.scheduled_changes_navigation.header,Endringer fra neste fornyelse,Changes from next renewal,Changes from next renewal
+inapp_portal.subscription_preview_navigation.header,Abonnementsdetaljer,Subscription Details,Subscription Details
+inapp_portal.consent.header,Tillatelser,Permissions,Permissions
+inapp_portal.consent_section.name,Tillatelser,Permissions,Permissions
+inapp_portal.consent.revoke_alert,Er du sikker?,Are you sure?,Are you sure?
+inapp_portal.consent.submit,Oppdater,Update,Update
+inapp_portal.remove_scheduled_pause.confirm_txt,Den planlagte pause for abonnementet ditt blir fjernet. Fortsette?,The scheduled pause for your subscription will be removed. Continue?,The scheduled pause for your subscription will be removed. Continue?
+inapp_portal.resume_subscription_now.confirm_txt,Abonnementet ditt gjenopptas umiddelbart. Fortsette?,Your subscription will resume immediately. Continue?,Your subscription will resume immediately. Continue?
+inapp_portal.resume_now.link,Fortsett nå,Resume now,Resume now
+inapp_portal.remove_scheduled_pause.link,Fjern planlagt pause,Remove Scheduled Pause,Remove Scheduled Pause
+inapp_portal.subscription.details.pause_scheduled.info,Abonnementet ditt blir satt på pause den %{date},Your subscription will be paused on %{date},Your subscription will be paused on %{date}
+inapp_portal.subscription.details.resume_scheduled.info,Abonnementet ditt gjenopptas %{date},Your subscription will resume on %{date},Your subscription will resume on %{date}
+inapp_portal.subscription.pause.link.txt,Stopp abonnementet midlertidig,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.header,Stopp abonnementet midlertidig,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.submit,Stopp abonnementet midlertidig,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.immediate_indefinite.info,Abonnementet ditt blir satt på pause umiddelbart. Du kan når som helst gjenoppta abonnementet ditt fra siden med abonnementsdetaljer,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page
+inapp_portal.subscription.pause.immediate_fixed_time.info,"Abonnementet ditt blir satt på pause umiddelbart, og fortsetter etter %{pause_period_set} dager.","Your subscription will be paused immediately, and will resume after %{pause_period_set} days.","Your subscription will be paused immediately, and will resume after %{pause_period_set} days."
+inapp_portal.subscription.pause.immediate_options.info,Abonnementet ditt blir satt på pause umiddelbart.,Your subscription will be paused immediately.,Your subscription will be paused immediately.
+inapp_portal.subscription.pause.immediate_indefinite.gen,"Når du setter på pause, blir ikke abonnementet ditt fakturert og fornyes ikke.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.immediate_fixed_time.gen,"Når du holder på med pause, blir ikke abonnementet ditt fakturert og vil ikke fornyes.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.immediate_options.gen,"Når du holder på med pause, blir ikke abonnementet ditt fakturert og vil ikke fornyes.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_indefinite.info,Abonnementet ditt blir satt på pause den %{date}.,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
+inapp_portal.subscription.pause.eot_fixed_time.info,"Abonnementet ditt blir satt på pause %{date}, og fortsetter etter %{pause_period_set} dager.","Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days.","Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days."
+inapp_portal.subscription.pause.eot_options.info,Abonnementet ditt blir satt på pause den %{date}.,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
+inapp_portal.subscription.pause.eot_indefinite.gen,"Når du setter på pause, blir ikke abonnementet ditt fakturert og fornyes ikke.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_fixed_time.gen,"Når du setter på pause, blir ikke abonnementet ditt fakturert og fornyes ikke.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_options.gen,"Når du setter på pause, blir ikke abonnementet ditt fakturert og fornyes ikke.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.chooser_question,Hvor lenge vil du stoppe abonnementet midlertidig?,How long do you want to pause the subscription?,How long do you want to pause the subscription?
+inapp_portal.subscription.pause.custom_date,Egendefinert dato,Custom date,Custom date
+inapp_portal.subscription.pause.choose_specific_date,(Velg en bestemt dato),(Choose a specific date),(Choose a specific date)
+inapp_portal.subscription.pause.pause_until,Pause til,Pause until,Pause until
+inapp_portal.payment_method_tag.primary,Hoved,Primary,Primary
+inapp_portal.payment_method_tag.backup,Sikkerhetskopiering,Backup,Backup
+inapp_portal.payment_method.suggest_backup,Sikkerhetskopier er nyttige når primærbetalingen mislykkes. Sett en sikkerhetskopi.,Backups come handy when your primary payment fails. Set a backup.,Backups come handy when your primary payment fails. Set a backup.
+inapp_portal.card.expiring,Utløper %{card_expiry},Expires on %{card_expiry},Expires on %{card_expiry}
+inapp_portal.card.expired,Utløpt den %{card_expiry},Expired on %{card_expiry},Expired on %{card_expiry}
+inapp_portal.pm.set_role.link,Sett dette som primær eller sikkerhetskopi,Set this as primary or backup,Set this as primary or backup
+inapp_portal.pm.set_role.title,Sett denne betalingsmåten som,Set this payment method as,Set this payment method as
+inapp_portal.pm.set_role.header,Innstillinger for betalingsmåte,Payment Method Settings,Payment Method Settings
+inapp_portal.pm.set_role.update_btn,Oppdater,Update,Update
+inapp_portal.pm.set_role.skip_btn,Hopp over,Skip,Skip
+inapp_portal.pm.remove_backup.link,Fjern som sikkerhetskopi,Remove as backup,Remove as backup
+inapp_portal.pm.remove_backup.message,Fjern backup? Sikkerhetskopier er nyttige når den primære betalingsmåten mislykkes.,Remove backup? Backups come handy when your primary payment method fails.,Remove backup? Backups come handy when your primary payment method fails.
+inapp_portal.pm.remove_backup.confirm,Ta bort,Remove,Remove
+inapp_portal.pm.set_primary.message,Vil du sette dette som primær? Dette erstatter din nåværende primære betalingsmåte,Set this as primary? This will replace your current primary payment method,Set this as primary? This will replace your current primary payment method
+inapp_portal.pm.set_primary.confirm,Bekrefte,Confirm,Confirm
+inapp_portal.pm.set_primary.link,Sett som primær,Set as primary,Set as primary
+inapp_portal.pm.primary.desc.txt,Dette er din primære betalingsmåte,This is your primary payment method,This is your primary payment method
+inapp_portal.pm.backup.desc.txt,Dette er din alternative betalingsmåte,This is your backup payment method,This is your backup payment method
+inapp_portal.pm.primary.warning.txt,Dette erstatter din nåværende primære betalingsmåte,This will replace your current primary payment method,This will replace your current primary payment method
+inapp_portal.pm.backup.warning.txt,Dette erstatter din nåværende betalingsmåte for sikkerhetskopi,This will replace your current backup payment method,This will replace your current backup payment method
+inapp_portal.pm.primary.info.txt,Dette vil bli belastet for alle dine automatiske innbetalinger.,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
+inapp_portal.pm.backup.info.txt,Dette vil være sikkerhetskopien når den primære betalingsmåten mislykkes.,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
+inapp_portal.pm.primary.desc.detail,Dette vil bli belastet for alle dine automatiske innbetalinger.,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
+inapp_portal.pm.backup.desc.detail,Dette vil være sikkerhetskopien når den primære betalingsmåten mislykkes.,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
+inapp_portal.subscription.details.pm_warning,"Sørg for å holde denne betalingsmåten oppdatert, da reservebetalingsmåten ikke blir brukt for dette abonnementet.","Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription.","Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription."
+inapp_portal.error.future_date.required,Oppgi en fremtidig dato i riktig format for å behandle forespørselen.,Please provide a future date in correct format to process the request.,Please provide a future date in correct format to process the request.
+inapp_portal.addon_item_price_selection.header,Endre tilleggsfrekvens,Change addon frequency,Change addon frequency
+inapp_portal.addon_item_price_selection.title,Velg faktureringsfrekvens,Select billing frequency,Select billing frequency
+inapp_portal.addon_item_price_selection.update.btn,Oppdater,Update,Update
+inapp_portal.item_selection.header,Endre plan,Change plan,Change plan
+inapp_portal.item_selection.title,Velg faktureringsfrekvens,Select billing frequency,Select billing frequency
+inapp_portal.item_selection.update.btn,Oppdater,Update,Update
+inapp_portal.subscription.reactivate.link.txt,Aktiver abonnementet på nytt,Reactivate Subscription,Reactivate Subscription
+inapp_portal.reactivate_confirm.txt,Er du sikker på at du vil aktivere dette abonnementet på nytt?,Are you sure you want to reactivate this subscription?,Are you sure you want to reactivate this subscription?
+inapp_portal.remove_cancellation.confirm_txt,Er du sikker på at du vil fjerne den planlagte kanselleringen?,Are you sure you want to remove the scheduled cancellation?,Are you sure you want to remove the scheduled cancellation?
+inapp_portal.remove_scheduled_changes_confirm.txt,Er du sikker på at du vil fjerne de planlagte endringene?,Are you sure you want to remove the scheduled changes?,Are you sure you want to remove the scheduled changes?
+inapp_portal.modal_button.confirm,Bekrefte,Confirm,Confirm
+inapp_portal.modal_button.cancel,Avbryt,Cancel,Cancel
+inapp_portal.subscriptions.load_more,Last mer,Load more,Load more
+inapp_portal.subscriptions.more,Se alle abonnementene dine,See all your subscriptions,See all your subscriptions
+inapp_portal.portal_home.close,Exit,Exit,Exit
+inapp_portal.change_item.txt,Endring,Change,Change
+inapp_portal.add_addons.txt,Legg til tillegg,Add Addons,Add Addons
+inapp_portal.add_addons.btn,Legge til,Add,Add
+inapp_portal.edit_addon_item.btn,Redigere,Edit,Edit
+inapp_portal.add_addons.non_rec.title,ENGANGS LADINGER,ONE-TIME CHARGES,ONE-TIME CHARGES
+inapp_portal.item.breakdown.show,Se detaljer,See Details,See Details
+inapp_portal.item.breakdown.hide,Skjul detaljer,Hide Details,Hide Details
+inapp_portal.subscription.view_breakup,Vis sammenbrudd,View breakdown,View breakdown
+inapp_portal.payment_method.bacs.guarantee.header,Tilbake til betaling,Back to Payment,Back to Payment
+inapp_portal.payment_method.bank_account.btn.proceed_to_review,Fortsett til gjennomgang,Proceed to Review,Proceed to Review
+inapp_portal.payment_method.bank_account.btn.enter_iban,Skriv inn IBAN,Enter IBAN,Enter IBAN
+inapp_portal.payment_method.bank_account.btn.enter_local_details,Angi lokale bankopplysninger,Enter local bank details,Enter local bank details
+inapp_portal.payment_method.bank_account.btn.enter_your_name,Skriv inn navnet ditt,Enter your name,Enter your name
+inapp_portal.payment_method.bank_account.btn.enter_company_name,Skriv inn firmanavn,Enter company name,Enter company name
+inapp_portal.payment_method.bank_account.stripe_ach_verify_note,Du har maksimalt ti forsøk på å bekrefte betalingsmåten din.,You have a maximum of 10 attempts to verify your payment method.,You have a maximum of 10 attempts to verify your payment method.
+inapp_portal.home.gift_bar,Begavede %{number} abonnementer,Gifted %{number} subscriptions,Gifted %{number} subscriptions
+inapp_portal.home.gift_header,GAVEGANGER,GIFT SUBSCRIPTIONS,GIFT SUBSCRIPTIONS
+inapp_portal.gift_tag.scheduled,Gave til %{name} planlagt,Gift to %{name} scheduled,Gift to %{name} scheduled
+inapp_portal.gift_tag.unclaimed,Gaven som ikke kreves av %{name},Gift yet to be claimed by %{name},Gift yet to be claimed by %{name}
+inapp_portal.gift_tag.claimed,Gavet til %{name},Gifted to %{name},Gifted to %{name}
+inapp_portal.gift_tag.canceled,Gaven til %{name} er kansellert,Gift to %{name} has been canceled,Gift to %{name} has been canceled
+inapp_portal.gift_tag.expired,Gaven til %{name} er utløpt,Gifted to %{name} has been expired,Gifted to %{name} has been expired
+inapp_portal.gift_details_notification.scheduled,Gaven din blir sendt til mottakeren via e-post %{date},Your gift will be sent to the recipient via email on %{date},Your gift will be sent to the recipient via email on %{date}
+inapp_portal.gift_details_notification.unclaimed,Gaven din skal ennå ikke kreves av mottakeren.,Your gift is yet to be claimed by the recipient.,Your gift is yet to be claimed by the recipient.
+inapp_portal.gift_details_notification.canceled,Gaven din er kansellert,Your gift has been canceled,Your gift has been canceled
 inapp_portal.gift_details_notification.claimed,,,
-inapp_portal.gift_details_notification.expired,,Your gift was not claimed by the recipient,Your gift was not claimed by the recipient
-inapp_portal.gift.cancel_by_gifter,,Cancel the gift,Cancel the gift
-inapp_portal.gift.cancel_by_gifter.warning,,Are you sure you want to cancel this gift?,Are you sure you want to cancel this gift?
-inapp_portal.hierarchy.my_subscription.my_payment,,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
-inapp_portal.hierarchy.my_subscription.my_invoice,,This subscription is paid by %{customer_display_info} and invoiced to you.,This subscription is paid by %{customer_display_info} and invoiced to you.
-inapp_portal.hierarchy.my_subscription.parent_payment,,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
-inapp_portal.hierarchy.my_subscription.paid_parent,,Paid by %{customer_display_info},Paid by %{customer_display_info}
-inapp_portal.home.my_subscription.parent_pays,,Paid by %{customer_display_info},Paid by %{customer_display_info}
-inapp_portal.home.child_sub_bar.multiple,,%{number} Child subscriptions,%{number} Child subscriptions
-inapp_portal.home.child_sub_bar.single,,%{number} Child subscription,%{number} Child subscription
-inapp_portal.home.child_sub_header,,Child subscriptions,Child subscriptions
-inapp_portal.child_subs.navigation_header,,Child subscriptions,Child subscriptions
-inapp_portal.see_parent_invoices,,See invoices paid by %{customer_display_info} for your subscritpions.,See invoices paid by %{customer_display_info} for your subscritpions.
-inapp_portal.invoice.paid_for_child,,This invoice belongs to %{customer_display_info} and is paid by you.,This invoice belongs to %{customer_display_info} and is paid by you.
-inapp_portal.invoice.parent_only,,You are seeing this invoice as you are the parent of this customer.,You are seeing this invoice as you are the parent of this customer.
-inapp_portal.child_sub_detail.invoice.to_parent,,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
-inapp_portal.child_sub_detail.invoice.to_child,,This subscription is paid by you and invoiced to %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.
-inapp_portal.child_sub_detail.payment_and_invoice.to_child,,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
-inapp_portal.invoices.paid_py_parent,,%{customer_display_info} pays for this invoice.,%{customer_display_info} pays for this invoice.
-inapp_portal.invoice,,Invoice # %{id},Invoice # %{id}
-inapp_portal.payment_owner_billing_history.header,,Invoices of parent,Invoices of parent
-inapp_portal.child_subscription.header,,Child subscription details,Child subscription details
-inapp_portal.invoice.payment.status.not_paid,,Not Paid,Not Paid
-inapp_portal.invoice.payment.status.paid,,Paid,Paid
-inapp_portal.invoice.payment.status.payment_due,,Payment Due,Payment Due
-inapp_portal.invoice.payment.status.pending,,Pending,Pending
-inapp_portal.invoice.payment.status.posted,,Posted,Posted
-inapp_portal.invoice.payment.status.to_collect,,Collecting,Collecting
-inapp_portal.invoice.payment.status.upcoming,,Upcoming,Upcoming
-inapp_portal.invoice.payment.status.voided,,Voided,Voided
-inapp_portal.subscription.extend.header,,Extend your subscription,Extend your subscription
-inapp_portal.subscription.extend.submit,,Extend for another %{extension_period},Extend for another %{extension_period}
-inapp_portal.subscription.extend.expiry.warning,,Your current plan will expire on %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date}
-inapp_portal.subscription.extend.info,,Charges for extending your plan will be applicable on %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date}
-inapp_portal.subscription.extend.thankyou.header,,Thank you for extending the subscription,Thank you for extending the subscription
-inapp_portal.subscription.extend.thankyou.body,,Your subscription has been extended for another %{extension_period},Your subscription has been extended for another %{extension_period}
-inapp_portal.subscription.extend.thankyou.close,,CLOSE,CLOSE
-inapp_portal.review.pm.header,,Payment,Payment
-inapp_portal.review.pm.not_available,,No payment method available,No payment method available
+inapp_portal.gift_details_notification.expired,Gaven din ble ikke gjort krav på av mottakeren,Your gift was not claimed by the recipient,Your gift was not claimed by the recipient
+inapp_portal.gift.cancel_by_gifter,Avbryt gaven,Cancel the gift,Cancel the gift
+inapp_portal.gift.cancel_by_gifter.warning,Er du sikker på at du vil kansellere denne gaven?,Are you sure you want to cancel this gift?,Are you sure you want to cancel this gift?
+inapp_portal.hierarchy.my_subscription.my_payment,Dette abonnementet betales av deg og faktureres til deg.,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
+inapp_portal.hierarchy.my_subscription.my_invoice,Dette abonnementet betales av %{customer_display_info} og faktureres til deg.,This subscription is paid by %{customer_display_info} and invoiced to you.,This subscription is paid by %{customer_display_info} and invoiced to you.
+inapp_portal.hierarchy.my_subscription.parent_payment,Dette abonnementet betales av og faktureres til %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
+inapp_portal.hierarchy.my_subscription.paid_parent,Betalt av %{customer_display_info},Paid by %{customer_display_info},Paid by %{customer_display_info}
+inapp_portal.home.my_subscription.parent_pays,Betalt av %{customer_display_info},Paid by %{customer_display_info},Paid by %{customer_display_info}
+inapp_portal.home.child_sub_bar.multiple, %{number} Barnabonnement,%{number} Child subscriptions,%{number} Child subscriptions
+inapp_portal.home.child_sub_bar.single, %{number} Barneabonnement,%{number} Child subscription,%{number} Child subscription
+inapp_portal.home.child_sub_header,Barnabonnement,Child subscriptions,Child subscriptions
+inapp_portal.child_subs.navigation_header,Barnabonnement,Child subscriptions,Child subscriptions
+inapp_portal.see_parent_invoices,Se en eller flere fakturaer betalt av %{customer_display_info} for abonnementene dine.,See invoices paid by %{customer_display_info} for your subscritpions.,See invoices paid by %{customer_display_info} for your subscritpions.
+inapp_portal.invoice.paid_for_child,Denne fakturaen tilhører %{customer_display_info} og betales av deg.,This invoice belongs to %{customer_display_info} and is paid by you.,This invoice belongs to %{customer_display_info} and is paid by you.
+inapp_portal.invoice.parent_only,Du ser denne fakturaen siden du er foreldre til denne kunden.,You are seeing this invoice as you are the parent of this customer.,You are seeing this invoice as you are the parent of this customer.
+inapp_portal.child_sub_detail.invoice.to_parent,Dette abonnementet betales av deg og faktureres til deg.,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
+inapp_portal.child_sub_detail.invoice.to_child,Dette abonnementet betales av deg og faktureres til %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.
+inapp_portal.child_sub_detail.payment_and_invoice.to_child,Dette abonnementet betales av og faktureres til %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
+inapp_portal.invoices.paid_py_parent, %{customer_display_info} betaler for denne fakturaen.,%{customer_display_info} pays for this invoice.,%{customer_display_info} pays for this invoice.
+inapp_portal.invoice,Fakturanummer %{id},Invoice # %{id},Invoice # %{id}
+inapp_portal.payment_owner_billing_history.header,Faktura til foreldre,Invoices of parent,Invoices of parent
+inapp_portal.child_subscription.header,Barnabonnementsdetaljer,Child subscription details,Child subscription details
+inapp_portal.invoice.payment.status.not_paid,Ikke betalt,Not Paid,Not Paid
+inapp_portal.invoice.payment.status.paid,Betalt,Paid,Paid
+inapp_portal.invoice.payment.status.payment_due,Betalings forfall,Payment Due,Payment Due
+inapp_portal.invoice.payment.status.pending,Avventer,Pending,Pending
+inapp_portal.invoice.payment.status.posted,Postet,Posted,Posted
+inapp_portal.invoice.payment.status.to_collect,Samler inn,Collecting,Collecting
+inapp_portal.invoice.payment.status.upcoming,Kommende,Upcoming,Upcoming
+inapp_portal.invoice.payment.status.voided,Opphevet,Voided,Voided
+inapp_portal.subscription.extend.header,Forleng abonnementet ditt,Extend your subscription,Extend your subscription
+inapp_portal.subscription.extend.submit,Utvid med ytterligere %{extension_period},Extend for another %{extension_period},Extend for another %{extension_period}
+inapp_portal.subscription.extend.expiry.warning,Din nåværende plan utløper %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date}
+inapp_portal.subscription.extend.info,Kostnader for å utvide planen din vil gjelde %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date}
+inapp_portal.subscription.extend.thankyou.header,Takk for at du utvidet abonnementet,Thank you for extending the subscription,Thank you for extending the subscription
+inapp_portal.subscription.extend.thankyou.body,Abonnementet ditt er utvidet med ytterligere %{extension_period},Your subscription has been extended for another %{extension_period},Your subscription has been extended for another %{extension_period}
+inapp_portal.subscription.extend.thankyou.close,LUKK,CLOSE,CLOSE
+inapp_portal.review.pm.header,innbetaling,Payment,Payment
+inapp_portal.review.pm.not_available,Ingen betalingsmåte tilgjengelig,No payment method available,No payment method available
 inapp_portal.home.note,,,
 inapp_portal.account.note,,,
 inapp_portal.edit_account.note,,,
@@ -374,140 +374,140 @@ inapp_portal.subscription.note.future,,,
 inapp_portal.subscription.note.non_renewing,,,
 inapp_portal.subscription.note.cancelled,,,
 inapp_portal.subscription.note.cancellation_scheduled,,,
-inapp_portal.estimate_display_screen.header,,Your order summary,Your order summary
-inapp_portal.manage_pm.redirect.label,,Go to app,Go to app
-inapp_portal.threeds.warning,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_portal.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_portal.home.promotions.link_text,,Refer & Earn,Refer & Earn
-inapp_portal.promotions.header,,Promotions,Promotions
+inapp_portal.estimate_display_screen.header,din ordre oppsummering,Your order summary,Your order summary
+inapp_portal.manage_pm.redirect.label,Gå til appen,Go to app,Go to app
+inapp_portal.threeds.warning,Du kan bli omdirigert til banksiden din for sikker 3D-bekreftelse.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_portal.3ds.auth.txt,Jeg autoriserer %{organisation_name} til å lagre denne betalingsmåten og automatisk belaste denne betalingsmåten når et abonnement er knyttet til det.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_portal.home.promotions.link_text,Henvis og tjen,Refer & Earn,Refer & Earn
+inapp_portal.promotions.header,Kampanjer,Promotions,Promotions
 inapp_portal.subscription.note.pause_subscription,,,
-inapp_portal.setup_password.section.name,,Set up Password,Set up Password
-inapp_portal.setup_password.header,,Set up your Password,Set up your Password
-inapp_portal.change_password.section.name,,Change Password,Change Password
-inapp_portal.change_password_verify.header,,Change your Password,Change your Password
-inapp_portal.verify_otp.header,,Enter OTP,Enter OTP
-inapp_portal.change_password_verify.next,,Proceed,Proceed
-inapp_portal.change_password_verify.current_password.label,,Enter your current password,Enter your current password
-inapp_portal.change_password.header,,Enter new password,Enter new password
-inapp_portal.new_password.label,,Enter new password,Enter new password
-inapp_portal.new_password.update_btn,,Update,Update
-inapp_portal.password.validation.desc,,Your password must have,Your password must have
-inapp_portal.password.validation.min_char,,At least 8 characters,At least 8 characters
-inapp_portal.password.validation.number,,At least one number,At least one number
-inapp_portal.password.validation.special,,"At least one special character @$!%*#?&() ","At least one special character @$!%*#?&() "
+inapp_portal.setup_password.section.name,Sett opp passord,Set up Password,Set up Password
+inapp_portal.setup_password.header,Sett opp passordet ditt,Set up your Password,Set up your Password
+inapp_portal.change_password.section.name,Bytt passord,Change Password,Change Password
+inapp_portal.change_password_verify.header,Bytt passord,Change your Password,Change your Password
+inapp_portal.verify_otp.header,Skriv inn OTP,Enter OTP,Enter OTP
+inapp_portal.change_password_verify.next,Fortsette,Proceed,Proceed
+inapp_portal.change_password_verify.current_password.label,Skriv inn ditt nåværende passord,Enter your current password,Enter your current password
+inapp_portal.change_password.header,Skriv inn nytt passord,Enter new password,Enter new password
+inapp_portal.new_password.label,Skriv inn nytt passord,Enter new password,Enter new password
+inapp_portal.new_password.update_btn,Oppdater,Update,Update
+inapp_portal.password.validation.desc,Passordet ditt må ha,Your password must have,Your password must have
+inapp_portal.password.validation.min_char,Minst 8 tegn,At least 8 characters,At least 8 characters
+inapp_portal.password.validation.number,Minst ett nummer,At least one number,At least one number
+inapp_portal.password.validation.special,Minst ett spesialtegn @ $!% * Antall? & (),At least one special character @$!%*#?&() ,At least one special character @$!%*#?&() 
 inapp_portal.subscription.summary.additionalInfo,,,
 inapp_portal.child_subscription.summary.additionalInfo,,,
-inapp_portal.contract_term.summary.title,,Subscription Terms,Subscription Terms
-inapp_portal.contract_term.summary.total_contract_value,,Total contract value,Total contract value
-inapp_portal.contract_term.summary.billing_cycle,,Billing cycles,Billing cycles
-inapp_portal.contract_term.summary.end_action_renew,,Contract renews,Contract renews
-inapp_portal.contract_term.summary.end_action_evergreen,,Contract ends,Contract ends
-inapp_portal.contract_term.summary.end_action_evergreen_sub_active,,subscription will remain active,subscription will remain active
-inapp_portal.contract_term.summary.end_action_cancel,,Contract ends,Contract ends
-inapp_portal.contract_term.summary.end_action_renew_once,,"Contract renews for one more term on ","Contract renews for one more term on "
-inapp_portal.contract_term.details.header.title,,Contract Summary,Contract Summary
-inapp_portal.contract_term.details.tcv.title,,Total contract value,Total contract value
-inapp_portal.contract_term.details.term.title,,Contract term,Contract term
-inapp_portal.contract_term.details.term.to,,to,to
-inapp_portal.contract_term.details.bill_cyc.title,,Billing cycles,Billing cycles
-inapp_portal.contract_term.details.bill_cyc.total,,Total,Total
-inapp_portal.contract_term.details.bill_cyc.billed,,Billed,Billed
-inapp_portal.contract_term.details.term_end.title,,On contract term end,On contract term end
-inapp_portal.contract_term.details.term_end.renew,,Contract will renew for %{number} billing cycles,Contract will renew for %{number} billing cycles
-inapp_portal.contract_term.details.term_end.evergreen,,Contract ends (subscription will remain active),Contract ends (subscription will remain active)
-inapp_portal.contract_term.details.term_end.cancel,,Contract and subscription end.,Contract and subscription end.
-inapp_portal.contract_term.details.term_end.renew_once,,Contract will renew for one more term.,Contract will renew for one more term.
-inapp_portal.contract_term.details.grace_period.title,,Cancel before,Cancel before
-inapp_portal.contract_term.details.grace_period.note,,If you do not want your contract to renew.,If you do not want your contract to renew.
-inapp_portal.contract_term.details.end_action.cancel.notification,,Your subscription will be canceled at the end of contract term on %{date},Your subscription will be canceled at the end of contract term on %{date}
-inapp_portal.contract_term.details.end_action.renew_next_bill_cyc.notification,,Your contract will renew for one more term. Charges will apply until the end of the next contract term.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.
-inapp_portal.contract_term.order_summary.tcv,,Total contract value,Total contract value
-inapp_portal.contract_term.subscription.note,,This subscription is on contract,This subscription is on contract
-inapp_portal.contract_term.cancel.end_action.cancel.title,,Your subscription will be canceled at the end of the contract term on %{date},Your subscription will be canceled at the end of the contract term on %{date}
-inapp_portal.contract_term.cancel.end_action.cancel.notification,,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.
-inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.title,,Your subscription will renew for one more contract term after %{date},Your subscription will renew for one more contract term after %{date}
-inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.notification,,Your subscription passed the cut-off date for cancellation and will renew for one more term.,Your subscription passed the cut-off date for cancellation and will renew for one more term.
-inapp_portal.contract_term.reactivate.confirmation_text,,Your subscription will reactivate without contract terms,Your subscription will reactivate without contract terms
-inapp_portal.multi_decimal.quantity.error,,Enter valid quantity,Enter valid quantity
-inapp_portal.qty,,Qty,Qty
-paynow.button.txt,,Pay now: %{amount},Pay now: %{amount}
-paynow.header.txt,,You have %{total} unpaid invoice(s). Your total due is %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount}
-paynow.no_invoices.txt,,You have no unpaid invoices,You have no unpaid invoices
-paynow.header.choosepm.txt,,Choose Payment Method,Choose Payment Method
-paynow.modal.newpm.use,,Use a different payment method,Use a different payment method
-paynow.header.addpm.txt,,Add Payment Method,Add Payment Method
-paynow.thankyou.header,,Your payment was successful!,Your payment was successful!
+inapp_portal.contract_term.summary.title,Abonnementsbetingelser,Subscription Terms,Subscription Terms
+inapp_portal.contract_term.summary.total_contract_value,Total kontraktsverdi,Total contract value,Total contract value
+inapp_portal.contract_term.summary.billing_cycle,Faktureringssykluser,Billing cycles,Billing cycles
+inapp_portal.contract_term.summary.end_action_renew,Kontrakten fornyer,Contract renews,Contract renews
+inapp_portal.contract_term.summary.end_action_evergreen,Kontrakten slutter,Contract ends,Contract ends
+inapp_portal.contract_term.summary.end_action_evergreen_sub_active,abonnementet forblir aktivt,subscription will remain active,subscription will remain active
+inapp_portal.contract_term.summary.end_action_cancel,Kontrakten slutter,Contract ends,Contract ends
+inapp_portal.contract_term.summary.end_action_renew_once,Kontrakten fornyes for en periode til,Contract renews for one more term on ,Contract renews for one more term on 
+inapp_portal.contract_term.details.header.title,Kontraktssammendrag,Contract Summary,Contract Summary
+inapp_portal.contract_term.details.tcv.title,Total kontraktsverdi,Total contract value,Total contract value
+inapp_portal.contract_term.details.term.title,Kontraktsperiode,Contract term,Contract term
+inapp_portal.contract_term.details.term.to,til,to,to
+inapp_portal.contract_term.details.bill_cyc.title,Faktureringssykluser,Billing cycles,Billing cycles
+inapp_portal.contract_term.details.bill_cyc.total,Total,Total,Total
+inapp_portal.contract_term.details.bill_cyc.billed,Fakturert,Billed,Billed
+inapp_portal.contract_term.details.term_end.title,På slutten av kontraktsperioden,On contract term end,On contract term end
+inapp_portal.contract_term.details.term_end.renew,Kontrakten fornyes for %{number} faktureringssykluser,Contract will renew for %{number} billing cycles,Contract will renew for %{number} billing cycles
+inapp_portal.contract_term.details.term_end.evergreen,Kontrakten avsluttes (abonnementet forblir aktivt),Contract ends (subscription will remain active),Contract ends (subscription will remain active)
+inapp_portal.contract_term.details.term_end.cancel,Kontrakt og abonnements slutt.,Contract and subscription end.,Contract and subscription end.
+inapp_portal.contract_term.details.term_end.renew_once,Kontrakten fornyes for en periode til.,Contract will renew for one more term.,Contract will renew for one more term.
+inapp_portal.contract_term.details.grace_period.title,Avbryt før,Cancel before,Cancel before
+inapp_portal.contract_term.details.grace_period.note,Hvis du ikke vil at kontrakten skal fornyes.,If you do not want your contract to renew.,If you do not want your contract to renew.
+inapp_portal.contract_term.details.end_action.cancel.notification,Abonnementet ditt blir kansellert ved slutten av kontraktperioden på %{date},Your subscription will be canceled at the end of contract term on %{date},Your subscription will be canceled at the end of contract term on %{date}
+inapp_portal.contract_term.details.end_action.renew_next_bill_cyc.notification,Kontrakten din fornyes for en periode til. Kostnader vil gjelde til slutten av neste kontraktsperiode.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.
+inapp_portal.contract_term.order_summary.tcv,Total kontraktsverdi,Total contract value,Total contract value
+inapp_portal.contract_term.subscription.note,Dette abonnementet er på kontrakt,This subscription is on contract,This subscription is on contract
+inapp_portal.contract_term.cancel.end_action.cancel.title,Abonnementet ditt blir kansellert ved slutten av kontraktsperioden på %{date},Your subscription will be canceled at the end of the contract term on %{date},Your subscription will be canceled at the end of the contract term on %{date}
+inapp_portal.contract_term.cancel.end_action.cancel.notification,Abonnementet ditt forblir aktivt og kostnadene vil gjelde til kontrakten avsluttes. Har du spørsmål? Kontakt oss.,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.
+inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.title,Abonnementet ditt fornyes for en kontraktsperiode til etter %{date},Your subscription will renew for one more contract term after %{date},Your subscription will renew for one more contract term after %{date}
+inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.notification,Abonnementet ditt passerte fristen for kansellering og vil fornye for en periode til.,Your subscription passed the cut-off date for cancellation and will renew for one more term.,Your subscription passed the cut-off date for cancellation and will renew for one more term.
+inapp_portal.contract_term.reactivate.confirmation_text,Abonnementet ditt aktiveres uten kontraktsvilkår,Your subscription will reactivate without contract terms,Your subscription will reactivate without contract terms
+inapp_portal.multi_decimal.quantity.error,Angi gyldig mengde,Enter valid quantity,Enter valid quantity
+inapp_portal.qty,Mengde,Qty,Qty
+paynow.button.txt,Betal nå: %{amount},Pay now: %{amount},Pay now: %{amount}
+paynow.header.txt,Du har %{total} ubetalt faktura (er). Det totale forfallet ditt er %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount}
+paynow.no_invoices.txt,Du har ingen ubetalt en eller flere fakturaer,You have no unpaid invoices,You have no unpaid invoices
+paynow.header.choosepm.txt,Velge betalingsmetode,Choose Payment Method,Choose Payment Method
+paynow.modal.newpm.use,Bruk en annen betalingsmåte,Use a different payment method,Use a different payment method
+paynow.header.addpm.txt,Legg til betalingsmåte,Add Payment Method,Add Payment Method
+paynow.thankyou.header,Betalingen din var vellykket!,Your payment was successful!,Your payment was successful!
 paynow.thankyou.body,,,
-paynow.thankyou.close,,CLOSE,CLOSE
-paynow.modal_button.confirm,,Confirm,Confirm
-paynow.modal_button.cancel,,Cancel,Cancel
-paynow.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-paynow.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-paynow.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-paynow.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-paynow.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-paynow.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-paynow.redirect.label,,Go to app,Go to app
-paynow.threeds.warning,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-paynow.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_nl_portal.login.txt,,Enter your email address to login,Enter your email address to login
-inapp_nl_portal.otp.enter,,Enter the one time password sent to your email to continue,Enter the one time password sent to your email to continue
-inapp_nl_portal.password.enter,,Enter the password for your account,Enter the password for your account
-inapp_nl_portal.otp.resend,,Resend the one time password,Resend the one time password
-inapp_nl_portal.otp.next,,Login,Login
-inapp_nl_portal.login.via_otp,,Login via one time password,Login via one time password
-inapp_nl_portal.password.use,,Enter password instead,Enter password instead
-inapp_nl_portal.login.next,,Continue,Continue
-inapp_nl_portal.login.header,,Manage Your Subscriptions,Manage Your Subscriptions
-inapp_nl_portal.forgot_password.link.txt,,Forgot password?,Forgot password?
+paynow.thankyou.close,LUKK,CLOSE,CLOSE
+paynow.modal_button.confirm,Bekrefte,Confirm,Confirm
+paynow.modal_button.cancel,Avbryt,Cancel,Cancel
+paynow.payment_method.bacs.guarantee.header,Tilbake til betaling,Back to Payment,Back to Payment
+paynow.payment_method.bank_account.btn.proceed_to_review,Fortsett til gjennomgang,Proceed to Review,Proceed to Review
+paynow.payment_method.bank_account.btn.enter_iban,Skriv inn IBAN,Enter IBAN,Enter IBAN
+paynow.payment_method.bank_account.btn.enter_local_details,Angi lokale bankopplysninger,Enter local bank details,Enter local bank details
+paynow.payment_method.bank_account.btn.enter_your_name,Skriv inn navnet ditt,Enter your name,Enter your name
+paynow.payment_method.bank_account.btn.enter_company_name,Skriv inn firmanavn,Enter company name,Enter company name
+paynow.redirect.label,Gå til appen,Go to app,Go to app
+paynow.threeds.warning,Du kan bli omdirigert til banksiden din for sikker 3D-bekreftelse.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+paynow.3ds.auth.txt,Jeg autoriserer %{organisation_name} til å lagre denne betalingsmåten og automatisk belaste denne betalingsmåten når et abonnement er knyttet til det.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_nl_portal.login.txt,Skriv inn e-postadressen din for å logge inn,Enter your email address to login,Enter your email address to login
+inapp_nl_portal.otp.enter,Skriv inn passordet som er sendt til e-posten din for å fortsette,Enter the one time password sent to your email to continue,Enter the one time password sent to your email to continue
+inapp_nl_portal.password.enter,Skriv inn passordet for kontoen din,Enter the password for your account,Enter the password for your account
+inapp_nl_portal.otp.resend,Send engangspassordet på nytt,Resend the one time password,Resend the one time password
+inapp_nl_portal.otp.next,Logg Inn,Login,Login
+inapp_nl_portal.login.via_otp,Logg inn via engangspassord,Login via one time password,Login via one time password
+inapp_nl_portal.password.use,Skriv inn passord i stedet,Enter password instead,Enter password instead
+inapp_nl_portal.login.next,Fortsette,Continue,Continue
+inapp_nl_portal.login.header,Administrer abonnementene dine,Manage Your Subscriptions,Manage Your Subscriptions
+inapp_nl_portal.forgot_password.link.txt,Glemt passord?,Forgot password?,Forgot password?
 inapp_nl_portal.account.summary.additionalInfo,,,
-inapp_checkout.gift.cart.header,,Your gift order,Your gift order
-inapp_checkout.gift.cart.header.edit,,Edit your gift order,Edit your gift order
-inapp_checkout.gift.cart.next,,Proceed to checkout,Proceed to checkout
-inapp_checkout.gift.gift_details.header,,Add your gift details,Add your gift details
-inapp_checkout.gift.gift_details.header.edit,,Edit your gift details,Edit your gift details
-inapp_checkout.gift.gift_details.update,,Update,Update
-inapp_checkout.gift.gift_details.next,,Next,Next
-inapp_checkout.gift.gift_details.receiver_info.subheading,,Whom is this gift for?,Whom is this gift for?
-inapp_checkout.gift.gift_details.schedule.subheading,,Gift date & time,Gift date & time
-inapp_checkout.gift.gift_details.schedule.immediately,,Send immediately,Send immediately
-inapp_checkout.gift.gift_details.schedule.date,,Send on specific date and time,Send on specific date and time
-inapp_checkout.gift.gift_details.message.subheading,,Personal message,Personal message
-inapp_checkout.gift.gift_details.message.helptext,,The message will be sent to the recipient with your gift,The message will be sent to the recipient with your gift
-inapp_checkout.gift.gift_details.message.placeholder,,Your gift message,Your gift message
-inapp_checkout.gift.customer.header,,Add recipient information,Add recipient information
-inapp_checkout.gift.customer.header.edit,,Edit recipient information,Edit recipient information
-inapp_checkout.gift.customer.update,,Update,Update
-inapp_checkout.gift.customer.next,,Next,Next
-inapp_checkout.gift.billing_address.update,,Update,Update
-inapp_checkout.gift.billing_address.next,,Next,Next
-inapp_checkout.gift.billing_address.header,,Add your billing details,Add your billing details
-inapp_checkout.gift.billing_address.header.edit,,Edit your billing details,Edit your billing details
-inapp_checkout.gift.shipping_address.header,,Add recipient shipping address,Add recipient shipping address
-inapp_checkout.gift.shipping_address.header.edit,,Edit recipient shipping address,Edit recipient shipping address
-inapp_checkout.gift.shipping_address.update,,Update,Update
-inapp_checkout.gift.shipping_address.next,,Next,Next
-inapp_checkout.gift.payment_method.header,,Add your payment information,Add your payment information
-inapp_checkout.gift.payment_method.header.edit,,Edit your payment information,Edit your payment information
-inapp_checkout.gift.payment_method.update,,Update,Update
-inapp_checkout.gift.payment_method.next,,Next,Next
-inapp_checkout.gift.review.gift.header,,Gift details,Gift details
-inapp_checkout.gift.review.gift.your_message.label,,Personal Message,Personal Message
-inapp_checkout.gift.review.gift.from.label,,From,From
-inapp_checkout.gift.review.gift.scheduled_at.label,,Scheduled,Scheduled
-inapp_checkout.gift.review.gift.immediately.label,,Immediately sent,Immediately sent
-inapp_checkout.gift.review.shipping.header,,Recipient shipping address,Recipient shipping address
-inapp_checkout.gift.review.account.header,,Recipient details,Recipient details
-inapp_checkout.gift.subscription.header,,Add gift subscription details,Add gift subscription details
-inapp_checkout.gift.subscription.header.edit,,Edit gift subscription details,Edit gift subscription details
-inapp_checkout.gift.subscription.update,,Update,Update
-inapp_checkout.gift.subscription.next,,Next,Next
-inapp_checkout.gift.review.header,,Complete your order,Complete your order
-inapp_checkout.gift.review.btn.txt,,Pay %{amount} & place gift order,Pay %{amount} & place gift order
+inapp_checkout.gift.cart.header,Din gaveordre,Your gift order,Your gift order
+inapp_checkout.gift.cart.header.edit,Rediger gaveordren din,Edit your gift order,Edit your gift order
+inapp_checkout.gift.cart.next,Fortsett til utsjekking,Proceed to checkout,Proceed to checkout
+inapp_checkout.gift.gift_details.header,Legg til gaveopplysningene dine,Add your gift details,Add your gift details
+inapp_checkout.gift.gift_details.header.edit,Rediger gaveopplysningene dine,Edit your gift details,Edit your gift details
+inapp_checkout.gift.gift_details.update,Oppdater,Update,Update
+inapp_checkout.gift.gift_details.next,Neste,Next,Next
+inapp_checkout.gift.gift_details.receiver_info.subheading,Hvem er denne gaven til?,Whom is this gift for?,Whom is this gift for?
+inapp_checkout.gift.gift_details.schedule.subheading,Gave dato og tid,Gift date & time,Gift date & time
+inapp_checkout.gift.gift_details.schedule.immediately,Send umiddelbart,Send immediately,Send immediately
+inapp_checkout.gift.gift_details.schedule.date,Send på spesifikk dato og tid,Send on specific date and time,Send on specific date and time
+inapp_checkout.gift.gift_details.message.subheading,Personlig melding,Personal message,Personal message
+inapp_checkout.gift.gift_details.message.helptext,Meldingen vil bli sendt til mottakeren med gaven din,The message will be sent to the recipient with your gift,The message will be sent to the recipient with your gift
+inapp_checkout.gift.gift_details.message.placeholder,Din gavemelding,Your gift message,Your gift message
+inapp_checkout.gift.customer.header,Legg til mottakerinformasjon,Add recipient information,Add recipient information
+inapp_checkout.gift.customer.header.edit,Rediger mottakerinformasjon,Edit recipient information,Edit recipient information
+inapp_checkout.gift.customer.update,Oppdater,Update,Update
+inapp_checkout.gift.customer.next,Neste,Next,Next
+inapp_checkout.gift.billing_address.update,Oppdater,Update,Update
+inapp_checkout.gift.billing_address.next,Neste,Next,Next
+inapp_checkout.gift.billing_address.header,Legg til faktureringsinformasjonen,Add your billing details,Add your billing details
+inapp_checkout.gift.billing_address.header.edit,Rediger faktureringsinformasjonen,Edit your billing details,Edit your billing details
+inapp_checkout.gift.shipping_address.header,Legg til mottakerens leveringsadresse,Add recipient shipping address,Add recipient shipping address
+inapp_checkout.gift.shipping_address.header.edit,Rediger mottakerens leveringsadresse,Edit recipient shipping address,Edit recipient shipping address
+inapp_checkout.gift.shipping_address.update,Oppdater,Update,Update
+inapp_checkout.gift.shipping_address.next,Neste,Next,Next
+inapp_checkout.gift.payment_method.header,Legg til betalingsinformasjonen din,Add your payment information,Add your payment information
+inapp_checkout.gift.payment_method.header.edit,Rediger betalingsinformasjonen din,Edit your payment information,Edit your payment information
+inapp_checkout.gift.payment_method.update,Oppdater,Update,Update
+inapp_checkout.gift.payment_method.next,Neste,Next,Next
+inapp_checkout.gift.review.gift.header,Gave detaljer,Gift details,Gift details
+inapp_checkout.gift.review.gift.your_message.label,Personlig melding,Personal Message,Personal Message
+inapp_checkout.gift.review.gift.from.label,Fra,From,From
+inapp_checkout.gift.review.gift.scheduled_at.label,Planlagt,Scheduled,Scheduled
+inapp_checkout.gift.review.gift.immediately.label,Straks sendt,Immediately sent,Immediately sent
+inapp_checkout.gift.review.shipping.header,Mottakerens leveringsadresse,Recipient shipping address,Recipient shipping address
+inapp_checkout.gift.review.account.header,Mottakers detaljer,Recipient details,Recipient details
+inapp_checkout.gift.subscription.header,Legg til detaljer om gaveabonnement,Add gift subscription details,Add gift subscription details
+inapp_checkout.gift.subscription.header.edit,Rediger detaljer om gaveabonnement,Edit gift subscription details,Edit gift subscription details
+inapp_checkout.gift.subscription.update,Oppdater,Update,Update
+inapp_checkout.gift.subscription.next,Neste,Next,Next
+inapp_checkout.gift.review.header,Fullfør bestillingen,Complete your order,Complete your order
+inapp_checkout.gift.review.btn.txt,Betal %{amount} og legg inn gavebestilling,Pay %{amount} & place gift order,Pay %{amount} & place gift order
 inapp_checkout.gift.thankyou.header,,,
 inapp_checkout.gift.thankyou.body,,,
-inapp_checkout.gift.thankyou.close,,CLOSE,CLOSE
-inapp_checkout.gift.review.self_gift.warning,,You seem to be sending the gift to your own email address.,You seem to be sending the gift to your own email address.
+inapp_checkout.gift.thankyou.close,LUKK,CLOSE,CLOSE
+inapp_checkout.gift.review.self_gift.warning,Du ser ut til å sende gaven til din egen e-postadresse.,You seem to be sending the gift to your own email address.,You seem to be sending the gift to your own email address.
 inapp_checkout.gift.payment_method.note.plan.no_trial,,,
 inapp_checkout.gift.cart.note.plan.no_trial,,,
 inapp_checkout.gift.review.note.plan.no_trial,,,
@@ -515,37 +515,37 @@ inapp_checkout.gift.customer.note,,,
 inapp_checkout.gift.subscription.note,,,
 inapp_checkout.gift.shipping_address.note,,,
 inapp_checkout.gift.billing_address.note,,,
-inapp_checkout.gift.review.threedsWarning.non_trial,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_checkout.gift.review.threedsWarning.trial,,"You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
-inapp_checkout.gift_claim.modal_button.cancel,,Cancel,Cancel
-inapp_checkout.gift_claim.modal_button.confirm,,Confirm,Confirm
-inapp_checkout.gift_claim.cart.header,,Your gift,Your gift
-inapp_checkout.gift_claim.cart.header.edit,,Your gift,Your gift
-inapp_checkout.gift_claim.cart.next,,Proceed to claim,Proceed to claim
-inapp_checkout.gift_claim.cart.body_desc,,Congratulations on your gift! You need to claim it to get started!,Congratulations on your gift! You need to claim it to get started!
-inapp_checkout.gift_claim.customer.body_desc,,"Here are the details that we have got. You can update this information, if required.","Here are the details that we have got. You can update this information, if required."
-inapp_checkout.gift_claim.customer.header,,Add your account information,Add your account information
-inapp_checkout.gift_claim.customer.header.edit,,Edit your account information,Edit your account information
-inapp_checkout.gift_claim.customer.update,,Update,Update
-inapp_checkout.gift_claim.customer.next,,Next,Next
-inapp_checkout.gift_claim.shipping_address.header,,Add your shipping address,Add your shipping address
-inapp_checkout.gift_claim.shipping_address.header.edit,,Edit your shipping address,Edit your shipping address
-inapp_checkout.gift_claim.shipping_address.update,,Update,Update
-inapp_checkout.gift_claim.shipping_address.next,,Next,Next
+inapp_checkout.gift.review.threedsWarning.non_trial,Du kan bli omdirigert til banksiden din for sikker 3D-bekreftelse.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_checkout.gift.review.threedsWarning.trial,"Du kan bli omdirigert til banksiden din for sikker 3D-bekreftelse som det kan belastes et tokenbeløp for, som vil bli fullstendig tilbakebetalt automatisk.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
+inapp_checkout.gift_claim.modal_button.cancel,Avbryt,Cancel,Cancel
+inapp_checkout.gift_claim.modal_button.confirm,Bekrefte,Confirm,Confirm
+inapp_checkout.gift_claim.cart.header,Gaven din,Your gift,Your gift
+inapp_checkout.gift_claim.cart.header.edit,Gaven din,Your gift,Your gift
+inapp_checkout.gift_claim.cart.next,Fortsett å kreve,Proceed to claim,Proceed to claim
+inapp_checkout.gift_claim.cart.body_desc,Gratulerer med gaven din! Du må kreve det for å komme i gang!,Congratulations on your gift! You need to claim it to get started!,Congratulations on your gift! You need to claim it to get started!
+inapp_checkout.gift_claim.customer.body_desc,"Her er detaljene vi har. Du kan oppdatere denne informasjonen, om nødvendig.","Here are the details that we have got. You can update this information, if required.","Here are the details that we have got. You can update this information, if required."
+inapp_checkout.gift_claim.customer.header,Legg til kontoinformasjonen din,Add your account information,Add your account information
+inapp_checkout.gift_claim.customer.header.edit,Rediger kontoinformasjonen din,Edit your account information,Edit your account information
+inapp_checkout.gift_claim.customer.update,Oppdater,Update,Update
+inapp_checkout.gift_claim.customer.next,Neste,Next,Next
+inapp_checkout.gift_claim.shipping_address.header,Legg til leveringsadresse,Add your shipping address,Add your shipping address
+inapp_checkout.gift_claim.shipping_address.header.edit,Rediger leveringsadressen,Edit your shipping address,Edit your shipping address
+inapp_checkout.gift_claim.shipping_address.update,Oppdater,Update,Update
+inapp_checkout.gift_claim.shipping_address.next,Neste,Next,Next
 inapp_checkout.gift_claim.shipping_address.body_desc,,,
-inapp_checkout.gift_claim.review.shipping.header,,Shipping address,Shipping address
-inapp_checkout.gift_claim.review.account.header,,Account,Account
-inapp_checkout.gift_claim.review.subscription.header,,Subscription details,Subscription details
-inapp_checkout.gift_claim.subscription.header,,Add gift subscription details,Add gift subscription details
-inapp_checkout.gift_claim.subscription.header.edit,,Edit gift subscription details,Edit gift subscription details
-inapp_checkout.gift_claim.subscription.update,,Update,Update
-inapp_checkout.gift_claim.subscription.next,,Next,Next
+inapp_checkout.gift_claim.review.shipping.header,Sendingsadresse,Shipping address,Shipping address
+inapp_checkout.gift_claim.review.account.header,Regnskap,Account,Account
+inapp_checkout.gift_claim.review.subscription.header,Abonnementsdetaljer,Subscription details,Subscription details
+inapp_checkout.gift_claim.subscription.header,Legg til detaljer om gaveabonnement,Add gift subscription details,Add gift subscription details
+inapp_checkout.gift_claim.subscription.header.edit,Rediger detaljer om gaveabonnement,Edit gift subscription details,Edit gift subscription details
+inapp_checkout.gift_claim.subscription.update,Oppdater,Update,Update
+inapp_checkout.gift_claim.subscription.next,Neste,Next,Next
 inapp_checkout.gift_claim.subscription.body_desc,,,
-inapp_checkout.gift_claim.review.header,,Claim your gift,Claim your gift
-inapp_checkout.gift_claim.review.btn.txt,,Claim Gift,Claim Gift
+inapp_checkout.gift_claim.review.header,Gjør krav på gaven din,Claim your gift,Claim your gift
+inapp_checkout.gift_claim.review.btn.txt,Krev gave,Claim Gift,Claim Gift
 inapp_checkout.gift_claim.thankyou.header,,,
 inapp_checkout.gift_claim.thankyou.body,,,
-inapp_checkout.gift_claim.thankyou.close,,CLOSE,CLOSE
+inapp_checkout.gift_claim.thankyou.close,LUKK,CLOSE,CLOSE
 inapp_checkout.gift_claim.cart.note.plan.no_trial,,,
 inapp_checkout.gift_claim.review.note.plan.no_trial,,,
 inapp_checkout.gift_claim.customer.note,,,

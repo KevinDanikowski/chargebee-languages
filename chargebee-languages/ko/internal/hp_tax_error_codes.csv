@@ -1,25 +1,25 @@
 key,value,reference value,description
-invalid_column,,The value {1} in the column ({0}) is invalid,The value {1} in the column ({0}) is invalid
-invalid_column_header,,The column {0} is invalid.,The column {0} is invalid.
-billing_country_needed_to_collect_registered_for_gst_field,,You need to add a Billing Country to select this field.,You need to add a Billing Country to select this field.
-billing_country_needed,,Billing country needed to validate the VAT number.,Billing country needed to validate the VAT number.
-australia_tax_should_be_configured,,You need to enable tax for Australia to select this field,You need to enable tax for Australia to select this field
-tax.could_not_read_the_file,,File contains invalid values,File contains invalid values
-unable_to_validate_abn,,Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
-no_header_found,,Header are not present or not formatted properly.,Header are not present or not formatted properly.
+invalid_column,열 ({0})의 {1} 값이 잘못되었습니다.,The value {1} in the column ({0}) is invalid,The value {1} in the column ({0}) is invalid
+invalid_column_header,{0} 열이 잘못되었습니다.,The column {0} is invalid.,The column {0} is invalid.
+billing_country_needed_to_collect_registered_for_gst_field,이 필드를 선택하려면 청구서 수신 국가를 추가해야합니다.,You need to add a Billing Country to select this field.,You need to add a Billing Country to select this field.
+billing_country_needed,청구서 수신 국가에서 VAT 번호를 확인해야합니다.,Billing country needed to validate the VAT number.,Billing country needed to validate the VAT number.
+australia_tax_should_be_configured,이 필드를 선택하려면 호주 세금을 활성화해야합니다.,You need to enable tax for Australia to select this field,You need to enable tax for Australia to select this field
+tax.could_not_read_the_file,파일에 잘못된 값이 있습니다.,File contains invalid values,File contains invalid values
+unable_to_validate_abn,ABN 조회 서버가 다운되어 ABN을 처리 할 수 ​​없습니다.,Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
+no_header_found,헤더가 없거나 형식이 올바르지 않습니다.,Header are not present or not formatted properly.,Header are not present or not formatted properly.
 no_tax_rules_found,,File does not contain any tax rule,File does not contain any tax rule
-tax.un_supported_file_format,,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
+tax.un_supported_file_format,지원되지 않는 파일 형식입니다. CSV 파일 만 허용됩니다.,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
 profile_service_type_error,,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.
-tax.wrong_format,,Value for ({0}) is invalid,Value for ({0}) is invalid
-file_not_found,,Tax configuration file not found,Tax configuration file not found
-duplicate_column,,The column ({0}) appears more than once in the file.,The column ({0}) appears more than once in the file.
-invalid_GSTIN,,You need to enter a valid GSTIN.,You need to enter a valid GSTIN.
-invalid_abn_number,,You need to enter a valid ABN.,You need to enter a valid ABN.
-eu_vat_not_applicable,,VAT Number not applicable for this country,VAT Number not applicable for this country
-zip_wrong_format,,cannot configure the zip values - {0},cannot configure the zip values - {0}
-invalid_zip_code,,invalid zip/postal code,invalid zip/postal code
-org_address_not_config,,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined
-registered_for_gst_not_applicable,,This option is applicable for Australia only.,This option is applicable for Australia only.
-invalid_vat_number,,You need to enter a valid VAT number.,You need to enter a valid VAT number.
-unable_to_validate,,Unable to validate VAT number as VIES is experiencing downtime.,Unable to validate VAT number as VIES is experiencing downtime.
-us_unsupported_prefix,,Wildcard characters cannot be used along with ZIP+4 postal codes - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0}
+tax.wrong_format,({0}) 값이 잘못되었습니다.,Value for ({0}) is invalid,Value for ({0}) is invalid
+file_not_found,세금 구성 파일을 찾을 수 없습니다.,Tax configuration file not found,Tax configuration file not found
+duplicate_column,열 ({0})이 파일에 두 번 이상 나타납니다.,The column ({0}) appears more than once in the file.,The column ({0}) appears more than once in the file.
+invalid_GSTIN,유효한 GSTIN을 입력해야합니다.,You need to enter a valid GSTIN.,You need to enter a valid GSTIN.
+invalid_abn_number,유효한 ABN을 입력해야합니다.,You need to enter a valid ABN.,You need to enter a valid ABN.
+eu_vat_not_applicable,이 국가에는 VAT 번호가 적용되지 않습니다.,VAT Number not applicable for this country,VAT Number not applicable for this country
+zip_wrong_format,zip 값을 구성 할 수 없습니다-{0},cannot configure the zip values - {0},cannot configure the zip values - {0}
+invalid_zip_code,우편 번호가 잘못되었습니다.,invalid zip/postal code,invalid zip/postal code
+org_address_not_config,판매자 세율을 결정할 수 없어 포괄적 세금 가격 유형을 구성 할 수 없습니다.,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined
+registered_for_gst_not_applicable,이 옵션은 호주에만 적용됩니다.,This option is applicable for Australia only.,This option is applicable for Australia only.
+invalid_vat_number,유효한 VAT 번호를 입력해야합니다.,You need to enter a valid VAT number.,You need to enter a valid VAT number.
+unable_to_validate,VIES에 다운 타임이 발생하여 VAT 번호를 확인할 수 없습니다.,Unable to validate VAT number as VIES is experiencing downtime.,Unable to validate VAT number as VIES is experiencing downtime.
+us_unsupported_prefix,ZIP + 4 우편 번호와 함께 와일드 카드 문자를 사용할 수 없습니다. {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0}

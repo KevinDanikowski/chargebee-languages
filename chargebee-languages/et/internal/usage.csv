@@ -1,5 +1,5 @@
 key,value,reference value,description
-usage.label.date,,Date,Date
-usage.label.usage,,Usage,Usage
-usage.label.plan_or_addon,,Plan/Addon,Plan/Addon
-usage.label.usage_details,,Usage Details,Usage Details
+usage.label.date,Kuupäev,Date,Date
+usage.label.usage,Kasutamine,Usage,Usage
+usage.label.plan_or_addon,Plaan / Addon,Plan/Addon,Plan/Addon
+usage.label.usage_details,Kasutamise üksikasjad,Usage Details,Usage Details

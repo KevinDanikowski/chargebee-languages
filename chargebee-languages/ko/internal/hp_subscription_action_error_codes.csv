@@ -1,62 +1,62 @@
 key,value,reference value,description
-sub_start_outside_plan_term,,Subscription start date cannot be before the billing period.,Subscription start date cannot be before the billing period.
-old_operation_failed,,{0},{0}
-subscription.invalid_scheduled_date,,cannot be after cancelled_at date ({0}).,cannot be after cancelled_at date ({0}).
-line_discount_load_err,,Problem with discounts. Please contact support for further details.,Problem with discounts. Please contact support for further details.
-trial_end_before_start_date,,Trial end cannot be before start date,Trial end cannot be before start date
-scheduled_for_cancellation,,Subscription cannot be updated as it is scheduled for cancellation at end of current term,Subscription cannot be updated as it is scheduled for cancellation at end of current term
-invalid_state_for_update,,Subscription can be updated only in Trial & Active states,Subscription can be updated only in Trial & Active states
-required_input_for_status,,cannot be blank for {0} subscription,cannot be blank for {0} subscription
-pause-subscription.cancel_end_of_term_not_supported,,Cannot schedule cancellation if subscription is paused or scheduled to pause.,Cannot schedule cancellation if subscription is paused or scheduled to pause.
-direct_debit_require_field_validation,,{0} is mandatory to use {1} Direct Debit via {2},{0} is mandatory to use {1} Direct Debit via {2}
-addon_not_applicable,,{0},Plan billing period and addon billing period are incompatible
-card_already_exists,,{0},{0}
-no_charge_item_present,,Atleast one non recurring addon or charge item should be present,Atleast one non recurring addon or charge item should be present
-tmp_token_not_supported,,Card temporary token approach not supported for this gateway,Card temporary token approach not supported for this gateway
-non_compliant_eu_customer,,Operation failed as the eu country entered in billing address by customer cannot be verified against ip address or card bin number.,Operation failed as the eu country entered in billing address by customer cannot be verified against ip address or card bin number.
-resume-subscription.no_payment_method_for_resumption,,Cannot resume subscription as you do not have an active payment method.,Cannot resume subscription as you do not have an active payment method.
-no_creditcard_for_create,,Cannot create the subscription as there is no valid card on file,Cannot create the subscription as there is no valid card on file
-invalid_state_for_cancel,,Cannot cancel a subscription that is Cancelled or Expired already,Cannot cancel a subscription that is Cancelled or Expired already
-invalid_state_for_collect,,This operation is supported only for the invoices in payment_due/not_paid status,This operation is supported only for the invoices in payment_due/not_paid status
-resume-subscription.invalid_resume_date,,cannot be on or before pause_date ({0}).,cannot be on or before pause_date ({0}).
-charge_failed,,Payment collection failed. Reason: {0},Payment collection failed. Reason: {0}
-charge_item_not_supported_eot,,Charge item cannot be added to a subscription changing at end of term.,Charge item cannot be added to a subscription changing at end of term.
-charge_item_not_supported,,Charge item cannot be added now as invoice is not raised immediately.,Charge item cannot be added now as invoice is not raised immediately.
-invalid_term_end_date,,The date should not be prior to today,The date should not be prior to today
-no_scheduled_changes,,No changes are scheduled for this subscription.,No changes scheduled for the subscription on next renewal
-date_outside_plan_term,,{0} must be within the billing period,{0} must be within the billing period
-self_site_change_sub_error,,Cannot change the subscription to specified plan as total net revenue crosses the free threshold amount,Cannot change the subscription to specified plan as total net revenue crosses the free threshold amount
-no_creditcard_for_charge,,Charge operation failed as there is no valid card on file,Charge operation failed as there is no valid card on file
-self_site_change_sub_feature_error,,Cannot change subscription because this subscription has features enabled that are unavailable in the new plan,Cannot change subscription because this subscription has features enabled that are unavailable in the new plan
-non_compliant_customer,,Operation failed as the country entered in billing address by customer cannot be verified against ip address or card bin number.,Operation failed as the country entered in billing address by customer cannot be verified against ip address or card bin number.
-quantity_not_allowed,,Cannot pass subscription quantity as the plan - {0} does not allow quantity.,Cannot pass subscription quantity as the plan - {0} does not allow quantity.
-param_must_be_future_date,,must be a future date.,The parameter value must be a future date.
-self_site_coupon_error,,A special coupon has already been applied for this subscription.,A special coupon has already been applied for this subscription.
-not_scheduled_for_cancellation,,Operation failed as subscription is not scheduled for cancellation.,Operation failed as subscription is not scheduled for cancellation.
-hp_card_err,,{0},{0}
-reactivate_not_supported,,Reactivate operation not supported as transition to trial from non-renewing state is not possible,Reactivate operation not supported as transition to trial from non-renewing state is not possible
-invalid_state_for_reactivate,,Subscription must be either Cancelled or Non Renewing to reactivate,Subscription must be either Cancelled or Non Renewing to reactivate
-update_operation_failed,,{0},{0}
-change_term_end_not_supported,,This operation is supported only for in_trial/active/non_renewing subscriptions,This operation is supported only for in_trial/active/non_renewing subscriptions
-three_d_secure_needed,,Operation not supported as 3D secure verification is needed for this card,Operation not supported as 3D secure verification is needed for this card
-invalid_input_for_status,,{0} should not be passed for {1} subscription,{0} should not be passed for {1} subscription
-update_card_error,,Problem while updating the payment method. Error message : {0},Problem while updating the payment method. Error message : {0}
-invalid_payment_method,,Invalid payment method,Invalid payment method
-subscription.param_should_not_be_sent,,This param should not be sent since Auto Collection is ON for this customer.,The parameter should not be sent.
-payment_error_during_create,,Subscription cannot be created as we are not able to collect {0} from your card on file. Error message: {1},Subscription cannot be created as we are not able to collect {0} from your card on file. Error message: {1}
-payment_failure_during_reactivate,,Subscription cannot be re-activated as we are not able to collect {0} from your card on file. Error message: {1},Subscription cannot be re-activated as we are not able to collect {0} from your card on file. Error message: {1}
-invalid_card_number,,Invalid card number.,Invalid card number.
-resume-subscription.payment_failure_during_resumption,,Cannot resume subscription as we are unable to process payment of {0} from your payment method.,Cannot resume subscription as we are unable to process payment of {0} from your payment method.
-proration_currency_mismatch,,Operation cannot be performed as the current term invoice(s) have different currency from the subscription. Please contact support.,Operation cannot be performed as the current term invoice(s) have different currency from the subscription. Please contact support.
-non_compliant_customer_msg,,This customer''s location couldn''t be validated as required by the {0} rules. Subscriptions for this customer will be canceled upon renewal if the required information is not updated.,This customer''s location couldn''t be validated as required by the {0} rules. Subscriptions for this customer will be canceled upon renewal if the required information is not updated.
-prepaid_card_error,,{0},{0}
-no_creditcard_for_regenerate_invoice,,Cannot regenerate an invoice as there is no valid card on file,Cannot regenerate an invoice as there is no valid card on file
-payment_error_during_update,,Subscription cannot be updated as we are not able to collect {0} from your card on file. Error message: {1},Subscription cannot be updated as we are not able to collect {0} from your card on file. Error message: {1}
-no_creditcard_for_update,,Cannot change the subscription as there is no valid card on file,Cannot change the subscription as there is no valid card on file
-hp_non_compliant_customer,,"Sorry, we were unable to process this transaction because we could not verify your location. Please use a credit card issued from the same country as provided in the billing information.","Sorry, we were unable to process this transaction because we could not verify your location. Please use a credit card issued from the same country as provided in the billing information."
-tmp_tok_card_not_supported,,Card params should not be passed with {0},Card params should not be passed with {0}
-add_card_error,,Problem while adding the payment method. Error message : {0},Problem while adding the payment method. Error message : {0}
-invalid_input_for_status_gifts,,{0} should not be passed for {1} gifts,{0} should not be passed for {1} gifts
-rec_addon_not_applicable,,Addon {0} cannot be applied as only non-recurring addons are supported,Recurring addon not supported
-non_compliant_customer_sub_msg,,"This subscription has been canceled, because we were unable to validate the customer''s location as required for compliance with the {0} rules.","This subscription has been canceled, because we were unable to validate the customer''s location as required for compliance with the {0} rules."
-no_creditcard_for_reactivate,,Cannot re-activate subscription as there is no active card on file,Cannot re-activate subscription as there is no active card on file
+sub_start_outside_plan_term,구독 시작일은 청구 기간 이전 일 수 없습니다.,Subscription start date cannot be before the billing period.,Subscription start date cannot be before the billing period.
+old_operation_failed,{0},{0},{0}
+subscription.invalid_scheduled_date,cancelled_at 날짜 ({0}) 이후 일 수 없습니다.,cannot be after cancelled_at date ({0}).,cannot be after cancelled_at date ({0}).
+line_discount_load_err,할인 문제. 자세한 내용은 지원팀에 문의하세요.,Problem with discounts. Please contact support for further details.,Problem with discounts. Please contact support for further details.
+trial_end_before_start_date,평가판 종료는 시작일 이전 일 수 없습니다.,Trial end cannot be before start date,Trial end cannot be before start date
+scheduled_for_cancellation,현재 기간이 끝날 때 취소 예정이므로 구독을 업데이트 할 수 없습니다.,Subscription cannot be updated as it is scheduled for cancellation at end of current term,Subscription cannot be updated as it is scheduled for cancellation at end of current term
+invalid_state_for_update,구독은 평가판 및 활성 상태에서만 업데이트 할 수 있습니다.,Subscription can be updated only in Trial & Active states,Subscription can be updated only in Trial & Active states
+required_input_for_status,{0} 구독의 경우 비워 둘 수 없습니다.,cannot be blank for {0} subscription,cannot be blank for {0} subscription
+pause-subscription.cancel_end_of_term_not_supported,구독이 일시 중지되었거나 일시 중지되도록 예약 된 경우 취소를 예약 할 수 없습니다.,Cannot schedule cancellation if subscription is paused or scheduled to pause.,Cannot schedule cancellation if subscription is paused or scheduled to pause.
+direct_debit_require_field_validation,{2}을 (를) 통해 {1} 자동 이체를 사용하려면 {0}이 (가) 필수입니다.,{0} is mandatory to use {1} Direct Debit via {2},{0} is mandatory to use {1} Direct Debit via {2}
+addon_not_applicable,{0},{0},Plan billing period and addon billing period are incompatible
+card_already_exists,{0},{0},{0}
+no_charge_item_present,반복되지 않는 추가 기능 또는 청구 항목이 하나 이상 있어야합니다.,Atleast one non recurring addon or charge item should be present,Atleast one non recurring addon or charge item should be present
+tmp_token_not_supported,이 게이트웨이에는 카드 임시 토큰 접근 방식이 지원되지 않습니다.,Card temporary token approach not supported for this gateway,Card temporary token approach not supported for this gateway
+non_compliant_eu_customer,고객이 청구 지 주소에 입력 한 EU 국가를 IP 주소 또는 카드 빈 번호로 확인할 수 없어 작업이 실패했습니다.,Operation failed as the eu country entered in billing address by customer cannot be verified against ip address or card bin number.,Operation failed as the eu country entered in billing address by customer cannot be verified against ip address or card bin number.
+resume-subscription.no_payment_method_for_resumption,활성 결제 수단이 없으므로 구독을 재개 할 수 없습니다.,Cannot resume subscription as you do not have an active payment method.,Cannot resume subscription as you do not have an active payment method.
+no_creditcard_for_create,파일에 유효한 카드가 없으므로 구독을 생성 할 수 없습니다.,Cannot create the subscription as there is no valid card on file,Cannot create the subscription as there is no valid card on file
+invalid_state_for_cancel,이미 취소되었거나 만료 된 구독은 취소 할 수 없습니다.,Cannot cancel a subscription that is Cancelled or Expired already,Cannot cancel a subscription that is Cancelled or Expired already
+invalid_state_for_collect,이 작업은 결제 기한 / 미지급 상태의 하나 이상의 인보이스에만 지원됩니다.,This operation is supported only for the invoices in payment_due/not_paid status,This operation is supported only for the invoices in payment_due/not_paid status
+resume-subscription.invalid_resume_date,pause_date ({0}) 또는 그 이전 일 수 없습니다.,cannot be on or before pause_date ({0}).,cannot be on or before pause_date ({0}).
+charge_failed,결제 수집에 실패했습니다. 이유 : {0},Payment collection failed. Reason: {0},Payment collection failed. Reason: {0}
+charge_item_not_supported_eot,기간 종료시 변경되는 구독에는 청구 항목을 추가 할 수 없습니다.,Charge item cannot be added to a subscription changing at end of term.,Charge item cannot be added to a subscription changing at end of term.
+charge_item_not_supported,송장이 즉시 제기되지 않으므로 청구 항목을 지금 추가 할 수 없습니다.,Charge item cannot be added now as invoice is not raised immediately.,Charge item cannot be added now as invoice is not raised immediately.
+invalid_term_end_date,날짜는 오늘 이전이면 안됩니다.,The date should not be prior to today,The date should not be prior to today
+no_scheduled_changes,이 구독에 대한 변경이 예약되지 않았습니다.,No changes are scheduled for this subscription.,No changes scheduled for the subscription on next renewal
+date_outside_plan_term,{0}은 (는) 결제 기간 내에 있어야합니다.,{0} must be within the billing period,{0} must be within the billing period
+self_site_change_sub_error,총 순수익이 무료 임계 값을 초과하므로 지정된 플랜에 대한 구독을 변경할 수 없습니다.,Cannot change the subscription to specified plan as total net revenue crosses the free threshold amount,Cannot change the subscription to specified plan as total net revenue crosses the free threshold amount
+no_creditcard_for_charge,파일에 유효한 카드가 없어 청구 작업에 실패했습니다.,Charge operation failed as there is no valid card on file,Charge operation failed as there is no valid card on file
+self_site_change_sub_feature_error,이 구독에는 새 계획에서 사용할 수없는 기능이 활성화되어 있으므로 구독을 변경할 수 없습니다.,Cannot change subscription because this subscription has features enabled that are unavailable in the new plan,Cannot change subscription because this subscription has features enabled that are unavailable in the new plan
+non_compliant_customer,고객이 청구서 수신 주소에 입력 한 국가가 IP 주소 또는 카드 빈 번호로 확인되지 않아 작업이 실패했습니다.,Operation failed as the country entered in billing address by customer cannot be verified against ip address or card bin number.,Operation failed as the country entered in billing address by customer cannot be verified against ip address or card bin number.
+quantity_not_allowed,계획으로 구독 수량을 전달할 수 없습니다. {0}에서는 수량을 허용하지 않습니다.,Cannot pass subscription quantity as the plan - {0} does not allow quantity.,Cannot pass subscription quantity as the plan - {0} does not allow quantity.
+param_must_be_future_date,미래 날짜 여야합니다.,must be a future date.,The parameter value must be a future date.
+self_site_coupon_error,이 구독에 대한 특별 쿠폰이 이미 적용되었습니다.,A special coupon has already been applied for this subscription.,A special coupon has already been applied for this subscription.
+not_scheduled_for_cancellation,구독 취소가 예약되어 있지 않아 작업이 실패했습니다.,Operation failed as subscription is not scheduled for cancellation.,Operation failed as subscription is not scheduled for cancellation.
+hp_card_err,{0},{0},{0}
+reactivate_not_supported,비 갱신 상태에서 평가판으로 전환 할 수 없으므로 작업 재 활성화가 지원되지 않습니다.,Reactivate operation not supported as transition to trial from non-renewing state is not possible,Reactivate operation not supported as transition to trial from non-renewing state is not possible
+invalid_state_for_reactivate,재 활성화하려면 구독이 취소되었거나 갱신되지 않아야합니다.,Subscription must be either Cancelled or Non Renewing to reactivate,Subscription must be either Cancelled or Non Renewing to reactivate
+update_operation_failed,{0},{0},{0}
+change_term_end_not_supported,이 작업은 in_trial / active / non_renewing 구독에 대해서만 지원됩니다.,This operation is supported only for in_trial/active/non_renewing subscriptions,This operation is supported only for in_trial/active/non_renewing subscriptions
+three_d_secure_needed,이 카드에는 3D 보안 확인이 필요하므로 지원되지 않는 작업입니다.,Operation not supported as 3D secure verification is needed for this card,Operation not supported as 3D secure verification is needed for this card
+invalid_input_for_status,{1} 구독에 대해 {0}을 (를) 전달하면 안됩니다.,{0} should not be passed for {1} subscription,{0} should not be passed for {1} subscription
+update_card_error,결제 수단을 업데이트하는 중에 문제가 발생했습니다. 오류 메시지 : {0},Problem while updating the payment method. Error message : {0},Problem while updating the payment method. Error message : {0}
+invalid_payment_method,잘못된 결제 수단,Invalid payment method,Invalid payment method
+subscription.param_should_not_be_sent,이 고객에 대해 자동 수집이 켜져 있으므로이 매개 변수를 보내면 안됩니다.,This param should not be sent since Auto Collection is ON for this customer.,The parameter should not be sent.
+payment_error_during_create,등록 된 카드에서 {0}을 (를) 수집 할 수 없으므로 구독을 생성 할 수 없습니다. 오류 메시지 : {1},Subscription cannot be created as we are not able to collect {0} from your card on file. Error message: {1},Subscription cannot be created as we are not able to collect {0} from your card on file. Error message: {1}
+payment_failure_during_reactivate,등록 된 카드에서 {0}을 (를) 수집 할 수 없으므로 구독을 다시 활성화 할 수 없습니다. 오류 메시지 : {1},Subscription cannot be re-activated as we are not able to collect {0} from your card on file. Error message: {1},Subscription cannot be re-activated as we are not able to collect {0} from your card on file. Error message: {1}
+invalid_card_number,유효하지 않은 카드 번호.,Invalid card number.,Invalid card number.
+resume-subscription.payment_failure_during_resumption,결제 수단으로 {0}의 결제를 처리 할 수 ​​없으므로 구독을 재개 할 수 없습니다.,Cannot resume subscription as we are unable to process payment of {0} from your payment method.,Cannot resume subscription as we are unable to process payment of {0} from your payment method.
+proration_currency_mismatch,현재 기간 인보이스의 통화가 구독과 다르므로 작업을 수행 할 수 없습니다. 지원팀에 문의하세요.,Operation cannot be performed as the current term invoice(s) have different currency from the subscription. Please contact support.,Operation cannot be performed as the current term invoice(s) have different currency from the subscription. Please contact support.
+non_compliant_customer_msg,이 고객의 위치는 {0} 규칙에서 요구하는대로 확인할 수 없습니다. 이 고객에 대한 구독은 필수 정보가 업데이트되지 않은 경우 갱신시 취소됩니다.,This customer''s location couldn''t be validated as required by the {0} rules. Subscriptions for this customer will be canceled upon renewal if the required information is not updated.,This customer''s location couldn''t be validated as required by the {0} rules. Subscriptions for this customer will be canceled upon renewal if the required information is not updated.
+prepaid_card_error,{0},{0},{0}
+no_creditcard_for_regenerate_invoice,파일에 유효한 카드가 없으므로 인보이스를 다시 생성 할 수 없습니다.,Cannot regenerate an invoice as there is no valid card on file,Cannot regenerate an invoice as there is no valid card on file
+payment_error_during_update,등록 된 카드에서 {0}을 (를) 수집 할 수 없으므로 구독을 업데이트 할 수 없습니다. 오류 메시지 : {1},Subscription cannot be updated as we are not able to collect {0} from your card on file. Error message: {1},Subscription cannot be updated as we are not able to collect {0} from your card on file. Error message: {1}
+no_creditcard_for_update,파일에 유효한 카드가 없으므로 구독을 변경할 수 없습니다.,Cannot change the subscription as there is no valid card on file,Cannot change the subscription as there is no valid card on file
+hp_non_compliant_customer,죄송합니다. 위치를 확인할 수 없어이 거래를 처리 할 수 ​​없습니다. 결제 정보에 제공된 것과 동일한 국가에서 발급 된 신용 카드를 사용하십시오.,"Sorry, we were unable to process this transaction because we could not verify your location. Please use a credit card issued from the same country as provided in the billing information.","Sorry, we were unable to process this transaction because we could not verify your location. Please use a credit card issued from the same country as provided in the billing information."
+tmp_tok_card_not_supported,카드 매개 변수는 {0}와 함께 전달하면 안됩니다.,Card params should not be passed with {0},Card params should not be passed with {0}
+add_card_error,결제 수단을 추가하는 중에 문제가 발생했습니다. 오류 메시지 : {0},Problem while adding the payment method. Error message : {0},Problem while adding the payment method. Error message : {0}
+invalid_input_for_status_gifts,{1} 선물에는 {0}을 (를) 전달하면 안됩니다.,{0} should not be passed for {1} gifts,{0} should not be passed for {1} gifts
+rec_addon_not_applicable,반복되지 않는 추가 기능 만 지원되므로 {0} 추가 기능을 적용 할 수 없습니다.,Addon {0} cannot be applied as only non-recurring addons are supported,Recurring addon not supported
+non_compliant_customer_sub_msg,{0} 규칙을 준수하는 데 필요한 고객의 위치를 ​​확인할 수 없어 구독이 취소되었습니다.,"This subscription has been canceled, because we were unable to validate the customer''s location as required for compliance with the {0} rules.","This subscription has been canceled, because we were unable to validate the customer''s location as required for compliance with the {0} rules."
+no_creditcard_for_reactivate,등록 된 활성 카드가 없으므로 구독을 재 활성화 할 수 없습니다.,Cannot re-activate subscription as there is no active card on file,Cannot re-activate subscription as there is no active card on file

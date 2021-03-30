@@ -1,6 +1,6 @@
 key,value,reference value,description
-ach-payment-info.title,,Bank Account Information,Bank Account Information
-resume-scheduled-info.title,,Remove Scheduled Resumption,Remove Scheduled Resumption
-pause-scheduled-info.title,,Remove Scheduled Pause,Remove Scheduled Pause
-discount.title,,Discount,Discount
-card.title,,Card Information,Card Information
+ach-payment-info.title,Informacija apie banko sąskaitą,Bank Account Information,Bank Account Information
+resume-scheduled-info.title,Pašalinti suplanuotą atnaujinimą,Remove Scheduled Resumption,Remove Scheduled Resumption
+pause-scheduled-info.title,Pašalinkite suplanuotą pauzę,Remove Scheduled Pause,Remove Scheduled Pause
+discount.title,Nuolaida,Discount,Discount
+card.title,Kortelės informacija,Card Information,Card Information

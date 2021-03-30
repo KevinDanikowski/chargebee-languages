@@ -1,39 +1,39 @@
 key,value,reference value,description
-minimal.card.page_heading,,Thank you for updating your payment method details!,Thank you for updating your payment method details!
-rhapsody.header.title,,My awesome subscription service,My awesome subscription service
-minimal.checkout.page_title,,Checkout,Checkout
-elegant.checkout.page_heading,,Thank you for subscribing!,Thank you for subscribing!
-inspire.portal.page_title,,Customer Portal,Customer Portal
-rhapsody.footer.content,,All Right Reserved. Copyright &copy; 2015.,All Right Reserved. Copyright &copy; 2015.
-minimal.thankyou.page_title,,Thank You,Thank You
-elegant.thankyou.page_heading,,You've successfully signed up!,You've successfully signed up!
-elegant.customer_portal.page_title,,Customer Portal,Customer Portal
-rhapsody.thankyou.page_heading,,You've successfully signed up!,You've successfully signed up!
-elegant.checkout.aside_content,,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>
-minimal.footer.content,,All Rights Reserved. Copyright &copy; 2015.,All Rights Reserved. Copyright &copy; 2015.
-elegant.header.title,,My awesome subscription service,My awesome subscription service
-rhapsody.thankyou.content,,Your account information has been sent to your email address.,Your account information has been sent to your email address.
-minimal.header.title,,My awesome subscription service,My awesome subscription service
-minimal.customer_portal.page_title,,Customer Portal,Customer Portal
-inspire.thankyou.page_title,,Thank You,Thank You
-minimal.card.aside_content,,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>
-minimal.thankyou.content,,Your account information has been sent to your email address.,Your account information has been sent to your email address.
-elegant.card.aside_content,,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>
-elegant.card.page_heading,,Thank you for updating your payment method details!,Thank you for updating your payment method details!
-minimal.card.page_title,,Update your payment method,Update your payment method
-inspire.thankyou.content,,<div class='text-center'><h3>You've successfully signed up!</h3><p>Your account information has been sent to your email address.</p></div>,<div class='text-center'><h3>You've successfully signed up!</h3><p>Your account information has been sent to your email address.</p></div>
-minimal.checkout.page_heading,,Thank you for subscribing!,Thank you for subscribing!
-rhapsody.card.page_title,,Update your payment method,Update your payment method
-rhapsody.checkout.page_title,,Checkout,Checkout
-rhapsody.thankyou.page_title,,Thank You,Thank You
-elegant.checkout.page_title,,Checkout,Checkout
-elegant.thankyou.content,,Your account information has been sent to your email address.,Your account information has been sent to your email address.
-elegant.card.page_title,,Update your payment method,Update your payment method
-rhapsody.customer_portal.page_title,,Customer Portal,Customer Portal
-minimal.thankyou.page_heading,,You've successfully signed up!,You've successfully signed up!
-elegant.footer.content,,All Rights Reserved. Copyright &copy; 2015.,All Rights Reserved. Copyright &copy; 2015.
-elegant.thankyou.page_title,,Thank You,Thank You
-inspire.card.page_title,,Update your payment method,Update your payment method
-inspire.header.title,,Company Name,Company Name
-inspire.checkout.page_title,,Checkout,Checkout
-minimal.checkout.aside_content,,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>
+minimal.card.page_heading,결제 방법 세부 정보를 업데이트 해 주셔서 감사합니다!,Thank you for updating your payment method details!,Thank you for updating your payment method details!
+rhapsody.header.title,내 멋진 구독 서비스,My awesome subscription service,My awesome subscription service
+minimal.checkout.page_title,점검,Checkout,Checkout
+elegant.checkout.page_heading,구독 해주셔서 감사합니다!,Thank you for subscribing!,Thank you for subscribing!
+inspire.portal.page_title,고객 포털,Customer Portal,Customer Portal
+rhapsody.footer.content,모든 권리 보유. 저작권 © 2015.,All Right Reserved. Copyright &copy; 2015.,All Right Reserved. Copyright &copy; 2015.
+minimal.thankyou.page_title,감사합니다,Thank You,Thank You
+elegant.thankyou.page_heading,성공적으로 가입하셨습니다!,You've successfully signed up!,You've successfully signed up!
+elegant.customer_portal.page_title,고객 포털,Customer Portal,Customer Portal
+rhapsody.thankyou.page_heading,성공적으로 가입하셨습니다!,You've successfully signed up!,You've successfully signed up!
+elegant.checkout.aside_content,<h4> 우리는 귀하의 개인 정보를 소중하게 생각합니다. </h4> <p> 귀하의 연락처 정보를 판매하거나 배포하지 않습니다. 개인 정보 보호 정책을 읽어보십시오. </p> <hr> <h4> 결제 문의 </h4> <p> 질문이 있으시면 언제든지 지원팀에 문의하십시오. </p>,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>
+minimal.footer.content,판권 소유. 저작권 © 2015.,All Rights Reserved. Copyright &copy; 2015.,All Rights Reserved. Copyright &copy; 2015.
+elegant.header.title,내 멋진 구독 서비스,My awesome subscription service,My awesome subscription service
+rhapsody.thankyou.content,귀하의 계정 정보가 귀하의 이메일 주소로 전송되었습니다.,Your account information has been sent to your email address.,Your account information has been sent to your email address.
+minimal.header.title,내 멋진 구독 서비스,My awesome subscription service,My awesome subscription service
+minimal.customer_portal.page_title,고객 포털,Customer Portal,Customer Portal
+inspire.thankyou.page_title,감사합니다,Thank You,Thank You
+minimal.card.aside_content,<p> 이것은 결제 수단의 업데이트 일뿐입니다. </p> <p> 기존 결제 설정에 따라 요금이 청구됩니다. </p>,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>
+minimal.thankyou.content,귀하의 계정 정보가 귀하의 이메일 주소로 전송되었습니다.,Your account information has been sent to your email address.,Your account information has been sent to your email address.
+elegant.card.aside_content,<p> 이것은 결제 수단의 업데이트 일뿐입니다. </p> <p> 기존 결제 설정에 따라 요금이 청구됩니다. </p>,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>
+elegant.card.page_heading,결제 방법 세부 정보를 업데이트 해 주셔서 감사합니다!,Thank you for updating your payment method details!,Thank you for updating your payment method details!
+minimal.card.page_title,결제 방법 업데이트,Update your payment method,Update your payment method
+inspire.thankyou.content,"<div class=""text-center""> <h3> 성공적으로 가입했습니다! </h3> <p> 계정 정보가 이메일 주소로 전송되었습니다. </p> </div>",<div class='text-center'><h3>You've successfully signed up!</h3><p>Your account information has been sent to your email address.</p></div>,<div class='text-center'><h3>You've successfully signed up!</h3><p>Your account information has been sent to your email address.</p></div>
+minimal.checkout.page_heading,구독 해주셔서 감사합니다!,Thank you for subscribing!,Thank you for subscribing!
+rhapsody.card.page_title,결제 방법 업데이트,Update your payment method,Update your payment method
+rhapsody.checkout.page_title,점검,Checkout,Checkout
+rhapsody.thankyou.page_title,감사합니다,Thank You,Thank You
+elegant.checkout.page_title,점검,Checkout,Checkout
+elegant.thankyou.content,귀하의 계정 정보가 귀하의 이메일 주소로 전송되었습니다.,Your account information has been sent to your email address.,Your account information has been sent to your email address.
+elegant.card.page_title,결제 방법 업데이트,Update your payment method,Update your payment method
+rhapsody.customer_portal.page_title,고객 포털,Customer Portal,Customer Portal
+minimal.thankyou.page_heading,성공적으로 가입하셨습니다!,You've successfully signed up!,You've successfully signed up!
+elegant.footer.content,판권 소유. 저작권 © 2015.,All Rights Reserved. Copyright &copy; 2015.,All Rights Reserved. Copyright &copy; 2015.
+elegant.thankyou.page_title,감사합니다,Thank You,Thank You
+inspire.card.page_title,결제 방법 업데이트,Update your payment method,Update your payment method
+inspire.header.title,회사 이름,Company Name,Company Name
+inspire.checkout.page_title,점검,Checkout,Checkout
+minimal.checkout.aside_content,<h4> 우리는 귀하의 개인 정보를 소중하게 생각합니다. </h4> <p> 귀하의 연락처 정보를 판매하거나 배포하지 않습니다. 개인 정보 보호 정책을 읽어보십시오. </p> <hr> <h4> 결제 문의 </h4> <p> 질문이 있으시면 언제든지 지원팀에 문의하십시오. </p>,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>

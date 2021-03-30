@@ -1,21 +1,21 @@
 key,value,reference value,description
-not_supported_for_moving_out_resource,,Sorry this operation is not possible now. Please try again after some time or contact us for assistance.,Sorry this operation is not possible now. Please try again after some time or contact us for assistance.
-login_mismatch_error,,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
-recaptcha_verification_failed,,Recaptcha verification failed. Try again,Recaptcha verification failed. Try again
-password_too_short,,Your password must have atleast 8 characters,Your password must have atleast 8 characters
-invalid_url,,Oops! This URL appears to be either expired or invalid.,Oops! This URL appears to be either expired or invalid.
-portal_access_disabled_for,,Customer portal access is disabled.,Customer portal access is disabled.
-invalid_return_cancel_url,,Oops! The return or cancel URL is invalid.,Oops! The return or cancel URL is invalid.
-portal_access_disabled_for_api,,Customer portal access via API is disabled.,Customer portal access via API is disabled.
-login_site_mismatch_error,,"Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service.","Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service."
-same_password_error,,New password should not be the current password,New password should not be the current password
-"subscription_canceled ",,This is a cancelled subscription. Please contact us for more details.,This is a cancelled subscription. Please contact us for more details.
-portal_session_status_not_supported,,Activating a portal session is not supported for this request.,Activating a portal session is not supported for this request.
-password_not_valid,,"Your password must have atleast one uppercase character, lowercase character and a number","Your password must have atleast one uppercase character, lowercase character and a number"
-setup_not_completed,,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.
-invalid_otp_error,,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
-email_not_verified,,You have not verified your email. Use the ''Sign Up'' option to get started.,You have not verified your email. Use the ''Sign Up'' option to get started.
-otp_mismatch_error,,Invalid one time password,Invalid one time password
-account_locked_error,,Your account has been locked due to security reasons.,Your account has been locked due to security reasons.
-portal_token_invalid,,Portal token has been expired or invalid.,Portal token has been expired or invalid.
-email_should_not_be_sent,,Email address is not allowed to be updated.,Email address is not allowed to be updated.
+not_supported_for_moving_out_resource,"Beklager, denne operasjonen er ikke mulig nå. Prøv igjen etter en stund, eller kontakt oss for hjelp.",Sorry this operation is not possible now. Please try again after some time or contact us for assistance.,Sorry this operation is not possible now. Please try again after some time or contact us for assistance.
+login_mismatch_error,Innlogging mislyktes på grunn av feil legitimasjon.,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
+recaptcha_verification_failed,Bekreftelsen av Recaptcha mislyktes. Prøv igjen,Recaptcha verification failed. Try again,Recaptcha verification failed. Try again
+password_too_short,Passordet ditt må inneholde minst 8 tegn,Your password must have atleast 8 characters,Your password must have atleast 8 characters
+invalid_url,Beklager! Denne nettadressen ser ut til å være utløpt eller ugyldig.,Oops! This URL appears to be either expired or invalid.,Oops! This URL appears to be either expired or invalid.
+portal_access_disabled_for,Kundeportalstilgang er deaktivert.,Customer portal access is disabled.,Customer portal access is disabled.
+invalid_return_cancel_url,Beklager! URLen for retur eller avbestilling er ugyldig.,Oops! The return or cancel URL is invalid.,Oops! The return or cancel URL is invalid.
+portal_access_disabled_for_api,Kundeportalstilgang via API er deaktivert.,Customer portal access via API is disabled.,Customer portal access via API is disabled.
+login_site_mismatch_error,"Bekreft e-post-ID-en. Denne registreringen fungerer bare hvis du allerede er en ""abonnent"" på denne tjenesten.","Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service.","Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service."
+same_password_error,Nytt passord skal ikke være det nåværende passordet,New password should not be the current password,New password should not be the current password
+subscription_canceled ,Dette er et kansellert abonnement. Kontakt oss for mer informasjon.,This is a cancelled subscription. Please contact us for more details.,This is a cancelled subscription. Please contact us for more details.
+portal_session_status_not_supported,Aktivering av en portaløkt støttes ikke for denne forespørselen.,Activating a portal session is not supported for this request.,Activating a portal session is not supported for this request.
+password_not_valid,"Passordet ditt må ha minst ett stort tegn, små bokstaver og et tall","Your password must have atleast one uppercase character, lowercase character and a number","Your password must have atleast one uppercase character, lowercase character and a number"
+setup_not_completed,Du har ikke konfigurert kundeportalkontoen din ennå. Bruk alternativet 'Registrer deg' for å komme i gang.,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.
+invalid_otp_error,Innlogging mislyktes på grunn av feil legitimasjon.,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
+email_not_verified,Du har ikke bekreftet e-posten din. Bruk alternativet 'Registrer deg' for å komme i gang.,You have not verified your email. Use the ''Sign Up'' option to get started.,You have not verified your email. Use the ''Sign Up'' option to get started.
+otp_mismatch_error,Ugyldig engangspassord,Invalid one time password,Invalid one time password
+account_locked_error,Kontoen din har blitt låst av sikkerhetsmessige årsaker.,Your account has been locked due to security reasons.,Your account has been locked due to security reasons.
+portal_token_invalid,Portaltoken er utløpt eller ugyldig.,Portal token has been expired or invalid.,Portal token has been expired or invalid.
+email_should_not_be_sent,E-postadressen kan ikke oppdateres.,Email address is not allowed to be updated.,Email address is not allowed to be updated.

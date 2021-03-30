@@ -1,6 +1,6 @@
 key,value,reference value,description
-ach-payment-info.title,,Bank Account Information,Bank Account Information
-resume-scheduled-info.title,,Remove Scheduled Resumption,Remove Scheduled Resumption
-pause-scheduled-info.title,,Remove Scheduled Pause,Remove Scheduled Pause
-discount.title,,Discount,Discount
-card.title,,Card Information,Card Information
+ach-payment-info.title,銀行口座情報,Bank Account Information,Bank Account Information
+resume-scheduled-info.title,スケジュールされた再開を削除する,Remove Scheduled Resumption,Remove Scheduled Resumption
+pause-scheduled-info.title,スケジュールされた一時停止を削除する,Remove Scheduled Pause,Remove Scheduled Pause
+discount.title,ディスカウント,Discount,Discount
+card.title,カード情報,Card Information,Card Information

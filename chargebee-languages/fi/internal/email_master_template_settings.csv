@@ -1,7 +1,7 @@
 key,value,reference value,description
-static.email_template_setting.portal_notes,,"View payments, update them or manage your account on your customer portal.
+static.email_template_setting.portal_notes,"Tarkastele maksuja, päivitä niitä tai hallinnoi tiliäsi asiakasportaalissasi.","View payments, update them or manage your account on your customer portal.
 ",Portal Notes for the Email Template Setting
-static.email_template_setting.footer_notes,,"<p><b>PS:</b> We hope you're enjoying your experience with us! As always, feel free to reach out to us. We'd love to hear from you.</p>
+static.email_template_setting.footer_notes,"<p> <b> PS: </b> Toivomme, että nautit kokemuksestasi kanssamme! Kuten aina, ota rohkeasti yhteyttä meihin. Haluaisimme kuulla sinusta. </p>","<p><b>PS:</b> We hope you're enjoying your experience with us! As always, feel free to reach out to us. We'd love to hear from you.</p>
 ",Footer Notes for the Email Template Setting
-static.email_template_setting.portal_link_text,,"Log into your account now &rarr;
+static.email_template_setting.portal_link_text,Kirjaudu tiliisi nyt ->,"Log into your account now &rarr;
 ",Portal Link Text for the Email Template Setting

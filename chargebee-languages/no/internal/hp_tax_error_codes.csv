@@ -1,25 +1,25 @@
 key,value,reference value,description
-invalid_column,,The value {1} in the column ({0}) is invalid,The value {1} in the column ({0}) is invalid
-invalid_column_header,,The column {0} is invalid.,The column {0} is invalid.
-billing_country_needed_to_collect_registered_for_gst_field,,You need to add a Billing Country to select this field.,You need to add a Billing Country to select this field.
-billing_country_needed,,Billing country needed to validate the VAT number.,Billing country needed to validate the VAT number.
-australia_tax_should_be_configured,,You need to enable tax for Australia to select this field,You need to enable tax for Australia to select this field
-tax.could_not_read_the_file,,File contains invalid values,File contains invalid values
-unable_to_validate_abn,,Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
-no_header_found,,Header are not present or not formatted properly.,Header are not present or not formatted properly.
-no_tax_rules_found,,File does not contain any tax rule,File does not contain any tax rule
-tax.un_supported_file_format,,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
-profile_service_type_error,,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.
-tax.wrong_format,,Value for ({0}) is invalid,Value for ({0}) is invalid
-file_not_found,,Tax configuration file not found,Tax configuration file not found
-duplicate_column,,The column ({0}) appears more than once in the file.,The column ({0}) appears more than once in the file.
-invalid_GSTIN,,You need to enter a valid GSTIN.,You need to enter a valid GSTIN.
-invalid_abn_number,,You need to enter a valid ABN.,You need to enter a valid ABN.
-eu_vat_not_applicable,,VAT Number not applicable for this country,VAT Number not applicable for this country
-zip_wrong_format,,cannot configure the zip values - {0},cannot configure the zip values - {0}
-invalid_zip_code,,invalid zip/postal code,invalid zip/postal code
-org_address_not_config,,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined
-registered_for_gst_not_applicable,,This option is applicable for Australia only.,This option is applicable for Australia only.
-invalid_vat_number,,You need to enter a valid VAT number.,You need to enter a valid VAT number.
-unable_to_validate,,Unable to validate VAT number as VIES is experiencing downtime.,Unable to validate VAT number as VIES is experiencing downtime.
-us_unsupported_prefix,,Wildcard characters cannot be used along with ZIP+4 postal codes - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0}
+invalid_column,Verdien {1} i kolonnen ({0}) er ugyldig,The value {1} in the column ({0}) is invalid,The value {1} in the column ({0}) is invalid
+invalid_column_header,Kolonnen {0} er ugyldig.,The column {0} is invalid.,The column {0} is invalid.
+billing_country_needed_to_collect_registered_for_gst_field,Du må legge til et faktureringsland for å velge dette feltet.,You need to add a Billing Country to select this field.,You need to add a Billing Country to select this field.
+billing_country_needed,Faktureringsland trengte for å validere momsnummeret.,Billing country needed to validate the VAT number.,Billing country needed to validate the VAT number.
+australia_tax_should_be_configured,Du må aktivere skatt for Australia for å velge dette feltet,You need to enable tax for Australia to select this field,You need to enable tax for Australia to select this field
+tax.could_not_read_the_file,Filen inneholder ugyldige verdier,File contains invalid values,File contains invalid values
+unable_to_validate_abn,Kan ikke behandle ABN ettersom ABN Lookup-serveren er nede.,Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
+no_header_found,Topptekst er ikke tilstede eller ikke riktig formatert.,Header are not present or not formatted properly.,Header are not present or not formatted properly.
+no_tax_rules_found,Filen inneholder ingen skatteregler,File does not contain any tax rule,File does not contain any tax rule
+tax.un_supported_file_format,Filformatet støttes ikke. Bare CSV-filer er tillatt,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
+profile_service_type_error,Denne avgiftsprofilen er allerede tilordnet produkttypen {0}. Du kan bare tilordne én produkttype til en profil.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.
+tax.wrong_format,Verdien for ({0}) er ugyldig,Value for ({0}) is invalid,Value for ({0}) is invalid
+file_not_found,Skattekonfigurasjonsfil ble ikke funnet,Tax configuration file not found,Tax configuration file not found
+duplicate_column,Kolonnen ({0}) vises mer enn en gang i filen.,The column ({0}) appears more than once in the file.,The column ({0}) appears more than once in the file.
+invalid_GSTIN,Du må oppgi en gyldig GSTIN.,You need to enter a valid GSTIN.,You need to enter a valid GSTIN.
+invalid_abn_number,Du må oppgi et gyldig ABN.,You need to enter a valid ABN.,You need to enter a valid ABN.
+eu_vat_not_applicable,Mva-nummer gjelder ikke for dette landet,VAT Number not applicable for this country,VAT Number not applicable for this country
+zip_wrong_format,kan ikke konfigurere zip-verdiene - {0},cannot configure the zip values - {0},cannot configure the zip values - {0}
+invalid_zip_code,ugyldig postnummer,invalid zip/postal code,invalid zip/postal code
+org_address_not_config,Inkluderende avgiftspristype kan ikke konfigureres ettersom handelssats ikke kunne fastsettes,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined
+registered_for_gst_not_applicable,Dette alternativet gjelder kun for Australia.,This option is applicable for Australia only.,This option is applicable for Australia only.
+invalid_vat_number,Du må oppgi et gyldig momsnummer.,You need to enter a valid VAT number.,You need to enter a valid VAT number.
+unable_to_validate,Kan ikke validere mva-nummer ettersom VIES opplever nedetid.,Unable to validate VAT number as VIES is experiencing downtime.,Unable to validate VAT number as VIES is experiencing downtime.
+us_unsupported_prefix,Jokertegn kan ikke brukes sammen med ZIP + 4 postnummer - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0}

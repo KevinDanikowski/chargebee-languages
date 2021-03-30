@@ -1,27 +1,27 @@
 key,value,reference value,description
-portal.action.success.not_signed_up,,You haven't signed up yet. We've sent the sign up link to your email.,You haven't signed up yet. We've sent the sign up link to your email.
-portal.action.success.payment_src_removed_backup,,Unmarked %{payment_method} as Backup payment method.,after removing the tag to the payment method as Backup. eg: Unmarked Visa (...4444) as Backup payment method.
-portal.action.notice.portal_login,,You've already setup your customer portal account using this email address. Please login here.,You've already setup your customer portal account using this email address. Please login here.
-portal.action.success.payment_src_updated,,%{payment_method} details have been updated.,after the card details have been updated. eg: Visa (...4444) details have been updated.
-portal.action.error.maximum_number_exceeded,,You have exceeded the maximum number of attempts to verify this bank account,You have exceeded the maximum number of attempts to verify this bank account
-portal.action.success.email_not_verified_login,,You haven't verified your email. Another verfication email has been sent to your account. You need to verify your email ID to login.,You haven't verified your email. Another verfication email has been sent to your account. You need to verify your email ID to login.
-portal.action.success.forgot_password,,You will receive the password reset instructions if you have subscribed using this email ID.,You will receive the password reset instructions if you have subscribed using this email ID.
-portal.action.error.url_expired_invalid,,The URL appears to be either expired or invalid. Please enter your email address to request another link.,The URL appears to be either expired or invalid. Please enter your email address to request another link.
-portal.action.success.not_completed_signup,,You haven't completed your sign up yet. We've resent the sign up link to your email.,You haven't completed your sign up yet. We've resent the sign up link to your email.
-portal.action.success.change_password,,Your password has been changed successfully.,Your password has been changed successfully.
-portal.action.success.payment_src_added,,%{payment_method} added as a payment method," after the card details have been added. eg: Visa (...4444) added as a payment method."
-portal.action.success.verified_account,,You have successfully verified your account. Login here.,You have successfully verified your account. Login here.
-portal.action.success.shipping_address_update,,Successfully updated your shipping address details.,Successfully updated your shipping address details.
-portal.action.success.billing_address_update,,Successfully updated your billing address details.,Successfully updated your billing address details.
-portal.action.success.subscription_cancelled_removed_card,,Successfully canceled your subscription and your credit card removed.,Successfully canceled your subscription and your credit card removed.
-portal.action.success.subscription_cancelled,,Successfully canceled your subscription.,Successfully canceled your subscription.
-portal.action.success.payment_method_removed,,%{payment_method} deleted.,Deleting a payment method. eg: Visa (...4444) deleted.
-portal.action.notice.email_not_verified,,You've already setup your customer portal. A verification email has been sent. Please verify your email address and try logging in.,You've already setup your customer portal. A verification email has been sent. Please verify your email address and try logging in.
-portal.action.success.payment_src_marked_primary,,%{payment_method} marked as Primary payment method.,after associating a tag to the payment method as Primary. eg: Visa (...4444) marked as Primary payment method.
-portal.action.success.subscription_change,,Successfully updated your subscription.,Successfully updated your subscription.
-portal.action.success.account_update,,Successfully updated your account details.,Successfully updated your account details.
-portal.action.error.password_expired,,Your password has expired. Please change it here.,Your password has expired. Please change it here.
-portal.action.success.reset_password,,Success: Your password has been reset! Login here.,Success: Your password has been reset! Login here.
-portal.action.notice.complete_setup,,We've sent an email with instructions to complete your sign up.,We've sent an email with instructions to complete your sign up.
-portal.action.success.payment_src_marked_backup,,%{payment_method} marked as Backup payment method.,after associating a tag to the payment method as Backup. eg: Visa (...4444) marked as Backup payment method.
-portal.action.success.bank_account_verified,,The bank account is successfully verified.,The bank account is successfully verified.
+portal.action.success.not_signed_up,まだサインアップしていません。サインアップリンクをメールで送信しました。,You haven't signed up yet. We've sent the sign up link to your email.,You haven't signed up yet. We've sent the sign up link to your email.
+portal.action.success.payment_src_removed_backup,バックアップ支払い方法としてマークされていない％{payment_method}。,Unmarked %{payment_method} as Backup payment method.,after removing the tag to the payment method as Backup. eg: Unmarked Visa (...4444) as Backup payment method.
+portal.action.notice.portal_login,このメールアドレスを使用して、カスタマーポータルアカウントをすでに設定しています。こちらからログインしてください。,You've already setup your customer portal account using this email address. Please login here.,You've already setup your customer portal account using this email address. Please login here.
+portal.action.success.payment_src_updated,％{payment_method}の詳細が更新されました。,%{payment_method} details have been updated.,after the card details have been updated. eg: Visa (...4444) details have been updated.
+portal.action.error.maximum_number_exceeded,この銀行口座の確認の最大試行回数を超えました,You have exceeded the maximum number of attempts to verify this bank account,You have exceeded the maximum number of attempts to verify this bank account
+portal.action.success.email_not_verified_login,メールアドレスを確認していません。別の確認メールがアカウントに送信されました。ログインするには、メールIDを確認する必要があります。,You haven't verified your email. Another verfication email has been sent to your account. You need to verify your email ID to login.,You haven't verified your email. Another verfication email has been sent to your account. You need to verify your email ID to login.
+portal.action.success.forgot_password,この電子メールIDを使用してサブスクライブした場合は、パスワードのリセット手順が表示されます。,You will receive the password reset instructions if you have subscribed using this email ID.,You will receive the password reset instructions if you have subscribed using this email ID.
+portal.action.error.url_expired_invalid,URLが期限切れか無効のようです。別のリンクをリクエストするには、メールアドレスを入力してください。,The URL appears to be either expired or invalid. Please enter your email address to request another link.,The URL appears to be either expired or invalid. Please enter your email address to request another link.
+portal.action.success.not_completed_signup,サインアップはまだ完了していません。メールへの登録リンクを再送しました。,You haven't completed your sign up yet. We've resent the sign up link to your email.,You haven't completed your sign up yet. We've resent the sign up link to your email.
+portal.action.success.change_password,パスワードが正常に変更されました。,Your password has been changed successfully.,Your password has been changed successfully.
+portal.action.success.payment_src_added,％{payment_method}が支払い方法として追加されました,%{payment_method} added as a payment method, after the card details have been added. eg: Visa (...4444) added as a payment method.
+portal.action.success.verified_account,アカウントの確認に成功しました。ここでログイン。,You have successfully verified your account. Login here.,You have successfully verified your account. Login here.
+portal.action.success.shipping_address_update,配送先住所の詳細が正常に更新されました。,Successfully updated your shipping address details.,Successfully updated your shipping address details.
+portal.action.success.billing_address_update,請求先住所の詳細が正常に更新されました。,Successfully updated your billing address details.,Successfully updated your billing address details.
+portal.action.success.subscription_cancelled_removed_card,サブスクリプションが正常にキャンセルされ、クレジットカードが削除されました。,Successfully canceled your subscription and your credit card removed.,Successfully canceled your subscription and your credit card removed.
+portal.action.success.subscription_cancelled,サブスクリプションを正常にキャンセルしました。,Successfully canceled your subscription.,Successfully canceled your subscription.
+portal.action.success.payment_method_removed,％{payment_method}が削除されました。,%{payment_method} deleted.,Deleting a payment method. eg: Visa (...4444) deleted.
+portal.action.notice.email_not_verified,すでにカスタマーポータルを設定しています。確認メールが送信されました。メールアドレスを確認してログインしてみてください。,You've already setup your customer portal. A verification email has been sent. Please verify your email address and try logging in.,You've already setup your customer portal. A verification email has been sent. Please verify your email address and try logging in.
+portal.action.success.payment_src_marked_primary,％{payment_method}がプライマリ支払い方法としてマークされています。,%{payment_method} marked as Primary payment method.,after associating a tag to the payment method as Primary. eg: Visa (...4444) marked as Primary payment method.
+portal.action.success.subscription_change,サブスクリプションが正常に更新されました。,Successfully updated your subscription.,Successfully updated your subscription.
+portal.action.success.account_update,アカウントの詳細が正常に更新されました。,Successfully updated your account details.,Successfully updated your account details.
+portal.action.error.password_expired,パスワードの有効期限が切れています。こちらで変更してください。,Your password has expired. Please change it here.,Your password has expired. Please change it here.
+portal.action.success.reset_password,成功：パスワードがリセットされました！ここでログイン。,Success: Your password has been reset! Login here.,Success: Your password has been reset! Login here.
+portal.action.notice.complete_setup,サインアップを完了するための手順が記載されたメールを送信しました。,We've sent an email with instructions to complete your sign up.,We've sent an email with instructions to complete your sign up.
+portal.action.success.payment_src_marked_backup,％{payment_method}はバックアップ支払い方法としてマークされています。,%{payment_method} marked as Backup payment method.,after associating a tag to the payment method as Backup. eg: Visa (...4444) marked as Backup payment method.
+portal.action.success.bank_account_verified,銀行口座は正常に確認されました。,The bank account is successfully verified.,The bank account is successfully verified.

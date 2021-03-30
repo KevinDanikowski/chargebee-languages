@@ -1,5 +1,5 @@
 key,value,reference value,description
-usage.label.date,,Date,Date
-usage.label.usage,,Usage,Usage
-usage.label.plan_or_addon,,Plan/Addon,Plan/Addon
-usage.label.usage_details,,Usage Details,Usage Details
+usage.label.date,日付,Date,Date
+usage.label.usage,使用法,Usage,Usage
+usage.label.plan_or_addon,プラン/アドオン,Plan/Addon,Plan/Addon
+usage.label.usage_details,使用法の詳細,Usage Details,Usage Details

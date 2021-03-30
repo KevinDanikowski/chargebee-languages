@@ -1,54 +1,54 @@
 key,value,reference value,description
-hp.portal.mark.backup,,Mark as Backup,Marking a payment method as Backup
-hp.billing_period.week,,%{period} Weeks,2 Weeks
-hp.portal.powered_by,,Powered by,Powered by chargebee
-hp.clientjs.cannot_be_blank,,cannot be blank,cannot be blank
-action_error.post,,There were errors while submitting,There were errors while submitting
-hp.change_link,,Change,Change link
-hp.portal.signed_up,,Signed up on %{date},Account signed up on 12-03-2016
-hp.portal.invoice.showing,,Showing,Showing invoice label
-payment_method.info.card,,card ending with %{last4_digits},card ending with 4111
-payment_method.info.direct_debit,,"%{bank_name}, Account number ending with %{last4_digits}",
-hp.portal.chargebee_secure,,Chargebee Secure Payment,Chargebee Secure Payment - security statement
-hp.portal.payment_method_role.backup,,Backup,Payment method is tagged as Backup
-hp.gocardless.desc,,Set up Direct Debit,Set up Direct Debit - gateway label
-hp.portal.mark.primary,,Mark as Primary,Marking a payment method as Primary
-hp.bt_apple_card,,%{card_type} card,Visa Card
-hp.apple_card_ending,,Card ending ... %{digits},Card Ending .. 4444
-hp.clientjs.successful_card_update,,you have successfully updated your card details.,you have successfully updated your card details.
-hp.amazon.desc,,Pay securely using the information on your Amazon account.,Pay securely using the information on your Amazon account - one liner for amazon gateway payments
-hp.portal.remove.backup,,Remove Backup,Unmarking a payment method as Backup
-hp.card_ending,,%{card_type} card ending ... %{digits},Visa Card Ending .. 4444
-hp.clientjs.successful_signup,,you have successfully signed up for the service,you have successfully signed up for the service
-apple_pay.label.tax,,TAX (YET TO BE CALCULATED),Label for tax amount
-hp.portal.paypal_redirect,,Redirecting to PayPal...,Redirecting to PayPal... - info
-hp.order_summary.terms_to_charge,,for %{no_of_terms} terms,($100.00 x 3) for 2 terms
-hp.clientjs.submit_error,,There were errors while submitting,There were errors while submitting
-hp.clientjs.problem_while_processing,,Problem while processing your form. Please verify your form details.,Problem while processing your form. Please verify your form details.
-hp.portal.payment_method_role.primary,,Primary,Payment method is tagged as Primary
-payment_method.info.paypal_express_checkout,,PayPal Express Checkout account,PayPal Express Checkout account
-hp.portal.ach_agree_details1,,"I (We) hereby authorize and request %{merchant_name} to debit funds from my (our) account at the Financial Institution indicated, and credit the funds. I (we) authorize %{merchant_name} to take any and all action required to correct any errors.","I (We) hereby authorize and request Chargebee to debit funds from my (our) account at the Financial Institution indicated, and credit the funds. I (we) authorize Chargebee to take any and all action required to correct any errors."
-hp.portal.ach_agree_details2,,"By clicking the button below, you certify that the information you have given on this ACH Debit Authorization Agreement for Direct Payments is complete, true, and submitted for the purpose selected above. It will remain in effect until I (we) notify %{merchant_name} that I (we) wish to revoke this authorization by contacting %{merchant_email} or %{merchant_phone}.","By clicking the button below, you certify that the information you have given on this ACH Debit Authorization Agreement for Direct Payments is complete, true, and submitted for the purpose selected above.  It will remain in effect until I (we) notify Chargebee that I (we) wish to revoke this authorization by contacting sam@example.com or 9898982345."
-hp.bank_account.desc,,Bank Account,Bank Account label
-hp.portal.date,,Date,Date
-hp.gocardless.redirect,,Redirecting to Direct Debit Provider...,Redirecting to Direct Debit Provider... - info
-hp.billing_period.year,,%{period} Years,2 Months
-hp.copied,,Copied,Copied URL
-hp.error.undetermined_vat_number,,Could not validate VAT number as VIES service is unavailable.,Could not validate VAT number as VIES service is unavailable.
-apple_pay.label.charges,,CHARGES,Label for main line item amount
-payment_method.info.amazon_payments,,Amazon Payments account,Amazon Payments account
-hp.clientjs.invalid_coupon_code,,Invalid coupon code,Invalid coupon code
-hp.error.undetermined_abn_number,,Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
-hp.portal.ach_agreement,,ACH Authorization Agreement,ACH Authorization Agreement - Agreement label
-hp.error.invalid_vat_number,,Invalid VAT Number,Invalid VAT Number
-hp.portal.account,,Account,Account user account label
-hp.portal.manage,,Manage,Portal account Manage label
-hp.error.invalid_abn_number,,"Invalid ABN ",Invalid ABN
-hp.billing_period.month,,%{period} Months,2 Months
-action_error.get,,There were errors while processing your request,There were errors while processing your request
-apple_pay.label.discount,,DISCOUNTS,Label for discount amount
-hp.update_payment_method.details,,Updating the payment method details...,Updating the payment method details...
-payment_method.info.direct_debit_no_bank_name,,bank account number ending with %{last4_digits},
-hp.paypal.desc,,"The safer, easier way to pay","The safer, easier way to pay - one liner for paypal gateway payments"
-hp.copy,,Copy,Copy URL
-hp.portal.bank_account,,bank account,bank account label
+hp.portal.mark.backup,백업으로 표시,Mark as Backup,Marking a payment method as Backup
+hp.billing_period.week, %{period} 주,%{period} Weeks,2 Weeks
+hp.portal.powered_by,제공,Powered by,Powered by chargebee
+hp.clientjs.cannot_be_blank,비워 둘 수 없습니다,cannot be blank,cannot be blank
+action_error.post,제출하는 동안 오류가 발생했습니다.,There were errors while submitting,There were errors while submitting
+hp.change_link,변화,Change,Change link
+hp.portal.signed_up, %{date}에 가입,Signed up on %{date},Account signed up on 12-03-2016
+hp.portal.invoice.showing,전시,Showing,Showing invoice label
+payment_method.info.card, %{last4_digits}로 끝나는 카드,card ending with %{last4_digits},card ending with 4111
+payment_method.info.direct_debit," %{bank_name}, %{last4_digits}로 끝나는 계좌 번호","%{bank_name}, Account number ending with %{last4_digits}",
+hp.portal.chargebee_secure,Chargebee 보안 결제,Chargebee Secure Payment,Chargebee Secure Payment - security statement
+hp.portal.payment_method_role.backup,지원,Backup,Payment method is tagged as Backup
+hp.gocardless.desc,자동 이체 설정,Set up Direct Debit,Set up Direct Debit - gateway label
+hp.portal.mark.primary,기본으로 표시,Mark as Primary,Marking a payment method as Primary
+hp.bt_apple_card, %{card_type} 카드,%{card_type} card,Visa Card
+hp.apple_card_ending,카드 끝자리 ... %{digits},Card ending ... %{digits},Card Ending .. 4444
+hp.clientjs.successful_card_update,카드 정보를 성공적으로 업데이트했습니다.,you have successfully updated your card details.,you have successfully updated your card details.
+hp.amazon.desc,Amazon 계정의 정보를 사용하여 안전하게 지불하십시오.,Pay securely using the information on your Amazon account.,Pay securely using the information on your Amazon account - one liner for amazon gateway payments
+hp.portal.remove.backup,백업 제거,Remove Backup,Unmarking a payment method as Backup
+hp.card_ending, %{card_type} 카드 끝자리 ... %{digits},%{card_type} card ending ... %{digits},Visa Card Ending .. 4444
+hp.clientjs.successful_signup,서비스에 성공적으로 가입했습니다.,you have successfully signed up for the service,you have successfully signed up for the service
+apple_pay.label.tax,세금 (계산되지 않음),TAX (YET TO BE CALCULATED),Label for tax amount
+hp.portal.paypal_redirect,PayPal로 리디렉션 중 ...,Redirecting to PayPal...,Redirecting to PayPal... - info
+hp.order_summary.terms_to_charge, %{no_of_terms} 용어,for %{no_of_terms} terms,($100.00 x 3) for 2 terms
+hp.clientjs.submit_error,제출하는 동안 오류가 발생했습니다.,There were errors while submitting,There were errors while submitting
+hp.clientjs.problem_while_processing,양식을 처리하는 동안 문제가 발생했습니다. 양식 세부 정보를 확인하십시오.,Problem while processing your form. Please verify your form details.,Problem while processing your form. Please verify your form details.
+hp.portal.payment_method_role.primary,일 순위,Primary,Payment method is tagged as Primary
+payment_method.info.paypal_express_checkout,PayPal Express Checkout 계정,PayPal Express Checkout account,PayPal Express Checkout account
+hp.portal.ach_agree_details1,본인 (당사)은 표시된 금융 기관의 내 (당사) 계정에서 자금을 인출하고 자금을 입금하도록 %{merchant_name}을 승인하고 요청합니다. 본인은 %{merchant_name}이 오류를 수정하는 데 필요한 모든 조치를 취할 수 있도록 승인합니다.,"I (We) hereby authorize and request %{merchant_name} to debit funds from my (our) account at the Financial Institution indicated, and credit the funds. I (we) authorize %{merchant_name} to take any and all action required to correct any errors.","I (We) hereby authorize and request Chargebee to debit funds from my (our) account at the Financial Institution indicated, and credit the funds. I (we) authorize Chargebee to take any and all action required to correct any errors."
+hp.portal.ach_agree_details2,아래 버튼을 클릭하면이 ACH 직불 승인 계약에서 제공 한 정보가 완전하고 사실이며 위에서 선택한 목적을 위해 제출했음을 증명하는 것입니다. %{merchant_email} 또는 %{merchant_phone}에 연락하여이 승인을 취소하겠다고 %{merchant_name}에 알릴 때까지 유효합니다.,"By clicking the button below, you certify that the information you have given on this ACH Debit Authorization Agreement for Direct Payments is complete, true, and submitted for the purpose selected above. It will remain in effect until I (we) notify %{merchant_name} that I (we) wish to revoke this authorization by contacting %{merchant_email} or %{merchant_phone}.","By clicking the button below, you certify that the information you have given on this ACH Debit Authorization Agreement for Direct Payments is complete, true, and submitted for the purpose selected above.  It will remain in effect until I (we) notify Chargebee that I (we) wish to revoke this authorization by contacting sam@example.com or 9898982345."
+hp.bank_account.desc,은행 계좌,Bank Account,Bank Account label
+hp.portal.date,데이트,Date,Date
+hp.gocardless.redirect,자동 이체 제공 업체로 리디렉션 중 ...,Redirecting to Direct Debit Provider...,Redirecting to Direct Debit Provider... - info
+hp.billing_period.year, %{period} 년,%{period} Years,2 Months
+hp.copied,복사 됨,Copied,Copied URL
+hp.error.undetermined_vat_number,VIES 서비스를 사용할 수 없으므로 VAT 번호를 확인할 수 없습니다.,Could not validate VAT number as VIES service is unavailable.,Could not validate VAT number as VIES service is unavailable.
+apple_pay.label.charges,요금,CHARGES,Label for main line item amount
+payment_method.info.amazon_payments,Amazon Payments 계정,Amazon Payments account,Amazon Payments account
+hp.clientjs.invalid_coupon_code,잘못된 쿠폰 코드,Invalid coupon code,Invalid coupon code
+hp.error.undetermined_abn_number,ABN 조회 서버가 다운되어 ABN을 처리 할 수 ​​없습니다.,Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
+hp.portal.ach_agreement,ACH 승인 계약,ACH Authorization Agreement,ACH Authorization Agreement - Agreement label
+hp.error.invalid_vat_number,잘못된 VAT 번호,Invalid VAT Number,Invalid VAT Number
+hp.portal.account,계정,Account,Account user account label
+hp.portal.manage,꾸리다,Manage,Portal account Manage label
+hp.error.invalid_abn_number,잘못된 ABN,Invalid ABN ,Invalid ABN
+hp.billing_period.month, %{period} 개월,%{period} Months,2 Months
+action_error.get,요청을 처리하는 동안 오류가 발생했습니다.,There were errors while processing your request,There were errors while processing your request
+apple_pay.label.discount,할인,DISCOUNTS,Label for discount amount
+hp.update_payment_method.details,결제 수단 세부 정보 업데이트 중 ...,Updating the payment method details...,Updating the payment method details...
+payment_method.info.direct_debit_no_bank_name, %{last4_digits}로 끝나는 은행 계좌 번호,bank account number ending with %{last4_digits},
+hp.paypal.desc,더 안전하고 쉬운 결제 방법,"The safer, easier way to pay","The safer, easier way to pay - one liner for paypal gateway payments"
+hp.copy,부,Copy,Copy URL
+hp.portal.bank_account,은행 계좌,bank account,bank account label

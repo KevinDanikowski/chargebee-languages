@@ -1,7 +1,7 @@
 key,value,reference value,description
-static.email_template_setting.portal_notes,,"View payments, update them or manage your account on your customer portal.
+static.email_template_setting.portal_notes,顧客ポータルで支払いを表示、更新、またはアカウントを管理します。,"View payments, update them or manage your account on your customer portal.
 ",Portal Notes for the Email Template Setting
-static.email_template_setting.footer_notes,,"<p><b>PS:</b> We hope you're enjoying your experience with us! As always, feel free to reach out to us. We'd love to hear from you.</p>
+static.email_template_setting.footer_notes,<p> <b> PS：</b>私たちとの経験を楽しんでいただければ幸いです。いつものように、お気軽にご連絡ください。ご連絡をお待ちしております。</p>,"<p><b>PS:</b> We hope you're enjoying your experience with us! As always, feel free to reach out to us. We'd love to hear from you.</p>
 ",Footer Notes for the Email Template Setting
-static.email_template_setting.portal_link_text,,"Log into your account now &rarr;
+static.email_template_setting.portal_link_text,今すぐアカウントにログイン->,"Log into your account now &rarr;
 ",Portal Link Text for the Email Template Setting

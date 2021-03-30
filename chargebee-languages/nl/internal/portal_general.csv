@@ -1,11 +1,11 @@
 key,value,reference value,description
-portal.stripe_acc_status_reason.errored,,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
-portal.change_password.reenter_new_password,,Passwords do not match,Passwords do not match
-portal.change_password.new_password_not_same,,New password is same as the current password,New password is same as the current password
-portal.change_password.current_password.incorrect,,The password you gave is incorrect,The password you gave is incorrect
-portal.stripe_acc_status_reason.verification_failed,,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
-portal.account_details.address,,Address,Address Label
-portal.stripe_acc_status_reason.validated,,The bank account is not yet verified,The bank account is not yet verified
-portal.stripe_acc_status_reason.verified,,The bank account is verified,The bank account is verified
-portal.stripe_acc_status_reason.new,,The bank account is not yet verified,The bank account is not yet verified
-portal.change_password.recently_used,,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again
+portal.stripe_acc_status_reason.errored,De recente overboeking naar de bankrekening is mislukt. De bankrekening kan niet worden gebruikt voor toekomstige betalingen,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
+portal.change_password.reenter_new_password,Wachtwoorden komen niet overeen,Passwords do not match,Passwords do not match
+portal.change_password.new_password_not_same,Nieuw wachtwoord is hetzelfde als het huidige wachtwoord,New password is same as the current password,New password is same as the current password
+portal.change_password.current_password.incorrect,Het door u opgegeven wachtwoord is onjuist,The password you gave is incorrect,The password you gave is incorrect
+portal.stripe_acc_status_reason.verification_failed,Max probeert te verifiëren dat de bankrekening is overschreden,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
+portal.account_details.address,Adres,Address,Address Label
+portal.stripe_acc_status_reason.validated,De bankrekening is nog niet geverifieerd,The bank account is not yet verified,The bank account is not yet verified
+portal.stripe_acc_status_reason.verified,De bankrekening is geverifieerd,The bank account is verified,The bank account is verified
+portal.stripe_acc_status_reason.new,De bankrekening is nog niet geverifieerd,The bank account is not yet verified,The bank account is not yet verified
+portal.change_password.recently_used,Recent gebruikte wachtwoorden kunnen niet opnieuw worden gebruikt,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again

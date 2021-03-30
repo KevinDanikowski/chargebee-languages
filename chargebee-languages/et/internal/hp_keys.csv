@@ -1,6 +1,6 @@
 key,value,reference value,description
-ach-payment-info.title,,Bank Account Information,Bank Account Information
-resume-scheduled-info.title,,Remove Scheduled Resumption,Remove Scheduled Resumption
-pause-scheduled-info.title,,Remove Scheduled Pause,Remove Scheduled Pause
-discount.title,,Discount,Discount
-card.title,,Card Information,Card Information
+ach-payment-info.title,Pangakonto teave,Bank Account Information,Bank Account Information
+resume-scheduled-info.title,Eemaldage ajastatud jätkamine,Remove Scheduled Resumption,Remove Scheduled Resumption
+pause-scheduled-info.title,Eemaldage ajastatud paus,Remove Scheduled Pause,Remove Scheduled Pause
+discount.title,Allahindlus,Discount,Discount
+card.title,Kaardi teave,Card Information,Card Information

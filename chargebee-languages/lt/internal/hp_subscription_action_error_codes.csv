@@ -1,62 +1,62 @@
 key,value,reference value,description
-sub_start_outside_plan_term,,Subscription start date cannot be before the billing period.,Subscription start date cannot be before the billing period.
-old_operation_failed,,{0},{0}
-subscription.invalid_scheduled_date,,cannot be after cancelled_at date ({0}).,cannot be after cancelled_at date ({0}).
-line_discount_load_err,,Problem with discounts. Please contact support for further details.,Problem with discounts. Please contact support for further details.
-trial_end_before_start_date,,Trial end cannot be before start date,Trial end cannot be before start date
-scheduled_for_cancellation,,Subscription cannot be updated as it is scheduled for cancellation at end of current term,Subscription cannot be updated as it is scheduled for cancellation at end of current term
-invalid_state_for_update,,Subscription can be updated only in Trial & Active states,Subscription can be updated only in Trial & Active states
-required_input_for_status,,cannot be blank for {0} subscription,cannot be blank for {0} subscription
-pause-subscription.cancel_end_of_term_not_supported,,Cannot schedule cancellation if subscription is paused or scheduled to pause.,Cannot schedule cancellation if subscription is paused or scheduled to pause.
-direct_debit_require_field_validation,,{0} is mandatory to use {1} Direct Debit via {2},{0} is mandatory to use {1} Direct Debit via {2}
-addon_not_applicable,,{0},Plan billing period and addon billing period are incompatible
-card_already_exists,,{0},{0}
-no_charge_item_present,,Atleast one non recurring addon or charge item should be present,Atleast one non recurring addon or charge item should be present
-tmp_token_not_supported,,Card temporary token approach not supported for this gateway,Card temporary token approach not supported for this gateway
-non_compliant_eu_customer,,Operation failed as the eu country entered in billing address by customer cannot be verified against ip address or card bin number.,Operation failed as the eu country entered in billing address by customer cannot be verified against ip address or card bin number.
-resume-subscription.no_payment_method_for_resumption,,Cannot resume subscription as you do not have an active payment method.,Cannot resume subscription as you do not have an active payment method.
-no_creditcard_for_create,,Cannot create the subscription as there is no valid card on file,Cannot create the subscription as there is no valid card on file
-invalid_state_for_cancel,,Cannot cancel a subscription that is Cancelled or Expired already,Cannot cancel a subscription that is Cancelled or Expired already
-invalid_state_for_collect,,This operation is supported only for the invoices in payment_due/not_paid status,This operation is supported only for the invoices in payment_due/not_paid status
-resume-subscription.invalid_resume_date,,cannot be on or before pause_date ({0}).,cannot be on or before pause_date ({0}).
-charge_failed,,Payment collection failed. Reason: {0},Payment collection failed. Reason: {0}
-charge_item_not_supported_eot,,Charge item cannot be added to a subscription changing at end of term.,Charge item cannot be added to a subscription changing at end of term.
-charge_item_not_supported,,Charge item cannot be added now as invoice is not raised immediately.,Charge item cannot be added now as invoice is not raised immediately.
-invalid_term_end_date,,The date should not be prior to today,The date should not be prior to today
-no_scheduled_changes,,No changes are scheduled for this subscription.,No changes scheduled for the subscription on next renewal
-date_outside_plan_term,,{0} must be within the billing period,{0} must be within the billing period
-self_site_change_sub_error,,Cannot change the subscription to specified plan as total net revenue crosses the free threshold amount,Cannot change the subscription to specified plan as total net revenue crosses the free threshold amount
-no_creditcard_for_charge,,Charge operation failed as there is no valid card on file,Charge operation failed as there is no valid card on file
-self_site_change_sub_feature_error,,Cannot change subscription because this subscription has features enabled that are unavailable in the new plan,Cannot change subscription because this subscription has features enabled that are unavailable in the new plan
-non_compliant_customer,,Operation failed as the country entered in billing address by customer cannot be verified against ip address or card bin number.,Operation failed as the country entered in billing address by customer cannot be verified against ip address or card bin number.
-quantity_not_allowed,,Cannot pass subscription quantity as the plan - {0} does not allow quantity.,Cannot pass subscription quantity as the plan - {0} does not allow quantity.
-param_must_be_future_date,,must be a future date.,The parameter value must be a future date.
-self_site_coupon_error,,A special coupon has already been applied for this subscription.,A special coupon has already been applied for this subscription.
-not_scheduled_for_cancellation,,Operation failed as subscription is not scheduled for cancellation.,Operation failed as subscription is not scheduled for cancellation.
-hp_card_err,,{0},{0}
-reactivate_not_supported,,Reactivate operation not supported as transition to trial from non-renewing state is not possible,Reactivate operation not supported as transition to trial from non-renewing state is not possible
-invalid_state_for_reactivate,,Subscription must be either Cancelled or Non Renewing to reactivate,Subscription must be either Cancelled or Non Renewing to reactivate
-update_operation_failed,,{0},{0}
-change_term_end_not_supported,,This operation is supported only for in_trial/active/non_renewing subscriptions,This operation is supported only for in_trial/active/non_renewing subscriptions
-three_d_secure_needed,,Operation not supported as 3D secure verification is needed for this card,Operation not supported as 3D secure verification is needed for this card
-invalid_input_for_status,,{0} should not be passed for {1} subscription,{0} should not be passed for {1} subscription
-update_card_error,,Problem while updating the payment method. Error message : {0},Problem while updating the payment method. Error message : {0}
-invalid_payment_method,,Invalid payment method,Invalid payment method
-subscription.param_should_not_be_sent,,This param should not be sent since Auto Collection is ON for this customer.,The parameter should not be sent.
-payment_error_during_create,,Subscription cannot be created as we are not able to collect {0} from your card on file. Error message: {1},Subscription cannot be created as we are not able to collect {0} from your card on file. Error message: {1}
-payment_failure_during_reactivate,,Subscription cannot be re-activated as we are not able to collect {0} from your card on file. Error message: {1},Subscription cannot be re-activated as we are not able to collect {0} from your card on file. Error message: {1}
-invalid_card_number,,Invalid card number.,Invalid card number.
-resume-subscription.payment_failure_during_resumption,,Cannot resume subscription as we are unable to process payment of {0} from your payment method.,Cannot resume subscription as we are unable to process payment of {0} from your payment method.
-proration_currency_mismatch,,Operation cannot be performed as the current term invoice(s) have different currency from the subscription. Please contact support.,Operation cannot be performed as the current term invoice(s) have different currency from the subscription. Please contact support.
-non_compliant_customer_msg,,This customer''s location couldn''t be validated as required by the {0} rules. Subscriptions for this customer will be canceled upon renewal if the required information is not updated.,This customer''s location couldn''t be validated as required by the {0} rules. Subscriptions for this customer will be canceled upon renewal if the required information is not updated.
-prepaid_card_error,,{0},{0}
-no_creditcard_for_regenerate_invoice,,Cannot regenerate an invoice as there is no valid card on file,Cannot regenerate an invoice as there is no valid card on file
-payment_error_during_update,,Subscription cannot be updated as we are not able to collect {0} from your card on file. Error message: {1},Subscription cannot be updated as we are not able to collect {0} from your card on file. Error message: {1}
-no_creditcard_for_update,,Cannot change the subscription as there is no valid card on file,Cannot change the subscription as there is no valid card on file
-hp_non_compliant_customer,,"Sorry, we were unable to process this transaction because we could not verify your location. Please use a credit card issued from the same country as provided in the billing information.","Sorry, we were unable to process this transaction because we could not verify your location. Please use a credit card issued from the same country as provided in the billing information."
-tmp_tok_card_not_supported,,Card params should not be passed with {0},Card params should not be passed with {0}
-add_card_error,,Problem while adding the payment method. Error message : {0},Problem while adding the payment method. Error message : {0}
-invalid_input_for_status_gifts,,{0} should not be passed for {1} gifts,{0} should not be passed for {1} gifts
-rec_addon_not_applicable,,Addon {0} cannot be applied as only non-recurring addons are supported,Recurring addon not supported
-non_compliant_customer_sub_msg,,"This subscription has been canceled, because we were unable to validate the customer''s location as required for compliance with the {0} rules.","This subscription has been canceled, because we were unable to validate the customer''s location as required for compliance with the {0} rules."
-no_creditcard_for_reactivate,,Cannot re-activate subscription as there is no active card on file,Cannot re-activate subscription as there is no active card on file
+sub_start_outside_plan_term,Prenumeratos pradžios data negali būti ankstesnė už atsiskaitymo laikotarpį.,Subscription start date cannot be before the billing period.,Subscription start date cannot be before the billing period.
+old_operation_failed,{0},{0},{0}
+subscription.invalid_scheduled_date,negali būti po cancelled_at date ({0}).,cannot be after cancelled_at date ({0}).,cannot be after cancelled_at date ({0}).
+line_discount_load_err,"Nuolaidų problema. Norėdami gauti daugiau informacijos, susisiekite su palaikymo tarnyba.",Problem with discounts. Please contact support for further details.,Problem with discounts. Please contact support for further details.
+trial_end_before_start_date,Bandomosios versijos pabaiga negali būti ankstesnė nei pradžios data,Trial end cannot be before start date,Trial end cannot be before start date
+scheduled_for_cancellation,"Prenumeratos negalima atnaujinti, nes ją planuojama atšaukti pasibaigus dabartiniam terminui",Subscription cannot be updated as it is scheduled for cancellation at end of current term,Subscription cannot be updated as it is scheduled for cancellation at end of current term
+invalid_state_for_update,Prenumeratą galima atnaujinti tik bandomosiose ir aktyviose būsenose,Subscription can be updated only in Trial & Active states,Subscription can be updated only in Trial & Active states
+required_input_for_status,„{0}“ prenumeratos laukas negali būti tuščias,cannot be blank for {0} subscription,cannot be blank for {0} subscription
+pause-subscription.cancel_end_of_term_not_supported,"Negalima planuoti atšaukimo, jei prenumerata pristabdyta arba suplanuota pristabdyti.",Cannot schedule cancellation if subscription is paused or scheduled to pause.,Cannot schedule cancellation if subscription is paused or scheduled to pause.
+direct_debit_require_field_validation,{0} yra privalomas norint naudoti {1} tiesioginį debetą per {2},{0} is mandatory to use {1} Direct Debit via {2},{0} is mandatory to use {1} Direct Debit via {2}
+addon_not_applicable,{0},{0},Plan billing period and addon billing period are incompatible
+card_already_exists,{0},{0},{0}
+no_charge_item_present,Mažiausiai vienas pasikartojantis papildomas arba apmokestinamas elementas turėtų būti,Atleast one non recurring addon or charge item should be present,Atleast one non recurring addon or charge item should be present
+tmp_token_not_supported,Šiems vartams nepalaikomas laikinos kortelės prieigos raktas,Card temporary token approach not supported for this gateway,Card temporary token approach not supported for this gateway
+non_compliant_eu_customer,"Operacija nepavyko, nes kliento į atsiskaitymo adresą įvestos es šalies negalima patikrinti pagal IP adresą arba kortelės dėžutės numerį.",Operation failed as the eu country entered in billing address by customer cannot be verified against ip address or card bin number.,Operation failed as the eu country entered in billing address by customer cannot be verified against ip address or card bin number.
+resume-subscription.no_payment_method_for_resumption,"Negalima atnaujinti prenumeratos, nes neturite aktyvaus mokėjimo metodo.",Cannot resume subscription as you do not have an active payment method.,Cannot resume subscription as you do not have an active payment method.
+no_creditcard_for_create,"Negalima sukurti prenumeratos, nes byloje nėra galiojančios kortelės",Cannot create the subscription as there is no valid card on file,Cannot create the subscription as there is no valid card on file
+invalid_state_for_cancel,"Jau negalima atšaukti prenumeratos, kuri jau atšaukta arba kurios galiojimo laikas baigėsi",Cannot cancel a subscription that is Cancelled or Expired already,Cannot cancel a subscription that is Cancelled or Expired already
+invalid_state_for_collect,"Ši operacija palaikoma tik vienoje ar keliose sąskaitose faktūrose, kurių būsena yra mokėjimo_ terminas / neapmokėta",This operation is supported only for the invoices in payment_due/not_paid status,This operation is supported only for the invoices in payment_due/not_paid status
+resume-subscription.invalid_resume_date,negali būti „pause_date“ ar anksčiau ({0}).,cannot be on or before pause_date ({0}).,cannot be on or before pause_date ({0}).
+charge_failed,Nepavyko surinkti mokėjimų. Priežastis: {0},Payment collection failed. Reason: {0},Payment collection failed. Reason: {0}
+charge_item_not_supported_eot,"Mokesčio elemento negalima pridėti prie prenumeratos, kuri keičiasi laikotarpio pabaigoje.",Charge item cannot be added to a subscription changing at end of term.,Charge item cannot be added to a subscription changing at end of term.
+charge_item_not_supported,"Dabar mokesčio elemento pridėti negalima, nes sąskaita faktūra keliama ne iškart.",Charge item cannot be added now as invoice is not raised immediately.,Charge item cannot be added now as invoice is not raised immediately.
+invalid_term_end_date,Data neturėtų būti ankstesnė už šiandieną,The date should not be prior to today,The date should not be prior to today
+no_scheduled_changes,Šios prenumeratos pakeitimai nėra suplanuoti.,No changes are scheduled for this subscription.,No changes scheduled for the subscription on next renewal
+date_outside_plan_term,{0} turi būti per atsiskaitymo laikotarpį,{0} must be within the billing period,{0} must be within the billing period
+self_site_change_sub_error,"Negalima pakeisti prenumeratos pagal nurodytą planą, nes visos grynosios pajamos viršija nemokamos ribos sumą",Cannot change the subscription to specified plan as total net revenue crosses the free threshold amount,Cannot change the subscription to specified plan as total net revenue crosses the free threshold amount
+no_creditcard_for_charge,"Įkrauti nepavyko, nes byloje nėra galiojančios kortelės",Charge operation failed as there is no valid card on file,Charge operation failed as there is no valid card on file
+self_site_change_sub_feature_error,"Negalima pakeisti prenumeratos, nes šioje prenumeratoje yra įgalintos funkcijos, kurių negalima naudoti naujajame plane",Cannot change subscription because this subscription has features enabled that are unavailable in the new plan,Cannot change subscription because this subscription has features enabled that are unavailable in the new plan
+non_compliant_customer,"Operacija nepavyko, nes kliento į sąskaitos adresą įvestos šalies negalima patikrinti pagal IP adresą ar kortelės dėžutės numerį.",Operation failed as the country entered in billing address by customer cannot be verified against ip address or card bin number.,Operation failed as the country entered in billing address by customer cannot be verified against ip address or card bin number.
+quantity_not_allowed,"Negalima perduoti prenumeratos kiekio, nes planas - „{0}“ neleidžia kiekio.",Cannot pass subscription quantity as the plan - {0} does not allow quantity.,Cannot pass subscription quantity as the plan - {0} does not allow quantity.
+param_must_be_future_date,turi būti ateities data.,must be a future date.,The parameter value must be a future date.
+self_site_coupon_error,Šiai prenumeratai jau buvo pritaikytas specialus kuponas.,A special coupon has already been applied for this subscription.,A special coupon has already been applied for this subscription.
+not_scheduled_for_cancellation,"Operacija nepavyko, nes nenumatyta atšaukti prenumeratos.",Operation failed as subscription is not scheduled for cancellation.,Operation failed as subscription is not scheduled for cancellation.
+hp_card_err,{0},{0},{0}
+reactivate_not_supported,"Nepalaikoma operacija iš naujo, nes negalima pereiti prie bandymo iš neatnaujinamos būsenos",Reactivate operation not supported as transition to trial from non-renewing state is not possible,Reactivate operation not supported as transition to trial from non-renewing state is not possible
+invalid_state_for_reactivate,"Jei norite vėl suaktyvinti, prenumerata turi būti atšaukta arba neatnaujinama",Subscription must be either Cancelled or Non Renewing to reactivate,Subscription must be either Cancelled or Non Renewing to reactivate
+update_operation_failed,{0},{0},{0}
+change_term_end_not_supported,Ši operacija palaikoma tik in_trial / active / non_renewing prenumeratoms,This operation is supported only for in_trial/active/non_renewing subscriptions,This operation is supported only for in_trial/active/non_renewing subscriptions
+three_d_secure_needed,"Operacija nepalaikoma, nes šiai kortelei reikalingas saugus 3D patikrinimas",Operation not supported as 3D secure verification is needed for this card,Operation not supported as 3D secure verification is needed for this card
+invalid_input_for_status,„{0}“ negalima perduoti „{1}“ prenumeratai,{0} should not be passed for {1} subscription,{0} should not be passed for {1} subscription
+update_card_error,Problema atnaujinant mokėjimo metodą. Klaidos pranešimas: {0},Problem while updating the payment method. Error message : {0},Problem while updating the payment method. Error message : {0}
+invalid_payment_method,Neteisingas mokėjimo metodas,Invalid payment method,Invalid payment method
+subscription.param_should_not_be_sent,"Šis parametras neturėtų būti siunčiamas, nes automatinis rinkimas šiam klientui įjungtas.",This param should not be sent since Auto Collection is ON for this customer.,The parameter should not be sent.
+payment_error_during_create,"Negalima sukurti prenumeratos, nes negalime surinkti {0} iš jūsų kortelės, esančios byloje. Klaidos pranešimas: {1}",Subscription cannot be created as we are not able to collect {0} from your card on file. Error message: {1},Subscription cannot be created as we are not able to collect {0} from your card on file. Error message: {1}
+payment_failure_during_reactivate,"Prenumeratos negalima iš naujo suaktyvinti, nes negalime surinkti {0} iš jūsų kortelės, esančios byloje. Klaidos pranešimas: {1}",Subscription cannot be re-activated as we are not able to collect {0} from your card on file. Error message: {1},Subscription cannot be re-activated as we are not able to collect {0} from your card on file. Error message: {1}
+invalid_card_number,Neteisingas kortelės numeris.,Invalid card number.,Invalid card number.
+resume-subscription.payment_failure_during_resumption,"Negalime atnaujinti prenumeratos, nes negalime apdoroti {0} mokėjimo naudojant jūsų mokėjimo metodą.",Cannot resume subscription as we are unable to process payment of {0} from your payment method.,Cannot resume subscription as we are unable to process payment of {0} from your payment method.
+proration_currency_mismatch,"Operacijos atlikti negalima, nes dabartinės (-ių) sąskaitos (-ų) valiuta skiriasi nuo prenumeratos. Susisiekite su palaikymo tarnyba.",Operation cannot be performed as the current term invoice(s) have different currency from the subscription. Please contact support.,Operation cannot be performed as the current term invoice(s) have different currency from the subscription. Please contact support.
+non_compliant_customer_msg,"Nepavyko patvirtinti šio kliento vietos, kaip reikalaujama pagal „{0}“ taisykles. Šio kliento prenumeratos bus atšauktos atnaujinus, jei reikalinga informacija nebus atnaujinta.",This customer''s location couldn''t be validated as required by the {0} rules. Subscriptions for this customer will be canceled upon renewal if the required information is not updated.,This customer''s location couldn''t be validated as required by the {0} rules. Subscriptions for this customer will be canceled upon renewal if the required information is not updated.
+prepaid_card_error,{0},{0},{0}
+no_creditcard_for_regenerate_invoice,"Negalima atkurti sąskaitos faktūros, nes byloje nėra galiojančios kortelės",Cannot regenerate an invoice as there is no valid card on file,Cannot regenerate an invoice as there is no valid card on file
+payment_error_during_update,"Prenumeratos negalima atnaujinti, nes negalime surinkti {0} iš jūsų kortelės, esančios byloje. Klaidos pranešimas: {1}",Subscription cannot be updated as we are not able to collect {0} from your card on file. Error message: {1},Subscription cannot be updated as we are not able to collect {0} from your card on file. Error message: {1}
+no_creditcard_for_update,"Negalima pakeisti prenumeratos, nes byloje nėra galiojančios kortelės",Cannot change the subscription as there is no valid card on file,Cannot change the subscription as there is no valid card on file
+hp_non_compliant_customer,"Deja, mums nepavyko apdoroti šios operacijos, nes nepavyko patvirtinti jūsų vietos. Naudokite kredito kortelę, išduotą toje pačioje šalyje, kaip nurodyta atsiskaitymo informacijoje.","Sorry, we were unable to process this transaction because we could not verify your location. Please use a credit card issued from the same country as provided in the billing information.","Sorry, we were unable to process this transaction because we could not verify your location. Please use a credit card issued from the same country as provided in the billing information."
+tmp_tok_card_not_supported,Kortelių parametrai neturėtų būti perduoti su {0},Card params should not be passed with {0},Card params should not be passed with {0}
+add_card_error,Problema pridedant mokėjimo metodą. Klaidos pranešimas: {0},Problem while adding the payment method. Error message : {0},Problem while adding the payment method. Error message : {0}
+invalid_input_for_status_gifts,{0} neturėtų būti perduota dovanoms {1},{0} should not be passed for {1} gifts,{0} should not be passed for {1} gifts
+rec_addon_not_applicable,"Priedas {0} negali būti pritaikytas, nes palaikomi tik nesikartojantys priedai",Addon {0} cannot be applied as only non-recurring addons are supported,Recurring addon not supported
+non_compliant_customer_sub_msg,"Ši prenumerata buvo atšaukta, nes negalėjome patvirtinti kliento buvimo vietos, kaip reikalaujama, kad būtų laikomasi {0} taisyklių.","This subscription has been canceled, because we were unable to validate the customer''s location as required for compliance with the {0} rules.","This subscription has been canceled, because we were unable to validate the customer''s location as required for compliance with the {0} rules."
+no_creditcard_for_reactivate,"Negalima iš naujo suaktyvinti prenumeratos, nes byloje nėra aktyvios kortelės",Cannot re-activate subscription as there is no active card on file,Cannot re-activate subscription as there is no active card on file

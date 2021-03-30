@@ -1,27 +1,27 @@
 key,value,reference value,description
-zero_decimal_update_gateway,,Using {0} gateway with the configured currency is not allowed.,Using {0} gateway with the configured currency is not allowed.
-paypal_not_supported,,Selected currency is not supported since you have configured PayPal Express Checkout.,Selected currency is not supported since you have configured PayPal Express Checkout.
-paypal_setup_error,,An error occured while redirecting to PayPal.,An error occured while redirecting to PayPal.
-currency_not_supported,,Currency configured in Chargebee is not supported by {0}.,Currency configured in Chargebee is not supported by {0}.
-invalid_credential_with_message,,{0},{0}
-gateway_credential_missing,,Problem in processing your payment. Please try after some time.,Problem in processing your payment. Please try after some time.
-gw_credential_verification_failed,,{0},{0}
-gateway_down_with_message,,Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0},Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0}
-wepay_not_supported,,wepay gateway is not supported for this operation.,wepay gateway is not supported for this operation.
-delete_card_error,,Problem occurred while deleting the payment method. Please try after some time.,Problem occurred while deleting the payment method. Please try after some time.
-gateway_in_active_state,,Payment gateway is already in active state,Payment gateway is already in active state
-zero_decimal_update_site,,Chargebee doesn''t support the selected currency with {0} gateway.,Chargebee doesn''t support the selected currency with {0} gateway.
-default_gateway_not_configured,,Default payment gateway not configured.,Default payment gateway not configured.
-remove_archived_gw_not_supported,,Payment gateway cannot be removed as it is archived.,Payment gateway cannot be removed as it is archived.
-bank_account_payment_gateway_not_configured,,This operation is not supported as there is no payment gateway configured for bank account.,This operation is not supported as there is no payment gateway configured for bank account.
-empty_card_type_list,,Accepted Card types cannot not be empty,Accepted Card types cannot not be empty
-default_gateway_not_supported,,Default option is not supported for this gateway.,Default option is not supported for this gateway.
-gateway_not_supported,,Selected currency is not supported since you have configured {0}.,Selected currency is not supported since you have configured {0}.
-payment_gateway_not_configured,,This operation is not supported as there is no payment gateway configured.,This operation is not supported as there is no payment gateway configured.
-gateway_not_supported_for_mcp,,Chargebee doesn''t support multicurrency feature for {0} gateway.,Chargebee doesn''t support multicurrency feature for {0} gateway.
-gateway_configuration_failed,,{0}.,{0}.
-forbidden_to_remove,,Payment gateway cannot be removed as there are active subscriptions.,Payment gateway cannot be removed as there are active subscriptions.
-gateway_down,,Communication failure occurred when trying to contact the gateway. Please try after some time,Communication failure occurred when trying to contact the gateway. Please try after some time
-gocardless_redirect_error,,An error occured while redirecting to GoCardless.,An error occured while redirecting to GoCardless.
-invalid_credential,,Please check the submitted credentials. Not able to access the gateway.,Please check the submitted credentials. Not able to access the gateway.
-gateway_already_configured,,This gateway is already configured for the site. Probable reason: {0},This gateway is already configured for the site. Probable reason: {0}
+zero_decimal_update_gateway,구성된 통화로 {0} 게이트웨이를 사용할 수 없습니다.,Using {0} gateway with the configured currency is not allowed.,Using {0} gateway with the configured currency is not allowed.
+paypal_not_supported,PayPal Express Checkout을 구성했기 때문에 선택한 통화가 지원되지 않습니다.,Selected currency is not supported since you have configured PayPal Express Checkout.,Selected currency is not supported since you have configured PayPal Express Checkout.
+paypal_setup_error,PayPal로 리디렉션하는 동안 오류가 발생했습니다.,An error occured while redirecting to PayPal.,An error occured while redirecting to PayPal.
+currency_not_supported,Chargebee에 구성된 통화는 {0}에서 지원되지 않습니다.,Currency configured in Chargebee is not supported by {0}.,Currency configured in Chargebee is not supported by {0}.
+invalid_credential_with_message,{0},{0},{0}
+gateway_credential_missing,결제 처리에 문제가 있습니다. 잠시 후에 시도하십시오.,Problem in processing your payment. Please try after some time.,Problem in processing your payment. Please try after some time.
+gw_credential_verification_failed,{0},{0},{0}
+gateway_down_with_message,게이트웨이에 접속을 시도 할 때 통신 실패가 발생했습니다. 잠시 후에 시도하십시오. 가능한 이유 : {0},Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0},Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0}
+wepay_not_supported,이 작업에는 wepay 게이트웨이가 지원되지 않습니다.,wepay gateway is not supported for this operation.,wepay gateway is not supported for this operation.
+delete_card_error,결제 수단을 삭제하는 중에 문제가 발생했습니다. 잠시 후에 시도하십시오.,Problem occurred while deleting the payment method. Please try after some time.,Problem occurred while deleting the payment method. Please try after some time.
+gateway_in_active_state,결제 게이트웨이가 이미 활성 상태입니다.,Payment gateway is already in active state,Payment gateway is already in active state
+zero_decimal_update_site,Chargebee는 {0} 게이트웨이에서 선택한 통화를 지원하지 않습니다.,Chargebee doesn''t support the selected currency with {0} gateway.,Chargebee doesn''t support the selected currency with {0} gateway.
+default_gateway_not_configured,기본 결제 게이트웨이가 구성되지 않았습니다.,Default payment gateway not configured.,Default payment gateway not configured.
+remove_archived_gw_not_supported,보관 된 결제 게이트웨이는 삭제할 수 없습니다.,Payment gateway cannot be removed as it is archived.,Payment gateway cannot be removed as it is archived.
+bank_account_payment_gateway_not_configured,은행 계좌에 대해 구성된 지불 게이트웨이가 없으므로이 작업은 지원되지 않습니다.,This operation is not supported as there is no payment gateway configured for bank account.,This operation is not supported as there is no payment gateway configured for bank account.
+empty_card_type_list,허용되는 카드 유형은 비워 둘 수 없습니다.,Accepted Card types cannot not be empty,Accepted Card types cannot not be empty
+default_gateway_not_supported,이 게이트웨이에는 기본 옵션이 지원되지 않습니다.,Default option is not supported for this gateway.,Default option is not supported for this gateway.
+gateway_not_supported,{0}을 (를) 구성했기 때문에 선택한 통화가 지원되지 않습니다.,Selected currency is not supported since you have configured {0}.,Selected currency is not supported since you have configured {0}.
+payment_gateway_not_configured,구성된 결제 게이트웨이가 없으므로이 작업은 지원되지 않습니다.,This operation is not supported as there is no payment gateway configured.,This operation is not supported as there is no payment gateway configured.
+gateway_not_supported_for_mcp,Chargebee는 {0} 게이트웨이에 대한 다중 통화 기능을 지원하지 않습니다.,Chargebee doesn''t support multicurrency feature for {0} gateway.,Chargebee doesn''t support multicurrency feature for {0} gateway.
+gateway_configuration_failed,{0}.,{0}.,{0}.
+forbidden_to_remove,구독이 활성화되어 있으므로 결제 게이트웨이를 제거 할 수 없습니다.,Payment gateway cannot be removed as there are active subscriptions.,Payment gateway cannot be removed as there are active subscriptions.
+gateway_down,[object Object],Communication failure occurred when trying to contact the gateway. Please try after some time,Communication failure occurred when trying to contact the gateway. Please try after some time
+gocardless_redirect_error,GoCardless로 리디렉션하는 동안 오류가 발생했습니다.,An error occured while redirecting to GoCardless.,An error occured while redirecting to GoCardless.
+invalid_credential,제출 된 자격 증명을 확인하십시오. 게이트웨이에 액세스 할 수 없습니다.,Please check the submitted credentials. Not able to access the gateway.,Please check the submitted credentials. Not able to access the gateway.
+gateway_already_configured,이 게이트웨이는 사이트에 대해 이미 구성되어 있습니다. 가능한 이유 : {0},This gateway is already configured for the site. Probable reason: {0},This gateway is already configured for the site. Probable reason: {0}

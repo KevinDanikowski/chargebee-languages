@@ -1,21 +1,21 @@
 key,value,reference value,description
-not_supported_for_moving_out_resource,,Sorry this operation is not possible now. Please try again after some time or contact us for assistance.,Sorry this operation is not possible now. Please try again after some time or contact us for assistance.
-login_mismatch_error,,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
-recaptcha_verification_failed,,Recaptcha verification failed. Try again,Recaptcha verification failed. Try again
-password_too_short,,Your password must have atleast 8 characters,Your password must have atleast 8 characters
-invalid_url,,Oops! This URL appears to be either expired or invalid.,Oops! This URL appears to be either expired or invalid.
-portal_access_disabled_for,,Customer portal access is disabled.,Customer portal access is disabled.
-invalid_return_cancel_url,,Oops! The return or cancel URL is invalid.,Oops! The return or cancel URL is invalid.
-portal_access_disabled_for_api,,Customer portal access via API is disabled.,Customer portal access via API is disabled.
-login_site_mismatch_error,,"Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service.","Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service."
-same_password_error,,New password should not be the current password,New password should not be the current password
-"subscription_canceled ",,This is a cancelled subscription. Please contact us for more details.,This is a cancelled subscription. Please contact us for more details.
-portal_session_status_not_supported,,Activating a portal session is not supported for this request.,Activating a portal session is not supported for this request.
-password_not_valid,,"Your password must have atleast one uppercase character, lowercase character and a number","Your password must have atleast one uppercase character, lowercase character and a number"
-setup_not_completed,,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.
-invalid_otp_error,,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
-email_not_verified,,You have not verified your email. Use the ''Sign Up'' option to get started.,You have not verified your email. Use the ''Sign Up'' option to get started.
-otp_mismatch_error,,Invalid one time password,Invalid one time password
-account_locked_error,,Your account has been locked due to security reasons.,Your account has been locked due to security reasons.
-portal_token_invalid,,Portal token has been expired or invalid.,Portal token has been expired or invalid.
-email_should_not_be_sent,,Email address is not allowed to be updated.,Email address is not allowed to be updated.
+not_supported_for_moving_out_resource,죄송합니다. 지금은이 작업을 할 수 없습니다. 잠시 후 다시 시도하거나 도움이 필요하면 당사에 문의하십시오.,Sorry this operation is not possible now. Please try again after some time or contact us for assistance.,Sorry this operation is not possible now. Please try again after some time or contact us for assistance.
+login_mismatch_error,잘못된 자격 증명으로 인해 로그인하지 못했습니다.,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
+recaptcha_verification_failed,Recaptcha 확인에 실패했습니다. 다시 시도하십시오,Recaptcha verification failed. Try again,Recaptcha verification failed. Try again
+password_too_short,비밀번호는 8 자 이상이어야합니다.,Your password must have atleast 8 characters,Your password must have atleast 8 characters
+invalid_url,이런! 이 URL은 만료되었거나 유효하지 않은 것 같습니다.,Oops! This URL appears to be either expired or invalid.,Oops! This URL appears to be either expired or invalid.
+portal_access_disabled_for,고객 포털 액세스가 비활성화되었습니다.,Customer portal access is disabled.,Customer portal access is disabled.
+invalid_return_cancel_url,이런! 반환 또는 취소 URL이 잘못되었습니다.,Oops! The return or cancel URL is invalid.,Oops! The return or cancel URL is invalid.
+portal_access_disabled_for_api,API를 통한 고객 포털 액세스가 비활성화되었습니다.,Customer portal access via API is disabled.,Customer portal access via API is disabled.
+login_site_mismatch_error,"이메일 ID를 확인하십시오. 이 가입은 이미이 서비스의 ""구독자""인 경우에만 작동합니다.","Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service.","Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service."
+same_password_error,새 비밀번호는 현재 비밀번호가 아니어야합니다.,New password should not be the current password,New password should not be the current password
+subscription_canceled ,취소 된 구독입니다. 자세한 내용은 당사에 문의하십시오.,This is a cancelled subscription. Please contact us for more details.,This is a cancelled subscription. Please contact us for more details.
+portal_session_status_not_supported,이 요청에는 포털 세션 활성화가 지원되지 않습니다.,Activating a portal session is not supported for this request.,Activating a portal session is not supported for this request.
+password_not_valid,"비밀번호에는 대문자, 소문자 및 숫자가 하나 이상 있어야합니다.","Your password must have atleast one uppercase character, lowercase character and a number","Your password must have atleast one uppercase character, lowercase character and a number"
+setup_not_completed,아직 고객 포털 계정을 설정하지 않았습니다. 시작하려면 '가입'옵션을 사용하세요.,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.
+invalid_otp_error,잘못된 자격 증명으로 인해 로그인하지 못했습니다.,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
+email_not_verified,이메일을 확인하지 않았습니다. 시작하려면 '가입'옵션을 사용하세요.,You have not verified your email. Use the ''Sign Up'' option to get started.,You have not verified your email. Use the ''Sign Up'' option to get started.
+otp_mismatch_error,일회용 비밀번호가 잘못되었습니다.,Invalid one time password,Invalid one time password
+account_locked_error,보안상의 이유로 계정이 잠겼습니다.,Your account has been locked due to security reasons.,Your account has been locked due to security reasons.
+portal_token_invalid,포털 토큰이 만료되었거나 유효하지 않습니다.,Portal token has been expired or invalid.,Portal token has been expired or invalid.
+email_should_not_be_sent,이메일 주소는 업데이트 할 수 없습니다.,Email address is not allowed to be updated.,Email address is not allowed to be updated.

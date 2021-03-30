@@ -1,54 +1,54 @@
 key,value,reference value,description
-page_url_length_exceed,,"Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
-should_be_unauth,,"Sorry, you must be logged out of current session to view this page","Sorry, you must be logged out of current session to view this page"
-web.param_not_unique,,Hold up! You have subscribed already.,Hold up! You have subscribed already.
-bad_request_need_refresh,,"Sorry, the request contains data that are not formatted properly","Sorry, the request contains data that are not formatted properly"
-operation_not_supported,,{0},{0}
-not_authorized_post,,"Sorry, you don''t have the permission to do this action","Sorry, you don''t have the permission to do this action"
-limit_exceeds,,"Sorry, the allowed limit for {0} is {1}.","Sorry, the allowed limit for {0} is {1}."
-user_already_exists,,email already exists,email already exists
-hosted_page_null,,The order URL is invalid. Please check the URL and try again.,The order URL is invalid. Please check the URL and try again.
-hp_resource_not_found,,This URL is no longer valid.,This URL is no longer valid.
-update_card_succeeded,,Your credit card has been already updated successfully.,Your credit card has been already updated successfully.
-should_be_auth,,"Sorry, you must be logged in to view this page","Sorry, you must be logged in to view this page"
-hosted_page_canceled,,This order has been canceled. Please try again.,This order has been canceled. Please try again.
-lock_timeout,,"Sorry, a temporary error occured. Please retry","Sorry, a temporary error occured. Please retry"
-service_unavailable,,Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes,Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes
-cannot_be_empty_or_null,,Key value cannot be empty or null,Key value cannot be empty or null
-update_card_cancelled,,This URL is no longer valid.,This URL is no longer valid.
-suffix_not_allowed,,"""{0}"" suffix is not allowed","""{0}"" suffix is not allowed"
-currency_error,,Unable fetch currency info,Unable fetch currency info
-not_authorized_get,,"Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
-hosted_page_expired,,Your order URL has expired. Please try again.,Your order URL has expired. Please try again.
-session_timeout,,You are logged out of the portal. Please login again.,You are logged out of the portal. Please login again.
-hosted_page_succeeded,,Your order has already been submitted successfully.,Your order has already been submitted successfully.
-not_ajax_request,,A temporary error occurred. Try again,A temporary error occurred. Try again
-web.mul_sub_entry,,Hold up! You have subscribed already,Hold up! You have subscribed already
-resource_not_found,,"Sorry, we couldn''t find that resource","Sorry, we couldn''t find that resource"
-size_exceeds,,"Sorry, uploaded file size cannot exceed {0}","Sorry, uploaded file size cannot exceed {0}"
-bad_request,,"Sorry,the URL or the some of the parameters are not valid","Sorry,the URL or the some of the parameters are not valid"
-record_not_found,,{0} with {1} {2} is not present.,{0} with {1} {2} is not present.
-bad_data,,"Sorry, some of the parameters are missing or not formatted properly","Sorry, some of the parameters are missing or not formatted properly"
-communication_failure,,"Sorry, Unable to communicate with {0}. Please retry after some time","Sorry, Unable to communicate with {0}. Please retry after some time"
-site_already_exists,,site already exists,site already exists
-invalid_state,,{0},{0}
-db_lock_error,,Unable to lock the operation,Unable to lock the operation
-invalid_request_refresh_browser,,Your request is not valid. Please refresh the browser and try again.,Your request is not valid. Please refresh the browser and try again.
-round_off_not_supported,,Rounding off of invoice amount is not supported for zero-decimal currencies,Rounding off of invoice amount is not supported for zero-decimal currencies
-update_card_null,,The URL entered to update your credit card is invalid. Please check the URL and try again.,The URL entered to update your credit card is invalid. Please check the URL and try again.
-hosted_page_failed,,An error occurred during processing. Please try again later.,An error occurred during processing. Please try again later.
-not_authorized_ip,,"Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
-code_not_compatible,,Sorry something went wrong. Please retry after some time,Sorry something went wrong. Please retry after some time
-content_type_is_not_application_json,,"Sorry, the request''s content type ({0}) is wrong. It must be application/json.","Sorry, the request''s content type ({0}) is wrong. It must be application/json."
-web.invalid_credential,,Please check the submitted credentials.,Please check the submitted credentials.
-update_card_expired,,"Your requested URL has expired. Please try again. ","Your requested URL has expired. Please try again. "
-tos_not_selected,,Agreeing to the terms is mandatory to complete the checkout.,Agreeing to the terms is mandatory to complete the checkout.
-connection_time_out,,"Sorry, unable to complete the operation due to db communication failure. Please try after some time","Sorry, unable to complete the operation due to db communication failure. Please try after some time"
-request_charset_error,,"Sorry, the request encoding should be utf-8. It is {0}","Sorry, the request encoding should be utf-8. It is {0}"
-csrf_tok_invalid,,The csrf token (used for security) is invalid. Please refresh the browser and try again.,The csrf token (used for security) is invalid. Please refresh the browser and try again.
-hosted_page_error,,{0},{0}
-update_card_failed,,There was an error processing your credit card information. Please try again later.,There was an error processing your credit card information. Please try again later.
-site_not_provided,,"Sorry, you need to provide your site as a subdomain to access this URL","Sorry, you need to provide your site as a subdomain to access this URL"
-configuration_failure,,{0},{0}
-page_not_found,,"Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
-content_type_wrong,,"Sorry, the request''s content type is wrong","Sorry, the request''s content type is wrong"
+page_url_length_exceed,"Beklager, vi fant ikke siden","Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
+should_be_unauth,"Beklager, du må være logget av gjeldende økt for å se denne siden","Sorry, you must be logged out of current session to view this page","Sorry, you must be logged out of current session to view this page"
+web.param_not_unique,Vent! Du har allerede abonnert.,Hold up! You have subscribed already.,Hold up! You have subscribed already.
+bad_request_need_refresh,"Beklager, forespørselen inneholder data som ikke er formatert riktig","Sorry, the request contains data that are not formatted properly","Sorry, the request contains data that are not formatted properly"
+operation_not_supported,{0},{0},{0}
+not_authorized_post,"Beklager, du har ikke tillatelse til å utføre denne handlingen","Sorry, you don''t have the permission to do this action","Sorry, you don''t have the permission to do this action"
+limit_exceeds,"Beklager, den tillatte grensen for {0} er {1}.","Sorry, the allowed limit for {0} is {1}.","Sorry, the allowed limit for {0} is {1}."
+user_already_exists,e-post eksisterer allerede,email already exists,email already exists
+hosted_page_null,"Bestillings-URL er ugyldig. Sjekk URL-en, og prøv på nytt.",The order URL is invalid. Please check the URL and try again.,The order URL is invalid. Please check the URL and try again.
+hp_resource_not_found,Denne URL-en er ikke lenger gyldig.,This URL is no longer valid.,This URL is no longer valid.
+update_card_succeeded,Kredittkortet ditt er allerede oppdatert.,Your credit card has been already updated successfully.,Your credit card has been already updated successfully.
+should_be_auth,"Beklager, du må være logget inn for å se denne siden","Sorry, you must be logged in to view this page","Sorry, you must be logged in to view this page"
+hosted_page_canceled,"Denne bestillingen er kansellert. Vær så snill, prøv på nytt.",This order has been canceled. Please try again.,This order has been canceled. Please try again.
+lock_timeout,"Beklager, en midlertidig feil oppstod. Prøv på nytt","Sorry, a temporary error occured. Please retry","Sorry, a temporary error occured. Please retry"
+service_unavailable,"Beklager, denne operasjonen kan ikke utføres på grunn av tung belastning. Prøv på nytt om noen minutter",Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes,Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes
+cannot_be_empty_or_null,Nøkkelverdien kan ikke være tom eller null,Key value cannot be empty or null,Key value cannot be empty or null
+update_card_cancelled,Denne URL-en er ikke lenger gyldig.,This URL is no longer valid.,This URL is no longer valid.
+suffix_not_allowed,"Suffikset ""{0}"" er ikke tillatt","""{0}"" suffix is not allowed","""{0}"" suffix is not allowed"
+currency_error,Kan ikke hente valutainformasjon,Unable fetch currency info,Unable fetch currency info
+not_authorized_get,"Beklager, du har ikke tillatelse til å se denne siden","Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
+hosted_page_expired,"Bestillings-URL-en din har utløpt. Vær så snill, prøv på nytt.",Your order URL has expired. Please try again.,Your order URL has expired. Please try again.
+session_timeout,Du er logget ut av portalen. Vennligst logg inn igjen.,You are logged out of the portal. Please login again.,You are logged out of the portal. Please login again.
+hosted_page_succeeded,Bestillingen din er allerede sendt.,Your order has already been submitted successfully.,Your order has already been submitted successfully.
+not_ajax_request,Det oppsto en midlertidig feil. Prøv igjen,A temporary error occurred. Try again,A temporary error occurred. Try again
+web.mul_sub_entry,[object Object],Hold up! You have subscribed already,Hold up! You have subscribed already
+resource_not_found,"Beklager, vi fant ikke den ressursen","Sorry, we couldn''t find that resource","Sorry, we couldn''t find that resource"
+size_exceeds,"Beklager, opplastet filstørrelse kan ikke overstige {0}","Sorry, uploaded file size cannot exceed {0}","Sorry, uploaded file size cannot exceed {0}"
+bad_request,"Beklager, URL-en eller noen av parameterne er ikke gyldige","Sorry,the URL or the some of the parameters are not valid","Sorry,the URL or the some of the parameters are not valid"
+record_not_found,{0} med {1} {2} er ikke til stede.,{0} with {1} {2} is not present.,{0} with {1} {2} is not present.
+bad_data,"Beklager, noen av parametrene mangler eller er ikke formatert riktig","Sorry, some of the parameters are missing or not formatted properly","Sorry, some of the parameters are missing or not formatted properly"
+communication_failure,"Beklager, kunne ikke kommunisere med {0}. Prøv på nytt etter en stund","Sorry, Unable to communicate with {0}. Please retry after some time","Sorry, Unable to communicate with {0}. Please retry after some time"
+site_already_exists,siden eksisterer allerede,site already exists,site already exists
+invalid_state,{0},{0},{0}
+db_lock_error,Kan ikke låse operasjonen,Unable to lock the operation,Unable to lock the operation
+invalid_request_refresh_browser,Forespørselen din er ikke gyldig. Oppdater nettleseren og prøv igjen.,Your request is not valid. Please refresh the browser and try again.,Your request is not valid. Please refresh the browser and try again.
+round_off_not_supported,Avrunding av faktura beløp støttes ikke for null desimalvalutaer,Rounding off of invoice amount is not supported for zero-decimal currencies,Rounding off of invoice amount is not supported for zero-decimal currencies
+update_card_null,"URL-adressen som ble oppgitt for å oppdatere kredittkortet ditt er ugyldig. Sjekk URL-en, og prøv på nytt.",The URL entered to update your credit card is invalid. Please check the URL and try again.,The URL entered to update your credit card is invalid. Please check the URL and try again.
+hosted_page_failed,Det oppsto en feil under behandlingen. Prøv igjen senere.,An error occurred during processing. Please try again later.,An error occurred during processing. Please try again later.
+not_authorized_ip,"Beklager, du har ikke tillatelse til å se denne siden","Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
+code_not_compatible,"Beklager, noe gikk galt. Prøv på nytt etter en stund",Sorry something went wrong. Please retry after some time,Sorry something went wrong. Please retry after some time
+content_type_is_not_application_json,"Beklager, forespørselens innholdstype ({0}) er feil. Det må være applikasjon / json.","Sorry, the request''s content type ({0}) is wrong. It must be application/json.","Sorry, the request''s content type ({0}) is wrong. It must be application/json."
+web.invalid_credential,Kontroller de innsendte legitimasjonene.,Please check the submitted credentials.,Please check the submitted credentials.
+update_card_expired,"Den forespurte URL-en din har utløpt. Vær så snill, prøv på nytt.",Your requested URL has expired. Please try again. ,Your requested URL has expired. Please try again. 
+tos_not_selected,Å akseptere vilkårene er obligatorisk for å fullføre kassen.,Agreeing to the terms is mandatory to complete the checkout.,Agreeing to the terms is mandatory to complete the checkout.
+connection_time_out,"Beklager, kunne ikke fullføre operasjonen på grunn av feil i db-kommunikasjon. Prøv etter litt tid","Sorry, unable to complete the operation due to db communication failure. Please try after some time","Sorry, unable to complete the operation due to db communication failure. Please try after some time"
+request_charset_error,"Beklager, forespørselskodingen skal være UTF-8. Det er {0}","Sorry, the request encoding should be utf-8. It is {0}","Sorry, the request encoding should be utf-8. It is {0}"
+csrf_tok_invalid,CSRF-token (brukes for sikkerhet) er ugyldig. Oppdater nettleseren og prøv igjen.,The csrf token (used for security) is invalid. Please refresh the browser and try again.,The csrf token (used for security) is invalid. Please refresh the browser and try again.
+hosted_page_error,{0},{0},{0}
+update_card_failed,Det oppsto en feil under behandling av kredittkortinformasjonen din. Prøv igjen senere.,There was an error processing your credit card information. Please try again later.,There was an error processing your credit card information. Please try again later.
+site_not_provided,"Beklager, du må oppgi nettstedet ditt som underdomener for å få tilgang til denne URL-en","Sorry, you need to provide your site as a subdomain to access this URL","Sorry, you need to provide your site as a subdomain to access this URL"
+configuration_failure,{0},{0},{0}
+page_not_found,"Beklager, vi fant ikke siden","Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
+content_type_wrong,"Beklager, forespørselens innholdstype er feil","Sorry, the request''s content type is wrong","Sorry, the request''s content type is wrong"

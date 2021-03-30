@@ -1,54 +1,54 @@
 key,value,reference value,description
-hp.portal.mark.backup,,Mark as Backup,Marking a payment method as Backup
-hp.billing_period.week,,%{period} Weeks,2 Weeks
-hp.portal.powered_by,,Powered by,Powered by chargebee
-hp.clientjs.cannot_be_blank,,cannot be blank,cannot be blank
-action_error.post,,There were errors while submitting,There were errors while submitting
-hp.change_link,,Change,Change link
-hp.portal.signed_up,,Signed up on %{date},Account signed up on 12-03-2016
-hp.portal.invoice.showing,,Showing,Showing invoice label
-payment_method.info.card,,card ending with %{last4_digits},card ending with 4111
-payment_method.info.direct_debit,,"%{bank_name}, Account number ending with %{last4_digits}",
-hp.portal.chargebee_secure,,Chargebee Secure Payment,Chargebee Secure Payment - security statement
-hp.portal.payment_method_role.backup,,Backup,Payment method is tagged as Backup
-hp.gocardless.desc,,Set up Direct Debit,Set up Direct Debit - gateway label
-hp.portal.mark.primary,,Mark as Primary,Marking a payment method as Primary
-hp.bt_apple_card,,%{card_type} card,Visa Card
-hp.apple_card_ending,,Card ending ... %{digits},Card Ending .. 4444
-hp.clientjs.successful_card_update,,you have successfully updated your card details.,you have successfully updated your card details.
-hp.amazon.desc,,Pay securely using the information on your Amazon account.,Pay securely using the information on your Amazon account - one liner for amazon gateway payments
-hp.portal.remove.backup,,Remove Backup,Unmarking a payment method as Backup
-hp.card_ending,,%{card_type} card ending ... %{digits},Visa Card Ending .. 4444
-hp.clientjs.successful_signup,,you have successfully signed up for the service,you have successfully signed up for the service
-apple_pay.label.tax,,TAX (YET TO BE CALCULATED),Label for tax amount
-hp.portal.paypal_redirect,,Redirecting to PayPal...,Redirecting to PayPal... - info
-hp.order_summary.terms_to_charge,,for %{no_of_terms} terms,($100.00 x 3) for 2 terms
-hp.clientjs.submit_error,,There were errors while submitting,There were errors while submitting
-hp.clientjs.problem_while_processing,,Problem while processing your form. Please verify your form details.,Problem while processing your form. Please verify your form details.
-hp.portal.payment_method_role.primary,,Primary,Payment method is tagged as Primary
-payment_method.info.paypal_express_checkout,,PayPal Express Checkout account,PayPal Express Checkout account
-hp.portal.ach_agree_details1,,"I (We) hereby authorize and request %{merchant_name} to debit funds from my (our) account at the Financial Institution indicated, and credit the funds. I (we) authorize %{merchant_name} to take any and all action required to correct any errors.","I (We) hereby authorize and request Chargebee to debit funds from my (our) account at the Financial Institution indicated, and credit the funds. I (we) authorize Chargebee to take any and all action required to correct any errors."
-hp.portal.ach_agree_details2,,"By clicking the button below, you certify that the information you have given on this ACH Debit Authorization Agreement for Direct Payments is complete, true, and submitted for the purpose selected above. It will remain in effect until I (we) notify %{merchant_name} that I (we) wish to revoke this authorization by contacting %{merchant_email} or %{merchant_phone}.","By clicking the button below, you certify that the information you have given on this ACH Debit Authorization Agreement for Direct Payments is complete, true, and submitted for the purpose selected above.  It will remain in effect until I (we) notify Chargebee that I (we) wish to revoke this authorization by contacting sam@example.com or 9898982345."
-hp.bank_account.desc,,Bank Account,Bank Account label
-hp.portal.date,,Date,Date
-hp.gocardless.redirect,,Redirecting to Direct Debit Provider...,Redirecting to Direct Debit Provider... - info
-hp.billing_period.year,,%{period} Years,2 Months
-hp.copied,,Copied,Copied URL
-hp.error.undetermined_vat_number,,Could not validate VAT number as VIES service is unavailable.,Could not validate VAT number as VIES service is unavailable.
-apple_pay.label.charges,,CHARGES,Label for main line item amount
-payment_method.info.amazon_payments,,Amazon Payments account,Amazon Payments account
-hp.clientjs.invalid_coupon_code,,Invalid coupon code,Invalid coupon code
-hp.error.undetermined_abn_number,,Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
-hp.portal.ach_agreement,,ACH Authorization Agreement,ACH Authorization Agreement - Agreement label
-hp.error.invalid_vat_number,,Invalid VAT Number,Invalid VAT Number
-hp.portal.account,,Account,Account user account label
-hp.portal.manage,,Manage,Portal account Manage label
-hp.error.invalid_abn_number,,"Invalid ABN ",Invalid ABN
-hp.billing_period.month,,%{period} Months,2 Months
-action_error.get,,There were errors while processing your request,There were errors while processing your request
-apple_pay.label.discount,,DISCOUNTS,Label for discount amount
-hp.update_payment_method.details,,Updating the payment method details...,Updating the payment method details...
-payment_method.info.direct_debit_no_bank_name,,bank account number ending with %{last4_digits},
-hp.paypal.desc,,"The safer, easier way to pay","The safer, easier way to pay - one liner for paypal gateway payments"
-hp.copy,,Copy,Copy URL
-hp.portal.bank_account,,bank account,bank account label
+hp.portal.mark.backup,Markeer als back-up,Mark as Backup,Marking a payment method as Backup
+hp.billing_period.week, %{period} weken,%{period} Weeks,2 Weeks
+hp.portal.powered_by,Aangedreven door,Powered by,Powered by chargebee
+hp.clientjs.cannot_be_blank,kan niet leeg zijn,cannot be blank,cannot be blank
+action_error.post,Er zijn fouten opgetreden bij het indienen,There were errors while submitting,There were errors while submitting
+hp.change_link,Verandering,Change,Change link
+hp.portal.signed_up,Aangemeld op %{date},Signed up on %{date},Account signed up on 12-03-2016
+hp.portal.invoice.showing,Resultaat,Showing,Showing invoice label
+payment_method.info.card,kaart die eindigt op %{last4_digits},card ending with %{last4_digits},card ending with 4111
+payment_method.info.direct_debit," %{bank_name}, rekeningnummer eindigend op %{last4_digits}","%{bank_name}, Account number ending with %{last4_digits}",
+hp.portal.chargebee_secure,Chargebee Veilige betaling,Chargebee Secure Payment,Chargebee Secure Payment - security statement
+hp.portal.payment_method_role.backup,Back-up,Backup,Payment method is tagged as Backup
+hp.gocardless.desc,Stel automatische incasso in,Set up Direct Debit,Set up Direct Debit - gateway label
+hp.portal.mark.primary,Markeer als primair,Mark as Primary,Marking a payment method as Primary
+hp.bt_apple_card, %{card_type} kaart,%{card_type} card,Visa Card
+hp.apple_card_ending,Kaart eindigt ... %{digits},Card ending ... %{digits},Card Ending .. 4444
+hp.clientjs.successful_card_update,je hebt met succes je kaartgegevens bijgewerkt.,you have successfully updated your card details.,you have successfully updated your card details.
+hp.amazon.desc,Betaal veilig met behulp van de informatie op uw Amazon-account.,Pay securely using the information on your Amazon account.,Pay securely using the information on your Amazon account - one liner for amazon gateway payments
+hp.portal.remove.backup,Verwijder Backup,Remove Backup,Unmarking a payment method as Backup
+hp.card_ending, %{card_type} kaart eindigt ... %{digits},%{card_type} card ending ... %{digits},Visa Card Ending .. 4444
+hp.clientjs.successful_signup,je hebt je met succes aangemeld voor de service,you have successfully signed up for the service,you have successfully signed up for the service
+apple_pay.label.tax,BELASTING (NOG TE BEREKENEN),TAX (YET TO BE CALCULATED),Label for tax amount
+hp.portal.paypal_redirect,Omleiden naar PayPal ...,Redirecting to PayPal...,Redirecting to PayPal... - info
+hp.order_summary.terms_to_charge,voor %{no_of_terms} termen,for %{no_of_terms} terms,($100.00 x 3) for 2 terms
+hp.clientjs.submit_error,Er zijn fouten opgetreden bij het indienen,There were errors while submitting,There were errors while submitting
+hp.clientjs.problem_while_processing,Probleem bij het verwerken van uw formulier. Controleer uw formuliergegevens.,Problem while processing your form. Please verify your form details.,Problem while processing your form. Please verify your form details.
+hp.portal.payment_method_role.primary,Primair,Primary,Payment method is tagged as Primary
+payment_method.info.paypal_express_checkout,PayPal Express Checkout-account,PayPal Express Checkout account,PayPal Express Checkout account
+hp.portal.ach_agree_details1,Ik (wij) machtig (en) hierbij %{merchant_name} om geld van mijn (onze) rekening bij de aangegeven financiële instelling af te schrijven en het geld te crediteren. Ik (wij) machtig %{merchant_name} om alle nodige maatregelen te nemen om eventuele fouten te corrigeren.,"I (We) hereby authorize and request %{merchant_name} to debit funds from my (our) account at the Financial Institution indicated, and credit the funds. I (we) authorize %{merchant_name} to take any and all action required to correct any errors.","I (We) hereby authorize and request Chargebee to debit funds from my (our) account at the Financial Institution indicated, and credit the funds. I (we) authorize Chargebee to take any and all action required to correct any errors."
+hp.portal.ach_agree_details2,"Door op de onderstaande knop te klikken, bevestigt u dat de informatie die u heeft verstrekt in deze ACH-incassomachtigingovereenkomst voor rechtstreekse betalingen volledig en waar is en ingediend voor het hierboven geselecteerde doel. Het blijft van kracht totdat ik (we) %{merchant_name} op de hoogte stel dat ik (we) deze autorisatie (willen) intrekken door contact op te nemen met %{merchant_email} of %{merchant_phone}.","By clicking the button below, you certify that the information you have given on this ACH Debit Authorization Agreement for Direct Payments is complete, true, and submitted for the purpose selected above. It will remain in effect until I (we) notify %{merchant_name} that I (we) wish to revoke this authorization by contacting %{merchant_email} or %{merchant_phone}.","By clicking the button below, you certify that the information you have given on this ACH Debit Authorization Agreement for Direct Payments is complete, true, and submitted for the purpose selected above.  It will remain in effect until I (we) notify Chargebee that I (we) wish to revoke this authorization by contacting sam@example.com or 9898982345."
+hp.bank_account.desc,Bankrekening,Bank Account,Bank Account label
+hp.portal.date,Datum,Date,Date
+hp.gocardless.redirect,Omleiden naar aanbieder van automatische incasso ...,Redirecting to Direct Debit Provider...,Redirecting to Direct Debit Provider... - info
+hp.billing_period.year, %{period} jaar,%{period} Years,2 Months
+hp.copied,Gekopieerd,Copied,Copied URL
+hp.error.undetermined_vat_number,Kan btw-nummer niet valideren omdat VIES-service niet beschikbaar is.,Could not validate VAT number as VIES service is unavailable.,Could not validate VAT number as VIES service is unavailable.
+apple_pay.label.charges,KOSTEN,CHARGES,Label for main line item amount
+payment_method.info.amazon_payments,Amazon Payments-account,Amazon Payments account,Amazon Payments account
+hp.clientjs.invalid_coupon_code,Ongeldige couponcode,Invalid coupon code,Invalid coupon code
+hp.error.undetermined_abn_number,Kan de ABN niet verwerken omdat de ABN Lookup-server niet actief is.,Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
+hp.portal.ach_agreement,ACH-autorisatieovereenkomst,ACH Authorization Agreement,ACH Authorization Agreement - Agreement label
+hp.error.invalid_vat_number,Ongeldig btw-nummer,Invalid VAT Number,Invalid VAT Number
+hp.portal.account,Account,Account,Account user account label
+hp.portal.manage,Beheer,Manage,Portal account Manage label
+hp.error.invalid_abn_number,Ongeldige ABN,Invalid ABN ,Invalid ABN
+hp.billing_period.month, %{period} maanden,%{period} Months,2 Months
+action_error.get,Er zijn fouten opgetreden bij het verwerken van uw verzoek,There were errors while processing your request,There were errors while processing your request
+apple_pay.label.discount,KORTINGEN,DISCOUNTS,Label for discount amount
+hp.update_payment_method.details,De betaalmethodegegevens bijwerken ...,Updating the payment method details...,Updating the payment method details...
+payment_method.info.direct_debit_no_bank_name,bankrekeningnummer eindigend op %{last4_digits},bank account number ending with %{last4_digits},
+hp.paypal.desc,"De veiligere, gemakkelijkere manier van betalen","The safer, easier way to pay","The safer, easier way to pay - one liner for paypal gateway payments"
+hp.copy,Kopiëren,Copy,Copy URL
+hp.portal.bank_account,bankrekening,bank account,bank account label

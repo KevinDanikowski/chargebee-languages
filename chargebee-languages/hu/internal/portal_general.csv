@@ -1,11 +1,11 @@
 key,value,reference value,description
-portal.stripe_acc_status_reason.errored,,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
-portal.change_password.reenter_new_password,,Passwords do not match,Passwords do not match
-portal.change_password.new_password_not_same,,New password is same as the current password,New password is same as the current password
-portal.change_password.current_password.incorrect,,The password you gave is incorrect,The password you gave is incorrect
-portal.stripe_acc_status_reason.verification_failed,,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
-portal.account_details.address,,Address,Address Label
-portal.stripe_acc_status_reason.validated,,The bank account is not yet verified,The bank account is not yet verified
-portal.stripe_acc_status_reason.verified,,The bank account is verified,The bank account is verified
-portal.stripe_acc_status_reason.new,,The bank account is not yet verified,The bank account is not yet verified
-portal.change_password.recently_used,,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again
+portal.stripe_acc_status_reason.errored,A bankszámlára küldött legutóbbi átutalás nem sikerült. A bankszámla nem használható jövőbeni fizetésekhez,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
+portal.change_password.reenter_new_password,A jelszavak nem egyeznek,Passwords do not match,Passwords do not match
+portal.change_password.new_password_not_same,Az új jelszó megegyezik a jelenlegi jelszóval,New password is same as the current password,New password is same as the current password
+portal.change_password.current_password.incorrect,Helytelen a megadott jelszó,The password you gave is incorrect,The password you gave is incorrect
+portal.stripe_acc_status_reason.verification_failed,Max megpróbálta ellenőrizni a bankszámla átlépését,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
+portal.account_details.address,Cím,Address,Address Label
+portal.stripe_acc_status_reason.validated,A bankszámla még nincs ellenőrizve,The bank account is not yet verified,The bank account is not yet verified
+portal.stripe_acc_status_reason.verified,A bankszámla ellenőrzése megtörtént,The bank account is verified,The bank account is verified
+portal.stripe_acc_status_reason.new,A bankszámla még nincs ellenőrizve,The bank account is not yet verified,The bank account is not yet verified
+portal.change_password.recently_used,A közelmúltban használt jelszavakat nem lehet újra felhasználni,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again

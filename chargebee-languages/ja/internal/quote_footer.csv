@@ -1,6 +1,6 @@
 key,value,reference value,description
-quotes.tax_details.label,,Tax Details,Tax applicabality information header shown in quote document
-quotes.tax_details.show_tax.exclusive_info,,Please note that taxes applicable may change based on billing date and address at the time of invoicing.,Disclaimer message shown when taxes are added in quotes in exlc mode
-quotes.tax_details.no_tax.inclusive_info,,Prices are inclusive of taxes. You can view the tax breakup when the invoice is raised.,Disclaimer when taxes are not shown but applicable when invoicing
-quotes.tax_details.no_tax_exclusive_info,,Prices are not inclusive of taxes. Taxes will be applicable as per billing date and address at the time of invoicing.,Disclaimer when taxes are not shown but applicable when invocing
-quotes.tax_details.show_tax.inclusive_info,,Please note that taxes applicable may change based on billing date and address at the time of invoicing.,Disclaimer message shown in tax details when taxes are added in quote in inclusive mode
+quotes.tax_details.label,税の詳細,Tax Details,Tax applicabality information header shown in quote document
+quotes.tax_details.show_tax.exclusive_info,適用される税金は、請求時の請求日と住所に基づいて変更される場合がありますのでご注意ください。,Please note that taxes applicable may change based on billing date and address at the time of invoicing.,Disclaimer message shown when taxes are added in quotes in exlc mode
+quotes.tax_details.no_tax.inclusive_info,価格には税金が含まれています。請求書が発行されたときに税の内訳を表示できます。,Prices are inclusive of taxes. You can view the tax breakup when the invoice is raised.,Disclaimer when taxes are not shown but applicable when invoicing
+quotes.tax_details.no_tax_exclusive_info,価格には税金は含まれていません。請求時の請求日と住所に応じて税金が適用されます。,Prices are not inclusive of taxes. Taxes will be applicable as per billing date and address at the time of invoicing.,Disclaimer when taxes are not shown but applicable when invocing
+quotes.tax_details.show_tax.inclusive_info,適用される税金は、請求時の請求日と住所に基づいて変更される場合がありますのでご注意ください。,Please note that taxes applicable may change based on billing date and address at the time of invoicing.,Disclaimer message shown in tax details when taxes are added in quote in inclusive mode

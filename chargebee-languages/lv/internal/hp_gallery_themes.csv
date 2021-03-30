@@ -1,39 +1,39 @@
 key,value,reference value,description
-minimal.card.page_heading,,Thank you for updating your payment method details!,Thank you for updating your payment method details!
-rhapsody.header.title,,My awesome subscription service,My awesome subscription service
-minimal.checkout.page_title,,Checkout,Checkout
-elegant.checkout.page_heading,,Thank you for subscribing!,Thank you for subscribing!
-inspire.portal.page_title,,Customer Portal,Customer Portal
-rhapsody.footer.content,,All Right Reserved. Copyright &copy; 2015.,All Right Reserved. Copyright &copy; 2015.
-minimal.thankyou.page_title,,Thank You,Thank You
-elegant.thankyou.page_heading,,You've successfully signed up!,You've successfully signed up!
-elegant.customer_portal.page_title,,Customer Portal,Customer Portal
-rhapsody.thankyou.page_heading,,You've successfully signed up!,You've successfully signed up!
-elegant.checkout.aside_content,,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>
-minimal.footer.content,,All Rights Reserved. Copyright &copy; 2015.,All Rights Reserved. Copyright &copy; 2015.
-elegant.header.title,,My awesome subscription service,My awesome subscription service
-rhapsody.thankyou.content,,Your account information has been sent to your email address.,Your account information has been sent to your email address.
-minimal.header.title,,My awesome subscription service,My awesome subscription service
-minimal.customer_portal.page_title,,Customer Portal,Customer Portal
-inspire.thankyou.page_title,,Thank You,Thank You
-minimal.card.aside_content,,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>
-minimal.thankyou.content,,Your account information has been sent to your email address.,Your account information has been sent to your email address.
-elegant.card.aside_content,,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>
-elegant.card.page_heading,,Thank you for updating your payment method details!,Thank you for updating your payment method details!
-minimal.card.page_title,,Update your payment method,Update your payment method
-inspire.thankyou.content,,<div class='text-center'><h3>You've successfully signed up!</h3><p>Your account information has been sent to your email address.</p></div>,<div class='text-center'><h3>You've successfully signed up!</h3><p>Your account information has been sent to your email address.</p></div>
-minimal.checkout.page_heading,,Thank you for subscribing!,Thank you for subscribing!
-rhapsody.card.page_title,,Update your payment method,Update your payment method
-rhapsody.checkout.page_title,,Checkout,Checkout
-rhapsody.thankyou.page_title,,Thank You,Thank You
-elegant.checkout.page_title,,Checkout,Checkout
-elegant.thankyou.content,,Your account information has been sent to your email address.,Your account information has been sent to your email address.
-elegant.card.page_title,,Update your payment method,Update your payment method
-rhapsody.customer_portal.page_title,,Customer Portal,Customer Portal
-minimal.thankyou.page_heading,,You've successfully signed up!,You've successfully signed up!
-elegant.footer.content,,All Rights Reserved. Copyright &copy; 2015.,All Rights Reserved. Copyright &copy; 2015.
-elegant.thankyou.page_title,,Thank You,Thank You
-inspire.card.page_title,,Update your payment method,Update your payment method
-inspire.header.title,,Company Name,Company Name
-inspire.checkout.page_title,,Checkout,Checkout
-minimal.checkout.aside_content,,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>
+minimal.card.page_heading,"Paldies, ka atjauninājāt informāciju par maksājuma veidu!",Thank you for updating your payment method details!,Thank you for updating your payment method details!
+rhapsody.header.title,Mans lieliskais abonēšanas pakalpojums,My awesome subscription service,My awesome subscription service
+minimal.checkout.page_title,Izrakstīšanās,Checkout,Checkout
+elegant.checkout.page_heading,"Paldies, ka abonējat!",Thank you for subscribing!,Thank you for subscribing!
+inspire.portal.page_title,Klientu portāls,Customer Portal,Customer Portal
+rhapsody.footer.content,Visas tiesības aizsargātas. Autortiesības © 2015.,All Right Reserved. Copyright &copy; 2015.,All Right Reserved. Copyright &copy; 2015.
+minimal.thankyou.page_title,Paldies,Thank You,Thank You
+elegant.thankyou.page_heading,Jūs esat veiksmīgi reģistrējies!,You've successfully signed up!,You've successfully signed up!
+elegant.customer_portal.page_title,Klientu portāls,Customer Portal,Customer Portal
+rhapsody.thankyou.page_heading,Jūs esat veiksmīgi reģistrējies!,You've successfully signed up!,You've successfully signed up!
+elegant.checkout.aside_content,"<h4> Mēs augstu vērtējam jūsu konfidencialitāti. </h4> <p> Mēs nepārdosim un neizplatīsim jūsu kontaktinformāciju. Izlasiet mūsu konfidencialitātes politiku. </p> <hr> <h4> Norēķinu pieprasījumi </h4> <p> Ja jums ir kādi jautājumi, sazinieties ar mūsu atbalsta komandu. </p>",<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>
+minimal.footer.content,Visas tiesības aizsargātas. Autortiesības © 2015.,All Rights Reserved. Copyright &copy; 2015.,All Rights Reserved. Copyright &copy; 2015.
+elegant.header.title,Mans lieliskais abonēšanas pakalpojums,My awesome subscription service,My awesome subscription service
+rhapsody.thankyou.content,Jūsu konta informācija ir nosūtīta uz jūsu e-pasta adresi.,Your account information has been sent to your email address.,Your account information has been sent to your email address.
+minimal.header.title,Mans lieliskais abonēšanas pakalpojums,My awesome subscription service,My awesome subscription service
+minimal.customer_portal.page_title,Klientu portāls,Customer Portal,Customer Portal
+inspire.thankyou.page_title,Paldies,Thank You,Thank You
+minimal.card.aside_content,"<p> Lūdzu, ņemiet vērā, ka tas ir tikai jūsu maksājuma veida atjauninājums. </p> <p> Mēs jums izrakstīsim rēķinu atbilstoši jūsu pašreizējam norēķinu iestatījumam. </p>",<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>
+minimal.thankyou.content,Jūsu konta informācija ir nosūtīta uz jūsu e-pasta adresi.,Your account information has been sent to your email address.,Your account information has been sent to your email address.
+elegant.card.aside_content,"<p> Lūdzu, ņemiet vērā, ka tas ir tikai jūsu maksājuma veida atjauninājums. </p> <p> Mēs jums izrakstīsim rēķinu atbilstoši jūsu pašreizējam norēķinu iestatījumam. </p>",<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>,<p>Please note that this is only an update of your payment method.</p><p>We will bill you as per your existing billing setup.</p>
+elegant.card.page_heading,"Paldies, ka atjauninājāt informāciju par maksājuma veidu!",Thank you for updating your payment method details!,Thank you for updating your payment method details!
+minimal.card.page_title,Atjauniniet maksājuma veidu,Update your payment method,Update your payment method
+inspire.thankyou.content,"<div class=""text-center""> <h3> Jūs esat veiksmīgi reģistrējies! </h3> <p> Jūsu konta informācija ir nosūtīta uz jūsu e-pasta adresi. </p> </div>",<div class='text-center'><h3>You've successfully signed up!</h3><p>Your account information has been sent to your email address.</p></div>,<div class='text-center'><h3>You've successfully signed up!</h3><p>Your account information has been sent to your email address.</p></div>
+minimal.checkout.page_heading,"Paldies, ka abonējat!",Thank you for subscribing!,Thank you for subscribing!
+rhapsody.card.page_title,Atjauniniet maksājuma veidu,Update your payment method,Update your payment method
+rhapsody.checkout.page_title,Izrakstīšanās,Checkout,Checkout
+rhapsody.thankyou.page_title,Paldies,Thank You,Thank You
+elegant.checkout.page_title,Izrakstīšanās,Checkout,Checkout
+elegant.thankyou.content,Jūsu konta informācija ir nosūtīta uz jūsu e-pasta adresi.,Your account information has been sent to your email address.,Your account information has been sent to your email address.
+elegant.card.page_title,Atjauniniet maksājuma veidu,Update your payment method,Update your payment method
+rhapsody.customer_portal.page_title,Klientu portāls,Customer Portal,Customer Portal
+minimal.thankyou.page_heading,Jūs esat veiksmīgi reģistrējies!,You've successfully signed up!,You've successfully signed up!
+elegant.footer.content,Visas tiesības aizsargātas. Autortiesības © 2015.,All Rights Reserved. Copyright &copy; 2015.,All Rights Reserved. Copyright &copy; 2015.
+elegant.thankyou.page_title,Paldies,Thank You,Thank You
+inspire.card.page_title,Atjauniniet maksājuma veidu,Update your payment method,Update your payment method
+inspire.header.title,Kompānijas nosaukums,Company Name,Company Name
+inspire.checkout.page_title,Izrakstīšanās,Checkout,Checkout
+minimal.checkout.aside_content,"<h4> Mēs augstu vērtējam jūsu konfidencialitāti. </h4> <p> Mēs nepārdosim un neizplatīsim jūsu kontaktinformāciju. Izlasiet mūsu konfidencialitātes politiku. </p> <hr> <h4> Norēķinu pieprasījumi </h4> <p> Ja jums ir kādi jautājumi, sazinieties ar mūsu atbalsta komandu. </p>",<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>,<h4>We value your Privacy.</h4><p>We will not sell or distribute your contact information. Read our Privacy Policy.</p><hr><h4>Billing Enquiries</h4><p>Do not hesitate to reach our support team if you have any queries.</p>

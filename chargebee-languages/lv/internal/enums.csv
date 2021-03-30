@@ -1,15 +1,15 @@
 key,value,reference value,description
-enum.contract_term_base.action_at_term_end.name.renew,,Renews for another term,"<li>Contract term completes and a new contract term is started for the number of billing cycles specified in <a href=""subscriptions#create_subscription_for_customer_contract_term_billing_cycle_on_renewal""><code>contract_billing_cycle_on_renewal</code></a>.</li><li>The <code>action_at_term_end</code> for the new contract term is set to <code>renew</code>."
-enum.plan_base.period_unit.name.year,,Year,Charge based on year(s)
-enum.credit_note_base.reason_code.name.chargeback,,Chargeback,Can be set when you are recording your customer Chargebacks
-enum.contract_term_base.action_at_term_end.name.cancel,,Contract ends,Contract term completes and subscription is canceled.
-enum.public_card_error_code.name.paypal_general_err,,We've encountered a problem while accessing your paypal account.,We've encountered a problem while accessing your paypal account.
-enum.invoice_base.status.name.posted,,Posted,Indicates the payment is not yet collected and will be in this state till the due date to indicate the due period
-enum.line_item_base.type.name.account_credits,,Account Credits,Account Credits
-enum.payment_method_base.type.name.paypal_express_checkout,,Paypal Express Checkout,Payments made via PayPal Express Checkout.
-enum.payment_method_base.type.name.e_2checkout,,2Checkout,2Checkout
-enum.payment_method_base.type.name.bancontact,,Bancontact,Bancontact Card Payments.
-enum.invoice_base.status.name.pending,,Pending,"<ul><li><strong><a href=""/docs/api/invoices?prod_cat_ver=2#invoice_status"">Product Catalog 2.0:</a></strong> The invoice is
+enum.contract_term_base.action_at_term_end.name.renew,Atjauno uz vēl vienu termiņu,Renews for another term,"<li>Contract term completes and a new contract term is started for the number of billing cycles specified in <a href=""subscriptions#create_subscription_for_customer_contract_term_billing_cycle_on_renewal""><code>contract_billing_cycle_on_renewal</code></a>.</li><li>The <code>action_at_term_end</code> for the new contract term is set to <code>renew</code>."
+enum.plan_base.period_unit.name.year,Gads,Year,Charge based on year(s)
+enum.credit_note_base.reason_code.name.chargeback,Atgriešana,Chargeback,Can be set when you are recording your customer Chargebacks
+enum.contract_term_base.action_at_term_end.name.cancel,Līgums beidzas,Contract ends,Contract term completes and subscription is canceled.
+enum.public_card_error_code.name.paypal_general_err,"Piekļūstot jūsu paypal kontam, radās problēma.",We've encountered a problem while accessing your paypal account.,We've encountered a problem while accessing your paypal account.
+enum.invoice_base.status.name.posted,Ievietots,Posted,Indicates the payment is not yet collected and will be in this state till the due date to indicate the due period
+enum.line_item_base.type.name.account_credits,Konta kredīti,Account Credits,Account Credits
+enum.payment_method_base.type.name.paypal_express_checkout,Paypal Express kase,Paypal Express Checkout,Payments made via PayPal Express Checkout.
+enum.payment_method_base.type.name.e_2checkout,2Checkout,2Checkout,2Checkout
+enum.payment_method_base.type.name.bancontact,Bancontact,Bancontact,Bancontact Card Payments.
+enum.invoice_base.status.name.pending,Gaida,Pending,"<ul><li><strong><a href=""/docs/api/invoices?prod_cat_ver=2#invoice_status"">Product Catalog 2.0:</a></strong> The invoice is
     yet to be closed (sent for payment collection). An invoice is generated with this <code>status</code> when it has line items that
     belong to items that are <code>metered</code> or when the <code>subscription.create_pending_invoices</code>
     attribute is set to <code>true</code>.<br> <strong><a href=""/docs/api/invoices?prod_cat_ver=1#invoice_status""
@@ -17,185 +17,185 @@ enum.invoice_base.status.name.pending,,Pending,"<ul><li><strong><a href=""/docs/
     closed (sent for payment collection). All invoices are generated with this <code>status</code> when <a
             href=""https://www.chargebee.com/docs/metered_billing.html"" target=""_blank"" rel=""noreferrer noopener"">Metered
         Billing</a> is enabled for the site.</li></ul>"
-enum.line_item_base.type.name.coupon_credit,,Coupon Credit,Coupon Credit
-enum.public_card_error_code.name.amz_account_suspended,,Encountered a problem while using your amazon account. Please select a different payment method.,Encountered a problem while using your amazon account. Please select a different payment method.
-enum.public_card_error_code.name.prepaid_card_err,,Prepaid cards are not supported.,Prepaid cards are not supported.
-enum.tax_reg_number_base.label.name.gstin,,GSTIN,GSTIN
-enum.payment_method_base.type.name.card,,Card,Card based payment including credit cards and debit cards. Details about the card can be obtained from the card resource.
-enum.transaction_base.payment_method.name.sofort,,Sofort,Sofort
-enum.item_price_base.trial_period_unit.name.month,,Month,Month
-enum.public_card_error_code.name.payapl_ec_token_expired_invalid,,Your PayPal session has expired. Please try again.,Your PayPal session has expired. Please try again.
-enum.line_item_base.type.name.addon_item_price,,Addon Item Price,Addon Item Price
-enum.quote_base.status.name.approved,,Approved,Approved.
-enum.subscription_base.state.name.non_renewing,,Non Renewing,The subscription will be canceled at the end of the current term.
-enum.public_card_error_code.name.amz_agreement_declined,,Your selected payment method in amazon was declined. Please update it and try again.,Your selected payment method in amazon was declined. Please update it and try again.
-enum.transaction_failure_reason.name.card_barred,,Lost / Closed / Blocked Card,Lost / Closed / Blocked Card
-enum.credit_card_base.card_type.name.american_express,,American Express,An American Express card.
-enum.line_item_base.type.name.fractional_correction,,Fractional Correction,Fractional Correction
-enum.credit_card_base.funding_type.name.credit,,Credit,A credit card.
-enum.contract_term_base.action_at_term_end.name.evergreen,,"Contract ends, subscription continues to renew",Contract term completes and the subscription renews.
-enum.credit_card_base.card_type.name.mastercard,,MasterCard,A MasterCard.
-enum.bank_account_base.account_holder_type.name.individual,,Individual,Individual
-enum.bank_account_base.account_type.name.checking,,Checking,Checking Account
-enum.invoice_customization_base.cn_title.name.credit_note,,CREDIT NOTE,CREDIT NOTE
-enum.transaction_base.payment_method.name.bancontact,,Bancontact,Bancontact
-enum.credit_card_base.card_type.name.other,,Other,Card belonging to types other than those listed above.
-enum.credit_note_base.reason_code.name.write_off,,Write Off,"This reason will be set automatically for the Credit Notes created during invoice <a target=""_blank"" href=""https://www.chargebee.com/docs/invoice-operations.html#write-off"">Write Off</a> operation."
-enum.credit_note_base.reason_code.name.fraudulent,,FRAUDULENT,FRAUDULENT
-enum.credit_note_base.reason_code.name.service_unsatisfactory,,Service Unsatisfactory,Service Unsatisfactory
-enum.transaction_failure_reason.name.fraud,,Fraud card,Fraud card
-enum.quote_setting_base.quote_title.name.proforma_invoice,,PROFORMA INVOICE,PROFORMA INVOICE
-enum.item_price_base.trial_period_unit.name.day,,Day,Day
-enum.credit_card_base.funding_type.name.debit,,Debit,A debit card.
-enum.pricing_model.name.tiered,,Tiered,The per unit price is based on the tier that the total quantity falls in.
-enum.credit_card_base.card_type.name.not_applicable,,Not Applicable,Used for offline entries in transactions. Not applicable for cards
-enum.transaction_failure_reason.name.card_expired,,Card Expired,Card Expired
-enum.item_price_base.period_unit.name.month,,Month,Month
-enum.line_item_base.type.name.credit_adjustments,,Credit Adjustments,Credit Adjustments
-enum.transaction_failure_reason.name.contact_details_required,,Invalid Contact details,Invalid Contact details
-enum.credit_note_base.reason_code.name.product_unsatisfactory,,Product Unsatisfactory,Product Unsatisfactory
-enum.transaction_base.payment_method.name.paypal_express_checkout,,Paypal Express Checkout,Paypal Express Checkout
-enum.credit_note_base.status.name.voided,,Voided,When the Credit Note has been cancelled.
-enum.subscription_base.state.name.active,,Active,The subscription is active and will be charged for automatically based on the items in it.
-enum.plan_base.trial_period_unit.name.day,,Day,In days
-enum.credit_card_base.card_type.name.visa,,Visa,A Visa card.
-enum.contract_term_base.action_at_term_end.name.renew_once,,Cancels at end of next contract term,"Used when you want to renew the contract term just once. Does the following: <li>Contract term completes and a new contract term is started for the number of billing cycles specified in <a href=""subscriptions#create_subscription_for_customer_contract_term_billing_cycle_on_renewal""><code>contract_billing_cycle_on_renewal</code></a>.</li><li>The <code>action_at_term_end</code> for the new contract term is set to <code>cancel</code>.</li></ul>"
-enum.transaction_failure_reason.name.invalid_payment_method,,Invalid Payment Method,Invalid Payment Method
-enum.credit_note_base.status.name.refund_due,,Refund Due,"When the credits are yet to be used, or have been partially used."
-enum.line_item_base.type.name.non_recurring_addon_charge,,Non Recurring Addon Charge,Non Recurring Addon Charge
-enum.bank_account_base.account_type.name.unknown,,Unknown,Bank Account Type is not set at the gateway
-enum.credit_card_base.card_type.name.jcb,,JCB,A JCB card.
-enum.transaction_base.payment_method.name.other,,Other,Payment Methods other than the above types
-enum.payment_method_base.type.name.direct_debit,,Direct Debit,Represents bank account for which the direct debit or ACH agreement/mandate is created.
-enum.public_card_error_code.name.gw_timeout,,The payment system did not respond in time. Please try after some time.,The payment system did not respond in time. Please try after some time.
-enum.credit_card_base.status.name.invalid,,Invalid,The billing agreement cannot be used. It might become valid again either automatically or due to  customer action.
-enum.subscription_base.state.name.cancelled,,Cancelled,The subscription has been canceled and is no longer in service.
-enum.quote_base.status.name.converting,,Converting,Converting
-enum.credit_note_base.reason_code.name.subscription_change,,Subscription Change,"This reason will be set automatically for Credit Notes created during Change Subscription operation when <a target=""_blank"" href=""https://www.chargebee.com/docs/proration.html"">proration</a> is enabled"
-enum.quote_setting_base.quote_title.name.quote,,QUOTE,QUOTE
-enum.credit_note_base.reason_code.name.waiver,,Waiver,Waiver
-enum.line_item_base.type.name.tax,,Tax,Tax
-enum.transaction_base.payment_method.name.apple_pay,,Apple Pay,Apple Pay
-enum.invoice_base.status.name.payment_due,,Payment Due,Indicates the payment is not yet collected and is being retried as per retry settings.
-enum.payment_method_base.type.name.sepa_credit,,SEPA Credit,SEPA Credit Transfer.
-enum.payment_method_base.type.name.ach_credit,,ACH Credit,ACH Credit Transfer.
-enum.line_item_base.type.name.plan_setup_charge,,Plan Setup Charge,Plan Setup Charge
-enum.transaction_failure_reason.name.cvv_issue,,CVV issue,CVV issue
-enum.item_price_base.period_unit.name.week,,Week,Week
-enum.transaction_base.payment_method.name.wechat_pay,,WeChat Pay,WeChat Pay
-enum.line_item_base.type.name.charge_item_price,,Charge Item Price,Charge Item Price
-enum.line_item_base.type.name.charge,,Charge,Charge
-enum.public_card_error_code.name.gw_server_error,,An error occured while processing your card. Please contact support.,An error occured while processing your card. Please contact support.
-enum.line_item_base.type.name.addon_charge,,Addon Charge,Addon Charge
-enum.quote_base.status.name.invoiced,,Invoiced,Invoiced
-enum.transaction_base.payment_method.name.bank_transfer,,Bank Transfer,Bank Transfer
-enum.public_card_error_code.name.gw_invalid_configuration,,An error occured while processing your card. Please contact support.,An error occured while processing your card. Please contact support.
-enum.credit_note_base.reason_code.name.subscription_cancellation,,Subscription Cancellation,This reason will be set automatically for Credit Notes created during cancel subscription operation
-enum.transaction_base.payment_method.name.amazon_payments,,Amazon Payments,Amazon Payments
-enum.invoice_customization_base.tax_reg_no_label.name.vat_reg_no,,"VAT Reg # ","VAT Reg # "
-enum.line_item_base.type.name.plan_item_price,,Plan Item Price,Plan Item Price
-enum.transaction_base.payment_method.name.alipay,,Alipay,Alipay
-enum.public_card_error_code.name.amz_agreement_rejected,,Unable to use your amazon account. Please select a different payment method.,Unable to use your amazon account. Please select a different payment method.
-enum.bank_account_base.account_type.name.savings,,Savings,Savings Account
-enum.credit_note_base.reason_code.name.other,,Other,Can be set when none of the above reason codes are applicable
-enum.tax_reg_number_base.label.name.abn,,ABN,ABN
-enum.item_price_base.period_unit.name.day,,Day,Day
-enum.payment_method_base.type.name.ideal,,IDEAL,iDEAL Payments.
-enum.credit_card_base.status.name.expiring,,Expiring,A card which is expiring in the current month.
-enum.tax_reg_number_base.label.name.vat_reg_no,,"VAT Reg # ","VAT Reg # "
-enum.tax_reg_number_base.label.name.gst_reg_no,,GST Reg  #,GST Reg  #
-enum.credit_note_base.status.name.refunded,,Refunded,When the entire credits (Credit Note amount) have been used (i.e either allocated to invoices or refunded).
-enum.transaction_base.payment_method.name.ach_credit,,ACH Credit,ACH Credit
-enum.quote_base.status.name.closed,,Closed,Closed
-enum.subscription_base.state.name.future,,Future,The subscription is scheduled to start at a future date.
-enum.plan_base.period_unit.name.week,,Week,Charge based on week(s)
-enum.tax_reg_number_base.label.name.vat_no,,VAT #,VAT #
-enum.transaction_base.payment_method.name.sepa_credit,,SEPA Credit,SEPA Credit
-enum.public_card_error_code.name.general_err,,Problem while processing your payment method. Please verify your payment method details.,Problem while processing your payment method. Please verify your payment method details.
-enum.quote_base.status.name.open,,Open,Open
-enum.plan_base.period_unit.name.month,,Month,Charge based on month(s)
-enum.public_card_error_code.name.addr_error,,Address validation failed for your card. Please update the address and try again.,Address validation failed for your card. Please update the address and try again.
-enum.transaction_failure_reason.name.amount_related,,Fund / Limit Issue,Fund / Limit Issue
-enum.payment_method_base.type.name.apple_pay,,Apple Pay,Apple Pay Payments.
-enum.transaction_base.payment_method.name.giropay,,giropay,giropay
-enum.tax_reg_number_base.label.name.qst,,QST Reg #,QST Reg #
-enum.credit_card_base.funding_type.name.not_applicable,,Not Applicable,Used for ACH. Not applicable for cards
-enum.credit_card_base.card_type.name.discover,,Discover,A Discover card.
-enum.transaction_base.payment_method.name.dotpay,,Dotpay,Dotpay
-enum.pricing_model.name.volume,,Volume,There are quantity tiers for which per unit prices are set. Quantities are purchased from successive tiers.
-enum.line_item_base.type.name.plan_charge,,Plan Charge,Plan Charge
-enum.credit_card_base.funding_type.name.prepaid,,Prepaid,A prepaid card.
-enum.bank_account_base.account_type.name.not_applicable,,Not Applicable,"Not applicable for card, paypal, amazon and offline payments"
-enum.credit_note_base.reason_code.name.order_change,,Order Change,Order Change
-enum.plan_base.trial_period_unit.name.month,,Month,In months
-enum.public_card_error_code.name.paypal_ec_agreement_canceled,,We've encountered a problem while accessing your paypal account.,We've encountered a problem while accessing your paypal account.
-enum.line_item_base.type.name.addon_prorated_charge,,Addon Prorated Charge,Addon Prorated Charge
-enum.line_item_base.type.name.offer_credit,,Offer Credit,Offer Credit
-enum.payment_method_base.type.name.amazon_payments,,Amazon Payments,Payments made via Amazon Payments.
-enum.tax_reg_number_base.label.name.hst,,HST Reg #,HST Reg #
-enum.payment_method_base.type.name.dotpay,,Dotpay,Dotpay Payments.
-enum.public_card_error_code.name.gocardless_flow_completed,,Your Direct Debit mandate is cancelled. Please change the payment method and set it up again.,Your Direct Debit mandate is cancelled. Please change the payment method and set it up again.
-enum.line_item_base.type.name.plan_prorated_charge,,Plan Prorated Charge,Plan Prorated Charge
-enum.public_card_error_code.name.expired_card,,Your card is expired. Please update your card.,Your card is expired. Please update your card.
-enum.subscription_base.state.name.in_trial,,In Trial,The subscription is in trial.
-enum.payment_method_base.type.name.wechat_pay,,WeChat Pay,WeChat Pay Payments
-enum.invoice_base.status.name.paid,,Paid,Indicates a paid invoice.
-enum.public_card_error_code.name.gw_result_unknown,,An error occured while processing your card. Please contact support.,An error occured while processing your card. Please contact support.
-enum.payment_method_base.type.name.giropay,,giropay,giropay Payments.
-enum.credit_card_base.status.name.valid,,Valid,A valid and active credit card
-enum.credit_note_base.status.name.adjusted,,Adjusted,When the Credit Note has been adjusted against an invoice.
-enum.transaction_failure_reason.name.billing_aggrement_issue,,Billing Agreement issue,Billing Agreement issue
-enum.public_card_error_code.name.amz_general_err,,Encountered a problem while using your amazon account. Please try again or change the payment method.,Encountered a problem while using your amazon account. Please try again or change the payment method.
-enum.transaction_base.payment_method.name.ideal,,IDEAL,IDEAL
-enum.public_card_error_code.name.card_type_not_supported,,Your card type is not supported. Please try another card.,Your card type is not supported. Please try another card.
-enum.pricing_model.name.stairstep,,Stairstep,A quantity-based pricing scheme. The item is charged a fixed price based on the tier that the total quantity falls in.
-enum.pricing_model.name.flat_fee,,Flat Fee,A fixed price that is not quantity-based.
-enum.invoice_base.status.name.upcoming,,Upcoming,Current open invoice containing the charges & adjustments for the upcoming term.
-enum.bank_account_base.account_holder_type.name.not_applicable,,Not Applicable,"Not applicable for card, paypal, amazon and offline payments"
-enum.transaction_base.payment_method.name.google_pay,,Google Pay,Google Pay
-enum.line_item_base.type.name.round_off,,Round off,Round off
-enum.credit_note_base.reason_code.name.order_cancellation,,Order Cancellation,Order Cancellation
-enum.subscription_base.state.name.paused,,Paused,"The subscription is <a href=""https://www.chargebee.com/docs/2.0/pause-subscription.html"" target=""_blank"">paused</a>. The subscription will not renew while in this state."
-enum.invoice_customization_base.tax_reg_no_label.name.gst_reg_no,,GST Reg  #,GST Reg  #
-enum.tax_reg_number_base.label.name.pst,,PST Reg #,PST Reg #
-enum.line_item_base.type.name.final_credit_correction,,Final Credit Correction,Final Credit Correction
-enum.invoice_customization_base.invoice_title.name.tax_invoice,,TAX INVOICE,TAX INVOICE
-enum.transaction_base.payment_method.name.card,,Card,Card
-enum.transaction_base.payment_method.name.cash,,Cash,Cash
-enum.bank_account_base.account_holder_type.name.company,,Company,Company
-enum.credit_card_base.status.name.expired,,Expired,An expired card
-enum.credit_card_base.funding_type.name.not_known,,Not known,An unknown card.
-enum.payment_method_base.type.name.sofort,,Sofort,Sofort Payments.
-enum.invoice_base.status.name.empty,,Empty,Empty
-enum.pricing_model.name.per_unit,,Per Unit,A fixed price per unit quantity.
-enum.invoice_customization_base.tax_reg_no_label.name.abn,,ABN,ABN
-enum.line_item_base.type.name.non_recurring_charge,,Non Recurring Charge,Non Recurring Charge
-enum.transaction_base.payment_method.name.direct_debit,,Direct Debit,Direct Debit
-enum.credit_card_base.card_type.name.diners_club,,Diners Club,A Diner's Club card.
-enum.quote_base.status.name.declined,,Declined,Declined.
-enum.tax_reg_number_base.label.name.tax_reg_no,,"Tax Reg # ","Tax Reg # "
-enum.invoice_customization_base.cn_title.name.refund,,REFUND,REFUND
-enum.item_price_base.period_unit.name.year,,Year,Year
-enum.invoice_base.status.name.voided,,Voided,Indicates a voided invoice.
-enum.payment_method_base.type.name.generic,,Generic,Generic Payment Method.
-enum.quote_base.status.name.accepted,,Accepted,Accepted.
-enum.transaction_base.payment_method.name.unionpay,,Unionpay,Unionpay
-enum.public_card_error_code.name.cvv_error,,Security Code validation failed for your card. Please update the CVV and try again.,Security Code validation failed for your card. Please update the CVV and try again.
-enum.bank_account_base.account_type.name.business_checking,,Business Checking,Business Checking Account
-enum.quote_base.status.name.rejected,,Rejected,Rejected.
-enum.plan_base.period_unit.name.day,,Day,Charge based on day(s)
-enum.transaction_failure_reason.name.avs_issue,,Address validation failure,Address validation failure
-enum.payment_method_base.type.name.google_pay,,Google Pay,Google Pay Payments.
-enum.transaction_failure_reason.name.temporary_processing_issue,,Temporary processing issue,Temporary processing issue
-enum.credit_note_base.reason_code.name.subscription_pause,,Subscription Pause,This reason will be automatically set to credit notes created during pause/resume subscription operation.
-enum.invoice_base.status.name.not_paid,,Not Paid,Indicates the payment is not made and all attempts to collect is failed.
-enum.payment_method_base.type.name.alipay,,Alipay,Alipay Payments.
-enum.transaction_failure_reason.name.time_out,,Time out,Time out
-enum.invoice_customization_base.tax_reg_no_label.name.tax_reg_no,,"Tax Reg # ","Tax Reg # "
-enum.invoice_customization_base.invoice_title.name.invoice,,INVOICE,INVOICE
-enum.payment_method_base.type.name.unionpay,,Unionpay,UnionPay Payments.
-enum.credit_card_base.status.name.pending_verification,,Pending Verification,The payment method need's to be verified. Added for Stripe ACH
-enum.invoice_base.status.name.to_collect,,Collecting,Collecting
-enum.transaction_base.payment_method.name.check,,Check,Check
-enum.public_card_error_code.name.card_declined,,Your card was declined.,Your card was declined.
-enum.transaction_base.payment_method.name.chargeback,,Chargeback,"Only applicable for a transaction of <code><a href=""transactions#transaction_type"">type</a></code> = <code>refund</code>. This value is set by Chargebee when an automated <a href=""https://www.chargebee.com/docs/chargeback.html#chargeback-process"" rel=""noopener noreferrer"" target=""_blank"">chargeback</a> occurs. You can also set this explicitly when <a href=""transactions#record_an_offline_refund"">recording a refund</a>."
+enum.line_item_base.type.name.coupon_credit,Kupona kredīts,Coupon Credit,Coupon Credit
+enum.public_card_error_code.name.amz_account_suspended,"Izmantojot Amazon kontu, radās problēma. Lūdzu, izvēlieties citu maksājuma veidu.",Encountered a problem while using your amazon account. Please select a different payment method.,Encountered a problem while using your amazon account. Please select a different payment method.
+enum.public_card_error_code.name.prepaid_card_err,Priekšapmaksas kartes netiek atbalstītas.,Prepaid cards are not supported.,Prepaid cards are not supported.
+enum.tax_reg_number_base.label.name.gstin,GSTIN,GSTIN,GSTIN
+enum.payment_method_base.type.name.card,Karte,Card,Card based payment including credit cards and debit cards. Details about the card can be obtained from the card resource.
+enum.transaction_base.payment_method.name.sofort,Sofort,Sofort,Sofort
+enum.item_price_base.trial_period_unit.name.month,Mēnesis,Month,Month
+enum.public_card_error_code.name.payapl_ec_token_expired_invalid,Jūsu PayPal sesija ir beigusies. Lūdzu mēģiniet vēlreiz.,Your PayPal session has expired. Please try again.,Your PayPal session has expired. Please try again.
+enum.line_item_base.type.name.addon_item_price,Addon preces cena,Addon Item Price,Addon Item Price
+enum.quote_base.status.name.approved,Apstiprināts,Approved,Approved.
+enum.subscription_base.state.name.non_renewing,Neatjaunojas,Non Renewing,The subscription will be canceled at the end of the current term.
+enum.public_card_error_code.name.amz_agreement_declined,"Jūsu atlasītais maksājuma veids Amazon tika noraidīts. Lūdzu, atjauniniet to un mēģiniet vēlreiz.",Your selected payment method in amazon was declined. Please update it and try again.,Your selected payment method in amazon was declined. Please update it and try again.
+enum.transaction_failure_reason.name.card_barred,Zaudēta / slēgta / bloķēta karte,Lost / Closed / Blocked Card,Lost / Closed / Blocked Card
+enum.credit_card_base.card_type.name.american_express,Amerikāņu ekspresis,American Express,An American Express card.
+enum.line_item_base.type.name.fractional_correction,Daļēja korekcija,Fractional Correction,Fractional Correction
+enum.credit_card_base.funding_type.name.credit,Kredīts,Credit,A credit card.
+enum.contract_term_base.action_at_term_end.name.evergreen,"Līgums beidzas, abonements turpina atjaunoties","Contract ends, subscription continues to renew",Contract term completes and the subscription renews.
+enum.credit_card_base.card_type.name.mastercard,MasterCard,MasterCard,A MasterCard.
+enum.bank_account_base.account_holder_type.name.individual,Individuāls,Individual,Individual
+enum.bank_account_base.account_type.name.checking,Pārbauda,Checking,Checking Account
+enum.invoice_customization_base.cn_title.name.credit_note,KREDĪTA PIEZĪME,CREDIT NOTE,CREDIT NOTE
+enum.transaction_base.payment_method.name.bancontact,Bancontact,Bancontact,Bancontact
+enum.credit_card_base.card_type.name.other,Cits,Other,Card belonging to types other than those listed above.
+enum.credit_note_base.reason_code.name.write_off,Norakstīt,Write Off,"This reason will be set automatically for the Credit Notes created during invoice <a target=""_blank"" href=""https://www.chargebee.com/docs/invoice-operations.html#write-off"">Write Off</a> operation."
+enum.credit_note_base.reason_code.name.fraudulent,KRĀPŠANA,FRAUDULENT,FRAUDULENT
+enum.credit_note_base.reason_code.name.service_unsatisfactory,Pakalpojums nav apmierinošs,Service Unsatisfactory,Service Unsatisfactory
+enum.transaction_failure_reason.name.fraud,Krāpšanas karte,Fraud card,Fraud card
+enum.quote_setting_base.quote_title.name.proforma_invoice,PROFORMA RĒĶINS,PROFORMA INVOICE,PROFORMA INVOICE
+enum.item_price_base.trial_period_unit.name.day,Diena,Day,Day
+enum.credit_card_base.funding_type.name.debit,Debets,Debit,A debit card.
+enum.pricing_model.name.tiered,Daudzpakāpju,Tiered,The per unit price is based on the tier that the total quantity falls in.
+enum.credit_card_base.card_type.name.not_applicable,Nav piemērojams,Not Applicable,Used for offline entries in transactions. Not applicable for cards
+enum.transaction_failure_reason.name.card_expired,Kartes derīguma termiņš ir beidzies,Card Expired,Card Expired
+enum.item_price_base.period_unit.name.month,Mēnesis,Month,Month
+enum.line_item_base.type.name.credit_adjustments,Kredīta korekcijas,Credit Adjustments,Credit Adjustments
+enum.transaction_failure_reason.name.contact_details_required,Nederīga kontaktinformācija,Invalid Contact details,Invalid Contact details
+enum.credit_note_base.reason_code.name.product_unsatisfactory,Produkts nav apmierinošs,Product Unsatisfactory,Product Unsatisfactory
+enum.transaction_base.payment_method.name.paypal_express_checkout,Paypal Express kase,Paypal Express Checkout,Paypal Express Checkout
+enum.credit_note_base.status.name.voided,Anulēts,Voided,When the Credit Note has been cancelled.
+enum.subscription_base.state.name.active,Aktīvs,Active,The subscription is active and will be charged for automatically based on the items in it.
+enum.plan_base.trial_period_unit.name.day,Diena,Day,In days
+enum.credit_card_base.card_type.name.visa,Visa,Visa,A Visa card.
+enum.contract_term_base.action_at_term_end.name.renew_once,Anulē nākamā līguma termiņa beigās,Cancels at end of next contract term,"Used when you want to renew the contract term just once. Does the following: <li>Contract term completes and a new contract term is started for the number of billing cycles specified in <a href=""subscriptions#create_subscription_for_customer_contract_term_billing_cycle_on_renewal""><code>contract_billing_cycle_on_renewal</code></a>.</li><li>The <code>action_at_term_end</code> for the new contract term is set to <code>cancel</code>.</li></ul>"
+enum.transaction_failure_reason.name.invalid_payment_method,Nederīgs maksājuma veids,Invalid Payment Method,Invalid Payment Method
+enum.credit_note_base.status.name.refund_due,Atmaksas termiņš,Refund Due,"When the credits are yet to be used, or have been partially used."
+enum.line_item_base.type.name.non_recurring_addon_charge,Vienreizēja papildu maksa,Non Recurring Addon Charge,Non Recurring Addon Charge
+enum.bank_account_base.account_type.name.unknown,Nezināms,Unknown,Bank Account Type is not set at the gateway
+enum.credit_card_base.card_type.name.jcb,JCB,JCB,A JCB card.
+enum.transaction_base.payment_method.name.other,Cits,Other,Payment Methods other than the above types
+enum.payment_method_base.type.name.direct_debit,Tiešais debets,Direct Debit,Represents bank account for which the direct debit or ACH agreement/mandate is created.
+enum.public_card_error_code.name.gw_timeout,"Maksājumu sistēma neatbildēja laikā. Lūdzu, mēģiniet pēc kāda laika.",The payment system did not respond in time. Please try after some time.,The payment system did not respond in time. Please try after some time.
+enum.credit_card_base.status.name.invalid,Nederīgs,Invalid,The billing agreement cannot be used. It might become valid again either automatically or due to  customer action.
+enum.subscription_base.state.name.cancelled,Atcelts,Cancelled,The subscription has been canceled and is no longer in service.
+enum.quote_base.status.name.converting,Konvertēšana,Converting,Converting
+enum.credit_note_base.reason_code.name.subscription_change,Abonēšanas maiņa,Subscription Change,"This reason will be set automatically for Credit Notes created during Change Subscription operation when <a target=""_blank"" href=""https://www.chargebee.com/docs/proration.html"">proration</a> is enabled"
+enum.quote_setting_base.quote_title.name.quote,CITĀTS,QUOTE,QUOTE
+enum.credit_note_base.reason_code.name.waiver,Atteikšanās,Waiver,Waiver
+enum.line_item_base.type.name.tax,Nodoklis,Tax,Tax
+enum.transaction_base.payment_method.name.apple_pay,Apple Pay,Apple Pay,Apple Pay
+enum.invoice_base.status.name.payment_due,Maksājuma termiņš,Payment Due,Indicates the payment is not yet collected and is being retried as per retry settings.
+enum.payment_method_base.type.name.sepa_credit,SEPA kredīts,SEPA Credit,SEPA Credit Transfer.
+enum.payment_method_base.type.name.ach_credit,ACH kredīts,ACH Credit,ACH Credit Transfer.
+enum.line_item_base.type.name.plan_setup_charge,Plāna iestatīšanas maksa,Plan Setup Charge,Plan Setup Charge
+enum.transaction_failure_reason.name.cvv_issue,CVV jautājums,CVV issue,CVV issue
+enum.item_price_base.period_unit.name.week,Nedēļa,Week,Week
+enum.transaction_base.payment_method.name.wechat_pay,WeChat Pay,WeChat Pay,WeChat Pay
+enum.line_item_base.type.name.charge_item_price,Maksa par preces cenu,Charge Item Price,Charge Item Price
+enum.line_item_base.type.name.charge,Uzlādējiet,Charge,Charge
+enum.public_card_error_code.name.gw_server_error,"Apstrādājot jūsu karti, radās kļūda. Lūdzu, sazinieties ar atbalsta dienestu.",An error occured while processing your card. Please contact support.,An error occured while processing your card. Please contact support.
+enum.line_item_base.type.name.addon_charge,Addon Charge,Addon Charge,Addon Charge
+enum.quote_base.status.name.invoiced,Rēķins,Invoiced,Invoiced
+enum.transaction_base.payment_method.name.bank_transfer,Bankas pārskaitījums,Bank Transfer,Bank Transfer
+enum.public_card_error_code.name.gw_invalid_configuration,"Apstrādājot jūsu karti, radās kļūda. Lūdzu, sazinieties ar atbalsta dienestu.",An error occured while processing your card. Please contact support.,An error occured while processing your card. Please contact support.
+enum.credit_note_base.reason_code.name.subscription_cancellation,Abonementa atcelšana,Subscription Cancellation,This reason will be set automatically for Credit Notes created during cancel subscription operation
+enum.transaction_base.payment_method.name.amazon_payments,Amazon Payments,Amazon Payments,Amazon Payments
+enum.invoice_customization_base.tax_reg_no_label.name.vat_reg_no,PVN reģistrācijas numurs,VAT Reg # ,VAT Reg # 
+enum.line_item_base.type.name.plan_item_price,Plāna preces cena,Plan Item Price,Plan Item Price
+enum.transaction_base.payment_method.name.alipay,Alipay,Alipay,Alipay
+enum.public_card_error_code.name.amz_agreement_rejected,"Nevar izmantot jūsu amazon kontu. Lūdzu, izvēlieties citu maksājuma veidu.",Unable to use your amazon account. Please select a different payment method.,Unable to use your amazon account. Please select a different payment method.
+enum.bank_account_base.account_type.name.savings,Uzkrājumi,Savings,Savings Account
+enum.credit_note_base.reason_code.name.other,Cits,Other,Can be set when none of the above reason codes are applicable
+enum.tax_reg_number_base.label.name.abn,ABN,ABN,ABN
+enum.item_price_base.period_unit.name.day,Diena,Day,Day
+enum.payment_method_base.type.name.ideal,IDEAL,IDEAL,iDEAL Payments.
+enum.credit_card_base.status.name.expiring,Beidzas,Expiring,A card which is expiring in the current month.
+enum.tax_reg_number_base.label.name.vat_reg_no,PVN reģistrācijas numurs,VAT Reg # ,VAT Reg # 
+enum.tax_reg_number_base.label.name.gst_reg_no,GST reģistrācijas numurs,GST Reg  #,GST Reg  #
+enum.credit_note_base.status.name.refunded,Atmaksāts,Refunded,When the entire credits (Credit Note amount) have been used (i.e either allocated to invoices or refunded).
+enum.transaction_base.payment_method.name.ach_credit,ACH kredīts,ACH Credit,ACH Credit
+enum.quote_base.status.name.closed,Slēgts,Closed,Closed
+enum.subscription_base.state.name.future,Nākotne,Future,The subscription is scheduled to start at a future date.
+enum.plan_base.period_unit.name.week,Nedēļa,Week,Charge based on week(s)
+enum.tax_reg_number_base.label.name.vat_no,PVN numurs,VAT #,VAT #
+enum.transaction_base.payment_method.name.sepa_credit,SEPA kredīts,SEPA Credit,SEPA Credit
+enum.public_card_error_code.name.general_err,"Apstrādājot jūsu maksājuma veidu, radās problēma. Lūdzu, pārbaudiet maksājuma veida informāciju.",Problem while processing your payment method. Please verify your payment method details.,Problem while processing your payment method. Please verify your payment method details.
+enum.quote_base.status.name.open,Atvērt,Open,Open
+enum.plan_base.period_unit.name.month,Mēnesis,Month,Charge based on month(s)
+enum.public_card_error_code.name.addr_error,"Neizdevās pārbaudīt jūsu kartes adresi. Lūdzu, atjauniniet adresi un mēģiniet vēlreiz.",Address validation failed for your card. Please update the address and try again.,Address validation failed for your card. Please update the address and try again.
+enum.transaction_failure_reason.name.amount_related,Fonda / Limita emisija,Fund / Limit Issue,Fund / Limit Issue
+enum.payment_method_base.type.name.apple_pay,Apple Pay,Apple Pay,Apple Pay Payments.
+enum.transaction_base.payment_method.name.giropay,giropay,giropay,giropay
+enum.tax_reg_number_base.label.name.qst,QST reģistrācijas numurs,QST Reg #,QST Reg #
+enum.credit_card_base.funding_type.name.not_applicable,Nav piemērojams,Not Applicable,Used for ACH. Not applicable for cards
+enum.credit_card_base.card_type.name.discover,Atklājiet,Discover,A Discover card.
+enum.transaction_base.payment_method.name.dotpay,Dotpay,Dotpay,Dotpay
+enum.pricing_model.name.volume,Skaļums,Volume,There are quantity tiers for which per unit prices are set. Quantities are purchased from successive tiers.
+enum.line_item_base.type.name.plan_charge,Plāna maksa,Plan Charge,Plan Charge
+enum.credit_card_base.funding_type.name.prepaid,Priekšapmaksa,Prepaid,A prepaid card.
+enum.bank_account_base.account_type.name.not_applicable,Nav piemērojams,Not Applicable,"Not applicable for card, paypal, amazon and offline payments"
+enum.credit_note_base.reason_code.name.order_change,Pasūtījuma maiņa,Order Change,Order Change
+enum.plan_base.trial_period_unit.name.month,Mēnesis,Month,In months
+enum.public_card_error_code.name.paypal_ec_agreement_canceled,"Piekļūstot jūsu paypal kontam, radās problēma.",We've encountered a problem while accessing your paypal account.,We've encountered a problem while accessing your paypal account.
+enum.line_item_base.type.name.addon_prorated_charge,Addona proporcionālā maksa,Addon Prorated Charge,Addon Prorated Charge
+enum.line_item_base.type.name.offer_credit,Piedāvājuma kredīts,Offer Credit,Offer Credit
+enum.payment_method_base.type.name.amazon_payments,Amazon Payments,Amazon Payments,Payments made via Amazon Payments.
+enum.tax_reg_number_base.label.name.hst,HST reģistrācijas numurs,HST Reg #,HST Reg #
+enum.payment_method_base.type.name.dotpay,Dotpay,Dotpay,Dotpay Payments.
+enum.public_card_error_code.name.gocardless_flow_completed,"Jūsu tiešā debeta mandāts ir atcelts. Lūdzu, nomainiet maksājuma veidu un iestatiet to vēlreiz.",Your Direct Debit mandate is cancelled. Please change the payment method and set it up again.,Your Direct Debit mandate is cancelled. Please change the payment method and set it up again.
+enum.line_item_base.type.name.plan_prorated_charge,Plānojiet samērīgu maksu,Plan Prorated Charge,Plan Prorated Charge
+enum.public_card_error_code.name.expired_card,"Jūsu kartes derīguma termiņš ir beidzies. Lūdzu, atjauniniet karti.",Your card is expired. Please update your card.,Your card is expired. Please update your card.
+enum.subscription_base.state.name.in_trial,Izmēģinājumā,In Trial,The subscription is in trial.
+enum.payment_method_base.type.name.wechat_pay,WeChat Pay,WeChat Pay,WeChat Pay Payments
+enum.invoice_base.status.name.paid,Apmaksāts,Paid,Indicates a paid invoice.
+enum.public_card_error_code.name.gw_result_unknown,"Apstrādājot jūsu karti, radās kļūda. Lūdzu, sazinieties ar atbalsta dienestu.",An error occured while processing your card. Please contact support.,An error occured while processing your card. Please contact support.
+enum.payment_method_base.type.name.giropay,giropay,giropay,giropay Payments.
+enum.credit_card_base.status.name.valid,Derīgs,Valid,A valid and active credit card
+enum.credit_note_base.status.name.adjusted,Pielāgots,Adjusted,When the Credit Note has been adjusted against an invoice.
+enum.transaction_failure_reason.name.billing_aggrement_issue,Norēķinu līguma jautājums,Billing Agreement issue,Billing Agreement issue
+enum.public_card_error_code.name.amz_general_err,"Izmantojot Amazon kontu, radās problēma. Lūdzu, mēģiniet vēlreiz vai mainiet maksājuma veidu.",Encountered a problem while using your amazon account. Please try again or change the payment method.,Encountered a problem while using your amazon account. Please try again or change the payment method.
+enum.transaction_base.payment_method.name.ideal,IDEAL,IDEAL,IDEAL
+enum.public_card_error_code.name.card_type_not_supported,"Jūsu kartes tips netiek atbalstīts. Lūdzu, izmēģiniet citu karti.",Your card type is not supported. Please try another card.,Your card type is not supported. Please try another card.
+enum.pricing_model.name.stairstep,Stairstep,Stairstep,A quantity-based pricing scheme. The item is charged a fixed price based on the tier that the total quantity falls in.
+enum.pricing_model.name.flat_fee,Vienota maksa,Flat Fee,A fixed price that is not quantity-based.
+enum.invoice_base.status.name.upcoming,Gaidāms,Upcoming,Current open invoice containing the charges & adjustments for the upcoming term.
+enum.bank_account_base.account_holder_type.name.not_applicable,Nav piemērojams,Not Applicable,"Not applicable for card, paypal, amazon and offline payments"
+enum.transaction_base.payment_method.name.google_pay,Google Pay,Google Pay,Google Pay
+enum.line_item_base.type.name.round_off,Noapaļot,Round off,Round off
+enum.credit_note_base.reason_code.name.order_cancellation,Pasūtījuma atcelšana,Order Cancellation,Order Cancellation
+enum.subscription_base.state.name.paused,Pārtraukta,Paused,"The subscription is <a href=""https://www.chargebee.com/docs/2.0/pause-subscription.html"" target=""_blank"">paused</a>. The subscription will not renew while in this state."
+enum.invoice_customization_base.tax_reg_no_label.name.gst_reg_no,GST reģistrācijas numurs,GST Reg  #,GST Reg  #
+enum.tax_reg_number_base.label.name.pst,PST reģistrācijas numurs,PST Reg #,PST Reg #
+enum.line_item_base.type.name.final_credit_correction,Galīgā kredīta korekcija,Final Credit Correction,Final Credit Correction
+enum.invoice_customization_base.invoice_title.name.tax_invoice,NODOKĻA RĒĶINS,TAX INVOICE,TAX INVOICE
+enum.transaction_base.payment_method.name.card,Karte,Card,Card
+enum.transaction_base.payment_method.name.cash,Skaidra nauda,Cash,Cash
+enum.bank_account_base.account_holder_type.name.company,Uzņēmums,Company,Company
+enum.credit_card_base.status.name.expired,Beidzies derīguma termiņš,Expired,An expired card
+enum.credit_card_base.funding_type.name.not_known,Nezinams,Not known,An unknown card.
+enum.payment_method_base.type.name.sofort,Sofort,Sofort,Sofort Payments.
+enum.invoice_base.status.name.empty,Tukšs,Empty,Empty
+enum.pricing_model.name.per_unit,Par vienību,Per Unit,A fixed price per unit quantity.
+enum.invoice_customization_base.tax_reg_no_label.name.abn,ABN,ABN,ABN
+enum.line_item_base.type.name.non_recurring_charge,Vienreizēja maksa,Non Recurring Charge,Non Recurring Charge
+enum.transaction_base.payment_method.name.direct_debit,Tiešais debets,Direct Debit,Direct Debit
+enum.credit_card_base.card_type.name.diners_club,Diners Club,Diners Club,A Diner's Club card.
+enum.quote_base.status.name.declined,Noraidīts,Declined,Declined.
+enum.tax_reg_number_base.label.name.tax_reg_no,Nodokļu reģistrācijas numurs,Tax Reg # ,Tax Reg # 
+enum.invoice_customization_base.cn_title.name.refund,ATMAKSA,REFUND,REFUND
+enum.item_price_base.period_unit.name.year,Gads,Year,Year
+enum.invoice_base.status.name.voided,Anulēts,Voided,Indicates a voided invoice.
+enum.payment_method_base.type.name.generic,Vispārējs,Generic,Generic Payment Method.
+enum.quote_base.status.name.accepted,Pieņemts,Accepted,Accepted.
+enum.transaction_base.payment_method.name.unionpay,Unionpay,Unionpay,Unionpay
+enum.public_card_error_code.name.cvv_error,"Jūsu kartes drošības koda pārbaude neizdevās. Lūdzu, atjauniniet CVV un mēģiniet vēlreiz.",Security Code validation failed for your card. Please update the CVV and try again.,Security Code validation failed for your card. Please update the CVV and try again.
+enum.bank_account_base.account_type.name.business_checking,Biznesa pārbaude,Business Checking,Business Checking Account
+enum.quote_base.status.name.rejected,Noraidīts,Rejected,Rejected.
+enum.plan_base.period_unit.name.day,Diena,Day,Charge based on day(s)
+enum.transaction_failure_reason.name.avs_issue,Adreses validācijas kļūme,Address validation failure,Address validation failure
+enum.payment_method_base.type.name.google_pay,Google Pay,Google Pay,Google Pay Payments.
+enum.transaction_failure_reason.name.temporary_processing_issue,Pagaidu apstrādes jautājums,Temporary processing issue,Temporary processing issue
+enum.credit_note_base.reason_code.name.subscription_pause,Abonēšanas pauze,Subscription Pause,This reason will be automatically set to credit notes created during pause/resume subscription operation.
+enum.invoice_base.status.name.not_paid,Nav samaksāts,Not Paid,Indicates the payment is not made and all attempts to collect is failed.
+enum.payment_method_base.type.name.alipay,Alipay,Alipay,Alipay Payments.
+enum.transaction_failure_reason.name.time_out,Pārtraukums,Time out,Time out
+enum.invoice_customization_base.tax_reg_no_label.name.tax_reg_no,Nodokļu reģistrācijas numurs,Tax Reg # ,Tax Reg # 
+enum.invoice_customization_base.invoice_title.name.invoice,RĒĶINS,INVOICE,INVOICE
+enum.payment_method_base.type.name.unionpay,Unionpay,Unionpay,UnionPay Payments.
+enum.credit_card_base.status.name.pending_verification,Gaida pārbaudi,Pending Verification,The payment method need's to be verified. Added for Stripe ACH
+enum.invoice_base.status.name.to_collect,Kolekcionēšana,Collecting,Collecting
+enum.transaction_base.payment_method.name.check,Pārbaudiet,Check,Check
+enum.public_card_error_code.name.card_declined,Jūsu karte tika noraidīta.,Your card was declined.,Your card was declined.
+enum.transaction_base.payment_method.name.chargeback,Atgriešana,Chargeback,"Only applicable for a transaction of <code><a href=""transactions#transaction_type"">type</a></code> = <code>refund</code>. This value is set by Chargebee when an automated <a href=""https://www.chargebee.com/docs/chargeback.html#chargeback-process"" rel=""noopener noreferrer"" target=""_blank"">chargeback</a> occurs. You can also set this explicitly when <a href=""transactions#record_an_offline_refund"">recording a refund</a>."

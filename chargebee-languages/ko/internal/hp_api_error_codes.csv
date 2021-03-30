@@ -1,24 +1,24 @@
 key,value,reference value,description
-not_supported_for_moved_out_resource,,The update operations are not supported as we''ve moved this customer to the site {0},The update operations are not supported as we''ve moved this customer to the site {0}
-api_authentication_param_missing,,"Sorry,authentication failed. The parameter _jsapi_key is not present in request","Sorry,authentication failed. The parameter _jsapi_key is not present in request"
-api.resource_not_found,,{0} resource with identifier {1} does not exist.,{0} resource with identifier {1} does not exist.
-api_resource_not_found,,{0} not found,When resource is not found.
-tos_not_agreed,,Agreeing to the terms is mandatory to complete the checkout.,Agreeing to the terms is mandatory to complete the checkout.
-resource_already_exists,,{0} resource with identifier {1} already exists.,{0} resource with identifier {1} already exists.
-api_authentication_invalid_key,,"Sorry, authentication failed. Invalid api key",Authentication failed due to invalid API key
-api_authentication_wrong_format,,"Sorry,authentication failed.The basic authentication header has invalid format.","Sorry,authentication failed.The basic authentication header has invalid format."
-api_forbidden,,This api is not allowed for this customer,This api is not allowed for this customer
-api.param_not_unique,,{0} resource already present,{0} resource already present
-not_supported_for_customer_with_noncancelled_subs,,The operation is not supported for customers with non-cancelled subscriptions.,The operation is not supported for customers with non-cancelled subscriptions.
-duplicate_entry,,The value already present in {0},The value already present in {0}
-api_disabled,,The site is not enabled,The site is not enabled
-param_not_supported_in_browser,,"Sorry, The parameter is not supported from browser. ","Sorry, The parameter is not supported from browser. "
-referenced_resource_not_found,,"The {0} referenced in parameter {1} is not present ","The {0} referenced in parameter {1} is not present "
-api_authentication_required,,"Sorry,authentication failed. The authorization header for basic authentication not present in request","Sorry,authentication failed. The authorization header for basic authentication not present in request"
-order_management_not_enabled,,"Sorry, Please enable order management site setting to use this API.","Sorry, Please enable order management site setting to use this API."
-api_request_limit_exceeded,,"Sorry, The api request limit has been reached. Please try after {0} min.",Too many API request.
-api_js_lib_request_limit_exceeded,,"Sorry, The js library request limit has been reached. Please try after sometime. ",Too many API request.
-site_merge_invalid_url,,This URL is no longer valid. Please contact us for assistance.,This URL is no longer valid. Please contact us for assistance.
-end_customer_not_supported_for_moved_out_resource,,The update operations are no longer possible for this resource.Please contact us for assistance.,The update operations are no longer possible for this resource.Please contact us for assistance.
-already_scheduled_for_deletion,,"Sorry, but the {0} resource {1} is already scheduled for deletion","Sorry, but the {0} resource {1} is already scheduled for deletion"
-not_supported_for_customer_already_scheduled_for_clear,,The operation is not supported for customers who has been already scheduled for PII clear.,The operation is not supported for customers who has been already scheduled for PII clear.
+not_supported_for_moved_out_resource,이 고객을 {0} 사이트로 이동 했으므로 업데이트 작업이 지원되지 않습니다.,The update operations are not supported as we''ve moved this customer to the site {0},The update operations are not supported as we''ve moved this customer to the site {0}
+api_authentication_param_missing,죄송합니다. 인증에 실패했습니다. _jsapi_key 매개 변수가 요청에 없습니다.,"Sorry,authentication failed. The parameter _jsapi_key is not present in request","Sorry,authentication failed. The parameter _jsapi_key is not present in request"
+api.resource_not_found,식별자가 {1} 인 {0} 리소스가 없습니다.,{0} resource with identifier {1} does not exist.,{0} resource with identifier {1} does not exist.
+api_resource_not_found,{0} 찾을 수 없음,{0} not found,When resource is not found.
+tos_not_agreed,체크 아웃을 완료하려면 약관에 동의해야합니다.,Agreeing to the terms is mandatory to complete the checkout.,Agreeing to the terms is mandatory to complete the checkout.
+resource_already_exists,식별자가 {1} 인 {0} 리소스가 이미 있습니다.,{0} resource with identifier {1} already exists.,{0} resource with identifier {1} already exists.
+api_authentication_invalid_key,죄송합니다. 인증에 실패했습니다. 잘못된 API 키,"Sorry, authentication failed. Invalid api key",Authentication failed due to invalid API key
+api_authentication_wrong_format,죄송합니다. 인증에 실패했습니다. 기본 인증 헤더의 형식이 잘못되었습니다.,"Sorry,authentication failed.The basic authentication header has invalid format.","Sorry,authentication failed.The basic authentication header has invalid format."
+api_forbidden,이 고객에게 허용되지 않는 API입니다.,This api is not allowed for this customer,This api is not allowed for this customer
+api.param_not_unique,{0} 리소스가 이미 있습니다.,{0} resource already present,{0} resource already present
+not_supported_for_customer_with_noncancelled_subs,취소되지 않은 구독 고객에게는 작업이 지원되지 않습니다.,The operation is not supported for customers with non-cancelled subscriptions.,The operation is not supported for customers with non-cancelled subscriptions.
+duplicate_entry,{0}에 이미있는 값,The value already present in {0},The value already present in {0}
+api_disabled,사이트가 활성화되지 않았습니다,The site is not enabled,The site is not enabled
+param_not_supported_in_browser,죄송합니다. 매개 변수는 브라우저에서 지원되지 않습니다.,"Sorry, The parameter is not supported from browser. ","Sorry, The parameter is not supported from browser. "
+referenced_resource_not_found,{1} 매개 변수에 참조 된 {0}이 (가) 없습니다.,The {0} referenced in parameter {1} is not present ,The {0} referenced in parameter {1} is not present 
+api_authentication_required,죄송합니다. 인증에 실패했습니다. 기본 인증에 대한 권한 헤더가 요청에 없습니다.,"Sorry,authentication failed. The authorization header for basic authentication not present in request","Sorry,authentication failed. The authorization header for basic authentication not present in request"
+order_management_not_enabled,죄송합니다.이 API를 사용하려면 주문 관리 사이트 설정을 활성화하십시오.,"Sorry, Please enable order management site setting to use this API.","Sorry, Please enable order management site setting to use this API."
+api_request_limit_exceeded,죄송합니다. API 요청 한도에 도달했습니다. {0} 분 후에 시도해주세요.,"Sorry, The api request limit has been reached. Please try after {0} min.",Too many API request.
+api_js_lib_request_limit_exceeded,죄송합니다. js 라이브러리 요청 제한에 도달했습니다. 잠시 후 시도해주세요.,"Sorry, The js library request limit has been reached. Please try after sometime. ",Too many API request.
+site_merge_invalid_url,이 URL은 더 이상 유효하지 않습니다. 도움이 필요하면 당사에 문의하십시오.,This URL is no longer valid. Please contact us for assistance.,This URL is no longer valid. Please contact us for assistance.
+end_customer_not_supported_for_moved_out_resource,이 리소스에 대한 업데이트 작업은 더 이상 불가능합니다. 도움이 필요하면 당사에 문의하십시오.,The update operations are no longer possible for this resource.Please contact us for assistance.,The update operations are no longer possible for this resource.Please contact us for assistance.
+already_scheduled_for_deletion,죄송합니다. {0} 리소스 {1}은 (는) 이미 삭제 예정입니다.,"Sorry, but the {0} resource {1} is already scheduled for deletion","Sorry, but the {0} resource {1} is already scheduled for deletion"
+not_supported_for_customer_already_scheduled_for_clear,이 작업은 이미 PII 삭제가 예약 된 고객에게는 지원되지 않습니다.,The operation is not supported for customers who has been already scheduled for PII clear.,The operation is not supported for customers who has been already scheduled for PII clear.

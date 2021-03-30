@@ -1,59 +1,59 @@
 key,value,reference value,description
-sort_param_order_invalid,,The specified sort order {0} is invalid,The specified sort order {0} is invalid
-updgrade_api_err_msg,,{0},{0}
-wrong_value,,wrong value,wrong value
-found_card_pattern,,{0},{0}
-upload_error,,Error while uploading file,Error while uploading file
-ILLEGAL_DOMAIN,,{0} domain is not allowed,{0} domain is not allowed
-param_fixed_size_error,,The size should be of {0},The size should be of {0}
-mcp_api_v1_err,,Upgrade to API V2 is needed as MCP is enabled,Upgrade to API V2 is needed as MCP is enabled
-multipart_post,,Cannot set multipart for other than post method,Cannot set multipart for other than post method
-ILLEGAL_DNS,,The domain resolves to internal ip address range which is not allowed.,The domain resolves to internal ip address range which is not allowed.
-param_not_supported,,{0},{0}
-mustache_not_allowed,,mustache tags are not allowed,mustache tags are not allowed
-param_value_lesser_error,,It should be atleast {0},It should be atleast {0}
-param_exceeded_error,,It should not be more than {0},It should not be more than {0}
-not_an_image,,Uploaded file should be an image.,Uploaded file should be an image.
-UNKNOWN_HOST,,"Unable to resolve {0} domain ","Unable to resolve {0} domain "
-EMPTY_SCHEME,,URL should start with http:// or https:// protocol,URL should start with http:// or https:// protocol
-validate.mul_sub_entry,,The customer {0} already has a subscription.,The customer {0} already has a subscription.
-file_size_limit_exceeded,,Upload file size cannot exceed {0},Upload file size cannot exceed {0}
-invalid_range,,first value {0} should not be more than second value {1},first value {0} should not be more than second value {1}
-timestamp_future_only,,Unix timestamp should be in future,Unix timestamp should be in future
-param_wrong_value,,Value {0} specified for this param is incorrect,The returned parameter has incorrect value
-timestamp_past_only,,Unix timestamp should be in past,Unix timestamp should be in past
-param_lesser_error,,It should be atleast {0},It should be atleast {0}
-param_invalid,,The value {0} is invalid,The value {0} is invalid
-should_be_valid_date,,wrong date format,wrong date format
-UNSUPPORTED_SCHEME,,{0} is not supported. Only http and https are supported,{0} is not supported. Only http and https are supported
-image_scrambled,,Uploaded image is scrambled.,Uploaded image is scrambled.
-charge_not_more_than_zero,,Amount to charge should be more than zero,Amount to charge should be more than zero
-param_cannot_exceed,,{0},{0}
-param_should_not_be_blank,,cannot be blank,cannot be blank
-not_in_allowed_values,,not in allowed values,not in allowed values
-size_limit_exceeded,,{0} should not be more than {1} characters,{0} should not be more than {1} characters
-email_cannot_be_empty,,Email field cannot be empty,Email field cannot be empty
-email_not_in_allowed_size_range,,Email id size should not be more than {0},Email id size should not be more than {0}
-param_size_exceeded_error,,The size should not be more than {0},The size should not be more than {0}
-param_should_be_blank,,should be blank,should be blank
-param_required,,cannot be blank,The parameter is not sent or is empty. Incase you are getting the  parameter's value from the user then it is better to do validation  for mandatory fields on your end rather than passing it to ChargeBee and then handling the error.
-resource_not_unique,,{0} resource already exists,{0} resource already exists
-duplicate_addon_entry,,Duplicate addon entry is not allowed.,Duplicate addon entry is not allowed.
-filter_param_operator_invalid,,The specified filter operator {0} is invalid,The specified filter operator {0} is invalid
-ILLEGAL_DOMAIN_SUFFIX,,{0} domain suffix is not allowed,{0} domain suffix is not allowed
-param_invalid_msg,,{0},{0}
-validate.param_not_unique,,The value {0} is already present.,The value {0} is already present.
-UNSUPPORTED_PORT,," Only [443, 80, 8443, 8080, 9001] ports are allowed"," Only [443, 80, 8443, 8080, 9001] ports are allowed"
-timestamp_future_only_or_zero,,Unix timestamp should be in future or zero to indicate immediate,Unix timestamp should be in future or zero to indicate immediate
-params_required,,{0},Parameters for the resource is required.
-wrong_format_pattern,,Should be in {0} format,Should be in {0} format
-param_size_lesser_error,,The size should be atleast {0},The size should be atleast {0}
-currency_mismatched,,{0},{0}
-ip_address_not_supported,,No support for Ip address,No support for Ip address
-should_be_valid_input,,should be a valid input,should be a valid input
-no_change_for_i18n,,Pack is empty,Pack is empty
-NO_EMPTY_SCHEME,,"Provide the domain without the protocol (http, https)","Provide the domain without the protocol (http, https)"
-wrong_format,,wrong format,wrong format
-emoji_chars_not_allowed,,The value {0} is invalid,The value {0} is invalid
-amount_overflow,,Amount that is being processed {0},Amount that is being processed {0}
-param_should_not_be_sent,,{0},The parameter should not be sent. Should occur only during development phase.
+sort_param_order_invalid,지정된 정렬 순서 {0}이 (가) 잘못되었습니다.,The specified sort order {0} is invalid,The specified sort order {0} is invalid
+updgrade_api_err_msg,{0},{0},{0}
+wrong_value,잘못된 가치,wrong value,wrong value
+found_card_pattern,{0},{0},{0}
+upload_error,파일 업로드 중 오류,Error while uploading file,Error while uploading file
+ILLEGAL_DOMAIN,{0} 도메인은 허용되지 않습니다.,{0} domain is not allowed,{0} domain is not allowed
+param_fixed_size_error,크기는 {0}이어야합니다.,The size should be of {0},The size should be of {0}
+mcp_api_v1_err,MCP를 사용하려면 API 버전 2로 업그레이드해야합니다.,Upgrade to API V2 is needed as MCP is enabled,Upgrade to API V2 is needed as MCP is enabled
+multipart_post,게시 방법 이외의 경우 멀티 파트를 설정할 수 없습니다.,Cannot set multipart for other than post method,Cannot set multipart for other than post method
+ILLEGAL_DNS,도메인이 허용되지 않는 internalIPaddress 범위로 확인됩니다.,The domain resolves to internal ip address range which is not allowed.,The domain resolves to internal ip address range which is not allowed.
+param_not_supported,{0},{0},{0}
+mustache_not_allowed,콧수염 태그는 허용되지 않습니다.,mustache tags are not allowed,mustache tags are not allowed
+param_value_lesser_error,{0} 이상이어야합니다.,It should be atleast {0},It should be atleast {0}
+param_exceeded_error,{0} 이하 여야합니다.,It should not be more than {0},It should not be more than {0}
+not_an_image,업로드 된 파일은 이미지 여야합니다.,Uploaded file should be an image.,Uploaded file should be an image.
+UNKNOWN_HOST,{0} 도메인을 확인할 수 없습니다.,Unable to resolve {0} domain ,Unable to resolve {0} domain 
+EMPTY_SCHEME,URL은 http : // 또는 https : // 프로토콜로 시작해야합니다.,URL should start with http:// or https:// protocol,URL should start with http:// or https:// protocol
+validate.mul_sub_entry,{0} 고객은 이미 구독 중입니다.,The customer {0} already has a subscription.,The customer {0} already has a subscription.
+file_size_limit_exceeded,업로드 파일 크기는 {0}을 (를) 초과 할 수 없습니다.,Upload file size cannot exceed {0},Upload file size cannot exceed {0}
+invalid_range,첫 번째 값 {0}은 두 번째 값 {1}보다 클 수 없습니다.,first value {0} should not be more than second value {1},first value {0} should not be more than second value {1}
+timestamp_future_only,Unix 타임 스탬프는 미래 여야합니다.,Unix timestamp should be in future,Unix timestamp should be in future
+param_wrong_value,이 매개 변수에 지정된 {0} 값이 올바르지 않습니다.,Value {0} specified for this param is incorrect,The returned parameter has incorrect value
+timestamp_past_only,Unix 타임 스탬프는 과거 여야합니다.,Unix timestamp should be in past,Unix timestamp should be in past
+param_lesser_error,{0} 이상이어야합니다.,It should be atleast {0},It should be atleast {0}
+param_invalid,{0} 값이 잘못되었습니다.,The value {0} is invalid,The value {0} is invalid
+should_be_valid_date,잘못된 날짜 형식,wrong date format,wrong date format
+UNSUPPORTED_SCHEME,{0}은 (는) 지원되지 않습니다. http 및 https 만 지원됩니다.,{0} is not supported. Only http and https are supported,{0} is not supported. Only http and https are supported
+image_scrambled,업로드 된 이미지가 스크램블됩니다.,Uploaded image is scrambled.,Uploaded image is scrambled.
+charge_not_more_than_zero,청구 금액은 0보다 커야합니다.,Amount to charge should be more than zero,Amount to charge should be more than zero
+param_cannot_exceed,{0},{0},{0}
+param_should_not_be_blank,비워 둘 수 없습니다,cannot be blank,cannot be blank
+not_in_allowed_values,허용되지 않는 값,not in allowed values,not in allowed values
+size_limit_exceeded,{0}은 (는) {1} 자 이하 여야합니다.,{0} should not be more than {1} characters,{0} should not be more than {1} characters
+email_cannot_be_empty,이메일 입력란은 비워 둘 수 없습니다.,Email field cannot be empty,Email field cannot be empty
+email_not_in_allowed_size_range,이메일 ID 크기는 {0} 이하 여야합니다.,Email id size should not be more than {0},Email id size should not be more than {0}
+param_size_exceeded_error,크기는 {0} 이하 여야합니다.,The size should not be more than {0},The size should not be more than {0}
+param_should_be_blank,공백이어야합니다,should be blank,should be blank
+param_required,비워 둘 수 없습니다,cannot be blank,The parameter is not sent or is empty. Incase you are getting the  parameter's value from the user then it is better to do validation  for mandatory fields on your end rather than passing it to ChargeBee and then handling the error.
+resource_not_unique,{0} 리소스가 이미 있습니다.,{0} resource already exists,{0} resource already exists
+duplicate_addon_entry,중복 된 애드온 항목은 허용되지 않습니다.,Duplicate addon entry is not allowed.,Duplicate addon entry is not allowed.
+filter_param_operator_invalid,지정된 필터 연산자 {0}이 (가) 잘못되었습니다.,The specified filter operator {0} is invalid,The specified filter operator {0} is invalid
+ILLEGAL_DOMAIN_SUFFIX,{0} 도메인 접미사는 허용되지 않습니다.,{0} domain suffix is not allowed,{0} domain suffix is not allowed
+param_invalid_msg,{0},{0},{0}
+validate.param_not_unique,{0} 값이 이미 있습니다.,The value {0} is already present.,The value {0} is already present.
+UNSUPPORTED_PORT," [443, 80, 8443, 8080, 9001] 포트만 허용됩니다."," Only [443, 80, 8443, 8080, 9001] ports are allowed"," Only [443, 80, 8443, 8080, 9001] ports are allowed"
+timestamp_future_only_or_zero,Unix 타임 스탬프는 미래이거나 0이어야 즉시 표시됩니다.,Unix timestamp should be in future or zero to indicate immediate,Unix timestamp should be in future or zero to indicate immediate
+params_required,{0},{0},Parameters for the resource is required.
+wrong_format_pattern,{0} 형식이어야합니다.,Should be in {0} format,Should be in {0} format
+param_size_lesser_error,크기는 {0} 이상이어야합니다.,The size should be atleast {0},The size should be atleast {0}
+currency_mismatched,{0},{0},{0}
+ip_address_not_supported,IPaddress를 지원하지 않습니다.,No support for Ip address,No support for Ip address
+should_be_valid_input,유효한 입력이어야합니다.,should be a valid input,should be a valid input
+no_change_for_i18n,팩이 비어 있습니다,Pack is empty,Pack is empty
+NO_EMPTY_SCHEME,"프로토콜없이 도메인 제공 (http, https)","Provide the domain without the protocol (http, https)","Provide the domain without the protocol (http, https)"
+wrong_format,잘못된 형식,wrong format,wrong format
+emoji_chars_not_allowed,{0} 값이 잘못되었습니다.,The value {0} is invalid,The value {0} is invalid
+amount_overflow,처리중인 금액 {0},Amount that is being processed {0},Amount that is being processed {0}
+param_should_not_be_sent,{0},{0},The parameter should not be sent. Should occur only during development phase.

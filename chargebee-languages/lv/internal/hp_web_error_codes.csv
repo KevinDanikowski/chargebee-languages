@@ -1,54 +1,54 @@
 key,value,reference value,description
-page_url_length_exceed,,"Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
-should_be_unauth,,"Sorry, you must be logged out of current session to view this page","Sorry, you must be logged out of current session to view this page"
-web.param_not_unique,,Hold up! You have subscribed already.,Hold up! You have subscribed already.
-bad_request_need_refresh,,"Sorry, the request contains data that are not formatted properly","Sorry, the request contains data that are not formatted properly"
-operation_not_supported,,{0},{0}
-not_authorized_post,,"Sorry, you don''t have the permission to do this action","Sorry, you don''t have the permission to do this action"
-limit_exceeds,,"Sorry, the allowed limit for {0} is {1}.","Sorry, the allowed limit for {0} is {1}."
-user_already_exists,,email already exists,email already exists
-hosted_page_null,,The order URL is invalid. Please check the URL and try again.,The order URL is invalid. Please check the URL and try again.
-hp_resource_not_found,,This URL is no longer valid.,This URL is no longer valid.
-update_card_succeeded,,Your credit card has been already updated successfully.,Your credit card has been already updated successfully.
-should_be_auth,,"Sorry, you must be logged in to view this page","Sorry, you must be logged in to view this page"
-hosted_page_canceled,,This order has been canceled. Please try again.,This order has been canceled. Please try again.
-lock_timeout,,"Sorry, a temporary error occured. Please retry","Sorry, a temporary error occured. Please retry"
-service_unavailable,,Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes,Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes
-cannot_be_empty_or_null,,Key value cannot be empty or null,Key value cannot be empty or null
-update_card_cancelled,,This URL is no longer valid.,This URL is no longer valid.
-suffix_not_allowed,,"""{0}"" suffix is not allowed","""{0}"" suffix is not allowed"
-currency_error,,Unable fetch currency info,Unable fetch currency info
-not_authorized_get,,"Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
-hosted_page_expired,,Your order URL has expired. Please try again.,Your order URL has expired. Please try again.
-session_timeout,,You are logged out of the portal. Please login again.,You are logged out of the portal. Please login again.
-hosted_page_succeeded,,Your order has already been submitted successfully.,Your order has already been submitted successfully.
-not_ajax_request,,A temporary error occurred. Try again,A temporary error occurred. Try again
-web.mul_sub_entry,,Hold up! You have subscribed already,Hold up! You have subscribed already
-resource_not_found,,"Sorry, we couldn''t find that resource","Sorry, we couldn''t find that resource"
-size_exceeds,,"Sorry, uploaded file size cannot exceed {0}","Sorry, uploaded file size cannot exceed {0}"
-bad_request,,"Sorry,the URL or the some of the parameters are not valid","Sorry,the URL or the some of the parameters are not valid"
-record_not_found,,{0} with {1} {2} is not present.,{0} with {1} {2} is not present.
-bad_data,,"Sorry, some of the parameters are missing or not formatted properly","Sorry, some of the parameters are missing or not formatted properly"
-communication_failure,,"Sorry, Unable to communicate with {0}. Please retry after some time","Sorry, Unable to communicate with {0}. Please retry after some time"
-site_already_exists,,site already exists,site already exists
-invalid_state,,{0},{0}
-db_lock_error,,Unable to lock the operation,Unable to lock the operation
-invalid_request_refresh_browser,,Your request is not valid. Please refresh the browser and try again.,Your request is not valid. Please refresh the browser and try again.
-round_off_not_supported,,Rounding off of invoice amount is not supported for zero-decimal currencies,Rounding off of invoice amount is not supported for zero-decimal currencies
-update_card_null,,The URL entered to update your credit card is invalid. Please check the URL and try again.,The URL entered to update your credit card is invalid. Please check the URL and try again.
-hosted_page_failed,,An error occurred during processing. Please try again later.,An error occurred during processing. Please try again later.
-not_authorized_ip,,"Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
-code_not_compatible,,Sorry something went wrong. Please retry after some time,Sorry something went wrong. Please retry after some time
-content_type_is_not_application_json,,"Sorry, the request''s content type ({0}) is wrong. It must be application/json.","Sorry, the request''s content type ({0}) is wrong. It must be application/json."
-web.invalid_credential,,Please check the submitted credentials.,Please check the submitted credentials.
-update_card_expired,,"Your requested URL has expired. Please try again. ","Your requested URL has expired. Please try again. "
-tos_not_selected,,Agreeing to the terms is mandatory to complete the checkout.,Agreeing to the terms is mandatory to complete the checkout.
-connection_time_out,,"Sorry, unable to complete the operation due to db communication failure. Please try after some time","Sorry, unable to complete the operation due to db communication failure. Please try after some time"
-request_charset_error,,"Sorry, the request encoding should be utf-8. It is {0}","Sorry, the request encoding should be utf-8. It is {0}"
-csrf_tok_invalid,,The csrf token (used for security) is invalid. Please refresh the browser and try again.,The csrf token (used for security) is invalid. Please refresh the browser and try again.
-hosted_page_error,,{0},{0}
-update_card_failed,,There was an error processing your credit card information. Please try again later.,There was an error processing your credit card information. Please try again later.
-site_not_provided,,"Sorry, you need to provide your site as a subdomain to access this URL","Sorry, you need to provide your site as a subdomain to access this URL"
-configuration_failure,,{0},{0}
-page_not_found,,"Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
-content_type_wrong,,"Sorry, the request''s content type is wrong","Sorry, the request''s content type is wrong"
+page_url_length_exceed,Diemžēl mēs nevarējām atrast šo lapu,"Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
+should_be_unauth,"Atvainojiet, lai apskatītu šo lapu, jums ir jāpiesakās no pašreizējās sesijas","Sorry, you must be logged out of current session to view this page","Sorry, you must be logged out of current session to view this page"
+web.param_not_unique,Aizturēt! Jūs jau esat abonējis.,Hold up! You have subscribed already.,Hold up! You have subscribed already.
+bad_request_need_refresh,"Diemžēl pieprasījumā ir dati, kas nav pareizi formatēti","Sorry, the request contains data that are not formatted properly","Sorry, the request contains data that are not formatted properly"
+operation_not_supported,{0},{0},{0}
+not_authorized_post,Diemžēl jums nav atļaujas veikt šo darbību,"Sorry, you don''t have the permission to do this action","Sorry, you don''t have the permission to do this action"
+limit_exceeds,Diemžēl atļautais ierobežojums domēnam {0} ir {1}.,"Sorry, the allowed limit for {0} is {1}.","Sorry, the allowed limit for {0} is {1}."
+user_already_exists,ēpasta adrese jau pastāv,email already exists,email already exists
+hosted_page_null,"Pasūtījuma URL nav derīgs. Lūdzu, pārbaudiet URL un mēģiniet vēlreiz.",The order URL is invalid. Please check the URL and try again.,The order URL is invalid. Please check the URL and try again.
+hp_resource_not_found,Šis URL vairs nav derīgs.,This URL is no longer valid.,This URL is no longer valid.
+update_card_succeeded,Jūsu kredītkarte jau ir veiksmīgi atjaunināta.,Your credit card has been already updated successfully.,Your credit card has been already updated successfully.
+should_be_auth,"Diemžēl jums ir jāpiesakās, lai skatītu šo lapu","Sorry, you must be logged in to view this page","Sorry, you must be logged in to view this page"
+hosted_page_canceled,Šis pasūtījums ir atcelts. Lūdzu mēģiniet vēlreiz.,This order has been canceled. Please try again.,This order has been canceled. Please try again.
+lock_timeout,"Diemžēl radās īslaicīga kļūda. Lūdzu, mēģiniet vēlreiz","Sorry, a temporary error occured. Please retry","Sorry, a temporary error occured. Please retry"
+service_unavailable,"Diemžēl šo darbību nevar veikt lielas slodzes dēļ. Lūdzu, mēģiniet vēlreiz pēc dažām minūtēm",Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes,Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes
+cannot_be_empty_or_null,Atslēgas vērtība nevar būt tukša vai nulle,Key value cannot be empty or null,Key value cannot be empty or null
+update_card_cancelled,Šis URL vairs nav derīgs.,This URL is no longer valid.,This URL is no longer valid.
+suffix_not_allowed,“{0}” sufikss nav atļauts,"""{0}"" suffix is not allowed","""{0}"" suffix is not allowed"
+currency_error,Nevar iegūt valūtas informāciju,Unable fetch currency info,Unable fetch currency info
+not_authorized_get,Diemžēl jums nav atļaujas skatīt šo lapu,"Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
+hosted_page_expired,Jūsu pasūtījuma URL derīguma termiņš ir beidzies. Lūdzu mēģiniet vēlreiz.,Your order URL has expired. Please try again.,Your order URL has expired. Please try again.
+session_timeout,"Jūs esat atteicies no portāla. Lūdzu, piesakieties vēlreiz.",You are logged out of the portal. Please login again.,You are logged out of the portal. Please login again.
+hosted_page_succeeded,Jūsu pasūtījums jau ir veiksmīgi iesniegts.,Your order has already been submitted successfully.,Your order has already been submitted successfully.
+not_ajax_request,Radās īslaicīga kļūda. Mēģini vēlreiz,A temporary error occurred. Try again,A temporary error occurred. Try again
+web.mul_sub_entry,[object Object],Hold up! You have subscribed already,Hold up! You have subscribed already
+resource_not_found,Diemžēl mēs nevarējām atrast šo resursu,"Sorry, we couldn''t find that resource","Sorry, we couldn''t find that resource"
+size_exceeds,Diemžēl augšupielādētā faila lielums nedrīkst pārsniegt {0},"Sorry, uploaded file size cannot exceed {0}","Sorry, uploaded file size cannot exceed {0}"
+bad_request,Diemžēl URL vai daži no parametriem nav derīgi,"Sorry,the URL or the some of the parameters are not valid","Sorry,the URL or the some of the parameters are not valid"
+record_not_found,{0} ar {1} {2} nav.,{0} with {1} {2} is not present.,{0} with {1} {2} is not present.
+bad_data,Diemžēl dažu parametru trūkst vai tie nav pareizi formatēti,"Sorry, some of the parameters are missing or not formatted properly","Sorry, some of the parameters are missing or not formatted properly"
+communication_failure,"Diemžēl nevar sazināties ar lietotāju {0}. Lūdzu, pēc kāda laika mēģiniet vēlreiz","Sorry, Unable to communicate with {0}. Please retry after some time","Sorry, Unable to communicate with {0}. Please retry after some time"
+site_already_exists,vietne jau pastāv,site already exists,site already exists
+invalid_state,{0},{0},{0}
+db_lock_error,Nevar bloķēt darbību,Unable to lock the operation,Unable to lock the operation
+invalid_request_refresh_browser,"Jūsu pieprasījums nav derīgs. Lūdzu, atsvaidziniet pārlūku un mēģiniet vēlreiz.",Your request is not valid. Please refresh the browser and try again.,Your request is not valid. Please refresh the browser and try again.
+round_off_not_supported,Rēķina summas noapaļošana netiek atbalstīta valūtās ar nulli aiz komata,Rounding off of invoice amount is not supported for zero-decimal currencies,Rounding off of invoice amount is not supported for zero-decimal currencies
+update_card_null,"Jūsu kredītkartes atjaunināšanai ievadītais URL nav derīgs. Lūdzu, pārbaudiet URL un mēģiniet vēlreiz.",The URL entered to update your credit card is invalid. Please check the URL and try again.,The URL entered to update your credit card is invalid. Please check the URL and try again.
+hosted_page_failed,"Apstrādes laikā radās kļūda. Lūdzu, pamēģiniet vēlreiz vēlāk.",An error occurred during processing. Please try again later.,An error occurred during processing. Please try again later.
+not_authorized_ip,Diemžēl jums nav atļaujas skatīt šo lapu,"Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
+code_not_compatible,"Piedod, kaut kas nogāja greizi. Lūdzu, pēc kāda laika mēģiniet vēlreiz",Sorry something went wrong. Please retry after some time,Sorry something went wrong. Please retry after some time
+content_type_is_not_application_json,Diemžēl pieprasījuma satura tips ({0}) ir nepareizs. Tam jābūt pieteikumam / json.,"Sorry, the request''s content type ({0}) is wrong. It must be application/json.","Sorry, the request''s content type ({0}) is wrong. It must be application/json."
+web.invalid_credential,"Lūdzu, pārbaudiet iesniegtos akreditācijas datus.",Please check the submitted credentials.,Please check the submitted credentials.
+update_card_expired,Jūsu pieprasītā URL derīguma termiņš ir beidzies. Lūdzu mēģiniet vēlreiz.,Your requested URL has expired. Please try again. ,Your requested URL has expired. Please try again. 
+tos_not_selected,"Lai pabeigtu norēķināšanos, ir jāpiekrīt noteikumiem.",Agreeing to the terms is mandatory to complete the checkout.,Agreeing to the terms is mandatory to complete the checkout.
+connection_time_out,"Diemžēl nevar pabeigt darbību db sakaru kļūmes dēļ. Lūdzu, mēģiniet pēc kāda laika","Sorry, unable to complete the operation due to db communication failure. Please try after some time","Sorry, unable to complete the operation due to db communication failure. Please try after some time"
+request_charset_error,Diemžēl pieprasījuma kodējumam ir jābūt UTF-8. Tas ir {0},"Sorry, the request encoding should be utf-8. It is {0}","Sorry, the request encoding should be utf-8. It is {0}"
+csrf_tok_invalid,"CSRF marķieris (izmantots drošībai) nav derīgs. Lūdzu, atsvaidziniet pārlūku un mēģiniet vēlreiz.",The csrf token (used for security) is invalid. Please refresh the browser and try again.,The csrf token (used for security) is invalid. Please refresh the browser and try again.
+hosted_page_error,{0},{0},{0}
+update_card_failed,"Apstrādājot jūsu kredītkartes informāciju, radās kļūda. Lūdzu, pamēģiniet vēlreiz vēlāk.",There was an error processing your credit card information. Please try again later.,There was an error processing your credit card information. Please try again later.
+site_not_provided,"Diemžēl jums ir jānorāda vietne kā apakšdomēns, lai piekļūtu šim URL","Sorry, you need to provide your site as a subdomain to access this URL","Sorry, you need to provide your site as a subdomain to access this URL"
+configuration_failure,{0},{0},{0}
+page_not_found,Diemžēl mēs nevarējām atrast šo lapu,"Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
+content_type_wrong,Diemžēl pieprasījuma satura tips ir nepareizs,"Sorry, the request''s content type is wrong","Sorry, the request''s content type is wrong"

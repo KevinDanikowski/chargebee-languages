@@ -1,21 +1,21 @@
 key,value,reference value,description
-not_supported_for_moving_out_resource,,Sorry this operation is not possible now. Please try again after some time or contact us for assistance.,Sorry this operation is not possible now. Please try again after some time or contact us for assistance.
-login_mismatch_error,,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
-recaptcha_verification_failed,,Recaptcha verification failed. Try again,Recaptcha verification failed. Try again
-password_too_short,,Your password must have atleast 8 characters,Your password must have atleast 8 characters
-invalid_url,,Oops! This URL appears to be either expired or invalid.,Oops! This URL appears to be either expired or invalid.
-portal_access_disabled_for,,Customer portal access is disabled.,Customer portal access is disabled.
-invalid_return_cancel_url,,Oops! The return or cancel URL is invalid.,Oops! The return or cancel URL is invalid.
-portal_access_disabled_for_api,,Customer portal access via API is disabled.,Customer portal access via API is disabled.
-login_site_mismatch_error,,"Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service.","Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service."
-same_password_error,,New password should not be the current password,New password should not be the current password
-"subscription_canceled ",,This is a cancelled subscription. Please contact us for more details.,This is a cancelled subscription. Please contact us for more details.
-portal_session_status_not_supported,,Activating a portal session is not supported for this request.,Activating a portal session is not supported for this request.
-password_not_valid,,"Your password must have atleast one uppercase character, lowercase character and a number","Your password must have atleast one uppercase character, lowercase character and a number"
-setup_not_completed,,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.
-invalid_otp_error,,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
-email_not_verified,,You have not verified your email. Use the ''Sign Up'' option to get started.,You have not verified your email. Use the ''Sign Up'' option to get started.
-otp_mismatch_error,,Invalid one time password,Invalid one time password
-account_locked_error,,Your account has been locked due to security reasons.,Your account has been locked due to security reasons.
-portal_token_invalid,,Portal token has been expired or invalid.,Portal token has been expired or invalid.
-email_should_not_be_sent,,Email address is not allowed to be updated.,Email address is not allowed to be updated.
+not_supported_for_moving_out_resource,"Diemžēl šī darbība tagad nav iespējama. Lūdzu, pēc kāda laika mēģiniet vēlreiz vai sazinieties ar mums, lai saņemtu palīdzību.",Sorry this operation is not possible now. Please try again after some time or contact us for assistance.,Sorry this operation is not possible now. Please try again after some time or contact us for assistance.
+login_mismatch_error,Pieteikšanās neizdevās nepareizu akreditācijas datu dēļ.,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
+recaptcha_verification_failed,Recaptcha pārbaude neizdevās. Mēģini vēlreiz,Recaptcha verification failed. Try again,Recaptcha verification failed. Try again
+password_too_short,Jūsu parolē jābūt vismaz 8 rakstzīmēm,Your password must have atleast 8 characters,Your password must have atleast 8 characters
+invalid_url,"Hmm ... Šķiet, ka šī URL derīguma termiņš ir beidzies vai tas nav derīgs.",Oops! This URL appears to be either expired or invalid.,Oops! This URL appears to be either expired or invalid.
+portal_access_disabled_for,Piekļuve klientu portālam ir atspējota.,Customer portal access is disabled.,Customer portal access is disabled.
+invalid_return_cancel_url,Hmm ... Atgriešanas vai atcelšanas URL nav derīgs.,Oops! The return or cancel URL is invalid.,Oops! The return or cancel URL is invalid.
+portal_access_disabled_for_api,"Piekļuve klientu portālam, izmantojot API, ir atspējota.",Customer portal access via API is disabled.,Customer portal access via API is disabled.
+login_site_mismatch_error,"Lūdzu, pārbaudiet e-pasta adresi. Šī reģistrēšanās darbojas tikai tad, ja jūs jau esat šī pakalpojuma abonents.","Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service.","Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service."
+same_password_error,Jaunajai parolei nevajadzētu būt pašreizējai parolei,New password should not be the current password,New password should not be the current password
+subscription_canceled ,"Šis ir anulēts abonements. Lūdzu, sazinieties ar mums, lai iegūtu sīkāku informāciju.",This is a cancelled subscription. Please contact us for more details.,This is a cancelled subscription. Please contact us for more details.
+portal_session_status_not_supported,Šim pieprasījumam netiek atbalstīta portāla sesijas aktivizēšana.,Activating a portal session is not supported for this request.,Activating a portal session is not supported for this request.
+password_not_valid,"Jūsu parolē jābūt vismaz vienam lielajam burtam, mazajiem burtiem un skaitlim","Your password must have atleast one uppercase character, lowercase character and a number","Your password must have atleast one uppercase character, lowercase character and a number"
+setup_not_completed,"Jūs vēl neesat iestatījis klientu portāla kontu. Lai sāktu, izmantojiet opciju Reģistrēties.",You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.
+invalid_otp_error,Pieteikšanās neizdevās nepareizu akreditācijas datu dēļ.,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
+email_not_verified,"Jūs neesat verificējis savu e-pastu. Lai sāktu, izmantojiet opciju Reģistrēties.",You have not verified your email. Use the ''Sign Up'' option to get started.,You have not verified your email. Use the ''Sign Up'' option to get started.
+otp_mismatch_error,Nederīga vienreizēja parole,Invalid one time password,Invalid one time password
+account_locked_error,Jūsu konts drošības apsvērumu dēļ ir bloķēts.,Your account has been locked due to security reasons.,Your account has been locked due to security reasons.
+portal_token_invalid,Portāla pilnvaras derīguma termiņš ir beidzies vai tā nav derīga.,Portal token has been expired or invalid.,Portal token has been expired or invalid.
+email_should_not_be_sent,E-pasta adresi nav atļauts atjaunināt.,Email address is not allowed to be updated.,Email address is not allowed to be updated.

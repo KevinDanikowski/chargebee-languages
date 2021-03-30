@@ -1,6 +1,6 @@
 key,value,reference value,description
-ach-payment-info.title,,Bank Account Information,Bank Account Information
-resume-scheduled-info.title,,Remove Scheduled Resumption,Remove Scheduled Resumption
-pause-scheduled-info.title,,Remove Scheduled Pause,Remove Scheduled Pause
-discount.title,,Discount,Discount
-card.title,,Card Information,Card Information
+ach-payment-info.title,은행 계좌 정보,Bank Account Information,Bank Account Information
+resume-scheduled-info.title,예약 된 재개 제거,Remove Scheduled Resumption,Remove Scheduled Resumption
+pause-scheduled-info.title,예약 된 일시 중지 제거,Remove Scheduled Pause,Remove Scheduled Pause
+discount.title,할인,Discount,Discount
+card.title,카드 정보,Card Information,Card Information

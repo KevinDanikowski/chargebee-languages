@@ -1,54 +1,54 @@
 key,value,reference value,description
-page_url_length_exceed,,"Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
-should_be_unauth,,"Sorry, you must be logged out of current session to view this page","Sorry, you must be logged out of current session to view this page"
-web.param_not_unique,,Hold up! You have subscribed already.,Hold up! You have subscribed already.
-bad_request_need_refresh,,"Sorry, the request contains data that are not formatted properly","Sorry, the request contains data that are not formatted properly"
-operation_not_supported,,{0},{0}
-not_authorized_post,,"Sorry, you don''t have the permission to do this action","Sorry, you don''t have the permission to do this action"
-limit_exceeds,,"Sorry, the allowed limit for {0} is {1}.","Sorry, the allowed limit for {0} is {1}."
-user_already_exists,,email already exists,email already exists
-hosted_page_null,,The order URL is invalid. Please check the URL and try again.,The order URL is invalid. Please check the URL and try again.
-hp_resource_not_found,,This URL is no longer valid.,This URL is no longer valid.
-update_card_succeeded,,Your credit card has been already updated successfully.,Your credit card has been already updated successfully.
-should_be_auth,,"Sorry, you must be logged in to view this page","Sorry, you must be logged in to view this page"
-hosted_page_canceled,,This order has been canceled. Please try again.,This order has been canceled. Please try again.
-lock_timeout,,"Sorry, a temporary error occured. Please retry","Sorry, a temporary error occured. Please retry"
-service_unavailable,,Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes,Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes
-cannot_be_empty_or_null,,Key value cannot be empty or null,Key value cannot be empty or null
-update_card_cancelled,,This URL is no longer valid.,This URL is no longer valid.
-suffix_not_allowed,,"""{0}"" suffix is not allowed","""{0}"" suffix is not allowed"
-currency_error,,Unable fetch currency info,Unable fetch currency info
-not_authorized_get,,"Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
-hosted_page_expired,,Your order URL has expired. Please try again.,Your order URL has expired. Please try again.
-session_timeout,,You are logged out of the portal. Please login again.,You are logged out of the portal. Please login again.
-hosted_page_succeeded,,Your order has already been submitted successfully.,Your order has already been submitted successfully.
-not_ajax_request,,A temporary error occurred. Try again,A temporary error occurred. Try again
-web.mul_sub_entry,,Hold up! You have subscribed already,Hold up! You have subscribed already
-resource_not_found,,"Sorry, we couldn''t find that resource","Sorry, we couldn''t find that resource"
-size_exceeds,,"Sorry, uploaded file size cannot exceed {0}","Sorry, uploaded file size cannot exceed {0}"
-bad_request,,"Sorry,the URL or the some of the parameters are not valid","Sorry,the URL or the some of the parameters are not valid"
-record_not_found,,{0} with {1} {2} is not present.,{0} with {1} {2} is not present.
-bad_data,,"Sorry, some of the parameters are missing or not formatted properly","Sorry, some of the parameters are missing or not formatted properly"
-communication_failure,,"Sorry, Unable to communicate with {0}. Please retry after some time","Sorry, Unable to communicate with {0}. Please retry after some time"
-site_already_exists,,site already exists,site already exists
-invalid_state,,{0},{0}
-db_lock_error,,Unable to lock the operation,Unable to lock the operation
-invalid_request_refresh_browser,,Your request is not valid. Please refresh the browser and try again.,Your request is not valid. Please refresh the browser and try again.
-round_off_not_supported,,Rounding off of invoice amount is not supported for zero-decimal currencies,Rounding off of invoice amount is not supported for zero-decimal currencies
-update_card_null,,The URL entered to update your credit card is invalid. Please check the URL and try again.,The URL entered to update your credit card is invalid. Please check the URL and try again.
-hosted_page_failed,,An error occurred during processing. Please try again later.,An error occurred during processing. Please try again later.
-not_authorized_ip,,"Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
-code_not_compatible,,Sorry something went wrong. Please retry after some time,Sorry something went wrong. Please retry after some time
-content_type_is_not_application_json,,"Sorry, the request''s content type ({0}) is wrong. It must be application/json.","Sorry, the request''s content type ({0}) is wrong. It must be application/json."
-web.invalid_credential,,Please check the submitted credentials.,Please check the submitted credentials.
-update_card_expired,,"Your requested URL has expired. Please try again. ","Your requested URL has expired. Please try again. "
-tos_not_selected,,Agreeing to the terms is mandatory to complete the checkout.,Agreeing to the terms is mandatory to complete the checkout.
-connection_time_out,,"Sorry, unable to complete the operation due to db communication failure. Please try after some time","Sorry, unable to complete the operation due to db communication failure. Please try after some time"
-request_charset_error,,"Sorry, the request encoding should be utf-8. It is {0}","Sorry, the request encoding should be utf-8. It is {0}"
-csrf_tok_invalid,,The csrf token (used for security) is invalid. Please refresh the browser and try again.,The csrf token (used for security) is invalid. Please refresh the browser and try again.
-hosted_page_error,,{0},{0}
-update_card_failed,,There was an error processing your credit card information. Please try again later.,There was an error processing your credit card information. Please try again later.
-site_not_provided,,"Sorry, you need to provide your site as a subdomain to access this URL","Sorry, you need to provide your site as a subdomain to access this URL"
-configuration_failure,,{0},{0}
-page_not_found,,"Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
-content_type_wrong,,"Sorry, the request''s content type is wrong","Sorry, the request''s content type is wrong"
+page_url_length_exceed,申し訳ありませんが、そのページが見つかりませんでした,"Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
+should_be_unauth,申し訳ありませんが、このページを表示するには、現在のセッションからログアウトする必要があります,"Sorry, you must be logged out of current session to view this page","Sorry, you must be logged out of current session to view this page"
+web.param_not_unique,持続する！すでに購読しています。,Hold up! You have subscribed already.,Hold up! You have subscribed already.
+bad_request_need_refresh,申し訳ありませんが、リクエストには適切にフォーマットされていないデータが含まれています,"Sorry, the request contains data that are not formatted properly","Sorry, the request contains data that are not formatted properly"
+operation_not_supported,{0},{0},{0}
+not_authorized_post,申し訳ありませんが、このアクションを実行する権限がありません,"Sorry, you don''t have the permission to do this action","Sorry, you don''t have the permission to do this action"
+limit_exceeds,申し訳ありませんが、{0}の許容制限は{1}です。,"Sorry, the allowed limit for {0} is {1}.","Sorry, the allowed limit for {0} is {1}."
+user_already_exists,メールは既に存在します,email already exists,email already exists
+hosted_page_null,注文URLが無効です。 URLを確認して、もう一度お試しください。,The order URL is invalid. Please check the URL and try again.,The order URL is invalid. Please check the URL and try again.
+hp_resource_not_found,このURLは無効になりました。,This URL is no longer valid.,This URL is no longer valid.
+update_card_succeeded,クレジットカードはすでに正常に更新されています。,Your credit card has been already updated successfully.,Your credit card has been already updated successfully.
+should_be_auth,申し訳ありませんが、このページを表示するにはログインする必要があります,"Sorry, you must be logged in to view this page","Sorry, you must be logged in to view this page"
+hosted_page_canceled,この注文はキャンセルされました。もう一度やり直してください。,This order has been canceled. Please try again.,This order has been canceled. Please try again.
+lock_timeout,申し訳ありませんが、一時的なエラーが発生しました。再試行してください,"Sorry, a temporary error occured. Please retry","Sorry, a temporary error occured. Please retry"
+service_unavailable,負荷が大きいため、この操作は実行できません。数分後に再試行してください,Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes,Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes
+cannot_be_empty_or_null,キー値を空またはnullにすることはできません,Key value cannot be empty or null,Key value cannot be empty or null
+update_card_cancelled,このURLは無効になりました。,This URL is no longer valid.,This URL is no longer valid.
+suffix_not_allowed,"""{0}""サフィックスは許可されていません","""{0}"" suffix is not allowed","""{0}"" suffix is not allowed"
+currency_error,通貨情報を取得できません,Unable fetch currency info,Unable fetch currency info
+not_authorized_get,申し訳ありませんが、このページを表示する権限がありません,"Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
+hosted_page_expired,ご注文のURLの有効期限が切れています。もう一度やり直してください。,Your order URL has expired. Please try again.,Your order URL has expired. Please try again.
+session_timeout,ポータルからログアウトしました。もう一度ログインしてください。,You are logged out of the portal. Please login again.,You are logged out of the portal. Please login again.
+hosted_page_succeeded,ご注文はすでに正常に送信されています。,Your order has already been submitted successfully.,Your order has already been submitted successfully.
+not_ajax_request,一時的なエラーが発生しました。再試行,A temporary error occurred. Try again,A temporary error occurred. Try again
+web.mul_sub_entry,[object Object],Hold up! You have subscribed already,Hold up! You have subscribed already
+resource_not_found,申し訳ありませんが、そのリソースが見つかりませんでした,"Sorry, we couldn''t find that resource","Sorry, we couldn''t find that resource"
+size_exceeds,申し訳ありませんが、アップロードされたファイルのサイズは{0}を超えることはできません,"Sorry, uploaded file size cannot exceed {0}","Sorry, uploaded file size cannot exceed {0}"
+bad_request,申し訳ありませんが、URLまたは一部のパラメータが無効です,"Sorry,the URL or the some of the parameters are not valid","Sorry,the URL or the some of the parameters are not valid"
+record_not_found,{0}と{1} {2}は存在しません。,{0} with {1} {2} is not present.,{0} with {1} {2} is not present.
+bad_data,申し訳ありませんが、一部のパラメータが欠落しているか、正しくフォーマットされていません,"Sorry, some of the parameters are missing or not formatted properly","Sorry, some of the parameters are missing or not formatted properly"
+communication_failure,申し訳ありませんが、{0}と通信できません。しばらくしてから再試行してください,"Sorry, Unable to communicate with {0}. Please retry after some time","Sorry, Unable to communicate with {0}. Please retry after some time"
+site_already_exists,サイトはすでに存在します,site already exists,site already exists
+invalid_state,{0},{0},{0}
+db_lock_error,操作をロックできません,Unable to lock the operation,Unable to lock the operation
+invalid_request_refresh_browser,リクエストは無効です。ブラウザを更新して、もう一度お試しください。,Your request is not valid. Please refresh the browser and try again.,Your request is not valid. Please refresh the browser and try again.
+round_off_not_supported,請求額の四捨五入は、小数ゼロの通貨ではサポートされていません,Rounding off of invoice amount is not supported for zero-decimal currencies,Rounding off of invoice amount is not supported for zero-decimal currencies
+update_card_null,クレジットカードを更新するために入力したURLが無効です。 URLを確認して、もう一度お試しください。,The URL entered to update your credit card is invalid. Please check the URL and try again.,The URL entered to update your credit card is invalid. Please check the URL and try again.
+hosted_page_failed,処理中にエラーが発生しました。後でもう一度やり直してください。,An error occurred during processing. Please try again later.,An error occurred during processing. Please try again later.
+not_authorized_ip,申し訳ありませんが、このページを表示する権限がありません,"Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
+code_not_compatible,申し訳ありませんが、問題が発生しました。しばらくしてから再試行してください,Sorry something went wrong. Please retry after some time,Sorry something went wrong. Please retry after some time
+content_type_is_not_application_json,申し訳ありませんが、リクエストのコンテンツタイプ（{0}）が間違っています。 application / jsonである必要があります。,"Sorry, the request''s content type ({0}) is wrong. It must be application/json.","Sorry, the request''s content type ({0}) is wrong. It must be application/json."
+web.invalid_credential,送信された資格情報を確認してください。,Please check the submitted credentials.,Please check the submitted credentials.
+update_card_expired,リクエストされたURLの有効期限が切れています。もう一度やり直してください。,Your requested URL has expired. Please try again. ,Your requested URL has expired. Please try again. 
+tos_not_selected,チェックアウトを完了するには、条件に同意する必要があります。,Agreeing to the terms is mandatory to complete the checkout.,Agreeing to the terms is mandatory to complete the checkout.
+connection_time_out,申し訳ありませんが、db通信障害のため、操作を完了できません。しばらくしてからお試しください,"Sorry, unable to complete the operation due to db communication failure. Please try after some time","Sorry, unable to complete the operation due to db communication failure. Please try after some time"
+request_charset_error,申し訳ありませんが、リクエストのエンコーディングはUTF-8である必要があります。 {0}です,"Sorry, the request encoding should be utf-8. It is {0}","Sorry, the request encoding should be utf-8. It is {0}"
+csrf_tok_invalid,CSRFトークン（セキュリティに使用）が無効です。ブラウザを更新して、もう一度お試しください。,The csrf token (used for security) is invalid. Please refresh the browser and try again.,The csrf token (used for security) is invalid. Please refresh the browser and try again.
+hosted_page_error,{0},{0},{0}
+update_card_failed,クレジットカード情報の処理中にエラーが発生しました。後でもう一度やり直してください。,There was an error processing your credit card information. Please try again later.,There was an error processing your credit card information. Please try again later.
+site_not_provided,申し訳ありませんが、このURLにアクセスするには、サイトをサブドメインとして提供する必要があります,"Sorry, you need to provide your site as a subdomain to access this URL","Sorry, you need to provide your site as a subdomain to access this URL"
+configuration_failure,{0},{0},{0}
+page_not_found,申し訳ありませんが、そのページが見つかりませんでした,"Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
+content_type_wrong,申し訳ありませんが、リクエストのコンテンツタイプが間違っています,"Sorry, the request''s content type is wrong","Sorry, the request''s content type is wrong"

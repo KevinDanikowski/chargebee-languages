@@ -1,38 +1,38 @@
 key,value,reference value,description
 hp.portal.mark.backup,バックアップとしてマーク,Mark as Backup,Marking a payment method as Backup
-hp.billing_period.week,％{period}週,%{period} Weeks,2 Weeks
+hp.billing_period.week,%{period}週,%{period} Weeks,2 Weeks
 hp.portal.powered_by,搭載,Powered by,Powered by chargebee
 hp.clientjs.cannot_be_blank,空白にすることはできません,cannot be blank,cannot be blank
 action_error.post,送信中にエラーが発生しました,There were errors while submitting,There were errors while submitting
 hp.change_link,変化する,Change,Change link
-hp.portal.signed_up,％{date}にサインアップしました,Signed up on %{date},Account signed up on 12-03-2016
+hp.portal.signed_up,%{date}にサインアップしました,Signed up on %{date},Account signed up on 12-03-2016
 hp.portal.invoice.showing,表示中,Showing,Showing invoice label
-payment_method.info.card,％{最後の4桁}で終わるカード,card ending with %{last4_digits},card ending with 4111
-payment_method.info.direct_debit,％{bank_name}、％{last4_digits}で終わる口座番号,"%{bank_name}, Account number ending with %{last4_digits}",
+payment_method.info.card,%{最後の4桁}で終わるカード,card ending with %{last4_digits},card ending with 4111
+payment_method.info.direct_debit,%{bank_name}、%{last4_digits}で終わる口座番号,"%{bank_name}, Account number ending with %{last4_digits}",
 hp.portal.chargebee_secure,Chargebeeの安全な支払い,Chargebee Secure Payment,Chargebee Secure Payment - security statement
 hp.portal.payment_method_role.backup,バックアップ,Backup,Payment method is tagged as Backup
 hp.gocardless.desc,口座振替の設定,Set up Direct Debit,Set up Direct Debit - gateway label
 hp.portal.mark.primary,プライマリとしてマーク,Mark as Primary,Marking a payment method as Primary
-hp.bt_apple_card,％{card_type}カード,%{card_type} card,Visa Card
-hp.apple_card_ending,カードの末尾...％{数字},Card ending ... %{digits},Card Ending .. 4444
+hp.bt_apple_card,%{card_type}カード,%{card_type} card,Visa Card
+hp.apple_card_ending,カードの末尾...%{数字},Card ending ... %{digits},Card Ending .. 4444
 hp.clientjs.successful_card_update,カードの詳細が正常に更新されました。,you have successfully updated your card details.,you have successfully updated your card details.
 hp.amazon.desc,Amazonアカウントの情報を使用して安全に支払います。,Pay securely using the information on your Amazon account.,Pay securely using the information on your Amazon account - one liner for amazon gateway payments
 hp.portal.remove.backup,バックアップを削除する,Remove Backup,Unmarking a payment method as Backup
-hp.card_ending,％{card_type}カードの末尾...％{digits},%{card_type} card ending ... %{digits},Visa Card Ending .. 4444
+hp.card_ending,%{card_type}カードの末尾...%{digits},%{card_type} card ending ... %{digits},Visa Card Ending .. 4444
 hp.clientjs.successful_signup,サービスへのサインアップに成功しました,you have successfully signed up for the service,you have successfully signed up for the service
 apple_pay.label.tax,税金（まだ計算されていません）,TAX (YET TO BE CALCULATED),Label for tax amount
 hp.portal.paypal_redirect,PayPalへのリダイレクト...,Redirecting to PayPal...,Redirecting to PayPal... - info
-hp.order_summary.terms_to_charge,％{no_of_terms}用語の場合,for %{no_of_terms} terms,($100.00 x 3) for 2 terms
+hp.order_summary.terms_to_charge,%{no_of_terms}用語の場合,for %{no_of_terms} terms,($100.00 x 3) for 2 terms
 hp.clientjs.submit_error,送信中にエラーが発生しました,There were errors while submitting,There were errors while submitting
 hp.clientjs.problem_while_processing,フォームの処理中に問題が発生しました。フォームの詳細を確認してください。,Problem while processing your form. Please verify your form details.,Problem while processing your form. Please verify your form details.
 hp.portal.payment_method_role.primary,プライマリ,Primary,Payment method is tagged as Primary
 payment_method.info.paypal_express_checkout,PayPalエクスプレスチェックアウトアカウント,PayPal Express Checkout account,PayPal Express Checkout account
-hp.portal.ach_agree_details1,私（私たち）はここに、％{merchant_name}に、示された金融機関の私の（私たちの）口座から資金を引き落とし、資金を入金することを承認および要求します。私（私たち）は、％{merchant_name}がエラーを修正するために必要なすべてのアクションを実行することを許可します。,"I (We) hereby authorize and request %{merchant_name} to debit funds from my (our) account at the Financial Institution indicated, and credit the funds. I (we) authorize %{merchant_name} to take any and all action required to correct any errors.","I (We) hereby authorize and request Chargebee to debit funds from my (our) account at the Financial Institution indicated, and credit the funds. I (we) authorize Chargebee to take any and all action required to correct any errors."
-hp.portal.ach_agree_details2,下のボタンをクリックすることにより、このACHデビット承認契約で提供した情報が完全で真実であり、上記で選択した目的のために送信されたことを証明します。 ％{merchant_email}または％{merchant_phone}に連絡し​​て、この承認を取り消すことを希望することを％{merchant_name}に通知するまで有効です。,"By clicking the button below, you certify that the information you have given on this ACH Debit Authorization Agreement for Direct Payments is complete, true, and submitted for the purpose selected above. It will remain in effect until I (we) notify %{merchant_name} that I (we) wish to revoke this authorization by contacting %{merchant_email} or %{merchant_phone}.","By clicking the button below, you certify that the information you have given on this ACH Debit Authorization Agreement for Direct Payments is complete, true, and submitted for the purpose selected above.  It will remain in effect until I (we) notify Chargebee that I (we) wish to revoke this authorization by contacting sam@example.com or 9898982345."
+hp.portal.ach_agree_details1,私（私たち）はここに、%{merchant_name}に、示された金融機関の私の（私たちの）口座から資金を引き落とし、資金を入金することを承認および要求します。私（私たち）は、%{merchant_name}がエラーを修正するために必要なすべてのアクションを実行することを許可します。,"I (We) hereby authorize and request %{merchant_name} to debit funds from my (our) account at the Financial Institution indicated, and credit the funds. I (we) authorize %{merchant_name} to take any and all action required to correct any errors.","I (We) hereby authorize and request Chargebee to debit funds from my (our) account at the Financial Institution indicated, and credit the funds. I (we) authorize Chargebee to take any and all action required to correct any errors."
+hp.portal.ach_agree_details2,下のボタンをクリックすることにより、このACHデビット承認契約で提供した情報が完全で真実であり、上記で選択した目的のために送信されたことを証明します。 %{merchant_email}または%{merchant_phone}に連絡し​​て、この承認を取り消すことを希望することを%{merchant_name}に通知するまで有効です。,"By clicking the button below, you certify that the information you have given on this ACH Debit Authorization Agreement for Direct Payments is complete, true, and submitted for the purpose selected above. It will remain in effect until I (we) notify %{merchant_name} that I (we) wish to revoke this authorization by contacting %{merchant_email} or %{merchant_phone}.","By clicking the button below, you certify that the information you have given on this ACH Debit Authorization Agreement for Direct Payments is complete, true, and submitted for the purpose selected above.  It will remain in effect until I (we) notify Chargebee that I (we) wish to revoke this authorization by contacting sam@example.com or 9898982345."
 hp.bank_account.desc,銀行口座,Bank Account,Bank Account label
 hp.portal.date,日付,Date,Date
 hp.gocardless.redirect,口座振替プロバイダーへのリダイレクト...,Redirecting to Direct Debit Provider...,Redirecting to Direct Debit Provider... - info
-hp.billing_period.year,％{period}年,%{period} Years,2 Months
+hp.billing_period.year,%{period}年,%{period} Years,2 Months
 hp.copied,コピー,Copied,Copied URL
 hp.error.undetermined_vat_number,VIESサービスが利用できないため、VAT番号を検証できませんでした。,Could not validate VAT number as VIES service is unavailable.,Could not validate VAT number as VIES service is unavailable.
 apple_pay.label.charges,料金,CHARGES,Label for main line item amount
@@ -44,11 +44,11 @@ hp.error.invalid_vat_number,無効なVAT番号,Invalid VAT Number,Invalid VAT Nu
 hp.portal.account,アカウント,Account,Account user account label
 hp.portal.manage,管理する,Manage,Portal account Manage label
 hp.error.invalid_abn_number,無効なABN,Invalid ABN ,Invalid ABN
-hp.billing_period.month,％{period}か月,%{period} Months,2 Months
+hp.billing_period.month,%{period}か月,%{period} Months,2 Months
 action_error.get,リクエストの処理中にエラーが発生しました,There were errors while processing your request,There were errors while processing your request
 apple_pay.label.discount,割引,DISCOUNTS,Label for discount amount
 hp.update_payment_method.details,お支払い方法の詳細を更新しています...,Updating the payment method details...,Updating the payment method details...
-payment_method.info.direct_debit_no_bank_name,％{last4_digits}で終わる銀行口座番号,bank account number ending with %{last4_digits},
+payment_method.info.direct_debit_no_bank_name,%{last4_digits}で終わる銀行口座番号,bank account number ending with %{last4_digits},
 hp.paypal.desc,より安全で簡単な支払い方法,"The safer, easier way to pay","The safer, easier way to pay - one liner for paypal gateway payments"
 hp.copy,コピー,Copy,Copy URL
 hp.portal.bank_account,銀行口座,bank account,bank account label

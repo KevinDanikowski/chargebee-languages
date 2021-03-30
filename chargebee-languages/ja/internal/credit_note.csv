@@ -9,7 +9,7 @@ credit_note.label.shipped_to,発送先,Shipped To,Label - The customer's shippin
 credit_note.header.label.unit_price,単価,Unit Price,The table heading under which the cost of the product per unit is displayed
 credit_note.label.fractional_correction,分数補正,Fractional Correction,Fractional Correction
 credit_note.label.reason_code,理由コード,Reason Code,Label Reason code. Why the credits were issued
-credit_note.refund_transaction.text,％{amount}は％{date}に返金されました,%{amount} was refunded on %{date},Amount  refunded on a date
+credit_note.refund_transaction.text,%{amount}は%{date}に返金されました,%{amount} was refunded on %{date},Amount  refunded on a date
 credit_note.label.tax.inclusive,包括的,incl. ,short form for inclusive as in tax inclusive
 credit_note.label.date,日付,Date,Label date
 credit_note.label.tax.vat,VAT,VAT,VAT
@@ -26,7 +26,7 @@ credit_note.label.billed_to,に請求,Billed To,Label - The customer's billing a
 credit_note.label.allocations,割り当て,Allocations,Credit note label indicating the allocations
 credit_note.label.amount,量,Amount,Label amount
 credit_note.header.label.amount,量,Amount,Amount label
-credit_note.applied_transaction.text,％{amount}は、％{date}の請求書 '％{invoice_number}'に割り当てられました。,%{amount} was allocated for invoice '%{invoice_number}' at %{date}.,Amount was allocated for invoice #123 at date.
+credit_note.applied_transaction.text,%{amount}は、%{date}の請求書 '%{invoice_number}'に割り当てられました。,%{amount} was allocated for invoice '%{invoice_number}' at %{date}.,Amount was allocated for invoice #123 at date.
 credit_note.label.customer_id,顧客ID,Customer ID,Label customer id
 credit_note.header.label.sub_total,小計,Sub Total,Sub total - Label to indicate the sub total amount
 credit_note.label.tax.tax,税金,Tax,Tax

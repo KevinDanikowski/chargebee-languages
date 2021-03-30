@@ -34,7 +34,7 @@ inapp_checkout.subscription.next,次,Next,Next
 inapp_checkout.invoice.next,次,Next,Next
 inapp_checkout.review.header,注文を完了する,Complete your order,Complete your order
 inapp_checkout.pay_review.header,注文を完了する,Complete your order,Complete your order
-inapp_checkout.review.subscribe_btn.current_charge_present.txt,％{amount}を支払い、サブスクライブする,Pay %{amount} & subscribe,Pay %{amount} & subscribe
+inapp_checkout.review.subscribe_btn.current_charge_present.txt,%{amount}を支払い、サブスクライブする,Pay %{amount} & subscribe,Pay %{amount} & subscribe
 inapp_checkout.review.subscribe_btn.current_charge_zero.txt,申し込む,Subscribe,Subscribe
 inapp_checkout.review.order.header,注文の概要,Order summary,Order summary
 inapp_checkout.review.account.header,アカウント,Account,Account
@@ -85,8 +85,8 @@ inapp_checkout.card.billing_address,請求先住所をカード住所として�
 inapp_checkout.card.shipping_address,配送先住所をカードアドレスとして使用します,Use my shipping address as card address,Use my shipping address as card address
 inapp_checkout.item.breakdown.show,詳細を見る,See Details,See Details
 inapp_checkout.item.breakdown.hide,詳細を非表示,Hide Details,Hide Details
-inapp_checkout.cart.trial.info,％{plan_trial_period}の試用後に課金されます。,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
-inapp_checkout.cart.note.plan.trial,％{plan_trial_period}の試用後に課金されます。,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
+inapp_checkout.cart.trial.info,%{plan_trial_period}の試用後に課金されます。,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
+inapp_checkout.cart.note.plan.trial,%{plan_trial_period}の試用後に課金されます。,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
 inapp_checkout.review.note.plan.trial,,,
 inapp_checkout.payment_method.note.plan.trial,,,
 inapp_checkout.cart.note.plan.no_trial,,,
@@ -97,28 +97,28 @@ inapp_checkout.subscription.note,,,
 inapp_checkout.shipping_address.note,,,
 inapp_checkout.billing_address.note,,,
 inapp_checkout.cart.pay_now.label,今払う,Pay now,Pay now
-inapp_checkout.cart.next_charge.label,％{date}の次の請求,Next charge on %{date},Next charge on %{date}
+inapp_checkout.cart.next_charge.label,%{date}の次の請求,Next charge on %{date},Next charge on %{date}
 inapp_checkout.order_summary.charge_now.label,今すぐ充電可能,Chargeable now,Chargeable now
-inapp_checkout.order_summary.next_charge.label,％{date}の料金,Charges on %{date},Charges on %{date}
+inapp_checkout.order_summary.next_charge.label,%{date}の料金,Charges on %{date},Charges on %{date}
 inapp_checkout.order.edit.link,注文を編集する,Edit order,Edit order
 inapp_checkout.estimate_display_screen.header,ご注文の概要,Your order summary,Your order summary
 inapp_checkout.credits_applied.label,適用されたクレジット,Credits applied,Credits applied
 inapp_checkout.non_rec_addon.tag,一度,ONE-TIME,ONE-TIME
-inapp_checkout.coupon.description,％{amount}クーポンが適用されました,%{amount} coupon applied,%{amount} coupon applied
-inapp_checkout.free_quantity.description,％{units}ユニット無料,%{units} units free,%{units} units free
+inapp_checkout.coupon.description,%{amount}クーポンが適用されました,%{amount} coupon applied,%{amount} coupon applied
+inapp_checkout.free_quantity.description,%{units}ユニット無料,%{units} units free,%{units} units free
 inapp_checkout.referral.title,友達を紹介する,Refer your friends,Refer your friends
-inapp_checkout.referral.cb_reward,友達を紹介すると、最初のサブスクリプションを購入したときに％{referral_credits}が提供されます。,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.
+inapp_checkout.referral.cb_reward,友達を紹介すると、最初のサブスクリプションを購入したときに%{referral_credits}が提供されます。,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.
 inapp_checkout.referral.custom_reward,お友達を紹介してください。彼らが最初のサブスクリプションを購入したときに報酬が支払われます。,Refer your friends and we will reward you when they purchase their first subscription.,Refer your friends and we will reward you when they purchase their first subscription.
-inapp_checkout.referral.friend_discount,あなたの友人は％{referral_friend_discount}割引を受けます。,Your friend will get %{referral_friend_discount} discount.,Your friend will get %{referral_friend_discount} discount.
+inapp_checkout.referral.friend_discount,あなたの友人は%{referral_friend_discount}割引を受けます。,Your friend will get %{referral_friend_discount} discount.,Your friend will get %{referral_friend_discount} discount.
 inapp_checkout.referral.link_label,あなたの紹介リンク,Your referral link,Your referral link
 inapp_checkout.review.threedsWarning.non_trial,3Dセキュア検証のために銀行ページにリダイレクトされる場合があります。,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
 inapp_checkout.review.threedsWarning.trial,トークンの金額が請求される可能性のある3Dセキュア検証のために銀行のページにリダイレクトされる場合があります。これは自動的に全額返金されます。,"You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
-inapp_checkout.3ds.auth.txt,％{organisation_name}がこの支払い方法を保存し、サブスクリプションが関連付けられるたびにこの支払い方法に自動的に請求することを承認します。,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_checkout.3ds.auth.txt,%{organisation_name}がこの支払い方法を保存し、サブスクリプションが関連付けられるたびにこの支払い方法に自動的に請求することを承認します。,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
 inapp_checkout.otp_email.subject,ワンタイムパスワード（OTP）,Your One Time Password (OTP),Your One Time Password (OTP)
 inapp_checkout.otp_email.salutation,こんにちは、,"Hi there,","Hi there,"
-inapp_checkout.otp_email.otp_line,％{otp}はワンタイムパスワードです,%{otp} is your one time password,%{otp} is your one time password
+inapp_checkout.otp_email.otp_line,%{otp}はワンタイムパスワードです,%{otp} is your one time password,%{otp} is your one time password
 inapp_checkout.otp_email.desc,ワンタイムパスワードは、生成されてから5分間有効です。,The one time password is valid for 5 minutes from the time it is generated.,The one time password is valid for 5 minutes from the time it is generated.
-inapp_checkout.otp_sms.body,％{otp}はワンタイムパスワードです。ワンタイムパスワードは、生成されてから5分間有効です。,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.
+inapp_checkout.otp_sms.body,%{otp}はワンタイムパスワードです。ワンタイムパスワードは、生成されてから5分間有効です。,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.
 inapp_checkout.multi_decimal.quantity.error,有効な数量を入力してください,Enter valid quantity,Enter valid quantity
 inapp_checkout.qty,量,Qty,Qty
 inapp_checkout.review.opm.cash.desc,現金でのお支払いが可能です,You can make the payment by cash,You can make the payment by cash
@@ -126,7 +126,7 @@ inapp_checkout.review.opm.check.desc,請求書の一部として支払い転送�
 inapp_checkout.review.opm.bank_transfer.desc,請求書に記載されている銀行口座の詳細に支払いを行うことができます,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
 inapp_checkout.review.opm.ach_credit.desc,請求書に記載されている銀行口座の詳細に支払いを行うことができます,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
 inapp_checkout.review.opm.sepa_credit.desc,請求書に記載されている銀行口座の詳細に支払いを行うことができます,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.pm.consent.txt,私は％{organisation_name}がこの支払い方法を保存し、それに関連する将来の取引に対してこの支払い方法に自動的に請求することを承認します。,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.
+inapp_checkout.pm.consent.txt,私は%{organisation_name}がこの支払い方法を保存し、それに関連する将来の取引に対してこの支払い方法に自動的に請求することを承認します。,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.
 inapp_checkout.pm.never.save.txt,お支払い情報はシステムに保存されません。,Your payment information will not be saved in our system.,Your payment information will not be saved in our system.
 inapp_portal.recommended.addon.tag,推奨,RECOMMENDED,RECOMMENDED
 inapp_portal.home.header,サブスクリプションの管理,Manage Subscriptions,Manage Subscriptions
@@ -173,32 +173,32 @@ inapp_portal.subscription.header.review.submit,サブスクリプションの更
 inapp_portal.subscription.header.choose_pm,このサブスクリプションの支払い方法を選択してください,Choose your payment method for this subscription,Choose your payment method for this subscription
 inapp_portal.subscription.update_sub_pm,更新,Update,Update
 inapp_portal.subscription.cancel.link.txt,サブスクリプションをキャンセルする,Cancel Subscription,Cancel Subscription
-inapp_portal.subscription.next.renewing_estimate.now,比例配分された料金に対して％{amount}が請求されます。,You will be charged %{amount} for prorated charges via,You will be charged %{amount} for prorated charges via
-inapp_portal.subscription.next.renewing_estimate.eot.non_recurring,経由で％{amount}が請求されます,You will be charged %{amount} via,You will be charged %{amount} via
-inapp_portal.subscription.next.renewing_estimate.eot,％{billing_period}ごとに％{amount}が請求されます,You will be charged %{amount} every %{billing_period} via,You will be charged %{amount} every %{billing_period} via
-inapp_portal.subscription.next.renewing_estimate.eot.with_date,次の請求％{amount}は％{date}になります,Your next charge %{amount} will be on %{date} via,Your next charge %{amount} will be on %{date} via
-inapp_portal.subscription.next.credits_created.now,この変更に対する請求は行われず、％{amount}が返金可能なクレジットとして追加されます,You will not be charged for this change and %{amount} will be added as refundable credits,You will not be charged for this change and %{amount} will be added as refundable credits
-inapp_portal.subscription.details.trial.info,トライアルの％{remaining_trial_period}が残っています。試用期間が終了すると、％{plan_name}プランに移動します,"You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan","You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan"
-inapp_portal.subscription.details.cancellation_scheduled.info,サブスクリプションは％{date}にキャンセルされます,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
-inapp_portal.subscription.next.renewing_estimate.now_zero, 利用可能なクレジットから請求される％{amount}。, %{amount} charged from available credits., %{amount} charged from available credits.
-inapp_portal.subscription.details.trial.info_today,トライアルは本日終了し、％{plan_name}プランに移行します,You trial will end today and you’ll be moved to the %{plan_name} plan,You trial will end today and you’ll be moved to the %{plan_name} plan
+inapp_portal.subscription.next.renewing_estimate.now,比例配分された料金に対して%{amount}が請求されます。,You will be charged %{amount} for prorated charges via,You will be charged %{amount} for prorated charges via
+inapp_portal.subscription.next.renewing_estimate.eot.non_recurring,経由で%{amount}が請求されます,You will be charged %{amount} via,You will be charged %{amount} via
+inapp_portal.subscription.next.renewing_estimate.eot,%{billing_period}ごとに%{amount}が請求されます,You will be charged %{amount} every %{billing_period} via,You will be charged %{amount} every %{billing_period} via
+inapp_portal.subscription.next.renewing_estimate.eot.with_date,次の請求%{amount}は%{date}になります,Your next charge %{amount} will be on %{date} via,Your next charge %{amount} will be on %{date} via
+inapp_portal.subscription.next.credits_created.now,この変更に対する請求は行われず、%{amount}が返金可能なクレジットとして追加されます,You will not be charged for this change and %{amount} will be added as refundable credits,You will not be charged for this change and %{amount} will be added as refundable credits
+inapp_portal.subscription.details.trial.info,トライアルの%{remaining_trial_period}が残っています。試用期間が終了すると、%{plan_name}プランに移動します,"You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan","You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan"
+inapp_portal.subscription.details.cancellation_scheduled.info,サブスクリプションは%{date}にキャンセルされます,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
+inapp_portal.subscription.next.renewing_estimate.now_zero, 利用可能なクレジットから請求される%{amount}。, %{amount} charged from available credits., %{amount} charged from available credits.
+inapp_portal.subscription.details.trial.info_today,トライアルは本日終了し、%{plan_name}プランに移行します,You trial will end today and you’ll be moved to the %{plan_name} plan,You trial will end today and you’ll be moved to the %{plan_name} plan
 inapp_portal.subscription.details.active.info,,,
-inapp_portal.subscription.details.non_renewing.info,サブスクリプションは％{date}に終了します,Your subscription will end on %{date},Your subscription will end on %{date}
+inapp_portal.subscription.details.non_renewing.info,サブスクリプションは%{date}に終了します,Your subscription will end on %{date},Your subscription will end on %{date}
 inapp_portal.subscription.details.cancelled.info,キャンセル。サブスクリプションはキャンセルされました。サブスクリプションを再開するには、お問い合わせください,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription
 inapp_portal.subscription.details.paused.info,サブスクリプションは現在一時停止されています。,Your subscription is currently paused.,Your subscription is currently paused.
-inapp_portal.subscription.details.future.info,サブスクリプションは％{date}に開始されます,Your subscription will start on %{date},Your subscription will start on %{date}
+inapp_portal.subscription.details.future.info,サブスクリプションは%{date}に開始されます,Your subscription will start on %{date},Your subscription will start on %{date}
 inapp_portal.subscription.edit.txt,サブスクリプションの編集,Edit Subscription,Edit Subscription
 inapp_portal.choose_change_subscription.header,サブスクリプションの変更,Change subscription,Change subscription
 inapp_portal.subscription.edit.chooser_question,サブスクリプションをいつ変更しますか？,When do you want to change the subscription?,When do you want to change the subscription?
 inapp_portal.subscription.change.immediately.option,すぐに変更,Change immediately,Change immediately
-inapp_portal.subscription.change.eot.option,次の更新時に変更（％{date}）,Change on next renewal(%{date}),Change on next renewal(%{date})
+inapp_portal.subscription.change.eot.option,次の更新時に変更（%{date}）,Change on next renewal(%{date}),Change on next renewal(%{date})
 inapp_portal.subscription.change.specific_date.option,特定の日に変更する,Change on a specific date,Change on a specific date
 inapp_portal.subscription.change.option.submit,サブスクリプションの変更,Change subscription,Change subscription
 inapp_portal.subscription.change.options.proceed,続行します,proceed,proceed
 inapp_portal.subscription.cancel.specific_date.option,特定の日にキャンセルする,Cancel on a specific date,Cancel on a specific date
 inapp_portal.remove_scheduled_changes.txt,スケジュールされた変更を削除する,Remove scheduled changes,Remove scheduled changes
 inapp_portal.subscription.remove_scheduled_cancellation.link_txt,スケジュールされたキャンセルを削除する,Remove scheduled cancellation,Remove scheduled cancellation
-inapp_portal.remove_scheduled_changes.info,これらの変更は、次回の更新からサブスクリプションに適用されます（％{date}）,These changes will be applied to your subscription from next renewal( %{date} ),These changes will be applied to your subscription from next renewal( %{date} )
+inapp_portal.remove_scheduled_changes.info,これらの変更は、次回の更新からサブスクリプションに適用されます（%{date}）,These changes will be applied to your subscription from next renewal( %{date} ),These changes will be applied to your subscription from next renewal( %{date} )
 inapp_portal.payment_method.header.view,お支払い方法の詳細,Payment Method Details,Payment Method Details
 inapp_portal.payment_method.view.remove,お支払い方法を削除する,Remove Payment Method,Remove Payment Method
 inapp_portal.payment_method.view.edit,お支払い方法の編集,Edit Payment Method,Edit Payment Method
@@ -208,20 +208,20 @@ inapp_portal.subscription_cf.header.edit.submit,更新,Update,Update
 inapp_portal.discounts_applied.label,,,
 inapp_portal.items_in_total.custom_label,,,
 inapp_portal.more_items_txt.custom_label,,,
-inapp_portal.home.gift_sub.gifted_by,％{name}から受信,Recieved from %{name},Recieved from %{name}
-inapp_portal.sub_details.gift.gifted_by,％{name}から贈られた,Gifted by %{name},Gifted by %{name}
+inapp_portal.home.gift_sub.gifted_by,%{name}から受信,Recieved from %{name},Recieved from %{name}
+inapp_portal.sub_details.gift.gifted_by,%{name}から贈られた,Gifted by %{name},Gifted by %{name}
 inapp_portal.subscription.cancel.header,サブスクリプションをキャンセルする,Cancel Subscription,Cancel Subscription
 inapp_portal.subscription.cancel.header.submit,キャンセルの確認,Confirm Cancellation,Confirm Cancellation
 inapp_portal.subscription.cancel.when,いつサブスクリプションをキャンセルしますか？,When do you want to cancel the subscription?,When do you want to cancel the subscription?
-inapp_portal.subscription.cancel.eot.option,次の更新時にキャンセル（％{date}）,Cancel on next renewal  (%{date}),Cancel on next renewal  (%{date})
+inapp_portal.subscription.cancel.eot.option,次の更新時にキャンセル（%{date}）,Cancel on next renewal  (%{date}),Cancel on next renewal  (%{date})
 inapp_portal.subscription.cancel.immediately.option,すぐにキャンセル,Cancel Immediately,Cancel Immediately
 inapp_portal.subscription.cancel.immediately.info,サブスクリプションはすぐにキャンセルされます,Your subscription will be canceled immediately,Your subscription will be canceled immediately
-inapp_portal.subscription.cancel.eot.info,サブスクリプションは％{date}にキャンセルされます,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
+inapp_portal.subscription.cancel.eot.info,サブスクリプションは%{date}にキャンセルされます,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
 inapp_portal.subscription.cancel.reason,キャンセルの理由,Reason for cancellation,Reason for cancellation
 inapp_portal.subscription.cancel.feedback,他にお知らせしたいことはありますか？,Is there anything else you would like to let us know?,Is there anything else you would like to let us know?
 inapp_portal.subscription.cancel.reason.option,キャンセル理由を選択してください,Select a cancellation reason,Select a cancellation reason
-inapp_portal.subscription.canceled.reason_code.info,サブスクリプションが「％{reason}」の理由でキャンセルされました,Your subscription was canceled with the reason '%{reason}',Your subscription was canceled with the reason '%{reason}'
-inapp_portal.subscription.sch_cancel.reason_code.info,サブスクリプションは「％{reason}」の理由でキャンセルされます,Your subscription will be canceled with the reason '%{reason}',Your subscription will be canceled with the reason '%{reason}'
+inapp_portal.subscription.canceled.reason_code.info,サブスクリプションが「%{reason}」の理由でキャンセルされました,Your subscription was canceled with the reason '%{reason}',Your subscription was canceled with the reason '%{reason}'
+inapp_portal.subscription.sch_cancel.reason_code.info,サブスクリプションは「%{reason}」の理由でキャンセルされます,Your subscription will be canceled with the reason '%{reason}',Your subscription will be canceled with the reason '%{reason}'
 inapp_portal.scheduled_changes.header,スケジュールされた変更を表示する,View scheduled changes,View scheduled changes
 inapp_portal.scheduled_changes_navigation.header,次回の更新からの変更,Changes from next renewal,Changes from next renewal
 inapp_portal.subscription_preview_navigation.header,サブスクリプションの詳細,Subscription Details,Subscription Details
@@ -233,20 +233,20 @@ inapp_portal.remove_scheduled_pause.confirm_txt,サブスクリプションの�
 inapp_portal.resume_subscription_now.confirm_txt,サブスクリプションはすぐに再開されます。継続する？,Your subscription will resume immediately. Continue?,Your subscription will resume immediately. Continue?
 inapp_portal.resume_now.link,今すぐ再開,Resume now,Resume now
 inapp_portal.remove_scheduled_pause.link,スケジュールされた一時停止を削除する,Remove Scheduled Pause,Remove Scheduled Pause
-inapp_portal.subscription.details.pause_scheduled.info,サブスクリプションは％{date}に一時停止されます,Your subscription will be paused on %{date},Your subscription will be paused on %{date}
-inapp_portal.subscription.details.resume_scheduled.info,サブスクリプションは％{date}に再開されます,Your subscription will resume on %{date},Your subscription will resume on %{date}
+inapp_portal.subscription.details.pause_scheduled.info,サブスクリプションは%{date}に一時停止されます,Your subscription will be paused on %{date},Your subscription will be paused on %{date}
+inapp_portal.subscription.details.resume_scheduled.info,サブスクリプションは%{date}に再開されます,Your subscription will resume on %{date},Your subscription will resume on %{date}
 inapp_portal.subscription.pause.link.txt,サブスクリプションの一時停止,Pause Subscription,Pause Subscription
 inapp_portal.subscription.pause.header,サブスクリプションの一時停止,Pause Subscription,Pause Subscription
 inapp_portal.subscription.pause.submit,サブスクリプションの一時停止,Pause Subscription,Pause Subscription
 inapp_portal.subscription.pause.immediate_indefinite.info,サブスクリプションはすぐに一時停止されます。サブスクリプションの詳細ページからいつでもサブスクリプションを再開できます,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page
-inapp_portal.subscription.pause.immediate_fixed_time.info,サブスクリプションはすぐに一時停止され、％{pause_period_set}日後に再開されます。,"Your subscription will be paused immediately, and will resume after %{pause_period_set} days.","Your subscription will be paused immediately, and will resume after %{pause_period_set} days."
+inapp_portal.subscription.pause.immediate_fixed_time.info,サブスクリプションはすぐに一時停止され、%{pause_period_set}日後に再開されます。,"Your subscription will be paused immediately, and will resume after %{pause_period_set} days.","Your subscription will be paused immediately, and will resume after %{pause_period_set} days."
 inapp_portal.subscription.pause.immediate_options.info,サブスクリプションはすぐに一時停止されます。,Your subscription will be paused immediately.,Your subscription will be paused immediately.
 inapp_portal.subscription.pause.immediate_indefinite.gen,一時停止すると、サブスクリプションは請求されず、更新されません。,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
 inapp_portal.subscription.pause.immediate_fixed_time.gen,一時停止すると、サブスクリプションは請求されず、更新されません。,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
 inapp_portal.subscription.pause.immediate_options.gen,一時停止すると、サブスクリプションは請求されず、更新されません。,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_indefinite.info,サブスクリプションは％{date}に一時停止されます。,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
-inapp_portal.subscription.pause.eot_fixed_time.info,サブスクリプションは％{date}に一時停止され、％{pause_period_set}日後に再開されます。,"Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days.","Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days."
-inapp_portal.subscription.pause.eot_options.info,サブスクリプションは％{date}に一時停止されます。,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
+inapp_portal.subscription.pause.eot_indefinite.info,サブスクリプションは%{date}に一時停止されます。,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
+inapp_portal.subscription.pause.eot_fixed_time.info,サブスクリプションは%{date}に一時停止され、%{pause_period_set}日後に再開されます。,"Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days.","Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days."
+inapp_portal.subscription.pause.eot_options.info,サブスクリプションは%{date}に一時停止されます。,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
 inapp_portal.subscription.pause.eot_indefinite.gen,一時停止すると、サブスクリプションは請求されず、更新されません。,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
 inapp_portal.subscription.pause.eot_fixed_time.gen,一時停止すると、サブスクリプションは請求されず、更新されません。,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
 inapp_portal.subscription.pause.eot_options.gen,一時停止すると、サブスクリプションは請求されず、更新されません。,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
@@ -257,8 +257,8 @@ inapp_portal.subscription.pause.pause_until,まで一時停止します,Pause un
 inapp_portal.payment_method_tag.primary,プライマリ,Primary,Primary
 inapp_portal.payment_method_tag.backup,バックアップ,Backup,Backup
 inapp_portal.payment_method.suggest_backup,一次支払いが失敗した場合、バックアップが便利です。バックアップを設定します。,Backups come handy when your primary payment fails. Set a backup.,Backups come handy when your primary payment fails. Set a backup.
-inapp_portal.card.expiring,％{card_expiry}で有効期限が切れます,Expires on %{card_expiry},Expires on %{card_expiry}
-inapp_portal.card.expired,％{card_expiry}で期限切れ,Expired on %{card_expiry},Expired on %{card_expiry}
+inapp_portal.card.expiring,%{card_expiry}で有効期限が切れます,Expires on %{card_expiry},Expires on %{card_expiry}
+inapp_portal.card.expired,%{card_expiry}で期限切れ,Expired on %{card_expiry},Expired on %{card_expiry}
 inapp_portal.pm.set_role.link,これをプライマリまたはバックアップとして設定します,Set this as primary or backup,Set this as primary or backup
 inapp_portal.pm.set_role.title,この支払い方法を次のように設定します,Set this payment method as,Set this payment method as
 inapp_portal.pm.set_role.header,お支払い方法の設定,Payment Method Settings,Payment Method Settings
@@ -310,14 +310,14 @@ inapp_portal.payment_method.bank_account.btn.enter_local_details,地元の銀行
 inapp_portal.payment_method.bank_account.btn.enter_your_name,あなたの名前を入力してください,Enter your name,Enter your name
 inapp_portal.payment_method.bank_account.btn.enter_company_name,会社名を入力してください,Enter company name,Enter company name
 inapp_portal.payment_method.bank_account.stripe_ach_verify_note,お支払い方法の確認は最大10回試行できます。,You have a maximum of 10 attempts to verify your payment method.,You have a maximum of 10 attempts to verify your payment method.
-inapp_portal.home.gift_bar,才能のある％{number}サブスクリプション,Gifted %{number} subscriptions,Gifted %{number} subscriptions
+inapp_portal.home.gift_bar,才能のある%{number}サブスクリプション,Gifted %{number} subscriptions,Gifted %{number} subscriptions
 inapp_portal.home.gift_header,ギフトサブスクリプション,GIFT SUBSCRIPTIONS,GIFT SUBSCRIPTIONS
-inapp_portal.gift_tag.scheduled,％{name}へのギフトが予定されています,Gift to %{name} scheduled,Gift to %{name} scheduled
-inapp_portal.gift_tag.unclaimed,ギフトはまだ％{name}によって請求されていません,Gift yet to be claimed by %{name},Gift yet to be claimed by %{name}
-inapp_portal.gift_tag.claimed,％{name}に贈られました,Gifted to %{name},Gifted to %{name}
-inapp_portal.gift_tag.canceled,％{name}へのギフトはキャンセルされました,Gift to %{name} has been canceled,Gift to %{name} has been canceled
-inapp_portal.gift_tag.expired,％{name}へのギフトの有効期限が切れています,Gifted to %{name} has been expired,Gifted to %{name} has been expired
-inapp_portal.gift_details_notification.scheduled,ギフトは％{date}にメールで受信者に送信されます,Your gift will be sent to the recipient via email on %{date},Your gift will be sent to the recipient via email on %{date}
+inapp_portal.gift_tag.scheduled,%{name}へのギフトが予定されています,Gift to %{name} scheduled,Gift to %{name} scheduled
+inapp_portal.gift_tag.unclaimed,ギフトはまだ%{name}によって請求されていません,Gift yet to be claimed by %{name},Gift yet to be claimed by %{name}
+inapp_portal.gift_tag.claimed,%{name}に贈られました,Gifted to %{name},Gifted to %{name}
+inapp_portal.gift_tag.canceled,%{name}へのギフトはキャンセルされました,Gift to %{name} has been canceled,Gift to %{name} has been canceled
+inapp_portal.gift_tag.expired,%{name}へのギフトの有効期限が切れています,Gifted to %{name} has been expired,Gifted to %{name} has been expired
+inapp_portal.gift_details_notification.scheduled,ギフトは%{date}にメールで受信者に送信されます,Your gift will be sent to the recipient via email on %{date},Your gift will be sent to the recipient via email on %{date}
 inapp_portal.gift_details_notification.unclaimed,あなたの贈り物はまだ受取人によって請求されていません。,Your gift is yet to be claimed by the recipient.,Your gift is yet to be claimed by the recipient.
 inapp_portal.gift_details_notification.canceled,ギフトはキャンセルされました,Your gift has been canceled,Your gift has been canceled
 inapp_portal.gift_details_notification.claimed,,,
@@ -325,22 +325,22 @@ inapp_portal.gift_details_notification.expired,あなたの贈り物は受取人
 inapp_portal.gift.cancel_by_gifter,ギフトをキャンセルする,Cancel the gift,Cancel the gift
 inapp_portal.gift.cancel_by_gifter.warning,このギフトをキャンセルしてもよろしいですか？,Are you sure you want to cancel this gift?,Are you sure you want to cancel this gift?
 inapp_portal.hierarchy.my_subscription.my_payment,このサブスクリプションはあなたによって支払われ、あなたに請求されます。,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
-inapp_portal.hierarchy.my_subscription.my_invoice,このサブスクリプションは％{customer_display_info}によって支払われ、請求されます。,This subscription is paid by %{customer_display_info} and invoiced to you.,This subscription is paid by %{customer_display_info} and invoiced to you.
-inapp_portal.hierarchy.my_subscription.parent_payment,このサブスクリプションは、％{customer_display_info}によって支払われ、請求されます。,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
-inapp_portal.hierarchy.my_subscription.paid_parent,％{customer_display_info}によって支払われます,Paid by %{customer_display_info},Paid by %{customer_display_info}
-inapp_portal.home.my_subscription.parent_pays,％{customer_display_info}によって支払われます,Paid by %{customer_display_info},Paid by %{customer_display_info}
-inapp_portal.home.child_sub_bar.multiple,％{number}子サブスクリプション,%{number} Child subscriptions,%{number} Child subscriptions
-inapp_portal.home.child_sub_bar.single,％{number}子サブスクリプション,%{number} Child subscription,%{number} Child subscription
+inapp_portal.hierarchy.my_subscription.my_invoice,このサブスクリプションは%{customer_display_info}によって支払われ、請求されます。,This subscription is paid by %{customer_display_info} and invoiced to you.,This subscription is paid by %{customer_display_info} and invoiced to you.
+inapp_portal.hierarchy.my_subscription.parent_payment,このサブスクリプションは、%{customer_display_info}によって支払われ、請求されます。,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
+inapp_portal.hierarchy.my_subscription.paid_parent,%{customer_display_info}によって支払われます,Paid by %{customer_display_info},Paid by %{customer_display_info}
+inapp_portal.home.my_subscription.parent_pays,%{customer_display_info}によって支払われます,Paid by %{customer_display_info},Paid by %{customer_display_info}
+inapp_portal.home.child_sub_bar.multiple,%{number}子サブスクリプション,%{number} Child subscriptions,%{number} Child subscriptions
+inapp_portal.home.child_sub_bar.single,%{number}子サブスクリプション,%{number} Child subscription,%{number} Child subscription
 inapp_portal.home.child_sub_header,子サブスクリプション,Child subscriptions,Child subscriptions
 inapp_portal.child_subs.navigation_header,子サブスクリプション,Child subscriptions,Child subscriptions
-inapp_portal.see_parent_invoices,サブスクリプションの％{customer displayinfo}によって支払われた1つ以上の請求書を参照してください。,See invoices paid by %{customer_display_info} for your subscritpions.,See invoices paid by %{customer_display_info} for your subscritpions.
-inapp_portal.invoice.paid_for_child,この請求書は％{customer_display_info}に属し、お客様が支払います。,This invoice belongs to %{customer_display_info} and is paid by you.,This invoice belongs to %{customer_display_info} and is paid by you.
+inapp_portal.see_parent_invoices,サブスクリプションの%{customer displayinfo}によって支払われた1つ以上の請求書を参照してください。,See invoices paid by %{customer_display_info} for your subscritpions.,See invoices paid by %{customer_display_info} for your subscritpions.
+inapp_portal.invoice.paid_for_child,この請求書は%{customer_display_info}に属し、お客様が支払います。,This invoice belongs to %{customer_display_info} and is paid by you.,This invoice belongs to %{customer_display_info} and is paid by you.
 inapp_portal.invoice.parent_only,あなたはこの顧客の親であるため、この請求書が表示されています。,You are seeing this invoice as you are the parent of this customer.,You are seeing this invoice as you are the parent of this customer.
 inapp_portal.child_sub_detail.invoice.to_parent,このサブスクリプションはあなたによって支払われ、あなたに請求されます。,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
-inapp_portal.child_sub_detail.invoice.to_child,このサブスクリプションはあなたが支払い、％{customer_display_info}に請求されます。,This subscription is paid by you and invoiced to %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.
-inapp_portal.child_sub_detail.payment_and_invoice.to_child,このサブスクリプションは、％{customer_display_info}によって支払われ、請求されます。,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
-inapp_portal.invoices.paid_py_parent,％{customer_display_info}がこの請求書の支払いを行います。,%{customer_display_info} pays for this invoice.,%{customer_display_info} pays for this invoice.
-inapp_portal.invoice,請求書番号％{id},Invoice # %{id},Invoice # %{id}
+inapp_portal.child_sub_detail.invoice.to_child,このサブスクリプションはあなたが支払い、%{customer_display_info}に請求されます。,This subscription is paid by you and invoiced to %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.
+inapp_portal.child_sub_detail.payment_and_invoice.to_child,このサブスクリプションは、%{customer_display_info}によって支払われ、請求されます。,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
+inapp_portal.invoices.paid_py_parent,%{customer_display_info}がこの請求書の支払いを行います。,%{customer_display_info} pays for this invoice.,%{customer_display_info} pays for this invoice.
+inapp_portal.invoice,請求書番号%{id},Invoice # %{id},Invoice # %{id}
 inapp_portal.payment_owner_billing_history.header,親の請求書,Invoices of parent,Invoices of parent
 inapp_portal.child_subscription.header,子サブスクリプションの詳細,Child subscription details,Child subscription details
 inapp_portal.invoice.payment.status.not_paid,未払い,Not Paid,Not Paid
@@ -352,11 +352,11 @@ inapp_portal.invoice.payment.status.to_collect,収集,Collecting,Collecting
 inapp_portal.invoice.payment.status.upcoming,今後の,Upcoming,Upcoming
 inapp_portal.invoice.payment.status.voided,ボイド,Voided,Voided
 inapp_portal.subscription.extend.header,サブスクリプションを延長する,Extend your subscription,Extend your subscription
-inapp_portal.subscription.extend.submit,別の％{extension_period}に拡張します,Extend for another %{extension_period},Extend for another %{extension_period}
-inapp_portal.subscription.extend.expiry.warning,現在のプランは％{sub_cancel_date}に期限切れになります,Your current plan will expire on %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date}
-inapp_portal.subscription.extend.info,プランの延長料金は％{sub_cancel_date}に適用されます,Charges for extending your plan will be applicable on %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date}
+inapp_portal.subscription.extend.submit,別の%{extension_period}に拡張します,Extend for another %{extension_period},Extend for another %{extension_period}
+inapp_portal.subscription.extend.expiry.warning,現在のプランは%{sub_cancel_date}に期限切れになります,Your current plan will expire on %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date}
+inapp_portal.subscription.extend.info,プランの延長料金は%{sub_cancel_date}に適用されます,Charges for extending your plan will be applicable on %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date}
 inapp_portal.subscription.extend.thankyou.header,サブスクリプションを延長していただきありがとうございます,Thank you for extending the subscription,Thank you for extending the subscription
-inapp_portal.subscription.extend.thankyou.body,サブスクリプションがさらに％{extension_period}延長されました,Your subscription has been extended for another %{extension_period},Your subscription has been extended for another %{extension_period}
+inapp_portal.subscription.extend.thankyou.body,サブスクリプションがさらに%{extension_period}延長されました,Your subscription has been extended for another %{extension_period},Your subscription has been extended for another %{extension_period}
 inapp_portal.subscription.extend.thankyou.close,閉じる,CLOSE,CLOSE
 inapp_portal.review.pm.header,支払い,Payment,Payment
 inapp_portal.review.pm.not_available,お支払い方法はありません,No payment method available,No payment method available
@@ -377,7 +377,7 @@ inapp_portal.subscription.note.cancellation_scheduled,,,
 inapp_portal.estimate_display_screen.header,ご注文の概要,Your order summary,Your order summary
 inapp_portal.manage_pm.redirect.label,アプリに行きます,Go to app,Go to app
 inapp_portal.threeds.warning,3Dセキュア検証のために銀行ページにリダイレクトされる場合があります。,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_portal.3ds.auth.txt,％{organisation_name}がこの支払い方法を保存し、サブスクリプションが関連付けられるたびにこの支払い方法に自動的に請求することを承認します。,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_portal.3ds.auth.txt,%{organisation_name}がこの支払い方法を保存し、サブスクリプションが関連付けられるたびにこの支払い方法に自動的に請求することを承認します。,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
 inapp_portal.home.promotions.link_text,紹介して稼ぐ,Refer & Earn,Refer & Earn
 inapp_portal.promotions.header,プロモーション,Promotions,Promotions
 inapp_portal.subscription.note.pause_subscription,,,
@@ -413,25 +413,25 @@ inapp_portal.contract_term.details.bill_cyc.title,請求サイクル,Billing cyc
 inapp_portal.contract_term.details.bill_cyc.total,合計,Total,Total
 inapp_portal.contract_term.details.bill_cyc.billed,請求済み,Billed,Billed
 inapp_portal.contract_term.details.term_end.title,契約期間終了時,On contract term end,On contract term end
-inapp_portal.contract_term.details.term_end.renew,契約は％{number}の請求サイクルで更新されます,Contract will renew for %{number} billing cycles,Contract will renew for %{number} billing cycles
+inapp_portal.contract_term.details.term_end.renew,契約は%{number}の請求サイクルで更新されます,Contract will renew for %{number} billing cycles,Contract will renew for %{number} billing cycles
 inapp_portal.contract_term.details.term_end.evergreen,契約終了（サブスクリプションは引き続き有効）,Contract ends (subscription will remain active),Contract ends (subscription will remain active)
 inapp_portal.contract_term.details.term_end.cancel,契約とサブスクリプションは終了します。,Contract and subscription end.,Contract and subscription end.
 inapp_portal.contract_term.details.term_end.renew_once,契約はもう1期更新されます。,Contract will renew for one more term.,Contract will renew for one more term.
 inapp_portal.contract_term.details.grace_period.title,前にキャンセル,Cancel before,Cancel before
 inapp_portal.contract_term.details.grace_period.note,契約を更新したくない場合。,If you do not want your contract to renew.,If you do not want your contract to renew.
-inapp_portal.contract_term.details.end_action.cancel.notification,サブスクリプションは、％{date}の契約期間の終了時にキャンセルされます,Your subscription will be canceled at the end of contract term on %{date},Your subscription will be canceled at the end of contract term on %{date}
+inapp_portal.contract_term.details.end_action.cancel.notification,サブスクリプションは、%{date}の契約期間の終了時にキャンセルされます,Your subscription will be canceled at the end of contract term on %{date},Your subscription will be canceled at the end of contract term on %{date}
 inapp_portal.contract_term.details.end_action.renew_next_bill_cyc.notification,契約はもう1期間更新されます。料金は次の契約期間が終了するまで適用されます。,Your contract will renew for one more term. Charges will apply until the end of the next contract term.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.
 inapp_portal.contract_term.order_summary.tcv,総契約額,Total contract value,Total contract value
 inapp_portal.contract_term.subscription.note,このサブスクリプションは契約中です,This subscription is on contract,This subscription is on contract
-inapp_portal.contract_term.cancel.end_action.cancel.title,サブスクリプションは、％{date}の契約期間の終了時にキャンセルされます,Your subscription will be canceled at the end of the contract term on %{date},Your subscription will be canceled at the end of the contract term on %{date}
+inapp_portal.contract_term.cancel.end_action.cancel.title,サブスクリプションは、%{date}の契約期間の終了時にキャンセルされます,Your subscription will be canceled at the end of the contract term on %{date},Your subscription will be canceled at the end of the contract term on %{date}
 inapp_portal.contract_term.cancel.end_action.cancel.notification,サブスクリプションは引き続き有効であり、契約が終了するまで料金が適用されます。質問がありますか？お問い合わせ。,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.
-inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.title,サブスクリプションは、％{date}の後にもう1つの契約期間更新されます,Your subscription will renew for one more contract term after %{date},Your subscription will renew for one more contract term after %{date}
+inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.title,サブスクリプションは、%{date}の後にもう1つの契約期間更新されます,Your subscription will renew for one more contract term after %{date},Your subscription will renew for one more contract term after %{date}
 inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.notification,サブスクリプションはキャンセルの締め切り日を過ぎており、もう1期間更新されます。,Your subscription passed the cut-off date for cancellation and will renew for one more term.,Your subscription passed the cut-off date for cancellation and will renew for one more term.
 inapp_portal.contract_term.reactivate.confirmation_text,サブスクリプションは契約条件なしで再開されます,Your subscription will reactivate without contract terms,Your subscription will reactivate without contract terms
 inapp_portal.multi_decimal.quantity.error,有効な数量を入力してください,Enter valid quantity,Enter valid quantity
 inapp_portal.qty,量,Qty,Qty
-paynow.button.txt,今すぐ支払う：％{amount},Pay now: %{amount},Pay now: %{amount}
-paynow.header.txt,％{total}の未払いの請求書があります。合計支払額は％{amount}です,You have %{total} unpaid invoice(s). Your total due is %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount}
+paynow.button.txt,今すぐ支払う：%{amount},Pay now: %{amount},Pay now: %{amount}
+paynow.header.txt,%{total}の未払いの請求書があります。合計支払額は%{amount}です,You have %{total} unpaid invoice(s). Your total due is %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount}
 paynow.no_invoices.txt,未払いの請求書が1つ以上ありません,You have no unpaid invoices,You have no unpaid invoices
 paynow.header.choosepm.txt,お支払い方法を選択してください,Choose Payment Method,Choose Payment Method
 paynow.modal.newpm.use,別の支払い方法を使用する,Use a different payment method,Use a different payment method
@@ -449,7 +449,7 @@ paynow.payment_method.bank_account.btn.enter_your_name,あなたの名前を入�
 paynow.payment_method.bank_account.btn.enter_company_name,会社名を入力してください,Enter company name,Enter company name
 paynow.redirect.label,アプリに行きます,Go to app,Go to app
 paynow.threeds.warning,3Dセキュア検証のために銀行ページにリダイレクトされる場合があります。,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-paynow.3ds.auth.txt,％{organisation_name}がこの支払い方法を保存し、サブスクリプションが関連付けられるたびにこの支払い方法に自動的に請求することを承認します。,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+paynow.3ds.auth.txt,%{organisation_name}がこの支払い方法を保存し、サブスクリプションが関連付けられるたびにこの支払い方法に自動的に請求することを承認します。,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
 inapp_nl_portal.login.txt,ログインするメールアドレスを入力してください,Enter your email address to login,Enter your email address to login
 inapp_nl_portal.otp.enter,メールに送信されたワンタイムパスワードを入力して続行します,Enter the one time password sent to your email to continue,Enter the one time password sent to your email to continue
 inapp_nl_portal.password.enter,アカウントのパスワードを入力してください,Enter the password for your account,Enter the password for your account
@@ -503,7 +503,7 @@ inapp_checkout.gift.subscription.header.edit,ギフトサブスクリプショ�
 inapp_checkout.gift.subscription.update,更新,Update,Update
 inapp_checkout.gift.subscription.next,次,Next,Next
 inapp_checkout.gift.review.header,注文を完了する,Complete your order,Complete your order
-inapp_checkout.gift.review.btn.txt,％{amount}を支払い、ギフトを注文する,Pay %{amount} & place gift order,Pay %{amount} & place gift order
+inapp_checkout.gift.review.btn.txt,%{amount}を支払い、ギフトを注文する,Pay %{amount} & place gift order,Pay %{amount} & place gift order
 inapp_checkout.gift.thankyou.header,,,
 inapp_checkout.gift.thankyou.body,,,
 inapp_checkout.gift.thankyou.close,閉じる,CLOSE,CLOSE

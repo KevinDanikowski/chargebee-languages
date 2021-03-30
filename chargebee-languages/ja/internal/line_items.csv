@@ -1,17 +1,17 @@
 key,value,reference value,description
-line_item.coupon.non_discount_all,％{disc_amt}の％{coupon_details}が％{line_items}広告申込情報に適用されました。,%{coupon_details} of %{disc_amt} applied on %{line_items} line items.,The applied on text for coupon
-line_item.coupon.non_discount_singular,％{disc_amt}の％{coupon_details}がラインアイテム％{line_items}に適用されました。,%{coupon_details} of %{disc_amt} applied on line item %{line_items}.,The applied on text for coupon
-line_item.coupon.ao_text_singular,％{coupon_details}が広告申込情報％{line_items}に適用されました-％{disc_amt}％{pdf_inv_desc}。,%{coupon_details} applied on line item %{line_items} - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
+line_item.coupon.non_discount_all,%{disc_amt}の%{coupon_details}が%{line_items}広告申込情報に適用されました。,%{coupon_details} of %{disc_amt} applied on %{line_items} line items.,The applied on text for coupon
+line_item.coupon.non_discount_singular,%{disc_amt}の%{coupon_details}がラインアイテム%{line_items}に適用されました。,%{coupon_details} of %{disc_amt} applied on line item %{line_items}.,The applied on text for coupon
+line_item.coupon.ao_text_singular,%{coupon_details}が広告申込情報%{line_items}に適用されました-%{disc_amt}%{pdf_inv_desc}。,%{coupon_details} applied on line item %{line_items} - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
 line_item.final_credit_correction.added,追加された残りのクレジット,Leftover Credits Added,when amount is < than 0
 line_item.plan.prorated_charges,比例配分された料金,Prorated Charges,Prorated Charges for plan/addon prorated charges
-line_item.coupon.ao_text_all,％{coupon_details}が％{line_items}ラインアイテムに適用されます-％{disc_amt}％{pdf_inv_desc}。,%{coupon_details} applied on %{line_items} line items - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
-line_item.desc.prorated_credits_for,％{date_range}の比例配分されたクレジット,Prorated Credits for %{date_range},Protated Credits for 3rd oct to 15th oct
+line_item.coupon.ao_text_all,%{coupon_details}が%{line_items}ラインアイテムに適用されます-%{disc_amt}%{pdf_inv_desc}。,%{coupon_details} applied on %{line_items} line items - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
+line_item.desc.prorated_credits_for,%{date_range}の比例配分されたクレジット,Prorated Credits for %{date_range},Protated Credits for 3rd oct to 15th oct
 line_item.coupon.free_quantity, 無料数量, Free Quantity,Free quantity in a coupon
-line_item.coupon.ao_text_plural,％{coupon_details}が広告申込情報に適用されました％{line_items}-％{disc_amt}％{pdf_inv_desc}。,%{coupon_details} applied on line items %{line_items} - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
-line_item.desc.stairstep_pricing,％{unit}単位の％{amount},%{amount} for %{unit} units,Stairstep pricing description
-line_item.desc.total_units,合計ユニット-％{unit},Total units - %{unit},Total units
+line_item.coupon.ao_text_plural,%{coupon_details}が広告申込情報に適用されました%{line_items}-%{disc_amt}%{pdf_inv_desc}。,%{coupon_details} applied on line items %{line_items} - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
+line_item.desc.stairstep_pricing,%{unit}単位の%{amount},%{amount} for %{unit} units,Stairstep pricing description
+line_item.desc.total_units,合計ユニット-%{unit},Total units - %{unit},Total units
 line_item.final_credit_correction.removed,追加のクレジットが削除されました,Additional Credits Removed,when amount is > than 0
-email.line_item.coupon.text,<b>％{coupon_details}％{disc_amt} off </b>が％{line_item_desc}に適用されました。,<b>%{coupon_details} %{disc_amt} off</b> applied for %{line_item_desc}.,The applied on text for coupon
+email.line_item.coupon.text,<b>%{coupon_details}%{disc_amt} off </b>が%{line_item_desc}に適用されました。,<b>%{coupon_details} %{disc_amt} off</b> applied for %{line_item_desc}.,The applied on text for coupon
 line_item.plan.set_up_fee,セットアップ料金,Setup Fee,Plan set up fee - description at line item level
 line_item.desc.credit_adjustments,比例配分されたクレジット,Prorated Credits,Prorated credits given for a line item
 line_item.desc.reclaimed_account_credits,プロモーションクレジットが返されました,Promotional Credits Returned,promotional credits given for a line item
@@ -19,5 +19,5 @@ line_item.desc.account_credits,プロモーションクレジット,Promotional 
 cn.discount.text,この請求書に適用される割引またはクレジット,Discounts/credits applied on this invoice,text
 line_item.desc.reclaimed_credit_adjusments,比例配分されたクレジットが返されます,Prorated Credits Returned,Prorated credits given for a line item
 line_item.fractional_correction,分数補正,Fractional Correction,Fractional Correction
-line_item.coupon.non_discount_plural,％{disc_amt}の％{coupon_details}がラインアイテム％{line_items}に適用されました。,%{coupon_details} of %{disc_amt} applied on line items %{line_items}.,The applied on text for coupon
+line_item.coupon.non_discount_plural,%{disc_amt}の%{coupon_details}がラインアイテム%{line_items}に適用されました。,%{coupon_details} of %{disc_amt} applied on line items %{line_items}.,The applied on text for coupon
 line_item.desc.units,単位,units,units

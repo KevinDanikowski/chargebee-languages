@@ -1,6 +1,6 @@
 key,value,reference value,description
-ach-payment-info.title,,Bank Account Information,Bank Account Information
-resume-scheduled-info.title,,Remove Scheduled Resumption,Remove Scheduled Resumption
-pause-scheduled-info.title,,Remove Scheduled Pause,Remove Scheduled Pause
-discount.title,,Discount,Discount
-card.title,,Card Information,Card Information
+ach-payment-info.title,Podatki o bančnem računu,Bank Account Information,Bank Account Information
+resume-scheduled-info.title,Odstranite načrtovano nadaljevanje,Remove Scheduled Resumption,Remove Scheduled Resumption
+pause-scheduled-info.title,Odstranite načrtovano premor,Remove Scheduled Pause,Remove Scheduled Pause
+discount.title,Popust,Discount,Discount
+card.title,Podatki o kartici,Card Information,Card Information

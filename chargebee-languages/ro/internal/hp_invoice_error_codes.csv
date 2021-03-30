@@ -1,21 +1,21 @@
 key,value,reference value,description
-invalid_charge_start_and_end,,Invalid term period passed. line_item.date_from must be before line_item.date_to,Invalid term period passed. line_item.date_from must be before line_item.date_to
-xero_build_inprogress,,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.
-invalid_invoice_amount,,Invoice Amount {0} should be greater than zero,Invoice Amount {0} should be greater than zero
-record_payment_not_supported,,{0},{0}
-max_size_reached,,Exceeded maximum limit of card payments to refund,Exceeded maximum limit of card payments to refund
-recurring_addon_not_supported,,Recurring addon cannot be added to pending invoice.,Recurring addon cannot be added to pending invoice.
-hp_product_type_mismatch,,"Sorry, we are unable process your request. Please get in touch with the seller/merchant.","Sorry, we are unable process your request. Please get in touch with the seller/merchant."
-invalid_payment_amount,,{0},{0}
-refund_amount_too_big,,"Specified amount is greater than the allowed limit ''{0}'' ",The refund amount is greater than the invoice amount
-invalid_invoice_state,,{0},{0}
-xero_disabled,,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.
-no_card_present_for_refund,,Cannot process request as the payment method used for this transaction has been cleared.,Cannot process request as the payment method used for this transaction has been cleared.
-insufficient card payments,,Operation cannot be proceed since customers different card payments are required to refund,Operation cannot be proceed since customers different card payments are required to refund
-invoice_price_type,,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).
-referenced_line_item_not_found,,The referenced charge line item {0} is not attached to invoice {1},The referenced charge line item {0} is not attached to invoice {1}
-refund_failed,,Refund operation failed. Error message: {0},Refund operation failed. Error message: {0}
-operation_failed,,{0},{0}
-product_type_mismatch,,You cannot bill both digital and non-digital products using the same invoice.,You cannot bill both digital and non-digital products using the same invoice.
-invoice.operation_not_suppoerted,,{0},{0}
-address_change_not_supported,,Address cannot be changed as it changes the applied tax,Address cannot be changed as it changes the applied tax
+invalid_charge_start_and_end,A trecut o perioadă nevalidă. line_item.date_from trebuie să fie înainte de line_item.date_to,Invalid term period passed. line_item.date_from must be before line_item.date_to,Invalid term period passed. line_item.date_from must be before line_item.date_to
+xero_build_inprogress,Integrarea Xero este temporar dezactivată pentru întreținere. Acest lucru ar trebui să se încheie în câteva minute. Vă rugăm să încercați după ceva timp.,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.
+invalid_invoice_amount,Suma facturii {0} trebuie să fie mai mare decât zero,Invoice Amount {0} should be greater than zero,Invoice Amount {0} should be greater than zero
+record_payment_not_supported,{0},{0},{0}
+max_size_reached,A depășit limita maximă de plăți cu cardul pentru rambursare,Exceeded maximum limit of card payments to refund,Exceeded maximum limit of card payments to refund
+recurring_addon_not_supported,Suplimentul recurent nu poate fi adăugat la factura în așteptare.,Recurring addon cannot be added to pending invoice.,Recurring addon cannot be added to pending invoice.
+hp_product_type_mismatch,"Ne pare rău, nu putem procesa solicitarea dvs. Vă rugăm să luați legătura cu vânzătorul / comerciantul.","Sorry, we are unable process your request. Please get in touch with the seller/merchant.","Sorry, we are unable process your request. Please get in touch with the seller/merchant."
+invalid_payment_amount,{0},{0},{0}
+refund_amount_too_big,Suma specificată este mai mare decât limita permisă „{0}”,Specified amount is greater than the allowed limit ''{0}'' ,The refund amount is greater than the invoice amount
+invalid_invoice_state,{0},{0},{0}
+xero_disabled,Integrarea Xero este dezactivată pentru site-ul dvs. Vă rugăm să contactați support@chargebee.com pentru mai multe detalii și asistență.,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.
+no_card_present_for_refund,Nu se poate procesa solicitarea deoarece metoda de plată utilizată pentru această tranzacție a fost eliminată.,Cannot process request as the payment method used for this transaction has been cleared.,Cannot process request as the payment method used for this transaction has been cleared.
+insufficient card payments,"Operațiunea nu poate fi continuată, deoarece clienții trebuie să ramburseze diferite plăți cu cardul",Operation cannot be proceed since customers different card payments are required to refund,Operation cannot be proceed since customers different card payments are required to refund
+invoice_price_type,Toate elementele de linie trebuie să aibă același tip de preț (Tax Exclusivesive / Tax Inclusivesive).,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).
+referenced_line_item_not_found,Elementul rând de taxare la care se face referire {0} nu este atașat la factură {1},The referenced charge line item {0} is not attached to invoice {1},The referenced charge line item {0} is not attached to invoice {1}
+refund_failed,Operațiunea de rambursare a eșuat. Mesaj de eroare: {0},Refund operation failed. Error message: {0},Refund operation failed. Error message: {0}
+operation_failed,{0},{0},{0}
+product_type_mismatch,"Nu puteți factura atât produse digitale, cât și non-digitale utilizând aceeași factură.",You cannot bill both digital and non-digital products using the same invoice.,You cannot bill both digital and non-digital products using the same invoice.
+invoice.operation_not_suppoerted,{0},{0},{0}
+address_change_not_supported,Adresa nu poate fi modificată deoarece modifică taxa aplicată,Address cannot be changed as it changes the applied tax,Address cannot be changed as it changes the applied tax

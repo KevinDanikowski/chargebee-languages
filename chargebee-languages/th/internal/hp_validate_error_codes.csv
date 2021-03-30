@@ -1,59 +1,59 @@
 key,value,reference value,description
-sort_param_order_invalid,,The specified sort order {0} is invalid,The specified sort order {0} is invalid
-updgrade_api_err_msg,,{0},{0}
-wrong_value,,wrong value,wrong value
-found_card_pattern,,{0},{0}
-upload_error,,Error while uploading file,Error while uploading file
-ILLEGAL_DOMAIN,,{0} domain is not allowed,{0} domain is not allowed
-param_fixed_size_error,,The size should be of {0},The size should be of {0}
-mcp_api_v1_err,,Upgrade to API V2 is needed as MCP is enabled,Upgrade to API V2 is needed as MCP is enabled
-multipart_post,,Cannot set multipart for other than post method,Cannot set multipart for other than post method
-ILLEGAL_DNS,,The domain resolves to internal ip address range which is not allowed.,The domain resolves to internal ip address range which is not allowed.
-param_not_supported,,{0},{0}
-mustache_not_allowed,,mustache tags are not allowed,mustache tags are not allowed
-param_value_lesser_error,,It should be atleast {0},It should be atleast {0}
-param_exceeded_error,,It should not be more than {0},It should not be more than {0}
-not_an_image,,Uploaded file should be an image.,Uploaded file should be an image.
-UNKNOWN_HOST,,"Unable to resolve {0} domain ","Unable to resolve {0} domain "
-EMPTY_SCHEME,,URL should start with http:// or https:// protocol,URL should start with http:// or https:// protocol
-validate.mul_sub_entry,,The customer {0} already has a subscription.,The customer {0} already has a subscription.
-file_size_limit_exceeded,,Upload file size cannot exceed {0},Upload file size cannot exceed {0}
-invalid_range,,first value {0} should not be more than second value {1},first value {0} should not be more than second value {1}
-timestamp_future_only,,Unix timestamp should be in future,Unix timestamp should be in future
-param_wrong_value,,Value {0} specified for this param is incorrect,The returned parameter has incorrect value
-timestamp_past_only,,Unix timestamp should be in past,Unix timestamp should be in past
-param_lesser_error,,It should be atleast {0},It should be atleast {0}
-param_invalid,,The value {0} is invalid,The value {0} is invalid
-should_be_valid_date,,wrong date format,wrong date format
-UNSUPPORTED_SCHEME,,{0} is not supported. Only http and https are supported,{0} is not supported. Only http and https are supported
-image_scrambled,,Uploaded image is scrambled.,Uploaded image is scrambled.
-charge_not_more_than_zero,,Amount to charge should be more than zero,Amount to charge should be more than zero
-param_cannot_exceed,,{0},{0}
-param_should_not_be_blank,,cannot be blank,cannot be blank
-not_in_allowed_values,,not in allowed values,not in allowed values
-size_limit_exceeded,,{0} should not be more than {1} characters,{0} should not be more than {1} characters
-email_cannot_be_empty,,Email field cannot be empty,Email field cannot be empty
-email_not_in_allowed_size_range,,Email id size should not be more than {0},Email id size should not be more than {0}
-param_size_exceeded_error,,The size should not be more than {0},The size should not be more than {0}
-param_should_be_blank,,should be blank,should be blank
-param_required,,cannot be blank,The parameter is not sent or is empty. Incase you are getting the  parameter's value from the user then it is better to do validation  for mandatory fields on your end rather than passing it to ChargeBee and then handling the error.
-resource_not_unique,,{0} resource already exists,{0} resource already exists
-duplicate_addon_entry,,Duplicate addon entry is not allowed.,Duplicate addon entry is not allowed.
-filter_param_operator_invalid,,The specified filter operator {0} is invalid,The specified filter operator {0} is invalid
-ILLEGAL_DOMAIN_SUFFIX,,{0} domain suffix is not allowed,{0} domain suffix is not allowed
-param_invalid_msg,,{0},{0}
-validate.param_not_unique,,The value {0} is already present.,The value {0} is already present.
-UNSUPPORTED_PORT,," Only [443, 80, 8443, 8080, 9001] ports are allowed"," Only [443, 80, 8443, 8080, 9001] ports are allowed"
-timestamp_future_only_or_zero,,Unix timestamp should be in future or zero to indicate immediate,Unix timestamp should be in future or zero to indicate immediate
-params_required,,{0},Parameters for the resource is required.
-wrong_format_pattern,,Should be in {0} format,Should be in {0} format
-param_size_lesser_error,,The size should be atleast {0},The size should be atleast {0}
-currency_mismatched,,{0},{0}
-ip_address_not_supported,,No support for Ip address,No support for Ip address
-should_be_valid_input,,should be a valid input,should be a valid input
-no_change_for_i18n,,Pack is empty,Pack is empty
-NO_EMPTY_SCHEME,,"Provide the domain without the protocol (http, https)","Provide the domain without the protocol (http, https)"
-wrong_format,,wrong format,wrong format
-emoji_chars_not_allowed,,The value {0} is invalid,The value {0} is invalid
-amount_overflow,,Amount that is being processed {0},Amount that is being processed {0}
-param_should_not_be_sent,,{0},The parameter should not be sent. Should occur only during development phase.
+sort_param_order_invalid,ลำดับการจัดเรียงที่ระบุ {0} ไม่ถูกต้อง,The specified sort order {0} is invalid,The specified sort order {0} is invalid
+updgrade_api_err_msg,{0},{0},{0}
+wrong_value,ค่าผิด,wrong value,wrong value
+found_card_pattern,{0},{0},{0}
+upload_error,เกิดข้อผิดพลาดขณะอัปโหลดไฟล์,Error while uploading file,Error while uploading file
+ILLEGAL_DOMAIN,ไม่อนุญาตให้ใช้โดเมน {0},{0} domain is not allowed,{0} domain is not allowed
+param_fixed_size_error,ขนาดควรเป็น {0},The size should be of {0},The size should be of {0}
+mcp_api_v1_err,จำเป็นต้องอัปเกรดเป็น API เวอร์ชัน 2 เมื่อเปิดใช้ MCP,Upgrade to API V2 is needed as MCP is enabled,Upgrade to API V2 is needed as MCP is enabled
+multipart_post,ไม่สามารถตั้งค่าหลายส่วนสำหรับวิธีอื่นที่ไม่ใช่วิธีการโพสต์,Cannot set multipart for other than post method,Cannot set multipart for other than post method
+ILLEGAL_DNS,โดเมนแก้ไขเป็นช่วง internalIPaddress ซึ่งไม่ได้รับอนุญาต,The domain resolves to internal ip address range which is not allowed.,The domain resolves to internal ip address range which is not allowed.
+param_not_supported,{0},{0},{0}
+mustache_not_allowed,ไม่อนุญาตให้ใช้แท็กหนวด,mustache tags are not allowed,mustache tags are not allowed
+param_value_lesser_error,ควรเป็นอย่างน้อยที่สุด {0},It should be atleast {0},It should be atleast {0}
+param_exceeded_error,ไม่ควรเกิน {0},It should not be more than {0},It should not be more than {0}
+not_an_image,ไฟล์ที่อัปโหลดควรเป็นรูปภาพ,Uploaded file should be an image.,Uploaded file should be an image.
+UNKNOWN_HOST,ไม่สามารถแก้ไขโดเมน {0},Unable to resolve {0} domain ,Unable to resolve {0} domain 
+EMPTY_SCHEME,URL ควรขึ้นต้นด้วยโปรโตคอล http: // หรือ https: //,URL should start with http:// or https:// protocol,URL should start with http:// or https:// protocol
+validate.mul_sub_entry,ลูกค้า {0} สมัครสมาชิกแล้ว,The customer {0} already has a subscription.,The customer {0} already has a subscription.
+file_size_limit_exceeded,ขนาดไฟล์อัปโหลดต้องไม่เกิน {0},Upload file size cannot exceed {0},Upload file size cannot exceed {0}
+invalid_range,ค่าแรก {0} ไม่ควรเกินค่าที่สอง {1},first value {0} should not be more than second value {1},first value {0} should not be more than second value {1}
+timestamp_future_only,การประทับเวลา Unix ควรอยู่ในอนาคต,Unix timestamp should be in future,Unix timestamp should be in future
+param_wrong_value,ค่า {0} ที่ระบุสำหรับพารามิเตอร์นี้ไม่ถูกต้อง,Value {0} specified for this param is incorrect,The returned parameter has incorrect value
+timestamp_past_only,การประทับเวลา Unix ควรเป็นอดีต,Unix timestamp should be in past,Unix timestamp should be in past
+param_lesser_error,ควรเป็นอย่างน้อยที่สุด {0},It should be atleast {0},It should be atleast {0}
+param_invalid,ค่า {0} ไม่ถูกต้อง,The value {0} is invalid,The value {0} is invalid
+should_be_valid_date,รูปแบบวันที่ไม่ถูกต้อง,wrong date format,wrong date format
+UNSUPPORTED_SCHEME,ไม่รองรับ {0} รองรับเฉพาะ http และ https,{0} is not supported. Only http and https are supported,{0} is not supported. Only http and https are supported
+image_scrambled,ภาพที่อัปโหลดมีสัญญาณรบกวน,Uploaded image is scrambled.,Uploaded image is scrambled.
+charge_not_more_than_zero,จำนวนเงินที่เรียกเก็บควรมากกว่าศูนย์,Amount to charge should be more than zero,Amount to charge should be more than zero
+param_cannot_exceed,{0},{0},{0}
+param_should_not_be_blank,ต้องไม่ว่างเปล่า,cannot be blank,cannot be blank
+not_in_allowed_values,ไม่อยู่ในค่าที่อนุญาต,not in allowed values,not in allowed values
+size_limit_exceeded,{0} ไม่ควรเกิน {1} อักขระ,{0} should not be more than {1} characters,{0} should not be more than {1} characters
+email_cannot_be_empty,ช่องอีเมลต้องไม่ว่างเปล่า,Email field cannot be empty,Email field cannot be empty
+email_not_in_allowed_size_range,ขนาดรหัสอีเมลไม่ควรเกิน {0},Email id size should not be more than {0},Email id size should not be more than {0}
+param_size_exceeded_error,ขนาดไม่ควรเกิน {0},The size should not be more than {0},The size should not be more than {0}
+param_should_be_blank,ควรว่างเปล่า,should be blank,should be blank
+param_required,ต้องไม่ว่างเปล่า,cannot be blank,The parameter is not sent or is empty. Incase you are getting the  parameter's value from the user then it is better to do validation  for mandatory fields on your end rather than passing it to ChargeBee and then handling the error.
+resource_not_unique,มีทรัพยากร {0} อยู่แล้ว,{0} resource already exists,{0} resource already exists
+duplicate_addon_entry,ไม่อนุญาตให้มีรายการ addon ที่ซ้ำกัน,Duplicate addon entry is not allowed.,Duplicate addon entry is not allowed.
+filter_param_operator_invalid,ตัวดำเนินการตัวกรองที่ระบุ {0} ไม่ถูกต้อง,The specified filter operator {0} is invalid,The specified filter operator {0} is invalid
+ILLEGAL_DOMAIN_SUFFIX,ไม่อนุญาตให้ใช้คำต่อท้ายโดเมน {0},{0} domain suffix is not allowed,{0} domain suffix is not allowed
+param_invalid_msg,{0},{0},{0}
+validate.param_not_unique,มีค่า {0} อยู่แล้ว,The value {0} is already present.,The value {0} is already present.
+UNSUPPORTED_PORT," อนุญาตเฉพาะพอร์ต [443, 80, 8443, 8080, 9001] เท่านั้น"," Only [443, 80, 8443, 8080, 9001] ports are allowed"," Only [443, 80, 8443, 8080, 9001] ports are allowed"
+timestamp_future_only_or_zero,การประทับเวลา Unix ควรอยู่ในอนาคตหรือเป็นศูนย์เพื่อระบุทันที,Unix timestamp should be in future or zero to indicate immediate,Unix timestamp should be in future or zero to indicate immediate
+params_required,{0},{0},Parameters for the resource is required.
+wrong_format_pattern,ควรอยู่ในรูปแบบ {0},Should be in {0} format,Should be in {0} format
+param_size_lesser_error,ขนาดควรเป็นอย่างน้อยที่สุด {0},The size should be atleast {0},The size should be atleast {0}
+currency_mismatched,{0},{0},{0}
+ip_address_not_supported,ไม่รองรับที่อยู่ IP,No support for Ip address,No support for Ip address
+should_be_valid_input,ควรเป็นข้อมูลที่ถูกต้อง,should be a valid input,should be a valid input
+no_change_for_i18n,แพ็คว่างเปล่า,Pack is empty,Pack is empty
+NO_EMPTY_SCHEME,"ระบุโดเมนโดยไม่มีโปรโตคอล (http, https)","Provide the domain without the protocol (http, https)","Provide the domain without the protocol (http, https)"
+wrong_format,รูปแบบผิด,wrong format,wrong format
+emoji_chars_not_allowed,ค่า {0} ไม่ถูกต้อง,The value {0} is invalid,The value {0} is invalid
+amount_overflow,จำนวนเงินที่กำลังดำเนินการ {0},Amount that is being processed {0},Amount that is being processed {0}
+param_should_not_be_sent,{0},{0},The parameter should not be sent. Should occur only during development phase.

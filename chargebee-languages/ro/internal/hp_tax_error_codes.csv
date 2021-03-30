@@ -1,25 +1,25 @@
 key,value,reference value,description
-invalid_column,,The value {1} in the column ({0}) is invalid,The value {1} in the column ({0}) is invalid
-invalid_column_header,,The column {0} is invalid.,The column {0} is invalid.
-billing_country_needed_to_collect_registered_for_gst_field,,You need to add a Billing Country to select this field.,You need to add a Billing Country to select this field.
-billing_country_needed,,Billing country needed to validate the VAT number.,Billing country needed to validate the VAT number.
-australia_tax_should_be_configured,,You need to enable tax for Australia to select this field,You need to enable tax for Australia to select this field
-tax.could_not_read_the_file,,File contains invalid values,File contains invalid values
-unable_to_validate_abn,,Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
-no_header_found,,Header are not present or not formatted properly.,Header are not present or not formatted properly.
-no_tax_rules_found,,File does not contain any tax rule,File does not contain any tax rule
-tax.un_supported_file_format,,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
-profile_service_type_error,,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.
-tax.wrong_format,,Value for ({0}) is invalid,Value for ({0}) is invalid
-file_not_found,,Tax configuration file not found,Tax configuration file not found
-duplicate_column,,The column ({0}) appears more than once in the file.,The column ({0}) appears more than once in the file.
-invalid_GSTIN,,You need to enter a valid GSTIN.,You need to enter a valid GSTIN.
-invalid_abn_number,,You need to enter a valid ABN.,You need to enter a valid ABN.
-eu_vat_not_applicable,,VAT Number not applicable for this country,VAT Number not applicable for this country
-zip_wrong_format,,cannot configure the zip values - {0},cannot configure the zip values - {0}
-invalid_zip_code,,invalid zip/postal code,invalid zip/postal code
-org_address_not_config,,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined
-registered_for_gst_not_applicable,,This option is applicable for Australia only.,This option is applicable for Australia only.
-invalid_vat_number,,You need to enter a valid VAT number.,You need to enter a valid VAT number.
-unable_to_validate,,Unable to validate VAT number as VIES is experiencing downtime.,Unable to validate VAT number as VIES is experiencing downtime.
-us_unsupported_prefix,,Wildcard characters cannot be used along with ZIP+4 postal codes - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0}
+invalid_column,Valoarea {1} din coloană ({0}) este nevalidă,The value {1} in the column ({0}) is invalid,The value {1} in the column ({0}) is invalid
+invalid_column_header,Coloana {0} este nevalidă.,The column {0} is invalid.,The column {0} is invalid.
+billing_country_needed_to_collect_registered_for_gst_field,Trebuie să adăugați o țară de facturare pentru a selecta acest câmp.,You need to add a Billing Country to select this field.,You need to add a Billing Country to select this field.
+billing_country_needed,Țara de facturare necesară pentru validarea numărului de TVA.,Billing country needed to validate the VAT number.,Billing country needed to validate the VAT number.
+australia_tax_should_be_configured,Trebuie să activați taxa pentru ca Australia să selecteze acest câmp,You need to enable tax for Australia to select this field,You need to enable tax for Australia to select this field
+tax.could_not_read_the_file,Fișierul conține valori nevalide,File contains invalid values,File contains invalid values
+unable_to_validate_abn,"Imposibil de procesat ABN, deoarece serverul ABN Lookup este defect.",Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
+no_header_found,Antetul nu este prezent sau nu este formatat corect.,Header are not present or not formatted properly.,Header are not present or not formatted properly.
+no_tax_rules_found,Fișierul nu conține nicio regulă fiscală,File does not contain any tax rule,File does not contain any tax rule
+tax.un_supported_file_format,Format de fișier neacceptat. Sunt permise numai fișierele CSV,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
+profile_service_type_error,Acest profil fiscal este deja mapat la tipul de produs {0}. Puteți asocia un singur tip de produs la un profil.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.
+tax.wrong_format,Valoarea pentru ({0}) este nevalidă,Value for ({0}) is invalid,Value for ({0}) is invalid
+file_not_found,Fișierul de configurare fiscală nu a fost găsit,Tax configuration file not found,Tax configuration file not found
+duplicate_column,Coloana ({0}) apare de mai multe ori în fișier.,The column ({0}) appears more than once in the file.,The column ({0}) appears more than once in the file.
+invalid_GSTIN,Trebuie să introduceți un GSTIN valid.,You need to enter a valid GSTIN.,You need to enter a valid GSTIN.
+invalid_abn_number,Trebuie să introduceți un ABN valid.,You need to enter a valid ABN.,You need to enter a valid ABN.
+eu_vat_not_applicable,Număr TVA nu se aplică pentru această țară,VAT Number not applicable for this country,VAT Number not applicable for this country
+zip_wrong_format,nu se pot configura valorile zip - {0},cannot configure the zip values - {0},cannot configure the zip values - {0}
+invalid_zip_code,cod poștal / poștal nevalid,invalid zip/postal code,invalid zip/postal code
+org_address_not_config,"Tipul de preț fiscal inclusiv nu poate fi configurat, deoarece nu a putut fi determinată rata impozitului pentru comercianți",Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined
+registered_for_gst_not_applicable,Această opțiune este aplicabilă numai pentru Australia.,This option is applicable for Australia only.,This option is applicable for Australia only.
+invalid_vat_number,Trebuie să introduceți un număr de TVA valid.,You need to enter a valid VAT number.,You need to enter a valid VAT number.
+unable_to_validate,Nu s-a putut valida numărul TVA deoarece VIES se confruntă cu perioade de nefuncționare.,Unable to validate VAT number as VIES is experiencing downtime.,Unable to validate VAT number as VIES is experiencing downtime.
+us_unsupported_prefix,Caracterele wildcard nu pot fi utilizate împreună cu codurile poștale ZIP + 4 - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0}

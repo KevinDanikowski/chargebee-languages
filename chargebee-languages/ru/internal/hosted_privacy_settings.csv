@@ -1,5 +1,5 @@
 key,value,reference value,description
-static.hosted_pages_setting.tos_url_label,,Terms of Service,Tos Url Label for the Hosted Pages Setting
-static.hosted_pages_setting.privacy_url_label,,Privacy Policy,Privacy Url Label for the Hosted Pages Setting
-static.hosted_pages_setting.legal_options_label,,I agree to the {{legal_options.terms_of_service_url}} and {{legal_options.privacy_policy_url}}.,I agree to the privacy policy Full Label
-static.hosted_pages_setting.legal_options_label_agree,,I agree to the,I agree to the privacy policy Label
+static.hosted_pages_setting.tos_url_label,условия обслуживания,Terms of Service,Tos Url Label for the Hosted Pages Setting
+static.hosted_pages_setting.privacy_url_label,Политика конфиденциальности,Privacy Policy,Privacy Url Label for the Hosted Pages Setting
+static.hosted_pages_setting.legal_options_label,Я принимаю {{legal_options.terms_of_service_url}} и {{legal_options.privacy_policy_url}}.,I agree to the {{legal_options.terms_of_service_url}} and {{legal_options.privacy_policy_url}}.,I agree to the privacy policy Full Label
+static.hosted_pages_setting.legal_options_label_agree,я согласен,I agree to the,I agree to the privacy policy Label

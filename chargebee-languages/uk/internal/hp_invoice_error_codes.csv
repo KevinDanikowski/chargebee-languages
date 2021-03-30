@@ -1,21 +1,21 @@
 key,value,reference value,description
-invalid_charge_start_and_end,,Invalid term period passed. line_item.date_from must be before line_item.date_to,Invalid term period passed. line_item.date_from must be before line_item.date_to
-xero_build_inprogress,,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.
-invalid_invoice_amount,,Invoice Amount {0} should be greater than zero,Invoice Amount {0} should be greater than zero
-record_payment_not_supported,,{0},{0}
-max_size_reached,,Exceeded maximum limit of card payments to refund,Exceeded maximum limit of card payments to refund
-recurring_addon_not_supported,,Recurring addon cannot be added to pending invoice.,Recurring addon cannot be added to pending invoice.
-hp_product_type_mismatch,,"Sorry, we are unable process your request. Please get in touch with the seller/merchant.","Sorry, we are unable process your request. Please get in touch with the seller/merchant."
-invalid_payment_amount,,{0},{0}
-refund_amount_too_big,,"Specified amount is greater than the allowed limit ''{0}'' ",The refund amount is greater than the invoice amount
-invalid_invoice_state,,{0},{0}
-xero_disabled,,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.
-no_card_present_for_refund,,Cannot process request as the payment method used for this transaction has been cleared.,Cannot process request as the payment method used for this transaction has been cleared.
-insufficient card payments,,Operation cannot be proceed since customers different card payments are required to refund,Operation cannot be proceed since customers different card payments are required to refund
-invoice_price_type,,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).
-referenced_line_item_not_found,,The referenced charge line item {0} is not attached to invoice {1},The referenced charge line item {0} is not attached to invoice {1}
-refund_failed,,Refund operation failed. Error message: {0},Refund operation failed. Error message: {0}
-operation_failed,,{0},{0}
-product_type_mismatch,,You cannot bill both digital and non-digital products using the same invoice.,You cannot bill both digital and non-digital products using the same invoice.
-invoice.operation_not_suppoerted,,{0},{0}
-address_change_not_supported,,Address cannot be changed as it changes the applied tax,Address cannot be changed as it changes the applied tax
+invalid_charge_start_and_end,Пройшов недійсний термін терміну. line_item.date_from має бути перед line_item.date_to,Invalid term period passed. line_item.date_from must be before line_item.date_to,Invalid term period passed. line_item.date_from must be before line_item.date_to
+xero_build_inprogress,"Інтеграція Xero тимчасово відключена для обслуговування. Це повинно закінчитися за кілька хвилин. Будь ласка, спробуйте через деякий час.",Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.
+invalid_invoice_amount,Сума рахунку-фактури {0} повинна бути більшою за нуль,Invoice Amount {0} should be greater than zero,Invoice Amount {0} should be greater than zero
+record_payment_not_supported,{0},{0},{0}
+max_size_reached,Перевищено максимальний ліміт повернення коштів за допомогою картки,Exceeded maximum limit of card payments to refund,Exceeded maximum limit of card payments to refund
+recurring_addon_not_supported,"Повторюваний аддон не можна додати до рахунка-фактури, що очікує на розгляд.",Recurring addon cannot be added to pending invoice.,Recurring addon cannot be added to pending invoice.
+hp_product_type_mismatch,"На жаль, ми не можемо обробити ваш запит. Будь ласка, зв’яжіться з продавцем / продавцем.","Sorry, we are unable process your request. Please get in touch with the seller/merchant.","Sorry, we are unable process your request. Please get in touch with the seller/merchant."
+invalid_payment_amount,{0},{0},{0}
+refund_amount_too_big,"Вказана сума перевищує допустиму межу ""{0}""",Specified amount is greater than the allowed limit ''{0}'' ,The refund amount is greater than the invoice amount
+invalid_invoice_state,{0},{0},{0}
+xero_disabled,"Інтеграція Xero для вашого сайту вимкнена. Будь ласка, зв'яжіться з support@chargebee.com для отримання детальної інформації та допомоги.",Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.
+no_card_present_for_refund,"Не вдається обробити запит, оскільки спосіб оплати, використаний для цієї транзакції, очищений.",Cannot process request as the payment method used for this transaction has been cleared.,Cannot process request as the payment method used for this transaction has been cleared.
+insufficient card payments,"Операція не може бути продовжена, оскільки для повернення коштів клієнтам потрібні різні карткові платежі",Operation cannot be proceed since customers different card payments are required to refund,Operation cannot be proceed since customers different card payments are required to refund
+invoice_price_type,Усі товари повинні мати один і той же тип ціни (без податку / з податком).,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).
+referenced_line_item_not_found,Позиція з посиланням на плату {0} не додається до рахунку-фактури {1},The referenced charge line item {0} is not attached to invoice {1},The referenced charge line item {0} is not attached to invoice {1}
+refund_failed,Помилка операції повернення коштів. Повідомлення про помилку: {0},Refund operation failed. Error message: {0},Refund operation failed. Error message: {0}
+operation_failed,{0},{0},{0}
+product_type_mismatch,"Ви не можете виставляти рахунки як за цифрові, так і за нецифрові продукти, використовуючи один і той же рахунок-фактуру.",You cannot bill both digital and non-digital products using the same invoice.,You cannot bill both digital and non-digital products using the same invoice.
+invoice.operation_not_suppoerted,{0},{0},{0}
+address_change_not_supported,"Адресу не можна змінити, оскільки вона змінює застосований податок",Address cannot be changed as it changes the applied tax,Address cannot be changed as it changes the applied tax

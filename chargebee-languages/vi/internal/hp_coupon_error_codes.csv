@@ -1,28 +1,28 @@
 key,value,reference value,description
-exceeded_allowed_coupon_code_limit,,Only {0} coupon codes allowed per coupon set.,Only {0} coupon codes allowed per coupon set.
-invalid_request_with_no_applicable_coupon,,coupon not found or not a applicable coupon,coupon not found or not a applicable coupon
-api_coupon_not_applied,,coupon {0} has not been applied on this subscription,coupon {0} has not been applied on this subscription
-error_while_uploading_coupon_code,,Error during upload. Duplicate coupon code found at row {0}.,Error during upload. Duplicate coupon code found at row {0}.
-already_redeemed,,The coupon {0} is already redeemed for this subscription,The coupon {0} is already redeemed for this subscription
-rec_coupon_not_supported,,Coupon {0} cannot be applied as only one-time coupons are supported,Coupon {0} cannot be applied as only one-time coupons are supported
-cannot_delete_archived_coupon_code,,Cannot delete used coupon code,Cannot delete used coupon code
-un_supported_file_format,,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
-cannot_delete_exhausted_coupon_set,,Cannot delete exhausted Coupon Set,Cannot delete exhausted Coupon Set
-max_redemptions_reached,,The passed coupon {0} has already been redeemed {1} times. No more redemptions are allowed,Maximum redemption count of the coupon is exceeded.
-too_many_characters_in_coupon_code,,More than {0} characters is found at coupon code in row {1},More than {0} characters is found at coupon code in row {1}
-invalid_coupon,,No such coupon found,No such coupon found
-coupon_set_name_alreay_exists,,coupon set name already exists for another coupon.,coupon set name already exists for another coupon.
-applicable_item_limit_exceeded,,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.
-invalid_subscription_state,,Invalid subscription state to apply/change coupon,Invalid subscription state to apply/change coupon
-exceeded_allowed_coupon_set_limit,,Only {0} coupon sets allowed per coupon.,Only {0} coupon sets allowed per coupon.
-cannot_archive_redeemed_coupon_code,,Cannot archive a redeemed coupon code,Cannot archive a redeemed coupon code
-two_coupons_of_same_type,,This coupon cannot be applied for this subscription. Please contact the seller for more details.,This coupon cannot be applied for this subscription. Please contact the seller for more details.
-no_such_coupon,,No such coupon {0} to redeem,Coupon is not found
-coupon_not_applicable,,Coupon {0} cannot be applied as it is not applicable to any of the items,Coupon is not applicable for any of the passed item
-no_coupon_code_found,,No coupon codes found in the file.,No coupon codes found in the file.
-coupon_expired,,Applied coupon {0} has already expired on {1},Applied coupon {0} has already expired on {1}
-invalid_request_with_no_coupon,,No coupons have been applied on this subscription,No coupons have been applied on this subscription
-could_not_read_the_file,,Could not able to read the content in CSV file.,Could not able to read the content in CSV file.
-invalid_coupon_code,,Invalid coupon code,Invalid coupon code
-coupon_code_not_applicable_for_this_coupon,,Coupon code is not applicable for this coupon,Coupon code is not applicable for this coupon
-coupon_code_already_exists,,Coupon code already exists. Duplicate not allowed,Coupon code already exists. Duplicate not allowed
+exceeded_allowed_coupon_code_limit,Chỉ cho phép {0} mã phiếu giảm giá cho mỗi bộ phiếu giảm giá.,Only {0} coupon codes allowed per coupon set.,Only {0} coupon codes allowed per coupon set.
+invalid_request_with_no_applicable_coupon,phiếu giảm giá không được tìm thấy hoặc không phải là phiếu giảm giá áp dụng,coupon not found or not a applicable coupon,coupon not found or not a applicable coupon
+api_coupon_not_applied,phiếu giảm giá {0} chưa được áp dụng cho đăng ký này,coupon {0} has not been applied on this subscription,coupon {0} has not been applied on this subscription
+error_while_uploading_coupon_code,Lỗi khi tải lên. Mã phiếu thưởng trùng lặp được tìm thấy ở hàng {0}.,Error during upload. Duplicate coupon code found at row {0}.,Error during upload. Duplicate coupon code found at row {0}.
+already_redeemed,Phiếu thưởng {0} đã được đổi cho đăng ký này,The coupon {0} is already redeemed for this subscription,The coupon {0} is already redeemed for this subscription
+rec_coupon_not_supported,Không thể áp dụng phiếu thưởng {0} vì chỉ hỗ trợ phiếu thưởng một lần,Coupon {0} cannot be applied as only one-time coupons are supported,Coupon {0} cannot be applied as only one-time coupons are supported
+cannot_delete_archived_coupon_code,Không thể xóa mã phiếu giảm giá đã sử dụng,Cannot delete used coupon code,Cannot delete used coupon code
+un_supported_file_format,Định dạng tập tin không được hỗ trợ. Chỉ cho phép các tệp CSV,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
+cannot_delete_exhausted_coupon_set,Không thể xóa Bộ phiếu giảm giá đã hết,Cannot delete exhausted Coupon Set,Cannot delete exhausted Coupon Set
+max_redemptions_reached,Phiếu thưởng được thông qua {0} đã được đổi {1} lần. Không cho phép đổi thêm,The passed coupon {0} has already been redeemed {1} times. No more redemptions are allowed,Maximum redemption count of the coupon is exceeded.
+too_many_characters_in_coupon_code,Hơn {0} ký tự được tìm thấy ở mã phiếu giảm giá trong hàng {1},More than {0} characters is found at coupon code in row {1},More than {0} characters is found at coupon code in row {1}
+invalid_coupon,Không tìm thấy phiếu giảm giá như vậy,No such coupon found,No such coupon found
+coupon_set_name_alreay_exists,tên bộ phiếu giảm giá đã tồn tại cho một phiếu giảm giá khác.,coupon set name already exists for another coupon.,coupon set name already exists for another coupon.
+applicable_item_limit_exceeded,Một hoặc nhiều phiếu giảm giá có nhiều hơn {0} mặt hàng áp dụng. Vui lòng liên hệ support@chargebee.com để biết thêm chi tiết.,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.
+invalid_subscription_state,Trạng thái đăng ký không hợp lệ để áp dụng / thay đổi phiếu giảm giá,Invalid subscription state to apply/change coupon,Invalid subscription state to apply/change coupon
+exceeded_allowed_coupon_set_limit,Chỉ cho phép {0} bộ phiếu giảm giá cho mỗi phiếu giảm giá.,Only {0} coupon sets allowed per coupon.,Only {0} coupon sets allowed per coupon.
+cannot_archive_redeemed_coupon_code,Không thể lưu trữ mã phiếu thưởng đã đổi,Cannot archive a redeemed coupon code,Cannot archive a redeemed coupon code
+two_coupons_of_same_type,Phiếu giảm giá này không thể được áp dụng cho đăng ký này. Vui lòng liên hệ với người bán để biết thêm chi tiết.,This coupon cannot be applied for this subscription. Please contact the seller for more details.,This coupon cannot be applied for this subscription. Please contact the seller for more details.
+no_such_coupon,Không có phiếu giảm giá nào như vậy {0} để đổi,No such coupon {0} to redeem,Coupon is not found
+coupon_not_applicable,Phiếu thưởng {0} không thể được áp dụng vì nó không áp dụng cho bất kỳ mặt hàng nào,Coupon {0} cannot be applied as it is not applicable to any of the items,Coupon is not applicable for any of the passed item
+no_coupon_code_found,Không có mã phiếu giảm giá nào được tìm thấy trong tệp.,No coupon codes found in the file.,No coupon codes found in the file.
+coupon_expired,Phiếu giảm giá đã áp dụng {0} đã hết hạn vào {1},Applied coupon {0} has already expired on {1},Applied coupon {0} has already expired on {1}
+invalid_request_with_no_coupon,Không có phiếu giảm giá nào được áp dụng cho đăng ký này,No coupons have been applied on this subscription,No coupons have been applied on this subscription
+could_not_read_the_file,Không thể đọc nội dung trong tệp CSV.,Could not able to read the content in CSV file.,Could not able to read the content in CSV file.
+invalid_coupon_code,Mã phiếu giảm giá không hợp lệ,Invalid coupon code,Invalid coupon code
+coupon_code_not_applicable_for_this_coupon,Mã phiếu giảm giá không áp dụng cho phiếu giảm giá này,Coupon code is not applicable for this coupon,Coupon code is not applicable for this coupon
+coupon_code_already_exists,Mã phiếu giảm giá đã tồn tại. Bản sao không được phép,Coupon code already exists. Duplicate not allowed,Coupon code already exists. Duplicate not allowed

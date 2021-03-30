@@ -1,6 +1,6 @@
 key,value,reference value,description
-quotes.tax_details.label,,Tax Details,Tax applicabality information header shown in quote document
-quotes.tax_details.show_tax.exclusive_info,,Please note that taxes applicable may change based on billing date and address at the time of invoicing.,Disclaimer message shown when taxes are added in quotes in exlc mode
-quotes.tax_details.no_tax.inclusive_info,,Prices are inclusive of taxes. You can view the tax breakup when the invoice is raised.,Disclaimer when taxes are not shown but applicable when invoicing
-quotes.tax_details.no_tax_exclusive_info,,Prices are not inclusive of taxes. Taxes will be applicable as per billing date and address at the time of invoicing.,Disclaimer when taxes are not shown but applicable when invocing
-quotes.tax_details.show_tax.inclusive_info,,Please note that taxes applicable may change based on billing date and address at the time of invoicing.,Disclaimer message shown in tax details when taxes are added in quote in inclusive mode
+quotes.tax_details.label,税务明细,Tax Details,Tax applicabality information header shown in quote document
+quotes.tax_details.show_tax.exclusive_info,请注意，适用的税费可能会根据开票时的开票日期和地址而变化。,Please note that taxes applicable may change based on billing date and address at the time of invoicing.,Disclaimer message shown when taxes are added in quotes in exlc mode
+quotes.tax_details.no_tax.inclusive_info,价格包括税收。发票增加后，您可以查看税收分流。,Prices are inclusive of taxes. You can view the tax breakup when the invoice is raised.,Disclaimer when taxes are not shown but applicable when invoicing
+quotes.tax_details.no_tax_exclusive_info,价格不包括税收。发票开票时，税款将按照开票日期和地址收取。,Prices are not inclusive of taxes. Taxes will be applicable as per billing date and address at the time of invoicing.,Disclaimer when taxes are not shown but applicable when invocing
+quotes.tax_details.show_tax.inclusive_info,请注意，适用的税费可能会根据开票时的开票日期和地址而变化。,Please note that taxes applicable may change based on billing date and address at the time of invoicing.,Disclaimer message shown in tax details when taxes are added in quote in inclusive mode

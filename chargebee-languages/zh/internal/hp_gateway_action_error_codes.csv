@@ -1,27 +1,27 @@
 key,value,reference value,description
-zero_decimal_update_gateway,,Using {0} gateway with the configured currency is not allowed.,Using {0} gateway with the configured currency is not allowed.
-paypal_not_supported,,Selected currency is not supported since you have configured PayPal Express Checkout.,Selected currency is not supported since you have configured PayPal Express Checkout.
-paypal_setup_error,,An error occured while redirecting to PayPal.,An error occured while redirecting to PayPal.
-currency_not_supported,,Currency configured in Chargebee is not supported by {0}.,Currency configured in Chargebee is not supported by {0}.
-invalid_credential_with_message,,{0},{0}
-gateway_credential_missing,,Problem in processing your payment. Please try after some time.,Problem in processing your payment. Please try after some time.
-gw_credential_verification_failed,,{0},{0}
-gateway_down_with_message,,Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0},Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0}
-wepay_not_supported,,wepay gateway is not supported for this operation.,wepay gateway is not supported for this operation.
-delete_card_error,,Problem occurred while deleting the payment method. Please try after some time.,Problem occurred while deleting the payment method. Please try after some time.
-gateway_in_active_state,,Payment gateway is already in active state,Payment gateway is already in active state
-zero_decimal_update_site,,Chargebee doesn''t support the selected currency with {0} gateway.,Chargebee doesn''t support the selected currency with {0} gateway.
-default_gateway_not_configured,,Default payment gateway not configured.,Default payment gateway not configured.
-remove_archived_gw_not_supported,,Payment gateway cannot be removed as it is archived.,Payment gateway cannot be removed as it is archived.
-bank_account_payment_gateway_not_configured,,This operation is not supported as there is no payment gateway configured for bank account.,This operation is not supported as there is no payment gateway configured for bank account.
-empty_card_type_list,,Accepted Card types cannot not be empty,Accepted Card types cannot not be empty
-default_gateway_not_supported,,Default option is not supported for this gateway.,Default option is not supported for this gateway.
-gateway_not_supported,,Selected currency is not supported since you have configured {0}.,Selected currency is not supported since you have configured {0}.
-payment_gateway_not_configured,,This operation is not supported as there is no payment gateway configured.,This operation is not supported as there is no payment gateway configured.
-gateway_not_supported_for_mcp,,Chargebee doesn''t support multicurrency feature for {0} gateway.,Chargebee doesn''t support multicurrency feature for {0} gateway.
-gateway_configuration_failed,,{0}.,{0}.
-forbidden_to_remove,,Payment gateway cannot be removed as there are active subscriptions.,Payment gateway cannot be removed as there are active subscriptions.
-gateway_down,,Communication failure occurred when trying to contact the gateway. Please try after some time,Communication failure occurred when trying to contact the gateway. Please try after some time
-gocardless_redirect_error,,An error occured while redirecting to GoCardless.,An error occured while redirecting to GoCardless.
-invalid_credential,,Please check the submitted credentials. Not able to access the gateway.,Please check the submitted credentials. Not able to access the gateway.
-gateway_already_configured,,This gateway is already configured for the site. Probable reason: {0},This gateway is already configured for the site. Probable reason: {0}
+zero_decimal_update_gateway,不允许将{0}网关与配置的货币一起使用。,Using {0} gateway with the configured currency is not allowed.,Using {0} gateway with the configured currency is not allowed.
+paypal_not_supported,由于您已配置PayPal Express Checkout，因此不支持所选货币。,Selected currency is not supported since you have configured PayPal Express Checkout.,Selected currency is not supported since you have configured PayPal Express Checkout.
+paypal_setup_error,重定向到PayPal时发生错误。,An error occured while redirecting to PayPal.,An error occured while redirecting to PayPal.
+currency_not_supported,{0}不支持在Chargebee中配置的货币。,Currency configured in Chargebee is not supported by {0}.,Currency configured in Chargebee is not supported by {0}.
+invalid_credential_with_message,{0},{0},{0}
+gateway_credential_missing,处理付款时出现问题。请稍后再试。,Problem in processing your payment. Please try after some time.,Problem in processing your payment. Please try after some time.
+gw_credential_verification_failed,{0},{0},{0}
+gateway_down_with_message,尝试联系网关时发生通信故障。请稍后再试。可能的原因：{0},Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0},Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0}
+wepay_not_supported,此操作不支持wepay网关。,wepay gateway is not supported for this operation.,wepay gateway is not supported for this operation.
+delete_card_error,删除付款方式时出现问题。请稍后再试。,Problem occurred while deleting the payment method. Please try after some time.,Problem occurred while deleting the payment method. Please try after some time.
+gateway_in_active_state,支付网关已经处于活动状态,Payment gateway is already in active state,Payment gateway is already in active state
+zero_decimal_update_site,Chargebee不支持使用{0}网关选择的货币。,Chargebee doesn''t support the selected currency with {0} gateway.,Chargebee doesn''t support the selected currency with {0} gateway.
+default_gateway_not_configured,未配置默认付款网关。,Default payment gateway not configured.,Default payment gateway not configured.
+remove_archived_gw_not_supported,付款网关已归档，因此无法删除。,Payment gateway cannot be removed as it is archived.,Payment gateway cannot be removed as it is archived.
+bank_account_payment_gateway_not_configured,不支持此操作，因为没有为银行帐户配置付款网关。,This operation is not supported as there is no payment gateway configured for bank account.,This operation is not supported as there is no payment gateway configured for bank account.
+empty_card_type_list,接受的卡类型不能为空,Accepted Card types cannot not be empty,Accepted Card types cannot not be empty
+default_gateway_not_supported,该网关不支持默认选项。,Default option is not supported for this gateway.,Default option is not supported for this gateway.
+gateway_not_supported,由于已配置{0}，因此不支持所选货币。,Selected currency is not supported since you have configured {0}.,Selected currency is not supported since you have configured {0}.
+payment_gateway_not_configured,由于未配置付款网关，因此不支持此操作。,This operation is not supported as there is no payment gateway configured.,This operation is not supported as there is no payment gateway configured.
+gateway_not_supported_for_mcp,Chargebee不支持{0}网关的多币种功能。,Chargebee doesn''t support multicurrency feature for {0} gateway.,Chargebee doesn''t support multicurrency feature for {0} gateway.
+gateway_configuration_failed,{0}。,{0}.,{0}.
+forbidden_to_remove,由于存在有效的订阅，因此无法删除支付网关。,Payment gateway cannot be removed as there are active subscriptions.,Payment gateway cannot be removed as there are active subscriptions.
+gateway_down,[object Object],Communication failure occurred when trying to contact the gateway. Please try after some time,Communication failure occurred when trying to contact the gateway. Please try after some time
+gocardless_redirect_error,重定向到GoCardless时发生错误。,An error occured while redirecting to GoCardless.,An error occured while redirecting to GoCardless.
+invalid_credential,请检查提交的凭据。无法访问网关。,Please check the submitted credentials. Not able to access the gateway.,Please check the submitted credentials. Not able to access the gateway.
+gateway_already_configured,该网关已经为站点配置。可能的原因：{0},This gateway is already configured for the site. Probable reason: {0},This gateway is already configured for the site. Probable reason: {0}

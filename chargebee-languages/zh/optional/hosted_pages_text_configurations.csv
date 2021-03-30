@@ -1,92 +1,92 @@
 key,value,reference value,description
-cbjs_grp.bank,,Bank,Bank
-cbjs_grp.select_bank,,Select Bank,Select Bank
-cbjs_grp.list_supported_bank,,Fetching list of supported banks,Fetching list of supported banks
-inapp_checkout.customer.header,,Add your account details,Add your account details
-inapp_checkout.customer.header.edit,,Editing account details,Editing account details
-inapp_checkout.customer.update,,Update,Update
-inapp_checkout.customer.next,,Next,Next
-inapp_checkout.billing_address.header,,Add your billing address,Add your billing address
-inapp_checkout.billing_address.header.edit,,Editing billing address,Editing billing address
-inapp_checkout.billing_address.update,,Update,Update
-inapp_checkout.billing_address.next,,Next,Next
-inapp_checkout.shipping_address.header,,Add your shipping address,Add your shipping address
-inapp_checkout.shipping_address.header.edit,,Editing shipping address,Editing shipping address
-inapp_checkout.shipping_address.update,,Update,Update
-inapp_checkout.shipping_address.next,,Next,Next
-inapp_checkout.choose_sa.header,,Choose Shipping address,Choose Shipping address
-inapp_checkout.billing_address.copy_to_shipping,,Ship to my billing address,Ship to my billing address
-inapp_checkout.shipping_address.choose.add,,Add New,Add New
-inapp_checkout.payment_method.choose.add,,Add Payment Method,Add Payment Method
-inapp_checkout.payment_method.header,,Add your payment details,Add your payment details
-inapp_checkout.payment_method.header.edit,,Editing payment details,Editing payment details
-inapp_checkout.payment_method.header.select,,Select a payment method,Select a payment method
-inapp_checkout.payment_method.footer.choose,,Choose a different payment method,Choose a different payment method
-inapp_checkout.payment_method.update,,Update,Update
-inapp_checkout.payment_method.next,,Next,Next
-inapp_checkout.subscription.header,,Add your subscription details,Add your subscription details
-inapp_checkout.invoice.header,,Add your purchase details,Add your purchase details
-inapp_checkout.subscription.header.edit,,Editing Subscription Details,Editing Subscription Details
-inapp_checkout.invoice.header.edit,,Editing Purchase Details,Editing Purchase Details
-inapp_checkout.subscription.update,,Update,Update
-inapp_checkout.invoice.update,,Update,Update
-inapp_checkout.subscription.next,,Next,Next
-inapp_checkout.invoice.next,,Next,Next
-inapp_checkout.review.header,,Complete your order,Complete your order
-inapp_checkout.pay_review.header,,Complete your order,Complete your order
-inapp_checkout.review.subscribe_btn.current_charge_present.txt,,Pay %{amount} & subscribe,Pay %{amount} & subscribe
-inapp_checkout.review.subscribe_btn.current_charge_zero.txt,,Subscribe,Subscribe
-inapp_checkout.review.order.header,,Order summary,Order summary
-inapp_checkout.review.account.header,,Account,Account
-inapp_checkout.review.billing.header,,Billing,Billing
-inapp_checkout.review.shipping.header,,Shipping,Shipping
-inapp_checkout.review.billing_shipping.header,,Billing & Shipping,Billing & Shipping
-inapp_checkout.review.subscription.header,,Subscription Details,Subscription Details
-inapp_checkout.review.invoice.header,,Purchase Details,Purchase Details
-inapp_checkout.review.pm.header,,Payment,Payment
-inapp_checkout.review.more,,Review Details,Review Details
-inapp_checkout.shipping_address.header.choose,,Choose Shipping Address,Choose Shipping Address
-inapp_checkout.choose_pm.header,,Choose Payment Method,Choose Payment Method
-inapp_checkout.coupon.apply,,Apply,Apply
-inapp_checkout.coupon.label,,Apply coupon,Apply coupon
-inapp_checkout.coupon.placeholder,,Enter coupon code,Enter coupon code
-inapp_checkout.cart.header.edit,,Edit order,Edit order
-inapp_checkout.cart.header,,Your order,Your order
-inapp_checkout.cart.next,,Proceed To Checkout,Proceed To Checkout
-inapp_checkout.cart.remove,,Remove,Remove
-inapp_checkout.cart.recommended_addon_title,,Recommended addons,Recommended addons
-inapp_checkout.payment_method.card.display_name,,Card,Card
-inapp_checkout.payment_method.paypal.display_name,,PayPal,PayPal
+cbjs_grp.bank,银行,Bank,Bank
+cbjs_grp.select_bank,选择银行,Select Bank,Select Bank
+cbjs_grp.list_supported_bank,正在获取支持的银行列表,Fetching list of supported banks,Fetching list of supported banks
+inapp_checkout.customer.header,添加您的帐户详细信息,Add your account details,Add your account details
+inapp_checkout.customer.header.edit,编辑帐户详细信息,Editing account details,Editing account details
+inapp_checkout.customer.update,更新,Update,Update
+inapp_checkout.customer.next,下一个,Next,Next
+inapp_checkout.billing_address.header,添加您的帐单地址,Add your billing address,Add your billing address
+inapp_checkout.billing_address.header.edit,编辑帐单地址,Editing billing address,Editing billing address
+inapp_checkout.billing_address.update,更新,Update,Update
+inapp_checkout.billing_address.next,下一个,Next,Next
+inapp_checkout.shipping_address.header,添加您的收货地址,Add your shipping address,Add your shipping address
+inapp_checkout.shipping_address.header.edit,编辑收货地址,Editing shipping address,Editing shipping address
+inapp_checkout.shipping_address.update,更新,Update,Update
+inapp_checkout.shipping_address.next,下一个,Next,Next
+inapp_checkout.choose_sa.header,选择收货地址,Choose Shipping address,Choose Shipping address
+inapp_checkout.billing_address.copy_to_shipping,运送到我的帐单地址,Ship to my billing address,Ship to my billing address
+inapp_checkout.shipping_address.choose.add,添新,Add New,Add New
+inapp_checkout.payment_method.choose.add,添加付款方式,Add Payment Method,Add Payment Method
+inapp_checkout.payment_method.header,添加您的付款明细,Add your payment details,Add your payment details
+inapp_checkout.payment_method.header.edit,编辑付款明细,Editing payment details,Editing payment details
+inapp_checkout.payment_method.header.select,选择付款方式,Select a payment method,Select a payment method
+inapp_checkout.payment_method.footer.choose,选择其他付款方式,Choose a different payment method,Choose a different payment method
+inapp_checkout.payment_method.update,更新,Update,Update
+inapp_checkout.payment_method.next,下一个,Next,Next
+inapp_checkout.subscription.header,添加您的订阅详细信息,Add your subscription details,Add your subscription details
+inapp_checkout.invoice.header,添加您的购买详细信息,Add your purchase details,Add your purchase details
+inapp_checkout.subscription.header.edit,编辑订阅详细信息,Editing Subscription Details,Editing Subscription Details
+inapp_checkout.invoice.header.edit,编辑购买明细,Editing Purchase Details,Editing Purchase Details
+inapp_checkout.subscription.update,更新,Update,Update
+inapp_checkout.invoice.update,更新,Update,Update
+inapp_checkout.subscription.next,下一个,Next,Next
+inapp_checkout.invoice.next,下一个,Next,Next
+inapp_checkout.review.header,完成您的订单,Complete your order,Complete your order
+inapp_checkout.pay_review.header,完成您的订单,Complete your order,Complete your order
+inapp_checkout.review.subscribe_btn.current_charge_present.txt,支付 %{amount}并订阅,Pay %{amount} & subscribe,Pay %{amount} & subscribe
+inapp_checkout.review.subscribe_btn.current_charge_zero.txt,订阅,Subscribe,Subscribe
+inapp_checkout.review.order.header,订单摘要,Order summary,Order summary
+inapp_checkout.review.account.header,帐户,Account,Account
+inapp_checkout.review.billing.header,开票,Billing,Billing
+inapp_checkout.review.shipping.header,船运,Shipping,Shipping
+inapp_checkout.review.billing_shipping.header,计费与运输,Billing & Shipping,Billing & Shipping
+inapp_checkout.review.subscription.header,订阅详情,Subscription Details,Subscription Details
+inapp_checkout.review.invoice.header,采购明细,Purchase Details,Purchase Details
+inapp_checkout.review.pm.header,支付,Payment,Payment
+inapp_checkout.review.more,评论详情,Review Details,Review Details
+inapp_checkout.shipping_address.header.choose,选择收货地址,Choose Shipping Address,Choose Shipping Address
+inapp_checkout.choose_pm.header,选择付款方式,Choose Payment Method,Choose Payment Method
+inapp_checkout.coupon.apply,申请,Apply,Apply
+inapp_checkout.coupon.label,申请优惠券,Apply coupon,Apply coupon
+inapp_checkout.coupon.placeholder,输入优惠券代码,Enter coupon code,Enter coupon code
+inapp_checkout.cart.header.edit,修改订单,Edit order,Edit order
+inapp_checkout.cart.header,你的订单,Your order,Your order
+inapp_checkout.cart.next,进行结算,Proceed To Checkout,Proceed To Checkout
+inapp_checkout.cart.remove,去掉,Remove,Remove
+inapp_checkout.cart.recommended_addon_title,推荐的插件,Recommended addons,Recommended addons
+inapp_checkout.payment_method.card.display_name,卡片,Card,Card
+inapp_checkout.payment_method.paypal.display_name,PayPal,PayPal,PayPal
 inapp_checkout.thankyou.header,,,
 inapp_checkout.thankyou.body,,,
-inapp_checkout.thankyou.close,,CLOSE,CLOSE
-inapp_checkout.otp.enter,,Enter your six-digit one time password,Enter your six-digit one time password
-inapp_checkout.password.enter,,Enter your password,Enter your password
-inapp_checkout.otp.resend,,Resend the one time password,Resend the one time password
-inapp_checkout.login.via_otp,,Login via one time password,Login via one time password
-inapp_checkout.otp.enter_password,,Enter password instead,Enter password instead
-inapp_checkout.otp_resend.notify,,New one time password send to your email address,New one time password send to your email address
-inapp_checkout.checkuser.error.multiple_subscriptions_not_allowed,,You already have a subscription with us,You already have a subscription with us
-inapp_checkout.otp.guest,,Proceed as guest,Proceed as guest
-inapp_checkout.checkuser.email,,Enter email to proceed,Enter email to proceed
-inapp_checkout.checkuser.next,,Next,Next
-inapp_checkout.modal_button.confirm,,Confirm,Confirm
-inapp_checkout.modal_button.cancel,,Cancel,Cancel
-inapp_checkout.po_number.label,,PO Number,PO Number
+inapp_checkout.thankyou.close,关闭,CLOSE,CLOSE
+inapp_checkout.otp.enter,输入您的六位数一次性密码,Enter your six-digit one time password,Enter your six-digit one time password
+inapp_checkout.password.enter,输入密码,Enter your password,Enter your password
+inapp_checkout.otp.resend,重新发送一次密码,Resend the one time password,Resend the one time password
+inapp_checkout.login.via_otp,通过一次密码登录,Login via one time password,Login via one time password
+inapp_checkout.otp.enter_password,请输入密码,Enter password instead,Enter password instead
+inapp_checkout.otp_resend.notify,新的一次性密码发送到您的电子邮件地址,New one time password send to your email address,New one time password send to your email address
+inapp_checkout.checkuser.error.multiple_subscriptions_not_allowed,您已经有我们的订阅,You already have a subscription with us,You already have a subscription with us
+inapp_checkout.otp.guest,继续做客,Proceed as guest,Proceed as guest
+inapp_checkout.checkuser.email,输入电子邮件以继续,Enter email to proceed,Enter email to proceed
+inapp_checkout.checkuser.next,下一个,Next,Next
+inapp_checkout.modal_button.confirm,确认,Confirm,Confirm
+inapp_checkout.modal_button.cancel,取消,Cancel,Cancel
+inapp_checkout.po_number.label,订单号,PO Number,PO Number
 inapp_checkout.items_in_total.custom_label,,,
 inapp_checkout.discounts_applied.label,,,
-inapp_checkout.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-inapp_checkout.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-inapp_checkout.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-inapp_checkout.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-inapp_checkout.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-inapp_checkout.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-inapp_checkout.card.billing_address,,Use my billing address as card address,Use my billing address as card address
-inapp_checkout.card.shipping_address,,Use my shipping address as card address,Use my shipping address as card address
-inapp_checkout.item.breakdown.show,,See Details,See Details
-inapp_checkout.item.breakdown.hide,,Hide Details,Hide Details
-inapp_checkout.cart.trial.info,,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
-inapp_checkout.cart.note.plan.trial,,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
+inapp_checkout.payment_method.bacs.guarantee.header,返回付款,Back to Payment,Back to Payment
+inapp_checkout.payment_method.bank_account.btn.proceed_to_review,继续进行审查,Proceed to Review,Proceed to Review
+inapp_checkout.payment_method.bank_account.btn.enter_iban,输入IBAN,Enter IBAN,Enter IBAN
+inapp_checkout.payment_method.bank_account.btn.enter_local_details,输入当地银行的详细信息,Enter local bank details,Enter local bank details
+inapp_checkout.payment_method.bank_account.btn.enter_your_name,输入你的名字,Enter your name,Enter your name
+inapp_checkout.payment_method.bank_account.btn.enter_company_name,输入公司名称,Enter company name,Enter company name
+inapp_checkout.card.billing_address,使用我的帐单地址作为卡地址,Use my billing address as card address,Use my billing address as card address
+inapp_checkout.card.shipping_address,使用我的收货地址作为卡地址,Use my shipping address as card address,Use my shipping address as card address
+inapp_checkout.item.breakdown.show,阅读详情,See Details,See Details
+inapp_checkout.item.breakdown.hide,隐藏细节,Hide Details,Hide Details
+inapp_checkout.cart.trial.info,试用 %{plan_trial_period}后，您需要付费。,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
+inapp_checkout.cart.note.plan.trial,试用 %{plan_trial_period}后，您需要付费。,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
 inapp_checkout.review.note.plan.trial,,,
 inapp_checkout.payment_method.note.plan.trial,,,
 inapp_checkout.cart.note.plan.no_trial,,,
@@ -96,270 +96,270 @@ inapp_checkout.customer.note,,,
 inapp_checkout.subscription.note,,,
 inapp_checkout.shipping_address.note,,,
 inapp_checkout.billing_address.note,,,
-inapp_checkout.cart.pay_now.label,,Pay now,Pay now
-inapp_checkout.cart.next_charge.label,,Next charge on %{date},Next charge on %{date}
-inapp_checkout.order_summary.charge_now.label,,Chargeable now,Chargeable now
-inapp_checkout.order_summary.next_charge.label,,Charges on %{date},Charges on %{date}
-inapp_checkout.order.edit.link,,Edit order,Edit order
-inapp_checkout.estimate_display_screen.header,,Your order summary,Your order summary
-inapp_checkout.credits_applied.label,,Credits applied,Credits applied
-inapp_checkout.non_rec_addon.tag,,ONE-TIME,ONE-TIME
-inapp_checkout.coupon.description,,%{amount} coupon applied,%{amount} coupon applied
-inapp_checkout.free_quantity.description,,%{units} units free,%{units} units free
-inapp_checkout.referral.title,,Refer your friends,Refer your friends
-inapp_checkout.referral.cb_reward,,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.
-inapp_checkout.referral.custom_reward,,Refer your friends and we will reward you when they purchase their first subscription.,Refer your friends and we will reward you when they purchase their first subscription.
-inapp_checkout.referral.friend_discount,,Your friend will get %{referral_friend_discount} discount.,Your friend will get %{referral_friend_discount} discount.
-inapp_checkout.referral.link_label,,Your referral link,Your referral link
-inapp_checkout.review.threedsWarning.non_trial,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_checkout.review.threedsWarning.trial,,"You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
-inapp_checkout.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_checkout.otp_email.subject,,Your One Time Password (OTP),Your One Time Password (OTP)
-inapp_checkout.otp_email.salutation,,"Hi there,","Hi there,"
-inapp_checkout.otp_email.otp_line,,%{otp} is your one time password,%{otp} is your one time password
-inapp_checkout.otp_email.desc,,The one time password is valid for 5 minutes from the time it is generated.,The one time password is valid for 5 minutes from the time it is generated.
-inapp_checkout.otp_sms.body,,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.
-inapp_checkout.multi_decimal.quantity.error,,Enter valid quantity,Enter valid quantity
-inapp_checkout.qty,,Qty,Qty
-inapp_checkout.review.opm.cash.desc,,You can make the payment by cash,You can make the payment by cash
-inapp_checkout.review.opm.check.desc,,You can find the payment transfer details as part of the invoice,You can find the payment transfer details as part of the invoice
-inapp_checkout.review.opm.bank_transfer.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.review.opm.ach_credit.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.review.opm.sepa_credit.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.pm.consent.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.
-inapp_checkout.pm.never.save.txt,,Your payment information will not be saved in our system.,Your payment information will not be saved in our system.
-inapp_portal.recommended.addon.tag,,RECOMMENDED,RECOMMENDED
-inapp_portal.home.header,,Manage Subscriptions,Manage Subscriptions
-inapp_portal.locale.label,,Locale,Locale
-inapp_portal.home.footer,,Questions? Our Support Team would be glad to help,Questions? Our Support Team would be glad to help
-inapp_portal.home.account.link_text,,Account Information,Account Information
-inapp_portal.home.address.link_text,,Billing & Shipping Addresses,Billing & Shipping Addresses
-inapp_portal.home.payment_methods.link_text,,Payment Methods,Payment Methods
-inapp_portal.home.billing_history.link_text,,Billing History,Billing History
-inapp_portal.back,,Back,Back
-inapp_portal.subscription.header,,Subscription Details,Subscription Details
-inapp_portal.subscription.header.edit,,Edit Subscription Details,Edit Subscription Details
-inapp_portal.subscription.header.review,,Review subscription changes,Review subscription changes
-inapp_portal.account.header,,Account Details,Account Details
-inapp_portal.account.edit.txt,,Editing account details,Editing account details
-inapp_portal.account.header.edit,,Update your account details,Update your account details
-inapp_portal.account.header.edit.submit,,Update,Update
-inapp_portal.address.header,,Billing & Shipping Addresses,Billing & Shipping Addresses
-inapp_portal.address.billing.txt,,Billing,Billing
-inapp_portal.address.billing.edit.txt,,Editing billing details,Editing billing details
-inapp_portal.address.billing.add.txt,,Add your billing details,Add your billing details
-inapp_portal.address.shipping.txt,,Shipping,Shipping
-inapp_portal.address.shipping.edit.txt,,Editing shipping details,Editing shipping details
-inapp_portal.address.billing.header.edit,,Update your billing details,Update your billing details
-inapp_portal.address.billing.header.edit.submit,,Update,Update
-inapp_portal.address.shipping.header.edit,,Update your shipping details,Update your shipping details
-inapp_portal.address.shipping.header.edit.submit,,Update,Update
-inapp_portal.payment_method.header,,Payment Methods,Payment Methods
-inapp_portal.payment_method.link.add,,Add New,Add New
-inapp_portal.payment_method.link.add_new,,Add a payment method,Add a payment method
-inapp_portal.payment_method.header.add,,Add a payment method,Add a payment method
-inapp_portal.payment_method.header.select,,Select a payment method,Select a payment method
-inapp_portal.payment_method.footer.choose,,Choose a different payment method,Choose a different payment method
-inapp_portal.payment_method.header.add.submit,,Add,Add
-inapp_portal.payment_method.header.edit,,Update your payment method,Update your payment method
-inapp_portal.payment_method.header.edit.submit,,Update,Update
-inapp_portal.payment_method.header.verify,,Verify payment method,Verify payment method
-inapp_portal.payment_method.header.verify.submit,,Verify,Verify
-inapp_portal.billing_history.header,,Billing history,Billing history
-inapp_portal.billing_history.download,,Download,Download
-inapp_portal.billing_history.none,,No invoices to display,No invoices to display
-inapp_portal.subscription.header.edit.submit,,Review,Review
-inapp_portal.subscription.header.review.submit,,Update Subscription,Update Subscription
-inapp_portal.subscription.header.choose_pm,,Choose your payment method for this subscription,Choose your payment method for this subscription
-inapp_portal.subscription.update_sub_pm,,Update,Update
-inapp_portal.subscription.cancel.link.txt,,Cancel Subscription,Cancel Subscription
-inapp_portal.subscription.next.renewing_estimate.now,,You will be charged %{amount} for prorated charges via,You will be charged %{amount} for prorated charges via
-inapp_portal.subscription.next.renewing_estimate.eot.non_recurring,,You will be charged %{amount} via,You will be charged %{amount} via
-inapp_portal.subscription.next.renewing_estimate.eot,,You will be charged %{amount} every %{billing_period} via,You will be charged %{amount} every %{billing_period} via
-inapp_portal.subscription.next.renewing_estimate.eot.with_date,,Your next charge %{amount} will be on %{date} via,Your next charge %{amount} will be on %{date} via
-inapp_portal.subscription.next.credits_created.now,,You will not be charged for this change and %{amount} will be added as refundable credits,You will not be charged for this change and %{amount} will be added as refundable credits
-inapp_portal.subscription.details.trial.info,,"You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan","You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan"
-inapp_portal.subscription.details.cancellation_scheduled.info,,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
-inapp_portal.subscription.next.renewing_estimate.now_zero,," %{amount} charged from available credits."," %{amount} charged from available credits."
-inapp_portal.subscription.details.trial.info_today,,You trial will end today and you’ll be moved to the %{plan_name} plan,You trial will end today and you’ll be moved to the %{plan_name} plan
+inapp_checkout.cart.pay_now.label,现在付款,Pay now,Pay now
+inapp_checkout.cart.next_charge.label,下一次收取 %{date}的费用,Next charge on %{date},Next charge on %{date}
+inapp_checkout.order_summary.charge_now.label,立即收费,Chargeable now,Chargeable now
+inapp_checkout.order_summary.next_charge.label,在 %{date}收费,Charges on %{date},Charges on %{date}
+inapp_checkout.order.edit.link,修改订单,Edit order,Edit order
+inapp_checkout.estimate_display_screen.header,你的订单概要,Your order summary,Your order summary
+inapp_checkout.credits_applied.label,学分申请,Credits applied,Credits applied
+inapp_checkout.non_rec_addon.tag,一度,ONE-TIME,ONE-TIME
+inapp_checkout.coupon.description,已应用 %{amount}个优惠券,%{amount} coupon applied,%{amount} coupon applied
+inapp_checkout.free_quantity.description, %{units}个免费单位,%{units} units free,%{units} units free
+inapp_checkout.referral.title,推荐你的朋友,Refer your friends,Refer your friends
+inapp_checkout.referral.cb_reward,推荐您的朋友，当他们购买第一个订阅时，我们会给您 %{referral_credits}。,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.
+inapp_checkout.referral.custom_reward,推荐您的朋友，当他们购买他们的第一个订阅时，我们将奖励您。,Refer your friends and we will reward you when they purchase their first subscription.,Refer your friends and we will reward you when they purchase their first subscription.
+inapp_checkout.referral.friend_discount,您的朋友将获得%{referral_friend_discount}的折扣。,Your friend will get %{referral_friend_discount} discount.,Your friend will get %{referral_friend_discount} discount.
+inapp_checkout.referral.link_label,您的推荐链接,Your referral link,Your referral link
+inapp_checkout.review.threedsWarning.non_trial,您可能会被重定向到您的银行页面以进行3D安全验证。,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_checkout.review.threedsWarning.trial,您可能会被重定向到您的银行页面以进行3D安全验证，并可能为此收取代币金额，并将自动全额退款。,"You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
+inapp_checkout.3ds.auth.txt,我授权 %{organisation_name}保存此付款方式，并在与订阅相关联时自动为此付款方式收费。,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_checkout.otp_email.subject,您的一次性密码（OTP）,Your One Time Password (OTP),Your One Time Password (OTP)
+inapp_checkout.otp_email.salutation,你好呀，,"Hi there,","Hi there,"
+inapp_checkout.otp_email.otp_line, %{otp}是您的一次性密码,%{otp} is your one time password,%{otp} is your one time password
+inapp_checkout.otp_email.desc,一次性密码从生成之日起有效期为5分钟。,The one time password is valid for 5 minutes from the time it is generated.,The one time password is valid for 5 minutes from the time it is generated.
+inapp_checkout.otp_sms.body, %{otp}是您的一次性密码。一次性密码从生成之日起有效期为5分钟。,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.
+inapp_checkout.multi_decimal.quantity.error,输入有效数量,Enter valid quantity,Enter valid quantity
+inapp_checkout.qty,数量,Qty,Qty
+inapp_checkout.review.opm.cash.desc,您可以用现金付款,You can make the payment by cash,You can make the payment by cash
+inapp_checkout.review.opm.check.desc,您可以在发票中找到付款转帐详细信息,You can find the payment transfer details as part of the invoice,You can find the payment transfer details as part of the invoice
+inapp_checkout.review.opm.bank_transfer.desc,您可以付款到发票中显示的银行帐户详细信息,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.review.opm.ach_credit.desc,您可以付款到发票中显示的银行帐户详细信息,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.review.opm.sepa_credit.desc,您可以付款到发票中显示的银行帐户详细信息,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.pm.consent.txt,我授权 %{organisation_name}保存此付款方式，并为与该付款方式相关的任何将来的交易自动收取此付款方式的费用。,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.
+inapp_checkout.pm.never.save.txt,您的付款信息将不会保存在我们的系统中。,Your payment information will not be saved in our system.,Your payment information will not be saved in our system.
+inapp_portal.recommended.addon.tag,受到推崇的,RECOMMENDED,RECOMMENDED
+inapp_portal.home.header,管理订阅,Manage Subscriptions,Manage Subscriptions
+inapp_portal.locale.label,区域设置,Locale,Locale
+inapp_portal.home.footer,问题？我们的支持团队很乐意为您提供帮助,Questions? Our Support Team would be glad to help,Questions? Our Support Team would be glad to help
+inapp_portal.home.account.link_text,帐户信息,Account Information,Account Information
+inapp_portal.home.address.link_text,账单和收货地址,Billing & Shipping Addresses,Billing & Shipping Addresses
+inapp_portal.home.payment_methods.link_text,支付方式,Payment Methods,Payment Methods
+inapp_portal.home.billing_history.link_text,帐单记录,Billing History,Billing History
+inapp_portal.back,后退,Back,Back
+inapp_portal.subscription.header,订阅详情,Subscription Details,Subscription Details
+inapp_portal.subscription.header.edit,编辑订阅详细信息,Edit Subscription Details,Edit Subscription Details
+inapp_portal.subscription.header.review,查看订阅更改,Review subscription changes,Review subscription changes
+inapp_portal.account.header,帐户详细资料,Account Details,Account Details
+inapp_portal.account.edit.txt,编辑帐户详细信息,Editing account details,Editing account details
+inapp_portal.account.header.edit,更新您的帐户详细信息,Update your account details,Update your account details
+inapp_portal.account.header.edit.submit,更新,Update,Update
+inapp_portal.address.header,账单和收货地址,Billing & Shipping Addresses,Billing & Shipping Addresses
+inapp_portal.address.billing.txt,开票,Billing,Billing
+inapp_portal.address.billing.edit.txt,编辑帐单明细,Editing billing details,Editing billing details
+inapp_portal.address.billing.add.txt,添加您的帐单明细,Add your billing details,Add your billing details
+inapp_portal.address.shipping.txt,船运,Shipping,Shipping
+inapp_portal.address.shipping.edit.txt,编辑运送详细资料,Editing shipping details,Editing shipping details
+inapp_portal.address.billing.header.edit,更新您的帐单明细,Update your billing details,Update your billing details
+inapp_portal.address.billing.header.edit.submit,更新,Update,Update
+inapp_portal.address.shipping.header.edit,更新您的运送详细信息,Update your shipping details,Update your shipping details
+inapp_portal.address.shipping.header.edit.submit,更新,Update,Update
+inapp_portal.payment_method.header,支付方式,Payment Methods,Payment Methods
+inapp_portal.payment_method.link.add,添新,Add New,Add New
+inapp_portal.payment_method.link.add_new,添加付款方式,Add a payment method,Add a payment method
+inapp_portal.payment_method.header.add,添加付款方式,Add a payment method,Add a payment method
+inapp_portal.payment_method.header.select,选择付款方式,Select a payment method,Select a payment method
+inapp_portal.payment_method.footer.choose,选择其他付款方式,Choose a different payment method,Choose a different payment method
+inapp_portal.payment_method.header.add.submit,添加,Add,Add
+inapp_portal.payment_method.header.edit,更新您的付款方式,Update your payment method,Update your payment method
+inapp_portal.payment_method.header.edit.submit,更新,Update,Update
+inapp_portal.payment_method.header.verify,验证付款方式,Verify payment method,Verify payment method
+inapp_portal.payment_method.header.verify.submit,核实,Verify,Verify
+inapp_portal.billing_history.header,帐单记录,Billing history,Billing history
+inapp_portal.billing_history.download,下载,Download,Download
+inapp_portal.billing_history.none,没有一张或多张发票要显示,No invoices to display,No invoices to display
+inapp_portal.subscription.header.edit.submit,审查,Review,Review
+inapp_portal.subscription.header.review.submit,更新订阅,Update Subscription,Update Subscription
+inapp_portal.subscription.header.choose_pm,选择此订阅的付款方式,Choose your payment method for this subscription,Choose your payment method for this subscription
+inapp_portal.subscription.update_sub_pm,更新,Update,Update
+inapp_portal.subscription.cancel.link.txt,取消订阅,Cancel Subscription,Cancel Subscription
+inapp_portal.subscription.next.renewing_estimate.now,您将通过收取 %{amount}的按比例收费,You will be charged %{amount} for prorated charges via,You will be charged %{amount} for prorated charges via
+inapp_portal.subscription.next.renewing_estimate.eot.non_recurring,您将通过收取 %{amount}的费用,You will be charged %{amount} via,You will be charged %{amount} via
+inapp_portal.subscription.next.renewing_estimate.eot,您将通过每个 %{billing_period}向您收取 %{amount},You will be charged %{amount} every %{billing_period} via,You will be charged %{amount} every %{billing_period} via
+inapp_portal.subscription.next.renewing_estimate.eot.with_date,您的下一次收费 %{amount}将于 %{date}通过,Your next charge %{amount} will be on %{date} via,Your next charge %{amount} will be on %{date} via
+inapp_portal.subscription.next.credits_created.now,我们不会向您收取此更改的费用，并且 %{amount}将作为可退还的信用额添加,You will not be charged for this change and %{amount} will be added as refundable credits,You will not be charged for this change and %{amount} will be added as refundable credits
+inapp_portal.subscription.details.trial.info,您还有%{remaining_trial_period}试用期。试用期结束后，您将被转到%{plan_name}方案,"You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan","You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan"
+inapp_portal.subscription.details.cancellation_scheduled.info,您的订阅将在 %{date}被取消,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
+inapp_portal.subscription.next.renewing_estimate.now_zero, 从可用的信用中扣除 %{amount}。, %{amount} charged from available credits., %{amount} charged from available credits.
+inapp_portal.subscription.details.trial.info_today,试用期将在今天结束，您将被移至 %{plan_name}计划,You trial will end today and you’ll be moved to the %{plan_name} plan,You trial will end today and you’ll be moved to the %{plan_name} plan
 inapp_portal.subscription.details.active.info,,,
-inapp_portal.subscription.details.non_renewing.info,,Your subscription will end on %{date},Your subscription will end on %{date}
-inapp_portal.subscription.details.cancelled.info,,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription
-inapp_portal.subscription.details.paused.info,,Your subscription is currently paused.,Your subscription is currently paused.
-inapp_portal.subscription.details.future.info,,Your subscription will start on %{date},Your subscription will start on %{date}
-inapp_portal.subscription.edit.txt,,Edit Subscription,Edit Subscription
-inapp_portal.choose_change_subscription.header,,Change subscription,Change subscription
-inapp_portal.subscription.edit.chooser_question,,When do you want to change the subscription?,When do you want to change the subscription?
-inapp_portal.subscription.change.immediately.option,,Change immediately,Change immediately
-inapp_portal.subscription.change.eot.option,,Change on next renewal(%{date}),Change on next renewal(%{date})
-inapp_portal.subscription.change.specific_date.option,,Change on a specific date,Change on a specific date
-inapp_portal.subscription.change.option.submit,,Change subscription,Change subscription
-inapp_portal.subscription.change.options.proceed,,proceed,proceed
-inapp_portal.subscription.cancel.specific_date.option,,Cancel on a specific date,Cancel on a specific date
-inapp_portal.remove_scheduled_changes.txt,,Remove scheduled changes,Remove scheduled changes
-inapp_portal.subscription.remove_scheduled_cancellation.link_txt,,Remove scheduled cancellation,Remove scheduled cancellation
-inapp_portal.remove_scheduled_changes.info,,These changes will be applied to your subscription from next renewal( %{date} ),These changes will be applied to your subscription from next renewal( %{date} )
-inapp_portal.payment_method.header.view,,Payment Method Details,Payment Method Details
-inapp_portal.payment_method.view.remove,,Remove Payment Method,Remove Payment Method
-inapp_portal.payment_method.view.edit,,Edit Payment Method,Edit Payment Method
-inapp_portal.payment_method.view.remove_prompt,,Are you sure you want to remove this payment method?,Are you sure you want to remove this payment method?
-inapp_portal.subscription_cf.header.edit,,Update your subscription details,Update your subscription details
-inapp_portal.subscription_cf.header.edit.submit,,Update,Update
+inapp_portal.subscription.details.non_renewing.info,您的订阅将在 %{date}结束,Your subscription will end on %{date},Your subscription will end on %{date}
+inapp_portal.subscription.details.cancelled.info,取消。您的订阅已被取消。与我们联系以重新激活您的订阅,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription
+inapp_portal.subscription.details.paused.info,您的订阅目前已暂停。,Your subscription is currently paused.,Your subscription is currently paused.
+inapp_portal.subscription.details.future.info,您的订阅将从 %{date}开始,Your subscription will start on %{date},Your subscription will start on %{date}
+inapp_portal.subscription.edit.txt,编辑订阅,Edit Subscription,Edit Subscription
+inapp_portal.choose_change_subscription.header,变更订阅,Change subscription,Change subscription
+inapp_portal.subscription.edit.chooser_question,您何时要更改订阅？,When do you want to change the subscription?,When do you want to change the subscription?
+inapp_portal.subscription.change.immediately.option,立即更改,Change immediately,Change immediately
+inapp_portal.subscription.change.eot.option,下次续订时更改（ %{date}）,Change on next renewal(%{date}),Change on next renewal(%{date})
+inapp_portal.subscription.change.specific_date.option,在特定日期更改,Change on a specific date,Change on a specific date
+inapp_portal.subscription.change.option.submit,变更订阅,Change subscription,Change subscription
+inapp_portal.subscription.change.options.proceed,继续,proceed,proceed
+inapp_portal.subscription.cancel.specific_date.option,在特定日期取消,Cancel on a specific date,Cancel on a specific date
+inapp_portal.remove_scheduled_changes.txt,删除计划的更改,Remove scheduled changes,Remove scheduled changes
+inapp_portal.subscription.remove_scheduled_cancellation.link_txt,删除预定的取消,Remove scheduled cancellation,Remove scheduled cancellation
+inapp_portal.remove_scheduled_changes.info,这些更改将从下一次续订（ %{date}）开始应用于您的订阅,These changes will be applied to your subscription from next renewal( %{date} ),These changes will be applied to your subscription from next renewal( %{date} )
+inapp_portal.payment_method.header.view,付款方式明细,Payment Method Details,Payment Method Details
+inapp_portal.payment_method.view.remove,删除付款方式,Remove Payment Method,Remove Payment Method
+inapp_portal.payment_method.view.edit,编辑付款方式,Edit Payment Method,Edit Payment Method
+inapp_portal.payment_method.view.remove_prompt,您确定要删除此付款方式吗？,Are you sure you want to remove this payment method?,Are you sure you want to remove this payment method?
+inapp_portal.subscription_cf.header.edit,更新您的订阅详细信息,Update your subscription details,Update your subscription details
+inapp_portal.subscription_cf.header.edit.submit,更新,Update,Update
 inapp_portal.discounts_applied.label,,,
 inapp_portal.items_in_total.custom_label,,,
 inapp_portal.more_items_txt.custom_label,,,
-inapp_portal.home.gift_sub.gifted_by,,Recieved from %{name},Recieved from %{name}
-inapp_portal.sub_details.gift.gifted_by,,Gifted by %{name},Gifted by %{name}
-inapp_portal.subscription.cancel.header,,Cancel Subscription,Cancel Subscription
-inapp_portal.subscription.cancel.header.submit,,Confirm Cancellation,Confirm Cancellation
-inapp_portal.subscription.cancel.when,,When do you want to cancel the subscription?,When do you want to cancel the subscription?
-inapp_portal.subscription.cancel.eot.option,,Cancel on next renewal  (%{date}),Cancel on next renewal  (%{date})
-inapp_portal.subscription.cancel.immediately.option,,Cancel Immediately,Cancel Immediately
-inapp_portal.subscription.cancel.immediately.info,,Your subscription will be canceled immediately,Your subscription will be canceled immediately
-inapp_portal.subscription.cancel.eot.info,,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
-inapp_portal.subscription.cancel.reason,,Reason for cancellation,Reason for cancellation
-inapp_portal.subscription.cancel.feedback,,Is there anything else you would like to let us know?,Is there anything else you would like to let us know?
-inapp_portal.subscription.cancel.reason.option,,Select a cancellation reason,Select a cancellation reason
-inapp_portal.subscription.canceled.reason_code.info,,Your subscription was canceled with the reason '%{reason}',Your subscription was canceled with the reason '%{reason}'
-inapp_portal.subscription.sch_cancel.reason_code.info,,Your subscription will be canceled with the reason '%{reason}',Your subscription will be canceled with the reason '%{reason}'
-inapp_portal.scheduled_changes.header,,View scheduled changes,View scheduled changes
-inapp_portal.scheduled_changes_navigation.header,,Changes from next renewal,Changes from next renewal
-inapp_portal.subscription_preview_navigation.header,,Subscription Details,Subscription Details
-inapp_portal.consent.header,,Permissions,Permissions
-inapp_portal.consent_section.name,,Permissions,Permissions
-inapp_portal.consent.revoke_alert,,Are you sure?,Are you sure?
-inapp_portal.consent.submit,,Update,Update
-inapp_portal.remove_scheduled_pause.confirm_txt,,The scheduled pause for your subscription will be removed. Continue?,The scheduled pause for your subscription will be removed. Continue?
-inapp_portal.resume_subscription_now.confirm_txt,,Your subscription will resume immediately. Continue?,Your subscription will resume immediately. Continue?
-inapp_portal.resume_now.link,,Resume now,Resume now
-inapp_portal.remove_scheduled_pause.link,,Remove Scheduled Pause,Remove Scheduled Pause
-inapp_portal.subscription.details.pause_scheduled.info,,Your subscription will be paused on %{date},Your subscription will be paused on %{date}
-inapp_portal.subscription.details.resume_scheduled.info,,Your subscription will resume on %{date},Your subscription will resume on %{date}
-inapp_portal.subscription.pause.link.txt,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.header,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.submit,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.immediate_indefinite.info,,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page
-inapp_portal.subscription.pause.immediate_fixed_time.info,,"Your subscription will be paused immediately, and will resume after %{pause_period_set} days.","Your subscription will be paused immediately, and will resume after %{pause_period_set} days."
-inapp_portal.subscription.pause.immediate_options.info,,Your subscription will be paused immediately.,Your subscription will be paused immediately.
-inapp_portal.subscription.pause.immediate_indefinite.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.immediate_fixed_time.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.immediate_options.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_indefinite.info,,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
-inapp_portal.subscription.pause.eot_fixed_time.info,,"Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days.","Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days."
-inapp_portal.subscription.pause.eot_options.info,,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
-inapp_portal.subscription.pause.eot_indefinite.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_fixed_time.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_options.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.chooser_question,,How long do you want to pause the subscription?,How long do you want to pause the subscription?
-inapp_portal.subscription.pause.custom_date,,Custom date,Custom date
-inapp_portal.subscription.pause.choose_specific_date,,(Choose a specific date),(Choose a specific date)
-inapp_portal.subscription.pause.pause_until,,Pause until,Pause until
-inapp_portal.payment_method_tag.primary,,Primary,Primary
-inapp_portal.payment_method_tag.backup,,Backup,Backup
-inapp_portal.payment_method.suggest_backup,,Backups come handy when your primary payment fails. Set a backup.,Backups come handy when your primary payment fails. Set a backup.
-inapp_portal.card.expiring,,Expires on %{card_expiry},Expires on %{card_expiry}
-inapp_portal.card.expired,,Expired on %{card_expiry},Expired on %{card_expiry}
-inapp_portal.pm.set_role.link,,Set this as primary or backup,Set this as primary or backup
-inapp_portal.pm.set_role.title,,Set this payment method as,Set this payment method as
-inapp_portal.pm.set_role.header,,Payment Method Settings,Payment Method Settings
-inapp_portal.pm.set_role.update_btn,,Update,Update
-inapp_portal.pm.set_role.skip_btn,,Skip,Skip
-inapp_portal.pm.remove_backup.link,,Remove as backup,Remove as backup
-inapp_portal.pm.remove_backup.message,,Remove backup? Backups come handy when your primary payment method fails.,Remove backup? Backups come handy when your primary payment method fails.
-inapp_portal.pm.remove_backup.confirm,,Remove,Remove
-inapp_portal.pm.set_primary.message,,Set this as primary? This will replace your current primary payment method,Set this as primary? This will replace your current primary payment method
-inapp_portal.pm.set_primary.confirm,,Confirm,Confirm
-inapp_portal.pm.set_primary.link,,Set as primary,Set as primary
-inapp_portal.pm.primary.desc.txt,,This is your primary payment method,This is your primary payment method
-inapp_portal.pm.backup.desc.txt,,This is your backup payment method,This is your backup payment method
-inapp_portal.pm.primary.warning.txt,,This will replace your current primary payment method,This will replace your current primary payment method
-inapp_portal.pm.backup.warning.txt,,This will replace your current backup payment method,This will replace your current backup payment method
-inapp_portal.pm.primary.info.txt,,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
-inapp_portal.pm.backup.info.txt,,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
-inapp_portal.pm.primary.desc.detail,,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
-inapp_portal.pm.backup.desc.detail,,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
-inapp_portal.subscription.details.pm_warning,,"Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription.","Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription."
-inapp_portal.error.future_date.required,,Please provide a future date in correct format to process the request.,Please provide a future date in correct format to process the request.
-inapp_portal.addon_item_price_selection.header,,Change addon frequency,Change addon frequency
-inapp_portal.addon_item_price_selection.title,,Select billing frequency,Select billing frequency
-inapp_portal.addon_item_price_selection.update.btn,,Update,Update
-inapp_portal.item_selection.header,,Change plan,Change plan
-inapp_portal.item_selection.title,,Select billing frequency,Select billing frequency
-inapp_portal.item_selection.update.btn,,Update,Update
-inapp_portal.subscription.reactivate.link.txt,,Reactivate Subscription,Reactivate Subscription
-inapp_portal.reactivate_confirm.txt,,Are you sure you want to reactivate this subscription?,Are you sure you want to reactivate this subscription?
-inapp_portal.remove_cancellation.confirm_txt,,Are you sure you want to remove the scheduled cancellation?,Are you sure you want to remove the scheduled cancellation?
-inapp_portal.remove_scheduled_changes_confirm.txt,,Are you sure you want to remove the scheduled changes?,Are you sure you want to remove the scheduled changes?
-inapp_portal.modal_button.confirm,,Confirm,Confirm
-inapp_portal.modal_button.cancel,,Cancel,Cancel
-inapp_portal.subscriptions.load_more,,Load more,Load more
-inapp_portal.subscriptions.more,,See all your subscriptions,See all your subscriptions
-inapp_portal.portal_home.close,,Exit,Exit
-inapp_portal.change_item.txt,,Change,Change
-inapp_portal.add_addons.txt,,Add Addons,Add Addons
-inapp_portal.add_addons.btn,,Add,Add
-inapp_portal.edit_addon_item.btn,,Edit,Edit
-inapp_portal.add_addons.non_rec.title,,ONE-TIME CHARGES,ONE-TIME CHARGES
-inapp_portal.item.breakdown.show,,See Details,See Details
-inapp_portal.item.breakdown.hide,,Hide Details,Hide Details
-inapp_portal.subscription.view_breakup,,View breakdown,View breakdown
-inapp_portal.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-inapp_portal.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-inapp_portal.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-inapp_portal.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-inapp_portal.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-inapp_portal.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-inapp_portal.payment_method.bank_account.stripe_ach_verify_note,,You have a maximum of 10 attempts to verify your payment method.,You have a maximum of 10 attempts to verify your payment method.
-inapp_portal.home.gift_bar,,Gifted %{number} subscriptions,Gifted %{number} subscriptions
-inapp_portal.home.gift_header,,GIFT SUBSCRIPTIONS,GIFT SUBSCRIPTIONS
-inapp_portal.gift_tag.scheduled,,Gift to %{name} scheduled,Gift to %{name} scheduled
-inapp_portal.gift_tag.unclaimed,,Gift yet to be claimed by %{name},Gift yet to be claimed by %{name}
-inapp_portal.gift_tag.claimed,,Gifted to %{name},Gifted to %{name}
-inapp_portal.gift_tag.canceled,,Gift to %{name} has been canceled,Gift to %{name} has been canceled
-inapp_portal.gift_tag.expired,,Gifted to %{name} has been expired,Gifted to %{name} has been expired
-inapp_portal.gift_details_notification.scheduled,,Your gift will be sent to the recipient via email on %{date},Your gift will be sent to the recipient via email on %{date}
-inapp_portal.gift_details_notification.unclaimed,,Your gift is yet to be claimed by the recipient.,Your gift is yet to be claimed by the recipient.
-inapp_portal.gift_details_notification.canceled,,Your gift has been canceled,Your gift has been canceled
+inapp_portal.home.gift_sub.gifted_by,从 %{name}收到,Recieved from %{name},Recieved from %{name}
+inapp_portal.sub_details.gift.gifted_by,由 %{name}赠送,Gifted by %{name},Gifted by %{name}
+inapp_portal.subscription.cancel.header,取消订阅,Cancel Subscription,Cancel Subscription
+inapp_portal.subscription.cancel.header.submit,确认取消,Confirm Cancellation,Confirm Cancellation
+inapp_portal.subscription.cancel.when,您何时要取消订阅？,When do you want to cancel the subscription?,When do you want to cancel the subscription?
+inapp_portal.subscription.cancel.eot.option,下次续订时取消（ %{date}）,Cancel on next renewal  (%{date}),Cancel on next renewal  (%{date})
+inapp_portal.subscription.cancel.immediately.option,立即取消,Cancel Immediately,Cancel Immediately
+inapp_portal.subscription.cancel.immediately.info,您的订阅将立即被取消,Your subscription will be canceled immediately,Your subscription will be canceled immediately
+inapp_portal.subscription.cancel.eot.info,您的订阅将在 %{date}被取消,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
+inapp_portal.subscription.cancel.reason,取消原因,Reason for cancellation,Reason for cancellation
+inapp_portal.subscription.cancel.feedback,您还有什么想让我们知道的吗？,Is there anything else you would like to let us know?,Is there anything else you would like to let us know?
+inapp_portal.subscription.cancel.reason.option,选择取消原因,Select a cancellation reason,Select a cancellation reason
+inapp_portal.subscription.canceled.reason_code.info,您的订阅已被取消，原因是“ %{reason}”,Your subscription was canceled with the reason '%{reason}',Your subscription was canceled with the reason '%{reason}'
+inapp_portal.subscription.sch_cancel.reason_code.info,您的订阅将被取消，原因是“ %{reason}”,Your subscription will be canceled with the reason '%{reason}',Your subscription will be canceled with the reason '%{reason}'
+inapp_portal.scheduled_changes.header,查看计划的更改,View scheduled changes,View scheduled changes
+inapp_portal.scheduled_changes_navigation.header,下次续订的变更,Changes from next renewal,Changes from next renewal
+inapp_portal.subscription_preview_navigation.header,订阅详情,Subscription Details,Subscription Details
+inapp_portal.consent.header,权限,Permissions,Permissions
+inapp_portal.consent_section.name,权限,Permissions,Permissions
+inapp_portal.consent.revoke_alert,你确定吗？,Are you sure?,Are you sure?
+inapp_portal.consent.submit,更新,Update,Update
+inapp_portal.remove_scheduled_pause.confirm_txt,您订阅的预定暂停时间将被删除。继续？,The scheduled pause for your subscription will be removed. Continue?,The scheduled pause for your subscription will be removed. Continue?
+inapp_portal.resume_subscription_now.confirm_txt,您的订阅将立即恢复。继续？,Your subscription will resume immediately. Continue?,Your subscription will resume immediately. Continue?
+inapp_portal.resume_now.link,立即恢复,Resume now,Resume now
+inapp_portal.remove_scheduled_pause.link,删除预定的暂停,Remove Scheduled Pause,Remove Scheduled Pause
+inapp_portal.subscription.details.pause_scheduled.info,您的订阅将在 %{date}暂停,Your subscription will be paused on %{date},Your subscription will be paused on %{date}
+inapp_portal.subscription.details.resume_scheduled.info,您的订阅将在 %{date}恢复,Your subscription will resume on %{date},Your subscription will resume on %{date}
+inapp_portal.subscription.pause.link.txt,暂停订阅,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.header,暂停订阅,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.submit,暂停订阅,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.immediate_indefinite.info,您的订阅将立即暂停。您可以随时从“订阅详细信息”页面继续订阅,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page
+inapp_portal.subscription.pause.immediate_fixed_time.info,您的订阅将立即暂停，并将在 %{pause_period_set}天后恢复。,"Your subscription will be paused immediately, and will resume after %{pause_period_set} days.","Your subscription will be paused immediately, and will resume after %{pause_period_set} days."
+inapp_portal.subscription.pause.immediate_options.info,您的订阅将立即暂停。,Your subscription will be paused immediately.,Your subscription will be paused immediately.
+inapp_portal.subscription.pause.immediate_indefinite.gen,暂停后，您的订阅将不会计费，也不会续订。,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.immediate_fixed_time.gen,暂停后，您的订阅将不会计费，也不会续订。,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.immediate_options.gen,暂停后，您的订阅将不会计费，也不会续订。,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_indefinite.info,您的订阅将在 %{date}暂停。,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
+inapp_portal.subscription.pause.eot_fixed_time.info,您的订阅将在 %{date}暂停，并在 %{pause_period_set}天后恢复。,"Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days.","Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days."
+inapp_portal.subscription.pause.eot_options.info,您的订阅将在 %{date}暂停。,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
+inapp_portal.subscription.pause.eot_indefinite.gen,暂停后，您的订阅将不会计费，也不会续订。,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_fixed_time.gen,暂停后，您的订阅将不会计费，也不会续订。,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_options.gen,暂停后，您的订阅将不会计费，也不会续订。,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.chooser_question,您要暂停订阅多长时间？,How long do you want to pause the subscription?,How long do you want to pause the subscription?
+inapp_portal.subscription.pause.custom_date,自订日期,Custom date,Custom date
+inapp_portal.subscription.pause.choose_specific_date,（选择一个特定的日期）,(Choose a specific date),(Choose a specific date)
+inapp_portal.subscription.pause.pause_until,暂停直到,Pause until,Pause until
+inapp_portal.payment_method_tag.primary,基本的,Primary,Primary
+inapp_portal.payment_method_tag.backup,后备,Backup,Backup
+inapp_portal.payment_method.suggest_backup,当您的主要付款失败时，备份将很方便。设置备份。,Backups come handy when your primary payment fails. Set a backup.,Backups come handy when your primary payment fails. Set a backup.
+inapp_portal.card.expiring,于%{card_expiry}到期,Expires on %{card_expiry},Expires on %{card_expiry}
+inapp_portal.card.expired,已于 %{card_expiry}过期,Expired on %{card_expiry},Expired on %{card_expiry}
+inapp_portal.pm.set_role.link,将此设置为主或备用,Set this as primary or backup,Set this as primary or backup
+inapp_portal.pm.set_role.title,将此付款方式设置为,Set this payment method as,Set this payment method as
+inapp_portal.pm.set_role.header,付款方式设定,Payment Method Settings,Payment Method Settings
+inapp_portal.pm.set_role.update_btn,更新,Update,Update
+inapp_portal.pm.set_role.skip_btn,跳过,Skip,Skip
+inapp_portal.pm.remove_backup.link,删除作为备份,Remove as backup,Remove as backup
+inapp_portal.pm.remove_backup.message,删除备份？当您的主要付款方式失败时，备份将很方便。,Remove backup? Backups come handy when your primary payment method fails.,Remove backup? Backups come handy when your primary payment method fails.
+inapp_portal.pm.remove_backup.confirm,去掉,Remove,Remove
+inapp_portal.pm.set_primary.message,将此设置为主？这将取代您目前的主要付款方式,Set this as primary? This will replace your current primary payment method,Set this as primary? This will replace your current primary payment method
+inapp_portal.pm.set_primary.confirm,确认,Confirm,Confirm
+inapp_portal.pm.set_primary.link,设为主要,Set as primary,Set as primary
+inapp_portal.pm.primary.desc.txt,这是您的主要付款方式,This is your primary payment method,This is your primary payment method
+inapp_portal.pm.backup.desc.txt,这是您的备用付款方式,This is your backup payment method,This is your backup payment method
+inapp_portal.pm.primary.warning.txt,这将取代您目前的主要付款方式,This will replace your current primary payment method,This will replace your current primary payment method
+inapp_portal.pm.backup.warning.txt,这将取代您目前的备用付款方式,This will replace your current backup payment method,This will replace your current backup payment method
+inapp_portal.pm.primary.info.txt,这将对您的所有自动付款收取费用。,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
+inapp_portal.pm.backup.info.txt,当您的主要付款方式失败时，这将是备份。,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
+inapp_portal.pm.primary.desc.detail,这将对您的所有自动付款收取费用。,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
+inapp_portal.pm.backup.desc.detail,当您的主要付款方式失败时，这将是备份。,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
+inapp_portal.subscription.details.pm_warning,确保更新此付款方式，因为您的备用付款方式将不会用于此订阅。,"Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription.","Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription."
+inapp_portal.error.future_date.required,请以正确的格式提供将来的日期以处理请求。,Please provide a future date in correct format to process the request.,Please provide a future date in correct format to process the request.
+inapp_portal.addon_item_price_selection.header,更改插件频率,Change addon frequency,Change addon frequency
+inapp_portal.addon_item_price_selection.title,选择结算频率,Select billing frequency,Select billing frequency
+inapp_portal.addon_item_price_selection.update.btn,更新,Update,Update
+inapp_portal.item_selection.header,变更计划,Change plan,Change plan
+inapp_portal.item_selection.title,选择结算频率,Select billing frequency,Select billing frequency
+inapp_portal.item_selection.update.btn,更新,Update,Update
+inapp_portal.subscription.reactivate.link.txt,重新激活订阅,Reactivate Subscription,Reactivate Subscription
+inapp_portal.reactivate_confirm.txt,您确定要重新激活此订阅吗？,Are you sure you want to reactivate this subscription?,Are you sure you want to reactivate this subscription?
+inapp_portal.remove_cancellation.confirm_txt,您确定要删除计划的取消吗？,Are you sure you want to remove the scheduled cancellation?,Are you sure you want to remove the scheduled cancellation?
+inapp_portal.remove_scheduled_changes_confirm.txt,您确定要删除计划的更改吗？,Are you sure you want to remove the scheduled changes?,Are you sure you want to remove the scheduled changes?
+inapp_portal.modal_button.confirm,确认,Confirm,Confirm
+inapp_portal.modal_button.cancel,取消,Cancel,Cancel
+inapp_portal.subscriptions.load_more,装载更多,Load more,Load more
+inapp_portal.subscriptions.more,查看您的所有订阅,See all your subscriptions,See all your subscriptions
+inapp_portal.portal_home.close,出口,Exit,Exit
+inapp_portal.change_item.txt,改变,Change,Change
+inapp_portal.add_addons.txt,添加插件,Add Addons,Add Addons
+inapp_portal.add_addons.btn,添加,Add,Add
+inapp_portal.edit_addon_item.btn,编辑,Edit,Edit
+inapp_portal.add_addons.non_rec.title,一次性收费,ONE-TIME CHARGES,ONE-TIME CHARGES
+inapp_portal.item.breakdown.show,阅读详情,See Details,See Details
+inapp_portal.item.breakdown.hide,隐藏细节,Hide Details,Hide Details
+inapp_portal.subscription.view_breakup,查看细目,View breakdown,View breakdown
+inapp_portal.payment_method.bacs.guarantee.header,返回付款,Back to Payment,Back to Payment
+inapp_portal.payment_method.bank_account.btn.proceed_to_review,继续进行审查,Proceed to Review,Proceed to Review
+inapp_portal.payment_method.bank_account.btn.enter_iban,输入IBAN,Enter IBAN,Enter IBAN
+inapp_portal.payment_method.bank_account.btn.enter_local_details,输入当地银行的详细信息,Enter local bank details,Enter local bank details
+inapp_portal.payment_method.bank_account.btn.enter_your_name,输入你的名字,Enter your name,Enter your name
+inapp_portal.payment_method.bank_account.btn.enter_company_name,输入公司名称,Enter company name,Enter company name
+inapp_portal.payment_method.bank_account.stripe_ach_verify_note,您最多可以尝试10次来验证您的付款方式。,You have a maximum of 10 attempts to verify your payment method.,You have a maximum of 10 attempts to verify your payment method.
+inapp_portal.home.gift_bar,有天赋的 %{number}个订阅,Gifted %{number} subscriptions,Gifted %{number} subscriptions
+inapp_portal.home.gift_header,礼品订阅,GIFT SUBSCRIPTIONS,GIFT SUBSCRIPTIONS
+inapp_portal.gift_tag.scheduled,已预定送给 %{name}的礼物,Gift to %{name} scheduled,Gift to %{name} scheduled
+inapp_portal.gift_tag.unclaimed, %{name}尚未领取礼物,Gift yet to be claimed by %{name},Gift yet to be claimed by %{name}
+inapp_portal.gift_tag.claimed,天赋给 %{name},Gifted to %{name},Gifted to %{name}
+inapp_portal.gift_tag.canceled,送给 %{name}的礼物已被取消,Gift to %{name} has been canceled,Gift to %{name} has been canceled
+inapp_portal.gift_tag.expired,赠送给 %{name}的礼物已过期,Gifted to %{name} has been expired,Gifted to %{name} has been expired
+inapp_portal.gift_details_notification.scheduled,您的礼物将在 %{date}通过电子邮件发送给收件人,Your gift will be sent to the recipient via email on %{date},Your gift will be sent to the recipient via email on %{date}
+inapp_portal.gift_details_notification.unclaimed,收件人尚未领取您的礼物。,Your gift is yet to be claimed by the recipient.,Your gift is yet to be claimed by the recipient.
+inapp_portal.gift_details_notification.canceled,您的礼物已被取消,Your gift has been canceled,Your gift has been canceled
 inapp_portal.gift_details_notification.claimed,,,
-inapp_portal.gift_details_notification.expired,,Your gift was not claimed by the recipient,Your gift was not claimed by the recipient
-inapp_portal.gift.cancel_by_gifter,,Cancel the gift,Cancel the gift
-inapp_portal.gift.cancel_by_gifter.warning,,Are you sure you want to cancel this gift?,Are you sure you want to cancel this gift?
-inapp_portal.hierarchy.my_subscription.my_payment,,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
-inapp_portal.hierarchy.my_subscription.my_invoice,,This subscription is paid by %{customer_display_info} and invoiced to you.,This subscription is paid by %{customer_display_info} and invoiced to you.
-inapp_portal.hierarchy.my_subscription.parent_payment,,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
-inapp_portal.hierarchy.my_subscription.paid_parent,,Paid by %{customer_display_info},Paid by %{customer_display_info}
-inapp_portal.home.my_subscription.parent_pays,,Paid by %{customer_display_info},Paid by %{customer_display_info}
-inapp_portal.home.child_sub_bar.multiple,,%{number} Child subscriptions,%{number} Child subscriptions
-inapp_portal.home.child_sub_bar.single,,%{number} Child subscription,%{number} Child subscription
-inapp_portal.home.child_sub_header,,Child subscriptions,Child subscriptions
-inapp_portal.child_subs.navigation_header,,Child subscriptions,Child subscriptions
-inapp_portal.see_parent_invoices,,See invoices paid by %{customer_display_info} for your subscritpions.,See invoices paid by %{customer_display_info} for your subscritpions.
-inapp_portal.invoice.paid_for_child,,This invoice belongs to %{customer_display_info} and is paid by you.,This invoice belongs to %{customer_display_info} and is paid by you.
-inapp_portal.invoice.parent_only,,You are seeing this invoice as you are the parent of this customer.,You are seeing this invoice as you are the parent of this customer.
-inapp_portal.child_sub_detail.invoice.to_parent,,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
-inapp_portal.child_sub_detail.invoice.to_child,,This subscription is paid by you and invoiced to %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.
-inapp_portal.child_sub_detail.payment_and_invoice.to_child,,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
-inapp_portal.invoices.paid_py_parent,,%{customer_display_info} pays for this invoice.,%{customer_display_info} pays for this invoice.
-inapp_portal.invoice,,Invoice # %{id},Invoice # %{id}
-inapp_portal.payment_owner_billing_history.header,,Invoices of parent,Invoices of parent
-inapp_portal.child_subscription.header,,Child subscription details,Child subscription details
-inapp_portal.invoice.payment.status.not_paid,,Not Paid,Not Paid
-inapp_portal.invoice.payment.status.paid,,Paid,Paid
-inapp_portal.invoice.payment.status.payment_due,,Payment Due,Payment Due
-inapp_portal.invoice.payment.status.pending,,Pending,Pending
-inapp_portal.invoice.payment.status.posted,,Posted,Posted
-inapp_portal.invoice.payment.status.to_collect,,Collecting,Collecting
-inapp_portal.invoice.payment.status.upcoming,,Upcoming,Upcoming
-inapp_portal.invoice.payment.status.voided,,Voided,Voided
-inapp_portal.subscription.extend.header,,Extend your subscription,Extend your subscription
-inapp_portal.subscription.extend.submit,,Extend for another %{extension_period},Extend for another %{extension_period}
-inapp_portal.subscription.extend.expiry.warning,,Your current plan will expire on %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date}
-inapp_portal.subscription.extend.info,,Charges for extending your plan will be applicable on %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date}
-inapp_portal.subscription.extend.thankyou.header,,Thank you for extending the subscription,Thank you for extending the subscription
-inapp_portal.subscription.extend.thankyou.body,,Your subscription has been extended for another %{extension_period},Your subscription has been extended for another %{extension_period}
-inapp_portal.subscription.extend.thankyou.close,,CLOSE,CLOSE
-inapp_portal.review.pm.header,,Payment,Payment
-inapp_portal.review.pm.not_available,,No payment method available,No payment method available
+inapp_portal.gift_details_notification.expired,收件人未领取您的礼物,Your gift was not claimed by the recipient,Your gift was not claimed by the recipient
+inapp_portal.gift.cancel_by_gifter,取消礼物,Cancel the gift,Cancel the gift
+inapp_portal.gift.cancel_by_gifter.warning,您确定要取消此礼物吗？,Are you sure you want to cancel this gift?,Are you sure you want to cancel this gift?
+inapp_portal.hierarchy.my_subscription.my_payment,此订阅由您支付并向您开具发票。,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
+inapp_portal.hierarchy.my_subscription.my_invoice,此订阅由 %{customer_display_info}支付并向您开具发票。,This subscription is paid by %{customer_display_info} and invoiced to you.,This subscription is paid by %{customer_display_info} and invoiced to you.
+inapp_portal.hierarchy.my_subscription.parent_payment,此订阅由 %{customer_display_info}支付并开具发票。,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
+inapp_portal.hierarchy.my_subscription.paid_parent,由 %{customer_display_info}支付,Paid by %{customer_display_info},Paid by %{customer_display_info}
+inapp_portal.home.my_subscription.parent_pays,由 %{customer_display_info}支付,Paid by %{customer_display_info},Paid by %{customer_display_info}
+inapp_portal.home.child_sub_bar.multiple, %{number}个子订阅,%{number} Child subscriptions,%{number} Child subscriptions
+inapp_portal.home.child_sub_bar.single, %{number}个子订阅,%{number} Child subscription,%{number} Child subscription
+inapp_portal.home.child_sub_header,子订阅,Child subscriptions,Child subscriptions
+inapp_portal.child_subs.navigation_header,子订阅,Child subscriptions,Child subscriptions
+inapp_portal.see_parent_invoices,查看您的订阅所用%{customer_display_info}支付的一张或多张发票。,See invoices paid by %{customer_display_info} for your subscritpions.,See invoices paid by %{customer_display_info} for your subscritpions.
+inapp_portal.invoice.paid_for_child,该发票属于 %{customer_display_info}，由您支付。,This invoice belongs to %{customer_display_info} and is paid by you.,This invoice belongs to %{customer_display_info} and is paid by you.
+inapp_portal.invoice.parent_only,您正在查看此发票，因为您是该客户的父母。,You are seeing this invoice as you are the parent of this customer.,You are seeing this invoice as you are the parent of this customer.
+inapp_portal.child_sub_detail.invoice.to_parent,此订阅由您支付并向您开具发票。,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
+inapp_portal.child_sub_detail.invoice.to_child,此订阅由您支付，并开具给 %{customer_display_info}。,This subscription is paid by you and invoiced to %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.
+inapp_portal.child_sub_detail.payment_and_invoice.to_child,此订阅由 %{customer_display_info}支付并开具发票。,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
+inapp_portal.invoices.paid_py_parent, %{customer_display_info}会为此发票付款。,%{customer_display_info} pays for this invoice.,%{customer_display_info} pays for this invoice.
+inapp_portal.invoice,发票编号 %{id},Invoice # %{id},Invoice # %{id}
+inapp_portal.payment_owner_billing_history.header,父母发票,Invoices of parent,Invoices of parent
+inapp_portal.child_subscription.header,子订阅详细信息,Child subscription details,Child subscription details
+inapp_portal.invoice.payment.status.not_paid,未支付,Not Paid,Not Paid
+inapp_portal.invoice.payment.status.paid,有薪酬的,Paid,Paid
+inapp_portal.invoice.payment.status.payment_due,工资税,Payment Due,Payment Due
+inapp_portal.invoice.payment.status.pending,待办的,Pending,Pending
+inapp_portal.invoice.payment.status.posted,发表于,Posted,Posted
+inapp_portal.invoice.payment.status.to_collect,收集中,Collecting,Collecting
+inapp_portal.invoice.payment.status.upcoming,即将来临,Upcoming,Upcoming
+inapp_portal.invoice.payment.status.voided,虚空,Voided,Voided
+inapp_portal.subscription.extend.header,扩展您的订阅,Extend your subscription,Extend your subscription
+inapp_portal.subscription.extend.submit,扩展另一个 %{extension_period},Extend for another %{extension_period},Extend for another %{extension_period}
+inapp_portal.subscription.extend.expiry.warning,您当前的计划将于 %{sub_cancel_date}到期,Your current plan will expire on %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date}
+inapp_portal.subscription.extend.info,扩展计划的费用将于 %{sub_cancel_date}起收取,Charges for extending your plan will be applicable on %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date}
+inapp_portal.subscription.extend.thankyou.header,感谢您扩展订阅,Thank you for extending the subscription,Thank you for extending the subscription
+inapp_portal.subscription.extend.thankyou.body,您的订阅已扩展了另外 %{extension_period},Your subscription has been extended for another %{extension_period},Your subscription has been extended for another %{extension_period}
+inapp_portal.subscription.extend.thankyou.close,关闭,CLOSE,CLOSE
+inapp_portal.review.pm.header,支付,Payment,Payment
+inapp_portal.review.pm.not_available,没有可用的付款方式,No payment method available,No payment method available
 inapp_portal.home.note,,,
 inapp_portal.account.note,,,
 inapp_portal.edit_account.note,,,
@@ -374,140 +374,140 @@ inapp_portal.subscription.note.future,,,
 inapp_portal.subscription.note.non_renewing,,,
 inapp_portal.subscription.note.cancelled,,,
 inapp_portal.subscription.note.cancellation_scheduled,,,
-inapp_portal.estimate_display_screen.header,,Your order summary,Your order summary
-inapp_portal.manage_pm.redirect.label,,Go to app,Go to app
-inapp_portal.threeds.warning,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_portal.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_portal.home.promotions.link_text,,Refer & Earn,Refer & Earn
-inapp_portal.promotions.header,,Promotions,Promotions
+inapp_portal.estimate_display_screen.header,你的订单概要,Your order summary,Your order summary
+inapp_portal.manage_pm.redirect.label,前往应用程式,Go to app,Go to app
+inapp_portal.threeds.warning,您可能会被重定向到您的银行页面以进行3D安全验证。,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_portal.3ds.auth.txt,我授权 %{organisation_name}保存此付款方式，并在与订阅相关联时自动为此付款方式收费。,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_portal.home.promotions.link_text,推荐并赚钱,Refer & Earn,Refer & Earn
+inapp_portal.promotions.header,促销活动,Promotions,Promotions
 inapp_portal.subscription.note.pause_subscription,,,
-inapp_portal.setup_password.section.name,,Set up Password,Set up Password
-inapp_portal.setup_password.header,,Set up your Password,Set up your Password
-inapp_portal.change_password.section.name,,Change Password,Change Password
-inapp_portal.change_password_verify.header,,Change your Password,Change your Password
-inapp_portal.verify_otp.header,,Enter OTP,Enter OTP
-inapp_portal.change_password_verify.next,,Proceed,Proceed
-inapp_portal.change_password_verify.current_password.label,,Enter your current password,Enter your current password
-inapp_portal.change_password.header,,Enter new password,Enter new password
-inapp_portal.new_password.label,,Enter new password,Enter new password
-inapp_portal.new_password.update_btn,,Update,Update
-inapp_portal.password.validation.desc,,Your password must have,Your password must have
-inapp_portal.password.validation.min_char,,At least 8 characters,At least 8 characters
-inapp_portal.password.validation.number,,At least one number,At least one number
-inapp_portal.password.validation.special,,"At least one special character @$!%*#?&() ","At least one special character @$!%*#?&() "
+inapp_portal.setup_password.section.name,设定密码,Set up Password,Set up Password
+inapp_portal.setup_password.header,设置密码,Set up your Password,Set up your Password
+inapp_portal.change_password.section.name,更改密码,Change Password,Change Password
+inapp_portal.change_password_verify.header,更改您的密码,Change your Password,Change your Password
+inapp_portal.verify_otp.header,输入一次性密码,Enter OTP,Enter OTP
+inapp_portal.change_password_verify.next,继续,Proceed,Proceed
+inapp_portal.change_password_verify.current_password.label,输入当前密码,Enter your current password,Enter your current password
+inapp_portal.change_password.header,输入新密码,Enter new password,Enter new password
+inapp_portal.new_password.label,输入新密码,Enter new password,Enter new password
+inapp_portal.new_password.update_btn,更新,Update,Update
+inapp_portal.password.validation.desc,您的密码必须有,Your password must have,Your password must have
+inapp_portal.password.validation.min_char,至少8个字符,At least 8 characters,At least 8 characters
+inapp_portal.password.validation.number,至少一个数字,At least one number,At least one number
+inapp_portal.password.validation.special,至少一个特殊字符@ $！％* Number？＆（）,At least one special character @$!%*#?&() ,At least one special character @$!%*#?&() 
 inapp_portal.subscription.summary.additionalInfo,,,
 inapp_portal.child_subscription.summary.additionalInfo,,,
-inapp_portal.contract_term.summary.title,,Subscription Terms,Subscription Terms
-inapp_portal.contract_term.summary.total_contract_value,,Total contract value,Total contract value
-inapp_portal.contract_term.summary.billing_cycle,,Billing cycles,Billing cycles
-inapp_portal.contract_term.summary.end_action_renew,,Contract renews,Contract renews
-inapp_portal.contract_term.summary.end_action_evergreen,,Contract ends,Contract ends
-inapp_portal.contract_term.summary.end_action_evergreen_sub_active,,subscription will remain active,subscription will remain active
-inapp_portal.contract_term.summary.end_action_cancel,,Contract ends,Contract ends
-inapp_portal.contract_term.summary.end_action_renew_once,,"Contract renews for one more term on ","Contract renews for one more term on "
-inapp_portal.contract_term.details.header.title,,Contract Summary,Contract Summary
-inapp_portal.contract_term.details.tcv.title,,Total contract value,Total contract value
-inapp_portal.contract_term.details.term.title,,Contract term,Contract term
-inapp_portal.contract_term.details.term.to,,to,to
-inapp_portal.contract_term.details.bill_cyc.title,,Billing cycles,Billing cycles
-inapp_portal.contract_term.details.bill_cyc.total,,Total,Total
-inapp_portal.contract_term.details.bill_cyc.billed,,Billed,Billed
-inapp_portal.contract_term.details.term_end.title,,On contract term end,On contract term end
-inapp_portal.contract_term.details.term_end.renew,,Contract will renew for %{number} billing cycles,Contract will renew for %{number} billing cycles
-inapp_portal.contract_term.details.term_end.evergreen,,Contract ends (subscription will remain active),Contract ends (subscription will remain active)
-inapp_portal.contract_term.details.term_end.cancel,,Contract and subscription end.,Contract and subscription end.
-inapp_portal.contract_term.details.term_end.renew_once,,Contract will renew for one more term.,Contract will renew for one more term.
-inapp_portal.contract_term.details.grace_period.title,,Cancel before,Cancel before
-inapp_portal.contract_term.details.grace_period.note,,If you do not want your contract to renew.,If you do not want your contract to renew.
-inapp_portal.contract_term.details.end_action.cancel.notification,,Your subscription will be canceled at the end of contract term on %{date},Your subscription will be canceled at the end of contract term on %{date}
-inapp_portal.contract_term.details.end_action.renew_next_bill_cyc.notification,,Your contract will renew for one more term. Charges will apply until the end of the next contract term.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.
-inapp_portal.contract_term.order_summary.tcv,,Total contract value,Total contract value
-inapp_portal.contract_term.subscription.note,,This subscription is on contract,This subscription is on contract
-inapp_portal.contract_term.cancel.end_action.cancel.title,,Your subscription will be canceled at the end of the contract term on %{date},Your subscription will be canceled at the end of the contract term on %{date}
-inapp_portal.contract_term.cancel.end_action.cancel.notification,,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.
-inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.title,,Your subscription will renew for one more contract term after %{date},Your subscription will renew for one more contract term after %{date}
-inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.notification,,Your subscription passed the cut-off date for cancellation and will renew for one more term.,Your subscription passed the cut-off date for cancellation and will renew for one more term.
-inapp_portal.contract_term.reactivate.confirmation_text,,Your subscription will reactivate without contract terms,Your subscription will reactivate without contract terms
-inapp_portal.multi_decimal.quantity.error,,Enter valid quantity,Enter valid quantity
-inapp_portal.qty,,Qty,Qty
-paynow.button.txt,,Pay now: %{amount},Pay now: %{amount}
-paynow.header.txt,,You have %{total} unpaid invoice(s). Your total due is %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount}
-paynow.no_invoices.txt,,You have no unpaid invoices,You have no unpaid invoices
-paynow.header.choosepm.txt,,Choose Payment Method,Choose Payment Method
-paynow.modal.newpm.use,,Use a different payment method,Use a different payment method
-paynow.header.addpm.txt,,Add Payment Method,Add Payment Method
-paynow.thankyou.header,,Your payment was successful!,Your payment was successful!
+inapp_portal.contract_term.summary.title,订阅条款,Subscription Terms,Subscription Terms
+inapp_portal.contract_term.summary.total_contract_value,合同总价值,Total contract value,Total contract value
+inapp_portal.contract_term.summary.billing_cycle,帐单周期,Billing cycles,Billing cycles
+inapp_portal.contract_term.summary.end_action_renew,合同续签,Contract renews,Contract renews
+inapp_portal.contract_term.summary.end_action_evergreen,合同结束,Contract ends,Contract ends
+inapp_portal.contract_term.summary.end_action_evergreen_sub_active,订阅将保持有效,subscription will remain active,subscription will remain active
+inapp_portal.contract_term.summary.end_action_cancel,合同结束,Contract ends,Contract ends
+inapp_portal.contract_term.summary.end_action_renew_once,合约续约一个,Contract renews for one more term on ,Contract renews for one more term on 
+inapp_portal.contract_term.details.header.title,合约摘要,Contract Summary,Contract Summary
+inapp_portal.contract_term.details.tcv.title,合同总价值,Total contract value,Total contract value
+inapp_portal.contract_term.details.term.title,合同期限,Contract term,Contract term
+inapp_portal.contract_term.details.term.to,到,to,to
+inapp_portal.contract_term.details.bill_cyc.title,帐单周期,Billing cycles,Billing cycles
+inapp_portal.contract_term.details.bill_cyc.total,全部的,Total,Total
+inapp_portal.contract_term.details.bill_cyc.billed,已开票,Billed,Billed
+inapp_portal.contract_term.details.term_end.title,合同期满,On contract term end,On contract term end
+inapp_portal.contract_term.details.term_end.renew,合同将续签 %{number}个结算周期,Contract will renew for %{number} billing cycles,Contract will renew for %{number} billing cycles
+inapp_portal.contract_term.details.term_end.evergreen,合同终止（订阅将保持有效）,Contract ends (subscription will remain active),Contract ends (subscription will remain active)
+inapp_portal.contract_term.details.term_end.cancel,合同和订阅结束。,Contract and subscription end.,Contract and subscription end.
+inapp_portal.contract_term.details.term_end.renew_once,合同将续签一个任期。,Contract will renew for one more term.,Contract will renew for one more term.
+inapp_portal.contract_term.details.grace_period.title,取消之前,Cancel before,Cancel before
+inapp_portal.contract_term.details.grace_period.note,如果您不希望续约。,If you do not want your contract to renew.,If you do not want your contract to renew.
+inapp_portal.contract_term.details.end_action.cancel.notification,您的订阅将在合同期限的 %{date}被取消,Your subscription will be canceled at the end of contract term on %{date},Your subscription will be canceled at the end of contract term on %{date}
+inapp_portal.contract_term.details.end_action.renew_next_bill_cyc.notification,您的合同将续约一届。将收取费用，直到下一个合同期限结束。,Your contract will renew for one more term. Charges will apply until the end of the next contract term.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.
+inapp_portal.contract_term.order_summary.tcv,合同总价值,Total contract value,Total contract value
+inapp_portal.contract_term.subscription.note,此订阅已签约,This subscription is on contract,This subscription is on contract
+inapp_portal.contract_term.cancel.end_action.cancel.title,您的订阅将在合同期限的 %{date}被取消,Your subscription will be canceled at the end of the contract term on %{date},Your subscription will be canceled at the end of the contract term on %{date}
+inapp_portal.contract_term.cancel.end_action.cancel.notification,您的订阅将保持有效，并且在合同终止之前将收取费用。有问题吗？联系我们。,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.
+inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.title,您的订阅将在 %{date}之后续约一个合同期限,Your subscription will renew for one more contract term after %{date},Your subscription will renew for one more contract term after %{date}
+inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.notification,您的订阅已通过取消的截止日期，并且将续订一个任期。,Your subscription passed the cut-off date for cancellation and will renew for one more term.,Your subscription passed the cut-off date for cancellation and will renew for one more term.
+inapp_portal.contract_term.reactivate.confirmation_text,您的订阅将在没有合同条款的情况下重新激活,Your subscription will reactivate without contract terms,Your subscription will reactivate without contract terms
+inapp_portal.multi_decimal.quantity.error,输入有效数量,Enter valid quantity,Enter valid quantity
+inapp_portal.qty,数量,Qty,Qty
+paynow.button.txt,立即付款： %{amount},Pay now: %{amount},Pay now: %{amount}
+paynow.header.txt,您有 %{total}个未付发票。您的应付款总额为 %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount}
+paynow.no_invoices.txt,您没有未付的一张或多张发票,You have no unpaid invoices,You have no unpaid invoices
+paynow.header.choosepm.txt,选择付款方式,Choose Payment Method,Choose Payment Method
+paynow.modal.newpm.use,使用其他付款方式,Use a different payment method,Use a different payment method
+paynow.header.addpm.txt,添加付款方式,Add Payment Method,Add Payment Method
+paynow.thankyou.header,您的付款成功！,Your payment was successful!,Your payment was successful!
 paynow.thankyou.body,,,
-paynow.thankyou.close,,CLOSE,CLOSE
-paynow.modal_button.confirm,,Confirm,Confirm
-paynow.modal_button.cancel,,Cancel,Cancel
-paynow.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-paynow.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-paynow.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-paynow.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-paynow.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-paynow.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-paynow.redirect.label,,Go to app,Go to app
-paynow.threeds.warning,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-paynow.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_nl_portal.login.txt,,Enter your email address to login,Enter your email address to login
-inapp_nl_portal.otp.enter,,Enter the one time password sent to your email to continue,Enter the one time password sent to your email to continue
-inapp_nl_portal.password.enter,,Enter the password for your account,Enter the password for your account
-inapp_nl_portal.otp.resend,,Resend the one time password,Resend the one time password
-inapp_nl_portal.otp.next,,Login,Login
-inapp_nl_portal.login.via_otp,,Login via one time password,Login via one time password
-inapp_nl_portal.password.use,,Enter password instead,Enter password instead
-inapp_nl_portal.login.next,,Continue,Continue
-inapp_nl_portal.login.header,,Manage Your Subscriptions,Manage Your Subscriptions
-inapp_nl_portal.forgot_password.link.txt,,Forgot password?,Forgot password?
+paynow.thankyou.close,关闭,CLOSE,CLOSE
+paynow.modal_button.confirm,确认,Confirm,Confirm
+paynow.modal_button.cancel,取消,Cancel,Cancel
+paynow.payment_method.bacs.guarantee.header,返回付款,Back to Payment,Back to Payment
+paynow.payment_method.bank_account.btn.proceed_to_review,继续进行审查,Proceed to Review,Proceed to Review
+paynow.payment_method.bank_account.btn.enter_iban,输入IBAN,Enter IBAN,Enter IBAN
+paynow.payment_method.bank_account.btn.enter_local_details,输入当地银行的详细信息,Enter local bank details,Enter local bank details
+paynow.payment_method.bank_account.btn.enter_your_name,输入你的名字,Enter your name,Enter your name
+paynow.payment_method.bank_account.btn.enter_company_name,输入公司名称,Enter company name,Enter company name
+paynow.redirect.label,前往应用程式,Go to app,Go to app
+paynow.threeds.warning,您可能会被重定向到您的银行页面以进行3D安全验证。,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+paynow.3ds.auth.txt,我授权 %{organisation_name}保存此付款方式，并在与订阅相关联时自动为此付款方式收费。,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_nl_portal.login.txt,输入您的电子邮件地址登录,Enter your email address to login,Enter your email address to login
+inapp_nl_portal.otp.enter,输入发送到您的电子邮件的一次性密码以继续,Enter the one time password sent to your email to continue,Enter the one time password sent to your email to continue
+inapp_nl_portal.password.enter,输入您的帐户密码,Enter the password for your account,Enter the password for your account
+inapp_nl_portal.otp.resend,重新发送一次密码,Resend the one time password,Resend the one time password
+inapp_nl_portal.otp.next,登录,Login,Login
+inapp_nl_portal.login.via_otp,通过一次密码登录,Login via one time password,Login via one time password
+inapp_nl_portal.password.use,请输入密码,Enter password instead,Enter password instead
+inapp_nl_portal.login.next,继续,Continue,Continue
+inapp_nl_portal.login.header,管理您的订阅,Manage Your Subscriptions,Manage Your Subscriptions
+inapp_nl_portal.forgot_password.link.txt,忘记密码？,Forgot password?,Forgot password?
 inapp_nl_portal.account.summary.additionalInfo,,,
-inapp_checkout.gift.cart.header,,Your gift order,Your gift order
-inapp_checkout.gift.cart.header.edit,,Edit your gift order,Edit your gift order
-inapp_checkout.gift.cart.next,,Proceed to checkout,Proceed to checkout
-inapp_checkout.gift.gift_details.header,,Add your gift details,Add your gift details
-inapp_checkout.gift.gift_details.header.edit,,Edit your gift details,Edit your gift details
-inapp_checkout.gift.gift_details.update,,Update,Update
-inapp_checkout.gift.gift_details.next,,Next,Next
-inapp_checkout.gift.gift_details.receiver_info.subheading,,Whom is this gift for?,Whom is this gift for?
-inapp_checkout.gift.gift_details.schedule.subheading,,Gift date & time,Gift date & time
-inapp_checkout.gift.gift_details.schedule.immediately,,Send immediately,Send immediately
-inapp_checkout.gift.gift_details.schedule.date,,Send on specific date and time,Send on specific date and time
-inapp_checkout.gift.gift_details.message.subheading,,Personal message,Personal message
-inapp_checkout.gift.gift_details.message.helptext,,The message will be sent to the recipient with your gift,The message will be sent to the recipient with your gift
-inapp_checkout.gift.gift_details.message.placeholder,,Your gift message,Your gift message
-inapp_checkout.gift.customer.header,,Add recipient information,Add recipient information
-inapp_checkout.gift.customer.header.edit,,Edit recipient information,Edit recipient information
-inapp_checkout.gift.customer.update,,Update,Update
-inapp_checkout.gift.customer.next,,Next,Next
-inapp_checkout.gift.billing_address.update,,Update,Update
-inapp_checkout.gift.billing_address.next,,Next,Next
-inapp_checkout.gift.billing_address.header,,Add your billing details,Add your billing details
-inapp_checkout.gift.billing_address.header.edit,,Edit your billing details,Edit your billing details
-inapp_checkout.gift.shipping_address.header,,Add recipient shipping address,Add recipient shipping address
-inapp_checkout.gift.shipping_address.header.edit,,Edit recipient shipping address,Edit recipient shipping address
-inapp_checkout.gift.shipping_address.update,,Update,Update
-inapp_checkout.gift.shipping_address.next,,Next,Next
-inapp_checkout.gift.payment_method.header,,Add your payment information,Add your payment information
-inapp_checkout.gift.payment_method.header.edit,,Edit your payment information,Edit your payment information
-inapp_checkout.gift.payment_method.update,,Update,Update
-inapp_checkout.gift.payment_method.next,,Next,Next
-inapp_checkout.gift.review.gift.header,,Gift details,Gift details
-inapp_checkout.gift.review.gift.your_message.label,,Personal Message,Personal Message
-inapp_checkout.gift.review.gift.from.label,,From,From
-inapp_checkout.gift.review.gift.scheduled_at.label,,Scheduled,Scheduled
-inapp_checkout.gift.review.gift.immediately.label,,Immediately sent,Immediately sent
-inapp_checkout.gift.review.shipping.header,,Recipient shipping address,Recipient shipping address
-inapp_checkout.gift.review.account.header,,Recipient details,Recipient details
-inapp_checkout.gift.subscription.header,,Add gift subscription details,Add gift subscription details
-inapp_checkout.gift.subscription.header.edit,,Edit gift subscription details,Edit gift subscription details
-inapp_checkout.gift.subscription.update,,Update,Update
-inapp_checkout.gift.subscription.next,,Next,Next
-inapp_checkout.gift.review.header,,Complete your order,Complete your order
-inapp_checkout.gift.review.btn.txt,,Pay %{amount} & place gift order,Pay %{amount} & place gift order
+inapp_checkout.gift.cart.header,您的礼物订单,Your gift order,Your gift order
+inapp_checkout.gift.cart.header.edit,编辑您的礼物订单,Edit your gift order,Edit your gift order
+inapp_checkout.gift.cart.next,进行结算,Proceed to checkout,Proceed to checkout
+inapp_checkout.gift.gift_details.header,添加您的礼物详细信息,Add your gift details,Add your gift details
+inapp_checkout.gift.gift_details.header.edit,编辑您的礼物详细信息,Edit your gift details,Edit your gift details
+inapp_checkout.gift.gift_details.update,更新,Update,Update
+inapp_checkout.gift.gift_details.next,下一个,Next,Next
+inapp_checkout.gift.gift_details.receiver_info.subheading,这礼物是送给谁的？,Whom is this gift for?,Whom is this gift for?
+inapp_checkout.gift.gift_details.schedule.subheading,礼物日期和时间,Gift date & time,Gift date & time
+inapp_checkout.gift.gift_details.schedule.immediately,立即发送,Send immediately,Send immediately
+inapp_checkout.gift.gift_details.schedule.date,发送特定的日期和时间,Send on specific date and time,Send on specific date and time
+inapp_checkout.gift.gift_details.message.subheading,个人讯息,Personal message,Personal message
+inapp_checkout.gift.gift_details.message.helptext,该消息将与您的礼物一起发送给收件人,The message will be sent to the recipient with your gift,The message will be sent to the recipient with your gift
+inapp_checkout.gift.gift_details.message.placeholder,您的礼物留言,Your gift message,Your gift message
+inapp_checkout.gift.customer.header,添加收件人信息,Add recipient information,Add recipient information
+inapp_checkout.gift.customer.header.edit,编辑收件人信息,Edit recipient information,Edit recipient information
+inapp_checkout.gift.customer.update,更新,Update,Update
+inapp_checkout.gift.customer.next,下一个,Next,Next
+inapp_checkout.gift.billing_address.update,更新,Update,Update
+inapp_checkout.gift.billing_address.next,下一个,Next,Next
+inapp_checkout.gift.billing_address.header,添加您的帐单明细,Add your billing details,Add your billing details
+inapp_checkout.gift.billing_address.header.edit,编辑您的帐单明细,Edit your billing details,Edit your billing details
+inapp_checkout.gift.shipping_address.header,添加收件人的收货地址,Add recipient shipping address,Add recipient shipping address
+inapp_checkout.gift.shipping_address.header.edit,修改收货人收货地址,Edit recipient shipping address,Edit recipient shipping address
+inapp_checkout.gift.shipping_address.update,更新,Update,Update
+inapp_checkout.gift.shipping_address.next,下一个,Next,Next
+inapp_checkout.gift.payment_method.header,添加您的付款信息,Add your payment information,Add your payment information
+inapp_checkout.gift.payment_method.header.edit,编辑您的付款信息,Edit your payment information,Edit your payment information
+inapp_checkout.gift.payment_method.update,更新,Update,Update
+inapp_checkout.gift.payment_method.next,下一个,Next,Next
+inapp_checkout.gift.review.gift.header,礼物详情,Gift details,Gift details
+inapp_checkout.gift.review.gift.your_message.label,个人讯息,Personal Message,Personal Message
+inapp_checkout.gift.review.gift.from.label,从,From,From
+inapp_checkout.gift.review.gift.scheduled_at.label,预定的,Scheduled,Scheduled
+inapp_checkout.gift.review.gift.immediately.label,立即寄出,Immediately sent,Immediately sent
+inapp_checkout.gift.review.shipping.header,收货地址,Recipient shipping address,Recipient shipping address
+inapp_checkout.gift.review.account.header,收件人详细信息,Recipient details,Recipient details
+inapp_checkout.gift.subscription.header,添加礼品订阅详细信息,Add gift subscription details,Add gift subscription details
+inapp_checkout.gift.subscription.header.edit,编辑礼物订阅详细信息,Edit gift subscription details,Edit gift subscription details
+inapp_checkout.gift.subscription.update,更新,Update,Update
+inapp_checkout.gift.subscription.next,下一个,Next,Next
+inapp_checkout.gift.review.header,完成您的订单,Complete your order,Complete your order
+inapp_checkout.gift.review.btn.txt,支付 %{amount}并下订单,Pay %{amount} & place gift order,Pay %{amount} & place gift order
 inapp_checkout.gift.thankyou.header,,,
 inapp_checkout.gift.thankyou.body,,,
-inapp_checkout.gift.thankyou.close,,CLOSE,CLOSE
-inapp_checkout.gift.review.self_gift.warning,,You seem to be sending the gift to your own email address.,You seem to be sending the gift to your own email address.
+inapp_checkout.gift.thankyou.close,关闭,CLOSE,CLOSE
+inapp_checkout.gift.review.self_gift.warning,您似乎正在将礼物发送到您自己的电子邮件地址。,You seem to be sending the gift to your own email address.,You seem to be sending the gift to your own email address.
 inapp_checkout.gift.payment_method.note.plan.no_trial,,,
 inapp_checkout.gift.cart.note.plan.no_trial,,,
 inapp_checkout.gift.review.note.plan.no_trial,,,
@@ -515,37 +515,37 @@ inapp_checkout.gift.customer.note,,,
 inapp_checkout.gift.subscription.note,,,
 inapp_checkout.gift.shipping_address.note,,,
 inapp_checkout.gift.billing_address.note,,,
-inapp_checkout.gift.review.threedsWarning.non_trial,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_checkout.gift.review.threedsWarning.trial,,"You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
-inapp_checkout.gift_claim.modal_button.cancel,,Cancel,Cancel
-inapp_checkout.gift_claim.modal_button.confirm,,Confirm,Confirm
-inapp_checkout.gift_claim.cart.header,,Your gift,Your gift
-inapp_checkout.gift_claim.cart.header.edit,,Your gift,Your gift
-inapp_checkout.gift_claim.cart.next,,Proceed to claim,Proceed to claim
-inapp_checkout.gift_claim.cart.body_desc,,Congratulations on your gift! You need to claim it to get started!,Congratulations on your gift! You need to claim it to get started!
-inapp_checkout.gift_claim.customer.body_desc,,"Here are the details that we have got. You can update this information, if required.","Here are the details that we have got. You can update this information, if required."
-inapp_checkout.gift_claim.customer.header,,Add your account information,Add your account information
-inapp_checkout.gift_claim.customer.header.edit,,Edit your account information,Edit your account information
-inapp_checkout.gift_claim.customer.update,,Update,Update
-inapp_checkout.gift_claim.customer.next,,Next,Next
-inapp_checkout.gift_claim.shipping_address.header,,Add your shipping address,Add your shipping address
-inapp_checkout.gift_claim.shipping_address.header.edit,,Edit your shipping address,Edit your shipping address
-inapp_checkout.gift_claim.shipping_address.update,,Update,Update
-inapp_checkout.gift_claim.shipping_address.next,,Next,Next
+inapp_checkout.gift.review.threedsWarning.non_trial,您可能会被重定向到您的银行页面以进行3D安全验证。,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_checkout.gift.review.threedsWarning.trial,您可能会被重定向到您的银行页面以进行3D安全验证，并可能为此收取代币金额，并将自动全额退款。,"You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
+inapp_checkout.gift_claim.modal_button.cancel,取消,Cancel,Cancel
+inapp_checkout.gift_claim.modal_button.confirm,确认,Confirm,Confirm
+inapp_checkout.gift_claim.cart.header,你的礼物,Your gift,Your gift
+inapp_checkout.gift_claim.cart.header.edit,你的礼物,Your gift,Your gift
+inapp_checkout.gift_claim.cart.next,继续索赔,Proceed to claim,Proceed to claim
+inapp_checkout.gift_claim.cart.body_desc,祝贺你的礼物！您需要声明它才能开始！,Congratulations on your gift! You need to claim it to get started!,Congratulations on your gift! You need to claim it to get started!
+inapp_checkout.gift_claim.customer.body_desc,这是我们得到的详细信息。您可以根据需要更新此信息。,"Here are the details that we have got. You can update this information, if required.","Here are the details that we have got. You can update this information, if required."
+inapp_checkout.gift_claim.customer.header,添加您的帐户信息,Add your account information,Add your account information
+inapp_checkout.gift_claim.customer.header.edit,编辑您的帐户信息,Edit your account information,Edit your account information
+inapp_checkout.gift_claim.customer.update,更新,Update,Update
+inapp_checkout.gift_claim.customer.next,下一个,Next,Next
+inapp_checkout.gift_claim.shipping_address.header,添加您的收货地址,Add your shipping address,Add your shipping address
+inapp_checkout.gift_claim.shipping_address.header.edit,编辑您的收货地址,Edit your shipping address,Edit your shipping address
+inapp_checkout.gift_claim.shipping_address.update,更新,Update,Update
+inapp_checkout.gift_claim.shipping_address.next,下一个,Next,Next
 inapp_checkout.gift_claim.shipping_address.body_desc,,,
-inapp_checkout.gift_claim.review.shipping.header,,Shipping address,Shipping address
-inapp_checkout.gift_claim.review.account.header,,Account,Account
-inapp_checkout.gift_claim.review.subscription.header,,Subscription details,Subscription details
-inapp_checkout.gift_claim.subscription.header,,Add gift subscription details,Add gift subscription details
-inapp_checkout.gift_claim.subscription.header.edit,,Edit gift subscription details,Edit gift subscription details
-inapp_checkout.gift_claim.subscription.update,,Update,Update
-inapp_checkout.gift_claim.subscription.next,,Next,Next
+inapp_checkout.gift_claim.review.shipping.header,收件地址,Shipping address,Shipping address
+inapp_checkout.gift_claim.review.account.header,帐户,Account,Account
+inapp_checkout.gift_claim.review.subscription.header,订阅详情,Subscription details,Subscription details
+inapp_checkout.gift_claim.subscription.header,添加礼品订阅详细信息,Add gift subscription details,Add gift subscription details
+inapp_checkout.gift_claim.subscription.header.edit,编辑礼物订阅详细信息,Edit gift subscription details,Edit gift subscription details
+inapp_checkout.gift_claim.subscription.update,更新,Update,Update
+inapp_checkout.gift_claim.subscription.next,下一个,Next,Next
 inapp_checkout.gift_claim.subscription.body_desc,,,
-inapp_checkout.gift_claim.review.header,,Claim your gift,Claim your gift
-inapp_checkout.gift_claim.review.btn.txt,,Claim Gift,Claim Gift
+inapp_checkout.gift_claim.review.header,领取礼物,Claim your gift,Claim your gift
+inapp_checkout.gift_claim.review.btn.txt,领取礼物,Claim Gift,Claim Gift
 inapp_checkout.gift_claim.thankyou.header,,,
 inapp_checkout.gift_claim.thankyou.body,,,
-inapp_checkout.gift_claim.thankyou.close,,CLOSE,CLOSE
+inapp_checkout.gift_claim.thankyou.close,关闭,CLOSE,CLOSE
 inapp_checkout.gift_claim.cart.note.plan.no_trial,,,
 inapp_checkout.gift_claim.review.note.plan.no_trial,,,
 inapp_checkout.gift_claim.customer.note,,,

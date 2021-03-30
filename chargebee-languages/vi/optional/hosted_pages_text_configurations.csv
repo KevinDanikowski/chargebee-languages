@@ -1,92 +1,92 @@
 key,value,reference value,description
-cbjs_grp.bank,,Bank,Bank
-cbjs_grp.select_bank,,Select Bank,Select Bank
-cbjs_grp.list_supported_bank,,Fetching list of supported banks,Fetching list of supported banks
-inapp_checkout.customer.header,,Add your account details,Add your account details
-inapp_checkout.customer.header.edit,,Editing account details,Editing account details
-inapp_checkout.customer.update,,Update,Update
-inapp_checkout.customer.next,,Next,Next
-inapp_checkout.billing_address.header,,Add your billing address,Add your billing address
-inapp_checkout.billing_address.header.edit,,Editing billing address,Editing billing address
-inapp_checkout.billing_address.update,,Update,Update
-inapp_checkout.billing_address.next,,Next,Next
-inapp_checkout.shipping_address.header,,Add your shipping address,Add your shipping address
-inapp_checkout.shipping_address.header.edit,,Editing shipping address,Editing shipping address
-inapp_checkout.shipping_address.update,,Update,Update
-inapp_checkout.shipping_address.next,,Next,Next
-inapp_checkout.choose_sa.header,,Choose Shipping address,Choose Shipping address
-inapp_checkout.billing_address.copy_to_shipping,,Ship to my billing address,Ship to my billing address
-inapp_checkout.shipping_address.choose.add,,Add New,Add New
-inapp_checkout.payment_method.choose.add,,Add Payment Method,Add Payment Method
-inapp_checkout.payment_method.header,,Add your payment details,Add your payment details
-inapp_checkout.payment_method.header.edit,,Editing payment details,Editing payment details
-inapp_checkout.payment_method.header.select,,Select a payment method,Select a payment method
-inapp_checkout.payment_method.footer.choose,,Choose a different payment method,Choose a different payment method
-inapp_checkout.payment_method.update,,Update,Update
-inapp_checkout.payment_method.next,,Next,Next
-inapp_checkout.subscription.header,,Add your subscription details,Add your subscription details
-inapp_checkout.invoice.header,,Add your purchase details,Add your purchase details
-inapp_checkout.subscription.header.edit,,Editing Subscription Details,Editing Subscription Details
-inapp_checkout.invoice.header.edit,,Editing Purchase Details,Editing Purchase Details
-inapp_checkout.subscription.update,,Update,Update
-inapp_checkout.invoice.update,,Update,Update
-inapp_checkout.subscription.next,,Next,Next
-inapp_checkout.invoice.next,,Next,Next
-inapp_checkout.review.header,,Complete your order,Complete your order
-inapp_checkout.pay_review.header,,Complete your order,Complete your order
-inapp_checkout.review.subscribe_btn.current_charge_present.txt,,Pay %{amount} & subscribe,Pay %{amount} & subscribe
-inapp_checkout.review.subscribe_btn.current_charge_zero.txt,,Subscribe,Subscribe
-inapp_checkout.review.order.header,,Order summary,Order summary
-inapp_checkout.review.account.header,,Account,Account
-inapp_checkout.review.billing.header,,Billing,Billing
-inapp_checkout.review.shipping.header,,Shipping,Shipping
-inapp_checkout.review.billing_shipping.header,,Billing & Shipping,Billing & Shipping
-inapp_checkout.review.subscription.header,,Subscription Details,Subscription Details
-inapp_checkout.review.invoice.header,,Purchase Details,Purchase Details
-inapp_checkout.review.pm.header,,Payment,Payment
-inapp_checkout.review.more,,Review Details,Review Details
-inapp_checkout.shipping_address.header.choose,,Choose Shipping Address,Choose Shipping Address
-inapp_checkout.choose_pm.header,,Choose Payment Method,Choose Payment Method
-inapp_checkout.coupon.apply,,Apply,Apply
-inapp_checkout.coupon.label,,Apply coupon,Apply coupon
-inapp_checkout.coupon.placeholder,,Enter coupon code,Enter coupon code
-inapp_checkout.cart.header.edit,,Edit order,Edit order
-inapp_checkout.cart.header,,Your order,Your order
-inapp_checkout.cart.next,,Proceed To Checkout,Proceed To Checkout
-inapp_checkout.cart.remove,,Remove,Remove
-inapp_checkout.cart.recommended_addon_title,,Recommended addons,Recommended addons
-inapp_checkout.payment_method.card.display_name,,Card,Card
-inapp_checkout.payment_method.paypal.display_name,,PayPal,PayPal
+cbjs_grp.bank,ngân hàng,Bank,Bank
+cbjs_grp.select_bank,Chọn ngân hàng,Select Bank,Select Bank
+cbjs_grp.list_supported_bank,Tìm nạp danh sách các ngân hàng được hỗ trợ,Fetching list of supported banks,Fetching list of supported banks
+inapp_checkout.customer.header,Thêm chi tiết tài khoản của bạn,Add your account details,Add your account details
+inapp_checkout.customer.header.edit,Chỉnh sửa chi tiết tài khoản,Editing account details,Editing account details
+inapp_checkout.customer.update,Cập nhật,Update,Update
+inapp_checkout.customer.next,Kế tiếp,Next,Next
+inapp_checkout.billing_address.header,Thêm địa chỉ thanh toán của bạn,Add your billing address,Add your billing address
+inapp_checkout.billing_address.header.edit,Chỉnh sửa địa chỉ thanh toán,Editing billing address,Editing billing address
+inapp_checkout.billing_address.update,Cập nhật,Update,Update
+inapp_checkout.billing_address.next,Kế tiếp,Next,Next
+inapp_checkout.shipping_address.header,Thêm địa chỉ giao hàng của bạn,Add your shipping address,Add your shipping address
+inapp_checkout.shipping_address.header.edit,Chỉnh sửa địa chỉ giao hàng,Editing shipping address,Editing shipping address
+inapp_checkout.shipping_address.update,Cập nhật,Update,Update
+inapp_checkout.shipping_address.next,Kế tiếp,Next,Next
+inapp_checkout.choose_sa.header,Chọn địa chỉ giao hàng,Choose Shipping address,Choose Shipping address
+inapp_checkout.billing_address.copy_to_shipping,Gửi đến địa chỉ thanh toán của tôi,Ship to my billing address,Ship to my billing address
+inapp_checkout.shipping_address.choose.add,Thêm mới,Add New,Add New
+inapp_checkout.payment_method.choose.add,Thêm phương thức thanh toán,Add Payment Method,Add Payment Method
+inapp_checkout.payment_method.header,Thêm chi tiết thanh toán của bạn,Add your payment details,Add your payment details
+inapp_checkout.payment_method.header.edit,Chỉnh sửa chi tiết thanh toán,Editing payment details,Editing payment details
+inapp_checkout.payment_method.header.select,Chọn một Phương thức thanh toán,Select a payment method,Select a payment method
+inapp_checkout.payment_method.footer.choose,Chọn một phương thức thanh toán khác,Choose a different payment method,Choose a different payment method
+inapp_checkout.payment_method.update,Cập nhật,Update,Update
+inapp_checkout.payment_method.next,Kế tiếp,Next,Next
+inapp_checkout.subscription.header,Thêm chi tiết đăng ký của bạn,Add your subscription details,Add your subscription details
+inapp_checkout.invoice.header,Thêm chi tiết mua hàng của bạn,Add your purchase details,Add your purchase details
+inapp_checkout.subscription.header.edit,Chỉnh sửa Chi tiết Đăng ký,Editing Subscription Details,Editing Subscription Details
+inapp_checkout.invoice.header.edit,Chỉnh sửa Chi tiết Mua hàng,Editing Purchase Details,Editing Purchase Details
+inapp_checkout.subscription.update,Cập nhật,Update,Update
+inapp_checkout.invoice.update,Cập nhật,Update,Update
+inapp_checkout.subscription.next,Kế tiếp,Next,Next
+inapp_checkout.invoice.next,Kế tiếp,Next,Next
+inapp_checkout.review.header,Hoàn thành đơn đặt hàng của bạn,Complete your order,Complete your order
+inapp_checkout.pay_review.header,Hoàn thành đơn đặt hàng của bạn,Complete your order,Complete your order
+inapp_checkout.review.subscribe_btn.current_charge_present.txt,Thanh toán %{amount} và đăng ký,Pay %{amount} & subscribe,Pay %{amount} & subscribe
+inapp_checkout.review.subscribe_btn.current_charge_zero.txt,Đăng ký,Subscribe,Subscribe
+inapp_checkout.review.order.header,Tóm tắt theo thứ tự,Order summary,Order summary
+inapp_checkout.review.account.header,Tài khoản,Account,Account
+inapp_checkout.review.billing.header,Thanh toán,Billing,Billing
+inapp_checkout.review.shipping.header,Đang chuyển hàng,Shipping,Shipping
+inapp_checkout.review.billing_shipping.header,Thanh toán & Vận chuyển,Billing & Shipping,Billing & Shipping
+inapp_checkout.review.subscription.header,Chi tiết Đăng ký,Subscription Details,Subscription Details
+inapp_checkout.review.invoice.header,Chi tiết mua hàng,Purchase Details,Purchase Details
+inapp_checkout.review.pm.header,Thanh toán,Payment,Payment
+inapp_checkout.review.more,Xem lại chi tiết,Review Details,Review Details
+inapp_checkout.shipping_address.header.choose,Chọn địa chỉ giao hàng,Choose Shipping Address,Choose Shipping Address
+inapp_checkout.choose_pm.header,Lựa chọn hình thức thanh toán,Choose Payment Method,Choose Payment Method
+inapp_checkout.coupon.apply,Ứng dụng,Apply,Apply
+inapp_checkout.coupon.label,Áp dụng phiếu giảm giá,Apply coupon,Apply coupon
+inapp_checkout.coupon.placeholder,Nhập mã phiếu giảm giá,Enter coupon code,Enter coupon code
+inapp_checkout.cart.header.edit,Chỉnh sửa đơn hàng,Edit order,Edit order
+inapp_checkout.cart.header,Đơn đặt hàng của bạn,Your order,Your order
+inapp_checkout.cart.next,Tiến hành kiểm tra,Proceed To Checkout,Proceed To Checkout
+inapp_checkout.cart.remove,Tẩy,Remove,Remove
+inapp_checkout.cart.recommended_addon_title,Tiện ích được đề xuất,Recommended addons,Recommended addons
+inapp_checkout.payment_method.card.display_name,Thẻ,Card,Card
+inapp_checkout.payment_method.paypal.display_name,PayPal,PayPal,PayPal
 inapp_checkout.thankyou.header,,,
 inapp_checkout.thankyou.body,,,
-inapp_checkout.thankyou.close,,CLOSE,CLOSE
-inapp_checkout.otp.enter,,Enter your six-digit one time password,Enter your six-digit one time password
-inapp_checkout.password.enter,,Enter your password,Enter your password
-inapp_checkout.otp.resend,,Resend the one time password,Resend the one time password
-inapp_checkout.login.via_otp,,Login via one time password,Login via one time password
-inapp_checkout.otp.enter_password,,Enter password instead,Enter password instead
-inapp_checkout.otp_resend.notify,,New one time password send to your email address,New one time password send to your email address
-inapp_checkout.checkuser.error.multiple_subscriptions_not_allowed,,You already have a subscription with us,You already have a subscription with us
-inapp_checkout.otp.guest,,Proceed as guest,Proceed as guest
-inapp_checkout.checkuser.email,,Enter email to proceed,Enter email to proceed
-inapp_checkout.checkuser.next,,Next,Next
-inapp_checkout.modal_button.confirm,,Confirm,Confirm
-inapp_checkout.modal_button.cancel,,Cancel,Cancel
-inapp_checkout.po_number.label,,PO Number,PO Number
+inapp_checkout.thankyou.close,ĐÓNG,CLOSE,CLOSE
+inapp_checkout.otp.enter,Nhập mật khẩu một lần gồm sáu chữ số của bạn,Enter your six-digit one time password,Enter your six-digit one time password
+inapp_checkout.password.enter,Nhập mật khẩu của bạn,Enter your password,Enter your password
+inapp_checkout.otp.resend,Gửi lại mật khẩu một lần,Resend the one time password,Resend the one time password
+inapp_checkout.login.via_otp,Đăng nhập bằng mật khẩu một lần,Login via one time password,Login via one time password
+inapp_checkout.otp.enter_password,Nhập mật khẩu thay thế,Enter password instead,Enter password instead
+inapp_checkout.otp_resend.notify,Gửi mật khẩu một lần mới đến địa chỉ email của bạn,New one time password send to your email address,New one time password send to your email address
+inapp_checkout.checkuser.error.multiple_subscriptions_not_allowed,Bạn đã đăng ký với chúng tôi,You already have a subscription with us,You already have a subscription with us
+inapp_checkout.otp.guest,Tiếp tục với tư cách khách,Proceed as guest,Proceed as guest
+inapp_checkout.checkuser.email,Nhập email để tiếp tục,Enter email to proceed,Enter email to proceed
+inapp_checkout.checkuser.next,Kế tiếp,Next,Next
+inapp_checkout.modal_button.confirm,Xác nhận,Confirm,Confirm
+inapp_checkout.modal_button.cancel,Huỷ bỏ,Cancel,Cancel
+inapp_checkout.po_number.label,Số PO,PO Number,PO Number
 inapp_checkout.items_in_total.custom_label,,,
 inapp_checkout.discounts_applied.label,,,
-inapp_checkout.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-inapp_checkout.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-inapp_checkout.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-inapp_checkout.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-inapp_checkout.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-inapp_checkout.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-inapp_checkout.card.billing_address,,Use my billing address as card address,Use my billing address as card address
-inapp_checkout.card.shipping_address,,Use my shipping address as card address,Use my shipping address as card address
-inapp_checkout.item.breakdown.show,,See Details,See Details
-inapp_checkout.item.breakdown.hide,,Hide Details,Hide Details
-inapp_checkout.cart.trial.info,,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
-inapp_checkout.cart.note.plan.trial,,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
+inapp_checkout.payment_method.bacs.guarantee.header,Quay lại thanh toán,Back to Payment,Back to Payment
+inapp_checkout.payment_method.bank_account.btn.proceed_to_review,Tiến hành đánh giá,Proceed to Review,Proceed to Review
+inapp_checkout.payment_method.bank_account.btn.enter_iban,Nhập IBAN,Enter IBAN,Enter IBAN
+inapp_checkout.payment_method.bank_account.btn.enter_local_details,Nhập chi tiết ngân hàng địa phương,Enter local bank details,Enter local bank details
+inapp_checkout.payment_method.bank_account.btn.enter_your_name,Điền tên của bạn,Enter your name,Enter your name
+inapp_checkout.payment_method.bank_account.btn.enter_company_name,Nhập tên công ty,Enter company name,Enter company name
+inapp_checkout.card.billing_address,Sử dụng địa chỉ thanh toán của tôi làm địa chỉ thẻ,Use my billing address as card address,Use my billing address as card address
+inapp_checkout.card.shipping_address,Sử dụng địa chỉ giao hàng của tôi làm địa chỉ thẻ,Use my shipping address as card address,Use my shipping address as card address
+inapp_checkout.item.breakdown.show,Xem chi tiết,See Details,See Details
+inapp_checkout.item.breakdown.hide,Ẩn chi tiết,Hide Details,Hide Details
+inapp_checkout.cart.trial.info,Bạn sẽ bị tính phí sau khi dùng thử %{plan_trial_period}.,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
+inapp_checkout.cart.note.plan.trial,Bạn sẽ bị tính phí sau khi dùng thử %{plan_trial_period}.,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
 inapp_checkout.review.note.plan.trial,,,
 inapp_checkout.payment_method.note.plan.trial,,,
 inapp_checkout.cart.note.plan.no_trial,,,
@@ -96,270 +96,270 @@ inapp_checkout.customer.note,,,
 inapp_checkout.subscription.note,,,
 inapp_checkout.shipping_address.note,,,
 inapp_checkout.billing_address.note,,,
-inapp_checkout.cart.pay_now.label,,Pay now,Pay now
-inapp_checkout.cart.next_charge.label,,Next charge on %{date},Next charge on %{date}
-inapp_checkout.order_summary.charge_now.label,,Chargeable now,Chargeable now
-inapp_checkout.order_summary.next_charge.label,,Charges on %{date},Charges on %{date}
-inapp_checkout.order.edit.link,,Edit order,Edit order
-inapp_checkout.estimate_display_screen.header,,Your order summary,Your order summary
-inapp_checkout.credits_applied.label,,Credits applied,Credits applied
-inapp_checkout.non_rec_addon.tag,,ONE-TIME,ONE-TIME
-inapp_checkout.coupon.description,,%{amount} coupon applied,%{amount} coupon applied
-inapp_checkout.free_quantity.description,,%{units} units free,%{units} units free
-inapp_checkout.referral.title,,Refer your friends,Refer your friends
-inapp_checkout.referral.cb_reward,,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.
-inapp_checkout.referral.custom_reward,,Refer your friends and we will reward you when they purchase their first subscription.,Refer your friends and we will reward you when they purchase their first subscription.
-inapp_checkout.referral.friend_discount,,Your friend will get %{referral_friend_discount} discount.,Your friend will get %{referral_friend_discount} discount.
-inapp_checkout.referral.link_label,,Your referral link,Your referral link
-inapp_checkout.review.threedsWarning.non_trial,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_checkout.review.threedsWarning.trial,,"You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
-inapp_checkout.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_checkout.otp_email.subject,,Your One Time Password (OTP),Your One Time Password (OTP)
-inapp_checkout.otp_email.salutation,,"Hi there,","Hi there,"
-inapp_checkout.otp_email.otp_line,,%{otp} is your one time password,%{otp} is your one time password
-inapp_checkout.otp_email.desc,,The one time password is valid for 5 minutes from the time it is generated.,The one time password is valid for 5 minutes from the time it is generated.
-inapp_checkout.otp_sms.body,,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.
-inapp_checkout.multi_decimal.quantity.error,,Enter valid quantity,Enter valid quantity
-inapp_checkout.qty,,Qty,Qty
-inapp_checkout.review.opm.cash.desc,,You can make the payment by cash,You can make the payment by cash
-inapp_checkout.review.opm.check.desc,,You can find the payment transfer details as part of the invoice,You can find the payment transfer details as part of the invoice
-inapp_checkout.review.opm.bank_transfer.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.review.opm.ach_credit.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.review.opm.sepa_credit.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.pm.consent.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.
-inapp_checkout.pm.never.save.txt,,Your payment information will not be saved in our system.,Your payment information will not be saved in our system.
-inapp_portal.recommended.addon.tag,,RECOMMENDED,RECOMMENDED
-inapp_portal.home.header,,Manage Subscriptions,Manage Subscriptions
-inapp_portal.locale.label,,Locale,Locale
-inapp_portal.home.footer,,Questions? Our Support Team would be glad to help,Questions? Our Support Team would be glad to help
-inapp_portal.home.account.link_text,,Account Information,Account Information
-inapp_portal.home.address.link_text,,Billing & Shipping Addresses,Billing & Shipping Addresses
-inapp_portal.home.payment_methods.link_text,,Payment Methods,Payment Methods
-inapp_portal.home.billing_history.link_text,,Billing History,Billing History
-inapp_portal.back,,Back,Back
-inapp_portal.subscription.header,,Subscription Details,Subscription Details
-inapp_portal.subscription.header.edit,,Edit Subscription Details,Edit Subscription Details
-inapp_portal.subscription.header.review,,Review subscription changes,Review subscription changes
-inapp_portal.account.header,,Account Details,Account Details
-inapp_portal.account.edit.txt,,Editing account details,Editing account details
-inapp_portal.account.header.edit,,Update your account details,Update your account details
-inapp_portal.account.header.edit.submit,,Update,Update
-inapp_portal.address.header,,Billing & Shipping Addresses,Billing & Shipping Addresses
-inapp_portal.address.billing.txt,,Billing,Billing
-inapp_portal.address.billing.edit.txt,,Editing billing details,Editing billing details
-inapp_portal.address.billing.add.txt,,Add your billing details,Add your billing details
-inapp_portal.address.shipping.txt,,Shipping,Shipping
-inapp_portal.address.shipping.edit.txt,,Editing shipping details,Editing shipping details
-inapp_portal.address.billing.header.edit,,Update your billing details,Update your billing details
-inapp_portal.address.billing.header.edit.submit,,Update,Update
-inapp_portal.address.shipping.header.edit,,Update your shipping details,Update your shipping details
-inapp_portal.address.shipping.header.edit.submit,,Update,Update
-inapp_portal.payment_method.header,,Payment Methods,Payment Methods
-inapp_portal.payment_method.link.add,,Add New,Add New
-inapp_portal.payment_method.link.add_new,,Add a payment method,Add a payment method
-inapp_portal.payment_method.header.add,,Add a payment method,Add a payment method
-inapp_portal.payment_method.header.select,,Select a payment method,Select a payment method
-inapp_portal.payment_method.footer.choose,,Choose a different payment method,Choose a different payment method
-inapp_portal.payment_method.header.add.submit,,Add,Add
-inapp_portal.payment_method.header.edit,,Update your payment method,Update your payment method
-inapp_portal.payment_method.header.edit.submit,,Update,Update
-inapp_portal.payment_method.header.verify,,Verify payment method,Verify payment method
-inapp_portal.payment_method.header.verify.submit,,Verify,Verify
-inapp_portal.billing_history.header,,Billing history,Billing history
-inapp_portal.billing_history.download,,Download,Download
-inapp_portal.billing_history.none,,No invoices to display,No invoices to display
-inapp_portal.subscription.header.edit.submit,,Review,Review
-inapp_portal.subscription.header.review.submit,,Update Subscription,Update Subscription
-inapp_portal.subscription.header.choose_pm,,Choose your payment method for this subscription,Choose your payment method for this subscription
-inapp_portal.subscription.update_sub_pm,,Update,Update
-inapp_portal.subscription.cancel.link.txt,,Cancel Subscription,Cancel Subscription
-inapp_portal.subscription.next.renewing_estimate.now,,You will be charged %{amount} for prorated charges via,You will be charged %{amount} for prorated charges via
-inapp_portal.subscription.next.renewing_estimate.eot.non_recurring,,You will be charged %{amount} via,You will be charged %{amount} via
-inapp_portal.subscription.next.renewing_estimate.eot,,You will be charged %{amount} every %{billing_period} via,You will be charged %{amount} every %{billing_period} via
-inapp_portal.subscription.next.renewing_estimate.eot.with_date,,Your next charge %{amount} will be on %{date} via,Your next charge %{amount} will be on %{date} via
-inapp_portal.subscription.next.credits_created.now,,You will not be charged for this change and %{amount} will be added as refundable credits,You will not be charged for this change and %{amount} will be added as refundable credits
-inapp_portal.subscription.details.trial.info,,"You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan","You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan"
-inapp_portal.subscription.details.cancellation_scheduled.info,,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
-inapp_portal.subscription.next.renewing_estimate.now_zero,," %{amount} charged from available credits."," %{amount} charged from available credits."
-inapp_portal.subscription.details.trial.info_today,,You trial will end today and you’ll be moved to the %{plan_name} plan,You trial will end today and you’ll be moved to the %{plan_name} plan
+inapp_checkout.cart.pay_now.label,Thanh toán ngay,Pay now,Pay now
+inapp_checkout.cart.next_charge.label,Khoản phí tiếp theo vào %{date},Next charge on %{date},Next charge on %{date}
+inapp_checkout.order_summary.charge_now.label,Tính phí ngay bây giờ,Chargeable now,Chargeable now
+inapp_checkout.order_summary.next_charge.label,Các khoản phí vào %{date},Charges on %{date},Charges on %{date}
+inapp_checkout.order.edit.link,Chỉnh sửa đơn hàng,Edit order,Edit order
+inapp_checkout.estimate_display_screen.header,Tóm tắt đơn hàng của bạn,Your order summary,Your order summary
+inapp_checkout.credits_applied.label,Tín dụng được áp dụng,Credits applied,Credits applied
+inapp_checkout.non_rec_addon.tag,MỘT LẦN,ONE-TIME,ONE-TIME
+inapp_checkout.coupon.description,Đã áp dụng phiếu giảm giá %{amount},%{amount} coupon applied,%{amount} coupon applied
+inapp_checkout.free_quantity.description, %{units} đơn vị miễn phí,%{units} units free,%{units} units free
+inapp_checkout.referral.title,Giới thiệu bạn bè của bạn,Refer your friends,Refer your friends
+inapp_checkout.referral.cb_reward,Giới thiệu bạn bè của bạn và chúng tôi sẽ cung cấp cho bạn %{referral_credits} khi họ mua đăng ký đầu tiên.,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.
+inapp_checkout.referral.custom_reward,Giới thiệu bạn bè của bạn và chúng tôi sẽ thưởng cho bạn khi họ mua gói đăng ký đầu tiên.,Refer your friends and we will reward you when they purchase their first subscription.,Refer your friends and we will reward you when they purchase their first subscription.
+inapp_checkout.referral.friend_discount,Bạn của bạn sẽ được chiết khấu %{referral_friend_discount}.,Your friend will get %{referral_friend_discount} discount.,Your friend will get %{referral_friend_discount} discount.
+inapp_checkout.referral.link_label,Liên kết giới thiệu của bạn,Your referral link,Your referral link
+inapp_checkout.review.threedsWarning.non_trial,Bạn có thể được chuyển hướng đến trang ngân hàng của mình để xác minh bảo mật 3D.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_checkout.review.threedsWarning.trial,"Bạn có thể được chuyển hướng đến trang ngân hàng của mình để xác minh bảo mật 3D mà số tiền mã thông báo có thể bị tính phí, số tiền này sẽ được hoàn trả hoàn toàn tự động.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
+inapp_checkout.3ds.auth.txt,Tôi cho phép %{organisation_name} lưu phương thức thanh toán này và tự động tính phí phương thức thanh toán này bất cứ khi nào đăng ký được liên kết với nó.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_checkout.otp_email.subject,Mật khẩu dùng một lần (OTP) của bạn,Your One Time Password (OTP),Your One Time Password (OTP)
+inapp_checkout.otp_email.salutation,"Xin chào,","Hi there,","Hi there,"
+inapp_checkout.otp_email.otp_line, %{otp} là mật khẩu dùng một lần của bạn,%{otp} is your one time password,%{otp} is your one time password
+inapp_checkout.otp_email.desc,Mật khẩu một lần có hiệu lực trong 5 phút kể từ khi được tạo.,The one time password is valid for 5 minutes from the time it is generated.,The one time password is valid for 5 minutes from the time it is generated.
+inapp_checkout.otp_sms.body, %{otp} là mật khẩu dùng một lần của bạn. Mật khẩu một lần có hiệu lực trong 5 phút kể từ khi được tạo.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.
+inapp_checkout.multi_decimal.quantity.error,Nhập số lượng hợp lệ,Enter valid quantity,Enter valid quantity
+inapp_checkout.qty,Định lượng,Qty,Qty
+inapp_checkout.review.opm.cash.desc,Bạn có thể thanh toán bằng tiền mặt,You can make the payment by cash,You can make the payment by cash
+inapp_checkout.review.opm.check.desc,Bạn có thể tìm thấy chi tiết chuyển khoản thanh toán như một phần của hóa đơn,You can find the payment transfer details as part of the invoice,You can find the payment transfer details as part of the invoice
+inapp_checkout.review.opm.bank_transfer.desc,Bạn có thể thanh toán vào chi tiết tài khoản ngân hàng có trong hóa đơn,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.review.opm.ach_credit.desc,Bạn có thể thanh toán vào chi tiết tài khoản ngân hàng có trong hóa đơn,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.review.opm.sepa_credit.desc,Bạn có thể thanh toán vào chi tiết tài khoản ngân hàng có trong hóa đơn,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.pm.consent.txt,Tôi cho phép %{organisation_name} lưu phương thức thanh toán này và tự động tính phí phương thức thanh toán này cho bất kỳ giao dịch nào trong tương lai được liên kết với nó.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.
+inapp_checkout.pm.never.save.txt,Thông tin thanh toán của bạn sẽ không được lưu trong hệ thống của chúng tôi.,Your payment information will not be saved in our system.,Your payment information will not be saved in our system.
+inapp_portal.recommended.addon.tag,KHUYẾN NGHỊ,RECOMMENDED,RECOMMENDED
+inapp_portal.home.header,Quản lý các mục đăng kí,Manage Subscriptions,Manage Subscriptions
+inapp_portal.locale.label,Ngôn ngữ,Locale,Locale
+inapp_portal.home.footer,Câu hỏi? Nhóm hỗ trợ của chúng tôi rất vui được trợ giúp,Questions? Our Support Team would be glad to help,Questions? Our Support Team would be glad to help
+inapp_portal.home.account.link_text,thông tin tài khoản,Account Information,Account Information
+inapp_portal.home.address.link_text,Địa chỉ thanh toán & giao hàng,Billing & Shipping Addresses,Billing & Shipping Addresses
+inapp_portal.home.payment_methods.link_text,Phương thức thanh toán,Payment Methods,Payment Methods
+inapp_portal.home.billing_history.link_text,Lịch sử Thanh toán,Billing History,Billing History
+inapp_portal.back,Trở lại,Back,Back
+inapp_portal.subscription.header,Chi tiết Đăng ký,Subscription Details,Subscription Details
+inapp_portal.subscription.header.edit,Chỉnh sửa Chi tiết Đăng ký,Edit Subscription Details,Edit Subscription Details
+inapp_portal.subscription.header.review,Xem lại các thay đổi đăng ký,Review subscription changes,Review subscription changes
+inapp_portal.account.header,Chi tiết tài khoản,Account Details,Account Details
+inapp_portal.account.edit.txt,Chỉnh sửa chi tiết tài khoản,Editing account details,Editing account details
+inapp_portal.account.header.edit,Cập nhật chi tiết tài khoản của bạn,Update your account details,Update your account details
+inapp_portal.account.header.edit.submit,Cập nhật,Update,Update
+inapp_portal.address.header,Địa chỉ thanh toán & giao hàng,Billing & Shipping Addresses,Billing & Shipping Addresses
+inapp_portal.address.billing.txt,Thanh toán,Billing,Billing
+inapp_portal.address.billing.edit.txt,Chỉnh sửa chi tiết thanh toán,Editing billing details,Editing billing details
+inapp_portal.address.billing.add.txt,Thêm chi tiết thanh toán của bạn,Add your billing details,Add your billing details
+inapp_portal.address.shipping.txt,Đang chuyển hàng,Shipping,Shipping
+inapp_portal.address.shipping.edit.txt,Chỉnh sửa chi tiết giao hàng,Editing shipping details,Editing shipping details
+inapp_portal.address.billing.header.edit,Cập nhật chi tiết thanh toán của bạn,Update your billing details,Update your billing details
+inapp_portal.address.billing.header.edit.submit,Cập nhật,Update,Update
+inapp_portal.address.shipping.header.edit,Cập nhật chi tiết giao hàng của bạn,Update your shipping details,Update your shipping details
+inapp_portal.address.shipping.header.edit.submit,Cập nhật,Update,Update
+inapp_portal.payment_method.header,Phương thức thanh toán,Payment Methods,Payment Methods
+inapp_portal.payment_method.link.add,Thêm mới,Add New,Add New
+inapp_portal.payment_method.link.add_new,Thêm một Phương thức thanh toán,Add a payment method,Add a payment method
+inapp_portal.payment_method.header.add,Thêm một Phương thức thanh toán,Add a payment method,Add a payment method
+inapp_portal.payment_method.header.select,Chọn một Phương thức thanh toán,Select a payment method,Select a payment method
+inapp_portal.payment_method.footer.choose,Chọn một phương thức thanh toán khác,Choose a different payment method,Choose a different payment method
+inapp_portal.payment_method.header.add.submit,Thêm vào,Add,Add
+inapp_portal.payment_method.header.edit,Cập nhật phương thức thanh toán của bạn,Update your payment method,Update your payment method
+inapp_portal.payment_method.header.edit.submit,Cập nhật,Update,Update
+inapp_portal.payment_method.header.verify,Xác minh phương thức thanh toán,Verify payment method,Verify payment method
+inapp_portal.payment_method.header.verify.submit,Kiểm chứng,Verify,Verify
+inapp_portal.billing_history.header,Lịch sử Thanh toán,Billing history,Billing history
+inapp_portal.billing_history.download,Tải xuống,Download,Download
+inapp_portal.billing_history.none,Không có một hoặc nhiều hóa đơn để hiển thị,No invoices to display,No invoices to display
+inapp_portal.subscription.header.edit.submit,Ôn tập,Review,Review
+inapp_portal.subscription.header.review.submit,Cập nhật đăng ký,Update Subscription,Update Subscription
+inapp_portal.subscription.header.choose_pm,Chọn phương thức thanh toán của bạn cho đăng ký này,Choose your payment method for this subscription,Choose your payment method for this subscription
+inapp_portal.subscription.update_sub_pm,Cập nhật,Update,Update
+inapp_portal.subscription.cancel.link.txt,Hủy đăng ký,Cancel Subscription,Cancel Subscription
+inapp_portal.subscription.next.renewing_estimate.now,Bạn sẽ bị tính phí %{amount} cho các khoản phí được chia theo tỷ lệ qua,You will be charged %{amount} for prorated charges via,You will be charged %{amount} for prorated charges via
+inapp_portal.subscription.next.renewing_estimate.eot.non_recurring,Bạn sẽ bị tính phí %{amount} qua,You will be charged %{amount} via,You will be charged %{amount} via
+inapp_portal.subscription.next.renewing_estimate.eot,Bạn sẽ bị tính phí %{amount} mỗi %{billing_period} qua,You will be charged %{amount} every %{billing_period} via,You will be charged %{amount} every %{billing_period} via
+inapp_portal.subscription.next.renewing_estimate.eot.with_date,Khoản phí tiếp theo của bạn %{amount} sẽ vào %{date} qua,Your next charge %{amount} will be on %{date} via,Your next charge %{amount} will be on %{date} via
+inapp_portal.subscription.next.credits_created.now,Bạn sẽ không bị tính phí cho thay đổi này và %{amount} sẽ được thêm vào dưới dạng tín dụng có thể hoàn lại,You will not be charged for this change and %{amount} will be added as refundable credits,You will not be charged for this change and %{amount} will be added as refundable credits
+inapp_portal.subscription.details.trial.info,"Bạn còn %{remaining_trial_period} thời gian dùng thử. Sau khi hết hạn dùng thử, bạn sẽ được chuyển sang gói %{plan_name}","You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan","You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan"
+inapp_portal.subscription.details.cancellation_scheduled.info,Đăng ký của bạn sẽ bị hủy vào %{date},Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
+inapp_portal.subscription.next.renewing_estimate.now_zero, %{amount} được tính từ các khoản tín dụng có sẵn., %{amount} charged from available credits., %{amount} charged from available credits.
+inapp_portal.subscription.details.trial.info_today,Thời gian dùng thử của bạn sẽ kết thúc vào hôm nay và bạn sẽ được chuyển sang gói %{plan_name},You trial will end today and you’ll be moved to the %{plan_name} plan,You trial will end today and you’ll be moved to the %{plan_name} plan
 inapp_portal.subscription.details.active.info,,,
-inapp_portal.subscription.details.non_renewing.info,,Your subscription will end on %{date},Your subscription will end on %{date}
-inapp_portal.subscription.details.cancelled.info,,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription
-inapp_portal.subscription.details.paused.info,,Your subscription is currently paused.,Your subscription is currently paused.
-inapp_portal.subscription.details.future.info,,Your subscription will start on %{date},Your subscription will start on %{date}
-inapp_portal.subscription.edit.txt,,Edit Subscription,Edit Subscription
-inapp_portal.choose_change_subscription.header,,Change subscription,Change subscription
-inapp_portal.subscription.edit.chooser_question,,When do you want to change the subscription?,When do you want to change the subscription?
-inapp_portal.subscription.change.immediately.option,,Change immediately,Change immediately
-inapp_portal.subscription.change.eot.option,,Change on next renewal(%{date}),Change on next renewal(%{date})
-inapp_portal.subscription.change.specific_date.option,,Change on a specific date,Change on a specific date
-inapp_portal.subscription.change.option.submit,,Change subscription,Change subscription
-inapp_portal.subscription.change.options.proceed,,proceed,proceed
-inapp_portal.subscription.cancel.specific_date.option,,Cancel on a specific date,Cancel on a specific date
-inapp_portal.remove_scheduled_changes.txt,,Remove scheduled changes,Remove scheduled changes
-inapp_portal.subscription.remove_scheduled_cancellation.link_txt,,Remove scheduled cancellation,Remove scheduled cancellation
-inapp_portal.remove_scheduled_changes.info,,These changes will be applied to your subscription from next renewal( %{date} ),These changes will be applied to your subscription from next renewal( %{date} )
-inapp_portal.payment_method.header.view,,Payment Method Details,Payment Method Details
-inapp_portal.payment_method.view.remove,,Remove Payment Method,Remove Payment Method
-inapp_portal.payment_method.view.edit,,Edit Payment Method,Edit Payment Method
-inapp_portal.payment_method.view.remove_prompt,,Are you sure you want to remove this payment method?,Are you sure you want to remove this payment method?
-inapp_portal.subscription_cf.header.edit,,Update your subscription details,Update your subscription details
-inapp_portal.subscription_cf.header.edit.submit,,Update,Update
+inapp_portal.subscription.details.non_renewing.info,Đăng ký của bạn sẽ kết thúc vào %{date},Your subscription will end on %{date},Your subscription will end on %{date}
+inapp_portal.subscription.details.cancelled.info,BỊ HỦY. Đăng ký của bạn đã bị hủy. Liên hệ với chúng tôi để kích hoạt lại đăng ký của bạn,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription
+inapp_portal.subscription.details.paused.info,Đăng ký của bạn hiện đang bị tạm dừng.,Your subscription is currently paused.,Your subscription is currently paused.
+inapp_portal.subscription.details.future.info,Đăng ký của bạn sẽ bắt đầu vào %{date},Your subscription will start on %{date},Your subscription will start on %{date}
+inapp_portal.subscription.edit.txt,Chỉnh sửa đăng ký,Edit Subscription,Edit Subscription
+inapp_portal.choose_change_subscription.header,Thay đổi đăng ký,Change subscription,Change subscription
+inapp_portal.subscription.edit.chooser_question,Khi nào bạn muốn thay đổi đăng ký?,When do you want to change the subscription?,When do you want to change the subscription?
+inapp_portal.subscription.change.immediately.option,Thay đổi ngay lập tức,Change immediately,Change immediately
+inapp_portal.subscription.change.eot.option,Thay đổi vào lần gia hạn tiếp theo ( %{date}),Change on next renewal(%{date}),Change on next renewal(%{date})
+inapp_portal.subscription.change.specific_date.option,Thay đổi vào một ngày cụ thể,Change on a specific date,Change on a specific date
+inapp_portal.subscription.change.option.submit,Thay đổi đăng ký,Change subscription,Change subscription
+inapp_portal.subscription.change.options.proceed,tiến hành,proceed,proceed
+inapp_portal.subscription.cancel.specific_date.option,Hủy vào một ngày cụ thể,Cancel on a specific date,Cancel on a specific date
+inapp_portal.remove_scheduled_changes.txt,Xóa các thay đổi đã lên lịch,Remove scheduled changes,Remove scheduled changes
+inapp_portal.subscription.remove_scheduled_cancellation.link_txt,Loại bỏ việc hủy theo lịch trình,Remove scheduled cancellation,Remove scheduled cancellation
+inapp_portal.remove_scheduled_changes.info,Những thay đổi này sẽ được áp dụng cho đăng ký của bạn kể từ lần gia hạn tiếp theo ( %{date}),These changes will be applied to your subscription from next renewal( %{date} ),These changes will be applied to your subscription from next renewal( %{date} )
+inapp_portal.payment_method.header.view,Chi tiết Phương thức Thanh toán,Payment Method Details,Payment Method Details
+inapp_portal.payment_method.view.remove,Xóa phương thức thanh toán,Remove Payment Method,Remove Payment Method
+inapp_portal.payment_method.view.edit,Chỉnh sửa Phương thức Thanh toán,Edit Payment Method,Edit Payment Method
+inapp_portal.payment_method.view.remove_prompt,Bạn có chắc chắn muốn xóa phương thức thanh toán này không?,Are you sure you want to remove this payment method?,Are you sure you want to remove this payment method?
+inapp_portal.subscription_cf.header.edit,Cập nhật chi tiết đăng ký của bạn,Update your subscription details,Update your subscription details
+inapp_portal.subscription_cf.header.edit.submit,Cập nhật,Update,Update
 inapp_portal.discounts_applied.label,,,
 inapp_portal.items_in_total.custom_label,,,
 inapp_portal.more_items_txt.custom_label,,,
-inapp_portal.home.gift_sub.gifted_by,,Recieved from %{name},Recieved from %{name}
-inapp_portal.sub_details.gift.gifted_by,,Gifted by %{name},Gifted by %{name}
-inapp_portal.subscription.cancel.header,,Cancel Subscription,Cancel Subscription
-inapp_portal.subscription.cancel.header.submit,,Confirm Cancellation,Confirm Cancellation
-inapp_portal.subscription.cancel.when,,When do you want to cancel the subscription?,When do you want to cancel the subscription?
-inapp_portal.subscription.cancel.eot.option,,Cancel on next renewal  (%{date}),Cancel on next renewal  (%{date})
-inapp_portal.subscription.cancel.immediately.option,,Cancel Immediately,Cancel Immediately
-inapp_portal.subscription.cancel.immediately.info,,Your subscription will be canceled immediately,Your subscription will be canceled immediately
-inapp_portal.subscription.cancel.eot.info,,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
-inapp_portal.subscription.cancel.reason,,Reason for cancellation,Reason for cancellation
-inapp_portal.subscription.cancel.feedback,,Is there anything else you would like to let us know?,Is there anything else you would like to let us know?
-inapp_portal.subscription.cancel.reason.option,,Select a cancellation reason,Select a cancellation reason
-inapp_portal.subscription.canceled.reason_code.info,,Your subscription was canceled with the reason '%{reason}',Your subscription was canceled with the reason '%{reason}'
-inapp_portal.subscription.sch_cancel.reason_code.info,,Your subscription will be canceled with the reason '%{reason}',Your subscription will be canceled with the reason '%{reason}'
-inapp_portal.scheduled_changes.header,,View scheduled changes,View scheduled changes
-inapp_portal.scheduled_changes_navigation.header,,Changes from next renewal,Changes from next renewal
-inapp_portal.subscription_preview_navigation.header,,Subscription Details,Subscription Details
-inapp_portal.consent.header,,Permissions,Permissions
-inapp_portal.consent_section.name,,Permissions,Permissions
-inapp_portal.consent.revoke_alert,,Are you sure?,Are you sure?
-inapp_portal.consent.submit,,Update,Update
-inapp_portal.remove_scheduled_pause.confirm_txt,,The scheduled pause for your subscription will be removed. Continue?,The scheduled pause for your subscription will be removed. Continue?
-inapp_portal.resume_subscription_now.confirm_txt,,Your subscription will resume immediately. Continue?,Your subscription will resume immediately. Continue?
-inapp_portal.resume_now.link,,Resume now,Resume now
-inapp_portal.remove_scheduled_pause.link,,Remove Scheduled Pause,Remove Scheduled Pause
-inapp_portal.subscription.details.pause_scheduled.info,,Your subscription will be paused on %{date},Your subscription will be paused on %{date}
-inapp_portal.subscription.details.resume_scheduled.info,,Your subscription will resume on %{date},Your subscription will resume on %{date}
-inapp_portal.subscription.pause.link.txt,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.header,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.submit,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.immediate_indefinite.info,,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page
-inapp_portal.subscription.pause.immediate_fixed_time.info,,"Your subscription will be paused immediately, and will resume after %{pause_period_set} days.","Your subscription will be paused immediately, and will resume after %{pause_period_set} days."
-inapp_portal.subscription.pause.immediate_options.info,,Your subscription will be paused immediately.,Your subscription will be paused immediately.
-inapp_portal.subscription.pause.immediate_indefinite.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.immediate_fixed_time.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.immediate_options.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_indefinite.info,,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
-inapp_portal.subscription.pause.eot_fixed_time.info,,"Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days.","Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days."
-inapp_portal.subscription.pause.eot_options.info,,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
-inapp_portal.subscription.pause.eot_indefinite.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_fixed_time.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_options.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.chooser_question,,How long do you want to pause the subscription?,How long do you want to pause the subscription?
-inapp_portal.subscription.pause.custom_date,,Custom date,Custom date
-inapp_portal.subscription.pause.choose_specific_date,,(Choose a specific date),(Choose a specific date)
-inapp_portal.subscription.pause.pause_until,,Pause until,Pause until
-inapp_portal.payment_method_tag.primary,,Primary,Primary
-inapp_portal.payment_method_tag.backup,,Backup,Backup
-inapp_portal.payment_method.suggest_backup,,Backups come handy when your primary payment fails. Set a backup.,Backups come handy when your primary payment fails. Set a backup.
-inapp_portal.card.expiring,,Expires on %{card_expiry},Expires on %{card_expiry}
-inapp_portal.card.expired,,Expired on %{card_expiry},Expired on %{card_expiry}
-inapp_portal.pm.set_role.link,,Set this as primary or backup,Set this as primary or backup
-inapp_portal.pm.set_role.title,,Set this payment method as,Set this payment method as
-inapp_portal.pm.set_role.header,,Payment Method Settings,Payment Method Settings
-inapp_portal.pm.set_role.update_btn,,Update,Update
-inapp_portal.pm.set_role.skip_btn,,Skip,Skip
-inapp_portal.pm.remove_backup.link,,Remove as backup,Remove as backup
-inapp_portal.pm.remove_backup.message,,Remove backup? Backups come handy when your primary payment method fails.,Remove backup? Backups come handy when your primary payment method fails.
-inapp_portal.pm.remove_backup.confirm,,Remove,Remove
-inapp_portal.pm.set_primary.message,,Set this as primary? This will replace your current primary payment method,Set this as primary? This will replace your current primary payment method
-inapp_portal.pm.set_primary.confirm,,Confirm,Confirm
-inapp_portal.pm.set_primary.link,,Set as primary,Set as primary
-inapp_portal.pm.primary.desc.txt,,This is your primary payment method,This is your primary payment method
-inapp_portal.pm.backup.desc.txt,,This is your backup payment method,This is your backup payment method
-inapp_portal.pm.primary.warning.txt,,This will replace your current primary payment method,This will replace your current primary payment method
-inapp_portal.pm.backup.warning.txt,,This will replace your current backup payment method,This will replace your current backup payment method
-inapp_portal.pm.primary.info.txt,,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
-inapp_portal.pm.backup.info.txt,,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
-inapp_portal.pm.primary.desc.detail,,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
-inapp_portal.pm.backup.desc.detail,,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
-inapp_portal.subscription.details.pm_warning,,"Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription.","Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription."
-inapp_portal.error.future_date.required,,Please provide a future date in correct format to process the request.,Please provide a future date in correct format to process the request.
-inapp_portal.addon_item_price_selection.header,,Change addon frequency,Change addon frequency
-inapp_portal.addon_item_price_selection.title,,Select billing frequency,Select billing frequency
-inapp_portal.addon_item_price_selection.update.btn,,Update,Update
-inapp_portal.item_selection.header,,Change plan,Change plan
-inapp_portal.item_selection.title,,Select billing frequency,Select billing frequency
-inapp_portal.item_selection.update.btn,,Update,Update
-inapp_portal.subscription.reactivate.link.txt,,Reactivate Subscription,Reactivate Subscription
-inapp_portal.reactivate_confirm.txt,,Are you sure you want to reactivate this subscription?,Are you sure you want to reactivate this subscription?
-inapp_portal.remove_cancellation.confirm_txt,,Are you sure you want to remove the scheduled cancellation?,Are you sure you want to remove the scheduled cancellation?
-inapp_portal.remove_scheduled_changes_confirm.txt,,Are you sure you want to remove the scheduled changes?,Are you sure you want to remove the scheduled changes?
-inapp_portal.modal_button.confirm,,Confirm,Confirm
-inapp_portal.modal_button.cancel,,Cancel,Cancel
-inapp_portal.subscriptions.load_more,,Load more,Load more
-inapp_portal.subscriptions.more,,See all your subscriptions,See all your subscriptions
-inapp_portal.portal_home.close,,Exit,Exit
-inapp_portal.change_item.txt,,Change,Change
-inapp_portal.add_addons.txt,,Add Addons,Add Addons
-inapp_portal.add_addons.btn,,Add,Add
-inapp_portal.edit_addon_item.btn,,Edit,Edit
-inapp_portal.add_addons.non_rec.title,,ONE-TIME CHARGES,ONE-TIME CHARGES
-inapp_portal.item.breakdown.show,,See Details,See Details
-inapp_portal.item.breakdown.hide,,Hide Details,Hide Details
-inapp_portal.subscription.view_breakup,,View breakdown,View breakdown
-inapp_portal.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-inapp_portal.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-inapp_portal.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-inapp_portal.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-inapp_portal.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-inapp_portal.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-inapp_portal.payment_method.bank_account.stripe_ach_verify_note,,You have a maximum of 10 attempts to verify your payment method.,You have a maximum of 10 attempts to verify your payment method.
-inapp_portal.home.gift_bar,,Gifted %{number} subscriptions,Gifted %{number} subscriptions
-inapp_portal.home.gift_header,,GIFT SUBSCRIPTIONS,GIFT SUBSCRIPTIONS
-inapp_portal.gift_tag.scheduled,,Gift to %{name} scheduled,Gift to %{name} scheduled
-inapp_portal.gift_tag.unclaimed,,Gift yet to be claimed by %{name},Gift yet to be claimed by %{name}
-inapp_portal.gift_tag.claimed,,Gifted to %{name},Gifted to %{name}
-inapp_portal.gift_tag.canceled,,Gift to %{name} has been canceled,Gift to %{name} has been canceled
-inapp_portal.gift_tag.expired,,Gifted to %{name} has been expired,Gifted to %{name} has been expired
-inapp_portal.gift_details_notification.scheduled,,Your gift will be sent to the recipient via email on %{date},Your gift will be sent to the recipient via email on %{date}
-inapp_portal.gift_details_notification.unclaimed,,Your gift is yet to be claimed by the recipient.,Your gift is yet to be claimed by the recipient.
-inapp_portal.gift_details_notification.canceled,,Your gift has been canceled,Your gift has been canceled
+inapp_portal.home.gift_sub.gifted_by,Đã nhận từ %{name},Recieved from %{name},Recieved from %{name}
+inapp_portal.sub_details.gift.gifted_by,Được %{name} tặng,Gifted by %{name},Gifted by %{name}
+inapp_portal.subscription.cancel.header,Hủy đăng ký,Cancel Subscription,Cancel Subscription
+inapp_portal.subscription.cancel.header.submit,Xác nhận việc hủy bỏ,Confirm Cancellation,Confirm Cancellation
+inapp_portal.subscription.cancel.when,Khi nào bạn muốn hủy đăng ký?,When do you want to cancel the subscription?,When do you want to cancel the subscription?
+inapp_portal.subscription.cancel.eot.option,Hủy vào lần gia hạn tiếp theo ( %{date}),Cancel on next renewal  (%{date}),Cancel on next renewal  (%{date})
+inapp_portal.subscription.cancel.immediately.option,Hủy ngay lập tức,Cancel Immediately,Cancel Immediately
+inapp_portal.subscription.cancel.immediately.info,Đăng ký của bạn sẽ bị hủy ngay lập tức,Your subscription will be canceled immediately,Your subscription will be canceled immediately
+inapp_portal.subscription.cancel.eot.info,Đăng ký của bạn sẽ bị hủy vào %{date},Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
+inapp_portal.subscription.cancel.reason,Lý do hủy bỏ,Reason for cancellation,Reason for cancellation
+inapp_portal.subscription.cancel.feedback,Có điều gì khác bạn muốn cho chúng tôi biết không?,Is there anything else you would like to let us know?,Is there anything else you would like to let us know?
+inapp_portal.subscription.cancel.reason.option,Chọn lý do hủy,Select a cancellation reason,Select a cancellation reason
+inapp_portal.subscription.canceled.reason_code.info,Đăng ký của bạn đã bị hủy với lý do ' %{reason}',Your subscription was canceled with the reason '%{reason}',Your subscription was canceled with the reason '%{reason}'
+inapp_portal.subscription.sch_cancel.reason_code.info,Đăng ký của bạn sẽ bị hủy với lý do ' %{reason}',Your subscription will be canceled with the reason '%{reason}',Your subscription will be canceled with the reason '%{reason}'
+inapp_portal.scheduled_changes.header,Xem các thay đổi đã lên lịch,View scheduled changes,View scheduled changes
+inapp_portal.scheduled_changes_navigation.header,Những thay đổi từ lần gia hạn tiếp theo,Changes from next renewal,Changes from next renewal
+inapp_portal.subscription_preview_navigation.header,Chi tiết Đăng ký,Subscription Details,Subscription Details
+inapp_portal.consent.header,Quyền,Permissions,Permissions
+inapp_portal.consent_section.name,Quyền,Permissions,Permissions
+inapp_portal.consent.revoke_alert,Bạn có chắc không?,Are you sure?,Are you sure?
+inapp_portal.consent.submit,Cập nhật,Update,Update
+inapp_portal.remove_scheduled_pause.confirm_txt,Thời gian tạm dừng đã lên lịch cho đăng ký của bạn sẽ bị xóa. Tiếp tục?,The scheduled pause for your subscription will be removed. Continue?,The scheduled pause for your subscription will be removed. Continue?
+inapp_portal.resume_subscription_now.confirm_txt,Đăng ký của bạn sẽ tiếp tục ngay lập tức. Tiếp tục?,Your subscription will resume immediately. Continue?,Your subscription will resume immediately. Continue?
+inapp_portal.resume_now.link,Tiếp tục ngay bây giờ,Resume now,Resume now
+inapp_portal.remove_scheduled_pause.link,Xóa tạm dừng đã lên lịch,Remove Scheduled Pause,Remove Scheduled Pause
+inapp_portal.subscription.details.pause_scheduled.info,Đăng ký của bạn sẽ bị tạm dừng vào %{date},Your subscription will be paused on %{date},Your subscription will be paused on %{date}
+inapp_portal.subscription.details.resume_scheduled.info,Đăng ký của bạn sẽ tiếp tục vào %{date},Your subscription will resume on %{date},Your subscription will resume on %{date}
+inapp_portal.subscription.pause.link.txt,Tạm dừng đăng ký,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.header,Tạm dừng đăng ký,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.submit,Tạm dừng đăng ký,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.immediate_indefinite.info,Đăng ký của bạn sẽ bị tạm dừng ngay lập tức. Bạn có thể tiếp tục đăng ký của mình bất kỳ lúc nào từ Trang chi tiết đăng ký,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page
+inapp_portal.subscription.pause.immediate_fixed_time.info,Đăng ký của bạn sẽ bị tạm dừng ngay lập tức và sẽ tiếp tục sau %{pause_period_set} ngày.,"Your subscription will be paused immediately, and will resume after %{pause_period_set} days.","Your subscription will be paused immediately, and will resume after %{pause_period_set} days."
+inapp_portal.subscription.pause.immediate_options.info,Đăng ký của bạn sẽ bị tạm dừng ngay lập tức.,Your subscription will be paused immediately.,Your subscription will be paused immediately.
+inapp_portal.subscription.pause.immediate_indefinite.gen,"Khi tạm dừng, đăng ký của bạn sẽ không được lập hóa đơn và sẽ không được gia hạn.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.immediate_fixed_time.gen,"Khi tạm dừng, đăng ký của bạn sẽ không được lập hóa đơn và sẽ không được gia hạn.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.immediate_options.gen,"Khi tạm dừng, đăng ký của bạn sẽ không được lập hóa đơn và sẽ không được gia hạn.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_indefinite.info,Đăng ký của bạn sẽ bị tạm dừng vào %{date}.,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
+inapp_portal.subscription.pause.eot_fixed_time.info,Đăng ký của bạn sẽ bị tạm dừng vào %{date} và sẽ tiếp tục sau %{pause_period_set} ngày.,"Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days.","Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days."
+inapp_portal.subscription.pause.eot_options.info,Đăng ký của bạn sẽ bị tạm dừng vào %{date}.,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
+inapp_portal.subscription.pause.eot_indefinite.gen,"Khi tạm dừng, đăng ký của bạn sẽ không được lập hóa đơn và sẽ không được gia hạn.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_fixed_time.gen,"Khi tạm dừng, đăng ký của bạn sẽ không được lập hóa đơn và sẽ không được gia hạn.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_options.gen,"Khi tạm dừng, đăng ký của bạn sẽ không được lập hóa đơn và sẽ không được gia hạn.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.chooser_question,Bạn muốn tạm dừng đăng ký trong bao lâu?,How long do you want to pause the subscription?,How long do you want to pause the subscription?
+inapp_portal.subscription.pause.custom_date,Ngày tùy chỉnh,Custom date,Custom date
+inapp_portal.subscription.pause.choose_specific_date,(Chọn một ngày cụ thể),(Choose a specific date),(Choose a specific date)
+inapp_portal.subscription.pause.pause_until,Tạm dừng cho đến khi,Pause until,Pause until
+inapp_portal.payment_method_tag.primary,Sơ cấp,Primary,Primary
+inapp_portal.payment_method_tag.backup,Sao lưu,Backup,Backup
+inapp_portal.payment_method.suggest_backup,Bản sao lưu rất hữu ích khi khoản thanh toán chính của bạn không thành công. Đặt một bản sao lưu.,Backups come handy when your primary payment fails. Set a backup.,Backups come handy when your primary payment fails. Set a backup.
+inapp_portal.card.expiring,Hết hạn vào %{card_expiry},Expires on %{card_expiry},Expires on %{card_expiry}
+inapp_portal.card.expired,Đã hết hạn vào %{card_expiry},Expired on %{card_expiry},Expired on %{card_expiry}
+inapp_portal.pm.set_role.link,Đặt điều này làm chính hoặc dự phòng,Set this as primary or backup,Set this as primary or backup
+inapp_portal.pm.set_role.title,Đặt phương thức thanh toán này là,Set this payment method as,Set this payment method as
+inapp_portal.pm.set_role.header,Cài đặt Phương thức Thanh toán,Payment Method Settings,Payment Method Settings
+inapp_portal.pm.set_role.update_btn,Cập nhật,Update,Update
+inapp_portal.pm.set_role.skip_btn,Nhảy,Skip,Skip
+inapp_portal.pm.remove_backup.link,Xóa dưới dạng bản sao lưu,Remove as backup,Remove as backup
+inapp_portal.pm.remove_backup.message,Xóa bản sao lưu? Bản sao lưu rất hữu ích khi phương thức thanh toán chính của bạn không thành công.,Remove backup? Backups come handy when your primary payment method fails.,Remove backup? Backups come handy when your primary payment method fails.
+inapp_portal.pm.remove_backup.confirm,Tẩy,Remove,Remove
+inapp_portal.pm.set_primary.message,Đặt điều này làm chính? Điều này sẽ thay thế phương thức thanh toán chính hiện tại của bạn,Set this as primary? This will replace your current primary payment method,Set this as primary? This will replace your current primary payment method
+inapp_portal.pm.set_primary.confirm,Xác nhận,Confirm,Confirm
+inapp_portal.pm.set_primary.link,Thiết lập theo căn bản,Set as primary,Set as primary
+inapp_portal.pm.primary.desc.txt,Đây là phương thức thanh toán chính của bạn,This is your primary payment method,This is your primary payment method
+inapp_portal.pm.backup.desc.txt,Đây là phương thức thanh toán dự phòng của bạn,This is your backup payment method,This is your backup payment method
+inapp_portal.pm.primary.warning.txt,Điều này sẽ thay thế phương thức thanh toán chính hiện tại của bạn,This will replace your current primary payment method,This will replace your current primary payment method
+inapp_portal.pm.backup.warning.txt,Điều này sẽ thay thế phương thức thanh toán dự phòng hiện tại của bạn,This will replace your current backup payment method,This will replace your current backup payment method
+inapp_portal.pm.primary.info.txt,Điều này sẽ được tính cho tất cả các khoản thanh toán tự động của bạn.,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
+inapp_portal.pm.backup.info.txt,Đây sẽ là phương thức dự phòng khi phương thức thanh toán chính của bạn không thành công.,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
+inapp_portal.pm.primary.desc.detail,Điều này sẽ được tính cho tất cả các khoản thanh toán tự động của bạn.,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
+inapp_portal.pm.backup.desc.detail,Đây sẽ là phương thức dự phòng khi phương thức thanh toán chính của bạn không thành công.,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
+inapp_portal.subscription.details.pm_warning,Đảm bảo luôn cập nhật phương thức thanh toán này vì phương thức thanh toán dự phòng của bạn sẽ không được sử dụng cho đăng ký này.,"Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription.","Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription."
+inapp_portal.error.future_date.required,Vui lòng cung cấp một ngày trong tương lai ở định dạng chính xác để xử lý yêu cầu.,Please provide a future date in correct format to process the request.,Please provide a future date in correct format to process the request.
+inapp_portal.addon_item_price_selection.header,Thay đổi tần suất addon,Change addon frequency,Change addon frequency
+inapp_portal.addon_item_price_selection.title,Chọn tần suất thanh toán,Select billing frequency,Select billing frequency
+inapp_portal.addon_item_price_selection.update.btn,Cập nhật,Update,Update
+inapp_portal.item_selection.header,Thay đổi kế hoạch,Change plan,Change plan
+inapp_portal.item_selection.title,Chọn tần suất thanh toán,Select billing frequency,Select billing frequency
+inapp_portal.item_selection.update.btn,Cập nhật,Update,Update
+inapp_portal.subscription.reactivate.link.txt,Kích hoạt lại đăng ký,Reactivate Subscription,Reactivate Subscription
+inapp_portal.reactivate_confirm.txt,Bạn có chắc chắn muốn kích hoạt lại đăng ký này không?,Are you sure you want to reactivate this subscription?,Are you sure you want to reactivate this subscription?
+inapp_portal.remove_cancellation.confirm_txt,Bạn có chắc chắn muốn xóa việc hủy đã lên lịch không?,Are you sure you want to remove the scheduled cancellation?,Are you sure you want to remove the scheduled cancellation?
+inapp_portal.remove_scheduled_changes_confirm.txt,Bạn có chắc chắn muốn xóa các thay đổi đã lên lịch không?,Are you sure you want to remove the scheduled changes?,Are you sure you want to remove the scheduled changes?
+inapp_portal.modal_button.confirm,Xác nhận,Confirm,Confirm
+inapp_portal.modal_button.cancel,Huỷ bỏ,Cancel,Cancel
+inapp_portal.subscriptions.load_more,Tải thêm,Load more,Load more
+inapp_portal.subscriptions.more,Xem tất cả các đăng ký của bạn,See all your subscriptions,See all your subscriptions
+inapp_portal.portal_home.close,Lối ra,Exit,Exit
+inapp_portal.change_item.txt,Thay đổi,Change,Change
+inapp_portal.add_addons.txt,Thêm Addon,Add Addons,Add Addons
+inapp_portal.add_addons.btn,Thêm vào,Add,Add
+inapp_portal.edit_addon_item.btn,Biên tập,Edit,Edit
+inapp_portal.add_addons.non_rec.title,PHÍ MỘT LẦN,ONE-TIME CHARGES,ONE-TIME CHARGES
+inapp_portal.item.breakdown.show,Xem chi tiết,See Details,See Details
+inapp_portal.item.breakdown.hide,Ẩn chi tiết,Hide Details,Hide Details
+inapp_portal.subscription.view_breakup,Xem bảng phân tích,View breakdown,View breakdown
+inapp_portal.payment_method.bacs.guarantee.header,Quay lại thanh toán,Back to Payment,Back to Payment
+inapp_portal.payment_method.bank_account.btn.proceed_to_review,Tiến hành đánh giá,Proceed to Review,Proceed to Review
+inapp_portal.payment_method.bank_account.btn.enter_iban,Nhập IBAN,Enter IBAN,Enter IBAN
+inapp_portal.payment_method.bank_account.btn.enter_local_details,Nhập chi tiết ngân hàng địa phương,Enter local bank details,Enter local bank details
+inapp_portal.payment_method.bank_account.btn.enter_your_name,Điền tên của bạn,Enter your name,Enter your name
+inapp_portal.payment_method.bank_account.btn.enter_company_name,Nhập tên công ty,Enter company name,Enter company name
+inapp_portal.payment_method.bank_account.stripe_ach_verify_note,Bạn có tối đa 10 lần thử để xác minh phương thức thanh toán của mình.,You have a maximum of 10 attempts to verify your payment method.,You have a maximum of 10 attempts to verify your payment method.
+inapp_portal.home.gift_bar,Đã tặng %{number} đăng ký,Gifted %{number} subscriptions,Gifted %{number} subscriptions
+inapp_portal.home.gift_header,ĐĂNG KÝ QUÀ TẶNG,GIFT SUBSCRIPTIONS,GIFT SUBSCRIPTIONS
+inapp_portal.gift_tag.scheduled,Đã lên lịch tặng quà cho %{name},Gift to %{name} scheduled,Gift to %{name} scheduled
+inapp_portal.gift_tag.unclaimed, %{name} chưa nhận được quà tặng,Gift yet to be claimed by %{name},Gift yet to be claimed by %{name}
+inapp_portal.gift_tag.claimed,Được tặng cho %{name},Gifted to %{name},Gifted to %{name}
+inapp_portal.gift_tag.canceled,Quà tặng cho %{name} đã bị hủy,Gift to %{name} has been canceled,Gift to %{name} has been canceled
+inapp_portal.gift_tag.expired,Quà tặng cho %{name} đã hết hạn,Gifted to %{name} has been expired,Gifted to %{name} has been expired
+inapp_portal.gift_details_notification.scheduled,Quà của bạn sẽ được gửi đến người nhận qua email vào %{date},Your gift will be sent to the recipient via email on %{date},Your gift will be sent to the recipient via email on %{date}
+inapp_portal.gift_details_notification.unclaimed,Món quà của bạn vẫn chưa được xác nhận bởi người nhận.,Your gift is yet to be claimed by the recipient.,Your gift is yet to be claimed by the recipient.
+inapp_portal.gift_details_notification.canceled,Món quà của bạn đã bị hủy,Your gift has been canceled,Your gift has been canceled
 inapp_portal.gift_details_notification.claimed,,,
-inapp_portal.gift_details_notification.expired,,Your gift was not claimed by the recipient,Your gift was not claimed by the recipient
-inapp_portal.gift.cancel_by_gifter,,Cancel the gift,Cancel the gift
-inapp_portal.gift.cancel_by_gifter.warning,,Are you sure you want to cancel this gift?,Are you sure you want to cancel this gift?
-inapp_portal.hierarchy.my_subscription.my_payment,,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
-inapp_portal.hierarchy.my_subscription.my_invoice,,This subscription is paid by %{customer_display_info} and invoiced to you.,This subscription is paid by %{customer_display_info} and invoiced to you.
-inapp_portal.hierarchy.my_subscription.parent_payment,,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
-inapp_portal.hierarchy.my_subscription.paid_parent,,Paid by %{customer_display_info},Paid by %{customer_display_info}
-inapp_portal.home.my_subscription.parent_pays,,Paid by %{customer_display_info},Paid by %{customer_display_info}
-inapp_portal.home.child_sub_bar.multiple,,%{number} Child subscriptions,%{number} Child subscriptions
-inapp_portal.home.child_sub_bar.single,,%{number} Child subscription,%{number} Child subscription
-inapp_portal.home.child_sub_header,,Child subscriptions,Child subscriptions
-inapp_portal.child_subs.navigation_header,,Child subscriptions,Child subscriptions
-inapp_portal.see_parent_invoices,,See invoices paid by %{customer_display_info} for your subscritpions.,See invoices paid by %{customer_display_info} for your subscritpions.
-inapp_portal.invoice.paid_for_child,,This invoice belongs to %{customer_display_info} and is paid by you.,This invoice belongs to %{customer_display_info} and is paid by you.
-inapp_portal.invoice.parent_only,,You are seeing this invoice as you are the parent of this customer.,You are seeing this invoice as you are the parent of this customer.
-inapp_portal.child_sub_detail.invoice.to_parent,,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
-inapp_portal.child_sub_detail.invoice.to_child,,This subscription is paid by you and invoiced to %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.
-inapp_portal.child_sub_detail.payment_and_invoice.to_child,,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
-inapp_portal.invoices.paid_py_parent,,%{customer_display_info} pays for this invoice.,%{customer_display_info} pays for this invoice.
-inapp_portal.invoice,,Invoice # %{id},Invoice # %{id}
-inapp_portal.payment_owner_billing_history.header,,Invoices of parent,Invoices of parent
-inapp_portal.child_subscription.header,,Child subscription details,Child subscription details
-inapp_portal.invoice.payment.status.not_paid,,Not Paid,Not Paid
-inapp_portal.invoice.payment.status.paid,,Paid,Paid
-inapp_portal.invoice.payment.status.payment_due,,Payment Due,Payment Due
-inapp_portal.invoice.payment.status.pending,,Pending,Pending
-inapp_portal.invoice.payment.status.posted,,Posted,Posted
-inapp_portal.invoice.payment.status.to_collect,,Collecting,Collecting
-inapp_portal.invoice.payment.status.upcoming,,Upcoming,Upcoming
-inapp_portal.invoice.payment.status.voided,,Voided,Voided
-inapp_portal.subscription.extend.header,,Extend your subscription,Extend your subscription
-inapp_portal.subscription.extend.submit,,Extend for another %{extension_period},Extend for another %{extension_period}
-inapp_portal.subscription.extend.expiry.warning,,Your current plan will expire on %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date}
-inapp_portal.subscription.extend.info,,Charges for extending your plan will be applicable on %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date}
-inapp_portal.subscription.extend.thankyou.header,,Thank you for extending the subscription,Thank you for extending the subscription
-inapp_portal.subscription.extend.thankyou.body,,Your subscription has been extended for another %{extension_period},Your subscription has been extended for another %{extension_period}
-inapp_portal.subscription.extend.thankyou.close,,CLOSE,CLOSE
-inapp_portal.review.pm.header,,Payment,Payment
-inapp_portal.review.pm.not_available,,No payment method available,No payment method available
+inapp_portal.gift_details_notification.expired,Người nhận không xác nhận món quà của bạn,Your gift was not claimed by the recipient,Your gift was not claimed by the recipient
+inapp_portal.gift.cancel_by_gifter,Hủy quà,Cancel the gift,Cancel the gift
+inapp_portal.gift.cancel_by_gifter.warning,Bạn có chắc chắn muốn hủy món quà này không?,Are you sure you want to cancel this gift?,Are you sure you want to cancel this gift?
+inapp_portal.hierarchy.my_subscription.my_payment,Đăng ký này do bạn thanh toán và lập hóa đơn cho bạn.,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
+inapp_portal.hierarchy.my_subscription.my_invoice,Đăng ký này do %{customer_display_info} thanh toán và lập hóa đơn cho bạn.,This subscription is paid by %{customer_display_info} and invoiced to you.,This subscription is paid by %{customer_display_info} and invoiced to you.
+inapp_portal.hierarchy.my_subscription.parent_payment,Đăng ký này được thanh toán và lập hóa đơn cho %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
+inapp_portal.hierarchy.my_subscription.paid_parent,Được trả bởi %{customer_display_info},Paid by %{customer_display_info},Paid by %{customer_display_info}
+inapp_portal.home.my_subscription.parent_pays,Được trả bởi %{customer_display_info},Paid by %{customer_display_info},Paid by %{customer_display_info}
+inapp_portal.home.child_sub_bar.multiple, %{number} đăng ký con,%{number} Child subscriptions,%{number} Child subscriptions
+inapp_portal.home.child_sub_bar.single, %{number} Đăng ký dành cho trẻ em,%{number} Child subscription,%{number} Child subscription
+inapp_portal.home.child_sub_header,Đăng ký trẻ em,Child subscriptions,Child subscriptions
+inapp_portal.child_subs.navigation_header,Đăng ký trẻ em,Child subscriptions,Child subscriptions
+inapp_portal.see_parent_invoices,Xem một hoặc nhiều hóa đơn được %{customer_display_info} thanh toán cho các đăng ký của bạn.,See invoices paid by %{customer_display_info} for your subscritpions.,See invoices paid by %{customer_display_info} for your subscritpions.
+inapp_portal.invoice.paid_for_child,Hóa đơn này thuộc về %{customer_display_info} và do bạn thanh toán.,This invoice belongs to %{customer_display_info} and is paid by you.,This invoice belongs to %{customer_display_info} and is paid by you.
+inapp_portal.invoice.parent_only,Bạn nhìn thấy hóa đơn này vì bạn là phụ huynh của khách hàng này.,You are seeing this invoice as you are the parent of this customer.,You are seeing this invoice as you are the parent of this customer.
+inapp_portal.child_sub_detail.invoice.to_parent,Đăng ký này do bạn thanh toán và lập hóa đơn cho bạn.,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
+inapp_portal.child_sub_detail.invoice.to_child,Đăng ký này do bạn thanh toán và được lập hóa đơn cho %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.
+inapp_portal.child_sub_detail.payment_and_invoice.to_child,Đăng ký này được thanh toán và lập hóa đơn cho %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
+inapp_portal.invoices.paid_py_parent, %{customer_display_info} thanh toán cho hóa đơn này.,%{customer_display_info} pays for this invoice.,%{customer_display_info} pays for this invoice.
+inapp_portal.invoice,Số hóa đơn %{id},Invoice # %{id},Invoice # %{id}
+inapp_portal.payment_owner_billing_history.header,Hóa đơn của phụ huynh,Invoices of parent,Invoices of parent
+inapp_portal.child_subscription.header,Chi tiết đăng ký trẻ em,Child subscription details,Child subscription details
+inapp_portal.invoice.payment.status.not_paid,Không phải trả tiền,Not Paid,Not Paid
+inapp_portal.invoice.payment.status.paid,Đã thanh toán,Paid,Paid
+inapp_portal.invoice.payment.status.payment_due,Thanh toán do,Payment Due,Payment Due
+inapp_portal.invoice.payment.status.pending,Đang chờ xử lý,Pending,Pending
+inapp_portal.invoice.payment.status.posted,Đã đăng,Posted,Posted
+inapp_portal.invoice.payment.status.to_collect,Sưu tập,Collecting,Collecting
+inapp_portal.invoice.payment.status.upcoming,Sắp tới,Upcoming,Upcoming
+inapp_portal.invoice.payment.status.voided,Vô hiệu hóa,Voided,Voided
+inapp_portal.subscription.extend.header,Gia hạn đăng ký của bạn,Extend your subscription,Extend your subscription
+inapp_portal.subscription.extend.submit,Gia hạn thêm %{extension_period} khác,Extend for another %{extension_period},Extend for another %{extension_period}
+inapp_portal.subscription.extend.expiry.warning,Gói hiện tại của bạn sẽ hết hạn vào %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date}
+inapp_portal.subscription.extend.info,Phí gia hạn gói của bạn sẽ được áp dụng vào %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date}
+inapp_portal.subscription.extend.thankyou.header,Cảm ơn bạn đã gia hạn đăng ký,Thank you for extending the subscription,Thank you for extending the subscription
+inapp_portal.subscription.extend.thankyou.body,Đăng ký của bạn đã được gia hạn thêm %{extension_period} khác,Your subscription has been extended for another %{extension_period},Your subscription has been extended for another %{extension_period}
+inapp_portal.subscription.extend.thankyou.close,ĐÓNG,CLOSE,CLOSE
+inapp_portal.review.pm.header,Thanh toán,Payment,Payment
+inapp_portal.review.pm.not_available,Không có phương thức thanh toán nào,No payment method available,No payment method available
 inapp_portal.home.note,,,
 inapp_portal.account.note,,,
 inapp_portal.edit_account.note,,,
@@ -374,140 +374,140 @@ inapp_portal.subscription.note.future,,,
 inapp_portal.subscription.note.non_renewing,,,
 inapp_portal.subscription.note.cancelled,,,
 inapp_portal.subscription.note.cancellation_scheduled,,,
-inapp_portal.estimate_display_screen.header,,Your order summary,Your order summary
-inapp_portal.manage_pm.redirect.label,,Go to app,Go to app
-inapp_portal.threeds.warning,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_portal.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_portal.home.promotions.link_text,,Refer & Earn,Refer & Earn
-inapp_portal.promotions.header,,Promotions,Promotions
+inapp_portal.estimate_display_screen.header,Tóm tắt đơn hàng của bạn,Your order summary,Your order summary
+inapp_portal.manage_pm.redirect.label,Đi tới ứng dụng,Go to app,Go to app
+inapp_portal.threeds.warning,Bạn có thể được chuyển hướng đến trang ngân hàng của mình để xác minh bảo mật 3D.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_portal.3ds.auth.txt,Tôi cho phép %{organisation_name} lưu phương thức thanh toán này và tự động tính phí phương thức thanh toán này bất cứ khi nào đăng ký được liên kết với nó.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_portal.home.promotions.link_text,Giới thiệu & Kiếm tiền,Refer & Earn,Refer & Earn
+inapp_portal.promotions.header,Khuyến mại,Promotions,Promotions
 inapp_portal.subscription.note.pause_subscription,,,
-inapp_portal.setup_password.section.name,,Set up Password,Set up Password
-inapp_portal.setup_password.header,,Set up your Password,Set up your Password
-inapp_portal.change_password.section.name,,Change Password,Change Password
-inapp_portal.change_password_verify.header,,Change your Password,Change your Password
-inapp_portal.verify_otp.header,,Enter OTP,Enter OTP
-inapp_portal.change_password_verify.next,,Proceed,Proceed
-inapp_portal.change_password_verify.current_password.label,,Enter your current password,Enter your current password
-inapp_portal.change_password.header,,Enter new password,Enter new password
-inapp_portal.new_password.label,,Enter new password,Enter new password
-inapp_portal.new_password.update_btn,,Update,Update
-inapp_portal.password.validation.desc,,Your password must have,Your password must have
-inapp_portal.password.validation.min_char,,At least 8 characters,At least 8 characters
-inapp_portal.password.validation.number,,At least one number,At least one number
-inapp_portal.password.validation.special,,"At least one special character @$!%*#?&() ","At least one special character @$!%*#?&() "
+inapp_portal.setup_password.section.name,Thiết lập mật khẩu,Set up Password,Set up Password
+inapp_portal.setup_password.header,Thiết lập mật khẩu của bạn,Set up your Password,Set up your Password
+inapp_portal.change_password.section.name,Đổi mật khẩu,Change Password,Change Password
+inapp_portal.change_password_verify.header,Thay đổi mật khẩu của bạn,Change your Password,Change your Password
+inapp_portal.verify_otp.header,Nhập OTP,Enter OTP,Enter OTP
+inapp_portal.change_password_verify.next,Tiến hành,Proceed,Proceed
+inapp_portal.change_password_verify.current_password.label,Nhập mật khẩu hiện tại của bạn,Enter your current password,Enter your current password
+inapp_portal.change_password.header,Nhập mật khẩu mới,Enter new password,Enter new password
+inapp_portal.new_password.label,Nhập mật khẩu mới,Enter new password,Enter new password
+inapp_portal.new_password.update_btn,Cập nhật,Update,Update
+inapp_portal.password.validation.desc,Mật khẩu của bạn phải có,Your password must have,Your password must have
+inapp_portal.password.validation.min_char,Ít nhất 8 ký tự,At least 8 characters,At least 8 characters
+inapp_portal.password.validation.number,Ít nhất một số,At least one number,At least one number
+inapp_portal.password.validation.special,Ít nhất một ký tự đặc biệt @ $!% * Số? & (),At least one special character @$!%*#?&() ,At least one special character @$!%*#?&() 
 inapp_portal.subscription.summary.additionalInfo,,,
 inapp_portal.child_subscription.summary.additionalInfo,,,
-inapp_portal.contract_term.summary.title,,Subscription Terms,Subscription Terms
-inapp_portal.contract_term.summary.total_contract_value,,Total contract value,Total contract value
-inapp_portal.contract_term.summary.billing_cycle,,Billing cycles,Billing cycles
-inapp_portal.contract_term.summary.end_action_renew,,Contract renews,Contract renews
-inapp_portal.contract_term.summary.end_action_evergreen,,Contract ends,Contract ends
-inapp_portal.contract_term.summary.end_action_evergreen_sub_active,,subscription will remain active,subscription will remain active
-inapp_portal.contract_term.summary.end_action_cancel,,Contract ends,Contract ends
-inapp_portal.contract_term.summary.end_action_renew_once,,"Contract renews for one more term on ","Contract renews for one more term on "
-inapp_portal.contract_term.details.header.title,,Contract Summary,Contract Summary
-inapp_portal.contract_term.details.tcv.title,,Total contract value,Total contract value
-inapp_portal.contract_term.details.term.title,,Contract term,Contract term
-inapp_portal.contract_term.details.term.to,,to,to
-inapp_portal.contract_term.details.bill_cyc.title,,Billing cycles,Billing cycles
-inapp_portal.contract_term.details.bill_cyc.total,,Total,Total
-inapp_portal.contract_term.details.bill_cyc.billed,,Billed,Billed
-inapp_portal.contract_term.details.term_end.title,,On contract term end,On contract term end
-inapp_portal.contract_term.details.term_end.renew,,Contract will renew for %{number} billing cycles,Contract will renew for %{number} billing cycles
-inapp_portal.contract_term.details.term_end.evergreen,,Contract ends (subscription will remain active),Contract ends (subscription will remain active)
-inapp_portal.contract_term.details.term_end.cancel,,Contract and subscription end.,Contract and subscription end.
-inapp_portal.contract_term.details.term_end.renew_once,,Contract will renew for one more term.,Contract will renew for one more term.
-inapp_portal.contract_term.details.grace_period.title,,Cancel before,Cancel before
-inapp_portal.contract_term.details.grace_period.note,,If you do not want your contract to renew.,If you do not want your contract to renew.
-inapp_portal.contract_term.details.end_action.cancel.notification,,Your subscription will be canceled at the end of contract term on %{date},Your subscription will be canceled at the end of contract term on %{date}
-inapp_portal.contract_term.details.end_action.renew_next_bill_cyc.notification,,Your contract will renew for one more term. Charges will apply until the end of the next contract term.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.
-inapp_portal.contract_term.order_summary.tcv,,Total contract value,Total contract value
-inapp_portal.contract_term.subscription.note,,This subscription is on contract,This subscription is on contract
-inapp_portal.contract_term.cancel.end_action.cancel.title,,Your subscription will be canceled at the end of the contract term on %{date},Your subscription will be canceled at the end of the contract term on %{date}
-inapp_portal.contract_term.cancel.end_action.cancel.notification,,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.
-inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.title,,Your subscription will renew for one more contract term after %{date},Your subscription will renew for one more contract term after %{date}
-inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.notification,,Your subscription passed the cut-off date for cancellation and will renew for one more term.,Your subscription passed the cut-off date for cancellation and will renew for one more term.
-inapp_portal.contract_term.reactivate.confirmation_text,,Your subscription will reactivate without contract terms,Your subscription will reactivate without contract terms
-inapp_portal.multi_decimal.quantity.error,,Enter valid quantity,Enter valid quantity
-inapp_portal.qty,,Qty,Qty
-paynow.button.txt,,Pay now: %{amount},Pay now: %{amount}
-paynow.header.txt,,You have %{total} unpaid invoice(s). Your total due is %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount}
-paynow.no_invoices.txt,,You have no unpaid invoices,You have no unpaid invoices
-paynow.header.choosepm.txt,,Choose Payment Method,Choose Payment Method
-paynow.modal.newpm.use,,Use a different payment method,Use a different payment method
-paynow.header.addpm.txt,,Add Payment Method,Add Payment Method
-paynow.thankyou.header,,Your payment was successful!,Your payment was successful!
+inapp_portal.contract_term.summary.title,Điều khoản đăng ký,Subscription Terms,Subscription Terms
+inapp_portal.contract_term.summary.total_contract_value,Tổng giá trị hợp đồng,Total contract value,Total contract value
+inapp_portal.contract_term.summary.billing_cycle,Chu kỳ thanh toán,Billing cycles,Billing cycles
+inapp_portal.contract_term.summary.end_action_renew,Gia hạn hợp đồng,Contract renews,Contract renews
+inapp_portal.contract_term.summary.end_action_evergreen,Hợp đồng kết thúc,Contract ends,Contract ends
+inapp_portal.contract_term.summary.end_action_evergreen_sub_active,đăng ký sẽ vẫn hoạt động,subscription will remain active,subscription will remain active
+inapp_portal.contract_term.summary.end_action_cancel,Hợp đồng kết thúc,Contract ends,Contract ends
+inapp_portal.contract_term.summary.end_action_renew_once,Hợp đồng gia hạn thêm một thời hạn vào,Contract renews for one more term on ,Contract renews for one more term on 
+inapp_portal.contract_term.details.header.title,Tóm tắt hợp đồng,Contract Summary,Contract Summary
+inapp_portal.contract_term.details.tcv.title,Tổng giá trị hợp đồng,Total contract value,Total contract value
+inapp_portal.contract_term.details.term.title,Điều khoản hợp đồng,Contract term,Contract term
+inapp_portal.contract_term.details.term.to,đến,to,to
+inapp_portal.contract_term.details.bill_cyc.title,Chu kỳ thanh toán,Billing cycles,Billing cycles
+inapp_portal.contract_term.details.bill_cyc.total,Toàn bộ,Total,Total
+inapp_portal.contract_term.details.bill_cyc.billed,Thanh toán,Billed,Billed
+inapp_portal.contract_term.details.term_end.title,Khi thời hạn hợp đồng kết thúc,On contract term end,On contract term end
+inapp_portal.contract_term.details.term_end.renew,Hợp đồng sẽ gia hạn cho %{number} chu kỳ thanh toán,Contract will renew for %{number} billing cycles,Contract will renew for %{number} billing cycles
+inapp_portal.contract_term.details.term_end.evergreen,Hợp đồng kết thúc (đăng ký sẽ vẫn hoạt động),Contract ends (subscription will remain active),Contract ends (subscription will remain active)
+inapp_portal.contract_term.details.term_end.cancel,Hợp đồng và đăng ký kết thúc.,Contract and subscription end.,Contract and subscription end.
+inapp_portal.contract_term.details.term_end.renew_once,Hợp đồng sẽ gia hạn thêm một thời hạn.,Contract will renew for one more term.,Contract will renew for one more term.
+inapp_portal.contract_term.details.grace_period.title,Hủy trước,Cancel before,Cancel before
+inapp_portal.contract_term.details.grace_period.note,Nếu bạn không muốn gia hạn hợp đồng của mình.,If you do not want your contract to renew.,If you do not want your contract to renew.
+inapp_portal.contract_term.details.end_action.cancel.notification,Đăng ký của bạn sẽ bị hủy khi kết thúc thời hạn hợp đồng vào %{date},Your subscription will be canceled at the end of contract term on %{date},Your subscription will be canceled at the end of contract term on %{date}
+inapp_portal.contract_term.details.end_action.renew_next_bill_cyc.notification,Hợp đồng của bạn sẽ gia hạn thêm một thời hạn. Phí sẽ được áp dụng cho đến khi kết thúc thời hạn hợp đồng tiếp theo.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.
+inapp_portal.contract_term.order_summary.tcv,Tổng giá trị hợp đồng,Total contract value,Total contract value
+inapp_portal.contract_term.subscription.note,Đăng ký này là trên hợp đồng,This subscription is on contract,This subscription is on contract
+inapp_portal.contract_term.cancel.end_action.cancel.title,Đăng ký của bạn sẽ bị hủy khi kết thúc thời hạn hợp đồng vào %{date},Your subscription will be canceled at the end of the contract term on %{date},Your subscription will be canceled at the end of the contract term on %{date}
+inapp_portal.contract_term.cancel.end_action.cancel.notification,Đăng ký của bạn sẽ vẫn hoạt động và các khoản phí sẽ được áp dụng cho đến khi hợp đồng kết thúc. Có một vài câu hỏi? Liên hệ chúng tôi.,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.
+inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.title,Đăng ký của bạn sẽ gia hạn thêm một thời hạn hợp đồng sau %{date},Your subscription will renew for one more contract term after %{date},Your subscription will renew for one more contract term after %{date}
+inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.notification,Đăng ký của bạn đã qua ngày giới hạn để hủy và sẽ gia hạn thêm một thời hạn nữa.,Your subscription passed the cut-off date for cancellation and will renew for one more term.,Your subscription passed the cut-off date for cancellation and will renew for one more term.
+inapp_portal.contract_term.reactivate.confirmation_text,Đăng ký của bạn sẽ kích hoạt lại mà không có điều khoản hợp đồng,Your subscription will reactivate without contract terms,Your subscription will reactivate without contract terms
+inapp_portal.multi_decimal.quantity.error,Nhập số lượng hợp lệ,Enter valid quantity,Enter valid quantity
+inapp_portal.qty,Định lượng,Qty,Qty
+paynow.button.txt,Thanh toán ngay bây giờ: %{amount},Pay now: %{amount},Pay now: %{amount}
+paynow.header.txt,Bạn có %{total} (các) hóa đơn chưa thanh toán. Tổng số tiền đến hạn của bạn là %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount}
+paynow.no_invoices.txt,Bạn không có một hoặc nhiều hóa đơn chưa thanh toán,You have no unpaid invoices,You have no unpaid invoices
+paynow.header.choosepm.txt,Lựa chọn hình thức thanh toán,Choose Payment Method,Choose Payment Method
+paynow.modal.newpm.use,Sử dụng một phương thức thanh toán khác,Use a different payment method,Use a different payment method
+paynow.header.addpm.txt,Thêm phương thức thanh toán,Add Payment Method,Add Payment Method
+paynow.thankyou.header,Thanh toán của bạn đã thành công!,Your payment was successful!,Your payment was successful!
 paynow.thankyou.body,,,
-paynow.thankyou.close,,CLOSE,CLOSE
-paynow.modal_button.confirm,,Confirm,Confirm
-paynow.modal_button.cancel,,Cancel,Cancel
-paynow.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-paynow.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-paynow.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-paynow.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-paynow.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-paynow.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-paynow.redirect.label,,Go to app,Go to app
-paynow.threeds.warning,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-paynow.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_nl_portal.login.txt,,Enter your email address to login,Enter your email address to login
-inapp_nl_portal.otp.enter,,Enter the one time password sent to your email to continue,Enter the one time password sent to your email to continue
-inapp_nl_portal.password.enter,,Enter the password for your account,Enter the password for your account
-inapp_nl_portal.otp.resend,,Resend the one time password,Resend the one time password
-inapp_nl_portal.otp.next,,Login,Login
-inapp_nl_portal.login.via_otp,,Login via one time password,Login via one time password
-inapp_nl_portal.password.use,,Enter password instead,Enter password instead
-inapp_nl_portal.login.next,,Continue,Continue
-inapp_nl_portal.login.header,,Manage Your Subscriptions,Manage Your Subscriptions
-inapp_nl_portal.forgot_password.link.txt,,Forgot password?,Forgot password?
+paynow.thankyou.close,ĐÓNG,CLOSE,CLOSE
+paynow.modal_button.confirm,Xác nhận,Confirm,Confirm
+paynow.modal_button.cancel,Huỷ bỏ,Cancel,Cancel
+paynow.payment_method.bacs.guarantee.header,Quay lại thanh toán,Back to Payment,Back to Payment
+paynow.payment_method.bank_account.btn.proceed_to_review,Tiến hành đánh giá,Proceed to Review,Proceed to Review
+paynow.payment_method.bank_account.btn.enter_iban,Nhập IBAN,Enter IBAN,Enter IBAN
+paynow.payment_method.bank_account.btn.enter_local_details,Nhập chi tiết ngân hàng địa phương,Enter local bank details,Enter local bank details
+paynow.payment_method.bank_account.btn.enter_your_name,Điền tên của bạn,Enter your name,Enter your name
+paynow.payment_method.bank_account.btn.enter_company_name,Nhập tên công ty,Enter company name,Enter company name
+paynow.redirect.label,Đi tới ứng dụng,Go to app,Go to app
+paynow.threeds.warning,Bạn có thể được chuyển hướng đến trang ngân hàng của mình để xác minh bảo mật 3D.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+paynow.3ds.auth.txt,Tôi cho phép %{organisation_name} lưu phương thức thanh toán này và tự động tính phí phương thức thanh toán này bất cứ khi nào đăng ký được liên kết với nó.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_nl_portal.login.txt,Nhập địa chỉ email của bạn để đăng nhập,Enter your email address to login,Enter your email address to login
+inapp_nl_portal.otp.enter,Nhập mật khẩu một lần được gửi đến email của bạn để tiếp tục,Enter the one time password sent to your email to continue,Enter the one time password sent to your email to continue
+inapp_nl_portal.password.enter,Nhập mật khẩu cho tài khoản của bạn,Enter the password for your account,Enter the password for your account
+inapp_nl_portal.otp.resend,Gửi lại mật khẩu một lần,Resend the one time password,Resend the one time password
+inapp_nl_portal.otp.next,Đăng nhập,Login,Login
+inapp_nl_portal.login.via_otp,Đăng nhập bằng mật khẩu một lần,Login via one time password,Login via one time password
+inapp_nl_portal.password.use,Nhập mật khẩu thay thế,Enter password instead,Enter password instead
+inapp_nl_portal.login.next,Tiếp tục,Continue,Continue
+inapp_nl_portal.login.header,Quản lý đăng ký của bạn,Manage Your Subscriptions,Manage Your Subscriptions
+inapp_nl_portal.forgot_password.link.txt,Quên mật khẩu?,Forgot password?,Forgot password?
 inapp_nl_portal.account.summary.additionalInfo,,,
-inapp_checkout.gift.cart.header,,Your gift order,Your gift order
-inapp_checkout.gift.cart.header.edit,,Edit your gift order,Edit your gift order
-inapp_checkout.gift.cart.next,,Proceed to checkout,Proceed to checkout
-inapp_checkout.gift.gift_details.header,,Add your gift details,Add your gift details
-inapp_checkout.gift.gift_details.header.edit,,Edit your gift details,Edit your gift details
-inapp_checkout.gift.gift_details.update,,Update,Update
-inapp_checkout.gift.gift_details.next,,Next,Next
-inapp_checkout.gift.gift_details.receiver_info.subheading,,Whom is this gift for?,Whom is this gift for?
-inapp_checkout.gift.gift_details.schedule.subheading,,Gift date & time,Gift date & time
-inapp_checkout.gift.gift_details.schedule.immediately,,Send immediately,Send immediately
-inapp_checkout.gift.gift_details.schedule.date,,Send on specific date and time,Send on specific date and time
-inapp_checkout.gift.gift_details.message.subheading,,Personal message,Personal message
-inapp_checkout.gift.gift_details.message.helptext,,The message will be sent to the recipient with your gift,The message will be sent to the recipient with your gift
-inapp_checkout.gift.gift_details.message.placeholder,,Your gift message,Your gift message
-inapp_checkout.gift.customer.header,,Add recipient information,Add recipient information
-inapp_checkout.gift.customer.header.edit,,Edit recipient information,Edit recipient information
-inapp_checkout.gift.customer.update,,Update,Update
-inapp_checkout.gift.customer.next,,Next,Next
-inapp_checkout.gift.billing_address.update,,Update,Update
-inapp_checkout.gift.billing_address.next,,Next,Next
-inapp_checkout.gift.billing_address.header,,Add your billing details,Add your billing details
-inapp_checkout.gift.billing_address.header.edit,,Edit your billing details,Edit your billing details
-inapp_checkout.gift.shipping_address.header,,Add recipient shipping address,Add recipient shipping address
-inapp_checkout.gift.shipping_address.header.edit,,Edit recipient shipping address,Edit recipient shipping address
-inapp_checkout.gift.shipping_address.update,,Update,Update
-inapp_checkout.gift.shipping_address.next,,Next,Next
-inapp_checkout.gift.payment_method.header,,Add your payment information,Add your payment information
-inapp_checkout.gift.payment_method.header.edit,,Edit your payment information,Edit your payment information
-inapp_checkout.gift.payment_method.update,,Update,Update
-inapp_checkout.gift.payment_method.next,,Next,Next
-inapp_checkout.gift.review.gift.header,,Gift details,Gift details
-inapp_checkout.gift.review.gift.your_message.label,,Personal Message,Personal Message
-inapp_checkout.gift.review.gift.from.label,,From,From
-inapp_checkout.gift.review.gift.scheduled_at.label,,Scheduled,Scheduled
-inapp_checkout.gift.review.gift.immediately.label,,Immediately sent,Immediately sent
-inapp_checkout.gift.review.shipping.header,,Recipient shipping address,Recipient shipping address
-inapp_checkout.gift.review.account.header,,Recipient details,Recipient details
-inapp_checkout.gift.subscription.header,,Add gift subscription details,Add gift subscription details
-inapp_checkout.gift.subscription.header.edit,,Edit gift subscription details,Edit gift subscription details
-inapp_checkout.gift.subscription.update,,Update,Update
-inapp_checkout.gift.subscription.next,,Next,Next
-inapp_checkout.gift.review.header,,Complete your order,Complete your order
-inapp_checkout.gift.review.btn.txt,,Pay %{amount} & place gift order,Pay %{amount} & place gift order
+inapp_checkout.gift.cart.header,Đơn đặt hàng quà tặng của bạn,Your gift order,Your gift order
+inapp_checkout.gift.cart.header.edit,Chỉnh sửa đơn đặt hàng quà tặng của bạn,Edit your gift order,Edit your gift order
+inapp_checkout.gift.cart.next,Tiến hành kiểm tra,Proceed to checkout,Proceed to checkout
+inapp_checkout.gift.gift_details.header,Thêm chi tiết quà tặng của bạn,Add your gift details,Add your gift details
+inapp_checkout.gift.gift_details.header.edit,Chỉnh sửa chi tiết quà tặng của bạn,Edit your gift details,Edit your gift details
+inapp_checkout.gift.gift_details.update,Cập nhật,Update,Update
+inapp_checkout.gift.gift_details.next,Kế tiếp,Next,Next
+inapp_checkout.gift.gift_details.receiver_info.subheading,Món quà này dành cho ai?,Whom is this gift for?,Whom is this gift for?
+inapp_checkout.gift.gift_details.schedule.subheading,Ngày và giờ nhận quà,Gift date & time,Gift date & time
+inapp_checkout.gift.gift_details.schedule.immediately,Gửi ngay lập tức,Send immediately,Send immediately
+inapp_checkout.gift.gift_details.schedule.date,Gửi vào ngày và giờ cụ thể,Send on specific date and time,Send on specific date and time
+inapp_checkout.gift.gift_details.message.subheading,Thông điệp cá nhân,Personal message,Personal message
+inapp_checkout.gift.gift_details.message.helptext,Thông điệp sẽ được gửi đến người nhận cùng với món quà của bạn,The message will be sent to the recipient with your gift,The message will be sent to the recipient with your gift
+inapp_checkout.gift.gift_details.message.placeholder,Tin nhắn quà tặng của bạn,Your gift message,Your gift message
+inapp_checkout.gift.customer.header,Thêm thông tin người nhận,Add recipient information,Add recipient information
+inapp_checkout.gift.customer.header.edit,Chỉnh sửa thông tin người nhận,Edit recipient information,Edit recipient information
+inapp_checkout.gift.customer.update,Cập nhật,Update,Update
+inapp_checkout.gift.customer.next,Kế tiếp,Next,Next
+inapp_checkout.gift.billing_address.update,Cập nhật,Update,Update
+inapp_checkout.gift.billing_address.next,Kế tiếp,Next,Next
+inapp_checkout.gift.billing_address.header,Thêm chi tiết thanh toán của bạn,Add your billing details,Add your billing details
+inapp_checkout.gift.billing_address.header.edit,Chỉnh sửa chi tiết thanh toán của bạn,Edit your billing details,Edit your billing details
+inapp_checkout.gift.shipping_address.header,Thêm địa chỉ giao hàng của người nhận,Add recipient shipping address,Add recipient shipping address
+inapp_checkout.gift.shipping_address.header.edit,Chỉnh sửa địa chỉ giao hàng của người nhận,Edit recipient shipping address,Edit recipient shipping address
+inapp_checkout.gift.shipping_address.update,Cập nhật,Update,Update
+inapp_checkout.gift.shipping_address.next,Kế tiếp,Next,Next
+inapp_checkout.gift.payment_method.header,Thêm thông tin thanh toán của bạn,Add your payment information,Add your payment information
+inapp_checkout.gift.payment_method.header.edit,Chỉnh sửa thông tin thanh toán của bạn,Edit your payment information,Edit your payment information
+inapp_checkout.gift.payment_method.update,Cập nhật,Update,Update
+inapp_checkout.gift.payment_method.next,Kế tiếp,Next,Next
+inapp_checkout.gift.review.gift.header,Chi tiết quà tặng,Gift details,Gift details
+inapp_checkout.gift.review.gift.your_message.label,Thông điệp cá nhân,Personal Message,Personal Message
+inapp_checkout.gift.review.gift.from.label,Từ,From,From
+inapp_checkout.gift.review.gift.scheduled_at.label,Lên kế hoạch,Scheduled,Scheduled
+inapp_checkout.gift.review.gift.immediately.label,Gửi ngay lập tức,Immediately sent,Immediately sent
+inapp_checkout.gift.review.shipping.header,Địa chỉ giao hàng của người nhận,Recipient shipping address,Recipient shipping address
+inapp_checkout.gift.review.account.header,Thông tin người nhận,Recipient details,Recipient details
+inapp_checkout.gift.subscription.header,Thêm chi tiết đăng ký quà tặng,Add gift subscription details,Add gift subscription details
+inapp_checkout.gift.subscription.header.edit,Chỉnh sửa chi tiết đăng ký quà tặng,Edit gift subscription details,Edit gift subscription details
+inapp_checkout.gift.subscription.update,Cập nhật,Update,Update
+inapp_checkout.gift.subscription.next,Kế tiếp,Next,Next
+inapp_checkout.gift.review.header,Hoàn thành đơn đặt hàng của bạn,Complete your order,Complete your order
+inapp_checkout.gift.review.btn.txt,Thanh toán %{amount} và đặt hàng quà tặng,Pay %{amount} & place gift order,Pay %{amount} & place gift order
 inapp_checkout.gift.thankyou.header,,,
 inapp_checkout.gift.thankyou.body,,,
-inapp_checkout.gift.thankyou.close,,CLOSE,CLOSE
-inapp_checkout.gift.review.self_gift.warning,,You seem to be sending the gift to your own email address.,You seem to be sending the gift to your own email address.
+inapp_checkout.gift.thankyou.close,ĐÓNG,CLOSE,CLOSE
+inapp_checkout.gift.review.self_gift.warning,Có vẻ như bạn đang gửi món quà đến địa chỉ email của chính mình.,You seem to be sending the gift to your own email address.,You seem to be sending the gift to your own email address.
 inapp_checkout.gift.payment_method.note.plan.no_trial,,,
 inapp_checkout.gift.cart.note.plan.no_trial,,,
 inapp_checkout.gift.review.note.plan.no_trial,,,
@@ -515,37 +515,37 @@ inapp_checkout.gift.customer.note,,,
 inapp_checkout.gift.subscription.note,,,
 inapp_checkout.gift.shipping_address.note,,,
 inapp_checkout.gift.billing_address.note,,,
-inapp_checkout.gift.review.threedsWarning.non_trial,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_checkout.gift.review.threedsWarning.trial,,"You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
-inapp_checkout.gift_claim.modal_button.cancel,,Cancel,Cancel
-inapp_checkout.gift_claim.modal_button.confirm,,Confirm,Confirm
-inapp_checkout.gift_claim.cart.header,,Your gift,Your gift
-inapp_checkout.gift_claim.cart.header.edit,,Your gift,Your gift
-inapp_checkout.gift_claim.cart.next,,Proceed to claim,Proceed to claim
-inapp_checkout.gift_claim.cart.body_desc,,Congratulations on your gift! You need to claim it to get started!,Congratulations on your gift! You need to claim it to get started!
-inapp_checkout.gift_claim.customer.body_desc,,"Here are the details that we have got. You can update this information, if required.","Here are the details that we have got. You can update this information, if required."
-inapp_checkout.gift_claim.customer.header,,Add your account information,Add your account information
-inapp_checkout.gift_claim.customer.header.edit,,Edit your account information,Edit your account information
-inapp_checkout.gift_claim.customer.update,,Update,Update
-inapp_checkout.gift_claim.customer.next,,Next,Next
-inapp_checkout.gift_claim.shipping_address.header,,Add your shipping address,Add your shipping address
-inapp_checkout.gift_claim.shipping_address.header.edit,,Edit your shipping address,Edit your shipping address
-inapp_checkout.gift_claim.shipping_address.update,,Update,Update
-inapp_checkout.gift_claim.shipping_address.next,,Next,Next
+inapp_checkout.gift.review.threedsWarning.non_trial,Bạn có thể được chuyển hướng đến trang ngân hàng của mình để xác minh bảo mật 3D.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_checkout.gift.review.threedsWarning.trial,"Bạn có thể được chuyển hướng đến trang ngân hàng của mình để xác minh bảo mật 3D mà số tiền mã thông báo có thể bị tính phí, số tiền này sẽ được hoàn trả hoàn toàn tự động.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
+inapp_checkout.gift_claim.modal_button.cancel,Huỷ bỏ,Cancel,Cancel
+inapp_checkout.gift_claim.modal_button.confirm,Xác nhận,Confirm,Confirm
+inapp_checkout.gift_claim.cart.header,Món quà của bạn,Your gift,Your gift
+inapp_checkout.gift_claim.cart.header.edit,Món quà của bạn,Your gift,Your gift
+inapp_checkout.gift_claim.cart.next,Tiến hành xác nhận quyền sở hữu,Proceed to claim,Proceed to claim
+inapp_checkout.gift_claim.cart.body_desc,Xin chúc mừng món quà của bạn! Bạn cần phải xác nhận nó để bắt đầu!,Congratulations on your gift! You need to claim it to get started!,Congratulations on your gift! You need to claim it to get started!
+inapp_checkout.gift_claim.customer.body_desc,"Đây là chi tiết mà chúng tôi có. Bạn có thể cập nhật thông tin này, nếu cần.","Here are the details that we have got. You can update this information, if required.","Here are the details that we have got. You can update this information, if required."
+inapp_checkout.gift_claim.customer.header,Thêm thông tin tài khoản của bạn,Add your account information,Add your account information
+inapp_checkout.gift_claim.customer.header.edit,Chỉnh sửa thông tin tài khoản của bạn,Edit your account information,Edit your account information
+inapp_checkout.gift_claim.customer.update,Cập nhật,Update,Update
+inapp_checkout.gift_claim.customer.next,Kế tiếp,Next,Next
+inapp_checkout.gift_claim.shipping_address.header,Thêm địa chỉ giao hàng của bạn,Add your shipping address,Add your shipping address
+inapp_checkout.gift_claim.shipping_address.header.edit,Chỉnh sửa địa chỉ giao hàng của bạn,Edit your shipping address,Edit your shipping address
+inapp_checkout.gift_claim.shipping_address.update,Cập nhật,Update,Update
+inapp_checkout.gift_claim.shipping_address.next,Kế tiếp,Next,Next
 inapp_checkout.gift_claim.shipping_address.body_desc,,,
-inapp_checkout.gift_claim.review.shipping.header,,Shipping address,Shipping address
-inapp_checkout.gift_claim.review.account.header,,Account,Account
-inapp_checkout.gift_claim.review.subscription.header,,Subscription details,Subscription details
-inapp_checkout.gift_claim.subscription.header,,Add gift subscription details,Add gift subscription details
-inapp_checkout.gift_claim.subscription.header.edit,,Edit gift subscription details,Edit gift subscription details
-inapp_checkout.gift_claim.subscription.update,,Update,Update
-inapp_checkout.gift_claim.subscription.next,,Next,Next
+inapp_checkout.gift_claim.review.shipping.header,Địa chỉ giao hàng,Shipping address,Shipping address
+inapp_checkout.gift_claim.review.account.header,Tài khoản,Account,Account
+inapp_checkout.gift_claim.review.subscription.header,Chi tiết đăng ký,Subscription details,Subscription details
+inapp_checkout.gift_claim.subscription.header,Thêm chi tiết đăng ký quà tặng,Add gift subscription details,Add gift subscription details
+inapp_checkout.gift_claim.subscription.header.edit,Chỉnh sửa chi tiết đăng ký quà tặng,Edit gift subscription details,Edit gift subscription details
+inapp_checkout.gift_claim.subscription.update,Cập nhật,Update,Update
+inapp_checkout.gift_claim.subscription.next,Kế tiếp,Next,Next
 inapp_checkout.gift_claim.subscription.body_desc,,,
-inapp_checkout.gift_claim.review.header,,Claim your gift,Claim your gift
-inapp_checkout.gift_claim.review.btn.txt,,Claim Gift,Claim Gift
+inapp_checkout.gift_claim.review.header,Yêu cầu quà tặng của bạn,Claim your gift,Claim your gift
+inapp_checkout.gift_claim.review.btn.txt,Món quà yêu,Claim Gift,Claim Gift
 inapp_checkout.gift_claim.thankyou.header,,,
 inapp_checkout.gift_claim.thankyou.body,,,
-inapp_checkout.gift_claim.thankyou.close,,CLOSE,CLOSE
+inapp_checkout.gift_claim.thankyou.close,ĐÓNG,CLOSE,CLOSE
 inapp_checkout.gift_claim.cart.note.plan.no_trial,,,
 inapp_checkout.gift_claim.review.note.plan.no_trial,,,
 inapp_checkout.gift_claim.customer.note,,,

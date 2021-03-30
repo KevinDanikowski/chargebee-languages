@@ -1,92 +1,92 @@
 key,value,reference value,description
-cbjs_grp.bank,,Bank,Bank
-cbjs_grp.select_bank,,Select Bank,Select Bank
-cbjs_grp.list_supported_bank,,Fetching list of supported banks,Fetching list of supported banks
-inapp_checkout.customer.header,,Add your account details,Add your account details
-inapp_checkout.customer.header.edit,,Editing account details,Editing account details
-inapp_checkout.customer.update,,Update,Update
-inapp_checkout.customer.next,,Next,Next
-inapp_checkout.billing_address.header,,Add your billing address,Add your billing address
-inapp_checkout.billing_address.header.edit,,Editing billing address,Editing billing address
-inapp_checkout.billing_address.update,,Update,Update
-inapp_checkout.billing_address.next,,Next,Next
-inapp_checkout.shipping_address.header,,Add your shipping address,Add your shipping address
-inapp_checkout.shipping_address.header.edit,,Editing shipping address,Editing shipping address
-inapp_checkout.shipping_address.update,,Update,Update
-inapp_checkout.shipping_address.next,,Next,Next
-inapp_checkout.choose_sa.header,,Choose Shipping address,Choose Shipping address
-inapp_checkout.billing_address.copy_to_shipping,,Ship to my billing address,Ship to my billing address
-inapp_checkout.shipping_address.choose.add,,Add New,Add New
-inapp_checkout.payment_method.choose.add,,Add Payment Method,Add Payment Method
-inapp_checkout.payment_method.header,,Add your payment details,Add your payment details
-inapp_checkout.payment_method.header.edit,,Editing payment details,Editing payment details
-inapp_checkout.payment_method.header.select,,Select a payment method,Select a payment method
-inapp_checkout.payment_method.footer.choose,,Choose a different payment method,Choose a different payment method
-inapp_checkout.payment_method.update,,Update,Update
-inapp_checkout.payment_method.next,,Next,Next
-inapp_checkout.subscription.header,,Add your subscription details,Add your subscription details
-inapp_checkout.invoice.header,,Add your purchase details,Add your purchase details
-inapp_checkout.subscription.header.edit,,Editing Subscription Details,Editing Subscription Details
-inapp_checkout.invoice.header.edit,,Editing Purchase Details,Editing Purchase Details
-inapp_checkout.subscription.update,,Update,Update
-inapp_checkout.invoice.update,,Update,Update
-inapp_checkout.subscription.next,,Next,Next
-inapp_checkout.invoice.next,,Next,Next
-inapp_checkout.review.header,,Complete your order,Complete your order
-inapp_checkout.pay_review.header,,Complete your order,Complete your order
-inapp_checkout.review.subscribe_btn.current_charge_present.txt,,Pay %{amount} & subscribe,Pay %{amount} & subscribe
-inapp_checkout.review.subscribe_btn.current_charge_zero.txt,,Subscribe,Subscribe
-inapp_checkout.review.order.header,,Order summary,Order summary
-inapp_checkout.review.account.header,,Account,Account
-inapp_checkout.review.billing.header,,Billing,Billing
-inapp_checkout.review.shipping.header,,Shipping,Shipping
-inapp_checkout.review.billing_shipping.header,,Billing & Shipping,Billing & Shipping
-inapp_checkout.review.subscription.header,,Subscription Details,Subscription Details
-inapp_checkout.review.invoice.header,,Purchase Details,Purchase Details
-inapp_checkout.review.pm.header,,Payment,Payment
-inapp_checkout.review.more,,Review Details,Review Details
-inapp_checkout.shipping_address.header.choose,,Choose Shipping Address,Choose Shipping Address
-inapp_checkout.choose_pm.header,,Choose Payment Method,Choose Payment Method
-inapp_checkout.coupon.apply,,Apply,Apply
-inapp_checkout.coupon.label,,Apply coupon,Apply coupon
-inapp_checkout.coupon.placeholder,,Enter coupon code,Enter coupon code
-inapp_checkout.cart.header.edit,,Edit order,Edit order
-inapp_checkout.cart.header,,Your order,Your order
-inapp_checkout.cart.next,,Proceed To Checkout,Proceed To Checkout
-inapp_checkout.cart.remove,,Remove,Remove
-inapp_checkout.cart.recommended_addon_title,,Recommended addons,Recommended addons
-inapp_checkout.payment_method.card.display_name,,Card,Card
-inapp_checkout.payment_method.paypal.display_name,,PayPal,PayPal
+cbjs_grp.bank,bancă,Bank,Bank
+cbjs_grp.select_bank,Selectați Banca,Select Bank,Select Bank
+cbjs_grp.list_supported_bank,Se preia lista băncilor acceptate,Fetching list of supported banks,Fetching list of supported banks
+inapp_checkout.customer.header,Adăugați detaliile contului,Add your account details,Add your account details
+inapp_checkout.customer.header.edit,Editarea detaliilor contului,Editing account details,Editing account details
+inapp_checkout.customer.update,Actualizați,Update,Update
+inapp_checkout.customer.next,Următorul,Next,Next
+inapp_checkout.billing_address.header,Adăugați adresa de facturare,Add your billing address,Add your billing address
+inapp_checkout.billing_address.header.edit,Editarea adresei de facturare,Editing billing address,Editing billing address
+inapp_checkout.billing_address.update,Actualizați,Update,Update
+inapp_checkout.billing_address.next,Următorul,Next,Next
+inapp_checkout.shipping_address.header,Adăugați adresa de expediere,Add your shipping address,Add your shipping address
+inapp_checkout.shipping_address.header.edit,Se editează adresa de expediere,Editing shipping address,Editing shipping address
+inapp_checkout.shipping_address.update,Actualizați,Update,Update
+inapp_checkout.shipping_address.next,Următorul,Next,Next
+inapp_checkout.choose_sa.header,Alegeți adresa de expediere,Choose Shipping address,Choose Shipping address
+inapp_checkout.billing_address.copy_to_shipping,Expediați la adresa de facturare,Ship to my billing address,Ship to my billing address
+inapp_checkout.shipping_address.choose.add,Adăuga nou,Add New,Add New
+inapp_checkout.payment_method.choose.add,Adăugați o metodă de plată,Add Payment Method,Add Payment Method
+inapp_checkout.payment_method.header,Adăugați detaliile de plată,Add your payment details,Add your payment details
+inapp_checkout.payment_method.header.edit,Editarea detaliilor de plată,Editing payment details,Editing payment details
+inapp_checkout.payment_method.header.select,Selectati o metoda de plata,Select a payment method,Select a payment method
+inapp_checkout.payment_method.footer.choose,Alegeți o altă metodă de plată,Choose a different payment method,Choose a different payment method
+inapp_checkout.payment_method.update,Actualizați,Update,Update
+inapp_checkout.payment_method.next,Următorul,Next,Next
+inapp_checkout.subscription.header,Adăugați detaliile abonamentului,Add your subscription details,Add your subscription details
+inapp_checkout.invoice.header,Adăugați detaliile achiziției,Add your purchase details,Add your purchase details
+inapp_checkout.subscription.header.edit,Editarea detaliilor abonamentului,Editing Subscription Details,Editing Subscription Details
+inapp_checkout.invoice.header.edit,Editarea detaliilor achiziției,Editing Purchase Details,Editing Purchase Details
+inapp_checkout.subscription.update,Actualizați,Update,Update
+inapp_checkout.invoice.update,Actualizați,Update,Update
+inapp_checkout.subscription.next,Următorul,Next,Next
+inapp_checkout.invoice.next,Următorul,Next,Next
+inapp_checkout.review.header,Completați comanda,Complete your order,Complete your order
+inapp_checkout.pay_review.header,Completați comanda,Complete your order,Complete your order
+inapp_checkout.review.subscribe_btn.current_charge_present.txt,Plătiți %{amount} și abonați-vă,Pay %{amount} & subscribe,Pay %{amount} & subscribe
+inapp_checkout.review.subscribe_btn.current_charge_zero.txt,Abonati-va,Subscribe,Subscribe
+inapp_checkout.review.order.header,Comanda Rezumat,Order summary,Order summary
+inapp_checkout.review.account.header,Cont,Account,Account
+inapp_checkout.review.billing.header,Facturare,Billing,Billing
+inapp_checkout.review.shipping.header,livrare,Shipping,Shipping
+inapp_checkout.review.billing_shipping.header,Facturare și expediere,Billing & Shipping,Billing & Shipping
+inapp_checkout.review.subscription.header,Detalii abonament,Subscription Details,Subscription Details
+inapp_checkout.review.invoice.header,Detalii achiziție,Purchase Details,Purchase Details
+inapp_checkout.review.pm.header,Plată,Payment,Payment
+inapp_checkout.review.more,Detalii recenzie,Review Details,Review Details
+inapp_checkout.shipping_address.header.choose,Alegeți adresa de expediere,Choose Shipping Address,Choose Shipping Address
+inapp_checkout.choose_pm.header,Alege metoda de plata,Choose Payment Method,Choose Payment Method
+inapp_checkout.coupon.apply,aplica,Apply,Apply
+inapp_checkout.coupon.label,Aplicați cuponul,Apply coupon,Apply coupon
+inapp_checkout.coupon.placeholder,Introdu codul cuponului,Enter coupon code,Enter coupon code
+inapp_checkout.cart.header.edit,Editați comanda,Edit order,Edit order
+inapp_checkout.cart.header,Comanda dumneavoastră,Your order,Your order
+inapp_checkout.cart.next,Finalizează cumpărăturile,Proceed To Checkout,Proceed To Checkout
+inapp_checkout.cart.remove,Elimina,Remove,Remove
+inapp_checkout.cart.recommended_addon_title,Suplimente recomandate,Recommended addons,Recommended addons
+inapp_checkout.payment_method.card.display_name,Card,Card,Card
+inapp_checkout.payment_method.paypal.display_name,PayPal,PayPal,PayPal
 inapp_checkout.thankyou.header,,,
 inapp_checkout.thankyou.body,,,
-inapp_checkout.thankyou.close,,CLOSE,CLOSE
-inapp_checkout.otp.enter,,Enter your six-digit one time password,Enter your six-digit one time password
-inapp_checkout.password.enter,,Enter your password,Enter your password
-inapp_checkout.otp.resend,,Resend the one time password,Resend the one time password
-inapp_checkout.login.via_otp,,Login via one time password,Login via one time password
-inapp_checkout.otp.enter_password,,Enter password instead,Enter password instead
-inapp_checkout.otp_resend.notify,,New one time password send to your email address,New one time password send to your email address
-inapp_checkout.checkuser.error.multiple_subscriptions_not_allowed,,You already have a subscription with us,You already have a subscription with us
-inapp_checkout.otp.guest,,Proceed as guest,Proceed as guest
-inapp_checkout.checkuser.email,,Enter email to proceed,Enter email to proceed
-inapp_checkout.checkuser.next,,Next,Next
-inapp_checkout.modal_button.confirm,,Confirm,Confirm
-inapp_checkout.modal_button.cancel,,Cancel,Cancel
-inapp_checkout.po_number.label,,PO Number,PO Number
+inapp_checkout.thankyou.close,ÎNCHIDE,CLOSE,CLOSE
+inapp_checkout.otp.enter,Introduceți parola de șase cifre o dată,Enter your six-digit one time password,Enter your six-digit one time password
+inapp_checkout.password.enter,Introduceți parola,Enter your password,Enter your password
+inapp_checkout.otp.resend,Retrimiteți parola de o singură dată,Resend the one time password,Resend the one time password
+inapp_checkout.login.via_otp,Conectați-vă printr-o singură parolă,Login via one time password,Login via one time password
+inapp_checkout.otp.enter_password,Introduceți parola,Enter password instead,Enter password instead
+inapp_checkout.otp_resend.notify,Trimitere nouă parolă de o dată la adresa dvs. de e-mail,New one time password send to your email address,New one time password send to your email address
+inapp_checkout.checkuser.error.multiple_subscriptions_not_allowed,Aveți deja un abonament la noi,You already have a subscription with us,You already have a subscription with us
+inapp_checkout.otp.guest,Continuați ca invitat,Proceed as guest,Proceed as guest
+inapp_checkout.checkuser.email,Introduceți adresa de e-mail pentru a continua,Enter email to proceed,Enter email to proceed
+inapp_checkout.checkuser.next,Următorul,Next,Next
+inapp_checkout.modal_button.confirm,A confirma,Confirm,Confirm
+inapp_checkout.modal_button.cancel,Anulare,Cancel,Cancel
+inapp_checkout.po_number.label,cod postal,PO Number,PO Number
 inapp_checkout.items_in_total.custom_label,,,
 inapp_checkout.discounts_applied.label,,,
-inapp_checkout.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-inapp_checkout.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-inapp_checkout.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-inapp_checkout.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-inapp_checkout.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-inapp_checkout.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-inapp_checkout.card.billing_address,,Use my billing address as card address,Use my billing address as card address
-inapp_checkout.card.shipping_address,,Use my shipping address as card address,Use my shipping address as card address
-inapp_checkout.item.breakdown.show,,See Details,See Details
-inapp_checkout.item.breakdown.hide,,Hide Details,Hide Details
-inapp_checkout.cart.trial.info,,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
-inapp_checkout.cart.note.plan.trial,,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
+inapp_checkout.payment_method.bacs.guarantee.header,Înapoi la Plată,Back to Payment,Back to Payment
+inapp_checkout.payment_method.bank_account.btn.proceed_to_review,Continuați cu Revizuirea,Proceed to Review,Proceed to Review
+inapp_checkout.payment_method.bank_account.btn.enter_iban,Introduceți IBAN,Enter IBAN,Enter IBAN
+inapp_checkout.payment_method.bank_account.btn.enter_local_details,Introduceți datele bancare locale,Enter local bank details,Enter local bank details
+inapp_checkout.payment_method.bank_account.btn.enter_your_name,Introdu numele tau,Enter your name,Enter your name
+inapp_checkout.payment_method.bank_account.btn.enter_company_name,Introduceți numele companiei,Enter company name,Enter company name
+inapp_checkout.card.billing_address,Folosiți adresa mea de facturare ca adresă a cardului,Use my billing address as card address,Use my billing address as card address
+inapp_checkout.card.shipping_address,Folosiți adresa mea de expediere ca adresă a cardului,Use my shipping address as card address,Use my shipping address as card address
+inapp_checkout.item.breakdown.show,Vezi detalii,See Details,See Details
+inapp_checkout.item.breakdown.hide,Ascunde detaliile,Hide Details,Hide Details
+inapp_checkout.cart.trial.info,Veți fi taxat după perioada de încercare %{plan_trial_period}.,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
+inapp_checkout.cart.note.plan.trial,Veți fi taxat după perioada de încercare %{plan_trial_period}.,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
 inapp_checkout.review.note.plan.trial,,,
 inapp_checkout.payment_method.note.plan.trial,,,
 inapp_checkout.cart.note.plan.no_trial,,,
@@ -96,270 +96,270 @@ inapp_checkout.customer.note,,,
 inapp_checkout.subscription.note,,,
 inapp_checkout.shipping_address.note,,,
 inapp_checkout.billing_address.note,,,
-inapp_checkout.cart.pay_now.label,,Pay now,Pay now
-inapp_checkout.cart.next_charge.label,,Next charge on %{date},Next charge on %{date}
-inapp_checkout.order_summary.charge_now.label,,Chargeable now,Chargeable now
-inapp_checkout.order_summary.next_charge.label,,Charges on %{date},Charges on %{date}
-inapp_checkout.order.edit.link,,Edit order,Edit order
-inapp_checkout.estimate_display_screen.header,,Your order summary,Your order summary
-inapp_checkout.credits_applied.label,,Credits applied,Credits applied
-inapp_checkout.non_rec_addon.tag,,ONE-TIME,ONE-TIME
-inapp_checkout.coupon.description,,%{amount} coupon applied,%{amount} coupon applied
-inapp_checkout.free_quantity.description,,%{units} units free,%{units} units free
-inapp_checkout.referral.title,,Refer your friends,Refer your friends
-inapp_checkout.referral.cb_reward,,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.
-inapp_checkout.referral.custom_reward,,Refer your friends and we will reward you when they purchase their first subscription.,Refer your friends and we will reward you when they purchase their first subscription.
-inapp_checkout.referral.friend_discount,,Your friend will get %{referral_friend_discount} discount.,Your friend will get %{referral_friend_discount} discount.
-inapp_checkout.referral.link_label,,Your referral link,Your referral link
-inapp_checkout.review.threedsWarning.non_trial,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_checkout.review.threedsWarning.trial,,"You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
-inapp_checkout.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_checkout.otp_email.subject,,Your One Time Password (OTP),Your One Time Password (OTP)
-inapp_checkout.otp_email.salutation,,"Hi there,","Hi there,"
-inapp_checkout.otp_email.otp_line,,%{otp} is your one time password,%{otp} is your one time password
-inapp_checkout.otp_email.desc,,The one time password is valid for 5 minutes from the time it is generated.,The one time password is valid for 5 minutes from the time it is generated.
-inapp_checkout.otp_sms.body,,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.
-inapp_checkout.multi_decimal.quantity.error,,Enter valid quantity,Enter valid quantity
-inapp_checkout.qty,,Qty,Qty
-inapp_checkout.review.opm.cash.desc,,You can make the payment by cash,You can make the payment by cash
-inapp_checkout.review.opm.check.desc,,You can find the payment transfer details as part of the invoice,You can find the payment transfer details as part of the invoice
-inapp_checkout.review.opm.bank_transfer.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.review.opm.ach_credit.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.review.opm.sepa_credit.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.pm.consent.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.
-inapp_checkout.pm.never.save.txt,,Your payment information will not be saved in our system.,Your payment information will not be saved in our system.
-inapp_portal.recommended.addon.tag,,RECOMMENDED,RECOMMENDED
-inapp_portal.home.header,,Manage Subscriptions,Manage Subscriptions
-inapp_portal.locale.label,,Locale,Locale
-inapp_portal.home.footer,,Questions? Our Support Team would be glad to help,Questions? Our Support Team would be glad to help
-inapp_portal.home.account.link_text,,Account Information,Account Information
-inapp_portal.home.address.link_text,,Billing & Shipping Addresses,Billing & Shipping Addresses
-inapp_portal.home.payment_methods.link_text,,Payment Methods,Payment Methods
-inapp_portal.home.billing_history.link_text,,Billing History,Billing History
-inapp_portal.back,,Back,Back
-inapp_portal.subscription.header,,Subscription Details,Subscription Details
-inapp_portal.subscription.header.edit,,Edit Subscription Details,Edit Subscription Details
-inapp_portal.subscription.header.review,,Review subscription changes,Review subscription changes
-inapp_portal.account.header,,Account Details,Account Details
-inapp_portal.account.edit.txt,,Editing account details,Editing account details
-inapp_portal.account.header.edit,,Update your account details,Update your account details
-inapp_portal.account.header.edit.submit,,Update,Update
-inapp_portal.address.header,,Billing & Shipping Addresses,Billing & Shipping Addresses
-inapp_portal.address.billing.txt,,Billing,Billing
-inapp_portal.address.billing.edit.txt,,Editing billing details,Editing billing details
-inapp_portal.address.billing.add.txt,,Add your billing details,Add your billing details
-inapp_portal.address.shipping.txt,,Shipping,Shipping
-inapp_portal.address.shipping.edit.txt,,Editing shipping details,Editing shipping details
-inapp_portal.address.billing.header.edit,,Update your billing details,Update your billing details
-inapp_portal.address.billing.header.edit.submit,,Update,Update
-inapp_portal.address.shipping.header.edit,,Update your shipping details,Update your shipping details
-inapp_portal.address.shipping.header.edit.submit,,Update,Update
-inapp_portal.payment_method.header,,Payment Methods,Payment Methods
-inapp_portal.payment_method.link.add,,Add New,Add New
-inapp_portal.payment_method.link.add_new,,Add a payment method,Add a payment method
-inapp_portal.payment_method.header.add,,Add a payment method,Add a payment method
-inapp_portal.payment_method.header.select,,Select a payment method,Select a payment method
-inapp_portal.payment_method.footer.choose,,Choose a different payment method,Choose a different payment method
-inapp_portal.payment_method.header.add.submit,,Add,Add
-inapp_portal.payment_method.header.edit,,Update your payment method,Update your payment method
-inapp_portal.payment_method.header.edit.submit,,Update,Update
-inapp_portal.payment_method.header.verify,,Verify payment method,Verify payment method
-inapp_portal.payment_method.header.verify.submit,,Verify,Verify
-inapp_portal.billing_history.header,,Billing history,Billing history
-inapp_portal.billing_history.download,,Download,Download
-inapp_portal.billing_history.none,,No invoices to display,No invoices to display
-inapp_portal.subscription.header.edit.submit,,Review,Review
-inapp_portal.subscription.header.review.submit,,Update Subscription,Update Subscription
-inapp_portal.subscription.header.choose_pm,,Choose your payment method for this subscription,Choose your payment method for this subscription
-inapp_portal.subscription.update_sub_pm,,Update,Update
-inapp_portal.subscription.cancel.link.txt,,Cancel Subscription,Cancel Subscription
-inapp_portal.subscription.next.renewing_estimate.now,,You will be charged %{amount} for prorated charges via,You will be charged %{amount} for prorated charges via
-inapp_portal.subscription.next.renewing_estimate.eot.non_recurring,,You will be charged %{amount} via,You will be charged %{amount} via
-inapp_portal.subscription.next.renewing_estimate.eot,,You will be charged %{amount} every %{billing_period} via,You will be charged %{amount} every %{billing_period} via
-inapp_portal.subscription.next.renewing_estimate.eot.with_date,,Your next charge %{amount} will be on %{date} via,Your next charge %{amount} will be on %{date} via
-inapp_portal.subscription.next.credits_created.now,,You will not be charged for this change and %{amount} will be added as refundable credits,You will not be charged for this change and %{amount} will be added as refundable credits
-inapp_portal.subscription.details.trial.info,,"You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan","You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan"
-inapp_portal.subscription.details.cancellation_scheduled.info,,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
-inapp_portal.subscription.next.renewing_estimate.now_zero,," %{amount} charged from available credits."," %{amount} charged from available credits."
-inapp_portal.subscription.details.trial.info_today,,You trial will end today and you’ll be moved to the %{plan_name} plan,You trial will end today and you’ll be moved to the %{plan_name} plan
+inapp_checkout.cart.pay_now.label,Plătește acum,Pay now,Pay now
+inapp_checkout.cart.next_charge.label,Următoarea taxare la %{date},Next charge on %{date},Next charge on %{date}
+inapp_checkout.order_summary.charge_now.label,Se poate percepe acum,Chargeable now,Chargeable now
+inapp_checkout.order_summary.next_charge.label,Taxe la %{date},Charges on %{date},Charges on %{date}
+inapp_checkout.order.edit.link,Editați comanda,Edit order,Edit order
+inapp_checkout.estimate_display_screen.header,Rezumatul comenzii dvs.,Your order summary,Your order summary
+inapp_checkout.credits_applied.label,Credite aplicate,Credits applied,Credits applied
+inapp_checkout.non_rec_addon.tag,O DATA,ONE-TIME,ONE-TIME
+inapp_checkout.coupon.description,Cupon %{amount} aplicat,%{amount} coupon applied,%{amount} coupon applied
+inapp_checkout.free_quantity.description, %{units} unități gratuite,%{units} units free,%{units} units free
+inapp_checkout.referral.title,Adresați-vă prietenilor,Refer your friends,Refer your friends
+inapp_checkout.referral.cb_reward,Trimiteți-vă prietenilor și vă vom oferi %{referral_credits} atunci când își cumpără primul abonament.,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.
+inapp_checkout.referral.custom_reward,Adresați-vă prietenilor dvs. și vă vom recompensa atunci când își cumpără primul abonament.,Refer your friends and we will reward you when they purchase their first subscription.,Refer your friends and we will reward you when they purchase their first subscription.
+inapp_checkout.referral.friend_discount,Prietenul dvs. va primi %{referral_friend_discount} reducere.,Your friend will get %{referral_friend_discount} discount.,Your friend will get %{referral_friend_discount} discount.
+inapp_checkout.referral.link_label,Link-ul dvs. de recomandare,Your referral link,Your referral link
+inapp_checkout.review.threedsWarning.non_trial,Este posibil să fiți redirecționat către pagina dvs. bancară pentru verificarea securizată 3D.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_checkout.review.threedsWarning.trial,"Este posibil să fiți redirecționat către pagina dvs. bancară pentru verificarea securizată 3D pentru care se poate percepe o sumă simbolică, care va fi rambursată în mod automat.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
+inapp_checkout.3ds.auth.txt,Autorizez %{organisation_name} să salveze această metodă de plată și să taxez automat această metodă de plată ori de câte ori i se asociază un abonament.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_checkout.otp_email.subject,Parola dvs. unică (OTP),Your One Time Password (OTP),Your One Time Password (OTP)
+inapp_checkout.otp_email.salutation,"Bună,","Hi there,","Hi there,"
+inapp_checkout.otp_email.otp_line, %{otp} este parola dvs. unică,%{otp} is your one time password,%{otp} is your one time password
+inapp_checkout.otp_email.desc,Parola unică este valabilă 5 minute de la data la care este generată.,The one time password is valid for 5 minutes from the time it is generated.,The one time password is valid for 5 minutes from the time it is generated.
+inapp_checkout.otp_sms.body, %{otp} este parola dvs. unică. Parola unică este valabilă 5 minute de la data la care a fost generată.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.
+inapp_checkout.multi_decimal.quantity.error,Introduceți cantitatea validă,Enter valid quantity,Enter valid quantity
+inapp_checkout.qty,Cantitate,Qty,Qty
+inapp_checkout.review.opm.cash.desc,Puteți efectua plata în numerar,You can make the payment by cash,You can make the payment by cash
+inapp_checkout.review.opm.check.desc,Puteți găsi detaliile transferului de plată ca parte a facturii,You can find the payment transfer details as part of the invoice,You can find the payment transfer details as part of the invoice
+inapp_checkout.review.opm.bank_transfer.desc,Puteți efectua plata în detaliile contului bancar prezente în factură,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.review.opm.ach_credit.desc,Puteți efectua plata în detaliile contului bancar prezente în factură,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.review.opm.sepa_credit.desc,Puteți efectua plata în detaliile contului bancar prezente în factură,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.pm.consent.txt,Autorizez %{organisation_name} să salveze această metodă de plată și să taxez automat această metodă de plată pentru orice tranzacții viitoare asociate acesteia.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.
+inapp_checkout.pm.never.save.txt,Informațiile dvs. de plată nu vor fi salvate în sistemul nostru.,Your payment information will not be saved in our system.,Your payment information will not be saved in our system.
+inapp_portal.recommended.addon.tag,RECOMANDAT,RECOMMENDED,RECOMMENDED
+inapp_portal.home.header,Gestionați abonamentele,Manage Subscriptions,Manage Subscriptions
+inapp_portal.locale.label,Locale,Locale,Locale
+inapp_portal.home.footer,Întrebări? Echipa noastră de asistență ar fi bucuroasă să vă ajute,Questions? Our Support Team would be glad to help,Questions? Our Support Team would be glad to help
+inapp_portal.home.account.link_text,informatii despre cont,Account Information,Account Information
+inapp_portal.home.address.link_text,Adrese de facturare și expediere,Billing & Shipping Addresses,Billing & Shipping Addresses
+inapp_portal.home.payment_methods.link_text,Metode de plata,Payment Methods,Payment Methods
+inapp_portal.home.billing_history.link_text,Istoricul facturării,Billing History,Billing History
+inapp_portal.back,Înapoi,Back,Back
+inapp_portal.subscription.header,Detalii abonament,Subscription Details,Subscription Details
+inapp_portal.subscription.header.edit,Editați detaliile abonamentului,Edit Subscription Details,Edit Subscription Details
+inapp_portal.subscription.header.review,Examinați modificările abonamentului,Review subscription changes,Review subscription changes
+inapp_portal.account.header,Detalii cont,Account Details,Account Details
+inapp_portal.account.edit.txt,Editarea detaliilor contului,Editing account details,Editing account details
+inapp_portal.account.header.edit,Actualizați detaliile contului,Update your account details,Update your account details
+inapp_portal.account.header.edit.submit,Actualizați,Update,Update
+inapp_portal.address.header,Adrese de facturare și expediere,Billing & Shipping Addresses,Billing & Shipping Addresses
+inapp_portal.address.billing.txt,Facturare,Billing,Billing
+inapp_portal.address.billing.edit.txt,Editarea detaliilor de facturare,Editing billing details,Editing billing details
+inapp_portal.address.billing.add.txt,Adăugați detaliile de facturare,Add your billing details,Add your billing details
+inapp_portal.address.shipping.txt,livrare,Shipping,Shipping
+inapp_portal.address.shipping.edit.txt,Editarea detaliilor de expediere,Editing shipping details,Editing shipping details
+inapp_portal.address.billing.header.edit,Actualizați detaliile de facturare,Update your billing details,Update your billing details
+inapp_portal.address.billing.header.edit.submit,Actualizați,Update,Update
+inapp_portal.address.shipping.header.edit,Actualizați detaliile de expediere,Update your shipping details,Update your shipping details
+inapp_portal.address.shipping.header.edit.submit,Actualizați,Update,Update
+inapp_portal.payment_method.header,Metode de plata,Payment Methods,Payment Methods
+inapp_portal.payment_method.link.add,Adăuga nou,Add New,Add New
+inapp_portal.payment_method.link.add_new,Adăugați o metodă de plată,Add a payment method,Add a payment method
+inapp_portal.payment_method.header.add,Adăugați o metodă de plată,Add a payment method,Add a payment method
+inapp_portal.payment_method.header.select,Selectati o metoda de plata,Select a payment method,Select a payment method
+inapp_portal.payment_method.footer.choose,Alegeți o altă metodă de plată,Choose a different payment method,Choose a different payment method
+inapp_portal.payment_method.header.add.submit,Adăuga,Add,Add
+inapp_portal.payment_method.header.edit,Actualizați metoda de plată,Update your payment method,Update your payment method
+inapp_portal.payment_method.header.edit.submit,Actualizați,Update,Update
+inapp_portal.payment_method.header.verify,Verificați metoda de plată,Verify payment method,Verify payment method
+inapp_portal.payment_method.header.verify.submit,Verifica,Verify,Verify
+inapp_portal.billing_history.header,Istoricul facturării,Billing history,Billing history
+inapp_portal.billing_history.download,Descarca,Download,Download
+inapp_portal.billing_history.none,Nici una sau mai multe facturi de afișat,No invoices to display,No invoices to display
+inapp_portal.subscription.header.edit.submit,Revizuire,Review,Review
+inapp_portal.subscription.header.review.submit,Actualizați abonamentul,Update Subscription,Update Subscription
+inapp_portal.subscription.header.choose_pm,Alegeți metoda de plată pentru acest abonament,Choose your payment method for this subscription,Choose your payment method for this subscription
+inapp_portal.subscription.update_sub_pm,Actualizați,Update,Update
+inapp_portal.subscription.cancel.link.txt,Anuleaza abonarea,Cancel Subscription,Cancel Subscription
+inapp_portal.subscription.next.renewing_estimate.now,Veți fi taxat (ă) %{amount} pentru taxele proporționale prin,You will be charged %{amount} for prorated charges via,You will be charged %{amount} for prorated charges via
+inapp_portal.subscription.next.renewing_estimate.eot.non_recurring,Veți fi taxat (ă) %{amount} prin,You will be charged %{amount} via,You will be charged %{amount} via
+inapp_portal.subscription.next.renewing_estimate.eot,Veți fi taxat (ă) %{amount} la fiecare %{billing_period} prin,You will be charged %{amount} every %{billing_period} via,You will be charged %{amount} every %{billing_period} via
+inapp_portal.subscription.next.renewing_estimate.eot.with_date,Următoarea dvs. taxă %{amount} va fi la %{date} prin,Your next charge %{amount} will be on %{date} via,Your next charge %{amount} will be on %{date} via
+inapp_portal.subscription.next.credits_created.now,"Nu veți fi taxat pentru această modificare, iar %{amount} va fi adăugat ca credite rambursabile",You will not be charged for this change and %{amount} will be added as refundable credits,You will not be charged for this change and %{amount} will be added as refundable credits
+inapp_portal.subscription.details.trial.info,"Mai aveți %{remaining_trial_period} de încercare. După expirarea perioadei de încercare, veți fi mutat în planul %{plan_name}","You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan","You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan"
+inapp_portal.subscription.details.cancellation_scheduled.info,Abonamentul dvs. va fi anulat la %{date},Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
+inapp_portal.subscription.next.renewing_estimate.now_zero, %{amount} perceput din creditele disponibile., %{amount} charged from available credits., %{amount} charged from available credits.
+inapp_portal.subscription.details.trial.info_today,Încercarea dvs. se va încheia astăzi și veți fi mutat în planul %{plan_name},You trial will end today and you’ll be moved to the %{plan_name} plan,You trial will end today and you’ll be moved to the %{plan_name} plan
 inapp_portal.subscription.details.active.info,,,
-inapp_portal.subscription.details.non_renewing.info,,Your subscription will end on %{date},Your subscription will end on %{date}
-inapp_portal.subscription.details.cancelled.info,,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription
-inapp_portal.subscription.details.paused.info,,Your subscription is currently paused.,Your subscription is currently paused.
-inapp_portal.subscription.details.future.info,,Your subscription will start on %{date},Your subscription will start on %{date}
-inapp_portal.subscription.edit.txt,,Edit Subscription,Edit Subscription
-inapp_portal.choose_change_subscription.header,,Change subscription,Change subscription
-inapp_portal.subscription.edit.chooser_question,,When do you want to change the subscription?,When do you want to change the subscription?
-inapp_portal.subscription.change.immediately.option,,Change immediately,Change immediately
-inapp_portal.subscription.change.eot.option,,Change on next renewal(%{date}),Change on next renewal(%{date})
-inapp_portal.subscription.change.specific_date.option,,Change on a specific date,Change on a specific date
-inapp_portal.subscription.change.option.submit,,Change subscription,Change subscription
-inapp_portal.subscription.change.options.proceed,,proceed,proceed
-inapp_portal.subscription.cancel.specific_date.option,,Cancel on a specific date,Cancel on a specific date
-inapp_portal.remove_scheduled_changes.txt,,Remove scheduled changes,Remove scheduled changes
-inapp_portal.subscription.remove_scheduled_cancellation.link_txt,,Remove scheduled cancellation,Remove scheduled cancellation
-inapp_portal.remove_scheduled_changes.info,,These changes will be applied to your subscription from next renewal( %{date} ),These changes will be applied to your subscription from next renewal( %{date} )
-inapp_portal.payment_method.header.view,,Payment Method Details,Payment Method Details
-inapp_portal.payment_method.view.remove,,Remove Payment Method,Remove Payment Method
-inapp_portal.payment_method.view.edit,,Edit Payment Method,Edit Payment Method
-inapp_portal.payment_method.view.remove_prompt,,Are you sure you want to remove this payment method?,Are you sure you want to remove this payment method?
-inapp_portal.subscription_cf.header.edit,,Update your subscription details,Update your subscription details
-inapp_portal.subscription_cf.header.edit.submit,,Update,Update
+inapp_portal.subscription.details.non_renewing.info,Abonamentul dvs. se va încheia la %{date},Your subscription will end on %{date},Your subscription will end on %{date}
+inapp_portal.subscription.details.cancelled.info,ANULAT. Abonamentul dvs. a fost anulat. Contactați-ne pentru a vă reactiva abonamentul,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription
+inapp_portal.subscription.details.paused.info,Abonamentul dvs. este în prezent întrerupt.,Your subscription is currently paused.,Your subscription is currently paused.
+inapp_portal.subscription.details.future.info,Abonamentul dvs. va începe la %{date},Your subscription will start on %{date},Your subscription will start on %{date}
+inapp_portal.subscription.edit.txt,Editați abonamentul,Edit Subscription,Edit Subscription
+inapp_portal.choose_change_subscription.header,Schimbați abonamentul,Change subscription,Change subscription
+inapp_portal.subscription.edit.chooser_question,Când doriți să schimbați abonamentul?,When do you want to change the subscription?,When do you want to change the subscription?
+inapp_portal.subscription.change.immediately.option,Schimbați imediat,Change immediately,Change immediately
+inapp_portal.subscription.change.eot.option,Modificare la următoarea reînnoire ( %{date}),Change on next renewal(%{date}),Change on next renewal(%{date})
+inapp_portal.subscription.change.specific_date.option,Schimbați la o anumită dată,Change on a specific date,Change on a specific date
+inapp_portal.subscription.change.option.submit,Schimbați abonamentul,Change subscription,Change subscription
+inapp_portal.subscription.change.options.proceed,continua,proceed,proceed
+inapp_portal.subscription.cancel.specific_date.option,Anulați la o anumită dată,Cancel on a specific date,Cancel on a specific date
+inapp_portal.remove_scheduled_changes.txt,Eliminați modificările programate,Remove scheduled changes,Remove scheduled changes
+inapp_portal.subscription.remove_scheduled_cancellation.link_txt,Eliminați anularea programată,Remove scheduled cancellation,Remove scheduled cancellation
+inapp_portal.remove_scheduled_changes.info,Aceste modificări vor fi aplicate abonamentului dvs. de la următoarea reînnoire ( %{date}),These changes will be applied to your subscription from next renewal( %{date} ),These changes will be applied to your subscription from next renewal( %{date} )
+inapp_portal.payment_method.header.view,Detalii despre modalitatea de plată,Payment Method Details,Payment Method Details
+inapp_portal.payment_method.view.remove,Eliminați Metoda de plată,Remove Payment Method,Remove Payment Method
+inapp_portal.payment_method.view.edit,Editați metoda de plată,Edit Payment Method,Edit Payment Method
+inapp_portal.payment_method.view.remove_prompt,Sigur doriți să eliminați această metodă de plată?,Are you sure you want to remove this payment method?,Are you sure you want to remove this payment method?
+inapp_portal.subscription_cf.header.edit,Actualizați detaliile abonamentului,Update your subscription details,Update your subscription details
+inapp_portal.subscription_cf.header.edit.submit,Actualizați,Update,Update
 inapp_portal.discounts_applied.label,,,
 inapp_portal.items_in_total.custom_label,,,
 inapp_portal.more_items_txt.custom_label,,,
-inapp_portal.home.gift_sub.gifted_by,,Recieved from %{name},Recieved from %{name}
-inapp_portal.sub_details.gift.gifted_by,,Gifted by %{name},Gifted by %{name}
-inapp_portal.subscription.cancel.header,,Cancel Subscription,Cancel Subscription
-inapp_portal.subscription.cancel.header.submit,,Confirm Cancellation,Confirm Cancellation
-inapp_portal.subscription.cancel.when,,When do you want to cancel the subscription?,When do you want to cancel the subscription?
-inapp_portal.subscription.cancel.eot.option,,Cancel on next renewal  (%{date}),Cancel on next renewal  (%{date})
-inapp_portal.subscription.cancel.immediately.option,,Cancel Immediately,Cancel Immediately
-inapp_portal.subscription.cancel.immediately.info,,Your subscription will be canceled immediately,Your subscription will be canceled immediately
-inapp_portal.subscription.cancel.eot.info,,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
-inapp_portal.subscription.cancel.reason,,Reason for cancellation,Reason for cancellation
-inapp_portal.subscription.cancel.feedback,,Is there anything else you would like to let us know?,Is there anything else you would like to let us know?
-inapp_portal.subscription.cancel.reason.option,,Select a cancellation reason,Select a cancellation reason
-inapp_portal.subscription.canceled.reason_code.info,,Your subscription was canceled with the reason '%{reason}',Your subscription was canceled with the reason '%{reason}'
-inapp_portal.subscription.sch_cancel.reason_code.info,,Your subscription will be canceled with the reason '%{reason}',Your subscription will be canceled with the reason '%{reason}'
-inapp_portal.scheduled_changes.header,,View scheduled changes,View scheduled changes
-inapp_portal.scheduled_changes_navigation.header,,Changes from next renewal,Changes from next renewal
-inapp_portal.subscription_preview_navigation.header,,Subscription Details,Subscription Details
-inapp_portal.consent.header,,Permissions,Permissions
-inapp_portal.consent_section.name,,Permissions,Permissions
-inapp_portal.consent.revoke_alert,,Are you sure?,Are you sure?
-inapp_portal.consent.submit,,Update,Update
-inapp_portal.remove_scheduled_pause.confirm_txt,,The scheduled pause for your subscription will be removed. Continue?,The scheduled pause for your subscription will be removed. Continue?
-inapp_portal.resume_subscription_now.confirm_txt,,Your subscription will resume immediately. Continue?,Your subscription will resume immediately. Continue?
-inapp_portal.resume_now.link,,Resume now,Resume now
-inapp_portal.remove_scheduled_pause.link,,Remove Scheduled Pause,Remove Scheduled Pause
-inapp_portal.subscription.details.pause_scheduled.info,,Your subscription will be paused on %{date},Your subscription will be paused on %{date}
-inapp_portal.subscription.details.resume_scheduled.info,,Your subscription will resume on %{date},Your subscription will resume on %{date}
-inapp_portal.subscription.pause.link.txt,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.header,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.submit,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.immediate_indefinite.info,,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page
-inapp_portal.subscription.pause.immediate_fixed_time.info,,"Your subscription will be paused immediately, and will resume after %{pause_period_set} days.","Your subscription will be paused immediately, and will resume after %{pause_period_set} days."
-inapp_portal.subscription.pause.immediate_options.info,,Your subscription will be paused immediately.,Your subscription will be paused immediately.
-inapp_portal.subscription.pause.immediate_indefinite.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.immediate_fixed_time.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.immediate_options.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_indefinite.info,,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
-inapp_portal.subscription.pause.eot_fixed_time.info,,"Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days.","Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days."
-inapp_portal.subscription.pause.eot_options.info,,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
-inapp_portal.subscription.pause.eot_indefinite.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_fixed_time.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_options.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.chooser_question,,How long do you want to pause the subscription?,How long do you want to pause the subscription?
-inapp_portal.subscription.pause.custom_date,,Custom date,Custom date
-inapp_portal.subscription.pause.choose_specific_date,,(Choose a specific date),(Choose a specific date)
-inapp_portal.subscription.pause.pause_until,,Pause until,Pause until
-inapp_portal.payment_method_tag.primary,,Primary,Primary
-inapp_portal.payment_method_tag.backup,,Backup,Backup
-inapp_portal.payment_method.suggest_backup,,Backups come handy when your primary payment fails. Set a backup.,Backups come handy when your primary payment fails. Set a backup.
-inapp_portal.card.expiring,,Expires on %{card_expiry},Expires on %{card_expiry}
-inapp_portal.card.expired,,Expired on %{card_expiry},Expired on %{card_expiry}
-inapp_portal.pm.set_role.link,,Set this as primary or backup,Set this as primary or backup
-inapp_portal.pm.set_role.title,,Set this payment method as,Set this payment method as
-inapp_portal.pm.set_role.header,,Payment Method Settings,Payment Method Settings
-inapp_portal.pm.set_role.update_btn,,Update,Update
-inapp_portal.pm.set_role.skip_btn,,Skip,Skip
-inapp_portal.pm.remove_backup.link,,Remove as backup,Remove as backup
-inapp_portal.pm.remove_backup.message,,Remove backup? Backups come handy when your primary payment method fails.,Remove backup? Backups come handy when your primary payment method fails.
-inapp_portal.pm.remove_backup.confirm,,Remove,Remove
-inapp_portal.pm.set_primary.message,,Set this as primary? This will replace your current primary payment method,Set this as primary? This will replace your current primary payment method
-inapp_portal.pm.set_primary.confirm,,Confirm,Confirm
-inapp_portal.pm.set_primary.link,,Set as primary,Set as primary
-inapp_portal.pm.primary.desc.txt,,This is your primary payment method,This is your primary payment method
-inapp_portal.pm.backup.desc.txt,,This is your backup payment method,This is your backup payment method
-inapp_portal.pm.primary.warning.txt,,This will replace your current primary payment method,This will replace your current primary payment method
-inapp_portal.pm.backup.warning.txt,,This will replace your current backup payment method,This will replace your current backup payment method
-inapp_portal.pm.primary.info.txt,,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
-inapp_portal.pm.backup.info.txt,,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
-inapp_portal.pm.primary.desc.detail,,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
-inapp_portal.pm.backup.desc.detail,,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
-inapp_portal.subscription.details.pm_warning,,"Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription.","Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription."
-inapp_portal.error.future_date.required,,Please provide a future date in correct format to process the request.,Please provide a future date in correct format to process the request.
-inapp_portal.addon_item_price_selection.header,,Change addon frequency,Change addon frequency
-inapp_portal.addon_item_price_selection.title,,Select billing frequency,Select billing frequency
-inapp_portal.addon_item_price_selection.update.btn,,Update,Update
-inapp_portal.item_selection.header,,Change plan,Change plan
-inapp_portal.item_selection.title,,Select billing frequency,Select billing frequency
-inapp_portal.item_selection.update.btn,,Update,Update
-inapp_portal.subscription.reactivate.link.txt,,Reactivate Subscription,Reactivate Subscription
-inapp_portal.reactivate_confirm.txt,,Are you sure you want to reactivate this subscription?,Are you sure you want to reactivate this subscription?
-inapp_portal.remove_cancellation.confirm_txt,,Are you sure you want to remove the scheduled cancellation?,Are you sure you want to remove the scheduled cancellation?
-inapp_portal.remove_scheduled_changes_confirm.txt,,Are you sure you want to remove the scheduled changes?,Are you sure you want to remove the scheduled changes?
-inapp_portal.modal_button.confirm,,Confirm,Confirm
-inapp_portal.modal_button.cancel,,Cancel,Cancel
-inapp_portal.subscriptions.load_more,,Load more,Load more
-inapp_portal.subscriptions.more,,See all your subscriptions,See all your subscriptions
-inapp_portal.portal_home.close,,Exit,Exit
-inapp_portal.change_item.txt,,Change,Change
-inapp_portal.add_addons.txt,,Add Addons,Add Addons
-inapp_portal.add_addons.btn,,Add,Add
-inapp_portal.edit_addon_item.btn,,Edit,Edit
-inapp_portal.add_addons.non_rec.title,,ONE-TIME CHARGES,ONE-TIME CHARGES
-inapp_portal.item.breakdown.show,,See Details,See Details
-inapp_portal.item.breakdown.hide,,Hide Details,Hide Details
-inapp_portal.subscription.view_breakup,,View breakdown,View breakdown
-inapp_portal.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-inapp_portal.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-inapp_portal.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-inapp_portal.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-inapp_portal.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-inapp_portal.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-inapp_portal.payment_method.bank_account.stripe_ach_verify_note,,You have a maximum of 10 attempts to verify your payment method.,You have a maximum of 10 attempts to verify your payment method.
-inapp_portal.home.gift_bar,,Gifted %{number} subscriptions,Gifted %{number} subscriptions
-inapp_portal.home.gift_header,,GIFT SUBSCRIPTIONS,GIFT SUBSCRIPTIONS
-inapp_portal.gift_tag.scheduled,,Gift to %{name} scheduled,Gift to %{name} scheduled
-inapp_portal.gift_tag.unclaimed,,Gift yet to be claimed by %{name},Gift yet to be claimed by %{name}
-inapp_portal.gift_tag.claimed,,Gifted to %{name},Gifted to %{name}
-inapp_portal.gift_tag.canceled,,Gift to %{name} has been canceled,Gift to %{name} has been canceled
-inapp_portal.gift_tag.expired,,Gifted to %{name} has been expired,Gifted to %{name} has been expired
-inapp_portal.gift_details_notification.scheduled,,Your gift will be sent to the recipient via email on %{date},Your gift will be sent to the recipient via email on %{date}
-inapp_portal.gift_details_notification.unclaimed,,Your gift is yet to be claimed by the recipient.,Your gift is yet to be claimed by the recipient.
-inapp_portal.gift_details_notification.canceled,,Your gift has been canceled,Your gift has been canceled
+inapp_portal.home.gift_sub.gifted_by,Primit de la %{name},Recieved from %{name},Recieved from %{name}
+inapp_portal.sub_details.gift.gifted_by,Înzestrat de %{name},Gifted by %{name},Gifted by %{name}
+inapp_portal.subscription.cancel.header,Anuleaza abonarea,Cancel Subscription,Cancel Subscription
+inapp_portal.subscription.cancel.header.submit,Confirmați anularea,Confirm Cancellation,Confirm Cancellation
+inapp_portal.subscription.cancel.when,Când doriți să anulați abonamentul?,When do you want to cancel the subscription?,When do you want to cancel the subscription?
+inapp_portal.subscription.cancel.eot.option,Anulați la următoarea reînnoire ( %{date}),Cancel on next renewal  (%{date}),Cancel on next renewal  (%{date})
+inapp_portal.subscription.cancel.immediately.option,Anulați imediat,Cancel Immediately,Cancel Immediately
+inapp_portal.subscription.cancel.immediately.info,Abonamentul dvs. va fi anulat imediat,Your subscription will be canceled immediately,Your subscription will be canceled immediately
+inapp_portal.subscription.cancel.eot.info,Abonamentul dvs. va fi anulat la %{date},Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
+inapp_portal.subscription.cancel.reason,Motivul anulării,Reason for cancellation,Reason for cancellation
+inapp_portal.subscription.cancel.feedback,Mai ai ceva să ne anunți?,Is there anything else you would like to let us know?,Is there anything else you would like to let us know?
+inapp_portal.subscription.cancel.reason.option,Selectați un motiv de anulare,Select a cancellation reason,Select a cancellation reason
+inapp_portal.subscription.canceled.reason_code.info,Abonamentul dvs. a fost anulat cu motivul „ %{reason}”,Your subscription was canceled with the reason '%{reason}',Your subscription was canceled with the reason '%{reason}'
+inapp_portal.subscription.sch_cancel.reason_code.info,Abonamentul dvs. va fi anulat cu motivul „ %{reason}”,Your subscription will be canceled with the reason '%{reason}',Your subscription will be canceled with the reason '%{reason}'
+inapp_portal.scheduled_changes.header,Vedeți modificările programate,View scheduled changes,View scheduled changes
+inapp_portal.scheduled_changes_navigation.header,Modificări de la următoarea reînnoire,Changes from next renewal,Changes from next renewal
+inapp_portal.subscription_preview_navigation.header,Detalii abonament,Subscription Details,Subscription Details
+inapp_portal.consent.header,Permisiuni,Permissions,Permissions
+inapp_portal.consent_section.name,Permisiuni,Permissions,Permissions
+inapp_portal.consent.revoke_alert,Esti sigur?,Are you sure?,Are you sure?
+inapp_portal.consent.submit,Actualizați,Update,Update
+inapp_portal.remove_scheduled_pause.confirm_txt,Pauza programată pentru abonamentul dvs. va fi eliminată. Continua?,The scheduled pause for your subscription will be removed. Continue?,The scheduled pause for your subscription will be removed. Continue?
+inapp_portal.resume_subscription_now.confirm_txt,Abonamentul dvs. se va relua imediat. Continua?,Your subscription will resume immediately. Continue?,Your subscription will resume immediately. Continue?
+inapp_portal.resume_now.link,Reluați acum,Resume now,Resume now
+inapp_portal.remove_scheduled_pause.link,Eliminați pauza programată,Remove Scheduled Pause,Remove Scheduled Pause
+inapp_portal.subscription.details.pause_scheduled.info,Abonamentul dvs. va fi întrerupt la %{date},Your subscription will be paused on %{date},Your subscription will be paused on %{date}
+inapp_portal.subscription.details.resume_scheduled.info,Abonamentul dvs. va fi reluat la %{date},Your subscription will resume on %{date},Your subscription will resume on %{date}
+inapp_portal.subscription.pause.link.txt,Întrerupeți abonamentul,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.header,Întrerupeți abonamentul,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.submit,Întrerupeți abonamentul,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.immediate_indefinite.info,Abonamentul dvs. va fi întrerupt imediat. Vă puteți relua abonamentul oricând din pagina Detalii abonament,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page
+inapp_portal.subscription.pause.immediate_fixed_time.info,Abonamentul dvs. va fi întrerupt imediat și va fi reluat după %{pause_period_set} zile.,"Your subscription will be paused immediately, and will resume after %{pause_period_set} days.","Your subscription will be paused immediately, and will resume after %{pause_period_set} days."
+inapp_portal.subscription.pause.immediate_options.info,Abonamentul dvs. va fi întrerupt imediat.,Your subscription will be paused immediately.,Your subscription will be paused immediately.
+inapp_portal.subscription.pause.immediate_indefinite.gen,"La pauză, abonamentul dvs. nu va fi facturat și nu va fi reînnoit.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.immediate_fixed_time.gen,"La pauză, abonamentul dvs. nu va fi facturat și nu se va reînnoi.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.immediate_options.gen,"La pauză, abonamentul dvs. nu va fi facturat și nu va fi reînnoit.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_indefinite.info,Abonamentul dvs. va fi întrerupt la %{date}.,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
+inapp_portal.subscription.pause.eot_fixed_time.info,Abonamentul dvs. va fi întrerupt la %{date} și va fi reluat după %{pause_period_set} zile.,"Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days.","Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days."
+inapp_portal.subscription.pause.eot_options.info,Abonamentul dvs. va fi întrerupt la %{date}.,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
+inapp_portal.subscription.pause.eot_indefinite.gen,"La pauză, abonamentul dvs. nu va fi facturat și nu va fi reînnoit.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_fixed_time.gen,"La pauză, abonamentul dvs. nu va fi facturat și nu se va reînnoi.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_options.gen,"La pauză, abonamentul dvs. nu va fi facturat și nu se va reînnoi.","On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.chooser_question,Cât timp doriți să întrerupeți abonamentul?,How long do you want to pause the subscription?,How long do you want to pause the subscription?
+inapp_portal.subscription.pause.custom_date,Data personalizată,Custom date,Custom date
+inapp_portal.subscription.pause.choose_specific_date,(Alegeți o dată specifică),(Choose a specific date),(Choose a specific date)
+inapp_portal.subscription.pause.pause_until,Pauză până,Pause until,Pause until
+inapp_portal.payment_method_tag.primary,Primar,Primary,Primary
+inapp_portal.payment_method_tag.backup,Backup,Backup,Backup
+inapp_portal.payment_method.suggest_backup,Copiile de rezervă sunt la îndemână atunci când plata principală eșuează. Setați o copie de rezervă.,Backups come handy when your primary payment fails. Set a backup.,Backups come handy when your primary payment fails. Set a backup.
+inapp_portal.card.expiring,Expiră la %{card_expiry},Expires on %{card_expiry},Expires on %{card_expiry}
+inapp_portal.card.expired,A expirat la %{card_expiry},Expired on %{card_expiry},Expired on %{card_expiry}
+inapp_portal.pm.set_role.link,Setați acest lucru ca primar sau de rezervă,Set this as primary or backup,Set this as primary or backup
+inapp_portal.pm.set_role.title,Setați această metodă de plată ca,Set this payment method as,Set this payment method as
+inapp_portal.pm.set_role.header,Setări metode de plată,Payment Method Settings,Payment Method Settings
+inapp_portal.pm.set_role.update_btn,Actualizați,Update,Update
+inapp_portal.pm.set_role.skip_btn,Ocolire,Skip,Skip
+inapp_portal.pm.remove_backup.link,Eliminați ca copie de rezervă,Remove as backup,Remove as backup
+inapp_portal.pm.remove_backup.message,Eliminați copia de rezervă? Copiile de rezervă sunt la îndemână atunci când metoda de plată principală eșuează.,Remove backup? Backups come handy when your primary payment method fails.,Remove backup? Backups come handy when your primary payment method fails.
+inapp_portal.pm.remove_backup.confirm,Elimina,Remove,Remove
+inapp_portal.pm.set_primary.message,Setați acest lucru ca principal? Aceasta va înlocui metoda dvs. principală de plată actuală,Set this as primary? This will replace your current primary payment method,Set this as primary? This will replace your current primary payment method
+inapp_portal.pm.set_primary.confirm,A confirma,Confirm,Confirm
+inapp_portal.pm.set_primary.link,Seteaza ca principal,Set as primary,Set as primary
+inapp_portal.pm.primary.desc.txt,Aceasta este metoda dvs. principală de plată,This is your primary payment method,This is your primary payment method
+inapp_portal.pm.backup.desc.txt,Aceasta este metoda dvs. de plată de rezervă,This is your backup payment method,This is your backup payment method
+inapp_portal.pm.primary.warning.txt,Aceasta va înlocui metoda dvs. principală de plată actuală,This will replace your current primary payment method,This will replace your current primary payment method
+inapp_portal.pm.backup.warning.txt,Aceasta va înlocui metoda dvs. actuală de plată de rezervă,This will replace your current backup payment method,This will replace your current backup payment method
+inapp_portal.pm.primary.info.txt,Aceasta va fi taxată pentru toate plățile dvs. automate.,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
+inapp_portal.pm.backup.info.txt,Aceasta va fi copia de rezervă atunci când metoda de plată principală eșuează.,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
+inapp_portal.pm.primary.desc.detail,Aceasta va fi taxată pentru toate plățile dvs. automate.,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
+inapp_portal.pm.backup.desc.detail,Aceasta va fi copia de rezervă atunci când metoda de plată principală eșuează.,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
+inapp_portal.subscription.details.pm_warning,"Asigurați-vă că păstrați această metodă de plată actualizată, deoarece metoda dvs. de plată de rezervă nu va fi utilizată pentru acest abonament.","Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription.","Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription."
+inapp_portal.error.future_date.required,Vă rugăm să furnizați o dată viitoare în format corect pentru a procesa solicitarea.,Please provide a future date in correct format to process the request.,Please provide a future date in correct format to process the request.
+inapp_portal.addon_item_price_selection.header,Schimbați frecvența addon,Change addon frequency,Change addon frequency
+inapp_portal.addon_item_price_selection.title,Selectați frecvența de facturare,Select billing frequency,Select billing frequency
+inapp_portal.addon_item_price_selection.update.btn,Actualizați,Update,Update
+inapp_portal.item_selection.header,Schimbați planul,Change plan,Change plan
+inapp_portal.item_selection.title,Selectați frecvența de facturare,Select billing frequency,Select billing frequency
+inapp_portal.item_selection.update.btn,Actualizați,Update,Update
+inapp_portal.subscription.reactivate.link.txt,Reactivați abonamentul,Reactivate Subscription,Reactivate Subscription
+inapp_portal.reactivate_confirm.txt,Sigur doriți să reactivați acest abonament?,Are you sure you want to reactivate this subscription?,Are you sure you want to reactivate this subscription?
+inapp_portal.remove_cancellation.confirm_txt,Sigur doriți să eliminați anularea programată?,Are you sure you want to remove the scheduled cancellation?,Are you sure you want to remove the scheduled cancellation?
+inapp_portal.remove_scheduled_changes_confirm.txt,Sigur doriți să eliminați modificările programate?,Are you sure you want to remove the scheduled changes?,Are you sure you want to remove the scheduled changes?
+inapp_portal.modal_button.confirm,A confirma,Confirm,Confirm
+inapp_portal.modal_button.cancel,Anulare,Cancel,Cancel
+inapp_portal.subscriptions.load_more,Incarca mai mult,Load more,Load more
+inapp_portal.subscriptions.more,Vedeți toate abonamentele dvs.,See all your subscriptions,See all your subscriptions
+inapp_portal.portal_home.close,Ieșire,Exit,Exit
+inapp_portal.change_item.txt,Schimbare,Change,Change
+inapp_portal.add_addons.txt,Adăugați Addons,Add Addons,Add Addons
+inapp_portal.add_addons.btn,Adăuga,Add,Add
+inapp_portal.edit_addon_item.btn,Editați | ×,Edit,Edit
+inapp_portal.add_addons.non_rec.title,TAXE O singură dată,ONE-TIME CHARGES,ONE-TIME CHARGES
+inapp_portal.item.breakdown.show,Vezi detalii,See Details,See Details
+inapp_portal.item.breakdown.hide,Ascunde detaliile,Hide Details,Hide Details
+inapp_portal.subscription.view_breakup,Vizualizați defalcarea,View breakdown,View breakdown
+inapp_portal.payment_method.bacs.guarantee.header,Înapoi la Plată,Back to Payment,Back to Payment
+inapp_portal.payment_method.bank_account.btn.proceed_to_review,Continuați cu Revizuirea,Proceed to Review,Proceed to Review
+inapp_portal.payment_method.bank_account.btn.enter_iban,Introduceți IBAN,Enter IBAN,Enter IBAN
+inapp_portal.payment_method.bank_account.btn.enter_local_details,Introduceți datele bancare locale,Enter local bank details,Enter local bank details
+inapp_portal.payment_method.bank_account.btn.enter_your_name,Introdu numele tau,Enter your name,Enter your name
+inapp_portal.payment_method.bank_account.btn.enter_company_name,Introduceți numele companiei,Enter company name,Enter company name
+inapp_portal.payment_method.bank_account.stripe_ach_verify_note,Aveți maximum 10 încercări de a vă verifica metoda de plată.,You have a maximum of 10 attempts to verify your payment method.,You have a maximum of 10 attempts to verify your payment method.
+inapp_portal.home.gift_bar,Abonamente %{number} supradotate,Gifted %{number} subscriptions,Gifted %{number} subscriptions
+inapp_portal.home.gift_header,ABONAMENTE CADOU,GIFT SUBSCRIPTIONS,GIFT SUBSCRIPTIONS
+inapp_portal.gift_tag.scheduled,Cadou pentru %{name} programat,Gift to %{name} scheduled,Gift to %{name} scheduled
+inapp_portal.gift_tag.unclaimed,Cadou care urmează să fie revendicat de %{name},Gift yet to be claimed by %{name},Gift yet to be claimed by %{name}
+inapp_portal.gift_tag.claimed,Cadou pentru %{name},Gifted to %{name},Gifted to %{name}
+inapp_portal.gift_tag.canceled,Cadoul către %{name} a fost anulat,Gift to %{name} has been canceled,Gift to %{name} has been canceled
+inapp_portal.gift_tag.expired,Cadou către %{name} a expirat,Gifted to %{name} has been expired,Gifted to %{name} has been expired
+inapp_portal.gift_details_notification.scheduled,Cadoul dvs. va fi trimis destinatarului prin e-mail la %{date},Your gift will be sent to the recipient via email on %{date},Your gift will be sent to the recipient via email on %{date}
+inapp_portal.gift_details_notification.unclaimed,Cadoul dvs. nu trebuie încă revendicat de către destinatar.,Your gift is yet to be claimed by the recipient.,Your gift is yet to be claimed by the recipient.
+inapp_portal.gift_details_notification.canceled,Cadoul dvs. a fost anulat,Your gift has been canceled,Your gift has been canceled
 inapp_portal.gift_details_notification.claimed,,,
-inapp_portal.gift_details_notification.expired,,Your gift was not claimed by the recipient,Your gift was not claimed by the recipient
-inapp_portal.gift.cancel_by_gifter,,Cancel the gift,Cancel the gift
-inapp_portal.gift.cancel_by_gifter.warning,,Are you sure you want to cancel this gift?,Are you sure you want to cancel this gift?
-inapp_portal.hierarchy.my_subscription.my_payment,,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
-inapp_portal.hierarchy.my_subscription.my_invoice,,This subscription is paid by %{customer_display_info} and invoiced to you.,This subscription is paid by %{customer_display_info} and invoiced to you.
-inapp_portal.hierarchy.my_subscription.parent_payment,,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
-inapp_portal.hierarchy.my_subscription.paid_parent,,Paid by %{customer_display_info},Paid by %{customer_display_info}
-inapp_portal.home.my_subscription.parent_pays,,Paid by %{customer_display_info},Paid by %{customer_display_info}
-inapp_portal.home.child_sub_bar.multiple,,%{number} Child subscriptions,%{number} Child subscriptions
-inapp_portal.home.child_sub_bar.single,,%{number} Child subscription,%{number} Child subscription
-inapp_portal.home.child_sub_header,,Child subscriptions,Child subscriptions
-inapp_portal.child_subs.navigation_header,,Child subscriptions,Child subscriptions
-inapp_portal.see_parent_invoices,,See invoices paid by %{customer_display_info} for your subscritpions.,See invoices paid by %{customer_display_info} for your subscritpions.
-inapp_portal.invoice.paid_for_child,,This invoice belongs to %{customer_display_info} and is paid by you.,This invoice belongs to %{customer_display_info} and is paid by you.
-inapp_portal.invoice.parent_only,,You are seeing this invoice as you are the parent of this customer.,You are seeing this invoice as you are the parent of this customer.
-inapp_portal.child_sub_detail.invoice.to_parent,,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
-inapp_portal.child_sub_detail.invoice.to_child,,This subscription is paid by you and invoiced to %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.
-inapp_portal.child_sub_detail.payment_and_invoice.to_child,,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
-inapp_portal.invoices.paid_py_parent,,%{customer_display_info} pays for this invoice.,%{customer_display_info} pays for this invoice.
-inapp_portal.invoice,,Invoice # %{id},Invoice # %{id}
-inapp_portal.payment_owner_billing_history.header,,Invoices of parent,Invoices of parent
-inapp_portal.child_subscription.header,,Child subscription details,Child subscription details
-inapp_portal.invoice.payment.status.not_paid,,Not Paid,Not Paid
-inapp_portal.invoice.payment.status.paid,,Paid,Paid
-inapp_portal.invoice.payment.status.payment_due,,Payment Due,Payment Due
-inapp_portal.invoice.payment.status.pending,,Pending,Pending
-inapp_portal.invoice.payment.status.posted,,Posted,Posted
-inapp_portal.invoice.payment.status.to_collect,,Collecting,Collecting
-inapp_portal.invoice.payment.status.upcoming,,Upcoming,Upcoming
-inapp_portal.invoice.payment.status.voided,,Voided,Voided
-inapp_portal.subscription.extend.header,,Extend your subscription,Extend your subscription
-inapp_portal.subscription.extend.submit,,Extend for another %{extension_period},Extend for another %{extension_period}
-inapp_portal.subscription.extend.expiry.warning,,Your current plan will expire on %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date}
-inapp_portal.subscription.extend.info,,Charges for extending your plan will be applicable on %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date}
-inapp_portal.subscription.extend.thankyou.header,,Thank you for extending the subscription,Thank you for extending the subscription
-inapp_portal.subscription.extend.thankyou.body,,Your subscription has been extended for another %{extension_period},Your subscription has been extended for another %{extension_period}
-inapp_portal.subscription.extend.thankyou.close,,CLOSE,CLOSE
-inapp_portal.review.pm.header,,Payment,Payment
-inapp_portal.review.pm.not_available,,No payment method available,No payment method available
+inapp_portal.gift_details_notification.expired,Cadoul dvs. nu a fost revendicat de către destinatar,Your gift was not claimed by the recipient,Your gift was not claimed by the recipient
+inapp_portal.gift.cancel_by_gifter,Anulați cadoul,Cancel the gift,Cancel the gift
+inapp_portal.gift.cancel_by_gifter.warning,Sigur doriți să anulați acest cadou?,Are you sure you want to cancel this gift?,Are you sure you want to cancel this gift?
+inapp_portal.hierarchy.my_subscription.my_payment,Acest abonament este plătit de dvs. și vă este facturat.,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
+inapp_portal.hierarchy.my_subscription.my_invoice,Acest abonament este plătit de %{customer_display_info} și vă este facturat.,This subscription is paid by %{customer_display_info} and invoiced to you.,This subscription is paid by %{customer_display_info} and invoiced to you.
+inapp_portal.hierarchy.my_subscription.parent_payment,Acest abonament este plătit și facturat la %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
+inapp_portal.hierarchy.my_subscription.paid_parent,Plătit de %{customer_display_info},Paid by %{customer_display_info},Paid by %{customer_display_info}
+inapp_portal.home.my_subscription.parent_pays,Plătit de %{customer_display_info},Paid by %{customer_display_info},Paid by %{customer_display_info}
+inapp_portal.home.child_sub_bar.multiple, %{number} Abonamente pentru copii,%{number} Child subscriptions,%{number} Child subscriptions
+inapp_portal.home.child_sub_bar.single, %{number} Abonament pentru copii,%{number} Child subscription,%{number} Child subscription
+inapp_portal.home.child_sub_header,Abonamente pentru copii,Child subscriptions,Child subscriptions
+inapp_portal.child_subs.navigation_header,Abonamente pentru copii,Child subscriptions,Child subscriptions
+inapp_portal.see_parent_invoices,Vedeți una sau mai multe facturi plătite de %{customer_display_info} pentru abonamente.,See invoices paid by %{customer_display_info} for your subscritpions.,See invoices paid by %{customer_display_info} for your subscritpions.
+inapp_portal.invoice.paid_for_child,Această factură aparține %{customer_display_info} și este plătită de dvs.,This invoice belongs to %{customer_display_info} and is paid by you.,This invoice belongs to %{customer_display_info} and is paid by you.
+inapp_portal.invoice.parent_only,Vedeți această factură deoarece sunteți părintele acestui client.,You are seeing this invoice as you are the parent of this customer.,You are seeing this invoice as you are the parent of this customer.
+inapp_portal.child_sub_detail.invoice.to_parent,Acest abonament este plătit de dvs. și vă este facturat.,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
+inapp_portal.child_sub_detail.invoice.to_child,Acest abonament este plătit de dvs. și facturat la %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.
+inapp_portal.child_sub_detail.payment_and_invoice.to_child,Acest abonament este plătit și facturat către %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
+inapp_portal.invoices.paid_py_parent, %{customer_display_info} plătește pentru această factură.,%{customer_display_info} pays for this invoice.,%{customer_display_info} pays for this invoice.
+inapp_portal.invoice,Numărul facturii %{id},Invoice # %{id},Invoice # %{id}
+inapp_portal.payment_owner_billing_history.header,Facturile părintelui,Invoices of parent,Invoices of parent
+inapp_portal.child_subscription.header,Detalii abonament copil,Child subscription details,Child subscription details
+inapp_portal.invoice.payment.status.not_paid,Neplatit,Not Paid,Not Paid
+inapp_portal.invoice.payment.status.paid,Plătit,Paid,Paid
+inapp_portal.invoice.payment.status.payment_due,Plată datorată,Payment Due,Payment Due
+inapp_portal.invoice.payment.status.pending,In asteptarea,Pending,Pending
+inapp_portal.invoice.payment.status.posted,Postat,Posted,Posted
+inapp_portal.invoice.payment.status.to_collect,Colectare,Collecting,Collecting
+inapp_portal.invoice.payment.status.upcoming,Viitoare,Upcoming,Upcoming
+inapp_portal.invoice.payment.status.voided,Anulat,Voided,Voided
+inapp_portal.subscription.extend.header,Extindeți-vă abonamentul,Extend your subscription,Extend your subscription
+inapp_portal.subscription.extend.submit,Extindeți încă un% %{extension_period},Extend for another %{extension_period},Extend for another %{extension_period}
+inapp_portal.subscription.extend.expiry.warning,Planul dvs. actual va expira pe %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date}
+inapp_portal.subscription.extend.info,Taxele pentru extinderea planului dvs. vor fi aplicabile la %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date}
+inapp_portal.subscription.extend.thankyou.header,Vă mulțumim pentru extinderea abonamentului,Thank you for extending the subscription,Thank you for extending the subscription
+inapp_portal.subscription.extend.thankyou.body,Abonamentul dvs. a fost prelungit pentru încă %{extension_period},Your subscription has been extended for another %{extension_period},Your subscription has been extended for another %{extension_period}
+inapp_portal.subscription.extend.thankyou.close,ÎNCHIDE,CLOSE,CLOSE
+inapp_portal.review.pm.header,Plată,Payment,Payment
+inapp_portal.review.pm.not_available,Nu există nicio metodă de plată disponibilă,No payment method available,No payment method available
 inapp_portal.home.note,,,
 inapp_portal.account.note,,,
 inapp_portal.edit_account.note,,,
@@ -374,140 +374,140 @@ inapp_portal.subscription.note.future,,,
 inapp_portal.subscription.note.non_renewing,,,
 inapp_portal.subscription.note.cancelled,,,
 inapp_portal.subscription.note.cancellation_scheduled,,,
-inapp_portal.estimate_display_screen.header,,Your order summary,Your order summary
-inapp_portal.manage_pm.redirect.label,,Go to app,Go to app
-inapp_portal.threeds.warning,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_portal.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_portal.home.promotions.link_text,,Refer & Earn,Refer & Earn
-inapp_portal.promotions.header,,Promotions,Promotions
+inapp_portal.estimate_display_screen.header,Rezumatul comenzii dvs.,Your order summary,Your order summary
+inapp_portal.manage_pm.redirect.label,Mergi la aplicatie,Go to app,Go to app
+inapp_portal.threeds.warning,Este posibil să fiți redirecționat către pagina dvs. bancară pentru verificarea securizată 3D.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_portal.3ds.auth.txt,Autorizez %{organisation_name} să salveze această metodă de plată și să taxez automat această metodă de plată ori de câte ori i se asociază un abonament.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_portal.home.promotions.link_text,Consultați și câștigați,Refer & Earn,Refer & Earn
+inapp_portal.promotions.header,Promoții,Promotions,Promotions
 inapp_portal.subscription.note.pause_subscription,,,
-inapp_portal.setup_password.section.name,,Set up Password,Set up Password
-inapp_portal.setup_password.header,,Set up your Password,Set up your Password
-inapp_portal.change_password.section.name,,Change Password,Change Password
-inapp_portal.change_password_verify.header,,Change your Password,Change your Password
-inapp_portal.verify_otp.header,,Enter OTP,Enter OTP
-inapp_portal.change_password_verify.next,,Proceed,Proceed
-inapp_portal.change_password_verify.current_password.label,,Enter your current password,Enter your current password
-inapp_portal.change_password.header,,Enter new password,Enter new password
-inapp_portal.new_password.label,,Enter new password,Enter new password
-inapp_portal.new_password.update_btn,,Update,Update
-inapp_portal.password.validation.desc,,Your password must have,Your password must have
-inapp_portal.password.validation.min_char,,At least 8 characters,At least 8 characters
-inapp_portal.password.validation.number,,At least one number,At least one number
-inapp_portal.password.validation.special,,"At least one special character @$!%*#?&() ","At least one special character @$!%*#?&() "
+inapp_portal.setup_password.section.name,Configurați parola,Set up Password,Set up Password
+inapp_portal.setup_password.header,Configurați parola,Set up your Password,Set up your Password
+inapp_portal.change_password.section.name,Schimbați parola,Change Password,Change Password
+inapp_portal.change_password_verify.header,Schimbați-vă parola,Change your Password,Change your Password
+inapp_portal.verify_otp.header,Introduceți OTP,Enter OTP,Enter OTP
+inapp_portal.change_password_verify.next,Continua,Proceed,Proceed
+inapp_portal.change_password_verify.current_password.label,Introduceti parola curenta,Enter your current password,Enter your current password
+inapp_portal.change_password.header,Introduceți o parolă nouă,Enter new password,Enter new password
+inapp_portal.new_password.label,Introduceți o parolă nouă,Enter new password,Enter new password
+inapp_portal.new_password.update_btn,Actualizați,Update,Update
+inapp_portal.password.validation.desc,Parola dvs. trebuie să aibă,Your password must have,Your password must have
+inapp_portal.password.validation.min_char,Cel puțin 8 caractere,At least 8 characters,At least 8 characters
+inapp_portal.password.validation.number,Cel putin un numar,At least one number,At least one number
+inapp_portal.password.validation.special,Cel puțin un caracter special @ $!% * Număr? & (),At least one special character @$!%*#?&() ,At least one special character @$!%*#?&() 
 inapp_portal.subscription.summary.additionalInfo,,,
 inapp_portal.child_subscription.summary.additionalInfo,,,
-inapp_portal.contract_term.summary.title,,Subscription Terms,Subscription Terms
-inapp_portal.contract_term.summary.total_contract_value,,Total contract value,Total contract value
-inapp_portal.contract_term.summary.billing_cycle,,Billing cycles,Billing cycles
-inapp_portal.contract_term.summary.end_action_renew,,Contract renews,Contract renews
-inapp_portal.contract_term.summary.end_action_evergreen,,Contract ends,Contract ends
-inapp_portal.contract_term.summary.end_action_evergreen_sub_active,,subscription will remain active,subscription will remain active
-inapp_portal.contract_term.summary.end_action_cancel,,Contract ends,Contract ends
-inapp_portal.contract_term.summary.end_action_renew_once,,"Contract renews for one more term on ","Contract renews for one more term on "
-inapp_portal.contract_term.details.header.title,,Contract Summary,Contract Summary
-inapp_portal.contract_term.details.tcv.title,,Total contract value,Total contract value
-inapp_portal.contract_term.details.term.title,,Contract term,Contract term
-inapp_portal.contract_term.details.term.to,,to,to
-inapp_portal.contract_term.details.bill_cyc.title,,Billing cycles,Billing cycles
-inapp_portal.contract_term.details.bill_cyc.total,,Total,Total
-inapp_portal.contract_term.details.bill_cyc.billed,,Billed,Billed
-inapp_portal.contract_term.details.term_end.title,,On contract term end,On contract term end
-inapp_portal.contract_term.details.term_end.renew,,Contract will renew for %{number} billing cycles,Contract will renew for %{number} billing cycles
-inapp_portal.contract_term.details.term_end.evergreen,,Contract ends (subscription will remain active),Contract ends (subscription will remain active)
-inapp_portal.contract_term.details.term_end.cancel,,Contract and subscription end.,Contract and subscription end.
-inapp_portal.contract_term.details.term_end.renew_once,,Contract will renew for one more term.,Contract will renew for one more term.
-inapp_portal.contract_term.details.grace_period.title,,Cancel before,Cancel before
-inapp_portal.contract_term.details.grace_period.note,,If you do not want your contract to renew.,If you do not want your contract to renew.
-inapp_portal.contract_term.details.end_action.cancel.notification,,Your subscription will be canceled at the end of contract term on %{date},Your subscription will be canceled at the end of contract term on %{date}
-inapp_portal.contract_term.details.end_action.renew_next_bill_cyc.notification,,Your contract will renew for one more term. Charges will apply until the end of the next contract term.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.
-inapp_portal.contract_term.order_summary.tcv,,Total contract value,Total contract value
-inapp_portal.contract_term.subscription.note,,This subscription is on contract,This subscription is on contract
-inapp_portal.contract_term.cancel.end_action.cancel.title,,Your subscription will be canceled at the end of the contract term on %{date},Your subscription will be canceled at the end of the contract term on %{date}
-inapp_portal.contract_term.cancel.end_action.cancel.notification,,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.
-inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.title,,Your subscription will renew for one more contract term after %{date},Your subscription will renew for one more contract term after %{date}
-inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.notification,,Your subscription passed the cut-off date for cancellation and will renew for one more term.,Your subscription passed the cut-off date for cancellation and will renew for one more term.
-inapp_portal.contract_term.reactivate.confirmation_text,,Your subscription will reactivate without contract terms,Your subscription will reactivate without contract terms
-inapp_portal.multi_decimal.quantity.error,,Enter valid quantity,Enter valid quantity
-inapp_portal.qty,,Qty,Qty
-paynow.button.txt,,Pay now: %{amount},Pay now: %{amount}
-paynow.header.txt,,You have %{total} unpaid invoice(s). Your total due is %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount}
-paynow.no_invoices.txt,,You have no unpaid invoices,You have no unpaid invoices
-paynow.header.choosepm.txt,,Choose Payment Method,Choose Payment Method
-paynow.modal.newpm.use,,Use a different payment method,Use a different payment method
-paynow.header.addpm.txt,,Add Payment Method,Add Payment Method
-paynow.thankyou.header,,Your payment was successful!,Your payment was successful!
+inapp_portal.contract_term.summary.title,Termeni de abonament,Subscription Terms,Subscription Terms
+inapp_portal.contract_term.summary.total_contract_value,Valoarea totală a contractului,Total contract value,Total contract value
+inapp_portal.contract_term.summary.billing_cycle,Cicluri de facturare,Billing cycles,Billing cycles
+inapp_portal.contract_term.summary.end_action_renew,Contractul se reînnoiește,Contract renews,Contract renews
+inapp_portal.contract_term.summary.end_action_evergreen,Contractul se încheie,Contract ends,Contract ends
+inapp_portal.contract_term.summary.end_action_evergreen_sub_active,abonamentul va rămâne activ,subscription will remain active,subscription will remain active
+inapp_portal.contract_term.summary.end_action_cancel,Contractul se încheie,Contract ends,Contract ends
+inapp_portal.contract_term.summary.end_action_renew_once,Contractul se reînnoiește pentru încă un termen,Contract renews for one more term on ,Contract renews for one more term on 
+inapp_portal.contract_term.details.header.title,Rezumatul contractului,Contract Summary,Contract Summary
+inapp_portal.contract_term.details.tcv.title,Valoarea totală a contractului,Total contract value,Total contract value
+inapp_portal.contract_term.details.term.title,Termen contractual,Contract term,Contract term
+inapp_portal.contract_term.details.term.to,la,to,to
+inapp_portal.contract_term.details.bill_cyc.title,Cicluri de facturare,Billing cycles,Billing cycles
+inapp_portal.contract_term.details.bill_cyc.total,Total,Total,Total
+inapp_portal.contract_term.details.bill_cyc.billed,Facturat,Billed,Billed
+inapp_portal.contract_term.details.term_end.title,La sfârșitul termenului contractului,On contract term end,On contract term end
+inapp_portal.contract_term.details.term_end.renew,Contractul se va reînnoi pentru %{number} cicluri de facturare,Contract will renew for %{number} billing cycles,Contract will renew for %{number} billing cycles
+inapp_portal.contract_term.details.term_end.evergreen,Contractul se încheie (abonamentul va rămâne activ),Contract ends (subscription will remain active),Contract ends (subscription will remain active)
+inapp_portal.contract_term.details.term_end.cancel,Contractul și abonamentul se încheie.,Contract and subscription end.,Contract and subscription end.
+inapp_portal.contract_term.details.term_end.renew_once,Contractul se va reînnoi pentru încă un termen.,Contract will renew for one more term.,Contract will renew for one more term.
+inapp_portal.contract_term.details.grace_period.title,Anulați înainte,Cancel before,Cancel before
+inapp_portal.contract_term.details.grace_period.note,Dacă nu doriți să vă reînnoiți contractul.,If you do not want your contract to renew.,If you do not want your contract to renew.
+inapp_portal.contract_term.details.end_action.cancel.notification,Abonamentul dvs. va fi anulat la sfârșitul termenului contractului la %{date},Your subscription will be canceled at the end of contract term on %{date},Your subscription will be canceled at the end of contract term on %{date}
+inapp_portal.contract_term.details.end_action.renew_next_bill_cyc.notification,Contractul dvs. va fi reînnoit pentru încă un termen. Taxele se vor aplica până la sfârșitul următorului termen al contractului.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.
+inapp_portal.contract_term.order_summary.tcv,Valoarea totală a contractului,Total contract value,Total contract value
+inapp_portal.contract_term.subscription.note,Acest abonament este contractual,This subscription is on contract,This subscription is on contract
+inapp_portal.contract_term.cancel.end_action.cancel.title,Abonamentul dvs. va fi anulat la sfârșitul termenului contractului la %{date},Your subscription will be canceled at the end of the contract term on %{date},Your subscription will be canceled at the end of the contract term on %{date}
+inapp_portal.contract_term.cancel.end_action.cancel.notification,Abonamentul dvs. va rămâne activ și se vor aplica taxe până la încheierea contractului. Aveți întrebări? Contactează-ne.,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.
+inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.title,Abonamentul dvs. se va reînnoi pentru încă un termen de contract după %{date},Your subscription will renew for one more contract term after %{date},Your subscription will renew for one more contract term after %{date}
+inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.notification,Abonamentul dvs. a depășit data limită pentru anulare și se va reînnoi pentru încă un termen.,Your subscription passed the cut-off date for cancellation and will renew for one more term.,Your subscription passed the cut-off date for cancellation and will renew for one more term.
+inapp_portal.contract_term.reactivate.confirmation_text,Abonamentul dvs. se va reactiva fără condiții contractuale,Your subscription will reactivate without contract terms,Your subscription will reactivate without contract terms
+inapp_portal.multi_decimal.quantity.error,Introduceți cantitatea validă,Enter valid quantity,Enter valid quantity
+inapp_portal.qty,Cantitate,Qty,Qty
+paynow.button.txt,Plătiți acum: %{amount},Pay now: %{amount},Pay now: %{amount}
+paynow.header.txt,Aveți %{total} facturi neplătite. Totalul dvs. datorat este %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount}
+paynow.no_invoices.txt,Nu aveți una sau mai multe facturi neplătite,You have no unpaid invoices,You have no unpaid invoices
+paynow.header.choosepm.txt,Alege metoda de plata,Choose Payment Method,Choose Payment Method
+paynow.modal.newpm.use,Folosiți o altă metodă de plată,Use a different payment method,Use a different payment method
+paynow.header.addpm.txt,Adăugați o metodă de plată,Add Payment Method,Add Payment Method
+paynow.thankyou.header,Plata dvs. a avut succes!,Your payment was successful!,Your payment was successful!
 paynow.thankyou.body,,,
-paynow.thankyou.close,,CLOSE,CLOSE
-paynow.modal_button.confirm,,Confirm,Confirm
-paynow.modal_button.cancel,,Cancel,Cancel
-paynow.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-paynow.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-paynow.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-paynow.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-paynow.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-paynow.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-paynow.redirect.label,,Go to app,Go to app
-paynow.threeds.warning,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-paynow.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_nl_portal.login.txt,,Enter your email address to login,Enter your email address to login
-inapp_nl_portal.otp.enter,,Enter the one time password sent to your email to continue,Enter the one time password sent to your email to continue
-inapp_nl_portal.password.enter,,Enter the password for your account,Enter the password for your account
-inapp_nl_portal.otp.resend,,Resend the one time password,Resend the one time password
-inapp_nl_portal.otp.next,,Login,Login
-inapp_nl_portal.login.via_otp,,Login via one time password,Login via one time password
-inapp_nl_portal.password.use,,Enter password instead,Enter password instead
-inapp_nl_portal.login.next,,Continue,Continue
-inapp_nl_portal.login.header,,Manage Your Subscriptions,Manage Your Subscriptions
-inapp_nl_portal.forgot_password.link.txt,,Forgot password?,Forgot password?
+paynow.thankyou.close,ÎNCHIDE,CLOSE,CLOSE
+paynow.modal_button.confirm,A confirma,Confirm,Confirm
+paynow.modal_button.cancel,Anulare,Cancel,Cancel
+paynow.payment_method.bacs.guarantee.header,Înapoi la Plată,Back to Payment,Back to Payment
+paynow.payment_method.bank_account.btn.proceed_to_review,Continuați cu Revizuirea,Proceed to Review,Proceed to Review
+paynow.payment_method.bank_account.btn.enter_iban,Introduceți IBAN,Enter IBAN,Enter IBAN
+paynow.payment_method.bank_account.btn.enter_local_details,Introduceți datele bancare locale,Enter local bank details,Enter local bank details
+paynow.payment_method.bank_account.btn.enter_your_name,Introdu numele tau,Enter your name,Enter your name
+paynow.payment_method.bank_account.btn.enter_company_name,Introduceți numele companiei,Enter company name,Enter company name
+paynow.redirect.label,Mergi la aplicatie,Go to app,Go to app
+paynow.threeds.warning,Este posibil să fiți redirecționat către pagina dvs. bancară pentru verificarea securizată 3D.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+paynow.3ds.auth.txt,Autorizez %{organisation_name} să salveze această metodă de plată și să taxez automat această metodă de plată ori de câte ori i se asociază un abonament.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_nl_portal.login.txt,Introduceți adresa de e-mail pentru a vă autentifica,Enter your email address to login,Enter your email address to login
+inapp_nl_portal.otp.enter,Introduceți parola unică trimisă la adresa dvs. de e-mail pentru a continua,Enter the one time password sent to your email to continue,Enter the one time password sent to your email to continue
+inapp_nl_portal.password.enter,Introduceți parola pentru contul dvs.,Enter the password for your account,Enter the password for your account
+inapp_nl_portal.otp.resend,Retrimiteți parola de o singură dată,Resend the one time password,Resend the one time password
+inapp_nl_portal.otp.next,Logare,Login,Login
+inapp_nl_portal.login.via_otp,Conectați-vă printr-o singură parolă,Login via one time password,Login via one time password
+inapp_nl_portal.password.use,Introduceți parola,Enter password instead,Enter password instead
+inapp_nl_portal.login.next,Continua,Continue,Continue
+inapp_nl_portal.login.header,Gestionați-vă abonamentele,Manage Your Subscriptions,Manage Your Subscriptions
+inapp_nl_portal.forgot_password.link.txt,Ați uitat parola?,Forgot password?,Forgot password?
 inapp_nl_portal.account.summary.additionalInfo,,,
-inapp_checkout.gift.cart.header,,Your gift order,Your gift order
-inapp_checkout.gift.cart.header.edit,,Edit your gift order,Edit your gift order
-inapp_checkout.gift.cart.next,,Proceed to checkout,Proceed to checkout
-inapp_checkout.gift.gift_details.header,,Add your gift details,Add your gift details
-inapp_checkout.gift.gift_details.header.edit,,Edit your gift details,Edit your gift details
-inapp_checkout.gift.gift_details.update,,Update,Update
-inapp_checkout.gift.gift_details.next,,Next,Next
-inapp_checkout.gift.gift_details.receiver_info.subheading,,Whom is this gift for?,Whom is this gift for?
-inapp_checkout.gift.gift_details.schedule.subheading,,Gift date & time,Gift date & time
-inapp_checkout.gift.gift_details.schedule.immediately,,Send immediately,Send immediately
-inapp_checkout.gift.gift_details.schedule.date,,Send on specific date and time,Send on specific date and time
-inapp_checkout.gift.gift_details.message.subheading,,Personal message,Personal message
-inapp_checkout.gift.gift_details.message.helptext,,The message will be sent to the recipient with your gift,The message will be sent to the recipient with your gift
-inapp_checkout.gift.gift_details.message.placeholder,,Your gift message,Your gift message
-inapp_checkout.gift.customer.header,,Add recipient information,Add recipient information
-inapp_checkout.gift.customer.header.edit,,Edit recipient information,Edit recipient information
-inapp_checkout.gift.customer.update,,Update,Update
-inapp_checkout.gift.customer.next,,Next,Next
-inapp_checkout.gift.billing_address.update,,Update,Update
-inapp_checkout.gift.billing_address.next,,Next,Next
-inapp_checkout.gift.billing_address.header,,Add your billing details,Add your billing details
-inapp_checkout.gift.billing_address.header.edit,,Edit your billing details,Edit your billing details
-inapp_checkout.gift.shipping_address.header,,Add recipient shipping address,Add recipient shipping address
-inapp_checkout.gift.shipping_address.header.edit,,Edit recipient shipping address,Edit recipient shipping address
-inapp_checkout.gift.shipping_address.update,,Update,Update
-inapp_checkout.gift.shipping_address.next,,Next,Next
-inapp_checkout.gift.payment_method.header,,Add your payment information,Add your payment information
-inapp_checkout.gift.payment_method.header.edit,,Edit your payment information,Edit your payment information
-inapp_checkout.gift.payment_method.update,,Update,Update
-inapp_checkout.gift.payment_method.next,,Next,Next
-inapp_checkout.gift.review.gift.header,,Gift details,Gift details
-inapp_checkout.gift.review.gift.your_message.label,,Personal Message,Personal Message
-inapp_checkout.gift.review.gift.from.label,,From,From
-inapp_checkout.gift.review.gift.scheduled_at.label,,Scheduled,Scheduled
-inapp_checkout.gift.review.gift.immediately.label,,Immediately sent,Immediately sent
-inapp_checkout.gift.review.shipping.header,,Recipient shipping address,Recipient shipping address
-inapp_checkout.gift.review.account.header,,Recipient details,Recipient details
-inapp_checkout.gift.subscription.header,,Add gift subscription details,Add gift subscription details
-inapp_checkout.gift.subscription.header.edit,,Edit gift subscription details,Edit gift subscription details
-inapp_checkout.gift.subscription.update,,Update,Update
-inapp_checkout.gift.subscription.next,,Next,Next
-inapp_checkout.gift.review.header,,Complete your order,Complete your order
-inapp_checkout.gift.review.btn.txt,,Pay %{amount} & place gift order,Pay %{amount} & place gift order
+inapp_checkout.gift.cart.header,Comanda ta de cadou,Your gift order,Your gift order
+inapp_checkout.gift.cart.header.edit,Editați comanda de cadou,Edit your gift order,Edit your gift order
+inapp_checkout.gift.cart.next,Finalizează cumpărăturile,Proceed to checkout,Proceed to checkout
+inapp_checkout.gift.gift_details.header,Adăugați detaliile cadoului,Add your gift details,Add your gift details
+inapp_checkout.gift.gift_details.header.edit,Editați detaliile cadoului,Edit your gift details,Edit your gift details
+inapp_checkout.gift.gift_details.update,Actualizați,Update,Update
+inapp_checkout.gift.gift_details.next,Următorul,Next,Next
+inapp_checkout.gift.gift_details.receiver_info.subheading,Pentru cine este acest dar?,Whom is this gift for?,Whom is this gift for?
+inapp_checkout.gift.gift_details.schedule.subheading,Data și ora cadoului,Gift date & time,Gift date & time
+inapp_checkout.gift.gift_details.schedule.immediately,Trimite imediat,Send immediately,Send immediately
+inapp_checkout.gift.gift_details.schedule.date,Trimiteți la o anumită dată și oră,Send on specific date and time,Send on specific date and time
+inapp_checkout.gift.gift_details.message.subheading,Mesaj personal,Personal message,Personal message
+inapp_checkout.gift.gift_details.message.helptext,Mesajul va fi trimis destinatarului împreună cu cadoul dvs.,The message will be sent to the recipient with your gift,The message will be sent to the recipient with your gift
+inapp_checkout.gift.gift_details.message.placeholder,Mesajul dvs. cadou,Your gift message,Your gift message
+inapp_checkout.gift.customer.header,Adăugați informații despre destinatar,Add recipient information,Add recipient information
+inapp_checkout.gift.customer.header.edit,Editați informațiile destinatarului,Edit recipient information,Edit recipient information
+inapp_checkout.gift.customer.update,Actualizați,Update,Update
+inapp_checkout.gift.customer.next,Următorul,Next,Next
+inapp_checkout.gift.billing_address.update,Actualizați,Update,Update
+inapp_checkout.gift.billing_address.next,Următorul,Next,Next
+inapp_checkout.gift.billing_address.header,Adăugați detaliile de facturare,Add your billing details,Add your billing details
+inapp_checkout.gift.billing_address.header.edit,Editați-vă detaliile de facturare,Edit your billing details,Edit your billing details
+inapp_checkout.gift.shipping_address.header,Adăugați adresa de expediere a destinatarului,Add recipient shipping address,Add recipient shipping address
+inapp_checkout.gift.shipping_address.header.edit,Editați adresa de expediere a destinatarului,Edit recipient shipping address,Edit recipient shipping address
+inapp_checkout.gift.shipping_address.update,Actualizați,Update,Update
+inapp_checkout.gift.shipping_address.next,Următorul,Next,Next
+inapp_checkout.gift.payment_method.header,Adăugați informațiile de plată,Add your payment information,Add your payment information
+inapp_checkout.gift.payment_method.header.edit,Editați informațiile de plată,Edit your payment information,Edit your payment information
+inapp_checkout.gift.payment_method.update,Actualizați,Update,Update
+inapp_checkout.gift.payment_method.next,Următorul,Next,Next
+inapp_checkout.gift.review.gift.header,Detalii cadou,Gift details,Gift details
+inapp_checkout.gift.review.gift.your_message.label,Mesaj personal,Personal Message,Personal Message
+inapp_checkout.gift.review.gift.from.label,Din,From,From
+inapp_checkout.gift.review.gift.scheduled_at.label,Programat,Scheduled,Scheduled
+inapp_checkout.gift.review.gift.immediately.label,Trimis imediat,Immediately sent,Immediately sent
+inapp_checkout.gift.review.shipping.header,Adresa de expediere a destinatarului,Recipient shipping address,Recipient shipping address
+inapp_checkout.gift.review.account.header,Detalii despre destinatar,Recipient details,Recipient details
+inapp_checkout.gift.subscription.header,Adăugați detalii despre abonamentul cadou,Add gift subscription details,Add gift subscription details
+inapp_checkout.gift.subscription.header.edit,Editați detaliile abonamentului cadou,Edit gift subscription details,Edit gift subscription details
+inapp_checkout.gift.subscription.update,Actualizați,Update,Update
+inapp_checkout.gift.subscription.next,Următorul,Next,Next
+inapp_checkout.gift.review.header,Completați comanda,Complete your order,Complete your order
+inapp_checkout.gift.review.btn.txt,Plătiți %{amount} și plasați comanda de cadou,Pay %{amount} & place gift order,Pay %{amount} & place gift order
 inapp_checkout.gift.thankyou.header,,,
 inapp_checkout.gift.thankyou.body,,,
-inapp_checkout.gift.thankyou.close,,CLOSE,CLOSE
-inapp_checkout.gift.review.self_gift.warning,,You seem to be sending the gift to your own email address.,You seem to be sending the gift to your own email address.
+inapp_checkout.gift.thankyou.close,ÎNCHIDE,CLOSE,CLOSE
+inapp_checkout.gift.review.self_gift.warning,Se pare că trimiteți cadoul la propria dvs. adresă de e-mail.,You seem to be sending the gift to your own email address.,You seem to be sending the gift to your own email address.
 inapp_checkout.gift.payment_method.note.plan.no_trial,,,
 inapp_checkout.gift.cart.note.plan.no_trial,,,
 inapp_checkout.gift.review.note.plan.no_trial,,,
@@ -515,37 +515,37 @@ inapp_checkout.gift.customer.note,,,
 inapp_checkout.gift.subscription.note,,,
 inapp_checkout.gift.shipping_address.note,,,
 inapp_checkout.gift.billing_address.note,,,
-inapp_checkout.gift.review.threedsWarning.non_trial,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_checkout.gift.review.threedsWarning.trial,,"You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
-inapp_checkout.gift_claim.modal_button.cancel,,Cancel,Cancel
-inapp_checkout.gift_claim.modal_button.confirm,,Confirm,Confirm
-inapp_checkout.gift_claim.cart.header,,Your gift,Your gift
-inapp_checkout.gift_claim.cart.header.edit,,Your gift,Your gift
-inapp_checkout.gift_claim.cart.next,,Proceed to claim,Proceed to claim
-inapp_checkout.gift_claim.cart.body_desc,,Congratulations on your gift! You need to claim it to get started!,Congratulations on your gift! You need to claim it to get started!
-inapp_checkout.gift_claim.customer.body_desc,,"Here are the details that we have got. You can update this information, if required.","Here are the details that we have got. You can update this information, if required."
-inapp_checkout.gift_claim.customer.header,,Add your account information,Add your account information
-inapp_checkout.gift_claim.customer.header.edit,,Edit your account information,Edit your account information
-inapp_checkout.gift_claim.customer.update,,Update,Update
-inapp_checkout.gift_claim.customer.next,,Next,Next
-inapp_checkout.gift_claim.shipping_address.header,,Add your shipping address,Add your shipping address
-inapp_checkout.gift_claim.shipping_address.header.edit,,Edit your shipping address,Edit your shipping address
-inapp_checkout.gift_claim.shipping_address.update,,Update,Update
-inapp_checkout.gift_claim.shipping_address.next,,Next,Next
+inapp_checkout.gift.review.threedsWarning.non_trial,Este posibil să fiți redirecționat către pagina dvs. bancară pentru verificarea securizată 3D.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_checkout.gift.review.threedsWarning.trial,"Este posibil să fiți redirecționat către pagina dvs. bancară pentru verificarea securizată 3D pentru care se poate percepe o sumă simbolică, care va fi rambursată în mod automat.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
+inapp_checkout.gift_claim.modal_button.cancel,Anulare,Cancel,Cancel
+inapp_checkout.gift_claim.modal_button.confirm,A confirma,Confirm,Confirm
+inapp_checkout.gift_claim.cart.header,Cadoul tau,Your gift,Your gift
+inapp_checkout.gift_claim.cart.header.edit,Cadoul tau,Your gift,Your gift
+inapp_checkout.gift_claim.cart.next,Treceți la revendicare,Proceed to claim,Proceed to claim
+inapp_checkout.gift_claim.cart.body_desc,Felicitări pentru cadou! Trebuie să o revendicați pentru a începe!,Congratulations on your gift! You need to claim it to get started!,Congratulations on your gift! You need to claim it to get started!
+inapp_checkout.gift_claim.customer.body_desc,"Iată detaliile pe care le avem. Puteți actualiza aceste informații, dacă este necesar.","Here are the details that we have got. You can update this information, if required.","Here are the details that we have got. You can update this information, if required."
+inapp_checkout.gift_claim.customer.header,Adăugați informațiile despre cont,Add your account information,Add your account information
+inapp_checkout.gift_claim.customer.header.edit,Editați informațiile despre cont,Edit your account information,Edit your account information
+inapp_checkout.gift_claim.customer.update,Actualizați,Update,Update
+inapp_checkout.gift_claim.customer.next,Următorul,Next,Next
+inapp_checkout.gift_claim.shipping_address.header,Adăugați adresa de expediere,Add your shipping address,Add your shipping address
+inapp_checkout.gift_claim.shipping_address.header.edit,Editați adresa de expediere,Edit your shipping address,Edit your shipping address
+inapp_checkout.gift_claim.shipping_address.update,Actualizați,Update,Update
+inapp_checkout.gift_claim.shipping_address.next,Următorul,Next,Next
 inapp_checkout.gift_claim.shipping_address.body_desc,,,
-inapp_checkout.gift_claim.review.shipping.header,,Shipping address,Shipping address
-inapp_checkout.gift_claim.review.account.header,,Account,Account
-inapp_checkout.gift_claim.review.subscription.header,,Subscription details,Subscription details
-inapp_checkout.gift_claim.subscription.header,,Add gift subscription details,Add gift subscription details
-inapp_checkout.gift_claim.subscription.header.edit,,Edit gift subscription details,Edit gift subscription details
-inapp_checkout.gift_claim.subscription.update,,Update,Update
-inapp_checkout.gift_claim.subscription.next,,Next,Next
+inapp_checkout.gift_claim.review.shipping.header,Adresa de transport,Shipping address,Shipping address
+inapp_checkout.gift_claim.review.account.header,Cont,Account,Account
+inapp_checkout.gift_claim.review.subscription.header,Detalii abonament,Subscription details,Subscription details
+inapp_checkout.gift_claim.subscription.header,Adăugați detalii despre abonamentul cadou,Add gift subscription details,Add gift subscription details
+inapp_checkout.gift_claim.subscription.header.edit,Editați detaliile abonamentului cadou,Edit gift subscription details,Edit gift subscription details
+inapp_checkout.gift_claim.subscription.update,Actualizați,Update,Update
+inapp_checkout.gift_claim.subscription.next,Următorul,Next,Next
 inapp_checkout.gift_claim.subscription.body_desc,,,
-inapp_checkout.gift_claim.review.header,,Claim your gift,Claim your gift
-inapp_checkout.gift_claim.review.btn.txt,,Claim Gift,Claim Gift
+inapp_checkout.gift_claim.review.header,Revendicați-vă cadoul,Claim your gift,Claim your gift
+inapp_checkout.gift_claim.review.btn.txt,Revendicați cadoul,Claim Gift,Claim Gift
 inapp_checkout.gift_claim.thankyou.header,,,
 inapp_checkout.gift_claim.thankyou.body,,,
-inapp_checkout.gift_claim.thankyou.close,,CLOSE,CLOSE
+inapp_checkout.gift_claim.thankyou.close,ÎNCHIDE,CLOSE,CLOSE
 inapp_checkout.gift_claim.cart.note.plan.no_trial,,,
 inapp_checkout.gift_claim.review.note.plan.no_trial,,,
 inapp_checkout.gift_claim.customer.note,,,

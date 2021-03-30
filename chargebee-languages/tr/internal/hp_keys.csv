@@ -1,6 +1,6 @@
 key,value,reference value,description
-ach-payment-info.title,,Bank Account Information,Bank Account Information
-resume-scheduled-info.title,,Remove Scheduled Resumption,Remove Scheduled Resumption
-pause-scheduled-info.title,,Remove Scheduled Pause,Remove Scheduled Pause
-discount.title,,Discount,Discount
-card.title,,Card Information,Card Information
+ach-payment-info.title,Banka hesabı bilgileri,Bank Account Information,Bank Account Information
+resume-scheduled-info.title,Planlanmış Devam Ettirmeyi Kaldır,Remove Scheduled Resumption,Remove Scheduled Resumption
+pause-scheduled-info.title,Planlanan Duraklatmayı Kaldır,Remove Scheduled Pause,Remove Scheduled Pause
+discount.title,İndirim,Discount,Discount
+card.title,kart bilgisi,Card Information,Card Information

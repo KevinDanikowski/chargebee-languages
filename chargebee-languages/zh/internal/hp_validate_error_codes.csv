@@ -1,59 +1,59 @@
 key,value,reference value,description
-sort_param_order_invalid,,The specified sort order {0} is invalid,The specified sort order {0} is invalid
-updgrade_api_err_msg,,{0},{0}
-wrong_value,,wrong value,wrong value
-found_card_pattern,,{0},{0}
-upload_error,,Error while uploading file,Error while uploading file
-ILLEGAL_DOMAIN,,{0} domain is not allowed,{0} domain is not allowed
-param_fixed_size_error,,The size should be of {0},The size should be of {0}
-mcp_api_v1_err,,Upgrade to API V2 is needed as MCP is enabled,Upgrade to API V2 is needed as MCP is enabled
-multipart_post,,Cannot set multipart for other than post method,Cannot set multipart for other than post method
-ILLEGAL_DNS,,The domain resolves to internal ip address range which is not allowed.,The domain resolves to internal ip address range which is not allowed.
-param_not_supported,,{0},{0}
-mustache_not_allowed,,mustache tags are not allowed,mustache tags are not allowed
-param_value_lesser_error,,It should be atleast {0},It should be atleast {0}
-param_exceeded_error,,It should not be more than {0},It should not be more than {0}
-not_an_image,,Uploaded file should be an image.,Uploaded file should be an image.
-UNKNOWN_HOST,,"Unable to resolve {0} domain ","Unable to resolve {0} domain "
-EMPTY_SCHEME,,URL should start with http:// or https:// protocol,URL should start with http:// or https:// protocol
-validate.mul_sub_entry,,The customer {0} already has a subscription.,The customer {0} already has a subscription.
-file_size_limit_exceeded,,Upload file size cannot exceed {0},Upload file size cannot exceed {0}
-invalid_range,,first value {0} should not be more than second value {1},first value {0} should not be more than second value {1}
-timestamp_future_only,,Unix timestamp should be in future,Unix timestamp should be in future
-param_wrong_value,,Value {0} specified for this param is incorrect,The returned parameter has incorrect value
-timestamp_past_only,,Unix timestamp should be in past,Unix timestamp should be in past
-param_lesser_error,,It should be atleast {0},It should be atleast {0}
-param_invalid,,The value {0} is invalid,The value {0} is invalid
-should_be_valid_date,,wrong date format,wrong date format
-UNSUPPORTED_SCHEME,,{0} is not supported. Only http and https are supported,{0} is not supported. Only http and https are supported
-image_scrambled,,Uploaded image is scrambled.,Uploaded image is scrambled.
-charge_not_more_than_zero,,Amount to charge should be more than zero,Amount to charge should be more than zero
-param_cannot_exceed,,{0},{0}
-param_should_not_be_blank,,cannot be blank,cannot be blank
-not_in_allowed_values,,not in allowed values,not in allowed values
-size_limit_exceeded,,{0} should not be more than {1} characters,{0} should not be more than {1} characters
-email_cannot_be_empty,,Email field cannot be empty,Email field cannot be empty
-email_not_in_allowed_size_range,,Email id size should not be more than {0},Email id size should not be more than {0}
-param_size_exceeded_error,,The size should not be more than {0},The size should not be more than {0}
-param_should_be_blank,,should be blank,should be blank
-param_required,,cannot be blank,The parameter is not sent or is empty. Incase you are getting the  parameter's value from the user then it is better to do validation  for mandatory fields on your end rather than passing it to ChargeBee and then handling the error.
-resource_not_unique,,{0} resource already exists,{0} resource already exists
-duplicate_addon_entry,,Duplicate addon entry is not allowed.,Duplicate addon entry is not allowed.
-filter_param_operator_invalid,,The specified filter operator {0} is invalid,The specified filter operator {0} is invalid
-ILLEGAL_DOMAIN_SUFFIX,,{0} domain suffix is not allowed,{0} domain suffix is not allowed
-param_invalid_msg,,{0},{0}
-validate.param_not_unique,,The value {0} is already present.,The value {0} is already present.
-UNSUPPORTED_PORT,," Only [443, 80, 8443, 8080, 9001] ports are allowed"," Only [443, 80, 8443, 8080, 9001] ports are allowed"
-timestamp_future_only_or_zero,,Unix timestamp should be in future or zero to indicate immediate,Unix timestamp should be in future or zero to indicate immediate
-params_required,,{0},Parameters for the resource is required.
-wrong_format_pattern,,Should be in {0} format,Should be in {0} format
-param_size_lesser_error,,The size should be atleast {0},The size should be atleast {0}
-currency_mismatched,,{0},{0}
-ip_address_not_supported,,No support for Ip address,No support for Ip address
-should_be_valid_input,,should be a valid input,should be a valid input
-no_change_for_i18n,,Pack is empty,Pack is empty
-NO_EMPTY_SCHEME,,"Provide the domain without the protocol (http, https)","Provide the domain without the protocol (http, https)"
-wrong_format,,wrong format,wrong format
-emoji_chars_not_allowed,,The value {0} is invalid,The value {0} is invalid
-amount_overflow,,Amount that is being processed {0},Amount that is being processed {0}
-param_should_not_be_sent,,{0},The parameter should not be sent. Should occur only during development phase.
+sort_param_order_invalid,指定的排序顺序{0}无效,The specified sort order {0} is invalid,The specified sort order {0} is invalid
+updgrade_api_err_msg,{0},{0},{0}
+wrong_value,错误的价值,wrong value,wrong value
+found_card_pattern,{0},{0},{0}
+upload_error,上载档案时发生错误,Error while uploading file,Error while uploading file
+ILLEGAL_DOMAIN,不允许使用{0}域,{0} domain is not allowed,{0} domain is not allowed
+param_fixed_size_error,大小应为{0},The size should be of {0},The size should be of {0}
+mcp_api_v1_err,由于启用了MCP，因此需要升级到API版本2,Upgrade to API V2 is needed as MCP is enabled,Upgrade to API V2 is needed as MCP is enabled
+multipart_post,除后期处理方法外，无法设置多部分,Cannot set multipart for other than post method,Cannot set multipart for other than post method
+ILLEGAL_DNS,域解析为内部IP地址范围，该范围是不允许的。,The domain resolves to internal ip address range which is not allowed.,The domain resolves to internal ip address range which is not allowed.
+param_not_supported,{0},{0},{0}
+mustache_not_allowed,不允许使用胡须标签,mustache tags are not allowed,mustache tags are not allowed
+param_value_lesser_error,应该至少为{0},It should be atleast {0},It should be atleast {0}
+param_exceeded_error,不得超过{0},It should not be more than {0},It should not be more than {0}
+not_an_image,上传的文件应为图片。,Uploaded file should be an image.,Uploaded file should be an image.
+UNKNOWN_HOST,无法解析{0}域,Unable to resolve {0} domain ,Unable to resolve {0} domain 
+EMPTY_SCHEME,网址应以http：//或https：//协议开头,URL should start with http:// or https:// protocol,URL should start with http:// or https:// protocol
+validate.mul_sub_entry,客户{0}已订阅。,The customer {0} already has a subscription.,The customer {0} already has a subscription.
+file_size_limit_exceeded,上传文件大小不能超过{0},Upload file size cannot exceed {0},Upload file size cannot exceed {0}
+invalid_range,第一个值{0}不应大于第二个值{1},first value {0} should not be more than second value {1},first value {0} should not be more than second value {1}
+timestamp_future_only,Unix时间戳应该在将来,Unix timestamp should be in future,Unix timestamp should be in future
+param_wrong_value,为此参数指定的值{0}不正确,Value {0} specified for this param is incorrect,The returned parameter has incorrect value
+timestamp_past_only,Unix时间戳应该是过去的,Unix timestamp should be in past,Unix timestamp should be in past
+param_lesser_error,应该至少为{0},It should be atleast {0},It should be atleast {0}
+param_invalid,值{0}无效,The value {0} is invalid,The value {0} is invalid
+should_be_valid_date,日期格式错误,wrong date format,wrong date format
+UNSUPPORTED_SCHEME,不支持{0}。仅支持http和https,{0} is not supported. Only http and https are supported,{0} is not supported. Only http and https are supported
+image_scrambled,上载的图像被加密。,Uploaded image is scrambled.,Uploaded image is scrambled.
+charge_not_more_than_zero,收费金额应大于零,Amount to charge should be more than zero,Amount to charge should be more than zero
+param_cannot_exceed,{0},{0},{0}
+param_should_not_be_blank,不能是空白的,cannot be blank,cannot be blank
+not_in_allowed_values,不在允许的值内,not in allowed values,not in allowed values
+size_limit_exceeded,{0}不能超过{1}个字符,{0} should not be more than {1} characters,{0} should not be more than {1} characters
+email_cannot_be_empty,电子邮件字段不能为空,Email field cannot be empty,Email field cannot be empty
+email_not_in_allowed_size_range,电子邮件ID的大小不能超过{0},Email id size should not be more than {0},Email id size should not be more than {0}
+param_size_exceeded_error,大小不得超过{0},The size should not be more than {0},The size should not be more than {0}
+param_should_be_blank,应该为空白,should be blank,should be blank
+param_required,不能是空白的,cannot be blank,The parameter is not sent or is empty. Incase you are getting the  parameter's value from the user then it is better to do validation  for mandatory fields on your end rather than passing it to ChargeBee and then handling the error.
+resource_not_unique,{0}个资源已经存在,{0} resource already exists,{0} resource already exists
+duplicate_addon_entry,不允许重复的插件条目。,Duplicate addon entry is not allowed.,Duplicate addon entry is not allowed.
+filter_param_operator_invalid,指定的过滤器运算符{0}无效,The specified filter operator {0} is invalid,The specified filter operator {0} is invalid
+ILLEGAL_DOMAIN_SUFFIX,不允许使用{0}域后缀,{0} domain suffix is not allowed,{0} domain suffix is not allowed
+param_invalid_msg,{0},{0},{0}
+validate.param_not_unique,值{0}已经存在。,The value {0} is already present.,The value {0} is already present.
+UNSUPPORTED_PORT, 仅允许[443、80、8443、8080、9001]端口," Only [443, 80, 8443, 8080, 9001] ports are allowed"," Only [443, 80, 8443, 8080, 9001] ports are allowed"
+timestamp_future_only_or_zero,Unix时间戳记应在将来或零以表示立即,Unix timestamp should be in future or zero to indicate immediate,Unix timestamp should be in future or zero to indicate immediate
+params_required,{0},{0},Parameters for the resource is required.
+wrong_format_pattern,应该为{0}格式,Should be in {0} format,Should be in {0} format
+param_size_lesser_error,大小应至少为{0},The size should be atleast {0},The size should be atleast {0}
+currency_mismatched,{0},{0},{0}
+ip_address_not_supported,不支持IP地址,No support for Ip address,No support for Ip address
+should_be_valid_input,应该是有效的输入,should be a valid input,should be a valid input
+no_change_for_i18n,包是空的,Pack is empty,Pack is empty
+NO_EMPTY_SCHEME,提供没有协议的域（http，https）,"Provide the domain without the protocol (http, https)","Provide the domain without the protocol (http, https)"
+wrong_format,格式错误,wrong format,wrong format
+emoji_chars_not_allowed,值{0}无效,The value {0} is invalid,The value {0} is invalid
+amount_overflow,正在处理的金额{0},Amount that is being processed {0},Amount that is being processed {0}
+param_should_not_be_sent,{0},{0},The parameter should not be sent. Should occur only during development phase.

@@ -1,59 +1,59 @@
 key,value,reference value,description
-sort_param_order_invalid,,The specified sort order {0} is invalid,The specified sort order {0} is invalid
-updgrade_api_err_msg,,{0},{0}
-wrong_value,,wrong value,wrong value
-found_card_pattern,,{0},{0}
-upload_error,,Error while uploading file,Error while uploading file
-ILLEGAL_DOMAIN,,{0} domain is not allowed,{0} domain is not allowed
-param_fixed_size_error,,The size should be of {0},The size should be of {0}
-mcp_api_v1_err,,Upgrade to API V2 is needed as MCP is enabled,Upgrade to API V2 is needed as MCP is enabled
-multipart_post,,Cannot set multipart for other than post method,Cannot set multipart for other than post method
-ILLEGAL_DNS,,The domain resolves to internal ip address range which is not allowed.,The domain resolves to internal ip address range which is not allowed.
-param_not_supported,,{0},{0}
-mustache_not_allowed,,mustache tags are not allowed,mustache tags are not allowed
-param_value_lesser_error,,It should be atleast {0},It should be atleast {0}
-param_exceeded_error,,It should not be more than {0},It should not be more than {0}
-not_an_image,,Uploaded file should be an image.,Uploaded file should be an image.
-UNKNOWN_HOST,,"Unable to resolve {0} domain ","Unable to resolve {0} domain "
-EMPTY_SCHEME,,URL should start with http:// or https:// protocol,URL should start with http:// or https:// protocol
-validate.mul_sub_entry,,The customer {0} already has a subscription.,The customer {0} already has a subscription.
-file_size_limit_exceeded,,Upload file size cannot exceed {0},Upload file size cannot exceed {0}
-invalid_range,,first value {0} should not be more than second value {1},first value {0} should not be more than second value {1}
-timestamp_future_only,,Unix timestamp should be in future,Unix timestamp should be in future
-param_wrong_value,,Value {0} specified for this param is incorrect,The returned parameter has incorrect value
-timestamp_past_only,,Unix timestamp should be in past,Unix timestamp should be in past
-param_lesser_error,,It should be atleast {0},It should be atleast {0}
-param_invalid,,The value {0} is invalid,The value {0} is invalid
-should_be_valid_date,,wrong date format,wrong date format
-UNSUPPORTED_SCHEME,,{0} is not supported. Only http and https are supported,{0} is not supported. Only http and https are supported
-image_scrambled,,Uploaded image is scrambled.,Uploaded image is scrambled.
-charge_not_more_than_zero,,Amount to charge should be more than zero,Amount to charge should be more than zero
-param_cannot_exceed,,{0},{0}
-param_should_not_be_blank,,cannot be blank,cannot be blank
-not_in_allowed_values,,not in allowed values,not in allowed values
-size_limit_exceeded,,{0} should not be more than {1} characters,{0} should not be more than {1} characters
-email_cannot_be_empty,,Email field cannot be empty,Email field cannot be empty
-email_not_in_allowed_size_range,,Email id size should not be more than {0},Email id size should not be more than {0}
-param_size_exceeded_error,,The size should not be more than {0},The size should not be more than {0}
-param_should_be_blank,,should be blank,should be blank
-param_required,,cannot be blank,The parameter is not sent or is empty. Incase you are getting the  parameter's value from the user then it is better to do validation  for mandatory fields on your end rather than passing it to ChargeBee and then handling the error.
-resource_not_unique,,{0} resource already exists,{0} resource already exists
-duplicate_addon_entry,,Duplicate addon entry is not allowed.,Duplicate addon entry is not allowed.
-filter_param_operator_invalid,,The specified filter operator {0} is invalid,The specified filter operator {0} is invalid
-ILLEGAL_DOMAIN_SUFFIX,,{0} domain suffix is not allowed,{0} domain suffix is not allowed
-param_invalid_msg,,{0},{0}
-validate.param_not_unique,,The value {0} is already present.,The value {0} is already present.
-UNSUPPORTED_PORT,," Only [443, 80, 8443, 8080, 9001] ports are allowed"," Only [443, 80, 8443, 8080, 9001] ports are allowed"
-timestamp_future_only_or_zero,,Unix timestamp should be in future or zero to indicate immediate,Unix timestamp should be in future or zero to indicate immediate
-params_required,,{0},Parameters for the resource is required.
-wrong_format_pattern,,Should be in {0} format,Should be in {0} format
-param_size_lesser_error,,The size should be atleast {0},The size should be atleast {0}
-currency_mismatched,,{0},{0}
-ip_address_not_supported,,No support for Ip address,No support for Ip address
-should_be_valid_input,,should be a valid input,should be a valid input
-no_change_for_i18n,,Pack is empty,Pack is empty
-NO_EMPTY_SCHEME,,"Provide the domain without the protocol (http, https)","Provide the domain without the protocol (http, https)"
-wrong_format,,wrong format,wrong format
-emoji_chars_not_allowed,,The value {0} is invalid,The value {0} is invalid
-amount_overflow,,Amount that is being processed {0},Amount that is being processed {0}
-param_should_not_be_sent,,{0},The parameter should not be sent. Should occur only during development phase.
+sort_param_order_invalid,Thứ tự sắp xếp đã chỉ định {0} không hợp lệ,The specified sort order {0} is invalid,The specified sort order {0} is invalid
+updgrade_api_err_msg,{0},{0},{0}
+wrong_value,giá trị sai,wrong value,wrong value
+found_card_pattern,{0},{0},{0}
+upload_error,Lỗi khi tải tệp lên,Error while uploading file,Error while uploading file
+ILLEGAL_DOMAIN,Miền {0} không được phép,{0} domain is not allowed,{0} domain is not allowed
+param_fixed_size_error,Kích thước phải là {0},The size should be of {0},The size should be of {0}
+mcp_api_v1_err,Nâng cấp lên phiên bản API 2 là cần thiết khi MCP được bật,Upgrade to API V2 is needed as MCP is enabled,Upgrade to API V2 is needed as MCP is enabled
+multipart_post,Không thể đặt nhiều phần khác với phương pháp đăng,Cannot set multipart for other than post method,Cannot set multipart for other than post method
+ILLEGAL_DNS,Miền phân giải thành phạm vi địa chỉ nội bộ không được phép.,The domain resolves to internal ip address range which is not allowed.,The domain resolves to internal ip address range which is not allowed.
+param_not_supported,{0},{0},{0}
+mustache_not_allowed,thẻ ria mép không được phép,mustache tags are not allowed,mustache tags are not allowed
+param_value_lesser_error,Nó sẽ ít nhất {0},It should be atleast {0},It should be atleast {0}
+param_exceeded_error,Nó không được nhiều hơn {0},It should not be more than {0},It should not be more than {0}
+not_an_image,Tệp được tải lên phải là một hình ảnh.,Uploaded file should be an image.,Uploaded file should be an image.
+UNKNOWN_HOST,Không thể giải quyết miền {0},Unable to resolve {0} domain ,Unable to resolve {0} domain 
+EMPTY_SCHEME,URL phải bắt đầu bằng giao thức http: // hoặc https: //,URL should start with http:// or https:// protocol,URL should start with http:// or https:// protocol
+validate.mul_sub_entry,Khách hàng {0} đã có một đăng ký.,The customer {0} already has a subscription.,The customer {0} already has a subscription.
+file_size_limit_exceeded,Kích thước tệp tải lên không được vượt quá {0},Upload file size cannot exceed {0},Upload file size cannot exceed {0}
+invalid_range,giá trị đầu tiên {0} không được nhiều hơn giá trị thứ hai {1},first value {0} should not be more than second value {1},first value {0} should not be more than second value {1}
+timestamp_future_only,Dấu thời gian Unix sẽ ở trong tương lai,Unix timestamp should be in future,Unix timestamp should be in future
+param_wrong_value,Giá trị {0} được chỉ định cho thông số này không chính xác,Value {0} specified for this param is incorrect,The returned parameter has incorrect value
+timestamp_past_only,Dấu thời gian Unix phải ở trong quá khứ,Unix timestamp should be in past,Unix timestamp should be in past
+param_lesser_error,Nó sẽ ít nhất {0},It should be atleast {0},It should be atleast {0}
+param_invalid,Giá trị {0} không hợp lệ,The value {0} is invalid,The value {0} is invalid
+should_be_valid_date,định dạng ngày sai,wrong date format,wrong date format
+UNSUPPORTED_SCHEME,{0} không được hỗ trợ. Chỉ http và https được hỗ trợ,{0} is not supported. Only http and https are supported,{0} is not supported. Only http and https are supported
+image_scrambled,Hình ảnh tải lên bị xáo trộn.,Uploaded image is scrambled.,Uploaded image is scrambled.
+charge_not_more_than_zero,Số tiền tính phí phải nhiều hơn 0,Amount to charge should be more than zero,Amount to charge should be more than zero
+param_cannot_exceed,{0},{0},{0}
+param_should_not_be_blank,không thể chừa trống,cannot be blank,cannot be blank
+not_in_allowed_values,không có trong các giá trị cho phép,not in allowed values,not in allowed values
+size_limit_exceeded,{0} không được nhiều hơn {1} ký tự,{0} should not be more than {1} characters,{0} should not be more than {1} characters
+email_cannot_be_empty,Trường email không được để trống,Email field cannot be empty,Email field cannot be empty
+email_not_in_allowed_size_range,Kích thước id email không được lớn hơn {0},Email id size should not be more than {0},Email id size should not be more than {0}
+param_size_exceeded_error,Kích thước không được lớn hơn {0},The size should not be more than {0},The size should not be more than {0}
+param_should_be_blank,nên để trống,should be blank,should be blank
+param_required,không thể chừa trống,cannot be blank,The parameter is not sent or is empty. Incase you are getting the  parameter's value from the user then it is better to do validation  for mandatory fields on your end rather than passing it to ChargeBee and then handling the error.
+resource_not_unique,Tài nguyên {0} đã tồn tại,{0} resource already exists,{0} resource already exists
+duplicate_addon_entry,Mục nhập bổ trợ trùng lặp không được phép.,Duplicate addon entry is not allowed.,Duplicate addon entry is not allowed.
+filter_param_operator_invalid,Toán tử bộ lọc được chỉ định {0} không hợp lệ,The specified filter operator {0} is invalid,The specified filter operator {0} is invalid
+ILLEGAL_DOMAIN_SUFFIX,Hậu tố miền {0} không được phép,{0} domain suffix is not allowed,{0} domain suffix is not allowed
+param_invalid_msg,{0},{0},{0}
+validate.param_not_unique,Giá trị {0} đã có.,The value {0} is already present.,The value {0} is already present.
+UNSUPPORTED_PORT," Chỉ cho phép các cổng [443, 80, 8443, 8080, 9001]"," Only [443, 80, 8443, 8080, 9001] ports are allowed"," Only [443, 80, 8443, 8080, 9001] ports are allowed"
+timestamp_future_only_or_zero,Dấu thời gian Unix phải ở trong tương lai hoặc bằng 0 để cho biết ngay lập tức,Unix timestamp should be in future or zero to indicate immediate,Unix timestamp should be in future or zero to indicate immediate
+params_required,{0},{0},Parameters for the resource is required.
+wrong_format_pattern,Phải ở định dạng {0},Should be in {0} format,Should be in {0} format
+param_size_lesser_error,Kích thước phải nhỏ nhất {0},The size should be atleast {0},The size should be atleast {0}
+currency_mismatched,{0},{0},{0}
+ip_address_not_supported,Không hỗ trợ cho địa chỉ,No support for Ip address,No support for Ip address
+should_be_valid_input,phải là một đầu vào hợp lệ,should be a valid input,should be a valid input
+no_change_for_i18n,Gói trống,Pack is empty,Pack is empty
+NO_EMPTY_SCHEME,"Cung cấp miền không có giao thức (http, https)","Provide the domain without the protocol (http, https)","Provide the domain without the protocol (http, https)"
+wrong_format,sai định dạng,wrong format,wrong format
+emoji_chars_not_allowed,Giá trị {0} không hợp lệ,The value {0} is invalid,The value {0} is invalid
+amount_overflow,Số tiền đang được xử lý {0},Amount that is being processed {0},Amount that is being processed {0}
+param_should_not_be_sent,{0},{0},The parameter should not be sent. Should occur only during development phase.

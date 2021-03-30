@@ -1,25 +1,25 @@
 key,value,reference value,description
-invalid_column,,The value {1} in the column ({0}) is invalid,The value {1} in the column ({0}) is invalid
-invalid_column_header,,The column {0} is invalid.,The column {0} is invalid.
-billing_country_needed_to_collect_registered_for_gst_field,,You need to add a Billing Country to select this field.,You need to add a Billing Country to select this field.
-billing_country_needed,,Billing country needed to validate the VAT number.,Billing country needed to validate the VAT number.
-australia_tax_should_be_configured,,You need to enable tax for Australia to select this field,You need to enable tax for Australia to select this field
-tax.could_not_read_the_file,,File contains invalid values,File contains invalid values
-unable_to_validate_abn,,Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
-no_header_found,,Header are not present or not formatted properly.,Header are not present or not formatted properly.
-no_tax_rules_found,,File does not contain any tax rule,File does not contain any tax rule
-tax.un_supported_file_format,,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
-profile_service_type_error,,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.
-tax.wrong_format,,Value for ({0}) is invalid,Value for ({0}) is invalid
-file_not_found,,Tax configuration file not found,Tax configuration file not found
-duplicate_column,,The column ({0}) appears more than once in the file.,The column ({0}) appears more than once in the file.
-invalid_GSTIN,,You need to enter a valid GSTIN.,You need to enter a valid GSTIN.
-invalid_abn_number,,You need to enter a valid ABN.,You need to enter a valid ABN.
-eu_vat_not_applicable,,VAT Number not applicable for this country,VAT Number not applicable for this country
-zip_wrong_format,,cannot configure the zip values - {0},cannot configure the zip values - {0}
-invalid_zip_code,,invalid zip/postal code,invalid zip/postal code
-org_address_not_config,,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined
-registered_for_gst_not_applicable,,This option is applicable for Australia only.,This option is applicable for Australia only.
-invalid_vat_number,,You need to enter a valid VAT number.,You need to enter a valid VAT number.
-unable_to_validate,,Unable to validate VAT number as VIES is experiencing downtime.,Unable to validate VAT number as VIES is experiencing downtime.
-us_unsupported_prefix,,Wildcard characters cannot be used along with ZIP+4 postal codes - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0}
+invalid_column,Значення {1} в стовпці ({0}) недійсне,The value {1} in the column ({0}) is invalid,The value {1} in the column ({0}) is invalid
+invalid_column_header,Стовпець {0} недійсний.,The column {0} is invalid.,The column {0} is invalid.
+billing_country_needed_to_collect_registered_for_gst_field,"Вам потрібно додати країну рахунку, щоб вибрати це поле.",You need to add a Billing Country to select this field.,You need to add a Billing Country to select this field.
+billing_country_needed,"Країна, яка виставляє рахунок, повинна підтвердити номер ПДВ.",Billing country needed to validate the VAT number.,Billing country needed to validate the VAT number.
+australia_tax_should_be_configured,Вам потрібно включити податок для Австралії для вибору цього поля,You need to enable tax for Australia to select this field,You need to enable tax for Australia to select this field
+tax.could_not_read_the_file,Файл містить недійсні значення,File contains invalid values,File contains invalid values
+unable_to_validate_abn,"Неможливо обробити ABN, оскільки сервер пошуку ABN не працює.",Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
+no_header_found,Заголовок відсутній або відформатований неправильно.,Header are not present or not formatted properly.,Header are not present or not formatted properly.
+no_tax_rules_found,Файл не містить жодного податкового правила,File does not contain any tax rule,File does not contain any tax rule
+tax.un_supported_file_format,Непідтримуваний формат файлу. Дозволено використовувати лише файли CSV,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
+profile_service_type_error,Цей податковий профіль уже зіставлений із типом товару {0}. Ви можете зіставити лише один тип товару з профілем.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.
+tax.wrong_format,Значення ({0}) недійсне,Value for ({0}) is invalid,Value for ({0}) is invalid
+file_not_found,Файл конфігурації податку не знайдено,Tax configuration file not found,Tax configuration file not found
+duplicate_column,Стовпець ({0}) з’являється у файлі кілька разів.,The column ({0}) appears more than once in the file.,The column ({0}) appears more than once in the file.
+invalid_GSTIN,Потрібно ввести дійсний GSTIN.,You need to enter a valid GSTIN.,You need to enter a valid GSTIN.
+invalid_abn_number,Потрібно ввести дійсний ABN.,You need to enter a valid ABN.,You need to enter a valid ABN.
+eu_vat_not_applicable,Номер ПДВ не застосовується для цієї країни,VAT Number not applicable for this country,VAT Number not applicable for this country
+zip_wrong_format,не вдається налаштувати значення zip - {0},cannot configure the zip values - {0},cannot configure the zip values - {0}
+invalid_zip_code,недійсний поштовий індекс,invalid zip/postal code,invalid zip/postal code
+org_address_not_config,"Тип інклюзивної ціни податку не можна налаштувати, оскільки неможливо визначити ставку податку на продавця",Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined
+registered_for_gst_not_applicable,Цей варіант застосовується лише для Австралії.,This option is applicable for Australia only.,This option is applicable for Australia only.
+invalid_vat_number,Потрібно ввести дійсний номер ПДВ.,You need to enter a valid VAT number.,You need to enter a valid VAT number.
+unable_to_validate,"Неможливо перевірити номер ПДВ, оскільки VIES переживає простої.",Unable to validate VAT number as VIES is experiencing downtime.,Unable to validate VAT number as VIES is experiencing downtime.
+us_unsupported_prefix,Не можна використовувати символи підстановки разом із поштовими індексами ZIP + 4 - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0}

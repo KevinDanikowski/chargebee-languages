@@ -1,5 +1,5 @@
 key,value,reference value,description
-usage.label.date,,Date,Date
-usage.label.usage,,Usage,Usage
-usage.label.plan_or_addon,,Plan/Addon,Plan/Addon
-usage.label.usage_details,,Usage Details,Usage Details
+usage.label.date,Dátum,Date,Date
+usage.label.usage,Využitie,Usage,Usage
+usage.label.plan_or_addon,Plán / doplnok,Plan/Addon,Plan/Addon
+usage.label.usage_details,Podrobnosti o použití,Usage Details,Usage Details

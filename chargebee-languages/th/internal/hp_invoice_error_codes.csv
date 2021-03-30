@@ -1,21 +1,21 @@
 key,value,reference value,description
-invalid_charge_start_and_end,,Invalid term period passed. line_item.date_from must be before line_item.date_to,Invalid term period passed. line_item.date_from must be before line_item.date_to
-xero_build_inprogress,,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.
-invalid_invoice_amount,,Invoice Amount {0} should be greater than zero,Invoice Amount {0} should be greater than zero
-record_payment_not_supported,,{0},{0}
-max_size_reached,,Exceeded maximum limit of card payments to refund,Exceeded maximum limit of card payments to refund
-recurring_addon_not_supported,,Recurring addon cannot be added to pending invoice.,Recurring addon cannot be added to pending invoice.
-hp_product_type_mismatch,,"Sorry, we are unable process your request. Please get in touch with the seller/merchant.","Sorry, we are unable process your request. Please get in touch with the seller/merchant."
-invalid_payment_amount,,{0},{0}
-refund_amount_too_big,,"Specified amount is greater than the allowed limit ''{0}'' ",The refund amount is greater than the invoice amount
-invalid_invoice_state,,{0},{0}
-xero_disabled,,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.
-no_card_present_for_refund,,Cannot process request as the payment method used for this transaction has been cleared.,Cannot process request as the payment method used for this transaction has been cleared.
-insufficient card payments,,Operation cannot be proceed since customers different card payments are required to refund,Operation cannot be proceed since customers different card payments are required to refund
-invoice_price_type,,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).
-referenced_line_item_not_found,,The referenced charge line item {0} is not attached to invoice {1},The referenced charge line item {0} is not attached to invoice {1}
-refund_failed,,Refund operation failed. Error message: {0},Refund operation failed. Error message: {0}
-operation_failed,,{0},{0}
-product_type_mismatch,,You cannot bill both digital and non-digital products using the same invoice.,You cannot bill both digital and non-digital products using the same invoice.
-invoice.operation_not_suppoerted,,{0},{0}
-address_change_not_supported,,Address cannot be changed as it changes the applied tax,Address cannot be changed as it changes the applied tax
+invalid_charge_start_and_end,ผ่านช่วงระยะเวลาที่ไม่ถูกต้อง line_item.date_from ต้องอยู่ก่อน line_item.date_to,Invalid term period passed. line_item.date_from must be before line_item.date_to,Invalid term period passed. line_item.date_from must be before line_item.date_to
+xero_build_inprogress,การรวม Xero ถูกปิดใช้งานชั่วคราวสำหรับการบำรุงรักษา การดำเนินการนี้ควรจะจบลงในไม่กี่นาที โปรดลองอีกสักครู่,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.
+invalid_invoice_amount,จำนวนเงินในใบแจ้งหนี้ {0} ควรมากกว่าศูนย์,Invoice Amount {0} should be greater than zero,Invoice Amount {0} should be greater than zero
+record_payment_not_supported,{0},{0},{0}
+max_size_reached,เกินขีด จำกัด สูงสุดของการชำระเงินด้วยบัตรที่จะคืนเงิน,Exceeded maximum limit of card payments to refund,Exceeded maximum limit of card payments to refund
+recurring_addon_not_supported,ไม่สามารถเพิ่มส่วนเสริมที่เกิดซ้ำในใบแจ้งหนี้ที่รอดำเนินการได้,Recurring addon cannot be added to pending invoice.,Recurring addon cannot be added to pending invoice.
+hp_product_type_mismatch,ขออภัยเราไม่สามารถดำเนินการตามคำขอของคุณได้ โปรดติดต่อผู้ขาย / ผู้ขาย,"Sorry, we are unable process your request. Please get in touch with the seller/merchant.","Sorry, we are unable process your request. Please get in touch with the seller/merchant."
+invalid_payment_amount,{0},{0},{0}
+refund_amount_too_big,"จำนวนที่ระบุมากกว่าขีด จำกัด ที่อนุญาต ""{0}""",Specified amount is greater than the allowed limit ''{0}'' ,The refund amount is greater than the invoice amount
+invalid_invoice_state,{0},{0},{0}
+xero_disabled,การรวม Xero ถูกปิดใช้งานสำหรับไซต์ของคุณ โปรดติดต่อ support@chargebee.com สำหรับรายละเอียดและความช่วยเหลือเพิ่มเติม,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.
+no_card_present_for_refund,ไม่สามารถดำเนินการตามคำขอได้เนื่องจากวิธีการชำระเงินที่ใช้สำหรับธุรกรรมนี้ถูกล้างแล้ว,Cannot process request as the payment method used for this transaction has been cleared.,Cannot process request as the payment method used for this transaction has been cleared.
+insufficient card payments,ไม่สามารถดำเนินการได้เนื่องจากลูกค้าต้องชำระเงินด้วยบัตรอื่นเพื่อคืนเงิน,Operation cannot be proceed since customers different card payments are required to refund,Operation cannot be proceed since customers different card payments are required to refund
+invoice_price_type,รายการทั้งหมดควรเป็นประเภทราคาเดียวกัน (ไม่รวมภาษี / รวมภาษี),All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).
+referenced_line_item_not_found,รายการเรียกเก็บเงินที่อ้างอิง {0} ไม่แนบกับใบแจ้งหนี้ {1},The referenced charge line item {0} is not attached to invoice {1},The referenced charge line item {0} is not attached to invoice {1}
+refund_failed,การดำเนินการคืนเงินล้มเหลว ข้อความแสดงข้อผิดพลาด: {0},Refund operation failed. Error message: {0},Refund operation failed. Error message: {0}
+operation_failed,{0},{0},{0}
+product_type_mismatch,คุณไม่สามารถเรียกเก็บเงินทั้งผลิตภัณฑ์ดิจิทัลและผลิตภัณฑ์ที่ไม่ใช่ดิจิทัลโดยใช้ใบแจ้งหนี้เดียวกัน,You cannot bill both digital and non-digital products using the same invoice.,You cannot bill both digital and non-digital products using the same invoice.
+invoice.operation_not_suppoerted,{0},{0},{0}
+address_change_not_supported,ไม่สามารถเปลี่ยนที่อยู่ได้เนื่องจากมีการเปลี่ยนแปลงภาษีที่ใช้,Address cannot be changed as it changes the applied tax,Address cannot be changed as it changes the applied tax

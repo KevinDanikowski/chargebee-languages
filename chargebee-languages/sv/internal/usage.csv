@@ -1,5 +1,5 @@
 key,value,reference value,description
-usage.label.date,,Date,Date
-usage.label.usage,,Usage,Usage
-usage.label.plan_or_addon,,Plan/Addon,Plan/Addon
-usage.label.usage_details,,Usage Details,Usage Details
+usage.label.date,Datum,Date,Date
+usage.label.usage,Användande,Usage,Usage
+usage.label.plan_or_addon,Planera / tillägg,Plan/Addon,Plan/Addon
+usage.label.usage_details,Användningsdetaljer,Usage Details,Usage Details

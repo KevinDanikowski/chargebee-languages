@@ -1,21 +1,21 @@
 key,value,reference value,description
-not_supported_for_moving_out_resource,,Sorry this operation is not possible now. Please try again after some time or contact us for assistance.,Sorry this operation is not possible now. Please try again after some time or contact us for assistance.
-login_mismatch_error,,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
-recaptcha_verification_failed,,Recaptcha verification failed. Try again,Recaptcha verification failed. Try again
-password_too_short,,Your password must have atleast 8 characters,Your password must have atleast 8 characters
-invalid_url,,Oops! This URL appears to be either expired or invalid.,Oops! This URL appears to be either expired or invalid.
-portal_access_disabled_for,,Customer portal access is disabled.,Customer portal access is disabled.
-invalid_return_cancel_url,,Oops! The return or cancel URL is invalid.,Oops! The return or cancel URL is invalid.
-portal_access_disabled_for_api,,Customer portal access via API is disabled.,Customer portal access via API is disabled.
-login_site_mismatch_error,,"Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service.","Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service."
-same_password_error,,New password should not be the current password,New password should not be the current password
-"subscription_canceled ",,This is a cancelled subscription. Please contact us for more details.,This is a cancelled subscription. Please contact us for more details.
-portal_session_status_not_supported,,Activating a portal session is not supported for this request.,Activating a portal session is not supported for this request.
-password_not_valid,,"Your password must have atleast one uppercase character, lowercase character and a number","Your password must have atleast one uppercase character, lowercase character and a number"
-setup_not_completed,,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.
-invalid_otp_error,,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
-email_not_verified,,You have not verified your email. Use the ''Sign Up'' option to get started.,You have not verified your email. Use the ''Sign Up'' option to get started.
-otp_mismatch_error,,Invalid one time password,Invalid one time password
-account_locked_error,,Your account has been locked due to security reasons.,Your account has been locked due to security reasons.
-portal_token_invalid,,Portal token has been expired or invalid.,Portal token has been expired or invalid.
-email_should_not_be_sent,,Email address is not allowed to be updated.,Email address is not allowed to be updated.
+not_supported_for_moving_out_resource,"Xin lỗi, thao tác này hiện không thể thực hiện được. Vui lòng thử lại sau một thời gian hoặc liên hệ với chúng tôi để được hỗ trợ.",Sorry this operation is not possible now. Please try again after some time or contact us for assistance.,Sorry this operation is not possible now. Please try again after some time or contact us for assistance.
+login_mismatch_error,Đăng nhập không thành công do thông tin đăng nhập không chính xác.,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
+recaptcha_verification_failed,Xác minh Recaptcha không thành công. Thử lại,Recaptcha verification failed. Try again,Recaptcha verification failed. Try again
+password_too_short,Mật khẩu của bạn phải có ít nhất 8 ký tự,Your password must have atleast 8 characters,Your password must have atleast 8 characters
+invalid_url,Giáo sư! URL này dường như đã hết hạn hoặc không hợp lệ.,Oops! This URL appears to be either expired or invalid.,Oops! This URL appears to be either expired or invalid.
+portal_access_disabled_for,Quyền truy cập cổng thông tin khách hàng bị vô hiệu hóa.,Customer portal access is disabled.,Customer portal access is disabled.
+invalid_return_cancel_url,Giáo sư! URL trả lại hoặc URL hủy bỏ không hợp lệ.,Oops! The return or cancel URL is invalid.,Oops! The return or cancel URL is invalid.
+portal_access_disabled_for_api,Quyền truy cập cổng khách hàng qua API bị vô hiệu hóa.,Customer portal access via API is disabled.,Customer portal access via API is disabled.
+login_site_mismatch_error,"Vui lòng xác minh id email. Đăng ký này chỉ hoạt động nếu bạn đã là ""Người đăng ký"" của dịch vụ này.","Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service.","Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service."
+same_password_error,Mật khẩu mới không phải là mật khẩu hiện tại,New password should not be the current password,New password should not be the current password
+subscription_canceled ,Đây là một đăng ký đã bị hủy. Vui lòng liên hệ với chúng tôi để biết thêm chi tiết.,This is a cancelled subscription. Please contact us for more details.,This is a cancelled subscription. Please contact us for more details.
+portal_session_status_not_supported,Yêu cầu này không hỗ trợ kích hoạt phiên cổng thông tin.,Activating a portal session is not supported for this request.,Activating a portal session is not supported for this request.
+password_not_valid,"Mật khẩu của bạn phải có ít nhất một ký tự viết hoa, ký tự viết thường và một số","Your password must have atleast one uppercase character, lowercase character and a number","Your password must have atleast one uppercase character, lowercase character and a number"
+setup_not_completed,Bạn chưa thiết lập tài khoản cổng thông tin khách hàng của mình. Sử dụng tùy chọn 'Đăng ký' để bắt đầu.,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.
+invalid_otp_error,Đăng nhập không thành công do thông tin đăng nhập không chính xác.,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
+email_not_verified,Bạn chưa xác minh email của mình. Sử dụng tùy chọn 'Đăng ký' để bắt đầu.,You have not verified your email. Use the ''Sign Up'' option to get started.,You have not verified your email. Use the ''Sign Up'' option to get started.
+otp_mismatch_error,Mật khẩu một lần không hợp lệ,Invalid one time password,Invalid one time password
+account_locked_error,Tài khoản của bạn đã bị khóa vì lý do bảo mật.,Your account has been locked due to security reasons.,Your account has been locked due to security reasons.
+portal_token_invalid,Mã thông báo cổng thông tin đã hết hạn hoặc không hợp lệ.,Portal token has been expired or invalid.,Portal token has been expired or invalid.
+email_should_not_be_sent,Địa chỉ email không được phép cập nhật.,Email address is not allowed to be updated.,Email address is not allowed to be updated.

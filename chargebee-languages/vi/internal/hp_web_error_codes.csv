@@ -1,54 +1,54 @@
 key,value,reference value,description
-page_url_length_exceed,,"Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
-should_be_unauth,,"Sorry, you must be logged out of current session to view this page","Sorry, you must be logged out of current session to view this page"
-web.param_not_unique,,Hold up! You have subscribed already.,Hold up! You have subscribed already.
-bad_request_need_refresh,,"Sorry, the request contains data that are not formatted properly","Sorry, the request contains data that are not formatted properly"
-operation_not_supported,,{0},{0}
-not_authorized_post,,"Sorry, you don''t have the permission to do this action","Sorry, you don''t have the permission to do this action"
-limit_exceeds,,"Sorry, the allowed limit for {0} is {1}.","Sorry, the allowed limit for {0} is {1}."
-user_already_exists,,email already exists,email already exists
-hosted_page_null,,The order URL is invalid. Please check the URL and try again.,The order URL is invalid. Please check the URL and try again.
-hp_resource_not_found,,This URL is no longer valid.,This URL is no longer valid.
-update_card_succeeded,,Your credit card has been already updated successfully.,Your credit card has been already updated successfully.
-should_be_auth,,"Sorry, you must be logged in to view this page","Sorry, you must be logged in to view this page"
-hosted_page_canceled,,This order has been canceled. Please try again.,This order has been canceled. Please try again.
-lock_timeout,,"Sorry, a temporary error occured. Please retry","Sorry, a temporary error occured. Please retry"
-service_unavailable,,Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes,Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes
-cannot_be_empty_or_null,,Key value cannot be empty or null,Key value cannot be empty or null
-update_card_cancelled,,This URL is no longer valid.,This URL is no longer valid.
-suffix_not_allowed,,"""{0}"" suffix is not allowed","""{0}"" suffix is not allowed"
-currency_error,,Unable fetch currency info,Unable fetch currency info
-not_authorized_get,,"Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
-hosted_page_expired,,Your order URL has expired. Please try again.,Your order URL has expired. Please try again.
-session_timeout,,You are logged out of the portal. Please login again.,You are logged out of the portal. Please login again.
-hosted_page_succeeded,,Your order has already been submitted successfully.,Your order has already been submitted successfully.
-not_ajax_request,,A temporary error occurred. Try again,A temporary error occurred. Try again
-web.mul_sub_entry,,Hold up! You have subscribed already,Hold up! You have subscribed already
-resource_not_found,,"Sorry, we couldn''t find that resource","Sorry, we couldn''t find that resource"
-size_exceeds,,"Sorry, uploaded file size cannot exceed {0}","Sorry, uploaded file size cannot exceed {0}"
-bad_request,,"Sorry,the URL or the some of the parameters are not valid","Sorry,the URL or the some of the parameters are not valid"
-record_not_found,,{0} with {1} {2} is not present.,{0} with {1} {2} is not present.
-bad_data,,"Sorry, some of the parameters are missing or not formatted properly","Sorry, some of the parameters are missing or not formatted properly"
-communication_failure,,"Sorry, Unable to communicate with {0}. Please retry after some time","Sorry, Unable to communicate with {0}. Please retry after some time"
-site_already_exists,,site already exists,site already exists
-invalid_state,,{0},{0}
-db_lock_error,,Unable to lock the operation,Unable to lock the operation
-invalid_request_refresh_browser,,Your request is not valid. Please refresh the browser and try again.,Your request is not valid. Please refresh the browser and try again.
-round_off_not_supported,,Rounding off of invoice amount is not supported for zero-decimal currencies,Rounding off of invoice amount is not supported for zero-decimal currencies
-update_card_null,,The URL entered to update your credit card is invalid. Please check the URL and try again.,The URL entered to update your credit card is invalid. Please check the URL and try again.
-hosted_page_failed,,An error occurred during processing. Please try again later.,An error occurred during processing. Please try again later.
-not_authorized_ip,,"Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
-code_not_compatible,,Sorry something went wrong. Please retry after some time,Sorry something went wrong. Please retry after some time
-content_type_is_not_application_json,,"Sorry, the request''s content type ({0}) is wrong. It must be application/json.","Sorry, the request''s content type ({0}) is wrong. It must be application/json."
-web.invalid_credential,,Please check the submitted credentials.,Please check the submitted credentials.
-update_card_expired,,"Your requested URL has expired. Please try again. ","Your requested URL has expired. Please try again. "
-tos_not_selected,,Agreeing to the terms is mandatory to complete the checkout.,Agreeing to the terms is mandatory to complete the checkout.
-connection_time_out,,"Sorry, unable to complete the operation due to db communication failure. Please try after some time","Sorry, unable to complete the operation due to db communication failure. Please try after some time"
-request_charset_error,,"Sorry, the request encoding should be utf-8. It is {0}","Sorry, the request encoding should be utf-8. It is {0}"
-csrf_tok_invalid,,The csrf token (used for security) is invalid. Please refresh the browser and try again.,The csrf token (used for security) is invalid. Please refresh the browser and try again.
-hosted_page_error,,{0},{0}
-update_card_failed,,There was an error processing your credit card information. Please try again later.,There was an error processing your credit card information. Please try again later.
-site_not_provided,,"Sorry, you need to provide your site as a subdomain to access this URL","Sorry, you need to provide your site as a subdomain to access this URL"
-configuration_failure,,{0},{0}
-page_not_found,,"Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
-content_type_wrong,,"Sorry, the request''s content type is wrong","Sorry, the request''s content type is wrong"
+page_url_length_exceed,"Xin lỗi, chúng tôi không thể tìm thấy trang đó","Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
+should_be_unauth,"Xin lỗi, bạn phải đăng xuất khỏi phiên hiện tại để xem trang này","Sorry, you must be logged out of current session to view this page","Sorry, you must be logged out of current session to view this page"
+web.param_not_unique,Giữ! Bạn đã đăng ký rồi.,Hold up! You have subscribed already.,Hold up! You have subscribed already.
+bad_request_need_refresh,"Xin lỗi, yêu cầu chứa dữ liệu không được định dạng đúng","Sorry, the request contains data that are not formatted properly","Sorry, the request contains data that are not formatted properly"
+operation_not_supported,{0},{0},{0}
+not_authorized_post,"Xin lỗi, bạn không có quyền thực hiện hành động này","Sorry, you don''t have the permission to do this action","Sorry, you don''t have the permission to do this action"
+limit_exceeds,"Xin lỗi, giới hạn được phép cho {0} là {1}.","Sorry, the allowed limit for {0} is {1}.","Sorry, the allowed limit for {0} is {1}."
+user_already_exists,Email đã tồn tại,email already exists,email already exists
+hosted_page_null,URL đơn đặt hàng không hợp lệ. Vui lòng kiểm tra URL và thử lại.,The order URL is invalid. Please check the URL and try again.,The order URL is invalid. Please check the URL and try again.
+hp_resource_not_found,URL này không còn hợp lệ.,This URL is no longer valid.,This URL is no longer valid.
+update_card_succeeded,Thẻ tín dụng của bạn đã được cập nhật thành công.,Your credit card has been already updated successfully.,Your credit card has been already updated successfully.
+should_be_auth,"Xin lỗi, bạn phải đăng nhập để xem trang này","Sorry, you must be logged in to view this page","Sorry, you must be logged in to view this page"
+hosted_page_canceled,Đơn đặt hàng này đã bị hủy. Vui lòng thử lại.,This order has been canceled. Please try again.,This order has been canceled. Please try again.
+lock_timeout,"Xin lỗi, đã xảy ra lỗi tạm thời. Làm ơn hãy thử lại","Sorry, a temporary error occured. Please retry","Sorry, a temporary error occured. Please retry"
+service_unavailable,"Rất tiếc, không thể thực hiện thao tác này do tải nặng. Xin hãy thử lại sau vài phút",Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes,Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes
+cannot_be_empty_or_null,Giá trị khóa không được để trống hoặc rỗng,Key value cannot be empty or null,Key value cannot be empty or null
+update_card_cancelled,URL này không còn hợp lệ.,This URL is no longer valid.,This URL is no longer valid.
+suffix_not_allowed,"Hậu tố ""{0}"" không được phép","""{0}"" suffix is not allowed","""{0}"" suffix is not allowed"
+currency_error,Không thể tìm nạp thông tin tiền tệ,Unable fetch currency info,Unable fetch currency info
+not_authorized_get,"Xin lỗi, bạn không có quyền xem trang này","Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
+hosted_page_expired,URL đặt hàng của bạn đã hết hạn. Vui lòng thử lại.,Your order URL has expired. Please try again.,Your order URL has expired. Please try again.
+session_timeout,Bạn đã đăng xuất khỏi cổng thông tin. Xin vui lòng đăng nhập lại.,You are logged out of the portal. Please login again.,You are logged out of the portal. Please login again.
+hosted_page_succeeded,Đơn đặt hàng của bạn đã được gửi thành công.,Your order has already been submitted successfully.,Your order has already been submitted successfully.
+not_ajax_request,Đã xảy ra lỗi tạm thời. Thử lại,A temporary error occurred. Try again,A temporary error occurred. Try again
+web.mul_sub_entry,[object Object],Hold up! You have subscribed already,Hold up! You have subscribed already
+resource_not_found,"Xin lỗi, chúng tôi không thể tìm thấy tài nguyên đó","Sorry, we couldn''t find that resource","Sorry, we couldn''t find that resource"
+size_exceeds,"Xin lỗi, kích thước tệp đã tải lên không được vượt quá {0}","Sorry, uploaded file size cannot exceed {0}","Sorry, uploaded file size cannot exceed {0}"
+bad_request,"Xin lỗi, URL hoặc một số thông số không hợp lệ","Sorry,the URL or the some of the parameters are not valid","Sorry,the URL or the some of the parameters are not valid"
+record_not_found,{0} với {1} {2} không có.,{0} with {1} {2} is not present.,{0} with {1} {2} is not present.
+bad_data,"Xin lỗi, một số thông số bị thiếu hoặc không được định dạng đúng","Sorry, some of the parameters are missing or not formatted properly","Sorry, some of the parameters are missing or not formatted properly"
+communication_failure,"Xin lỗi, không thể liên lạc với {0}. Vui lòng thử lại sau một thời gian","Sorry, Unable to communicate with {0}. Please retry after some time","Sorry, Unable to communicate with {0}. Please retry after some time"
+site_already_exists,trang web đã tồn tại,site already exists,site already exists
+invalid_state,{0},{0},{0}
+db_lock_error,Không thể khóa hoạt động,Unable to lock the operation,Unable to lock the operation
+invalid_request_refresh_browser,Yêu cầu của bạn không hợp lệ. Vui lòng làm mới trình duyệt và thử lại.,Your request is not valid. Please refresh the browser and try again.,Your request is not valid. Please refresh the browser and try again.
+round_off_not_supported,Việc làm tròn số tiền trên hóa đơn không được hỗ trợ đối với các đơn vị tiền tệ không có số thập phân,Rounding off of invoice amount is not supported for zero-decimal currencies,Rounding off of invoice amount is not supported for zero-decimal currencies
+update_card_null,URL được nhập để cập nhật thẻ tín dụng của bạn không hợp lệ. Vui lòng kiểm tra URL và thử lại.,The URL entered to update your credit card is invalid. Please check the URL and try again.,The URL entered to update your credit card is invalid. Please check the URL and try again.
+hosted_page_failed,Một lỗi đã xảy ra trong quá trình xử lý. Vui lòng thử lại sau.,An error occurred during processing. Please try again later.,An error occurred during processing. Please try again later.
+not_authorized_ip,"Xin lỗi, bạn không có quyền xem trang này","Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
+code_not_compatible,"Xin lỗi, có lỗi xảy ra. Vui lòng thử lại sau một thời gian",Sorry something went wrong. Please retry after some time,Sorry something went wrong. Please retry after some time
+content_type_is_not_application_json,"Xin lỗi, loại nội dung của yêu cầu ({0}) không đúng. Nó phải là application / json.","Sorry, the request''s content type ({0}) is wrong. It must be application/json.","Sorry, the request''s content type ({0}) is wrong. It must be application/json."
+web.invalid_credential,Vui lòng kiểm tra thông tin đăng nhập đã gửi.,Please check the submitted credentials.,Please check the submitted credentials.
+update_card_expired,URL yêu cầu của bạn đã hết hạn. Vui lòng thử lại.,Your requested URL has expired. Please try again. ,Your requested URL has expired. Please try again. 
+tos_not_selected,Đồng ý với các điều khoản là bắt buộc để hoàn tất thanh toán.,Agreeing to the terms is mandatory to complete the checkout.,Agreeing to the terms is mandatory to complete the checkout.
+connection_time_out,"Xin lỗi, không thể hoàn tất thao tác do lỗi giao tiếp db. Xin hãy thử lại sau một vài giây","Sorry, unable to complete the operation due to db communication failure. Please try after some time","Sorry, unable to complete the operation due to db communication failure. Please try after some time"
+request_charset_error,"Xin lỗi, mã hóa yêu cầu phải là UTF-8. Đó là {0}","Sorry, the request encoding should be utf-8. It is {0}","Sorry, the request encoding should be utf-8. It is {0}"
+csrf_tok_invalid,Mã thông báo CSRF (được sử dụng để bảo mật) không hợp lệ. Vui lòng làm mới trình duyệt và thử lại.,The csrf token (used for security) is invalid. Please refresh the browser and try again.,The csrf token (used for security) is invalid. Please refresh the browser and try again.
+hosted_page_error,{0},{0},{0}
+update_card_failed,Đã xảy ra lỗi khi xử lý thông tin thẻ tín dụng của bạn. Vui lòng thử lại sau.,There was an error processing your credit card information. Please try again later.,There was an error processing your credit card information. Please try again later.
+site_not_provided,"Xin lỗi, bạn cần cung cấp trang web của mình làm tên miền phụ để truy cập URL này","Sorry, you need to provide your site as a subdomain to access this URL","Sorry, you need to provide your site as a subdomain to access this URL"
+configuration_failure,{0},{0},{0}
+page_not_found,"Xin lỗi, chúng tôi không thể tìm thấy trang đó","Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
+content_type_wrong,"Xin lỗi, loại nội dung của yêu cầu không đúng","Sorry, the request''s content type is wrong","Sorry, the request''s content type is wrong"

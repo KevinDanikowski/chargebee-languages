@@ -1,23 +1,23 @@
 key,value,reference value,description
-line_item.coupon.non_discount_all,,%{coupon_details} of %{disc_amt} applied on %{line_items} line items.,The applied on text for coupon
-line_item.coupon.non_discount_singular,,%{coupon_details} of %{disc_amt} applied on line item %{line_items}.,The applied on text for coupon
-line_item.coupon.ao_text_singular,,%{coupon_details} applied on line item %{line_items} - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
-line_item.final_credit_correction.added,,Leftover Credits Added,when amount is < than 0
-line_item.plan.prorated_charges,,Prorated Charges,Prorated Charges for plan/addon prorated charges
-line_item.coupon.ao_text_all,,%{coupon_details} applied on %{line_items} line items - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
-line_item.desc.prorated_credits_for,,Prorated Credits for %{date_range},Protated Credits for 3rd oct to 15th oct
-line_item.coupon.free_quantity,," Free Quantity",Free quantity in a coupon
-line_item.coupon.ao_text_plural,,%{coupon_details} applied on line items %{line_items} - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
-line_item.desc.stairstep_pricing,,%{amount} for %{unit} units,Stairstep pricing description
-line_item.desc.total_units,,Total units - %{unit},Total units
-line_item.final_credit_correction.removed,,Additional Credits Removed,when amount is > than 0
-email.line_item.coupon.text,,<b>%{coupon_details} %{disc_amt} off</b> applied for %{line_item_desc}.,The applied on text for coupon
-line_item.plan.set_up_fee,,Setup Fee,Plan set up fee - description at line item level
-line_item.desc.credit_adjustments,,Prorated Credits,Prorated credits given for a line item
-line_item.desc.reclaimed_account_credits,,Promotional Credits Returned,promotional credits given for a line item
-line_item.desc.account_credits,,Promotional Credits,promotional credits given for a line item
-cn.discount.text,,Discounts/credits applied on this invoice,text
-line_item.desc.reclaimed_credit_adjusments,,Prorated Credits Returned,Prorated credits given for a line item
-line_item.fractional_correction,,Fractional Correction,Fractional Correction
-line_item.coupon.non_discount_plural,,%{coupon_details} of %{disc_amt} applied on line items %{line_items}.,The applied on text for coupon
-line_item.desc.units,,units,units
+line_item.coupon.non_discount_all, %{coupon_details} / %{disc_amt} %{line_items} satır öğelerine uygulandı.,%{coupon_details} of %{disc_amt} applied on %{line_items} line items.,The applied on text for coupon
+line_item.coupon.non_discount_singular," %{coupon_details} / %{disc_amt}, %{line_items} satır öğesine uygulandı.",%{coupon_details} of %{disc_amt} applied on line item %{line_items}.,The applied on text for coupon
+line_item.coupon.ao_text_singular," %{coupon_details}, %{line_items} - %{disc_amt} %{pdf_inv_desc} satır öğesine uygulandı.",%{coupon_details} applied on line item %{line_items} - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
+line_item.final_credit_correction.added,Artık Krediler Eklendi,Leftover Credits Added,when amount is < than 0
+line_item.plan.prorated_charges,Orantılı Masraflar,Prorated Charges,Prorated Charges for plan/addon prorated charges
+line_item.coupon.ao_text_all, %{line_items} satır öğelerine %{coupon_details} uygulandı - %{disc_amt} %{pdf_inv_desc}.,%{coupon_details} applied on %{line_items} line items - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
+line_item.desc.prorated_credits_for, %{date_range} için Orantılı Krediler,Prorated Credits for %{date_range},Protated Credits for 3rd oct to 15th oct
+line_item.coupon.free_quantity, Ücretsiz Miktar, Free Quantity,Free quantity in a coupon
+line_item.coupon.ao_text_plural," %{coupon_details}, %{line_items} - %{disc_amt} %{pdf_inv_desc} satır öğelerine uygulandı.",%{coupon_details} applied on line items %{line_items} - %{disc_amt} %{pdf_inv_desc}.,The applied on text for coupon
+line_item.desc.stairstep_pricing, %{unit} birimleri için %{amount},%{amount} for %{unit} units,Stairstep pricing description
+line_item.desc.total_units,Toplam birim - %{unit},Total units - %{unit},Total units
+line_item.final_credit_correction.removed,Ek Krediler Kaldırıldı,Additional Credits Removed,when amount is > than 0
+email.line_item.coupon.text, %{line_item_desc} için <b> %{coupon_details} %{disc_amt} indirim </b> uygulandı.,<b>%{coupon_details} %{disc_amt} off</b> applied for %{line_item_desc}.,The applied on text for coupon
+line_item.plan.set_up_fee,Kurulum ücreti,Setup Fee,Plan set up fee - description at line item level
+line_item.desc.credit_adjustments,Orantılı Krediler,Prorated Credits,Prorated credits given for a line item
+line_item.desc.reclaimed_account_credits,İade Edilen Promosyon Kredileri,Promotional Credits Returned,promotional credits given for a line item
+line_item.desc.account_credits,Promosyon Kredileri,Promotional Credits,promotional credits given for a line item
+cn.discount.text,Bu faturaya uygulanan indirimler veya krediler,Discounts/credits applied on this invoice,text
+line_item.desc.reclaimed_credit_adjusments,İade Edilen Orantılı Krediler,Prorated Credits Returned,Prorated credits given for a line item
+line_item.fractional_correction,Kesirli Düzeltme,Fractional Correction,Fractional Correction
+line_item.coupon.non_discount_plural," %{coupon_details} / %{disc_amt}, %{line_items} satır öğelerine uygulandı.",%{coupon_details} of %{disc_amt} applied on line items %{line_items}.,The applied on text for coupon
+line_item.desc.units,birimleri,units,units

@@ -1,26 +1,26 @@
 key,value,reference value,description
-invoice.transaction.credit_applied,,A credit of %{amount} was applied on %{date}.,A credit of amount was applied on date
-constants.taxes.avalara_partial_tax_desc,,*This amount is calculated based on the taxable amount which may vary based on the taxation laws in your country.,avalara partial tax descirption text
-invoice.transaction.voided_on,,Voided on %{date}.,Voided on date
-transaction.payment_method.by_card_null,," by Card.",payment with card
-transaction.payment_method.via_pm,," via %{payment_method}.",via payment method type
-invoice.footer.title.adjustments,,Adjustments,Adjustments footer title
-invoice.transaction.written_off,,%{amount} was written-off on %{date}.,Amount was writted off on date
-transaction.payment_method.by_card,," by %{card_type} card ending %{last4_digits}.",payment with card
-invoice.transaction.refunded_initiated,,%{amount} refund was initiated on %{date},Amount refund was initiated on date
-constants.invoice_customization.reverse_charge_msg,,VAT is not applicable on this invoice because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge message
-invoice.transaction.refunded_completed,,%{amount} was refunded on %{date},Amount refunded on date
-invoice.footer.title.payments,,Payments,Payment footer title
-constants.invoice_customization.cn_reverse_charge_msg,,VAT is not applicable on this credit note because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge mesage for credit note
-transaction.payment_method.offline_payment,,Offline Payment,Payment through other channels
-transaction.payment_method.to_card_null,," to Card.",payment with card
-constants.invoice_customization.vat_exemption_note_export_uk,,"Please note that as the UK is no longer part of the EU, our services are outside the scope of UK VAT.",VAT Export Note for UK
-transaction.payment_method.to_card,," to %{card_type} card ending %{last4_digits}.",payment with card
-invoice.footer.title.credits,,Credits,Credits footer title
-invoice.transaction.adjustment,,An adjustment of %{amount} was made on %{date}.,Adjustment of amount was made on date
-constants.invoice_customization.quote_reverse_charge_msg,,VAT is not applicable on this %{quote_title} because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge message
-invoice.transaction.chargeback_text,,A chargeback of %{amount} has been recorded as refund on %{date},A chargeback recorded on a date
-constants.invoice_customization.vat_exemption_note_export,,This export transaction is exempt from VAT as per Article 146 of the EU VAT Directive.," VAT Exemption for Export"
-transaction.payment_method.direct_debit,,ACH,Direct Debit heading
-transaction.payment_method.via_card_wallet_pm,," via  %{payment_method} ( %{card_type} card ending %{last4_digits} ).",via payment method type
-transaction.payment_method.by_pm,," by %{payment_method}.",by payment method type
+invoice.transaction.credit_applied,已在 %{date}上应用 %{amount}的功劳。,A credit of %{amount} was applied on %{date}.,A credit of amount was applied on date
+constants.taxes.avalara_partial_tax_desc,*此金额是根据应税金额计算的，该金额可能会根据您所在国家/地区的税法而有所不同。,*This amount is calculated based on the taxable amount which may vary based on the taxation laws in your country.,avalara partial tax descirption text
+invoice.transaction.voided_on,在 %{date}无效。,Voided on %{date}.,Voided on date
+transaction.payment_method.by_card_null, 卡。, by Card.,payment with card
+transaction.payment_method.via_pm, 通过 %{payment_method}。, via %{payment_method}.,via payment method type
+invoice.footer.title.adjustments,调整项,Adjustments,Adjustments footer title
+invoice.transaction.written_off, %{amount}已于 %{date}注销。,%{amount} was written-off on %{date}.,Amount was writted off on date
+transaction.payment_method.by_card, 由 %{card_type}张卡片，以 %{last4_digits}结尾。, by %{card_type} card ending %{last4_digits}.,payment with card
+invoice.transaction.refunded_initiated, %{amount}退款已于 %{date}开始,%{amount} refund was initiated on %{date},Amount refund was initiated on date
+constants.invoice_customization.reverse_charge_msg,由于提供了有效的增值税注册号，并且已应用反向收费机制，因此增值税不适用于此发票。,VAT is not applicable on this invoice because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge message
+invoice.transaction.refunded_completed, %{amount}已于 %{date}退还,%{amount} was refunded on %{date},Amount refunded on date
+invoice.footer.title.payments,付款方式,Payments,Payment footer title
+constants.invoice_customization.cn_reverse_charge_msg,由于提供了有效的增值税注册号，并且已应用反向收费机制，因此增值税不适用于此信用证。,VAT is not applicable on this credit note because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge mesage for credit note
+transaction.payment_method.offline_payment,离线付款,Offline Payment,Payment through other channels
+transaction.payment_method.to_card_null, 卡。, to Card.,payment with card
+constants.invoice_customization.vat_exemption_note_export_uk,请注意，由于英国已不再是欧盟的一部分，因此我们的服务不在英国增值税范围之内。,"Please note that as the UK is no longer part of the EU, our services are outside the scope of UK VAT.",VAT Export Note for UK
+transaction.payment_method.to_card, 到以 %{last4_digits}结尾的 %{card_type}张卡片。, to %{card_type} card ending %{last4_digits}.,payment with card
+invoice.footer.title.credits,学分,Credits,Credits footer title
+invoice.transaction.adjustment,在 %{date}进行了 %{amount}的调整。,An adjustment of %{amount} was made on %{date}.,Adjustment of amount was made on date
+constants.invoice_customization.quote_reverse_charge_msg,增值税不适用于此 %{quote_title}，因为提供了有效的增值税注册号并且已应用了反向收费机制。,VAT is not applicable on this %{quote_title} because a valid VAT registration number was provided and the reverse charge mechanism has been applied.,default reverse charge message
+invoice.transaction.chargeback_text,已将 %{amount}的拒付款记录为 %{date}上的退款,A chargeback of %{amount} has been recorded as refund on %{date},A chargeback recorded on a date
+constants.invoice_customization.vat_exemption_note_export,根据欧盟增值税指令第146条，此出口交易免征增值税。,This export transaction is exempt from VAT as per Article 146 of the EU VAT Directive., VAT Exemption for Export
+transaction.payment_method.direct_debit,ACH,ACH,Direct Debit heading
+transaction.payment_method.via_card_wallet_pm, 通过 %{payment_method}（以 %{last4_digits}结尾的 %{card_type}卡）。, via  %{payment_method} ( %{card_type} card ending %{last4_digits} ).,via payment method type
+transaction.payment_method.by_pm, 按 %{payment_method}。, by %{payment_method}.,by payment method type

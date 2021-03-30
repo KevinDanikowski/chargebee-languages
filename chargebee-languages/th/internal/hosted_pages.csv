@@ -1,54 +1,54 @@
 key,value,reference value,description
-hp.portal.mark.backup,,Mark as Backup,Marking a payment method as Backup
-hp.billing_period.week,,%{period} Weeks,2 Weeks
-hp.portal.powered_by,,Powered by,Powered by chargebee
-hp.clientjs.cannot_be_blank,,cannot be blank,cannot be blank
-action_error.post,,There were errors while submitting,There were errors while submitting
-hp.change_link,,Change,Change link
-hp.portal.signed_up,,Signed up on %{date},Account signed up on 12-03-2016
-hp.portal.invoice.showing,,Showing,Showing invoice label
-payment_method.info.card,,card ending with %{last4_digits},card ending with 4111
-payment_method.info.direct_debit,,"%{bank_name}, Account number ending with %{last4_digits}",
-hp.portal.chargebee_secure,,Chargebee Secure Payment,Chargebee Secure Payment - security statement
-hp.portal.payment_method_role.backup,,Backup,Payment method is tagged as Backup
-hp.gocardless.desc,,Set up Direct Debit,Set up Direct Debit - gateway label
-hp.portal.mark.primary,,Mark as Primary,Marking a payment method as Primary
-hp.bt_apple_card,,%{card_type} card,Visa Card
-hp.apple_card_ending,,Card ending ... %{digits},Card Ending .. 4444
-hp.clientjs.successful_card_update,,you have successfully updated your card details.,you have successfully updated your card details.
-hp.amazon.desc,,Pay securely using the information on your Amazon account.,Pay securely using the information on your Amazon account - one liner for amazon gateway payments
-hp.portal.remove.backup,,Remove Backup,Unmarking a payment method as Backup
-hp.card_ending,,%{card_type} card ending ... %{digits},Visa Card Ending .. 4444
-hp.clientjs.successful_signup,,you have successfully signed up for the service,you have successfully signed up for the service
-apple_pay.label.tax,,TAX (YET TO BE CALCULATED),Label for tax amount
-hp.portal.paypal_redirect,,Redirecting to PayPal...,Redirecting to PayPal... - info
-hp.order_summary.terms_to_charge,,for %{no_of_terms} terms,($100.00 x 3) for 2 terms
-hp.clientjs.submit_error,,There were errors while submitting,There were errors while submitting
-hp.clientjs.problem_while_processing,,Problem while processing your form. Please verify your form details.,Problem while processing your form. Please verify your form details.
-hp.portal.payment_method_role.primary,,Primary,Payment method is tagged as Primary
-payment_method.info.paypal_express_checkout,,PayPal Express Checkout account,PayPal Express Checkout account
-hp.portal.ach_agree_details1,,"I (We) hereby authorize and request %{merchant_name} to debit funds from my (our) account at the Financial Institution indicated, and credit the funds. I (we) authorize %{merchant_name} to take any and all action required to correct any errors.","I (We) hereby authorize and request Chargebee to debit funds from my (our) account at the Financial Institution indicated, and credit the funds. I (we) authorize Chargebee to take any and all action required to correct any errors."
-hp.portal.ach_agree_details2,,"By clicking the button below, you certify that the information you have given on this ACH Debit Authorization Agreement for Direct Payments is complete, true, and submitted for the purpose selected above. It will remain in effect until I (we) notify %{merchant_name} that I (we) wish to revoke this authorization by contacting %{merchant_email} or %{merchant_phone}.","By clicking the button below, you certify that the information you have given on this ACH Debit Authorization Agreement for Direct Payments is complete, true, and submitted for the purpose selected above.  It will remain in effect until I (we) notify Chargebee that I (we) wish to revoke this authorization by contacting sam@example.com or 9898982345."
-hp.bank_account.desc,,Bank Account,Bank Account label
-hp.portal.date,,Date,Date
-hp.gocardless.redirect,,Redirecting to Direct Debit Provider...,Redirecting to Direct Debit Provider... - info
-hp.billing_period.year,,%{period} Years,2 Months
-hp.copied,,Copied,Copied URL
-hp.error.undetermined_vat_number,,Could not validate VAT number as VIES service is unavailable.,Could not validate VAT number as VIES service is unavailable.
-apple_pay.label.charges,,CHARGES,Label for main line item amount
-payment_method.info.amazon_payments,,Amazon Payments account,Amazon Payments account
-hp.clientjs.invalid_coupon_code,,Invalid coupon code,Invalid coupon code
-hp.error.undetermined_abn_number,,Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
-hp.portal.ach_agreement,,ACH Authorization Agreement,ACH Authorization Agreement - Agreement label
-hp.error.invalid_vat_number,,Invalid VAT Number,Invalid VAT Number
-hp.portal.account,,Account,Account user account label
-hp.portal.manage,,Manage,Portal account Manage label
-hp.error.invalid_abn_number,,"Invalid ABN ",Invalid ABN
-hp.billing_period.month,,%{period} Months,2 Months
-action_error.get,,There were errors while processing your request,There were errors while processing your request
-apple_pay.label.discount,,DISCOUNTS,Label for discount amount
-hp.update_payment_method.details,,Updating the payment method details...,Updating the payment method details...
-payment_method.info.direct_debit_no_bank_name,,bank account number ending with %{last4_digits},
-hp.paypal.desc,,"The safer, easier way to pay","The safer, easier way to pay - one liner for paypal gateway payments"
-hp.copy,,Copy,Copy URL
-hp.portal.bank_account,,bank account,bank account label
+hp.portal.mark.backup,ทำเครื่องหมายว่าเป็นข้อมูลสำรอง,Mark as Backup,Marking a payment method as Backup
+hp.billing_period.week, %{period} สัปดาห์,%{period} Weeks,2 Weeks
+hp.portal.powered_by,ขับเคลื่อนโดย,Powered by,Powered by chargebee
+hp.clientjs.cannot_be_blank,ต้องไม่ว่างเปล่า,cannot be blank,cannot be blank
+action_error.post,เกิดข้อผิดพลาดขณะส่ง,There were errors while submitting,There were errors while submitting
+hp.change_link,เปลี่ยน,Change,Change link
+hp.portal.signed_up,ลงทะเบียนเมื่อ %{date},Signed up on %{date},Account signed up on 12-03-2016
+hp.portal.invoice.showing,กำลังแสดง,Showing,Showing invoice label
+payment_method.info.card,การ์ดที่ลงท้ายด้วย %{last4_digits},card ending with %{last4_digits},card ending with 4111
+payment_method.info.direct_debit, %{bank_name} หมายเลขบัญชีที่ลงท้ายด้วย %{last4_digits},"%{bank_name}, Account number ending with %{last4_digits}",
+hp.portal.chargebee_secure,Chargebee การชำระเงินที่ปลอดภัย,Chargebee Secure Payment,Chargebee Secure Payment - security statement
+hp.portal.payment_method_role.backup,การสำรองข้อมูล,Backup,Payment method is tagged as Backup
+hp.gocardless.desc,ตั้งค่าการหักบัญชีอัตโนมัติ,Set up Direct Debit,Set up Direct Debit - gateway label
+hp.portal.mark.primary,ทำเครื่องหมายเป็นหลัก,Mark as Primary,Marking a payment method as Primary
+hp.bt_apple_card,การ์ด %{card_type},%{card_type} card,Visa Card
+hp.apple_card_ending,การ์ดลงท้าย ... %{digits},Card ending ... %{digits},Card Ending .. 4444
+hp.clientjs.successful_card_update,คุณอัปเดตรายละเอียดบัตรของคุณสำเร็จแล้ว,you have successfully updated your card details.,you have successfully updated your card details.
+hp.amazon.desc,ชำระเงินอย่างปลอดภัยโดยใช้ข้อมูลในบัญชี Amazon ของคุณ,Pay securely using the information on your Amazon account.,Pay securely using the information on your Amazon account - one liner for amazon gateway payments
+hp.portal.remove.backup,ลบข้อมูลสำรอง,Remove Backup,Unmarking a payment method as Backup
+hp.card_ending,บัตร %{card_type} ลงท้าย ... %{digits},%{card_type} card ending ... %{digits},Visa Card Ending .. 4444
+hp.clientjs.successful_signup,คุณได้สมัครใช้บริการเรียบร้อยแล้ว,you have successfully signed up for the service,you have successfully signed up for the service
+apple_pay.label.tax,ภาษี (ยังต้องคำนวณ),TAX (YET TO BE CALCULATED),Label for tax amount
+hp.portal.paypal_redirect,กำลังเปลี่ยนเส้นทางไปยัง PayPal ...,Redirecting to PayPal...,Redirecting to PayPal... - info
+hp.order_summary.terms_to_charge,สำหรับ %{no_of_terms} เงื่อนไข,for %{no_of_terms} terms,($100.00 x 3) for 2 terms
+hp.clientjs.submit_error,เกิดข้อผิดพลาดขณะส่ง,There were errors while submitting,There were errors while submitting
+hp.clientjs.problem_while_processing,เกิดปัญหาขณะประมวลผลแบบฟอร์มของคุณ โปรดตรวจสอบรายละเอียดแบบฟอร์มของคุณ,Problem while processing your form. Please verify your form details.,Problem while processing your form. Please verify your form details.
+hp.portal.payment_method_role.primary,หลัก,Primary,Payment method is tagged as Primary
+payment_method.info.paypal_express_checkout,บัญชี PayPal Express Checkout,PayPal Express Checkout account,PayPal Express Checkout account
+hp.portal.ach_agree_details1,ฉัน (เรา) ขออนุญาตและขอให้ %{merchant_name} หักเงินจากบัญชี (ของเรา) ที่สถาบันการเงินที่ระบุและให้เครดิตเงิน ฉัน (เรา) อนุญาตให้ %{merchant_name} ดำเนินการใด ๆ และทั้งหมดที่จำเป็นเพื่อแก้ไขข้อผิดพลาด,"I (We) hereby authorize and request %{merchant_name} to debit funds from my (our) account at the Financial Institution indicated, and credit the funds. I (we) authorize %{merchant_name} to take any and all action required to correct any errors.","I (We) hereby authorize and request Chargebee to debit funds from my (our) account at the Financial Institution indicated, and credit the funds. I (we) authorize Chargebee to take any and all action required to correct any errors."
+hp.portal.ach_agree_details2,การคลิกปุ่มด้านล่างแสดงว่าคุณรับรองว่าข้อมูลที่คุณให้ไว้ในข้อตกลงการอนุมัติการตัดบัญชี ACH สำหรับการชำระเงินโดยตรงนั้นสมบูรณ์เป็นจริงและส่งมาเพื่อวัตถุประสงค์ที่เลือกไว้ข้างต้น จะยังคงมีผลจนกว่าฉัน (เรา) จะแจ้งให้ %{merchant_name} ทราบว่าฉัน (เรา) ต้องการเพิกถอนการให้สิทธิ์นี้โดยติดต่อ %{merchant_email} หรือ %{merchant_phone},"By clicking the button below, you certify that the information you have given on this ACH Debit Authorization Agreement for Direct Payments is complete, true, and submitted for the purpose selected above. It will remain in effect until I (we) notify %{merchant_name} that I (we) wish to revoke this authorization by contacting %{merchant_email} or %{merchant_phone}.","By clicking the button below, you certify that the information you have given on this ACH Debit Authorization Agreement for Direct Payments is complete, true, and submitted for the purpose selected above.  It will remain in effect until I (we) notify Chargebee that I (we) wish to revoke this authorization by contacting sam@example.com or 9898982345."
+hp.bank_account.desc,บัญชีธนาคาร,Bank Account,Bank Account label
+hp.portal.date,วันที่,Date,Date
+hp.gocardless.redirect,กำลังเปลี่ยนเส้นทางไปยังผู้ให้บริการหักบัญชีอัตโนมัติ ...,Redirecting to Direct Debit Provider...,Redirecting to Direct Debit Provider... - info
+hp.billing_period.year, %{period} ปี,%{period} Years,2 Months
+hp.copied,คัดลอกแล้ว,Copied,Copied URL
+hp.error.undetermined_vat_number,ไม่สามารถตรวจสอบหมายเลข VAT เนื่องจากบริการ VIES ไม่พร้อมใช้งาน,Could not validate VAT number as VIES service is unavailable.,Could not validate VAT number as VIES service is unavailable.
+apple_pay.label.charges,ค่าใช้จ่าย,CHARGES,Label for main line item amount
+payment_method.info.amazon_payments,บัญชี Amazon Payments,Amazon Payments account,Amazon Payments account
+hp.clientjs.invalid_coupon_code,รหัสคูปองไม่ถูกต้อง,Invalid coupon code,Invalid coupon code
+hp.error.undetermined_abn_number,ไม่สามารถประมวลผล ABN ได้เนื่องจากเซิร์ฟเวอร์ ABN Lookup หยุดทำงาน,Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
+hp.portal.ach_agreement,ข้อตกลงการอนุญาต ACH,ACH Authorization Agreement,ACH Authorization Agreement - Agreement label
+hp.error.invalid_vat_number,หมายเลข VAT ไม่ถูกต้อง,Invalid VAT Number,Invalid VAT Number
+hp.portal.account,บัญชีผู้ใช้,Account,Account user account label
+hp.portal.manage,จัดการ,Manage,Portal account Manage label
+hp.error.invalid_abn_number,ABN ไม่ถูกต้อง,Invalid ABN ,Invalid ABN
+hp.billing_period.month, %{period} เดือน,%{period} Months,2 Months
+action_error.get,เกิดข้อผิดพลาดขณะดำเนินการตามคำขอของคุณ,There were errors while processing your request,There were errors while processing your request
+apple_pay.label.discount,ส่วนลด,DISCOUNTS,Label for discount amount
+hp.update_payment_method.details,กำลังอัปเดตรายละเอียดวิธีการชำระเงิน ...,Updating the payment method details...,Updating the payment method details...
+payment_method.info.direct_debit_no_bank_name,หมายเลขบัญชีธนาคารที่ลงท้ายด้วย %{last4_digits},bank account number ending with %{last4_digits},
+hp.paypal.desc,ปลอดภัยวิธีที่ง่ายที่จะจ่าย,"The safer, easier way to pay","The safer, easier way to pay - one liner for paypal gateway payments"
+hp.copy,สำเนา,Copy,Copy URL
+hp.portal.bank_account,บัญชีธนาคาร,bank account,bank account label

@@ -1,188 +1,188 @@
 key,value,reference value,description
-quote.label.quote_amount,,Quote Amount,Quote amount label
-quote.label.recurring_charges,,Recurring charges,Recurring charges
-quote.label.tax.inclusive,,"Incl. ",Inclusive -  inclusive of all taxes
-quote.header.label.unit_price,,Unit Price,Unit price is the heading under which the cost per unit of the product comes
-quote.title.subscription,,Subscription,Subscription sub heading
-quote.label.billing_cycle,,Billing Cycle,Billing Cycle
-quote.label.no_of_billing_cycles,,No of billing cycles,No of billing cycles
-quote.term.month,,month,month
-quote.header.label.sub_total,,Sub Total,Sub total
-quote.term.months,,months,months
-quote.label.quote_date,,Quote Date,quote date label
-quote.label.chargeable_on_trial_start,,Chargeable on trial start,Chargeable on trial start
-quote.label.vat_details,,Vat Details,VAT details label which is shown in vat incl quotes
-quote.term.year,,year,year
-quote.title.subscription_detail,,Subscription Details,Subscription Detail section heading
-quote.label.include,,"Includes ",includes
-quote.customer_email.request_card,,Update your payment method details,Email subject that prompts the customer to enter the payment method details
-quote.label.includes_discounts_and_taxes,,Includes discounts and taxes,Includes discounts and taxes
-quote.title.shipped_to,,Shipped To,Shipped to label - Under this comes the shipping address of the customer
-quote.label.tax.vat,,VAT,VAT -  is the tax description
-quote.header.label.price,,Price,Price is the heading under which the cost of the product comes
-quote.label.charges_on_acceptance,,Charges on acceptance,Charges on acceptance
-quote.label.chargeable_on_plan_activation,,Chargeable on plan activation,Chargeable on plan activation
-quote.label.payment_status.initiated,,Payment Initiated,Payment initiated for an quote text
-quote.label.proforma_invoice,,Proforma Invoice,proforma invoice label
-quote.label.proforma_invoice_date,,Proforma Invoice Date," proforma invoice data label"
-quote.label.adjustments,,Adjustments,"The adjustments made to the quote "
-quote.billing_cycle.12,,12th billing cycle,12th billing cycle
-quote.billing_cycle.11,,11th billing cycle,11th billing cycle
-quote.billing_cycle.10,,10th billing cycle,10th billing cycle
-quote.term.weeks,,weeks,weeks
-quote.billing_cycle.23,,23rd billing cycle,23rd billing cycle
-quote.billing_cycle.22,,22nd billing cycle,22nd billing cycle
-quote.billing_cycle.21,,21st billing cycle,21st billing cycle
-quote.billing_cycle.20,,20th billing cycle,20th billing cycle
-quote.label.billing_frequency,,Billing Frequency,Billing Frequency
-quote.billing_cycle.16,,16th billing cycle,16th billing cycle
-quote.billing_cycle.15,,15th billing cycle,15th billing cycle
-quote.billing_cycle.14,,14th billing cycle,14th billing cycle
-quote.billing_cycle.13,,13th billing cycle,13th billing cycle
-quote.billing_cycle.19,,19th billing cycle,19th billing cycle
-quote.billing_cycle.18,,18th billing cycle,18th billing cycle
-quote.billing_cycle.17,,17th billing cycle,17th billing cycle
-quote.billing_cycle.30,,30th billing cycle,30th billing cycle
-quote.billing_cycle.34,,34th billing cycle,34th billing cycle
-quote.billing_cycle.33,,33rd billing cycle,33rd billing cycle
-quote.billing_cycle.32,,32nd billing cycle,32nd billing cycle
-quote.billing_cycle.31,,31st billing cycle,31st billing cycle
-quote.billing_cycle.27,,27th billing cycle,27th billing cycle
-quote.billing_cycle.26,,26th billing cycle,26th billing cycle
-quote.billing_cycle.25,,25th billing cycle,25th billing cycle
-quote.billing_cycle.24,,24th billing cycle,24th billing cycle
-quote.billing_cycle.29,,29th billing cycle,29th billing cycle
-quote.billing_cycle.28,,28th billing cycle,28th billing cycle
-quote.billing_cycle.41,,41st billing cycle,41st billing cycle
-quote.billing_cycle.40,,40th billing cycle,40th billing cycle
-quote.billing_cycle.45,,45th billing cycle,45th billing cycle
-quote.billing_cycle.44,,44th billing cycle,44th billing cycle
-quote.billing_cycle.43,,43rd billing cycle,43rd billing cycle
-quote.billing_cycle.42,,42nd billing cycle,42nd billing cycle
-quote.billing_cycle.38,,38th billing cycle,38th billing cycle
-quote.billing_cycle.37,,37th billing cycle,37th billing cycle
-quote.billing_cycle.36,,36th billing cycle,36th billing cycle
-quote.billing_cycle.35,,35th billing cycle,35th billing cycle
-quote.billing_cycle.39,,39th billing cycle,39th billing cycle
-quote.billing_cycle.52,,52nd billing cycle,52nd billing cycle
-quote.billing_cycle.51,,51st billing cycle,51st billing cycle
-quote.billing_cycle.50,,50th billing cycle,50th billing cycle
-quote.billing_cycle.56,,56th billing cycle,56th billing cycle
-quote.billing_cycle.55,,55th billing cycle,55th billing cycle
-quote.billing_cycle.54,,54th billing cycle,54th billing cycle
-quote.billing_cycle.53,,53rd billing cycle,53rd billing cycle
-quote.billing_cycle.49,,49th billing cycle,49th billing cycle
-quote.billing_cycle.48,,48th billing cycle,48th billing cycle
-quote.billing_cycle.47,,47th billing cycle,47th billing cycle
-quote.billing_cycle.46,,46th billing cycle,46th billing cycle
-quote.billing_cycle.63,,63rd billing cycle,63rd billing cycle
-quote.billing_cycle.62,,62nd billing cycle,62nd billing cycle
-quote.billing_cycle.61,,61st billing cycle,61st billing cycle
-quote.billing_cycle.60,,60th billing cycle,60th billing cycle
-quote.billing_cycle.67,,67th billing cycle,67th billing cycle
-quote.billing_cycle.66,,66th billing cycle,66th billing cycle
-quote.billing_cycle.65,,65th billing cycle,65th billing cycle
-quote.billing_cycle.64,,64th billing cycle,64th billing cycle
-quote.billing_cycle.59,,59th billing cycle,59th billing cycle
-quote.billing_cycle.58,,58th billing cycle,58th billing cycle
-quote.billing_cycle.57,,57th billing cycle,57th billing cycle
-quote.billing_cycle.74,,74th billing cycle,74th billing cycle
-quote.billing_cycle.73,,73rd billing cycle,73rd billing cycle
-quote.billing_cycle.72,,72nd billing cycle,72nd billing cycle
-quote.billing_cycle.71,,71st billing cycle,71st billing cycle
-quote.billing_cycle.78,,78th billing cycle,78th billing cycle
-quote.billing_cycle.77,,77th billing cycle,77th billing cycle
-quote.billing_cycle.76,,76th billing cycle,76th billing cycle
-quote.billing_cycle.75,,75th billing cycle,75th billing cycle
-quote.billing_cycle.70,,70th billing cycle,70th billing cycle
-quote.billing_cycle.69,,69th billing cycle,69th billing cycle
-quote.billing_cycle.68,,68th billing cycle,68th billing cycle
-quote.billing_cycle.85,,85th billing cycle,85th billing cycle
-quote.billing_cycle.84,,84th billing cycle,84th billing cycle
-quote.billing_cycle.83,,83rd billing cycle,83rd billing cycle
-quote.billing_cycle.82,,82nd billing cycle,82nd billing cycle
-quote.billing_cycle.89,,89th billing cycle,89th billing cycle
-quote.billing_cycle.88,,88th billing cycle,88th billing cycle
-quote.billing_cycle.87,,87th billing cycle,87th billing cycle
-quote.billing_cycle.86,,86th billing cycle,86th billing cycle
-quote.billing_cycle.81,,81st billing cycle,81st billing cycle
-quote.billing_cycle.80,,80th billing cycle,80th billing cycle
-quote.billing_cycle.79,,79th billing cycle,79th billing cycle
-quote.billing_cycle.96,,96th billing cycle,96th billing cycle
-quote.billing_cycle.95,,95th billing cycle,95th billing cycle
-quote.billing_cycle.94,,94th billing cycle,94th billing cycle
-quote.billing_cycle.93,,93rd billing cycle,93rd billing cycle
-quote.billing_cycle.99,,99th billing cycle,99th billing cycle
-quote.billing_cycle.98,,98th billing cycle,98th billing cycle
-quote.billing_cycle.97,,97th billing cycle,97th billing cycle
-quote.billing_cycle.92,,92nd billing cycle,92nd billing cycle
-quote.billing_cycle.91,,91st billing cycle,91st billing cycle
-quote.billing_cycle.90,,90th billing cycle,90th billing cycle
-quote.inclusive_tax_single.desc,,Inclusive of %{tax_description} (%{total_amount}),For the case when one particular tax is inclusive - inclusive of vat (30)
-quote.title.billed_to,,Billed To,Billed to label - Under this comes the billing address of the customer
-quote.label.non_recurring_charges,,Non-Recurring charges,Non-Recurring charges
-quote.inclusive_tax_multi.desc,,Inclusive of taxes (%{total_amount}),The amount paid will be inclusive of the taxes -Inclusive of taxes (20)
-quote.label.id,,ID,Subscription id label
-quote.label.includes_discounts_taxes_and_prorated_charges,,"Includes discounts, taxes & prorated charges","Includes discounts, taxes & prorated charges"
-quote.label.next_billing_date,,Next Billing Date,Next billing date label
-quote.term.years,,years,years
-quote.payment_terms.due_upon_receipt,,Due Upon Receipt,"To indicate the Zero net terms "
-quote.label.transfer_details,,Transfer Details,Transfer Details label
-quote.branding.powered_by,,Powered by,Logo in an quote - Powered by Chargebee
-quote.frequency.every,,Every,Every
-quote.customer_signature.label,,Customer's Signature,Customer's Signature
-quote.label.total_recurring_charges,,Total Recurring Charges (for all billing cycles),Total Recurring Charges (for all billing cycles)
-quote.label.cust_vat,,VAT,VAT number label
-quote.label.expiry_date,," Expiry Date",Quote expiry date label
-quote.label.credits,,Credits,The store credits used in the quote
-quote.label.tax.exclusive,,"Excl. ",Exclusive - exclusive of taxes
-quote.header.label.amount,,Amount,The amount that needs to be paid
-quote.label.chargeable_on_subscription_change,,Chargeable on subscription change,Chargeable on subscription change
-quote.label.billing_period,,Billing Period,Billing period label
-quote.label.total_payable,,Total Payable,Total Payable
-quote.header.label.discounts,,Discount,Discount label
-quote.label.tax.inclusive_of_vat,,incl. VAT,VAT Inclusive -  inclusive of all taxes
-quote.label.total,,Total,Total
-quote.label.start_date,," Subscription Start Date",Subscription Start Date label
-quote.label.trial_period,,Trial Period,Trial Period
-quote.branding.test_label,,This is a sample quote generated by Chargebee,Logo in an quote
-quote.term.week,,week,week
-quote.label.payment_terms,,Payment Terms,Net D payment terms label shown in quote
-quote.billing_cycle.6,,6th billing cycle,6th billing cycle
-quote.billing_cycle.7,,7th billing cycle,7th billing cycle
-quote.billing_cycle.8,,8th billing cycle,8th billing cycle
-quote.billing_cycle.9,,9th billing cycle,9th billing cycle
-quote.billing_cycle.2,,2nd billing cycle,2nd billing cycle
-quote.billing_cycle.3,,3rd billing cycle,3rd billing cycle
-quote.label.credits_will_be_applied,,Credits available if any will be applied at the time of invoicing,Credits available if any will be applied at the time of invoicing
-quote.billing_cycle.4,,4th billing cycle,4th billing cycle
-quote.billing_cycle.5,,5th billing cycle,5th billing cycle
-quote.billing_cycle.1,,1st billing cycle,1st billing cycle
-quote.term.days,,days,days
-quote.branding.cb_name,,Chargebee,Compay name
-quote.payment_succeeded,,%{inv_amount} was paid on %{inv_date},The date at which the quote was paid
-quote.term.day,,day,day
-quote.label.due_date,,Due Date,Quote Due date label
-quote.label.tax.tax,,Tax,tax
-quote.label.contract_term.action_at_term_end,,At Term-End,Action to be taken when the contract term completes
-quote.label.sub_total,,Sub Total,Sub total
-quote.billing_cycle.100,,100th billing cycle,100th billing cycle
-quote.label.tax.exclusive_of_vat,,excl. VAT,VAT Exclusive - exclusive of taxes
-quote.header.label.description,,Description,Table heading under which the product description comes
-quote.header.label.units,,Units,Heading under which the number of units of the product purchased comes
-quote.label.cust_id,,Customer ID,Customer id label
-quote.label.round_off,,Round Off,Round off - quote amount is rounded off to a whole number
-quote.label.po_number,,PO,Purchase order number label
-quote.branding.test_proforma_label,,This is a sample proforma invoice generated by Chargebee,Test proforma invoice label in quote pdf
-quote.sub.billing_period,,%{from_date} to %{to_date},3rd sept to 22 Oct
-quote.label.payments,,Payments,Payments Applied
-quote.payment_inprogress,,%{inv_amount} payment was initiated on %{inv_date},indicates that the payment was initiated along with the date
-quote.label.contract_term.no_of_billing_cycles_on_renewal,,No. of billing cycles on renewal,No of billing cycles for subscription on contract term renewal
-quote.label.vat_exemption_note,,VAT Exemption Note,A label below which is a note
-quote.label.renewed_until_cancellation,,Renewed until cancellation,Renewed until cancellation
-quote.label.net_amount,,Net Amount,Amount that needs to be paid
-quote.label.tax_details,,Tax Details,tax details label
-quote.label.contract_term,,Contract term,Contract term of subscription
-quote.payment_terms.net_prefix,,Net %{days},To indicate the patment term prefix. Ex
-quote.label.notes,,Notes,Any quote notes that need to be displayed
-quote.label.quote,,Quote,Quote number label
+quote.label.quote_amount,Teklif Tutarı,Quote Amount,Quote amount label
+quote.label.recurring_charges,Yinelenen ücretler,Recurring charges,Recurring charges
+quote.label.tax.inclusive,Kapsayıcı,Incl. ,Inclusive -  inclusive of all taxes
+quote.header.label.unit_price,Birim fiyat,Unit Price,Unit price is the heading under which the cost per unit of the product comes
+quote.title.subscription,Abonelik,Subscription,Subscription sub heading
+quote.label.billing_cycle,Fatura döngüsü,Billing Cycle,Billing Cycle
+quote.label.no_of_billing_cycles,Fatura döngüsü sayısı,No of billing cycles,No of billing cycles
+quote.term.month,ay,month,month
+quote.header.label.sub_total,Ara toplam,Sub Total,Sub total
+quote.term.months,aylar,months,months
+quote.label.quote_date,Teklif Tarihi,Quote Date,quote date label
+quote.label.chargeable_on_trial_start,Deneme başlangıcında ücretlendirilebilir,Chargeable on trial start,Chargeable on trial start
+quote.label.vat_details,KDV Ayrıntıları,Vat Details,VAT details label which is shown in vat incl quotes
+quote.term.year,yıl,year,year
+quote.title.subscription_detail,Abonelik Ayrıntıları,Subscription Details,Subscription Detail section heading
+quote.label.include,Dahil edilenler,Includes ,includes
+quote.customer_email.request_card,Ödeme yöntemi ayrıntılarınızı güncelleyin,Update your payment method details,Email subject that prompts the customer to enter the payment method details
+quote.label.includes_discounts_and_taxes,İndirimler ve vergiler dahil,Includes discounts and taxes,Includes discounts and taxes
+quote.title.shipped_to,Kargolandı,Shipped To,Shipped to label - Under this comes the shipping address of the customer
+quote.label.tax.vat,VAT,VAT,VAT -  is the tax description
+quote.header.label.price,Fiyat,Price,Price is the heading under which the cost of the product comes
+quote.label.charges_on_acceptance,Kabul ücretleri,Charges on acceptance,Charges on acceptance
+quote.label.chargeable_on_plan_activation,Plan aktivasyonunda ücretlendirilebilir,Chargeable on plan activation,Chargeable on plan activation
+quote.label.payment_status.initiated,Ödeme Başlatıldı,Payment Initiated,Payment initiated for an quote text
+quote.label.proforma_invoice,Proforma fatura,Proforma Invoice,proforma invoice label
+quote.label.proforma_invoice_date,Proforma Fatura Tarihi,Proforma Invoice Date, proforma invoice data label
+quote.label.adjustments,Ayarlamalar,Adjustments,The adjustments made to the quote 
+quote.billing_cycle.12,12. fatura döngüsü,12th billing cycle,12th billing cycle
+quote.billing_cycle.11,11. fatura döngüsü,11th billing cycle,11th billing cycle
+quote.billing_cycle.10,10. faturalandırma döngüsü,10th billing cycle,10th billing cycle
+quote.term.weeks,haftalar,weeks,weeks
+quote.billing_cycle.23,23. faturalandırma döngüsü,23rd billing cycle,23rd billing cycle
+quote.billing_cycle.22,22 faturalandırma döngüsü,22nd billing cycle,22nd billing cycle
+quote.billing_cycle.21,21. faturalandırma döngüsü,21st billing cycle,21st billing cycle
+quote.billing_cycle.20,20. fatura döngüsü,20th billing cycle,20th billing cycle
+quote.label.billing_frequency,Fatura Sıklığı,Billing Frequency,Billing Frequency
+quote.billing_cycle.16,16. fatura döngüsü,16th billing cycle,16th billing cycle
+quote.billing_cycle.15,15. fatura döngüsü,15th billing cycle,15th billing cycle
+quote.billing_cycle.14,14. fatura döngüsü,14th billing cycle,14th billing cycle
+quote.billing_cycle.13,13. fatura döngüsü,13th billing cycle,13th billing cycle
+quote.billing_cycle.19,19. faturalandırma döngüsü,19th billing cycle,19th billing cycle
+quote.billing_cycle.18,18. faturalandırma döngüsü,18th billing cycle,18th billing cycle
+quote.billing_cycle.17,17. fatura döngüsü,17th billing cycle,17th billing cycle
+quote.billing_cycle.30,30. faturalandırma döngüsü,30th billing cycle,30th billing cycle
+quote.billing_cycle.34,34. faturalandırma döngüsü,34th billing cycle,34th billing cycle
+quote.billing_cycle.33,33. faturalandırma döngüsü,33rd billing cycle,33rd billing cycle
+quote.billing_cycle.32,32. fatura döngüsü,32nd billing cycle,32nd billing cycle
+quote.billing_cycle.31,31. faturalandırma döngüsü,31st billing cycle,31st billing cycle
+quote.billing_cycle.27,27. faturalandırma döngüsü,27th billing cycle,27th billing cycle
+quote.billing_cycle.26,26. faturalandırma döngüsü,26th billing cycle,26th billing cycle
+quote.billing_cycle.25,25. faturalandırma döngüsü,25th billing cycle,25th billing cycle
+quote.billing_cycle.24,24 faturalandırma döngüsü,24th billing cycle,24th billing cycle
+quote.billing_cycle.29,29. faturalandırma döngüsü,29th billing cycle,29th billing cycle
+quote.billing_cycle.28,28. faturalandırma döngüsü,28th billing cycle,28th billing cycle
+quote.billing_cycle.41,41. faturalandırma döngüsü,41st billing cycle,41st billing cycle
+quote.billing_cycle.40,40. faturalandırma döngüsü,40th billing cycle,40th billing cycle
+quote.billing_cycle.45,45. fatura döngüsü,45th billing cycle,45th billing cycle
+quote.billing_cycle.44,44. faturalandırma döngüsü,44th billing cycle,44th billing cycle
+quote.billing_cycle.43,43. fatura döngüsü,43rd billing cycle,43rd billing cycle
+quote.billing_cycle.42,42. faturalandırma döngüsü,42nd billing cycle,42nd billing cycle
+quote.billing_cycle.38,38. fatura döngüsü,38th billing cycle,38th billing cycle
+quote.billing_cycle.37,37. faturalandırma döngüsü,37th billing cycle,37th billing cycle
+quote.billing_cycle.36,36. faturalandırma döngüsü,36th billing cycle,36th billing cycle
+quote.billing_cycle.35,35. faturalandırma döngüsü,35th billing cycle,35th billing cycle
+quote.billing_cycle.39,39. faturalandırma döngüsü,39th billing cycle,39th billing cycle
+quote.billing_cycle.52,52. faturalandırma döngüsü,52nd billing cycle,52nd billing cycle
+quote.billing_cycle.51,51. faturalandırma döngüsü,51st billing cycle,51st billing cycle
+quote.billing_cycle.50,50. faturalandırma döngüsü,50th billing cycle,50th billing cycle
+quote.billing_cycle.56,56. fatura döngüsü,56th billing cycle,56th billing cycle
+quote.billing_cycle.55,55. faturalandırma döngüsü,55th billing cycle,55th billing cycle
+quote.billing_cycle.54,54. fatura döngüsü,54th billing cycle,54th billing cycle
+quote.billing_cycle.53,53. faturalandırma döngüsü,53rd billing cycle,53rd billing cycle
+quote.billing_cycle.49,49. faturalandırma döngüsü,49th billing cycle,49th billing cycle
+quote.billing_cycle.48,48. fatura döngüsü,48th billing cycle,48th billing cycle
+quote.billing_cycle.47,47. fatura döngüsü,47th billing cycle,47th billing cycle
+quote.billing_cycle.46,46. ​​fatura döngüsü,46th billing cycle,46th billing cycle
+quote.billing_cycle.63,63. fatura döngüsü,63rd billing cycle,63rd billing cycle
+quote.billing_cycle.62,62 faturalandırma döngüsü,62nd billing cycle,62nd billing cycle
+quote.billing_cycle.61,61. faturalandırma döngüsü,61st billing cycle,61st billing cycle
+quote.billing_cycle.60,60. faturalandırma döngüsü,60th billing cycle,60th billing cycle
+quote.billing_cycle.67,67. faturalandırma döngüsü,67th billing cycle,67th billing cycle
+quote.billing_cycle.66,66. fatura döngüsü,66th billing cycle,66th billing cycle
+quote.billing_cycle.65,65. fatura döngüsü,65th billing cycle,65th billing cycle
+quote.billing_cycle.64,64. fatura döngüsü,64th billing cycle,64th billing cycle
+quote.billing_cycle.59,59. faturalandırma döngüsü,59th billing cycle,59th billing cycle
+quote.billing_cycle.58,58. faturalandırma döngüsü,58th billing cycle,58th billing cycle
+quote.billing_cycle.57,57. faturalandırma döngüsü,57th billing cycle,57th billing cycle
+quote.billing_cycle.74,74. faturalandırma döngüsü,74th billing cycle,74th billing cycle
+quote.billing_cycle.73,73 faturalandırma döngüsü,73rd billing cycle,73rd billing cycle
+quote.billing_cycle.72,72. faturalandırma döngüsü,72nd billing cycle,72nd billing cycle
+quote.billing_cycle.71,71. faturalandırma döngüsü,71st billing cycle,71st billing cycle
+quote.billing_cycle.78,78. fatura döngüsü,78th billing cycle,78th billing cycle
+quote.billing_cycle.77,77. faturalandırma döngüsü,77th billing cycle,77th billing cycle
+quote.billing_cycle.76,76. fatura döngüsü,76th billing cycle,76th billing cycle
+quote.billing_cycle.75,75. faturalandırma döngüsü,75th billing cycle,75th billing cycle
+quote.billing_cycle.70,70. faturalandırma döngüsü,70th billing cycle,70th billing cycle
+quote.billing_cycle.69,69. faturalandırma döngüsü,69th billing cycle,69th billing cycle
+quote.billing_cycle.68,68. fatura döngüsü,68th billing cycle,68th billing cycle
+quote.billing_cycle.85,85. fatura döngüsü,85th billing cycle,85th billing cycle
+quote.billing_cycle.84,84. fatura döngüsü,84th billing cycle,84th billing cycle
+quote.billing_cycle.83,83. faturalandırma döngüsü,83rd billing cycle,83rd billing cycle
+quote.billing_cycle.82,82 faturalandırma döngüsü,82nd billing cycle,82nd billing cycle
+quote.billing_cycle.89,89. faturalandırma döngüsü,89th billing cycle,89th billing cycle
+quote.billing_cycle.88,88. faturalandırma döngüsü,88th billing cycle,88th billing cycle
+quote.billing_cycle.87,87. faturalandırma döngüsü,87th billing cycle,87th billing cycle
+quote.billing_cycle.86,86. fatura döngüsü,86th billing cycle,86th billing cycle
+quote.billing_cycle.81,81. faturalandırma döngüsü,81st billing cycle,81st billing cycle
+quote.billing_cycle.80,80. fatura döngüsü,80th billing cycle,80th billing cycle
+quote.billing_cycle.79,79. faturalandırma döngüsü,79th billing cycle,79th billing cycle
+quote.billing_cycle.96,96. faturalandırma döngüsü,96th billing cycle,96th billing cycle
+quote.billing_cycle.95,95. fatura döngüsü,95th billing cycle,95th billing cycle
+quote.billing_cycle.94,94. fatura döngüsü,94th billing cycle,94th billing cycle
+quote.billing_cycle.93,93. fatura döngüsü,93rd billing cycle,93rd billing cycle
+quote.billing_cycle.99,99. faturalandırma döngüsü,99th billing cycle,99th billing cycle
+quote.billing_cycle.98,98. faturalandırma döngüsü,98th billing cycle,98th billing cycle
+quote.billing_cycle.97,97. faturalandırma döngüsü,97th billing cycle,97th billing cycle
+quote.billing_cycle.92,92. faturalandırma döngüsü,92nd billing cycle,92nd billing cycle
+quote.billing_cycle.91,91. faturalandırma döngüsü,91st billing cycle,91st billing cycle
+quote.billing_cycle.90,90. fatura döngüsü,90th billing cycle,90th billing cycle
+quote.inclusive_tax_single.desc, %{tax_description} dahil ( %{total_amount}),Inclusive of %{tax_description} (%{total_amount}),For the case when one particular tax is inclusive - inclusive of vat (30)
+quote.title.billed_to,Fatura,Billed To,Billed to label - Under this comes the billing address of the customer
+quote.label.non_recurring_charges,Yinelenmeyen ücretler,Non-Recurring charges,Non-Recurring charges
+quote.inclusive_tax_multi.desc,Vergiler dahil ( %{total_amount}),Inclusive of taxes (%{total_amount}),The amount paid will be inclusive of the taxes -Inclusive of taxes (20)
+quote.label.id,ID,ID,Subscription id label
+quote.label.includes_discounts_taxes_and_prorated_charges,"İndirimler, vergiler ve orantılı ücretler dahildir","Includes discounts, taxes & prorated charges","Includes discounts, taxes & prorated charges"
+quote.label.next_billing_date,Sonraki Fatura Tarihi,Next Billing Date,Next billing date label
+quote.term.years,yıl,years,years
+quote.payment_terms.due_upon_receipt,Makbuz Üzerine Vade,Due Upon Receipt,To indicate the Zero net terms 
+quote.label.transfer_details,Transfer Detayları,Transfer Details,Transfer Details label
+quote.branding.powered_by,Tarafından desteklenmektedir,Powered by,Logo in an quote - Powered by Chargebee
+quote.frequency.every,Her,Every,Every
+quote.customer_signature.label,Müşteri imzası,Customer's Signature,Customer's Signature
+quote.label.total_recurring_charges,Toplam Yinelenen Ücretler (tüm fatura döngüleri için),Total Recurring Charges (for all billing cycles),Total Recurring Charges (for all billing cycles)
+quote.label.cust_vat,VAT,VAT,VAT number label
+quote.label.expiry_date, Son kullanma tarihi, Expiry Date,Quote expiry date label
+quote.label.credits,Kredi,Credits,The store credits used in the quote
+quote.label.tax.exclusive,Ayrıcalıklı,Excl. ,Exclusive - exclusive of taxes
+quote.header.label.amount,Miktar,Amount,The amount that needs to be paid
+quote.label.chargeable_on_subscription_change,Abonelik değişikliğinde ücretlendirilebilir,Chargeable on subscription change,Chargeable on subscription change
+quote.label.billing_period,Fatura donemi,Billing Period,Billing period label
+quote.label.total_payable,Ödenecek Toplam,Total Payable,Total Payable
+quote.header.label.discounts,İndirim,Discount,Discount label
+quote.label.tax.inclusive_of_vat,KDV dahil,incl. VAT,VAT Inclusive -  inclusive of all taxes
+quote.label.total,Toplam,Total,Total
+quote.label.start_date, Abonelik Başlangıç ​​Tarihi, Subscription Start Date,Subscription Start Date label
+quote.label.trial_period,Deneme süresi,Trial Period,Trial Period
+quote.branding.test_label,"Bu, Chargebee tarafından oluşturulan örnek bir alıntıdır",This is a sample quote generated by Chargebee,Logo in an quote
+quote.term.week,hafta,week,week
+quote.label.payment_terms,Ödeme şartları,Payment Terms,Net D payment terms label shown in quote
+quote.billing_cycle.6,6. fatura döngüsü,6th billing cycle,6th billing cycle
+quote.billing_cycle.7,7. faturalandırma döngüsü,7th billing cycle,7th billing cycle
+quote.billing_cycle.8,8. fatura döngüsü,8th billing cycle,8th billing cycle
+quote.billing_cycle.9,9. fatura döngüsü,9th billing cycle,9th billing cycle
+quote.billing_cycle.2,2. fatura döngüsü,2nd billing cycle,2nd billing cycle
+quote.billing_cycle.3,3. fatura döngüsü,3rd billing cycle,3rd billing cycle
+quote.label.credits_will_be_applied,"Faturalama sırasında uygulanacak varsa, kullanılabilir krediler",Credits available if any will be applied at the time of invoicing,Credits available if any will be applied at the time of invoicing
+quote.billing_cycle.4,4. faturalandırma döngüsü,4th billing cycle,4th billing cycle
+quote.billing_cycle.5,5. faturalandırma döngüsü,5th billing cycle,5th billing cycle
+quote.billing_cycle.1,1. faturalandırma döngüsü,1st billing cycle,1st billing cycle
+quote.term.days,günler,days,days
+quote.branding.cb_name,Chargebee,Chargebee,Compay name
+quote.payment_succeeded," %{inv_amount}, %{inv_date} tarihinde ödendi",%{inv_amount} was paid on %{inv_date},The date at which the quote was paid
+quote.term.day,gün,day,day
+quote.label.due_date,Bitiş tarihi,Due Date,Quote Due date label
+quote.label.tax.tax,Vergi,Tax,tax
+quote.label.contract_term.action_at_term_end,Dönem Sonunda,At Term-End,Action to be taken when the contract term completes
+quote.label.sub_total,Ara toplam,Sub Total,Sub total
+quote.billing_cycle.100,100. faturalandırma döngüsü,100th billing cycle,100th billing cycle
+quote.label.tax.exclusive_of_vat,KDV hariç,excl. VAT,VAT Exclusive - exclusive of taxes
+quote.header.label.description,Açıklama,Description,Table heading under which the product description comes
+quote.header.label.units,Birimler,Units,Heading under which the number of units of the product purchased comes
+quote.label.cust_id,Müşteri Kimliği,Customer ID,Customer id label
+quote.label.round_off,Yuvarlama,Round Off,Round off - quote amount is rounded off to a whole number
+quote.label.po_number,PO,PO,Purchase order number label
+quote.branding.test_proforma_label,"Bu, Chargebee tarafından oluşturulan örnek bir proforma faturadır",This is a sample proforma invoice generated by Chargebee,Test proforma invoice label in quote pdf
+quote.sub.billing_period,%{from_date} - %{to_date},%{from_date} to %{to_date},3rd sept to 22 Oct
+quote.label.payments,Ödemeler,Payments,Payments Applied
+quote.payment_inprogress, %{inv_amount} ödemesi %{inv_date} tarihinde başlatıldı,%{inv_amount} payment was initiated on %{inv_date},indicates that the payment was initiated along with the date
+quote.label.contract_term.no_of_billing_cycles_on_renewal,Yenilemede faturalama döngüsü sayısı,No. of billing cycles on renewal,No of billing cycles for subscription on contract term renewal
+quote.label.vat_exemption_note,KDV Muafiyeti Notu,VAT Exemption Note,A label below which is a note
+quote.label.renewed_until_cancellation,İptal edilene kadar yenilendi,Renewed until cancellation,Renewed until cancellation
+quote.label.net_amount,Net tutar,Net Amount,Amount that needs to be paid
+quote.label.tax_details,Vergi Ayrıntıları,Tax Details,tax details label
+quote.label.contract_term,Sözleşme süresi,Contract term,Contract term of subscription
+quote.payment_terms.net_prefix,Net %{days},Net %{days},To indicate the patment term prefix. Ex
+quote.label.notes,Notlar,Notes,Any quote notes that need to be displayed
+quote.label.quote,Alıntı,Quote,Quote number label

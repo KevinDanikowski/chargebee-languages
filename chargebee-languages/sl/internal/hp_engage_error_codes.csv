@@ -1,4 +1,4 @@
 key,value,reference value,description
-extend_sub_click_from_link,,You need to try again by clicking the link in the email we sent,You need to try again by clicking the link in the email we sent
-not_in_extend_sub_state,,Operation allowed only for non-renewing subscription,Operation allowed only for non-renewing subscription
-extend_sub_not_allowed_forever_sub,,Extend subscription not allowed for forever subscription,Extend subscription not allowed for forever subscription
+extend_sub_click_from_link,"Poskusite znova, tako da kliknete povezavo v e-poštnem sporočilu, ki smo ga poslali",You need to try again by clicking the link in the email we sent,You need to try again by clicking the link in the email we sent
+not_in_extend_sub_state,Delovanje je dovoljeno samo za neobnovljeno naročnino,Operation allowed only for non-renewing subscription,Operation allowed only for non-renewing subscription
+extend_sub_not_allowed_forever_sub,Podaljšanje naročnine ni dovoljeno za večno naročnino,Extend subscription not allowed for forever subscription,Extend subscription not allowed for forever subscription

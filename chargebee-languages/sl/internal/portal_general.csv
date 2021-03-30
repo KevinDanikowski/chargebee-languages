@@ -1,11 +1,11 @@
 key,value,reference value,description
-portal.stripe_acc_status_reason.errored,,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
-portal.change_password.reenter_new_password,,Passwords do not match,Passwords do not match
-portal.change_password.new_password_not_same,,New password is same as the current password,New password is same as the current password
-portal.change_password.current_password.incorrect,,The password you gave is incorrect,The password you gave is incorrect
-portal.stripe_acc_status_reason.verification_failed,,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
-portal.account_details.address,,Address,Address Label
-portal.stripe_acc_status_reason.validated,,The bank account is not yet verified,The bank account is not yet verified
-portal.stripe_acc_status_reason.verified,,The bank account is verified,The bank account is verified
-portal.stripe_acc_status_reason.new,,The bank account is not yet verified,The bank account is not yet verified
-portal.change_password.recently_used,,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again
+portal.stripe_acc_status_reason.errored,"Nedavno nakazilo, poslano na bančni račun, ni uspelo. Bančnega računa ni mogoče uporabiti za prihodnja plačila",Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
+portal.change_password.reenter_new_password,geslo se ne ujema,Passwords do not match,Passwords do not match
+portal.change_password.new_password_not_same,Novo geslo je enako trenutnemu geslu,New password is same as the current password,New password is same as the current password
+portal.change_password.current_password.incorrect,"Geslo, ki ste ga navedli, ni pravilno",The password you gave is incorrect,The password you gave is incorrect
+portal.stripe_acc_status_reason.verification_failed,Največ poskusov preverjanja bančnega računa je bilo preseženih,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
+portal.account_details.address,Naslov,Address,Address Label
+portal.stripe_acc_status_reason.validated,Bančni račun še ni preverjen,The bank account is not yet verified,The bank account is not yet verified
+portal.stripe_acc_status_reason.verified,Bančni račun je preverjen,The bank account is verified,The bank account is verified
+portal.stripe_acc_status_reason.new,Bančni račun še ni preverjen,The bank account is not yet verified,The bank account is not yet verified
+portal.change_password.recently_used,Pred kratkim uporabljenih gesel ni mogoče ponovno uporabiti,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again

@@ -1,11 +1,11 @@
 key,value,reference value,description
-portal.stripe_acc_status_reason.errored,,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
-portal.change_password.reenter_new_password,,Passwords do not match,Passwords do not match
-portal.change_password.new_password_not_same,,New password is same as the current password,New password is same as the current password
-portal.change_password.current_password.incorrect,,The password you gave is incorrect,The password you gave is incorrect
-portal.stripe_acc_status_reason.verification_failed,,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
-portal.account_details.address,,Address,Address Label
-portal.stripe_acc_status_reason.validated,,The bank account is not yet verified,The bank account is not yet verified
-portal.stripe_acc_status_reason.verified,,The bank account is verified,The bank account is verified
-portal.stripe_acc_status_reason.new,,The bank account is not yet verified,The bank account is not yet verified
-portal.change_password.recently_used,,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again
+portal.stripe_acc_status_reason.errored,การโอนเงินล่าสุดที่ส่งไปยังบัญชีธนาคารล้มเหลว ไม่สามารถใช้บัญชีธนาคารสำหรับการชำระเงินในอนาคต,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
+portal.change_password.reenter_new_password,รหัสผ่านไม่ตรงกัน,Passwords do not match,Passwords do not match
+portal.change_password.new_password_not_same,รหัสผ่านใหม่เหมือนกับรหัสผ่านปัจจุบัน,New password is same as the current password,New password is same as the current password
+portal.change_password.current_password.incorrect,รหัสผ่านที่คุณระบุไม่ถูกต้อง,The password you gave is incorrect,The password you gave is incorrect
+portal.stripe_acc_status_reason.verification_failed,ความพยายามสูงสุดในการยืนยันบัญชีธนาคารถูกขีดฆ่า,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
+portal.account_details.address,ที่อยู่,Address,Address Label
+portal.stripe_acc_status_reason.validated,บัญชีธนาคารยังไม่ได้รับการยืนยัน,The bank account is not yet verified,The bank account is not yet verified
+portal.stripe_acc_status_reason.verified,บัญชีธนาคารได้รับการยืนยันแล้ว,The bank account is verified,The bank account is verified
+portal.stripe_acc_status_reason.new,บัญชีธนาคารยังไม่ได้รับการยืนยัน,The bank account is not yet verified,The bank account is not yet verified
+portal.change_password.recently_used,รหัสผ่านที่ใช้ล่าสุดไม่สามารถใช้ซ้ำได้อีก,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again

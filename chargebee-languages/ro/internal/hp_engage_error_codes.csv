@@ -1,4 +1,4 @@
 key,value,reference value,description
-extend_sub_click_from_link,,You need to try again by clicking the link in the email we sent,You need to try again by clicking the link in the email we sent
-not_in_extend_sub_state,,Operation allowed only for non-renewing subscription,Operation allowed only for non-renewing subscription
-extend_sub_not_allowed_forever_sub,,Extend subscription not allowed for forever subscription,Extend subscription not allowed for forever subscription
+extend_sub_click_from_link,Trebuie să încercați din nou făcând clic pe linkul din e-mailul pe care l-am trimis,You need to try again by clicking the link in the email we sent,You need to try again by clicking the link in the email we sent
+not_in_extend_sub_state,Operațiunea este permisă numai pentru abonamentul care nu reînnoiește,Operation allowed only for non-renewing subscription,Operation allowed only for non-renewing subscription
+extend_sub_not_allowed_forever_sub,Extinderea abonamentului nu este permisă pentru abonamentul permanent,Extend subscription not allowed for forever subscription,Extend subscription not allowed for forever subscription

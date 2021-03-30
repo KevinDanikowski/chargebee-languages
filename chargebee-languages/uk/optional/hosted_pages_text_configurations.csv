@@ -1,92 +1,92 @@
 key,value,reference value,description
-cbjs_grp.bank,,Bank,Bank
-cbjs_grp.select_bank,,Select Bank,Select Bank
-cbjs_grp.list_supported_bank,,Fetching list of supported banks,Fetching list of supported banks
-inapp_checkout.customer.header,,Add your account details,Add your account details
-inapp_checkout.customer.header.edit,,Editing account details,Editing account details
-inapp_checkout.customer.update,,Update,Update
-inapp_checkout.customer.next,,Next,Next
-inapp_checkout.billing_address.header,,Add your billing address,Add your billing address
-inapp_checkout.billing_address.header.edit,,Editing billing address,Editing billing address
-inapp_checkout.billing_address.update,,Update,Update
-inapp_checkout.billing_address.next,,Next,Next
-inapp_checkout.shipping_address.header,,Add your shipping address,Add your shipping address
-inapp_checkout.shipping_address.header.edit,,Editing shipping address,Editing shipping address
-inapp_checkout.shipping_address.update,,Update,Update
-inapp_checkout.shipping_address.next,,Next,Next
-inapp_checkout.choose_sa.header,,Choose Shipping address,Choose Shipping address
-inapp_checkout.billing_address.copy_to_shipping,,Ship to my billing address,Ship to my billing address
-inapp_checkout.shipping_address.choose.add,,Add New,Add New
-inapp_checkout.payment_method.choose.add,,Add Payment Method,Add Payment Method
-inapp_checkout.payment_method.header,,Add your payment details,Add your payment details
-inapp_checkout.payment_method.header.edit,,Editing payment details,Editing payment details
-inapp_checkout.payment_method.header.select,,Select a payment method,Select a payment method
-inapp_checkout.payment_method.footer.choose,,Choose a different payment method,Choose a different payment method
-inapp_checkout.payment_method.update,,Update,Update
-inapp_checkout.payment_method.next,,Next,Next
-inapp_checkout.subscription.header,,Add your subscription details,Add your subscription details
-inapp_checkout.invoice.header,,Add your purchase details,Add your purchase details
-inapp_checkout.subscription.header.edit,,Editing Subscription Details,Editing Subscription Details
-inapp_checkout.invoice.header.edit,,Editing Purchase Details,Editing Purchase Details
-inapp_checkout.subscription.update,,Update,Update
-inapp_checkout.invoice.update,,Update,Update
-inapp_checkout.subscription.next,,Next,Next
-inapp_checkout.invoice.next,,Next,Next
-inapp_checkout.review.header,,Complete your order,Complete your order
-inapp_checkout.pay_review.header,,Complete your order,Complete your order
-inapp_checkout.review.subscribe_btn.current_charge_present.txt,,Pay %{amount} & subscribe,Pay %{amount} & subscribe
-inapp_checkout.review.subscribe_btn.current_charge_zero.txt,,Subscribe,Subscribe
-inapp_checkout.review.order.header,,Order summary,Order summary
-inapp_checkout.review.account.header,,Account,Account
-inapp_checkout.review.billing.header,,Billing,Billing
-inapp_checkout.review.shipping.header,,Shipping,Shipping
-inapp_checkout.review.billing_shipping.header,,Billing & Shipping,Billing & Shipping
-inapp_checkout.review.subscription.header,,Subscription Details,Subscription Details
-inapp_checkout.review.invoice.header,,Purchase Details,Purchase Details
-inapp_checkout.review.pm.header,,Payment,Payment
-inapp_checkout.review.more,,Review Details,Review Details
-inapp_checkout.shipping_address.header.choose,,Choose Shipping Address,Choose Shipping Address
-inapp_checkout.choose_pm.header,,Choose Payment Method,Choose Payment Method
-inapp_checkout.coupon.apply,,Apply,Apply
-inapp_checkout.coupon.label,,Apply coupon,Apply coupon
-inapp_checkout.coupon.placeholder,,Enter coupon code,Enter coupon code
-inapp_checkout.cart.header.edit,,Edit order,Edit order
-inapp_checkout.cart.header,,Your order,Your order
-inapp_checkout.cart.next,,Proceed To Checkout,Proceed To Checkout
-inapp_checkout.cart.remove,,Remove,Remove
-inapp_checkout.cart.recommended_addon_title,,Recommended addons,Recommended addons
-inapp_checkout.payment_method.card.display_name,,Card,Card
-inapp_checkout.payment_method.paypal.display_name,,PayPal,PayPal
+cbjs_grp.bank,Банку,Bank,Bank
+cbjs_grp.select_bank,Виберіть Банк,Select Bank,Select Bank
+cbjs_grp.list_supported_bank,Вибір списку підтримуваних банків,Fetching list of supported banks,Fetching list of supported banks
+inapp_checkout.customer.header,Додайте дані свого облікового запису,Add your account details,Add your account details
+inapp_checkout.customer.header.edit,Редагування деталей облікового запису,Editing account details,Editing account details
+inapp_checkout.customer.update,Оновлення,Update,Update
+inapp_checkout.customer.next,Далі,Next,Next
+inapp_checkout.billing_address.header,Додайте свою платіжну адресу,Add your billing address,Add your billing address
+inapp_checkout.billing_address.header.edit,Редагування адреси виставлення рахунку,Editing billing address,Editing billing address
+inapp_checkout.billing_address.update,Оновлення,Update,Update
+inapp_checkout.billing_address.next,Далі,Next,Next
+inapp_checkout.shipping_address.header,Додайте свою адресу доставки,Add your shipping address,Add your shipping address
+inapp_checkout.shipping_address.header.edit,Редагування адреси доставки,Editing shipping address,Editing shipping address
+inapp_checkout.shipping_address.update,Оновлення,Update,Update
+inapp_checkout.shipping_address.next,Далі,Next,Next
+inapp_checkout.choose_sa.header,Виберіть адресу доставки,Choose Shipping address,Choose Shipping address
+inapp_checkout.billing_address.copy_to_shipping,Відправити на мою платіжну адресу,Ship to my billing address,Ship to my billing address
+inapp_checkout.shipping_address.choose.add,Додати новий,Add New,Add New
+inapp_checkout.payment_method.choose.add,Додати спосіб оплати,Add Payment Method,Add Payment Method
+inapp_checkout.payment_method.header,Додайте свої платіжні реквізити,Add your payment details,Add your payment details
+inapp_checkout.payment_method.header.edit,Редагування платіжних реквізитів,Editing payment details,Editing payment details
+inapp_checkout.payment_method.header.select,Виберіть спосіб оплати,Select a payment method,Select a payment method
+inapp_checkout.payment_method.footer.choose,Виберіть інший спосіб оплати,Choose a different payment method,Choose a different payment method
+inapp_checkout.payment_method.update,Оновлення,Update,Update
+inapp_checkout.payment_method.next,Далі,Next,Next
+inapp_checkout.subscription.header,Додайте деталі передплати,Add your subscription details,Add your subscription details
+inapp_checkout.invoice.header,Додайте деталі покупки,Add your purchase details,Add your purchase details
+inapp_checkout.subscription.header.edit,Редагування деталей передплати,Editing Subscription Details,Editing Subscription Details
+inapp_checkout.invoice.header.edit,Редагування деталей закупівлі,Editing Purchase Details,Editing Purchase Details
+inapp_checkout.subscription.update,Оновлення,Update,Update
+inapp_checkout.invoice.update,Оновлення,Update,Update
+inapp_checkout.subscription.next,Далі,Next,Next
+inapp_checkout.invoice.next,Далі,Next,Next
+inapp_checkout.review.header,Заповніть замовлення,Complete your order,Complete your order
+inapp_checkout.pay_review.header,Заповніть замовлення,Complete your order,Complete your order
+inapp_checkout.review.subscribe_btn.current_charge_present.txt,Сплатіть %{amount} і підпишіться,Pay %{amount} & subscribe,Pay %{amount} & subscribe
+inapp_checkout.review.subscribe_btn.current_charge_zero.txt,Підпишіться,Subscribe,Subscribe
+inapp_checkout.review.order.header,Підсумок Замовлення,Order summary,Order summary
+inapp_checkout.review.account.header,Рахунок,Account,Account
+inapp_checkout.review.billing.header,Виставлення рахунків,Billing,Billing
+inapp_checkout.review.shipping.header,Доставка,Shipping,Shipping
+inapp_checkout.review.billing_shipping.header,Виставлення рахунків та доставка,Billing & Shipping,Billing & Shipping
+inapp_checkout.review.subscription.header,Деталі передплати,Subscription Details,Subscription Details
+inapp_checkout.review.invoice.header,Деталі покупки,Purchase Details,Purchase Details
+inapp_checkout.review.pm.header,Оплата,Payment,Payment
+inapp_checkout.review.more,Деталі огляду,Review Details,Review Details
+inapp_checkout.shipping_address.header.choose,Виберіть адресу доставки,Choose Shipping Address,Choose Shipping Address
+inapp_checkout.choose_pm.header,Виберіть спосіб оплати,Choose Payment Method,Choose Payment Method
+inapp_checkout.coupon.apply,Подати заявку,Apply,Apply
+inapp_checkout.coupon.label,Застосувати купон,Apply coupon,Apply coupon
+inapp_checkout.coupon.placeholder,Введіть код купона,Enter coupon code,Enter coupon code
+inapp_checkout.cart.header.edit,Редагувати замовлення,Edit order,Edit order
+inapp_checkout.cart.header,Ваше замовлення,Your order,Your order
+inapp_checkout.cart.next,Перейдіть до оплати,Proceed To Checkout,Proceed To Checkout
+inapp_checkout.cart.remove,Видалити,Remove,Remove
+inapp_checkout.cart.recommended_addon_title,Рекомендовані додатки,Recommended addons,Recommended addons
+inapp_checkout.payment_method.card.display_name,Картка,Card,Card
+inapp_checkout.payment_method.paypal.display_name,PayPal,PayPal,PayPal
 inapp_checkout.thankyou.header,,,
 inapp_checkout.thankyou.body,,,
-inapp_checkout.thankyou.close,,CLOSE,CLOSE
-inapp_checkout.otp.enter,,Enter your six-digit one time password,Enter your six-digit one time password
-inapp_checkout.password.enter,,Enter your password,Enter your password
-inapp_checkout.otp.resend,,Resend the one time password,Resend the one time password
-inapp_checkout.login.via_otp,,Login via one time password,Login via one time password
-inapp_checkout.otp.enter_password,,Enter password instead,Enter password instead
-inapp_checkout.otp_resend.notify,,New one time password send to your email address,New one time password send to your email address
-inapp_checkout.checkuser.error.multiple_subscriptions_not_allowed,,You already have a subscription with us,You already have a subscription with us
-inapp_checkout.otp.guest,,Proceed as guest,Proceed as guest
-inapp_checkout.checkuser.email,,Enter email to proceed,Enter email to proceed
-inapp_checkout.checkuser.next,,Next,Next
-inapp_checkout.modal_button.confirm,,Confirm,Confirm
-inapp_checkout.modal_button.cancel,,Cancel,Cancel
-inapp_checkout.po_number.label,,PO Number,PO Number
+inapp_checkout.thankyou.close,ЗАКРИТИ,CLOSE,CLOSE
+inapp_checkout.otp.enter,Введіть свій шестизначний одноразовий пароль,Enter your six-digit one time password,Enter your six-digit one time password
+inapp_checkout.password.enter,Введіть ваш пароль,Enter your password,Enter your password
+inapp_checkout.otp.resend,Повторно надішліть одноразовий пароль,Resend the one time password,Resend the one time password
+inapp_checkout.login.via_otp,Вхід через одноразовий пароль,Login via one time password,Login via one time password
+inapp_checkout.otp.enter_password,Натомість введіть пароль,Enter password instead,Enter password instead
+inapp_checkout.otp_resend.notify,Новий одноразовий пароль надішліть на вашу електронну адресу,New one time password send to your email address,New one time password send to your email address
+inapp_checkout.checkuser.error.multiple_subscriptions_not_allowed,У вас вже є передплата у нас,You already have a subscription with us,You already have a subscription with us
+inapp_checkout.otp.guest,Продовжуйте як гість,Proceed as guest,Proceed as guest
+inapp_checkout.checkuser.email,"Введіть електронну адресу, щоб продовжити",Enter email to proceed,Enter email to proceed
+inapp_checkout.checkuser.next,Далі,Next,Next
+inapp_checkout.modal_button.confirm,Підтвердити,Confirm,Confirm
+inapp_checkout.modal_button.cancel,Скасувати,Cancel,Cancel
+inapp_checkout.po_number.label,Номер замовлення,PO Number,PO Number
 inapp_checkout.items_in_total.custom_label,,,
 inapp_checkout.discounts_applied.label,,,
-inapp_checkout.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-inapp_checkout.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-inapp_checkout.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-inapp_checkout.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-inapp_checkout.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-inapp_checkout.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-inapp_checkout.card.billing_address,,Use my billing address as card address,Use my billing address as card address
-inapp_checkout.card.shipping_address,,Use my shipping address as card address,Use my shipping address as card address
-inapp_checkout.item.breakdown.show,,See Details,See Details
-inapp_checkout.item.breakdown.hide,,Hide Details,Hide Details
-inapp_checkout.cart.trial.info,,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
-inapp_checkout.cart.note.plan.trial,,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
+inapp_checkout.payment_method.bacs.guarantee.header,Повернутися до оплати,Back to Payment,Back to Payment
+inapp_checkout.payment_method.bank_account.btn.proceed_to_review,Перейдіть до огляду,Proceed to Review,Proceed to Review
+inapp_checkout.payment_method.bank_account.btn.enter_iban,Введіть IBAN,Enter IBAN,Enter IBAN
+inapp_checkout.payment_method.bank_account.btn.enter_local_details,Введіть реквізити місцевого банку,Enter local bank details,Enter local bank details
+inapp_checkout.payment_method.bank_account.btn.enter_your_name,Введіть ім'я,Enter your name,Enter your name
+inapp_checkout.payment_method.bank_account.btn.enter_company_name,Введіть назву компанії,Enter company name,Enter company name
+inapp_checkout.card.billing_address,Використовуйте мою платіжну адресу як адресу картки,Use my billing address as card address,Use my billing address as card address
+inapp_checkout.card.shipping_address,Використовуйте мою адресу доставки як адресу картки,Use my shipping address as card address,Use my shipping address as card address
+inapp_checkout.item.breakdown.show,Див. Подробиці,See Details,See Details
+inapp_checkout.item.breakdown.hide,Сховати деталі,Hide Details,Hide Details
+inapp_checkout.cart.trial.info,З вас буде стягнено плату після пробного періоду %{plan_trial_period}.,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
+inapp_checkout.cart.note.plan.trial,З вас буде стягнено плату після пробного періоду %{plan_trial_period}.,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
 inapp_checkout.review.note.plan.trial,,,
 inapp_checkout.payment_method.note.plan.trial,,,
 inapp_checkout.cart.note.plan.no_trial,,,
@@ -96,270 +96,270 @@ inapp_checkout.customer.note,,,
 inapp_checkout.subscription.note,,,
 inapp_checkout.shipping_address.note,,,
 inapp_checkout.billing_address.note,,,
-inapp_checkout.cart.pay_now.label,,Pay now,Pay now
-inapp_checkout.cart.next_charge.label,,Next charge on %{date},Next charge on %{date}
-inapp_checkout.order_summary.charge_now.label,,Chargeable now,Chargeable now
-inapp_checkout.order_summary.next_charge.label,,Charges on %{date},Charges on %{date}
-inapp_checkout.order.edit.link,,Edit order,Edit order
-inapp_checkout.estimate_display_screen.header,,Your order summary,Your order summary
-inapp_checkout.credits_applied.label,,Credits applied,Credits applied
-inapp_checkout.non_rec_addon.tag,,ONE-TIME,ONE-TIME
-inapp_checkout.coupon.description,,%{amount} coupon applied,%{amount} coupon applied
-inapp_checkout.free_quantity.description,,%{units} units free,%{units} units free
-inapp_checkout.referral.title,,Refer your friends,Refer your friends
-inapp_checkout.referral.cb_reward,,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.
-inapp_checkout.referral.custom_reward,,Refer your friends and we will reward you when they purchase their first subscription.,Refer your friends and we will reward you when they purchase their first subscription.
-inapp_checkout.referral.friend_discount,,Your friend will get %{referral_friend_discount} discount.,Your friend will get %{referral_friend_discount} discount.
-inapp_checkout.referral.link_label,,Your referral link,Your referral link
-inapp_checkout.review.threedsWarning.non_trial,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_checkout.review.threedsWarning.trial,,"You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
-inapp_checkout.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_checkout.otp_email.subject,,Your One Time Password (OTP),Your One Time Password (OTP)
-inapp_checkout.otp_email.salutation,,"Hi there,","Hi there,"
-inapp_checkout.otp_email.otp_line,,%{otp} is your one time password,%{otp} is your one time password
-inapp_checkout.otp_email.desc,,The one time password is valid for 5 minutes from the time it is generated.,The one time password is valid for 5 minutes from the time it is generated.
-inapp_checkout.otp_sms.body,,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.
-inapp_checkout.multi_decimal.quantity.error,,Enter valid quantity,Enter valid quantity
-inapp_checkout.qty,,Qty,Qty
-inapp_checkout.review.opm.cash.desc,,You can make the payment by cash,You can make the payment by cash
-inapp_checkout.review.opm.check.desc,,You can find the payment transfer details as part of the invoice,You can find the payment transfer details as part of the invoice
-inapp_checkout.review.opm.bank_transfer.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.review.opm.ach_credit.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.review.opm.sepa_credit.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.pm.consent.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.
-inapp_checkout.pm.never.save.txt,,Your payment information will not be saved in our system.,Your payment information will not be saved in our system.
-inapp_portal.recommended.addon.tag,,RECOMMENDED,RECOMMENDED
-inapp_portal.home.header,,Manage Subscriptions,Manage Subscriptions
-inapp_portal.locale.label,,Locale,Locale
-inapp_portal.home.footer,,Questions? Our Support Team would be glad to help,Questions? Our Support Team would be glad to help
-inapp_portal.home.account.link_text,,Account Information,Account Information
-inapp_portal.home.address.link_text,,Billing & Shipping Addresses,Billing & Shipping Addresses
-inapp_portal.home.payment_methods.link_text,,Payment Methods,Payment Methods
-inapp_portal.home.billing_history.link_text,,Billing History,Billing History
-inapp_portal.back,,Back,Back
-inapp_portal.subscription.header,,Subscription Details,Subscription Details
-inapp_portal.subscription.header.edit,,Edit Subscription Details,Edit Subscription Details
-inapp_portal.subscription.header.review,,Review subscription changes,Review subscription changes
-inapp_portal.account.header,,Account Details,Account Details
-inapp_portal.account.edit.txt,,Editing account details,Editing account details
-inapp_portal.account.header.edit,,Update your account details,Update your account details
-inapp_portal.account.header.edit.submit,,Update,Update
-inapp_portal.address.header,,Billing & Shipping Addresses,Billing & Shipping Addresses
-inapp_portal.address.billing.txt,,Billing,Billing
-inapp_portal.address.billing.edit.txt,,Editing billing details,Editing billing details
-inapp_portal.address.billing.add.txt,,Add your billing details,Add your billing details
-inapp_portal.address.shipping.txt,,Shipping,Shipping
-inapp_portal.address.shipping.edit.txt,,Editing shipping details,Editing shipping details
-inapp_portal.address.billing.header.edit,,Update your billing details,Update your billing details
-inapp_portal.address.billing.header.edit.submit,,Update,Update
-inapp_portal.address.shipping.header.edit,,Update your shipping details,Update your shipping details
-inapp_portal.address.shipping.header.edit.submit,,Update,Update
-inapp_portal.payment_method.header,,Payment Methods,Payment Methods
-inapp_portal.payment_method.link.add,,Add New,Add New
-inapp_portal.payment_method.link.add_new,,Add a payment method,Add a payment method
-inapp_portal.payment_method.header.add,,Add a payment method,Add a payment method
-inapp_portal.payment_method.header.select,,Select a payment method,Select a payment method
-inapp_portal.payment_method.footer.choose,,Choose a different payment method,Choose a different payment method
-inapp_portal.payment_method.header.add.submit,,Add,Add
-inapp_portal.payment_method.header.edit,,Update your payment method,Update your payment method
-inapp_portal.payment_method.header.edit.submit,,Update,Update
-inapp_portal.payment_method.header.verify,,Verify payment method,Verify payment method
-inapp_portal.payment_method.header.verify.submit,,Verify,Verify
-inapp_portal.billing_history.header,,Billing history,Billing history
-inapp_portal.billing_history.download,,Download,Download
-inapp_portal.billing_history.none,,No invoices to display,No invoices to display
-inapp_portal.subscription.header.edit.submit,,Review,Review
-inapp_portal.subscription.header.review.submit,,Update Subscription,Update Subscription
-inapp_portal.subscription.header.choose_pm,,Choose your payment method for this subscription,Choose your payment method for this subscription
-inapp_portal.subscription.update_sub_pm,,Update,Update
-inapp_portal.subscription.cancel.link.txt,,Cancel Subscription,Cancel Subscription
-inapp_portal.subscription.next.renewing_estimate.now,,You will be charged %{amount} for prorated charges via,You will be charged %{amount} for prorated charges via
-inapp_portal.subscription.next.renewing_estimate.eot.non_recurring,,You will be charged %{amount} via,You will be charged %{amount} via
-inapp_portal.subscription.next.renewing_estimate.eot,,You will be charged %{amount} every %{billing_period} via,You will be charged %{amount} every %{billing_period} via
-inapp_portal.subscription.next.renewing_estimate.eot.with_date,,Your next charge %{amount} will be on %{date} via,Your next charge %{amount} will be on %{date} via
-inapp_portal.subscription.next.credits_created.now,,You will not be charged for this change and %{amount} will be added as refundable credits,You will not be charged for this change and %{amount} will be added as refundable credits
-inapp_portal.subscription.details.trial.info,,"You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan","You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan"
-inapp_portal.subscription.details.cancellation_scheduled.info,,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
-inapp_portal.subscription.next.renewing_estimate.now_zero,," %{amount} charged from available credits."," %{amount} charged from available credits."
-inapp_portal.subscription.details.trial.info_today,,You trial will end today and you’ll be moved to the %{plan_name} plan,You trial will end today and you’ll be moved to the %{plan_name} plan
+inapp_checkout.cart.pay_now.label,Платити зараз,Pay now,Pay now
+inapp_checkout.cart.next_charge.label,Наступне стягнення %{date},Next charge on %{date},Next charge on %{date}
+inapp_checkout.order_summary.charge_now.label,Зараз платно,Chargeable now,Chargeable now
+inapp_checkout.order_summary.next_charge.label,Плата за %{date},Charges on %{date},Charges on %{date}
+inapp_checkout.order.edit.link,Редагувати замовлення,Edit order,Edit order
+inapp_checkout.estimate_display_screen.header,Підсумок вашого замовлення,Your order summary,Your order summary
+inapp_checkout.credits_applied.label,Подані кредити,Credits applied,Credits applied
+inapp_checkout.non_rec_addon.tag,ОДНОГО РАЗУ,ONE-TIME,ONE-TIME
+inapp_checkout.coupon.description,Застосовано купон %{amount},%{amount} coupon applied,%{amount} coupon applied
+inapp_checkout.free_quantity.description, %{units} одиниць безкоштовно,%{units} units free,%{units} units free
+inapp_checkout.referral.title,Зверніться до своїх друзів,Refer your friends,Refer your friends
+inapp_checkout.referral.cb_reward,"Зверніться до своїх друзів, і ми дамо вам %{referral_credits}, коли вони придбають свою першу підписку.",Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.
+inapp_checkout.referral.custom_reward,"Зверніться до своїх друзів, і ми винагородимо вас, коли вони придбають свою першу підписку.",Refer your friends and we will reward you when they purchase their first subscription.,Refer your friends and we will reward you when they purchase their first subscription.
+inapp_checkout.referral.friend_discount,Ваш друг отримає знижку %{referral_friend_discount}.,Your friend will get %{referral_friend_discount} discount.,Your friend will get %{referral_friend_discount} discount.
+inapp_checkout.referral.link_label,Ваше посилання на реферал,Your referral link,Your referral link
+inapp_checkout.review.threedsWarning.non_trial,Вас можуть перенаправити на сторінку вашого банку для безпечної 3D-перевірки.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_checkout.review.threedsWarning.trial,"Вас можуть перенаправити на сторінку вашого банку для безпечної 3D-перевірки, за яку може бути стягнуто символічну суму, яка буде повністю повернена автоматично.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
+inapp_checkout.3ds.auth.txt,"Я уповноважую %{organisation_name} зберігати цей спосіб оплати та автоматично стягувати плату з цього способу оплати щоразу, коли з ним пов’язана підписка.",I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_checkout.otp_email.subject,Ваш одноразовий пароль (OTP),Your One Time Password (OTP),Your One Time Password (OTP)
+inapp_checkout.otp_email.salutation,"Привіт,","Hi there,","Hi there,"
+inapp_checkout.otp_email.otp_line, %{otp} - це ваш одноразовий пароль,%{otp} is your one time password,%{otp} is your one time password
+inapp_checkout.otp_email.desc,Одноразовий пароль дійсний протягом 5 хвилин з моменту його створення.,The one time password is valid for 5 minutes from the time it is generated.,The one time password is valid for 5 minutes from the time it is generated.
+inapp_checkout.otp_sms.body, %{otp} - це ваш одноразовий пароль. Одноразовий пароль діє протягом 5 хвилин з моменту його створення.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.
+inapp_checkout.multi_decimal.quantity.error,Введіть дійсну кількість,Enter valid quantity,Enter valid quantity
+inapp_checkout.qty,Кількість,Qty,Qty
+inapp_checkout.review.opm.cash.desc,Ви можете здійснити оплату готівкою,You can make the payment by cash,You can make the payment by cash
+inapp_checkout.review.opm.check.desc,Інформацію про переказ платежу можна знайти у складі рахунку-фактури,You can find the payment transfer details as part of the invoice,You can find the payment transfer details as part of the invoice
+inapp_checkout.review.opm.bank_transfer.desc,"Ви можете здійснити платіж на реквізити банківського рахунку, вказані у рахунку-фактурі",You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.review.opm.ach_credit.desc,"Ви можете здійснити платіж на реквізити банківського рахунку, вказані у рахунку-фактурі",You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.review.opm.sepa_credit.desc,"Ви можете здійснити платіж на реквізити банківського рахунку, вказані у рахунку-фактурі",You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.pm.consent.txt,"Я дозволяю %{organisation_name} зберігати цей спосіб оплати та автоматично стягувати плату з цього способу оплати за будь-які майбутні операції, пов’язані з ним.",I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.
+inapp_checkout.pm.never.save.txt,Ваша платіжна інформація не буде збережена в нашій системі.,Your payment information will not be saved in our system.,Your payment information will not be saved in our system.
+inapp_portal.recommended.addon.tag,РЕКОМЕНДОВАНО,RECOMMENDED,RECOMMENDED
+inapp_portal.home.header,Керуйте підписками,Manage Subscriptions,Manage Subscriptions
+inapp_portal.locale.label,Місцевість,Locale,Locale
+inapp_portal.home.footer,Питання? Наша команда підтримки буде рада допомогти,Questions? Our Support Team would be glad to help,Questions? Our Support Team would be glad to help
+inapp_portal.home.account.link_text,Інформація про обліковий запис,Account Information,Account Information
+inapp_portal.home.address.link_text,Адреси для виставлення рахунків та доставки,Billing & Shipping Addresses,Billing & Shipping Addresses
+inapp_portal.home.payment_methods.link_text,методи оплати,Payment Methods,Payment Methods
+inapp_portal.home.billing_history.link_text,Історія виставлення рахунків,Billing History,Billing History
+inapp_portal.back,Назад,Back,Back
+inapp_portal.subscription.header,Деталі передплати,Subscription Details,Subscription Details
+inapp_portal.subscription.header.edit,Редагувати деталі передплати,Edit Subscription Details,Edit Subscription Details
+inapp_portal.subscription.header.review,Перегляньте зміни передплати,Review subscription changes,Review subscription changes
+inapp_portal.account.header,Інформація про рахунок,Account Details,Account Details
+inapp_portal.account.edit.txt,Редагування деталей облікового запису,Editing account details,Editing account details
+inapp_portal.account.header.edit,Оновіть дані свого облікового запису,Update your account details,Update your account details
+inapp_portal.account.header.edit.submit,Оновлення,Update,Update
+inapp_portal.address.header,Адреси для виставлення рахунків та доставки,Billing & Shipping Addresses,Billing & Shipping Addresses
+inapp_portal.address.billing.txt,Виставлення рахунків,Billing,Billing
+inapp_portal.address.billing.edit.txt,Редагування платіжних даних,Editing billing details,Editing billing details
+inapp_portal.address.billing.add.txt,Додайте свої платіжні реквізити,Add your billing details,Add your billing details
+inapp_portal.address.shipping.txt,Доставка,Shipping,Shipping
+inapp_portal.address.shipping.edit.txt,Редагування деталей доставки,Editing shipping details,Editing shipping details
+inapp_portal.address.billing.header.edit,Оновіть свої платіжні дані,Update your billing details,Update your billing details
+inapp_portal.address.billing.header.edit.submit,Оновлення,Update,Update
+inapp_portal.address.shipping.header.edit,Оновіть дані про доставку,Update your shipping details,Update your shipping details
+inapp_portal.address.shipping.header.edit.submit,Оновлення,Update,Update
+inapp_portal.payment_method.header,методи оплати,Payment Methods,Payment Methods
+inapp_portal.payment_method.link.add,Додати новий,Add New,Add New
+inapp_portal.payment_method.link.add_new,Додайте спосіб оплати,Add a payment method,Add a payment method
+inapp_portal.payment_method.header.add,Додайте спосіб оплати,Add a payment method,Add a payment method
+inapp_portal.payment_method.header.select,Виберіть спосіб оплати,Select a payment method,Select a payment method
+inapp_portal.payment_method.footer.choose,Виберіть інший спосіб оплати,Choose a different payment method,Choose a different payment method
+inapp_portal.payment_method.header.add.submit,Додати,Add,Add
+inapp_portal.payment_method.header.edit,Оновіть спосіб оплати,Update your payment method,Update your payment method
+inapp_portal.payment_method.header.edit.submit,Оновлення,Update,Update
+inapp_portal.payment_method.header.verify,Перевірте спосіб оплати,Verify payment method,Verify payment method
+inapp_portal.payment_method.header.verify.submit,Перевірити,Verify,Verify
+inapp_portal.billing_history.header,Історія виставлення рахунків,Billing history,Billing history
+inapp_portal.billing_history.download,Завантажити,Download,Download
+inapp_portal.billing_history.none,Жодного або декількох рахунків-фактур для відображення,No invoices to display,No invoices to display
+inapp_portal.subscription.header.edit.submit,Огляд,Review,Review
+inapp_portal.subscription.header.review.submit,Оновити передплату,Update Subscription,Update Subscription
+inapp_portal.subscription.header.choose_pm,Виберіть спосіб оплати для цієї підписки,Choose your payment method for this subscription,Choose your payment method for this subscription
+inapp_portal.subscription.update_sub_pm,Оновлення,Update,Update
+inapp_portal.subscription.cancel.link.txt,Скасувати підписку,Cancel Subscription,Cancel Subscription
+inapp_portal.subscription.next.renewing_estimate.now,З вас буде стягнено %{amount} за пропорційні витрати через,You will be charged %{amount} for prorated charges via,You will be charged %{amount} for prorated charges via
+inapp_portal.subscription.next.renewing_estimate.eot.non_recurring,З вас буде стягнено %{amount},You will be charged %{amount} via,You will be charged %{amount} via
+inapp_portal.subscription.next.renewing_estimate.eot,З вас буде стягнено плату в розмірі %{amount} кожного %{billing_period},You will be charged %{amount} every %{billing_period} via,You will be charged %{amount} every %{billing_period} via
+inapp_portal.subscription.next.renewing_estimate.eot.with_date,Наступне стягнення %{amount} буде здійснено %{date} через,Your next charge %{amount} will be on %{date} via,Your next charge %{amount} will be on %{date} via
+inapp_portal.subscription.next.credits_created.now,"За цю зміну з вас не стягуватиметься плата, і %{amount} буде додано як повернені кредити",You will not be charged for this change and %{amount} will be added as refundable credits,You will not be charged for this change and %{amount} will be added as refundable credits
+inapp_portal.subscription.details.trial.info,У вас залишилось %{remaining_trial_period} пробного періоду. Після закінчення терміну дії пробного періоду ви перейдете до плану %{plan_name},"You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan","You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan"
+inapp_portal.subscription.details.cancellation_scheduled.info,Ваша підписка буде скасована %{date},Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
+inapp_portal.subscription.next.renewing_estimate.now_zero, %{amount} стягується з доступних кредитів., %{amount} charged from available credits., %{amount} charged from available credits.
+inapp_portal.subscription.details.trial.info_today,"Ваша пробна версія закінчиться сьогодні, і ви перейдете до плану %{plan_name}",You trial will end today and you’ll be moved to the %{plan_name} plan,You trial will end today and you’ll be moved to the %{plan_name} plan
 inapp_portal.subscription.details.active.info,,,
-inapp_portal.subscription.details.non_renewing.info,,Your subscription will end on %{date},Your subscription will end on %{date}
-inapp_portal.subscription.details.cancelled.info,,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription
-inapp_portal.subscription.details.paused.info,,Your subscription is currently paused.,Your subscription is currently paused.
-inapp_portal.subscription.details.future.info,,Your subscription will start on %{date},Your subscription will start on %{date}
-inapp_portal.subscription.edit.txt,,Edit Subscription,Edit Subscription
-inapp_portal.choose_change_subscription.header,,Change subscription,Change subscription
-inapp_portal.subscription.edit.chooser_question,,When do you want to change the subscription?,When do you want to change the subscription?
-inapp_portal.subscription.change.immediately.option,,Change immediately,Change immediately
-inapp_portal.subscription.change.eot.option,,Change on next renewal(%{date}),Change on next renewal(%{date})
-inapp_portal.subscription.change.specific_date.option,,Change on a specific date,Change on a specific date
-inapp_portal.subscription.change.option.submit,,Change subscription,Change subscription
-inapp_portal.subscription.change.options.proceed,,proceed,proceed
-inapp_portal.subscription.cancel.specific_date.option,,Cancel on a specific date,Cancel on a specific date
-inapp_portal.remove_scheduled_changes.txt,,Remove scheduled changes,Remove scheduled changes
-inapp_portal.subscription.remove_scheduled_cancellation.link_txt,,Remove scheduled cancellation,Remove scheduled cancellation
-inapp_portal.remove_scheduled_changes.info,,These changes will be applied to your subscription from next renewal( %{date} ),These changes will be applied to your subscription from next renewal( %{date} )
-inapp_portal.payment_method.header.view,,Payment Method Details,Payment Method Details
-inapp_portal.payment_method.view.remove,,Remove Payment Method,Remove Payment Method
-inapp_portal.payment_method.view.edit,,Edit Payment Method,Edit Payment Method
-inapp_portal.payment_method.view.remove_prompt,,Are you sure you want to remove this payment method?,Are you sure you want to remove this payment method?
-inapp_portal.subscription_cf.header.edit,,Update your subscription details,Update your subscription details
-inapp_portal.subscription_cf.header.edit.submit,,Update,Update
+inapp_portal.subscription.details.non_renewing.info,Ваша передплата закінчується %{date},Your subscription will end on %{date},Your subscription will end on %{date}
+inapp_portal.subscription.details.cancelled.info,"СКАСОВАНО. Вашу підписку скасовано. Зв’яжіться з нами, щоб відновити підписку",CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription
+inapp_portal.subscription.details.paused.info,Ваша передплата наразі призупинена.,Your subscription is currently paused.,Your subscription is currently paused.
+inapp_portal.subscription.details.future.info,Ваша передплата почнеться %{date},Your subscription will start on %{date},Your subscription will start on %{date}
+inapp_portal.subscription.edit.txt,Редагувати підписку,Edit Subscription,Edit Subscription
+inapp_portal.choose_change_subscription.header,Змінити підписку,Change subscription,Change subscription
+inapp_portal.subscription.edit.chooser_question,Коли ви хочете змінити передплату?,When do you want to change the subscription?,When do you want to change the subscription?
+inapp_portal.subscription.change.immediately.option,Негайно міняйте,Change immediately,Change immediately
+inapp_portal.subscription.change.eot.option,Зміна при наступному поновленні ( %{date}),Change on next renewal(%{date}),Change on next renewal(%{date})
+inapp_portal.subscription.change.specific_date.option,Зміна на певну дату,Change on a specific date,Change on a specific date
+inapp_portal.subscription.change.option.submit,Змінити підписку,Change subscription,Change subscription
+inapp_portal.subscription.change.options.proceed,продовжуйте,proceed,proceed
+inapp_portal.subscription.cancel.specific_date.option,Скасувати в певну дату,Cancel on a specific date,Cancel on a specific date
+inapp_portal.remove_scheduled_changes.txt,Видаліть заплановані зміни,Remove scheduled changes,Remove scheduled changes
+inapp_portal.subscription.remove_scheduled_cancellation.link_txt,Видалити заплановане скасування,Remove scheduled cancellation,Remove scheduled cancellation
+inapp_portal.remove_scheduled_changes.info,Ці зміни будуть застосовані до вашої передплати з наступного поновлення ( %{date}),These changes will be applied to your subscription from next renewal( %{date} ),These changes will be applied to your subscription from next renewal( %{date} )
+inapp_portal.payment_method.header.view,Подробиці способу оплати,Payment Method Details,Payment Method Details
+inapp_portal.payment_method.view.remove,Видалити спосіб оплати,Remove Payment Method,Remove Payment Method
+inapp_portal.payment_method.view.edit,Змінити спосіб оплати,Edit Payment Method,Edit Payment Method
+inapp_portal.payment_method.view.remove_prompt,"Ви впевнені, що хочете видалити цей спосіб оплати?",Are you sure you want to remove this payment method?,Are you sure you want to remove this payment method?
+inapp_portal.subscription_cf.header.edit,Оновіть дані про передплату,Update your subscription details,Update your subscription details
+inapp_portal.subscription_cf.header.edit.submit,Оновлення,Update,Update
 inapp_portal.discounts_applied.label,,,
 inapp_portal.items_in_total.custom_label,,,
 inapp_portal.more_items_txt.custom_label,,,
-inapp_portal.home.gift_sub.gifted_by,,Recieved from %{name},Recieved from %{name}
-inapp_portal.sub_details.gift.gifted_by,,Gifted by %{name},Gifted by %{name}
-inapp_portal.subscription.cancel.header,,Cancel Subscription,Cancel Subscription
-inapp_portal.subscription.cancel.header.submit,,Confirm Cancellation,Confirm Cancellation
-inapp_portal.subscription.cancel.when,,When do you want to cancel the subscription?,When do you want to cancel the subscription?
-inapp_portal.subscription.cancel.eot.option,,Cancel on next renewal  (%{date}),Cancel on next renewal  (%{date})
-inapp_portal.subscription.cancel.immediately.option,,Cancel Immediately,Cancel Immediately
-inapp_portal.subscription.cancel.immediately.info,,Your subscription will be canceled immediately,Your subscription will be canceled immediately
-inapp_portal.subscription.cancel.eot.info,,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
-inapp_portal.subscription.cancel.reason,,Reason for cancellation,Reason for cancellation
-inapp_portal.subscription.cancel.feedback,,Is there anything else you would like to let us know?,Is there anything else you would like to let us know?
-inapp_portal.subscription.cancel.reason.option,,Select a cancellation reason,Select a cancellation reason
-inapp_portal.subscription.canceled.reason_code.info,,Your subscription was canceled with the reason '%{reason}',Your subscription was canceled with the reason '%{reason}'
-inapp_portal.subscription.sch_cancel.reason_code.info,,Your subscription will be canceled with the reason '%{reason}',Your subscription will be canceled with the reason '%{reason}'
-inapp_portal.scheduled_changes.header,,View scheduled changes,View scheduled changes
-inapp_portal.scheduled_changes_navigation.header,,Changes from next renewal,Changes from next renewal
-inapp_portal.subscription_preview_navigation.header,,Subscription Details,Subscription Details
-inapp_portal.consent.header,,Permissions,Permissions
-inapp_portal.consent_section.name,,Permissions,Permissions
-inapp_portal.consent.revoke_alert,,Are you sure?,Are you sure?
-inapp_portal.consent.submit,,Update,Update
-inapp_portal.remove_scheduled_pause.confirm_txt,,The scheduled pause for your subscription will be removed. Continue?,The scheduled pause for your subscription will be removed. Continue?
-inapp_portal.resume_subscription_now.confirm_txt,,Your subscription will resume immediately. Continue?,Your subscription will resume immediately. Continue?
-inapp_portal.resume_now.link,,Resume now,Resume now
-inapp_portal.remove_scheduled_pause.link,,Remove Scheduled Pause,Remove Scheduled Pause
-inapp_portal.subscription.details.pause_scheduled.info,,Your subscription will be paused on %{date},Your subscription will be paused on %{date}
-inapp_portal.subscription.details.resume_scheduled.info,,Your subscription will resume on %{date},Your subscription will resume on %{date}
-inapp_portal.subscription.pause.link.txt,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.header,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.submit,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.immediate_indefinite.info,,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page
-inapp_portal.subscription.pause.immediate_fixed_time.info,,"Your subscription will be paused immediately, and will resume after %{pause_period_set} days.","Your subscription will be paused immediately, and will resume after %{pause_period_set} days."
-inapp_portal.subscription.pause.immediate_options.info,,Your subscription will be paused immediately.,Your subscription will be paused immediately.
-inapp_portal.subscription.pause.immediate_indefinite.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.immediate_fixed_time.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.immediate_options.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_indefinite.info,,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
-inapp_portal.subscription.pause.eot_fixed_time.info,,"Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days.","Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days."
-inapp_portal.subscription.pause.eot_options.info,,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
-inapp_portal.subscription.pause.eot_indefinite.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_fixed_time.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_options.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.chooser_question,,How long do you want to pause the subscription?,How long do you want to pause the subscription?
-inapp_portal.subscription.pause.custom_date,,Custom date,Custom date
-inapp_portal.subscription.pause.choose_specific_date,,(Choose a specific date),(Choose a specific date)
-inapp_portal.subscription.pause.pause_until,,Pause until,Pause until
-inapp_portal.payment_method_tag.primary,,Primary,Primary
-inapp_portal.payment_method_tag.backup,,Backup,Backup
-inapp_portal.payment_method.suggest_backup,,Backups come handy when your primary payment fails. Set a backup.,Backups come handy when your primary payment fails. Set a backup.
-inapp_portal.card.expiring,,Expires on %{card_expiry},Expires on %{card_expiry}
-inapp_portal.card.expired,,Expired on %{card_expiry},Expired on %{card_expiry}
-inapp_portal.pm.set_role.link,,Set this as primary or backup,Set this as primary or backup
-inapp_portal.pm.set_role.title,,Set this payment method as,Set this payment method as
-inapp_portal.pm.set_role.header,,Payment Method Settings,Payment Method Settings
-inapp_portal.pm.set_role.update_btn,,Update,Update
-inapp_portal.pm.set_role.skip_btn,,Skip,Skip
-inapp_portal.pm.remove_backup.link,,Remove as backup,Remove as backup
-inapp_portal.pm.remove_backup.message,,Remove backup? Backups come handy when your primary payment method fails.,Remove backup? Backups come handy when your primary payment method fails.
-inapp_portal.pm.remove_backup.confirm,,Remove,Remove
-inapp_portal.pm.set_primary.message,,Set this as primary? This will replace your current primary payment method,Set this as primary? This will replace your current primary payment method
-inapp_portal.pm.set_primary.confirm,,Confirm,Confirm
-inapp_portal.pm.set_primary.link,,Set as primary,Set as primary
-inapp_portal.pm.primary.desc.txt,,This is your primary payment method,This is your primary payment method
-inapp_portal.pm.backup.desc.txt,,This is your backup payment method,This is your backup payment method
-inapp_portal.pm.primary.warning.txt,,This will replace your current primary payment method,This will replace your current primary payment method
-inapp_portal.pm.backup.warning.txt,,This will replace your current backup payment method,This will replace your current backup payment method
-inapp_portal.pm.primary.info.txt,,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
-inapp_portal.pm.backup.info.txt,,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
-inapp_portal.pm.primary.desc.detail,,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
-inapp_portal.pm.backup.desc.detail,,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
-inapp_portal.subscription.details.pm_warning,,"Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription.","Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription."
-inapp_portal.error.future_date.required,,Please provide a future date in correct format to process the request.,Please provide a future date in correct format to process the request.
-inapp_portal.addon_item_price_selection.header,,Change addon frequency,Change addon frequency
-inapp_portal.addon_item_price_selection.title,,Select billing frequency,Select billing frequency
-inapp_portal.addon_item_price_selection.update.btn,,Update,Update
-inapp_portal.item_selection.header,,Change plan,Change plan
-inapp_portal.item_selection.title,,Select billing frequency,Select billing frequency
-inapp_portal.item_selection.update.btn,,Update,Update
-inapp_portal.subscription.reactivate.link.txt,,Reactivate Subscription,Reactivate Subscription
-inapp_portal.reactivate_confirm.txt,,Are you sure you want to reactivate this subscription?,Are you sure you want to reactivate this subscription?
-inapp_portal.remove_cancellation.confirm_txt,,Are you sure you want to remove the scheduled cancellation?,Are you sure you want to remove the scheduled cancellation?
-inapp_portal.remove_scheduled_changes_confirm.txt,,Are you sure you want to remove the scheduled changes?,Are you sure you want to remove the scheduled changes?
-inapp_portal.modal_button.confirm,,Confirm,Confirm
-inapp_portal.modal_button.cancel,,Cancel,Cancel
-inapp_portal.subscriptions.load_more,,Load more,Load more
-inapp_portal.subscriptions.more,,See all your subscriptions,See all your subscriptions
-inapp_portal.portal_home.close,,Exit,Exit
-inapp_portal.change_item.txt,,Change,Change
-inapp_portal.add_addons.txt,,Add Addons,Add Addons
-inapp_portal.add_addons.btn,,Add,Add
-inapp_portal.edit_addon_item.btn,,Edit,Edit
-inapp_portal.add_addons.non_rec.title,,ONE-TIME CHARGES,ONE-TIME CHARGES
-inapp_portal.item.breakdown.show,,See Details,See Details
-inapp_portal.item.breakdown.hide,,Hide Details,Hide Details
-inapp_portal.subscription.view_breakup,,View breakdown,View breakdown
-inapp_portal.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-inapp_portal.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-inapp_portal.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-inapp_portal.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-inapp_portal.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-inapp_portal.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-inapp_portal.payment_method.bank_account.stripe_ach_verify_note,,You have a maximum of 10 attempts to verify your payment method.,You have a maximum of 10 attempts to verify your payment method.
-inapp_portal.home.gift_bar,,Gifted %{number} subscriptions,Gifted %{number} subscriptions
-inapp_portal.home.gift_header,,GIFT SUBSCRIPTIONS,GIFT SUBSCRIPTIONS
-inapp_portal.gift_tag.scheduled,,Gift to %{name} scheduled,Gift to %{name} scheduled
-inapp_portal.gift_tag.unclaimed,,Gift yet to be claimed by %{name},Gift yet to be claimed by %{name}
-inapp_portal.gift_tag.claimed,,Gifted to %{name},Gifted to %{name}
-inapp_portal.gift_tag.canceled,,Gift to %{name} has been canceled,Gift to %{name} has been canceled
-inapp_portal.gift_tag.expired,,Gifted to %{name} has been expired,Gifted to %{name} has been expired
-inapp_portal.gift_details_notification.scheduled,,Your gift will be sent to the recipient via email on %{date},Your gift will be sent to the recipient via email on %{date}
-inapp_portal.gift_details_notification.unclaimed,,Your gift is yet to be claimed by the recipient.,Your gift is yet to be claimed by the recipient.
-inapp_portal.gift_details_notification.canceled,,Your gift has been canceled,Your gift has been canceled
+inapp_portal.home.gift_sub.gifted_by,Отримано від %{name},Recieved from %{name},Recieved from %{name}
+inapp_portal.sub_details.gift.gifted_by,Обдаровано %{name},Gifted by %{name},Gifted by %{name}
+inapp_portal.subscription.cancel.header,Скасувати підписку,Cancel Subscription,Cancel Subscription
+inapp_portal.subscription.cancel.header.submit,Підтвердьте скасування,Confirm Cancellation,Confirm Cancellation
+inapp_portal.subscription.cancel.when,Коли ви хочете скасувати підписку?,When do you want to cancel the subscription?,When do you want to cancel the subscription?
+inapp_portal.subscription.cancel.eot.option,Скасувати під час наступного поновлення ( %{date}),Cancel on next renewal  (%{date}),Cancel on next renewal  (%{date})
+inapp_portal.subscription.cancel.immediately.option,Скасувати негайно,Cancel Immediately,Cancel Immediately
+inapp_portal.subscription.cancel.immediately.info,Ваша підписка буде негайно скасована,Your subscription will be canceled immediately,Your subscription will be canceled immediately
+inapp_portal.subscription.cancel.eot.info,Ваша підписка буде скасована %{date},Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
+inapp_portal.subscription.cancel.reason,Причина скасування,Reason for cancellation,Reason for cancellation
+inapp_portal.subscription.cancel.feedback,"Чи є ще щось, про що ви хотіли б повідомити нас?",Is there anything else you would like to let us know?,Is there anything else you would like to let us know?
+inapp_portal.subscription.cancel.reason.option,Виберіть причину скасування,Select a cancellation reason,Select a cancellation reason
+inapp_portal.subscription.canceled.reason_code.info,"Вашу підписку було скасовано з причиною "" %{reason}""",Your subscription was canceled with the reason '%{reason}',Your subscription was canceled with the reason '%{reason}'
+inapp_portal.subscription.sch_cancel.reason_code.info,"Ваша підписка буде скасована з причиною "" %{reason}""",Your subscription will be canceled with the reason '%{reason}',Your subscription will be canceled with the reason '%{reason}'
+inapp_portal.scheduled_changes.header,Переглянути заплановані зміни,View scheduled changes,View scheduled changes
+inapp_portal.scheduled_changes_navigation.header,Зміни з наступного оновлення,Changes from next renewal,Changes from next renewal
+inapp_portal.subscription_preview_navigation.header,Деталі передплати,Subscription Details,Subscription Details
+inapp_portal.consent.header,Дозволи,Permissions,Permissions
+inapp_portal.consent_section.name,Дозволи,Permissions,Permissions
+inapp_portal.consent.revoke_alert,Ти впевнений?,Are you sure?,Are you sure?
+inapp_portal.consent.submit,Оновлення,Update,Update
+inapp_portal.remove_scheduled_pause.confirm_txt,Запланована пауза для вашої передплати буде видалена. Продовжити?,The scheduled pause for your subscription will be removed. Continue?,The scheduled pause for your subscription will be removed. Continue?
+inapp_portal.resume_subscription_now.confirm_txt,Ваша передплата негайно відновиться. Продовжити?,Your subscription will resume immediately. Continue?,Your subscription will resume immediately. Continue?
+inapp_portal.resume_now.link,Відновіть зараз,Resume now,Resume now
+inapp_portal.remove_scheduled_pause.link,Видаліть заплановану паузу,Remove Scheduled Pause,Remove Scheduled Pause
+inapp_portal.subscription.details.pause_scheduled.info,Ваша передплата буде призупинена %{date},Your subscription will be paused on %{date},Your subscription will be paused on %{date}
+inapp_portal.subscription.details.resume_scheduled.info,Ваша підписка відновиться %{date},Your subscription will resume on %{date},Your subscription will resume on %{date}
+inapp_portal.subscription.pause.link.txt,Призупинити передплату,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.header,Призупинити передплату,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.submit,Призупинити передплату,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.immediate_indefinite.info,Ваша передплата буде негайно призупинена. Ви можете відновити підписку в будь-який час на сторінці Деталі підписки,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page
+inapp_portal.subscription.pause.immediate_fixed_time.info,Ваша підписка буде негайно призупинена і відновиться через %{pause_period_set} днів.,"Your subscription will be paused immediately, and will resume after %{pause_period_set} days.","Your subscription will be paused immediately, and will resume after %{pause_period_set} days."
+inapp_portal.subscription.pause.immediate_options.info,Ваша передплата буде негайно призупинена.,Your subscription will be paused immediately.,Your subscription will be paused immediately.
+inapp_portal.subscription.pause.immediate_indefinite.gen,Після паузи плата за підписку не стягуватиметься та не буде продовжена.,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.immediate_fixed_time.gen,Після паузи плата за підписку не стягуватиметься та не буде продовжена.,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.immediate_options.gen,Після паузи плата за підписку не стягуватиметься та не буде продовжена.,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_indefinite.info,Ваша передплата буде призупинена %{date}.,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
+inapp_portal.subscription.pause.eot_fixed_time.info,Ваша підписка буде призупинена %{date} і відновиться через %{pause_period_set} днів.,"Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days.","Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days."
+inapp_portal.subscription.pause.eot_options.info,Ваша передплата буде призупинена %{date}.,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
+inapp_portal.subscription.pause.eot_indefinite.gen,Після призупинення плата за підписку не стягується і не поновлюється.,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_fixed_time.gen,Після паузи плата за підписку не стягуватиметься та не буде продовжена.,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_options.gen,Після паузи плата за підписку не стягуватиметься та не буде продовжена.,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.chooser_question,Як довго ви хочете призупинити підписку?,How long do you want to pause the subscription?,How long do you want to pause the subscription?
+inapp_portal.subscription.pause.custom_date,Власна дата,Custom date,Custom date
+inapp_portal.subscription.pause.choose_specific_date,(Виберіть конкретну дату),(Choose a specific date),(Choose a specific date)
+inapp_portal.subscription.pause.pause_until,Зробіть паузу до,Pause until,Pause until
+inapp_portal.payment_method_tag.primary,Первинна,Primary,Primary
+inapp_portal.payment_method_tag.backup,Резервне копіювання,Backup,Backup
+inapp_portal.payment_method.suggest_backup,"Резервні копії стануть у пригоді, коли не вдається здійснити основний платіж. Встановіть резервну копію.",Backups come handy when your primary payment fails. Set a backup.,Backups come handy when your primary payment fails. Set a backup.
+inapp_portal.card.expiring,Термін дії закінчується %{card_expiry},Expires on %{card_expiry},Expires on %{card_expiry}
+inapp_portal.card.expired,Термін дії закінчився %{card_expiry},Expired on %{card_expiry},Expired on %{card_expiry}
+inapp_portal.pm.set_role.link,Встановіть це як основне або резервне,Set this as primary or backup,Set this as primary or backup
+inapp_portal.pm.set_role.title,Встановіть цей спосіб оплати як,Set this payment method as,Set this payment method as
+inapp_portal.pm.set_role.header,Налаштування способу оплати,Payment Method Settings,Payment Method Settings
+inapp_portal.pm.set_role.update_btn,Оновлення,Update,Update
+inapp_portal.pm.set_role.skip_btn,Пропустити,Skip,Skip
+inapp_portal.pm.remove_backup.link,Вилучити як резервну копію,Remove as backup,Remove as backup
+inapp_portal.pm.remove_backup.message,"Вилучити резервну копію? Резервні копії стануть у пригоді, коли не вдається виконати основний спосіб оплати.",Remove backup? Backups come handy when your primary payment method fails.,Remove backup? Backups come handy when your primary payment method fails.
+inapp_portal.pm.remove_backup.confirm,Видалити,Remove,Remove
+inapp_portal.pm.set_primary.message,Встановити це як основне? Це замінить ваш поточний основний спосіб оплати,Set this as primary? This will replace your current primary payment method,Set this as primary? This will replace your current primary payment method
+inapp_portal.pm.set_primary.confirm,Підтвердити,Confirm,Confirm
+inapp_portal.pm.set_primary.link,Встановити як основний,Set as primary,Set as primary
+inapp_portal.pm.primary.desc.txt,Це ваш основний спосіб оплати,This is your primary payment method,This is your primary payment method
+inapp_portal.pm.backup.desc.txt,Це ваш резервний спосіб оплати,This is your backup payment method,This is your backup payment method
+inapp_portal.pm.primary.warning.txt,Це замінить ваш поточний основний спосіб оплати,This will replace your current primary payment method,This will replace your current primary payment method
+inapp_portal.pm.backup.warning.txt,Це замінить ваш поточний резервний спосіб оплати,This will replace your current backup payment method,This will replace your current backup payment method
+inapp_portal.pm.primary.info.txt,Це буде сплачено за всі ваші автоматичні платежі.,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
+inapp_portal.pm.backup.info.txt,"Це буде резервна копія, коли ваш основний спосіб оплати не вдасться.",This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
+inapp_portal.pm.primary.desc.detail,Це буде сплачено за всі ваші автоматичні платежі.,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
+inapp_portal.pm.backup.desc.detail,"Це буде резервна копія, коли ваш основний спосіб оплати не вдасться.",This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
+inapp_portal.subscription.details.pm_warning,"Обов’язково регулярно оновлюйте цей спосіб оплати, оскільки резервний спосіб оплати не використовуватиметься для цієї підписки.","Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription.","Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription."
+inapp_portal.error.future_date.required,"Будь ласка, вкажіть дату в майбутньому у правильному форматі для обробки запиту.",Please provide a future date in correct format to process the request.,Please provide a future date in correct format to process the request.
+inapp_portal.addon_item_price_selection.header,Зміна частоти аддону,Change addon frequency,Change addon frequency
+inapp_portal.addon_item_price_selection.title,Виберіть частоту виставлення рахунків,Select billing frequency,Select billing frequency
+inapp_portal.addon_item_price_selection.update.btn,Оновлення,Update,Update
+inapp_portal.item_selection.header,Змінити план,Change plan,Change plan
+inapp_portal.item_selection.title,Виберіть частоту виставлення рахунків,Select billing frequency,Select billing frequency
+inapp_portal.item_selection.update.btn,Оновлення,Update,Update
+inapp_portal.subscription.reactivate.link.txt,Повторно активуйте передплату,Reactivate Subscription,Reactivate Subscription
+inapp_portal.reactivate_confirm.txt,"Ви впевнені, що хочете відновити цю підписку?",Are you sure you want to reactivate this subscription?,Are you sure you want to reactivate this subscription?
+inapp_portal.remove_cancellation.confirm_txt,"Ви впевнені, що хочете видалити заплановане скасування?",Are you sure you want to remove the scheduled cancellation?,Are you sure you want to remove the scheduled cancellation?
+inapp_portal.remove_scheduled_changes_confirm.txt,"Ви впевнені, що хочете видалити заплановані зміни?",Are you sure you want to remove the scheduled changes?,Are you sure you want to remove the scheduled changes?
+inapp_portal.modal_button.confirm,Підтвердити,Confirm,Confirm
+inapp_portal.modal_button.cancel,Скасувати,Cancel,Cancel
+inapp_portal.subscriptions.load_more,Завантажити ще,Load more,Load more
+inapp_portal.subscriptions.more,Перегляньте всі свої підписки,See all your subscriptions,See all your subscriptions
+inapp_portal.portal_home.close,Вихід,Exit,Exit
+inapp_portal.change_item.txt,Зміна,Change,Change
+inapp_portal.add_addons.txt,Додайте аддони,Add Addons,Add Addons
+inapp_portal.add_addons.btn,Додати,Add,Add
+inapp_portal.edit_addon_item.btn,Редагувати,Edit,Edit
+inapp_portal.add_addons.non_rec.title,РОЗОВІ ПЛАТИ,ONE-TIME CHARGES,ONE-TIME CHARGES
+inapp_portal.item.breakdown.show,Див. Подробиці,See Details,See Details
+inapp_portal.item.breakdown.hide,Сховати деталі,Hide Details,Hide Details
+inapp_portal.subscription.view_breakup,Розбивка подання,View breakdown,View breakdown
+inapp_portal.payment_method.bacs.guarantee.header,Повернутися до оплати,Back to Payment,Back to Payment
+inapp_portal.payment_method.bank_account.btn.proceed_to_review,Перейдіть до огляду,Proceed to Review,Proceed to Review
+inapp_portal.payment_method.bank_account.btn.enter_iban,Введіть IBAN,Enter IBAN,Enter IBAN
+inapp_portal.payment_method.bank_account.btn.enter_local_details,Введіть реквізити місцевого банку,Enter local bank details,Enter local bank details
+inapp_portal.payment_method.bank_account.btn.enter_your_name,Введіть ім'я,Enter your name,Enter your name
+inapp_portal.payment_method.bank_account.btn.enter_company_name,Введіть назву компанії,Enter company name,Enter company name
+inapp_portal.payment_method.bank_account.stripe_ach_verify_note,У вас є максимум 10 спроб підтвердити спосіб оплати.,You have a maximum of 10 attempts to verify your payment method.,You have a maximum of 10 attempts to verify your payment method.
+inapp_portal.home.gift_bar,Обдаровано %{number} підписки,Gifted %{number} subscriptions,Gifted %{number} subscriptions
+inapp_portal.home.gift_header,ПОДАРУННІ АБОНАМЕНТИ,GIFT SUBSCRIPTIONS,GIFT SUBSCRIPTIONS
+inapp_portal.gift_tag.scheduled,Подарунок %{name} заплановано,Gift to %{name} scheduled,Gift to %{name} scheduled
+inapp_portal.gift_tag.unclaimed,"Подарунок, на який ще вимагає %{name}",Gift yet to be claimed by %{name},Gift yet to be claimed by %{name}
+inapp_portal.gift_tag.claimed,Обдаровано %{name},Gifted to %{name},Gifted to %{name}
+inapp_portal.gift_tag.canceled,Подарунок %{name} скасовано,Gift to %{name} has been canceled,Gift to %{name} has been canceled
+inapp_portal.gift_tag.expired,Термін дії обдарованого до %{name} закінчився,Gifted to %{name} has been expired,Gifted to %{name} has been expired
+inapp_portal.gift_details_notification.scheduled,Ваш подарунок буде надісланий одержувачу електронною поштою %{date},Your gift will be sent to the recipient via email on %{date},Your gift will be sent to the recipient via email on %{date}
+inapp_portal.gift_details_notification.unclaimed,Одержувач ще не вимагає вашого подарунка.,Your gift is yet to be claimed by the recipient.,Your gift is yet to be claimed by the recipient.
+inapp_portal.gift_details_notification.canceled,Ваш подарунок скасовано,Your gift has been canceled,Your gift has been canceled
 inapp_portal.gift_details_notification.claimed,,,
-inapp_portal.gift_details_notification.expired,,Your gift was not claimed by the recipient,Your gift was not claimed by the recipient
-inapp_portal.gift.cancel_by_gifter,,Cancel the gift,Cancel the gift
-inapp_portal.gift.cancel_by_gifter.warning,,Are you sure you want to cancel this gift?,Are you sure you want to cancel this gift?
-inapp_portal.hierarchy.my_subscription.my_payment,,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
-inapp_portal.hierarchy.my_subscription.my_invoice,,This subscription is paid by %{customer_display_info} and invoiced to you.,This subscription is paid by %{customer_display_info} and invoiced to you.
-inapp_portal.hierarchy.my_subscription.parent_payment,,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
-inapp_portal.hierarchy.my_subscription.paid_parent,,Paid by %{customer_display_info},Paid by %{customer_display_info}
-inapp_portal.home.my_subscription.parent_pays,,Paid by %{customer_display_info},Paid by %{customer_display_info}
-inapp_portal.home.child_sub_bar.multiple,,%{number} Child subscriptions,%{number} Child subscriptions
-inapp_portal.home.child_sub_bar.single,,%{number} Child subscription,%{number} Child subscription
-inapp_portal.home.child_sub_header,,Child subscriptions,Child subscriptions
-inapp_portal.child_subs.navigation_header,,Child subscriptions,Child subscriptions
-inapp_portal.see_parent_invoices,,See invoices paid by %{customer_display_info} for your subscritpions.,See invoices paid by %{customer_display_info} for your subscritpions.
-inapp_portal.invoice.paid_for_child,,This invoice belongs to %{customer_display_info} and is paid by you.,This invoice belongs to %{customer_display_info} and is paid by you.
-inapp_portal.invoice.parent_only,,You are seeing this invoice as you are the parent of this customer.,You are seeing this invoice as you are the parent of this customer.
-inapp_portal.child_sub_detail.invoice.to_parent,,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
-inapp_portal.child_sub_detail.invoice.to_child,,This subscription is paid by you and invoiced to %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.
-inapp_portal.child_sub_detail.payment_and_invoice.to_child,,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
-inapp_portal.invoices.paid_py_parent,,%{customer_display_info} pays for this invoice.,%{customer_display_info} pays for this invoice.
-inapp_portal.invoice,,Invoice # %{id},Invoice # %{id}
-inapp_portal.payment_owner_billing_history.header,,Invoices of parent,Invoices of parent
-inapp_portal.child_subscription.header,,Child subscription details,Child subscription details
-inapp_portal.invoice.payment.status.not_paid,,Not Paid,Not Paid
-inapp_portal.invoice.payment.status.paid,,Paid,Paid
-inapp_portal.invoice.payment.status.payment_due,,Payment Due,Payment Due
-inapp_portal.invoice.payment.status.pending,,Pending,Pending
-inapp_portal.invoice.payment.status.posted,,Posted,Posted
-inapp_portal.invoice.payment.status.to_collect,,Collecting,Collecting
-inapp_portal.invoice.payment.status.upcoming,,Upcoming,Upcoming
-inapp_portal.invoice.payment.status.voided,,Voided,Voided
-inapp_portal.subscription.extend.header,,Extend your subscription,Extend your subscription
-inapp_portal.subscription.extend.submit,,Extend for another %{extension_period},Extend for another %{extension_period}
-inapp_portal.subscription.extend.expiry.warning,,Your current plan will expire on %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date}
-inapp_portal.subscription.extend.info,,Charges for extending your plan will be applicable on %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date}
-inapp_portal.subscription.extend.thankyou.header,,Thank you for extending the subscription,Thank you for extending the subscription
-inapp_portal.subscription.extend.thankyou.body,,Your subscription has been extended for another %{extension_period},Your subscription has been extended for another %{extension_period}
-inapp_portal.subscription.extend.thankyou.close,,CLOSE,CLOSE
-inapp_portal.review.pm.header,,Payment,Payment
-inapp_portal.review.pm.not_available,,No payment method available,No payment method available
+inapp_portal.gift_details_notification.expired,Одержувач не вимагав вашого подарунка,Your gift was not claimed by the recipient,Your gift was not claimed by the recipient
+inapp_portal.gift.cancel_by_gifter,Скасувати подарунок,Cancel the gift,Cancel the gift
+inapp_portal.gift.cancel_by_gifter.warning,"Ви впевнені, що хочете скасувати цей подарунок?",Are you sure you want to cancel this gift?,Are you sure you want to cancel this gift?
+inapp_portal.hierarchy.my_subscription.my_payment,Ця підписка оплачується вами та виставляється вам.,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
+inapp_portal.hierarchy.my_subscription.my_invoice,Цю підписку оплачує %{customer_display_info} та виставляє вам рахунок.,This subscription is paid by %{customer_display_info} and invoiced to you.,This subscription is paid by %{customer_display_info} and invoiced to you.
+inapp_portal.hierarchy.my_subscription.parent_payment,Цю підписку оплачує та виставляє рахунок %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
+inapp_portal.hierarchy.my_subscription.paid_parent,Оплачує %{customer_display_info},Paid by %{customer_display_info},Paid by %{customer_display_info}
+inapp_portal.home.my_subscription.parent_pays,Оплачує %{customer_display_info},Paid by %{customer_display_info},Paid by %{customer_display_info}
+inapp_portal.home.child_sub_bar.multiple, %{number} дочірні підписки,%{number} Child subscriptions,%{number} Child subscriptions
+inapp_portal.home.child_sub_bar.single, %{number} Дитяча передплата,%{number} Child subscription,%{number} Child subscription
+inapp_portal.home.child_sub_header,Дитячі підписки,Child subscriptions,Child subscriptions
+inapp_portal.child_subs.navigation_header,Дитячі підписки,Child subscriptions,Child subscriptions
+inapp_portal.see_parent_invoices,"Перегляньте один або кілька рахунків-фактур, оплачених %{customer_display_info} за ваші підписки.",See invoices paid by %{customer_display_info} for your subscritpions.,See invoices paid by %{customer_display_info} for your subscritpions.
+inapp_portal.invoice.paid_for_child,Цей рахунок-фактура належить %{customer_display_info} і оплачується вами.,This invoice belongs to %{customer_display_info} and is paid by you.,This invoice belongs to %{customer_display_info} and is paid by you.
+inapp_portal.invoice.parent_only,"Ви бачите цей рахунок, оскільки ви є батьком цього клієнта.",You are seeing this invoice as you are the parent of this customer.,You are seeing this invoice as you are the parent of this customer.
+inapp_portal.child_sub_detail.invoice.to_parent,Ця підписка оплачується вами та виставляється вам.,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
+inapp_portal.child_sub_detail.invoice.to_child,Цю підписку ви оплачуєте та виставляєте рахунок %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.
+inapp_portal.child_sub_detail.payment_and_invoice.to_child,Цю підписку оплачує та виставляє рахунок %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
+inapp_portal.invoices.paid_py_parent, %{customer_display_info} платить за цей рахунок.,%{customer_display_info} pays for this invoice.,%{customer_display_info} pays for this invoice.
+inapp_portal.invoice,Номер рахунка-фактури %{id},Invoice # %{id},Invoice # %{id}
+inapp_portal.payment_owner_billing_history.header,Рахунки батьків,Invoices of parent,Invoices of parent
+inapp_portal.child_subscription.header,Інформація про підписку дитини,Child subscription details,Child subscription details
+inapp_portal.invoice.payment.status.not_paid,Не оплачується,Not Paid,Not Paid
+inapp_portal.invoice.payment.status.paid,Платні,Paid,Paid
+inapp_portal.invoice.payment.status.payment_due,Очікуваний платіж,Payment Due,Payment Due
+inapp_portal.invoice.payment.status.pending,В очікуванні,Pending,Pending
+inapp_portal.invoice.payment.status.posted,Опубліковано,Posted,Posted
+inapp_portal.invoice.payment.status.to_collect,Колекціонування,Collecting,Collecting
+inapp_portal.invoice.payment.status.upcoming,Майбутнє,Upcoming,Upcoming
+inapp_portal.invoice.payment.status.voided,Порожнеча,Voided,Voided
+inapp_portal.subscription.extend.header,Подовжте підписку,Extend your subscription,Extend your subscription
+inapp_portal.subscription.extend.submit,Продовжити ще на %{extension_period},Extend for another %{extension_period},Extend for another %{extension_period}
+inapp_portal.subscription.extend.expiry.warning,Ваш поточний план закінчується %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date}
+inapp_portal.subscription.extend.info,Плата за продовження вашого плану застосовуватиметься до %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date}
+inapp_portal.subscription.extend.thankyou.header,Дякуємо за продовження підписки,Thank you for extending the subscription,Thank you for extending the subscription
+inapp_portal.subscription.extend.thankyou.body,Вашу підписку продовжено ще на %{extension_period},Your subscription has been extended for another %{extension_period},Your subscription has been extended for another %{extension_period}
+inapp_portal.subscription.extend.thankyou.close,ЗАКРИТИ,CLOSE,CLOSE
+inapp_portal.review.pm.header,Оплата,Payment,Payment
+inapp_portal.review.pm.not_available,Спосіб оплати не доступний,No payment method available,No payment method available
 inapp_portal.home.note,,,
 inapp_portal.account.note,,,
 inapp_portal.edit_account.note,,,
@@ -374,140 +374,140 @@ inapp_portal.subscription.note.future,,,
 inapp_portal.subscription.note.non_renewing,,,
 inapp_portal.subscription.note.cancelled,,,
 inapp_portal.subscription.note.cancellation_scheduled,,,
-inapp_portal.estimate_display_screen.header,,Your order summary,Your order summary
-inapp_portal.manage_pm.redirect.label,,Go to app,Go to app
-inapp_portal.threeds.warning,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_portal.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_portal.home.promotions.link_text,,Refer & Earn,Refer & Earn
-inapp_portal.promotions.header,,Promotions,Promotions
+inapp_portal.estimate_display_screen.header,Підсумок вашого замовлення,Your order summary,Your order summary
+inapp_portal.manage_pm.redirect.label,Перейдіть до програми,Go to app,Go to app
+inapp_portal.threeds.warning,Вас можуть перенаправити на сторінку вашого банку для безпечної 3D-перевірки.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_portal.3ds.auth.txt,"Я уповноважую %{organisation_name} зберігати цей спосіб оплати та автоматично стягувати плату з цього способу оплати щоразу, коли з ним пов’язана підписка.",I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_portal.home.promotions.link_text,Посилання та заробіток,Refer & Earn,Refer & Earn
+inapp_portal.promotions.header,Акції,Promotions,Promotions
 inapp_portal.subscription.note.pause_subscription,,,
-inapp_portal.setup_password.section.name,,Set up Password,Set up Password
-inapp_portal.setup_password.header,,Set up your Password,Set up your Password
-inapp_portal.change_password.section.name,,Change Password,Change Password
-inapp_portal.change_password_verify.header,,Change your Password,Change your Password
-inapp_portal.verify_otp.header,,Enter OTP,Enter OTP
-inapp_portal.change_password_verify.next,,Proceed,Proceed
-inapp_portal.change_password_verify.current_password.label,,Enter your current password,Enter your current password
-inapp_portal.change_password.header,,Enter new password,Enter new password
-inapp_portal.new_password.label,,Enter new password,Enter new password
-inapp_portal.new_password.update_btn,,Update,Update
-inapp_portal.password.validation.desc,,Your password must have,Your password must have
-inapp_portal.password.validation.min_char,,At least 8 characters,At least 8 characters
-inapp_portal.password.validation.number,,At least one number,At least one number
-inapp_portal.password.validation.special,,"At least one special character @$!%*#?&() ","At least one special character @$!%*#?&() "
+inapp_portal.setup_password.section.name,Налаштування пароля,Set up Password,Set up Password
+inapp_portal.setup_password.header,Налаштуйте свій пароль,Set up your Password,Set up your Password
+inapp_portal.change_password.section.name,Змінити пароль,Change Password,Change Password
+inapp_portal.change_password_verify.header,Змінити пароль,Change your Password,Change your Password
+inapp_portal.verify_otp.header,Введіть OTP,Enter OTP,Enter OTP
+inapp_portal.change_password_verify.next,Продовжуйте,Proceed,Proceed
+inapp_portal.change_password_verify.current_password.label,Введіть поточний пароль,Enter your current password,Enter your current password
+inapp_portal.change_password.header,Введіть новий пароль,Enter new password,Enter new password
+inapp_portal.new_password.label,Введіть новий пароль,Enter new password,Enter new password
+inapp_portal.new_password.update_btn,Оновлення,Update,Update
+inapp_portal.password.validation.desc,Ваш пароль повинен бути,Your password must have,Your password must have
+inapp_portal.password.validation.min_char,Принаймні 8 символів,At least 8 characters,At least 8 characters
+inapp_portal.password.validation.number,Принаймні одне число,At least one number,At least one number
+inapp_portal.password.validation.special,Принаймні один спеціальний символ @ $!% * Число? & (),At least one special character @$!%*#?&() ,At least one special character @$!%*#?&() 
 inapp_portal.subscription.summary.additionalInfo,,,
 inapp_portal.child_subscription.summary.additionalInfo,,,
-inapp_portal.contract_term.summary.title,,Subscription Terms,Subscription Terms
-inapp_portal.contract_term.summary.total_contract_value,,Total contract value,Total contract value
-inapp_portal.contract_term.summary.billing_cycle,,Billing cycles,Billing cycles
-inapp_portal.contract_term.summary.end_action_renew,,Contract renews,Contract renews
-inapp_portal.contract_term.summary.end_action_evergreen,,Contract ends,Contract ends
-inapp_portal.contract_term.summary.end_action_evergreen_sub_active,,subscription will remain active,subscription will remain active
-inapp_portal.contract_term.summary.end_action_cancel,,Contract ends,Contract ends
-inapp_portal.contract_term.summary.end_action_renew_once,,"Contract renews for one more term on ","Contract renews for one more term on "
-inapp_portal.contract_term.details.header.title,,Contract Summary,Contract Summary
-inapp_portal.contract_term.details.tcv.title,,Total contract value,Total contract value
-inapp_portal.contract_term.details.term.title,,Contract term,Contract term
-inapp_portal.contract_term.details.term.to,,to,to
-inapp_portal.contract_term.details.bill_cyc.title,,Billing cycles,Billing cycles
-inapp_portal.contract_term.details.bill_cyc.total,,Total,Total
-inapp_portal.contract_term.details.bill_cyc.billed,,Billed,Billed
-inapp_portal.contract_term.details.term_end.title,,On contract term end,On contract term end
-inapp_portal.contract_term.details.term_end.renew,,Contract will renew for %{number} billing cycles,Contract will renew for %{number} billing cycles
-inapp_portal.contract_term.details.term_end.evergreen,,Contract ends (subscription will remain active),Contract ends (subscription will remain active)
-inapp_portal.contract_term.details.term_end.cancel,,Contract and subscription end.,Contract and subscription end.
-inapp_portal.contract_term.details.term_end.renew_once,,Contract will renew for one more term.,Contract will renew for one more term.
-inapp_portal.contract_term.details.grace_period.title,,Cancel before,Cancel before
-inapp_portal.contract_term.details.grace_period.note,,If you do not want your contract to renew.,If you do not want your contract to renew.
-inapp_portal.contract_term.details.end_action.cancel.notification,,Your subscription will be canceled at the end of contract term on %{date},Your subscription will be canceled at the end of contract term on %{date}
-inapp_portal.contract_term.details.end_action.renew_next_bill_cyc.notification,,Your contract will renew for one more term. Charges will apply until the end of the next contract term.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.
-inapp_portal.contract_term.order_summary.tcv,,Total contract value,Total contract value
-inapp_portal.contract_term.subscription.note,,This subscription is on contract,This subscription is on contract
-inapp_portal.contract_term.cancel.end_action.cancel.title,,Your subscription will be canceled at the end of the contract term on %{date},Your subscription will be canceled at the end of the contract term on %{date}
-inapp_portal.contract_term.cancel.end_action.cancel.notification,,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.
-inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.title,,Your subscription will renew for one more contract term after %{date},Your subscription will renew for one more contract term after %{date}
-inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.notification,,Your subscription passed the cut-off date for cancellation and will renew for one more term.,Your subscription passed the cut-off date for cancellation and will renew for one more term.
-inapp_portal.contract_term.reactivate.confirmation_text,,Your subscription will reactivate without contract terms,Your subscription will reactivate without contract terms
-inapp_portal.multi_decimal.quantity.error,,Enter valid quantity,Enter valid quantity
-inapp_portal.qty,,Qty,Qty
-paynow.button.txt,,Pay now: %{amount},Pay now: %{amount}
-paynow.header.txt,,You have %{total} unpaid invoice(s). Your total due is %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount}
-paynow.no_invoices.txt,,You have no unpaid invoices,You have no unpaid invoices
-paynow.header.choosepm.txt,,Choose Payment Method,Choose Payment Method
-paynow.modal.newpm.use,,Use a different payment method,Use a different payment method
-paynow.header.addpm.txt,,Add Payment Method,Add Payment Method
-paynow.thankyou.header,,Your payment was successful!,Your payment was successful!
+inapp_portal.contract_term.summary.title,Умови передплати,Subscription Terms,Subscription Terms
+inapp_portal.contract_term.summary.total_contract_value,Загальна вартість контракту,Total contract value,Total contract value
+inapp_portal.contract_term.summary.billing_cycle,Цикли виставлення рахунків,Billing cycles,Billing cycles
+inapp_portal.contract_term.summary.end_action_renew,Поновлення контракту,Contract renews,Contract renews
+inapp_portal.contract_term.summary.end_action_evergreen,Контракт закінчується,Contract ends,Contract ends
+inapp_portal.contract_term.summary.end_action_evergreen_sub_active,передплата залишатиметься активною,subscription will remain active,subscription will remain active
+inapp_portal.contract_term.summary.end_action_cancel,Контракт закінчується,Contract ends,Contract ends
+inapp_portal.contract_term.summary.end_action_renew_once,Контракт продовжується на ще один термін,Contract renews for one more term on ,Contract renews for one more term on 
+inapp_portal.contract_term.details.header.title,Підсумок контракту,Contract Summary,Contract Summary
+inapp_portal.contract_term.details.tcv.title,Загальна вартість контракту,Total contract value,Total contract value
+inapp_portal.contract_term.details.term.title,Термін дії договору,Contract term,Contract term
+inapp_portal.contract_term.details.term.to,до,to,to
+inapp_portal.contract_term.details.bill_cyc.title,Цикли виставлення рахунків,Billing cycles,Billing cycles
+inapp_portal.contract_term.details.bill_cyc.total,Разом,Total,Total
+inapp_portal.contract_term.details.bill_cyc.billed,Виставляється рахунок,Billed,Billed
+inapp_portal.contract_term.details.term_end.title,По закінченню терміну дії контракту,On contract term end,On contract term end
+inapp_portal.contract_term.details.term_end.renew,Контракт буде продовжено на %{number} розрахункових циклів,Contract will renew for %{number} billing cycles,Contract will renew for %{number} billing cycles
+inapp_portal.contract_term.details.term_end.evergreen,Контракт закінчується (передплата залишатиметься активною),Contract ends (subscription will remain active),Contract ends (subscription will remain active)
+inapp_portal.contract_term.details.term_end.cancel,Кінець договору та передплати.,Contract and subscription end.,Contract and subscription end.
+inapp_portal.contract_term.details.term_end.renew_once,Контракт продовжується ще на один термін.,Contract will renew for one more term.,Contract will renew for one more term.
+inapp_portal.contract_term.details.grace_period.title,Скасувати раніше,Cancel before,Cancel before
+inapp_portal.contract_term.details.grace_period.note,"Якщо ви не хочете, щоб ваш контракт продовжувався.",If you do not want your contract to renew.,If you do not want your contract to renew.
+inapp_portal.contract_term.details.end_action.cancel.notification,Ваша підписка буде скасована в кінці терміну дії договору %{date},Your subscription will be canceled at the end of contract term on %{date},Your subscription will be canceled at the end of contract term on %{date}
+inapp_portal.contract_term.details.end_action.renew_next_bill_cyc.notification,Ваш контракт буде продовжено ще на один термін. Плата стягуватиметься до кінця наступного строку дії контракту.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.
+inapp_portal.contract_term.order_summary.tcv,Загальна вартість контракту,Total contract value,Total contract value
+inapp_portal.contract_term.subscription.note,Ця підписка укладена за контрактом,This subscription is on contract,This subscription is on contract
+inapp_portal.contract_term.cancel.end_action.cancel.title,Ваша підписка буде скасована в кінці терміну дії договору %{date},Your subscription will be canceled at the end of the contract term on %{date},Your subscription will be canceled at the end of the contract term on %{date}
+inapp_portal.contract_term.cancel.end_action.cancel.notification,"Ваша передплата залишатиметься активною, і стягуватиметься плата до закінчення дії договору. Є питання? Зв'яжіться з нами.",Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.
+inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.title,Ваша передплата буде продовжена на ще один термін дії контракту після %{date},Your subscription will renew for one more contract term after %{date},Your subscription will renew for one more contract term after %{date}
+inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.notification,Ваша передплата минула граничну дату для скасування та продовжиться ще на один термін.,Your subscription passed the cut-off date for cancellation and will renew for one more term.,Your subscription passed the cut-off date for cancellation and will renew for one more term.
+inapp_portal.contract_term.reactivate.confirmation_text,Ваша підписка буде відновлена ​​без умов контракту,Your subscription will reactivate without contract terms,Your subscription will reactivate without contract terms
+inapp_portal.multi_decimal.quantity.error,Введіть дійсну кількість,Enter valid quantity,Enter valid quantity
+inapp_portal.qty,Кількість,Qty,Qty
+paynow.button.txt,Оплатіть зараз: %{amount},Pay now: %{amount},Pay now: %{amount}
+paynow.header.txt,У вас є %{total} несплачених рахунків-фактур. Ваша загальна заборгованість складає %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount}
+paynow.no_invoices.txt,У вас немає несплачених одного або декількох рахунків-фактур,You have no unpaid invoices,You have no unpaid invoices
+paynow.header.choosepm.txt,Виберіть спосіб оплати,Choose Payment Method,Choose Payment Method
+paynow.modal.newpm.use,Використовуйте інший спосіб оплати,Use a different payment method,Use a different payment method
+paynow.header.addpm.txt,Додати спосіб оплати,Add Payment Method,Add Payment Method
+paynow.thankyou.header,Ваш платіж вдався!,Your payment was successful!,Your payment was successful!
 paynow.thankyou.body,,,
-paynow.thankyou.close,,CLOSE,CLOSE
-paynow.modal_button.confirm,,Confirm,Confirm
-paynow.modal_button.cancel,,Cancel,Cancel
-paynow.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-paynow.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-paynow.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-paynow.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-paynow.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-paynow.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-paynow.redirect.label,,Go to app,Go to app
-paynow.threeds.warning,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-paynow.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_nl_portal.login.txt,,Enter your email address to login,Enter your email address to login
-inapp_nl_portal.otp.enter,,Enter the one time password sent to your email to continue,Enter the one time password sent to your email to continue
-inapp_nl_portal.password.enter,,Enter the password for your account,Enter the password for your account
-inapp_nl_portal.otp.resend,,Resend the one time password,Resend the one time password
-inapp_nl_portal.otp.next,,Login,Login
-inapp_nl_portal.login.via_otp,,Login via one time password,Login via one time password
-inapp_nl_portal.password.use,,Enter password instead,Enter password instead
-inapp_nl_portal.login.next,,Continue,Continue
-inapp_nl_portal.login.header,,Manage Your Subscriptions,Manage Your Subscriptions
-inapp_nl_portal.forgot_password.link.txt,,Forgot password?,Forgot password?
+paynow.thankyou.close,ЗАКРИТИ,CLOSE,CLOSE
+paynow.modal_button.confirm,Підтвердити,Confirm,Confirm
+paynow.modal_button.cancel,Скасувати,Cancel,Cancel
+paynow.payment_method.bacs.guarantee.header,Повернутися до оплати,Back to Payment,Back to Payment
+paynow.payment_method.bank_account.btn.proceed_to_review,Перейдіть до огляду,Proceed to Review,Proceed to Review
+paynow.payment_method.bank_account.btn.enter_iban,Введіть IBAN,Enter IBAN,Enter IBAN
+paynow.payment_method.bank_account.btn.enter_local_details,Введіть реквізити місцевого банку,Enter local bank details,Enter local bank details
+paynow.payment_method.bank_account.btn.enter_your_name,Введіть ім'я,Enter your name,Enter your name
+paynow.payment_method.bank_account.btn.enter_company_name,Введіть назву компанії,Enter company name,Enter company name
+paynow.redirect.label,Перейдіть до програми,Go to app,Go to app
+paynow.threeds.warning,Вас можуть перенаправити на сторінку вашого банку для безпечної 3D-перевірки.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+paynow.3ds.auth.txt,"Я уповноважую %{organisation_name} зберігати цей спосіб оплати та автоматично стягувати плату з цього способу оплати щоразу, коли з ним пов’язана підписка.",I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_nl_portal.login.txt,Введіть свою адресу електронної пошти для входу,Enter your email address to login,Enter your email address to login
+inapp_nl_portal.otp.enter,"Введіть одноразовий пароль, надісланий на електронну пошту, щоб продовжити",Enter the one time password sent to your email to continue,Enter the one time password sent to your email to continue
+inapp_nl_portal.password.enter,Введіть пароль для свого облікового запису,Enter the password for your account,Enter the password for your account
+inapp_nl_portal.otp.resend,Повторно надішліть одноразовий пароль,Resend the one time password,Resend the one time password
+inapp_nl_portal.otp.next,Увійти,Login,Login
+inapp_nl_portal.login.via_otp,Вхід через одноразовий пароль,Login via one time password,Login via one time password
+inapp_nl_portal.password.use,Натомість введіть пароль,Enter password instead,Enter password instead
+inapp_nl_portal.login.next,Продовжуйте,Continue,Continue
+inapp_nl_portal.login.header,Керуйте своїми підписками,Manage Your Subscriptions,Manage Your Subscriptions
+inapp_nl_portal.forgot_password.link.txt,Забули пароль?,Forgot password?,Forgot password?
 inapp_nl_portal.account.summary.additionalInfo,,,
-inapp_checkout.gift.cart.header,,Your gift order,Your gift order
-inapp_checkout.gift.cart.header.edit,,Edit your gift order,Edit your gift order
-inapp_checkout.gift.cart.next,,Proceed to checkout,Proceed to checkout
-inapp_checkout.gift.gift_details.header,,Add your gift details,Add your gift details
-inapp_checkout.gift.gift_details.header.edit,,Edit your gift details,Edit your gift details
-inapp_checkout.gift.gift_details.update,,Update,Update
-inapp_checkout.gift.gift_details.next,,Next,Next
-inapp_checkout.gift.gift_details.receiver_info.subheading,,Whom is this gift for?,Whom is this gift for?
-inapp_checkout.gift.gift_details.schedule.subheading,,Gift date & time,Gift date & time
-inapp_checkout.gift.gift_details.schedule.immediately,,Send immediately,Send immediately
-inapp_checkout.gift.gift_details.schedule.date,,Send on specific date and time,Send on specific date and time
-inapp_checkout.gift.gift_details.message.subheading,,Personal message,Personal message
-inapp_checkout.gift.gift_details.message.helptext,,The message will be sent to the recipient with your gift,The message will be sent to the recipient with your gift
-inapp_checkout.gift.gift_details.message.placeholder,,Your gift message,Your gift message
-inapp_checkout.gift.customer.header,,Add recipient information,Add recipient information
-inapp_checkout.gift.customer.header.edit,,Edit recipient information,Edit recipient information
-inapp_checkout.gift.customer.update,,Update,Update
-inapp_checkout.gift.customer.next,,Next,Next
-inapp_checkout.gift.billing_address.update,,Update,Update
-inapp_checkout.gift.billing_address.next,,Next,Next
-inapp_checkout.gift.billing_address.header,,Add your billing details,Add your billing details
-inapp_checkout.gift.billing_address.header.edit,,Edit your billing details,Edit your billing details
-inapp_checkout.gift.shipping_address.header,,Add recipient shipping address,Add recipient shipping address
-inapp_checkout.gift.shipping_address.header.edit,,Edit recipient shipping address,Edit recipient shipping address
-inapp_checkout.gift.shipping_address.update,,Update,Update
-inapp_checkout.gift.shipping_address.next,,Next,Next
-inapp_checkout.gift.payment_method.header,,Add your payment information,Add your payment information
-inapp_checkout.gift.payment_method.header.edit,,Edit your payment information,Edit your payment information
-inapp_checkout.gift.payment_method.update,,Update,Update
-inapp_checkout.gift.payment_method.next,,Next,Next
-inapp_checkout.gift.review.gift.header,,Gift details,Gift details
-inapp_checkout.gift.review.gift.your_message.label,,Personal Message,Personal Message
-inapp_checkout.gift.review.gift.from.label,,From,From
-inapp_checkout.gift.review.gift.scheduled_at.label,,Scheduled,Scheduled
-inapp_checkout.gift.review.gift.immediately.label,,Immediately sent,Immediately sent
-inapp_checkout.gift.review.shipping.header,,Recipient shipping address,Recipient shipping address
-inapp_checkout.gift.review.account.header,,Recipient details,Recipient details
-inapp_checkout.gift.subscription.header,,Add gift subscription details,Add gift subscription details
-inapp_checkout.gift.subscription.header.edit,,Edit gift subscription details,Edit gift subscription details
-inapp_checkout.gift.subscription.update,,Update,Update
-inapp_checkout.gift.subscription.next,,Next,Next
-inapp_checkout.gift.review.header,,Complete your order,Complete your order
-inapp_checkout.gift.review.btn.txt,,Pay %{amount} & place gift order,Pay %{amount} & place gift order
+inapp_checkout.gift.cart.header,Ваше замовлення подарунків,Your gift order,Your gift order
+inapp_checkout.gift.cart.header.edit,Редагуйте замовлення подарунків,Edit your gift order,Edit your gift order
+inapp_checkout.gift.cart.next,Приступайте до оплати,Proceed to checkout,Proceed to checkout
+inapp_checkout.gift.gift_details.header,Додайте дані про подарунок,Add your gift details,Add your gift details
+inapp_checkout.gift.gift_details.header.edit,Редагуйте дані про подарунок,Edit your gift details,Edit your gift details
+inapp_checkout.gift.gift_details.update,Оновлення,Update,Update
+inapp_checkout.gift.gift_details.next,Далі,Next,Next
+inapp_checkout.gift.gift_details.receiver_info.subheading,Для кого цей подарунок?,Whom is this gift for?,Whom is this gift for?
+inapp_checkout.gift.gift_details.schedule.subheading,Дата та час подарунка,Gift date & time,Gift date & time
+inapp_checkout.gift.gift_details.schedule.immediately,Надішліть негайно,Send immediately,Send immediately
+inapp_checkout.gift.gift_details.schedule.date,Надсилайте в певну дату та час,Send on specific date and time,Send on specific date and time
+inapp_checkout.gift.gift_details.message.subheading,Особисте повідомлення,Personal message,Personal message
+inapp_checkout.gift.gift_details.message.helptext,Повідомлення буде надіслано одержувачу з вашим подарунком,The message will be sent to the recipient with your gift,The message will be sent to the recipient with your gift
+inapp_checkout.gift.gift_details.message.placeholder,Ваше подарункове повідомлення,Your gift message,Your gift message
+inapp_checkout.gift.customer.header,Додайте інформацію про одержувача,Add recipient information,Add recipient information
+inapp_checkout.gift.customer.header.edit,Редагувати інформацію про одержувача,Edit recipient information,Edit recipient information
+inapp_checkout.gift.customer.update,Оновлення,Update,Update
+inapp_checkout.gift.customer.next,Далі,Next,Next
+inapp_checkout.gift.billing_address.update,Оновлення,Update,Update
+inapp_checkout.gift.billing_address.next,Далі,Next,Next
+inapp_checkout.gift.billing_address.header,Додайте свої платіжні реквізити,Add your billing details,Add your billing details
+inapp_checkout.gift.billing_address.header.edit,Відредагуйте свої платіжні дані,Edit your billing details,Edit your billing details
+inapp_checkout.gift.shipping_address.header,Додайте адресу доставки одержувача,Add recipient shipping address,Add recipient shipping address
+inapp_checkout.gift.shipping_address.header.edit,Змінити адресу доставки одержувача,Edit recipient shipping address,Edit recipient shipping address
+inapp_checkout.gift.shipping_address.update,Оновлення,Update,Update
+inapp_checkout.gift.shipping_address.next,Далі,Next,Next
+inapp_checkout.gift.payment_method.header,Додайте свою платіжну інформацію,Add your payment information,Add your payment information
+inapp_checkout.gift.payment_method.header.edit,Відредагуйте свою платіжну інформацію,Edit your payment information,Edit your payment information
+inapp_checkout.gift.payment_method.update,Оновлення,Update,Update
+inapp_checkout.gift.payment_method.next,Далі,Next,Next
+inapp_checkout.gift.review.gift.header,Деталі подарунка,Gift details,Gift details
+inapp_checkout.gift.review.gift.your_message.label,Особисте повідомлення,Personal Message,Personal Message
+inapp_checkout.gift.review.gift.from.label,Від,From,From
+inapp_checkout.gift.review.gift.scheduled_at.label,За розкладом,Scheduled,Scheduled
+inapp_checkout.gift.review.gift.immediately.label,Негайно відправлений,Immediately sent,Immediately sent
+inapp_checkout.gift.review.shipping.header,Адреса доставки одержувача,Recipient shipping address,Recipient shipping address
+inapp_checkout.gift.review.account.header,Деталі одержувача,Recipient details,Recipient details
+inapp_checkout.gift.subscription.header,Додайте деталі підписки на подарунок,Add gift subscription details,Add gift subscription details
+inapp_checkout.gift.subscription.header.edit,Редагувати деталі підписки на подарунки,Edit gift subscription details,Edit gift subscription details
+inapp_checkout.gift.subscription.update,Оновлення,Update,Update
+inapp_checkout.gift.subscription.next,Далі,Next,Next
+inapp_checkout.gift.review.header,Заповніть замовлення,Complete your order,Complete your order
+inapp_checkout.gift.review.btn.txt,Сплатіть %{amount} і оформіть замовлення подарунка,Pay %{amount} & place gift order,Pay %{amount} & place gift order
 inapp_checkout.gift.thankyou.header,,,
 inapp_checkout.gift.thankyou.body,,,
-inapp_checkout.gift.thankyou.close,,CLOSE,CLOSE
-inapp_checkout.gift.review.self_gift.warning,,You seem to be sending the gift to your own email address.,You seem to be sending the gift to your own email address.
+inapp_checkout.gift.thankyou.close,ЗАКРИТИ,CLOSE,CLOSE
+inapp_checkout.gift.review.self_gift.warning,"Здається, ви надсилаєте подарунок на свою електронну адресу.",You seem to be sending the gift to your own email address.,You seem to be sending the gift to your own email address.
 inapp_checkout.gift.payment_method.note.plan.no_trial,,,
 inapp_checkout.gift.cart.note.plan.no_trial,,,
 inapp_checkout.gift.review.note.plan.no_trial,,,
@@ -515,37 +515,37 @@ inapp_checkout.gift.customer.note,,,
 inapp_checkout.gift.subscription.note,,,
 inapp_checkout.gift.shipping_address.note,,,
 inapp_checkout.gift.billing_address.note,,,
-inapp_checkout.gift.review.threedsWarning.non_trial,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_checkout.gift.review.threedsWarning.trial,,"You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
-inapp_checkout.gift_claim.modal_button.cancel,,Cancel,Cancel
-inapp_checkout.gift_claim.modal_button.confirm,,Confirm,Confirm
-inapp_checkout.gift_claim.cart.header,,Your gift,Your gift
-inapp_checkout.gift_claim.cart.header.edit,,Your gift,Your gift
-inapp_checkout.gift_claim.cart.next,,Proceed to claim,Proceed to claim
-inapp_checkout.gift_claim.cart.body_desc,,Congratulations on your gift! You need to claim it to get started!,Congratulations on your gift! You need to claim it to get started!
-inapp_checkout.gift_claim.customer.body_desc,,"Here are the details that we have got. You can update this information, if required.","Here are the details that we have got. You can update this information, if required."
-inapp_checkout.gift_claim.customer.header,,Add your account information,Add your account information
-inapp_checkout.gift_claim.customer.header.edit,,Edit your account information,Edit your account information
-inapp_checkout.gift_claim.customer.update,,Update,Update
-inapp_checkout.gift_claim.customer.next,,Next,Next
-inapp_checkout.gift_claim.shipping_address.header,,Add your shipping address,Add your shipping address
-inapp_checkout.gift_claim.shipping_address.header.edit,,Edit your shipping address,Edit your shipping address
-inapp_checkout.gift_claim.shipping_address.update,,Update,Update
-inapp_checkout.gift_claim.shipping_address.next,,Next,Next
+inapp_checkout.gift.review.threedsWarning.non_trial,Вас можуть перенаправити на сторінку вашого банку для безпечної 3D-перевірки.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_checkout.gift.review.threedsWarning.trial,"Вас можуть перенаправити на сторінку вашого банку для безпечної 3D-перевірки, за яку може бути стягнуто символічну суму, яка буде повністю повернена автоматично.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
+inapp_checkout.gift_claim.modal_button.cancel,Скасувати,Cancel,Cancel
+inapp_checkout.gift_claim.modal_button.confirm,Підтвердити,Confirm,Confirm
+inapp_checkout.gift_claim.cart.header,Ваш подарунок,Your gift,Your gift
+inapp_checkout.gift_claim.cart.header.edit,Ваш подарунок,Your gift,Your gift
+inapp_checkout.gift_claim.cart.next,Продовжуйте претензію,Proceed to claim,Proceed to claim
+inapp_checkout.gift_claim.cart.body_desc,"Вітаємо з подарунком! Вам потрібно заявити це, щоб розпочати!",Congratulations on your gift! You need to claim it to get started!,Congratulations on your gift! You need to claim it to get started!
+inapp_checkout.gift_claim.customer.body_desc,"Ось деталі, які ми отримали. Ви можете оновити цю інформацію, якщо потрібно.","Here are the details that we have got. You can update this information, if required.","Here are the details that we have got. You can update this information, if required."
+inapp_checkout.gift_claim.customer.header,Додайте інформацію про свій рахунок,Add your account information,Add your account information
+inapp_checkout.gift_claim.customer.header.edit,Відредагуйте інформацію про свій рахунок,Edit your account information,Edit your account information
+inapp_checkout.gift_claim.customer.update,Оновлення,Update,Update
+inapp_checkout.gift_claim.customer.next,Далі,Next,Next
+inapp_checkout.gift_claim.shipping_address.header,Додайте свою адресу доставки,Add your shipping address,Add your shipping address
+inapp_checkout.gift_claim.shipping_address.header.edit,Відредагуйте свою адресу доставки,Edit your shipping address,Edit your shipping address
+inapp_checkout.gift_claim.shipping_address.update,Оновлення,Update,Update
+inapp_checkout.gift_claim.shipping_address.next,Далі,Next,Next
 inapp_checkout.gift_claim.shipping_address.body_desc,,,
-inapp_checkout.gift_claim.review.shipping.header,,Shipping address,Shipping address
-inapp_checkout.gift_claim.review.account.header,,Account,Account
-inapp_checkout.gift_claim.review.subscription.header,,Subscription details,Subscription details
-inapp_checkout.gift_claim.subscription.header,,Add gift subscription details,Add gift subscription details
-inapp_checkout.gift_claim.subscription.header.edit,,Edit gift subscription details,Edit gift subscription details
-inapp_checkout.gift_claim.subscription.update,,Update,Update
-inapp_checkout.gift_claim.subscription.next,,Next,Next
+inapp_checkout.gift_claim.review.shipping.header,Адреса доставки,Shipping address,Shipping address
+inapp_checkout.gift_claim.review.account.header,Рахунок,Account,Account
+inapp_checkout.gift_claim.review.subscription.header,Деталі передплати,Subscription details,Subscription details
+inapp_checkout.gift_claim.subscription.header,Додайте деталі підписки на подарунок,Add gift subscription details,Add gift subscription details
+inapp_checkout.gift_claim.subscription.header.edit,Редагувати деталі підписки на подарунки,Edit gift subscription details,Edit gift subscription details
+inapp_checkout.gift_claim.subscription.update,Оновлення,Update,Update
+inapp_checkout.gift_claim.subscription.next,Далі,Next,Next
 inapp_checkout.gift_claim.subscription.body_desc,,,
-inapp_checkout.gift_claim.review.header,,Claim your gift,Claim your gift
-inapp_checkout.gift_claim.review.btn.txt,,Claim Gift,Claim Gift
+inapp_checkout.gift_claim.review.header,Заявіть свій подарунок,Claim your gift,Claim your gift
+inapp_checkout.gift_claim.review.btn.txt,Заявка на подарунок,Claim Gift,Claim Gift
 inapp_checkout.gift_claim.thankyou.header,,,
 inapp_checkout.gift_claim.thankyou.body,,,
-inapp_checkout.gift_claim.thankyou.close,,CLOSE,CLOSE
+inapp_checkout.gift_claim.thankyou.close,ЗАКРИТИ,CLOSE,CLOSE
 inapp_checkout.gift_claim.cart.note.plan.no_trial,,,
 inapp_checkout.gift_claim.review.note.plan.no_trial,,,
 inapp_checkout.gift_claim.customer.note,,,

@@ -1,4 +1,4 @@
 key,value,reference value,description
-extend_sub_click_from_link,,You need to try again by clicking the link in the email we sent,You need to try again by clicking the link in the email we sent
-not_in_extend_sub_state,,Operation allowed only for non-renewing subscription,Operation allowed only for non-renewing subscription
-extend_sub_not_allowed_forever_sub,,Extend subscription not allowed for forever subscription,Extend subscription not allowed for forever subscription
+extend_sub_click_from_link,คุณต้องลองอีกครั้งโดยคลิกลิงก์ในอีเมลที่เราส่งไป,You need to try again by clicking the link in the email we sent,You need to try again by clicking the link in the email we sent
+not_in_extend_sub_state,อนุญาตให้ดำเนินการสำหรับการสมัครสมาชิกแบบไม่ต่ออายุเท่านั้น,Operation allowed only for non-renewing subscription,Operation allowed only for non-renewing subscription
+extend_sub_not_allowed_forever_sub,ไม่อนุญาตให้ขยายการสมัครสมาชิกสำหรับการสมัครสมาชิกตลอดไป,Extend subscription not allowed for forever subscription,Extend subscription not allowed for forever subscription

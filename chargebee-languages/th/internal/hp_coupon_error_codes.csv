@@ -1,28 +1,28 @@
 key,value,reference value,description
-exceeded_allowed_coupon_code_limit,,Only {0} coupon codes allowed per coupon set.,Only {0} coupon codes allowed per coupon set.
-invalid_request_with_no_applicable_coupon,,coupon not found or not a applicable coupon,coupon not found or not a applicable coupon
-api_coupon_not_applied,,coupon {0} has not been applied on this subscription,coupon {0} has not been applied on this subscription
-error_while_uploading_coupon_code,,Error during upload. Duplicate coupon code found at row {0}.,Error during upload. Duplicate coupon code found at row {0}.
-already_redeemed,,The coupon {0} is already redeemed for this subscription,The coupon {0} is already redeemed for this subscription
-rec_coupon_not_supported,,Coupon {0} cannot be applied as only one-time coupons are supported,Coupon {0} cannot be applied as only one-time coupons are supported
-cannot_delete_archived_coupon_code,,Cannot delete used coupon code,Cannot delete used coupon code
-un_supported_file_format,,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
-cannot_delete_exhausted_coupon_set,,Cannot delete exhausted Coupon Set,Cannot delete exhausted Coupon Set
-max_redemptions_reached,,The passed coupon {0} has already been redeemed {1} times. No more redemptions are allowed,Maximum redemption count of the coupon is exceeded.
-too_many_characters_in_coupon_code,,More than {0} characters is found at coupon code in row {1},More than {0} characters is found at coupon code in row {1}
-invalid_coupon,,No such coupon found,No such coupon found
-coupon_set_name_alreay_exists,,coupon set name already exists for another coupon.,coupon set name already exists for another coupon.
-applicable_item_limit_exceeded,,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.
-invalid_subscription_state,,Invalid subscription state to apply/change coupon,Invalid subscription state to apply/change coupon
-exceeded_allowed_coupon_set_limit,,Only {0} coupon sets allowed per coupon.,Only {0} coupon sets allowed per coupon.
-cannot_archive_redeemed_coupon_code,,Cannot archive a redeemed coupon code,Cannot archive a redeemed coupon code
-two_coupons_of_same_type,,This coupon cannot be applied for this subscription. Please contact the seller for more details.,This coupon cannot be applied for this subscription. Please contact the seller for more details.
-no_such_coupon,,No such coupon {0} to redeem,Coupon is not found
-coupon_not_applicable,,Coupon {0} cannot be applied as it is not applicable to any of the items,Coupon is not applicable for any of the passed item
-no_coupon_code_found,,No coupon codes found in the file.,No coupon codes found in the file.
-coupon_expired,,Applied coupon {0} has already expired on {1},Applied coupon {0} has already expired on {1}
-invalid_request_with_no_coupon,,No coupons have been applied on this subscription,No coupons have been applied on this subscription
-could_not_read_the_file,,Could not able to read the content in CSV file.,Could not able to read the content in CSV file.
-invalid_coupon_code,,Invalid coupon code,Invalid coupon code
-coupon_code_not_applicable_for_this_coupon,,Coupon code is not applicable for this coupon,Coupon code is not applicable for this coupon
-coupon_code_already_exists,,Coupon code already exists. Duplicate not allowed,Coupon code already exists. Duplicate not allowed
+exceeded_allowed_coupon_code_limit,อนุญาตให้ใช้รหัสคูปองเพียง {0} รหัสต่อชุดคูปอง,Only {0} coupon codes allowed per coupon set.,Only {0} coupon codes allowed per coupon set.
+invalid_request_with_no_applicable_coupon,ไม่พบคูปองหรือไม่ใช่คูปองที่เกี่ยวข้อง,coupon not found or not a applicable coupon,coupon not found or not a applicable coupon
+api_coupon_not_applied,ไม่มีการใช้คูปอง {0} ในการสมัครรับข้อมูลนี้,coupon {0} has not been applied on this subscription,coupon {0} has not been applied on this subscription
+error_while_uploading_coupon_code,เกิดข้อผิดพลาดระหว่างการอัปโหลด พบรหัสคูปองซ้ำกันที่แถว {0},Error during upload. Duplicate coupon code found at row {0}.,Error during upload. Duplicate coupon code found at row {0}.
+already_redeemed,มีการแลกคูปอง {0} สำหรับการสมัครรับข้อมูลนี้แล้ว,The coupon {0} is already redeemed for this subscription,The coupon {0} is already redeemed for this subscription
+rec_coupon_not_supported,ไม่สามารถใช้คูปอง {0} ได้เนื่องจากรองรับคูปองแบบใช้ครั้งเดียวเท่านั้น,Coupon {0} cannot be applied as only one-time coupons are supported,Coupon {0} cannot be applied as only one-time coupons are supported
+cannot_delete_archived_coupon_code,ไม่สามารถลบรหัสคูปองที่ใช้แล้ว,Cannot delete used coupon code,Cannot delete used coupon code
+un_supported_file_format,รูปแบบไฟล์ที่ไม่รองรับ อนุญาตเฉพาะไฟล์ CSV เท่านั้น,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
+cannot_delete_exhausted_coupon_set,ไม่สามารถลบชุดคูปองที่หมดแล้วได้,Cannot delete exhausted Coupon Set,Cannot delete exhausted Coupon Set
+max_redemptions_reached,คูปองที่ผ่าน {0} ถูกแลกไปแล้ว {1} ครั้ง ไม่อนุญาตให้ทำการแลกอีกต่อไป,The passed coupon {0} has already been redeemed {1} times. No more redemptions are allowed,Maximum redemption count of the coupon is exceeded.
+too_many_characters_in_coupon_code,พบอักขระมากกว่า {0} ตัวที่รหัสคูปองในแถว {1},More than {0} characters is found at coupon code in row {1},More than {0} characters is found at coupon code in row {1}
+invalid_coupon,ไม่พบคูปองดังกล่าว,No such coupon found,No such coupon found
+coupon_set_name_alreay_exists,มีชื่อชุดคูปองสำหรับคูปองอื่นอยู่แล้ว,coupon set name already exists for another coupon.,coupon set name already exists for another coupon.
+applicable_item_limit_exceeded,คูปองอย่างน้อยหนึ่งรายการมีรายการที่เกี่ยวข้องมากกว่า {0} รายการ กรุณาติดต่อ support@chargebee.com สำหรับรายละเอียดเพิ่มเติม,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.
+invalid_subscription_state,สถานะการสมัครไม่ถูกต้องเพื่อใช้ / เปลี่ยนแปลงคูปอง,Invalid subscription state to apply/change coupon,Invalid subscription state to apply/change coupon
+exceeded_allowed_coupon_set_limit,อนุญาตให้ใช้คูปองได้เพียง {0} ชุดต่อคูปอง,Only {0} coupon sets allowed per coupon.,Only {0} coupon sets allowed per coupon.
+cannot_archive_redeemed_coupon_code,ไม่สามารถเก็บรหัสคูปองที่แลก,Cannot archive a redeemed coupon code,Cannot archive a redeemed coupon code
+two_coupons_of_same_type,ไม่สามารถใช้คูปองนี้สำหรับการสมัครสมาชิกนี้ โปรดติดต่อผู้ขายเพื่อขอรายละเอียดเพิ่มเติม,This coupon cannot be applied for this subscription. Please contact the seller for more details.,This coupon cannot be applied for this subscription. Please contact the seller for more details.
+no_such_coupon,ไม่มีคูปองดังกล่าว {0} ให้แลก,No such coupon {0} to redeem,Coupon is not found
+coupon_not_applicable,ไม่สามารถใช้คูปอง {0} ได้เนื่องจากไม่สามารถใช้ได้กับรายการใด ๆ,Coupon {0} cannot be applied as it is not applicable to any of the items,Coupon is not applicable for any of the passed item
+no_coupon_code_found,ไม่พบรหัสคูปองในไฟล์,No coupon codes found in the file.,No coupon codes found in the file.
+coupon_expired,คูปองที่ใช้แล้ว {0} หมดอายุแล้วเมื่อวันที่ {1},Applied coupon {0} has already expired on {1},Applied coupon {0} has already expired on {1}
+invalid_request_with_no_coupon,ไม่มีการใช้คูปองในการสมัครสมาชิกนี้,No coupons have been applied on this subscription,No coupons have been applied on this subscription
+could_not_read_the_file,ไม่สามารถอ่านเนื้อหาในไฟล์ CSV,Could not able to read the content in CSV file.,Could not able to read the content in CSV file.
+invalid_coupon_code,รหัสคูปองไม่ถูกต้อง,Invalid coupon code,Invalid coupon code
+coupon_code_not_applicable_for_this_coupon,รหัสคูปองไม่สามารถใช้ได้กับคูปองนี้,Coupon code is not applicable for this coupon,Coupon code is not applicable for this coupon
+coupon_code_already_exists,มีรหัสคูปองอยู่แล้ว ไม่อนุญาตให้ทำซ้ำ,Coupon code already exists. Duplicate not allowed,Coupon code already exists. Duplicate not allowed

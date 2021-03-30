@@ -1,21 +1,21 @@
 key,value,reference value,description
-taxjar_communication_failure,,"Sorry, we’re unable to communicate with TaxJar right now. Please try after some time.","Sorry, we’re unable to communicate with TaxJar right now. Please try after some time."
-avalara_doc_status_invalid,,Operation failed. Invalid document status in Avalara.,Operation failed. Invalid document status in Avalara.
-taxjar_origin_address_error,,The organizational address is either invalid or incomplete. Please verify and try again.,The organizational address is either invalid or incomplete. Please verify and try again.
-ava_auth_error,,Avalara credentials provided are invalid.,Avalara credentials provided are invalid.
-origin_address_error,,The organizational address is either invalid or incomplete. Please verify and try again.,The organizational address is either invalid or incomplete. Please verify and try again.
-taxjar_product_code_not_found,,TaxJar Product code is not configured for the item {0}.,TaxJar Product code is not configured for the item {0}.
-address_validation_failed,,"Sorry, shipping address has failed {0} address check. Please verify and try again.","Sorry, shipping address has failed {0} address check. Please verify and try again."
-shipping_address_invalid,,"Sorry, shipping address is either invalid or incomplete. Please verify and try again.","Sorry, shipping address is either invalid or incomplete. Please verify and try again."
-taxjar_auth_error,,TaxJar credentials provided are invalid.,TaxJar credentials provided are invalid.
-cred_delete_invalid_state,,{0} credential cannot be cleared as they are already in use. Please remove {0} tax configuration before clearing {0} credential.,{0} credential cannot be cleared as they are already in use. Please remove {0} tax configuration before clearing {0} credential.
-destination_address_error,,Unable to calculate the tax rate as the shipping/billing address is either invalid or incomplete. Please verify and try again.,Unable to calculate the tax rate as the shipping/billing address is either invalid or incomplete. Please verify and try again.
-multi_step_layout_disabled,,"Sorry, this theme does not support {0}. Please choose a different theme.","Sorry, this theme does not support {0}. Please choose a different theme."
-billing_address_invalid,,The Billing address is either invalid or incomplete. Please verify and try again.,The Billing address is either invalid or incomplete. Please verify and try again.
-company_code_error,,The Company Code configured for your Avalara AvaTax account is either inactive or not present.,The Company Code configured for your Avalara AvaTax account is either inactive or not present.
-delete_shipping_address_not_allowed,,Please provide a valid billing address before deleting the shipping address.,Please provide a valid billing address before deleting the shipping address.
-avalara_doc_in_invalid_state,,This document cannot be voided/deleted as it has not been posted to Avalara. Please retry after some time.,This document cannot be voided/deleted as it has not been posted to Avalara. Please retry after some time.
-avalara_communication_failure,,"Sorry, we’re unable to communicate with Avalara right now. Please try after some time.","Sorry, we’re unable to communicate with Avalara right now. Please try after some time."
-hp_avalara_integ_failure,,"Sorry, something went wrong while the request was being processed. Please try after some time.","Sorry, something went wrong while the request was being processed. Please try after some time."
-both_exemption_reasons_passed,,"You can either choose the Avalara Entity Code or Exempt Number, not both.","You can either choose the Avalara Entity Code or Exempt Number, not both."
-hp_taxjar_integ_failure,,"Sorry, something went wrong while the request was being processed. Please try after some time.","Sorry, something went wrong while the request was being processed. Please try after some time."
+taxjar_communication_failure,抱歉，我们目前无法与TaxJar通信。请稍后再试。,"Sorry, we’re unable to communicate with TaxJar right now. Please try after some time.","Sorry, we’re unable to communicate with TaxJar right now. Please try after some time."
+avalara_doc_status_invalid,手术失败。 Avalara中的文档状态无效。,Operation failed. Invalid document status in Avalara.,Operation failed. Invalid document status in Avalara.
+taxjar_origin_address_error,组织地址无效或不完整。请验证，然后重试。,The organizational address is either invalid or incomplete. Please verify and try again.,The organizational address is either invalid or incomplete. Please verify and try again.
+ava_auth_error,提供的Avalara凭证无效。,Avalara credentials provided are invalid.,Avalara credentials provided are invalid.
+origin_address_error,组织地址无效或不完整。请验证，然后重试。,The organizational address is either invalid or incomplete. Please verify and try again.,The organizational address is either invalid or incomplete. Please verify and try again.
+taxjar_product_code_not_found,没有为项目{0}配置TaxJar产品代码。,TaxJar Product code is not configured for the item {0}.,TaxJar Product code is not configured for the item {0}.
+address_validation_failed,抱歉，送货地址{0}地址检查失败。请验证，然后重试。,"Sorry, shipping address has failed {0} address check. Please verify and try again.","Sorry, shipping address has failed {0} address check. Please verify and try again."
+shipping_address_invalid,抱歉，送货地址无效或不完整。请验证，然后重试。,"Sorry, shipping address is either invalid or incomplete. Please verify and try again.","Sorry, shipping address is either invalid or incomplete. Please verify and try again."
+taxjar_auth_error,提供的TaxJar凭证无效。,TaxJar credentials provided are invalid.,TaxJar credentials provided are invalid.
+cred_delete_invalid_state,{0}凭证已被使用，因此无法清除。请先清除{0}税收配置，然后再清除{0}凭据。,{0} credential cannot be cleared as they are already in use. Please remove {0} tax configuration before clearing {0} credential.,{0} credential cannot be cleared as they are already in use. Please remove {0} tax configuration before clearing {0} credential.
+destination_address_error,无法计算税率，因为送货地址/账单地址无效或不完整。请验证，然后重试。,Unable to calculate the tax rate as the shipping/billing address is either invalid or incomplete. Please verify and try again.,Unable to calculate the tax rate as the shipping/billing address is either invalid or incomplete. Please verify and try again.
+multi_step_layout_disabled,抱歉，该主题不支持{0}。请选择其他主题。,"Sorry, this theme does not support {0}. Please choose a different theme.","Sorry, this theme does not support {0}. Please choose a different theme."
+billing_address_invalid,帐单地址无效或不完整。请验证，然后重试。,The Billing address is either invalid or incomplete. Please verify and try again.,The Billing address is either invalid or incomplete. Please verify and try again.
+company_code_error,为您的Avalara AvaTax帐户配置的公司代码无效或不存在。,The Company Code configured for your Avalara AvaTax account is either inactive or not present.,The Company Code configured for your Avalara AvaTax account is either inactive or not present.
+delete_shipping_address_not_allowed,请在删除送货地址之前提供有效的帐单地址。,Please provide a valid billing address before deleting the shipping address.,Please provide a valid billing address before deleting the shipping address.
+avalara_doc_in_invalid_state,由于该文档尚未发布到Avalara，因此不能作废/删除。请过一段时间再试。,This document cannot be voided/deleted as it has not been posted to Avalara. Please retry after some time.,This document cannot be voided/deleted as it has not been posted to Avalara. Please retry after some time.
+avalara_communication_failure,抱歉，我们目前无法与Avalara进行交流。请稍后再试。,"Sorry, we’re unable to communicate with Avalara right now. Please try after some time.","Sorry, we’re unable to communicate with Avalara right now. Please try after some time."
+hp_avalara_integ_failure,抱歉，正在处理请求时出了点问题。请稍后再试。,"Sorry, something went wrong while the request was being processed. Please try after some time.","Sorry, something went wrong while the request was being processed. Please try after some time."
+both_exemption_reasons_passed,您可以选择“ Avalara实体代码”或“豁免号”，不能两者都选。,"You can either choose the Avalara Entity Code or Exempt Number, not both.","You can either choose the Avalara Entity Code or Exempt Number, not both."
+hp_taxjar_integ_failure,抱歉，正在处理请求时出了点问题。请稍后再试。,"Sorry, something went wrong while the request was being processed. Please try after some time.","Sorry, something went wrong while the request was being processed. Please try after some time."

@@ -1,21 +1,21 @@
 key,value,reference value,description
-invalid_charge_start_and_end,,Invalid term period passed. line_item.date_from must be before line_item.date_to,Invalid term period passed. line_item.date_from must be before line_item.date_to
-xero_build_inprogress,,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.
-invalid_invoice_amount,,Invoice Amount {0} should be greater than zero,Invoice Amount {0} should be greater than zero
-record_payment_not_supported,,{0},{0}
-max_size_reached,,Exceeded maximum limit of card payments to refund,Exceeded maximum limit of card payments to refund
-recurring_addon_not_supported,,Recurring addon cannot be added to pending invoice.,Recurring addon cannot be added to pending invoice.
-hp_product_type_mismatch,,"Sorry, we are unable process your request. Please get in touch with the seller/merchant.","Sorry, we are unable process your request. Please get in touch with the seller/merchant."
-invalid_payment_amount,,{0},{0}
-refund_amount_too_big,,"Specified amount is greater than the allowed limit ''{0}'' ",The refund amount is greater than the invoice amount
-invalid_invoice_state,,{0},{0}
-xero_disabled,,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.
-no_card_present_for_refund,,Cannot process request as the payment method used for this transaction has been cleared.,Cannot process request as the payment method used for this transaction has been cleared.
-insufficient card payments,,Operation cannot be proceed since customers different card payments are required to refund,Operation cannot be proceed since customers different card payments are required to refund
-invoice_price_type,,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).
-referenced_line_item_not_found,,The referenced charge line item {0} is not attached to invoice {1},The referenced charge line item {0} is not attached to invoice {1}
-refund_failed,,Refund operation failed. Error message: {0},Refund operation failed. Error message: {0}
-operation_failed,,{0},{0}
-product_type_mismatch,,You cannot bill both digital and non-digital products using the same invoice.,You cannot bill both digital and non-digital products using the same invoice.
-invoice.operation_not_suppoerted,,{0},{0}
-address_change_not_supported,,Address cannot be changed as it changes the applied tax,Address cannot be changed as it changes the applied tax
+invalid_charge_start_and_end,Đã qua khoảng thời gian không hợp lệ. line_item.date_from phải trước line_item.date_to,Invalid term period passed. line_item.date_from must be before line_item.date_to,Invalid term period passed. line_item.date_from must be before line_item.date_to
+xero_build_inprogress,Tích hợp Xero tạm thời bị vô hiệu hóa để bảo trì. Điều này sẽ kết thúc sau vài phút. Xin hãy thử lại sau một vài giây.,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.,Xero integration is temporarily disabled for maintenance. This should be over in few minutes. Please try after sometime.
+invalid_invoice_amount,Số lượng Hóa đơn {0} phải lớn hơn 0,Invoice Amount {0} should be greater than zero,Invoice Amount {0} should be greater than zero
+record_payment_not_supported,{0},{0},{0}
+max_size_reached,Đã vượt quá giới hạn thanh toán thẻ tối đa để được hoàn tiền,Exceeded maximum limit of card payments to refund,Exceeded maximum limit of card payments to refund
+recurring_addon_not_supported,Bổ trợ định kỳ không thể được thêm vào hóa đơn đang chờ xử lý.,Recurring addon cannot be added to pending invoice.,Recurring addon cannot be added to pending invoice.
+hp_product_type_mismatch,"Xin lỗi, chúng tôi không thể xử lý yêu cầu của bạn. Vui lòng liên hệ với người bán / người bán.","Sorry, we are unable process your request. Please get in touch with the seller/merchant.","Sorry, we are unable process your request. Please get in touch with the seller/merchant."
+invalid_payment_amount,{0},{0},{0}
+refund_amount_too_big,Số tiền đã chỉ định lớn hơn giới hạn cho phép '{0}',Specified amount is greater than the allowed limit ''{0}'' ,The refund amount is greater than the invoice amount
+invalid_invoice_state,{0},{0},{0}
+xero_disabled,Tích hợp Xero bị vô hiệu hóa cho trang web của bạn. Vui lòng liên hệ support@chargebee.com để biết thêm chi tiết và được hỗ trợ.,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.,Xero integration is disabled for your site. Please contact support@chargebee.com for further details and assistance.
+no_card_present_for_refund,Không thể xử lý yêu cầu vì phương thức thanh toán được sử dụng cho giao dịch này đã bị xóa.,Cannot process request as the payment method used for this transaction has been cleared.,Cannot process request as the payment method used for this transaction has been cleared.
+insufficient card payments,Không thể tiến hành thao tác vì khách hàng phải hoàn trả các khoản thanh toán bằng thẻ khác nhau,Operation cannot be proceed since customers different card payments are required to refund,Operation cannot be proceed since customers different card payments are required to refund
+invoice_price_type,Tất cả các dòng sản phẩm phải có cùng một loại giá (Không bao gồm thuế / Bao gồm thuế).,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).,All lineitem should of same price type(Tax Exclusive/ Tax Inclusive).
+referenced_line_item_not_found,Mục hàng khoản phí được tham chiếu {0} không được đính kèm với hóa đơn {1},The referenced charge line item {0} is not attached to invoice {1},The referenced charge line item {0} is not attached to invoice {1}
+refund_failed,Thao tác hoàn lại tiền không thành công. Thông báo lỗi: {0},Refund operation failed. Error message: {0},Refund operation failed. Error message: {0}
+operation_failed,{0},{0},{0}
+product_type_mismatch,Bạn không thể lập hóa đơn cho cả sản phẩm kỹ thuật số và không kỹ thuật số sử dụng cùng một hóa đơn.,You cannot bill both digital and non-digital products using the same invoice.,You cannot bill both digital and non-digital products using the same invoice.
+invoice.operation_not_suppoerted,{0},{0},{0}
+address_change_not_supported,Không thể thay đổi địa chỉ vì nó thay đổi thuế áp dụng,Address cannot be changed as it changes the applied tax,Address cannot be changed as it changes the applied tax

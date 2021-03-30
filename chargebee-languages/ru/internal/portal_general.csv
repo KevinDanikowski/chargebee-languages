@@ -1,11 +1,11 @@
 key,value,reference value,description
-portal.stripe_acc_status_reason.errored,,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
-portal.change_password.reenter_new_password,,Passwords do not match,Passwords do not match
-portal.change_password.new_password_not_same,,New password is same as the current password,New password is same as the current password
-portal.change_password.current_password.incorrect,,The password you gave is incorrect,The password you gave is incorrect
-portal.stripe_acc_status_reason.verification_failed,,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
-portal.account_details.address,,Address,Address Label
-portal.stripe_acc_status_reason.validated,,The bank account is not yet verified,The bank account is not yet verified
-portal.stripe_acc_status_reason.verified,,The bank account is verified,The bank account is verified
-portal.stripe_acc_status_reason.new,,The bank account is not yet verified,The bank account is not yet verified
-portal.change_password.recently_used,,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again
+portal.stripe_acc_status_reason.errored,"Недавний перевод, отправленный на банковский счет, не прошел. Банковский счет нельзя использовать для будущих платежей.",Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
+portal.change_password.reenter_new_password,Пароли не соответствуют,Passwords do not match,Passwords do not match
+portal.change_password.new_password_not_same,"Новый пароль такой же, как текущий пароль",New password is same as the current password,New password is same as the current password
+portal.change_password.current_password.incorrect,Вы указали неверный пароль,The password you gave is incorrect,The password you gave is incorrect
+portal.stripe_acc_status_reason.verification_failed,Максимальное количество попыток проверить банковский счет было пересечено,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
+portal.account_details.address,Адрес,Address,Address Label
+portal.stripe_acc_status_reason.validated,Банковский счет еще не подтвержден,The bank account is not yet verified,The bank account is not yet verified
+portal.stripe_acc_status_reason.verified,Банковский счет подтвержден,The bank account is verified,The bank account is verified
+portal.stripe_acc_status_reason.new,Банковский счет еще не подтвержден,The bank account is not yet verified,The bank account is not yet verified
+portal.change_password.recently_used,Недавно использованные пароли не могут быть повторно использованы,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again

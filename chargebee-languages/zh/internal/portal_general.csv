@@ -1,11 +1,11 @@
 key,value,reference value,description
-portal.stripe_acc_status_reason.errored,,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
-portal.change_password.reenter_new_password,,Passwords do not match,Passwords do not match
-portal.change_password.new_password_not_same,,New password is same as the current password,New password is same as the current password
-portal.change_password.current_password.incorrect,,The password you gave is incorrect,The password you gave is incorrect
-portal.stripe_acc_status_reason.verification_failed,,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
-portal.account_details.address,,Address,Address Label
-portal.stripe_acc_status_reason.validated,,The bank account is not yet verified,The bank account is not yet verified
-portal.stripe_acc_status_reason.verified,,The bank account is verified,The bank account is verified
-portal.stripe_acc_status_reason.new,,The bank account is not yet verified,The bank account is not yet verified
-portal.change_password.recently_used,,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again
+portal.stripe_acc_status_reason.errored,最近发送到银行帐户的转帐失败。银行帐户不能用于以后的付款,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
+portal.change_password.reenter_new_password,密码不匹配,Passwords do not match,Passwords do not match
+portal.change_password.new_password_not_same,新密码与当前密码相同,New password is same as the current password,New password is same as the current password
+portal.change_password.current_password.incorrect,您输入的密码不正确,The password you gave is incorrect,The password you gave is incorrect
+portal.stripe_acc_status_reason.verification_failed,尝试验证银行帐户已被越过的最大尝试,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
+portal.account_details.address,地址,Address,Address Label
+portal.stripe_acc_status_reason.validated,银行帐户尚未验证,The bank account is not yet verified,The bank account is not yet verified
+portal.stripe_acc_status_reason.verified,银行帐户已验证,The bank account is verified,The bank account is verified
+portal.stripe_acc_status_reason.new,银行帐户尚未验证,The bank account is not yet verified,The bank account is not yet verified
+portal.change_password.recently_used,最近使用的密码不能再次使用,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again

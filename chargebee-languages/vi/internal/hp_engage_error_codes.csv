@@ -1,4 +1,4 @@
 key,value,reference value,description
-extend_sub_click_from_link,,You need to try again by clicking the link in the email we sent,You need to try again by clicking the link in the email we sent
-not_in_extend_sub_state,,Operation allowed only for non-renewing subscription,Operation allowed only for non-renewing subscription
-extend_sub_not_allowed_forever_sub,,Extend subscription not allowed for forever subscription,Extend subscription not allowed for forever subscription
+extend_sub_click_from_link,Bạn cần thử lại bằng cách nhấp vào liên kết trong email chúng tôi đã gửi,You need to try again by clicking the link in the email we sent,You need to try again by clicking the link in the email we sent
+not_in_extend_sub_state,Hoạt động chỉ được phép đối với đăng ký không gia hạn,Operation allowed only for non-renewing subscription,Operation allowed only for non-renewing subscription
+extend_sub_not_allowed_forever_sub,Không được phép gia hạn đăng ký đối với đăng ký vĩnh viễn,Extend subscription not allowed for forever subscription,Extend subscription not allowed for forever subscription

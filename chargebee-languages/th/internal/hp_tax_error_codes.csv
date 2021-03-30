@@ -1,25 +1,25 @@
 key,value,reference value,description
-invalid_column,,The value {1} in the column ({0}) is invalid,The value {1} in the column ({0}) is invalid
-invalid_column_header,,The column {0} is invalid.,The column {0} is invalid.
-billing_country_needed_to_collect_registered_for_gst_field,,You need to add a Billing Country to select this field.,You need to add a Billing Country to select this field.
-billing_country_needed,,Billing country needed to validate the VAT number.,Billing country needed to validate the VAT number.
-australia_tax_should_be_configured,,You need to enable tax for Australia to select this field,You need to enable tax for Australia to select this field
-tax.could_not_read_the_file,,File contains invalid values,File contains invalid values
-unable_to_validate_abn,,Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
-no_header_found,,Header are not present or not formatted properly.,Header are not present or not formatted properly.
-no_tax_rules_found,,File does not contain any tax rule,File does not contain any tax rule
-tax.un_supported_file_format,,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
-profile_service_type_error,,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.
-tax.wrong_format,,Value for ({0}) is invalid,Value for ({0}) is invalid
-file_not_found,,Tax configuration file not found,Tax configuration file not found
-duplicate_column,,The column ({0}) appears more than once in the file.,The column ({0}) appears more than once in the file.
-invalid_GSTIN,,You need to enter a valid GSTIN.,You need to enter a valid GSTIN.
-invalid_abn_number,,You need to enter a valid ABN.,You need to enter a valid ABN.
-eu_vat_not_applicable,,VAT Number not applicable for this country,VAT Number not applicable for this country
-zip_wrong_format,,cannot configure the zip values - {0},cannot configure the zip values - {0}
-invalid_zip_code,,invalid zip/postal code,invalid zip/postal code
-org_address_not_config,,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined
-registered_for_gst_not_applicable,,This option is applicable for Australia only.,This option is applicable for Australia only.
-invalid_vat_number,,You need to enter a valid VAT number.,You need to enter a valid VAT number.
-unable_to_validate,,Unable to validate VAT number as VIES is experiencing downtime.,Unable to validate VAT number as VIES is experiencing downtime.
-us_unsupported_prefix,,Wildcard characters cannot be used along with ZIP+4 postal codes - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0}
+invalid_column,ค่า {1} ในคอลัมน์ ({0}) ไม่ถูกต้อง,The value {1} in the column ({0}) is invalid,The value {1} in the column ({0}) is invalid
+invalid_column_header,คอลัมน์ {0} ไม่ถูกต้อง,The column {0} is invalid.,The column {0} is invalid.
+billing_country_needed_to_collect_registered_for_gst_field,คุณต้องเพิ่มประเทศสำหรับการเรียกเก็บเงินเพื่อเลือกฟิลด์นี้,You need to add a Billing Country to select this field.,You need to add a Billing Country to select this field.
+billing_country_needed,ประเทศสำหรับการเรียกเก็บเงินต้องใช้ในการตรวจสอบหมายเลข VAT,Billing country needed to validate the VAT number.,Billing country needed to validate the VAT number.
+australia_tax_should_be_configured,คุณต้องเปิดใช้ภาษีสำหรับออสเตรเลียเพื่อเลือกฟิลด์นี้,You need to enable tax for Australia to select this field,You need to enable tax for Australia to select this field
+tax.could_not_read_the_file,ไฟล์มีค่าที่ไม่ถูกต้อง,File contains invalid values,File contains invalid values
+unable_to_validate_abn,ไม่สามารถประมวลผล ABN ได้เนื่องจากเซิร์ฟเวอร์ ABN Lookup หยุดทำงาน,Unable to process the ABN as the ABN Lookup server is down.,Unable to process the ABN as the ABN Lookup server is down.
+no_header_found,ส่วนหัวไม่มีอยู่หรือมีรูปแบบไม่ถูกต้อง,Header are not present or not formatted properly.,Header are not present or not formatted properly.
+no_tax_rules_found,ไฟล์ไม่มีกฎภาษีใด ๆ,File does not contain any tax rule,File does not contain any tax rule
+tax.un_supported_file_format,รูปแบบไฟล์ที่ไม่รองรับ อนุญาตเฉพาะไฟล์ CSV เท่านั้น,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
+profile_service_type_error,โปรไฟล์ภาษีนี้ถูกจับคู่กับประเภทผลิตภัณฑ์ {0} แล้ว คุณสามารถจับคู่ผลิตภัณฑ์ได้เพียงประเภทเดียวกับโปรไฟล์,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.,This tax profile is already mapped to the product type {0}. You can map only one product type to a profile.
+tax.wrong_format,ค่าสำหรับ ({0}) ไม่ถูกต้อง,Value for ({0}) is invalid,Value for ({0}) is invalid
+file_not_found,ไม่พบไฟล์การกำหนดค่าภาษี,Tax configuration file not found,Tax configuration file not found
+duplicate_column,คอลัมน์ ({0}) ปรากฏมากกว่าหนึ่งครั้งในไฟล์,The column ({0}) appears more than once in the file.,The column ({0}) appears more than once in the file.
+invalid_GSTIN,คุณต้องป้อน GSTIN ที่ถูกต้อง,You need to enter a valid GSTIN.,You need to enter a valid GSTIN.
+invalid_abn_number,คุณต้องป้อน ABN ที่ถูกต้อง,You need to enter a valid ABN.,You need to enter a valid ABN.
+eu_vat_not_applicable,หมายเลขภาษีมูลค่าเพิ่มไม่สามารถใช้ได้กับประเทศนี้,VAT Number not applicable for this country,VAT Number not applicable for this country
+zip_wrong_format,ไม่สามารถกำหนดค่า zip - {0},cannot configure the zip values - {0},cannot configure the zip values - {0}
+invalid_zip_code,รหัสไปรษณีย์ / รหัสไปรษณีย์ไม่ถูกต้อง,invalid zip/postal code,invalid zip/postal code
+org_address_not_config,ไม่สามารถกำหนดประเภทราคาภาษีรวมเนื่องจากไม่สามารถกำหนดอัตราภาษีของผู้ขายได้,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined,Inclusive Tax Price Type cannot be configured as merchant tax rate could not be determined
+registered_for_gst_not_applicable,ตัวเลือกนี้ใช้ได้กับออสเตรเลียเท่านั้น,This option is applicable for Australia only.,This option is applicable for Australia only.
+invalid_vat_number,คุณต้องป้อนหมายเลข VAT ที่ถูกต้อง,You need to enter a valid VAT number.,You need to enter a valid VAT number.
+unable_to_validate,ไม่สามารถตรวจสอบหมายเลข VAT ได้เนื่องจาก VIES กำลังประสบปัญหาการหยุดทำงาน,Unable to validate VAT number as VIES is experiencing downtime.,Unable to validate VAT number as VIES is experiencing downtime.
+us_unsupported_prefix,ไม่สามารถใช้อักขระตัวแทนร่วมกับรหัสไปรษณีย์ + 4 - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0},Wildcard characters cannot be used along with ZIP+4 postal codes - {0}

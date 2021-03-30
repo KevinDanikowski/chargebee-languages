@@ -1,11 +1,11 @@
 key,value,reference value,description
-portal.stripe_acc_status_reason.errored,,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
-portal.change_password.reenter_new_password,,Passwords do not match,Passwords do not match
-portal.change_password.new_password_not_same,,New password is same as the current password,New password is same as the current password
-portal.change_password.current_password.incorrect,,The password you gave is incorrect,The password you gave is incorrect
-portal.stripe_acc_status_reason.verification_failed,,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
-portal.account_details.address,,Address,Address Label
-portal.stripe_acc_status_reason.validated,,The bank account is not yet verified,The bank account is not yet verified
-portal.stripe_acc_status_reason.verified,,The bank account is verified,The bank account is verified
-portal.stripe_acc_status_reason.new,,The bank account is not yet verified,The bank account is not yet verified
-portal.change_password.recently_used,,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again
+portal.stripe_acc_status_reason.errored,Posledný prevod odoslaný na bankový účet zlyhal. Bankový účet nie je možné použiť na budúce platby,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
+portal.change_password.reenter_new_password,Heslá sa nezhodujú,Passwords do not match,Passwords do not match
+portal.change_password.new_password_not_same,Nové heslo je rovnaké ako súčasné heslo,New password is same as the current password,New password is same as the current password
+portal.change_password.current_password.incorrect,Zadané heslo je nesprávne,The password you gave is incorrect,The password you gave is incorrect
+portal.stripe_acc_status_reason.verification_failed,Bol prekročený maximálny počet pokusov o overenie bankového účtu,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
+portal.account_details.address,Adresa,Address,Address Label
+portal.stripe_acc_status_reason.validated,Bankový účet ešte nie je overený,The bank account is not yet verified,The bank account is not yet verified
+portal.stripe_acc_status_reason.verified,Bankový účet je overený,The bank account is verified,The bank account is verified
+portal.stripe_acc_status_reason.new,Bankový účet ešte nie je overený,The bank account is not yet verified,The bank account is not yet verified
+portal.change_password.recently_used,Nedávno použité heslá nemožno znova použiť,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again

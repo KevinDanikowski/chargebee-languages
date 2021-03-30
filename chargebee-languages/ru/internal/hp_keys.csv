@@ -1,6 +1,6 @@
 key,value,reference value,description
-ach-payment-info.title,,Bank Account Information,Bank Account Information
-resume-scheduled-info.title,,Remove Scheduled Resumption,Remove Scheduled Resumption
-pause-scheduled-info.title,,Remove Scheduled Pause,Remove Scheduled Pause
-discount.title,,Discount,Discount
-card.title,,Card Information,Card Information
+ach-payment-info.title,Информация о банковском счете,Bank Account Information,Bank Account Information
+resume-scheduled-info.title,Удалить запланированное возобновление,Remove Scheduled Resumption,Remove Scheduled Resumption
+pause-scheduled-info.title,Удалить запланированную паузу,Remove Scheduled Pause,Remove Scheduled Pause
+discount.title,Скидка,Discount,Discount
+card.title,Информация о карте,Card Information,Card Information

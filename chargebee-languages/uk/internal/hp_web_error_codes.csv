@@ -1,54 +1,54 @@
 key,value,reference value,description
-page_url_length_exceed,,"Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
-should_be_unauth,,"Sorry, you must be logged out of current session to view this page","Sorry, you must be logged out of current session to view this page"
-web.param_not_unique,,Hold up! You have subscribed already.,Hold up! You have subscribed already.
-bad_request_need_refresh,,"Sorry, the request contains data that are not formatted properly","Sorry, the request contains data that are not formatted properly"
-operation_not_supported,,{0},{0}
-not_authorized_post,,"Sorry, you don''t have the permission to do this action","Sorry, you don''t have the permission to do this action"
-limit_exceeds,,"Sorry, the allowed limit for {0} is {1}.","Sorry, the allowed limit for {0} is {1}."
-user_already_exists,,email already exists,email already exists
-hosted_page_null,,The order URL is invalid. Please check the URL and try again.,The order URL is invalid. Please check the URL and try again.
-hp_resource_not_found,,This URL is no longer valid.,This URL is no longer valid.
-update_card_succeeded,,Your credit card has been already updated successfully.,Your credit card has been already updated successfully.
-should_be_auth,,"Sorry, you must be logged in to view this page","Sorry, you must be logged in to view this page"
-hosted_page_canceled,,This order has been canceled. Please try again.,This order has been canceled. Please try again.
-lock_timeout,,"Sorry, a temporary error occured. Please retry","Sorry, a temporary error occured. Please retry"
-service_unavailable,,Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes,Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes
-cannot_be_empty_or_null,,Key value cannot be empty or null,Key value cannot be empty or null
-update_card_cancelled,,This URL is no longer valid.,This URL is no longer valid.
-suffix_not_allowed,,"""{0}"" suffix is not allowed","""{0}"" suffix is not allowed"
-currency_error,,Unable fetch currency info,Unable fetch currency info
-not_authorized_get,,"Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
-hosted_page_expired,,Your order URL has expired. Please try again.,Your order URL has expired. Please try again.
-session_timeout,,You are logged out of the portal. Please login again.,You are logged out of the portal. Please login again.
-hosted_page_succeeded,,Your order has already been submitted successfully.,Your order has already been submitted successfully.
-not_ajax_request,,A temporary error occurred. Try again,A temporary error occurred. Try again
-web.mul_sub_entry,,Hold up! You have subscribed already,Hold up! You have subscribed already
-resource_not_found,,"Sorry, we couldn''t find that resource","Sorry, we couldn''t find that resource"
-size_exceeds,,"Sorry, uploaded file size cannot exceed {0}","Sorry, uploaded file size cannot exceed {0}"
-bad_request,,"Sorry,the URL or the some of the parameters are not valid","Sorry,the URL or the some of the parameters are not valid"
-record_not_found,,{0} with {1} {2} is not present.,{0} with {1} {2} is not present.
-bad_data,,"Sorry, some of the parameters are missing or not formatted properly","Sorry, some of the parameters are missing or not formatted properly"
-communication_failure,,"Sorry, Unable to communicate with {0}. Please retry after some time","Sorry, Unable to communicate with {0}. Please retry after some time"
-site_already_exists,,site already exists,site already exists
-invalid_state,,{0},{0}
-db_lock_error,,Unable to lock the operation,Unable to lock the operation
-invalid_request_refresh_browser,,Your request is not valid. Please refresh the browser and try again.,Your request is not valid. Please refresh the browser and try again.
-round_off_not_supported,,Rounding off of invoice amount is not supported for zero-decimal currencies,Rounding off of invoice amount is not supported for zero-decimal currencies
-update_card_null,,The URL entered to update your credit card is invalid. Please check the URL and try again.,The URL entered to update your credit card is invalid. Please check the URL and try again.
-hosted_page_failed,,An error occurred during processing. Please try again later.,An error occurred during processing. Please try again later.
-not_authorized_ip,,"Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
-code_not_compatible,,Sorry something went wrong. Please retry after some time,Sorry something went wrong. Please retry after some time
-content_type_is_not_application_json,,"Sorry, the request''s content type ({0}) is wrong. It must be application/json.","Sorry, the request''s content type ({0}) is wrong. It must be application/json."
-web.invalid_credential,,Please check the submitted credentials.,Please check the submitted credentials.
-update_card_expired,,"Your requested URL has expired. Please try again. ","Your requested URL has expired. Please try again. "
-tos_not_selected,,Agreeing to the terms is mandatory to complete the checkout.,Agreeing to the terms is mandatory to complete the checkout.
-connection_time_out,,"Sorry, unable to complete the operation due to db communication failure. Please try after some time","Sorry, unable to complete the operation due to db communication failure. Please try after some time"
-request_charset_error,,"Sorry, the request encoding should be utf-8. It is {0}","Sorry, the request encoding should be utf-8. It is {0}"
-csrf_tok_invalid,,The csrf token (used for security) is invalid. Please refresh the browser and try again.,The csrf token (used for security) is invalid. Please refresh the browser and try again.
-hosted_page_error,,{0},{0}
-update_card_failed,,There was an error processing your credit card information. Please try again later.,There was an error processing your credit card information. Please try again later.
-site_not_provided,,"Sorry, you need to provide your site as a subdomain to access this URL","Sorry, you need to provide your site as a subdomain to access this URL"
-configuration_failure,,{0},{0}
-page_not_found,,"Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
-content_type_wrong,,"Sorry, the request''s content type is wrong","Sorry, the request''s content type is wrong"
+page_url_length_exceed,"На жаль, ми не змогли знайти цю сторінку","Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
+should_be_unauth,"На жаль, ви повинні вийти з поточного сеансу, щоб переглянути цю сторінку","Sorry, you must be logged out of current session to view this page","Sorry, you must be logged out of current session to view this page"
+web.param_not_unique,Потримай! Ви вже підписалися.,Hold up! You have subscribed already.,Hold up! You have subscribed already.
+bad_request_need_refresh,"На жаль, запит містить дані, які відформатовано неправильно","Sorry, the request contains data that are not formatted properly","Sorry, the request contains data that are not formatted properly"
+operation_not_supported,{0},{0},{0}
+not_authorized_post,"На жаль, у вас немає дозволу на цю дію","Sorry, you don''t have the permission to do this action","Sorry, you don''t have the permission to do this action"
+limit_exceeds,"На жаль, дозволений ліміт для {0} - {1}.","Sorry, the allowed limit for {0} is {1}.","Sorry, the allowed limit for {0} is {1}."
+user_already_exists,E-mail вже існує,email already exists,email already exists
+hosted_page_null,URL-адреса замовлення недійсна. Перевірте URL-адресу та повторіть спробу.,The order URL is invalid. Please check the URL and try again.,The order URL is invalid. Please check the URL and try again.
+hp_resource_not_found,Ця URL-адреса вже недійсна.,This URL is no longer valid.,This URL is no longer valid.
+update_card_succeeded,Ваша кредитна картка вже успішно оновлена.,Your credit card has been already updated successfully.,Your credit card has been already updated successfully.
+should_be_auth,"Вибачте, ви повинні увійти в систему, щоб переглянути цю сторінку","Sorry, you must be logged in to view this page","Sorry, you must be logged in to view this page"
+hosted_page_canceled,Це замовлення скасовано. Будь ласка спробуйте ще раз.,This order has been canceled. Please try again.,This order has been canceled. Please try again.
+lock_timeout,"На жаль, сталася тимчасова помилка. Повторіть спробу","Sorry, a temporary error occured. Please retry","Sorry, a temporary error occured. Please retry"
+service_unavailable,"На жаль, цю операцію неможливо виконати через велике навантаження. Повторіть спробу через кілька хвилин",Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes,Sorry this operation cannot be performed due to heavy load. Please retry in a few minutes
+cannot_be_empty_or_null,Значення ключа не може бути порожнім або нульовим,Key value cannot be empty or null,Key value cannot be empty or null
+update_card_cancelled,Ця URL-адреса вже недійсна.,This URL is no longer valid.,This URL is no longer valid.
+suffix_not_allowed,"Суфікс ""{0}"" заборонено","""{0}"" suffix is not allowed","""{0}"" suffix is not allowed"
+currency_error,Неможливо отримати інформацію про валюту,Unable fetch currency info,Unable fetch currency info
+not_authorized_get,"На жаль, у вас немає дозволу на перегляд цієї сторінки","Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
+hosted_page_expired,Термін дії URL-адреси вашого замовлення закінчився. Будь ласка спробуйте ще раз.,Your order URL has expired. Please try again.,Your order URL has expired. Please try again.
+session_timeout,"Ви вийшли з порталу. Будь ласка, увійдіть ще раз.",You are logged out of the portal. Please login again.,You are logged out of the portal. Please login again.
+hosted_page_succeeded,Ваше замовлення вже успішно надіслано.,Your order has already been submitted successfully.,Your order has already been submitted successfully.
+not_ajax_request,Сталася тимчасова помилка. Спробуйте ще раз,A temporary error occurred. Try again,A temporary error occurred. Try again
+web.mul_sub_entry,[object Object],Hold up! You have subscribed already,Hold up! You have subscribed already
+resource_not_found,"На жаль, нам не вдалося знайти цей ресурс","Sorry, we couldn''t find that resource","Sorry, we couldn''t find that resource"
+size_exceeds,"На жаль, розмір завантаженого файлу не може перевищувати {0}","Sorry, uploaded file size cannot exceed {0}","Sorry, uploaded file size cannot exceed {0}"
+bad_request,"На жаль, URL-адреса або деякі параметри недійсні","Sorry,the URL or the some of the parameters are not valid","Sorry,the URL or the some of the parameters are not valid"
+record_not_found,{0} з {1} {2} немає.,{0} with {1} {2} is not present.,{0} with {1} {2} is not present.
+bad_data,"На жаль, деякі параметри відсутні або відформатовані неправильно","Sorry, some of the parameters are missing or not formatted properly","Sorry, some of the parameters are missing or not formatted properly"
+communication_failure,"На жаль, неможливо зв’язатися з {0}. Повторіть спробу через деякий час","Sorry, Unable to communicate with {0}. Please retry after some time","Sorry, Unable to communicate with {0}. Please retry after some time"
+site_already_exists,сайт вже існує,site already exists,site already exists
+invalid_state,{0},{0},{0}
+db_lock_error,Не вдається заблокувати операцію,Unable to lock the operation,Unable to lock the operation
+invalid_request_refresh_browser,Ваш запит недійсний. Оновіть браузер і повторіть спробу.,Your request is not valid. Please refresh the browser and try again.,Your request is not valid. Please refresh the browser and try again.
+round_off_not_supported,Округлення суми рахунку-фактури не підтримується для валют з нульовим десятковим розрядом,Rounding off of invoice amount is not supported for zero-decimal currencies,Rounding off of invoice amount is not supported for zero-decimal currencies
+update_card_null,"URL-адреса, введена для оновлення вашої кредитної картки, недійсна. Перевірте URL-адресу та повторіть спробу.",The URL entered to update your credit card is invalid. Please check the URL and try again.,The URL entered to update your credit card is invalid. Please check the URL and try again.
+hosted_page_failed,Під час обробки сталася помилка. Будь-ласка спробуйте пізніше.,An error occurred during processing. Please try again later.,An error occurred during processing. Please try again later.
+not_authorized_ip,"На жаль, у вас немає дозволу на перегляд цієї сторінки","Sorry, you don''t have the permission to view this page","Sorry, you don''t have the permission to view this page"
+code_not_compatible,"Вибач, щось пішло не так. Повторіть спробу через деякий час",Sorry something went wrong. Please retry after some time,Sorry something went wrong. Please retry after some time
+content_type_is_not_application_json,"На жаль, тип вмісту запиту ({0}) неправильний. Це має бути application / json.","Sorry, the request''s content type ({0}) is wrong. It must be application/json.","Sorry, the request''s content type ({0}) is wrong. It must be application/json."
+web.invalid_credential,"Будь ласка, перевірте подані облікові дані.",Please check the submitted credentials.,Please check the submitted credentials.
+update_card_expired,Термін дії запитаної URL-адреси закінчився. Будь ласка спробуйте ще раз.,Your requested URL has expired. Please try again. ,Your requested URL has expired. Please try again. 
+tos_not_selected,Погодження умов є обов’язковим для завершення оформлення замовлення.,Agreeing to the terms is mandatory to complete the checkout.,Agreeing to the terms is mandatory to complete the checkout.
+connection_time_out,"На жаль, не вдалося виконати операцію через збій зв'язку db. Будь ласка, спробуйте через деякий час","Sorry, unable to complete the operation due to db communication failure. Please try after some time","Sorry, unable to complete the operation due to db communication failure. Please try after some time"
+request_charset_error,"На жаль, кодування запиту має бути UTF-8. Це {0}","Sorry, the request encoding should be utf-8. It is {0}","Sorry, the request encoding should be utf-8. It is {0}"
+csrf_tok_invalid,Маркер CSRF (використовується для забезпечення безпеки) недійсний. Оновіть браузер і повторіть спробу.,The csrf token (used for security) is invalid. Please refresh the browser and try again.,The csrf token (used for security) is invalid. Please refresh the browser and try again.
+hosted_page_error,{0},{0},{0}
+update_card_failed,Під час обробки даних вашої кредитної картки сталася помилка. Будь-ласка спробуйте пізніше.,There was an error processing your credit card information. Please try again later.,There was an error processing your credit card information. Please try again later.
+site_not_provided,"На жаль, вам потрібно надати свій сайт як субдомен для доступу до цієї URL-адреси","Sorry, you need to provide your site as a subdomain to access this URL","Sorry, you need to provide your site as a subdomain to access this URL"
+configuration_failure,{0},{0},{0}
+page_not_found,"На жаль, ми не змогли знайти цю сторінку","Sorry, we couldn''t find that page","Sorry, we couldn''t find that page"
+content_type_wrong,"На жаль, тип вмісту запиту неправильний","Sorry, the request''s content type is wrong","Sorry, the request''s content type is wrong"

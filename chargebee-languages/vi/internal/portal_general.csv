@@ -1,11 +1,11 @@
 key,value,reference value,description
-portal.stripe_acc_status_reason.errored,,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
-portal.change_password.reenter_new_password,,Passwords do not match,Passwords do not match
-portal.change_password.new_password_not_same,,New password is same as the current password,New password is same as the current password
-portal.change_password.current_password.incorrect,,The password you gave is incorrect,The password you gave is incorrect
-portal.stripe_acc_status_reason.verification_failed,,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
-portal.account_details.address,,Address,Address Label
-portal.stripe_acc_status_reason.validated,,The bank account is not yet verified,The bank account is not yet verified
-portal.stripe_acc_status_reason.verified,,The bank account is verified,The bank account is verified
-portal.stripe_acc_status_reason.new,,The bank account is not yet verified,The bank account is not yet verified
-portal.change_password.recently_used,,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again
+portal.stripe_acc_status_reason.errored,Chuyển khoản gần đây được gửi đến tài khoản ngân hàng không thành công. Tài khoản ngân hàng không thể được sử dụng cho các khoản thanh toán trong tương lai,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments,Recent transfer sent to the bank account failed. The bank account cannot be used for future payments
+portal.change_password.reenter_new_password,Mật khẩu không phù hợp,Passwords do not match,Passwords do not match
+portal.change_password.new_password_not_same,Mật khẩu mới giống với mật khẩu hiện tại,New password is same as the current password,New password is same as the current password
+portal.change_password.current_password.incorrect,Mật khẩu bạn đưa ra không chính xác,The password you gave is incorrect,The password you gave is incorrect
+portal.stripe_acc_status_reason.verification_failed,Số lần cố gắng xác minh tài khoản ngân hàng tối đa đã bị vượt qua,Max attempts to verify the bank account has been crossed,Max attempts to verify the bank account has been crossed
+portal.account_details.address,Địa chỉ,Address,Address Label
+portal.stripe_acc_status_reason.validated,Tài khoản ngân hàng chưa được xác minh,The bank account is not yet verified,The bank account is not yet verified
+portal.stripe_acc_status_reason.verified,Tài khoản ngân hàng đã được xác minh,The bank account is verified,The bank account is verified
+portal.stripe_acc_status_reason.new,Tài khoản ngân hàng chưa được xác minh,The bank account is not yet verified,The bank account is not yet verified
+portal.change_password.recently_used,Mật khẩu đã sử dụng gần đây không thể được sử dụng lại,Recently used passwords cannot be reused again,Recently used passwords cannot be reused again

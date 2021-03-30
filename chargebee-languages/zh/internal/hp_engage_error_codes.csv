@@ -1,4 +1,4 @@
 key,value,reference value,description
-extend_sub_click_from_link,,You need to try again by clicking the link in the email we sent,You need to try again by clicking the link in the email we sent
-not_in_extend_sub_state,,Operation allowed only for non-renewing subscription,Operation allowed only for non-renewing subscription
-extend_sub_not_allowed_forever_sub,,Extend subscription not allowed for forever subscription,Extend subscription not allowed for forever subscription
+extend_sub_click_from_link,您需要通过点击我们发送的电子邮件中的链接来重试,You need to try again by clicking the link in the email we sent,You need to try again by clicking the link in the email we sent
+not_in_extend_sub_state,仅允许非续订订阅的操作,Operation allowed only for non-renewing subscription,Operation allowed only for non-renewing subscription
+extend_sub_not_allowed_forever_sub,不允许永久订阅的扩展订阅,Extend subscription not allowed for forever subscription,Extend subscription not allowed for forever subscription

@@ -1,59 +1,59 @@
 key,value,reference value,description
-sort_param_order_invalid,,The specified sort order {0} is invalid,The specified sort order {0} is invalid
-updgrade_api_err_msg,,{0},{0}
-wrong_value,,wrong value,wrong value
-found_card_pattern,,{0},{0}
-upload_error,,Error while uploading file,Error while uploading file
-ILLEGAL_DOMAIN,,{0} domain is not allowed,{0} domain is not allowed
-param_fixed_size_error,,The size should be of {0},The size should be of {0}
-mcp_api_v1_err,,Upgrade to API V2 is needed as MCP is enabled,Upgrade to API V2 is needed as MCP is enabled
-multipart_post,,Cannot set multipart for other than post method,Cannot set multipart for other than post method
-ILLEGAL_DNS,,The domain resolves to internal ip address range which is not allowed.,The domain resolves to internal ip address range which is not allowed.
-param_not_supported,,{0},{0}
-mustache_not_allowed,,mustache tags are not allowed,mustache tags are not allowed
-param_value_lesser_error,,It should be atleast {0},It should be atleast {0}
-param_exceeded_error,,It should not be more than {0},It should not be more than {0}
-not_an_image,,Uploaded file should be an image.,Uploaded file should be an image.
-UNKNOWN_HOST,,"Unable to resolve {0} domain ","Unable to resolve {0} domain "
-EMPTY_SCHEME,,URL should start with http:// or https:// protocol,URL should start with http:// or https:// protocol
-validate.mul_sub_entry,,The customer {0} already has a subscription.,The customer {0} already has a subscription.
-file_size_limit_exceeded,,Upload file size cannot exceed {0},Upload file size cannot exceed {0}
-invalid_range,,first value {0} should not be more than second value {1},first value {0} should not be more than second value {1}
-timestamp_future_only,,Unix timestamp should be in future,Unix timestamp should be in future
-param_wrong_value,,Value {0} specified for this param is incorrect,The returned parameter has incorrect value
-timestamp_past_only,,Unix timestamp should be in past,Unix timestamp should be in past
-param_lesser_error,,It should be atleast {0},It should be atleast {0}
-param_invalid,,The value {0} is invalid,The value {0} is invalid
-should_be_valid_date,,wrong date format,wrong date format
-UNSUPPORTED_SCHEME,,{0} is not supported. Only http and https are supported,{0} is not supported. Only http and https are supported
-image_scrambled,,Uploaded image is scrambled.,Uploaded image is scrambled.
-charge_not_more_than_zero,,Amount to charge should be more than zero,Amount to charge should be more than zero
-param_cannot_exceed,,{0},{0}
-param_should_not_be_blank,,cannot be blank,cannot be blank
-not_in_allowed_values,,not in allowed values,not in allowed values
-size_limit_exceeded,,{0} should not be more than {1} characters,{0} should not be more than {1} characters
-email_cannot_be_empty,,Email field cannot be empty,Email field cannot be empty
-email_not_in_allowed_size_range,,Email id size should not be more than {0},Email id size should not be more than {0}
-param_size_exceeded_error,,The size should not be more than {0},The size should not be more than {0}
-param_should_be_blank,,should be blank,should be blank
-param_required,,cannot be blank,The parameter is not sent or is empty. Incase you are getting the  parameter's value from the user then it is better to do validation  for mandatory fields on your end rather than passing it to ChargeBee and then handling the error.
-resource_not_unique,,{0} resource already exists,{0} resource already exists
-duplicate_addon_entry,,Duplicate addon entry is not allowed.,Duplicate addon entry is not allowed.
-filter_param_operator_invalid,,The specified filter operator {0} is invalid,The specified filter operator {0} is invalid
-ILLEGAL_DOMAIN_SUFFIX,,{0} domain suffix is not allowed,{0} domain suffix is not allowed
-param_invalid_msg,,{0},{0}
-validate.param_not_unique,,The value {0} is already present.,The value {0} is already present.
-UNSUPPORTED_PORT,," Only [443, 80, 8443, 8080, 9001] ports are allowed"," Only [443, 80, 8443, 8080, 9001] ports are allowed"
-timestamp_future_only_or_zero,,Unix timestamp should be in future or zero to indicate immediate,Unix timestamp should be in future or zero to indicate immediate
-params_required,,{0},Parameters for the resource is required.
-wrong_format_pattern,,Should be in {0} format,Should be in {0} format
-param_size_lesser_error,,The size should be atleast {0},The size should be atleast {0}
-currency_mismatched,,{0},{0}
-ip_address_not_supported,,No support for Ip address,No support for Ip address
-should_be_valid_input,,should be a valid input,should be a valid input
-no_change_for_i18n,,Pack is empty,Pack is empty
-NO_EMPTY_SCHEME,,"Provide the domain without the protocol (http, https)","Provide the domain without the protocol (http, https)"
-wrong_format,,wrong format,wrong format
-emoji_chars_not_allowed,,The value {0} is invalid,The value {0} is invalid
-amount_overflow,,Amount that is being processed {0},Amount that is being processed {0}
-param_should_not_be_sent,,{0},The parameter should not be sent. Should occur only during development phase.
+sort_param_order_invalid,Вказаний порядок сортування {0} недійсний,The specified sort order {0} is invalid,The specified sort order {0} is invalid
+updgrade_api_err_msg,{0},{0},{0}
+wrong_value,неправильне значення,wrong value,wrong value
+found_card_pattern,{0},{0},{0}
+upload_error,Помилка під час завантаження файлу,Error while uploading file,Error while uploading file
+ILLEGAL_DOMAIN,Домен {0} заборонено,{0} domain is not allowed,{0} domain is not allowed
+param_fixed_size_error,Розмір повинен бути {0},The size should be of {0},The size should be of {0}
+mcp_api_v1_err,"Потрібно оновити до версії API 2, оскільки ввімкнено MCP",Upgrade to API V2 is needed as MCP is enabled,Upgrade to API V2 is needed as MCP is enabled
+multipart_post,"Неможливо встановити багаточастину для іншого, ніж метод post",Cannot set multipart for other than post method,Cannot set multipart for other than post method
+ILLEGAL_DNS,"Домен переходить до внутрішнього діапазону адрес, який заборонено.",The domain resolves to internal ip address range which is not allowed.,The domain resolves to internal ip address range which is not allowed.
+param_not_supported,{0},{0},{0}
+mustache_not_allowed,вуса теги заборонені,mustache tags are not allowed,mustache tags are not allowed
+param_value_lesser_error,Це має бути принаймні {0},It should be atleast {0},It should be atleast {0}
+param_exceeded_error,Він не повинен перевищувати {0},It should not be more than {0},It should not be more than {0}
+not_an_image,Завантажений файл повинен бути зображенням.,Uploaded file should be an image.,Uploaded file should be an image.
+UNKNOWN_HOST,Не вдається вирішити домен {0},Unable to resolve {0} domain ,Unable to resolve {0} domain 
+EMPTY_SCHEME,URL-адреса повинна починатися з протоколу http: // або https: //,URL should start with http:// or https:// protocol,URL should start with http:// or https:// protocol
+validate.mul_sub_entry,Клієнт {0} уже має передплату.,The customer {0} already has a subscription.,The customer {0} already has a subscription.
+file_size_limit_exceeded,Розмір файлу для завантаження не може перевищувати {0},Upload file size cannot exceed {0},Upload file size cannot exceed {0}
+invalid_range,перше значення {0} не повинно бути більше другого значення {1},first value {0} should not be more than second value {1},first value {0} should not be more than second value {1}
+timestamp_future_only,Позначка часу Unix повинна бути в майбутньому,Unix timestamp should be in future,Unix timestamp should be in future
+param_wrong_value,"Значення {0}, вказане для цього параметра, є неправильним",Value {0} specified for this param is incorrect,The returned parameter has incorrect value
+timestamp_past_only,Мітка часу Unix повинна бути в минулому,Unix timestamp should be in past,Unix timestamp should be in past
+param_lesser_error,Це має бути принаймні {0},It should be atleast {0},It should be atleast {0}
+param_invalid,Значення {0} недійсне,The value {0} is invalid,The value {0} is invalid
+should_be_valid_date,неправильний формат дати,wrong date format,wrong date format
+UNSUPPORTED_SCHEME,{0} не підтримується. Підтримуються лише http та https,{0} is not supported. Only http and https are supported,{0} is not supported. Only http and https are supported
+image_scrambled,Завантажене зображення шифрується.,Uploaded image is scrambled.,Uploaded image is scrambled.
+charge_not_more_than_zero,Сума для нарахування повинна бути більше нуля,Amount to charge should be more than zero,Amount to charge should be more than zero
+param_cannot_exceed,{0},{0},{0}
+param_should_not_be_blank,не може бути порожнім,cannot be blank,cannot be blank
+not_in_allowed_values,не в дозволених значеннях,not in allowed values,not in allowed values
+size_limit_exceeded,{0} не повинен містити більше {1} символів,{0} should not be more than {1} characters,{0} should not be more than {1} characters
+email_cannot_be_empty,Поле електронної пошти не може бути порожнім,Email field cannot be empty,Email field cannot be empty
+email_not_in_allowed_size_range,Розмір ідентифікатора електронної пошти не повинен перевищувати {0},Email id size should not be more than {0},Email id size should not be more than {0}
+param_size_exceeded_error,Розмір не повинен бути більше {0},The size should not be more than {0},The size should not be more than {0}
+param_should_be_blank,має бути порожнім,should be blank,should be blank
+param_required,не може бути порожнім,cannot be blank,The parameter is not sent or is empty. Incase you are getting the  parameter's value from the user then it is better to do validation  for mandatory fields on your end rather than passing it to ChargeBee and then handling the error.
+resource_not_unique,Ресурс {0} уже існує,{0} resource already exists,{0} resource already exists
+duplicate_addon_entry,Повторюваний запис аддону не дозволяється.,Duplicate addon entry is not allowed.,Duplicate addon entry is not allowed.
+filter_param_operator_invalid,Вказаний оператор фільтра {0} недійсний,The specified filter operator {0} is invalid,The specified filter operator {0} is invalid
+ILLEGAL_DOMAIN_SUFFIX,{0} суфікс домену заборонено,{0} domain suffix is not allowed,{0} domain suffix is not allowed
+param_invalid_msg,{0},{0},{0}
+validate.param_not_unique,Значення {0} вже є.,The value {0} is already present.,The value {0} is already present.
+UNSUPPORTED_PORT," Дозволені лише порти [443, 80, 8443, 8080, 9001]"," Only [443, 80, 8443, 8080, 9001] ports are allowed"," Only [443, 80, 8443, 8080, 9001] ports are allowed"
+timestamp_future_only_or_zero,"Мітка часу Unix повинна бути в майбутньому або нульовою, щоб вказувати негайну",Unix timestamp should be in future or zero to indicate immediate,Unix timestamp should be in future or zero to indicate immediate
+params_required,{0},{0},Parameters for the resource is required.
+wrong_format_pattern,Має бути у форматі {0},Should be in {0} format,Should be in {0} format
+param_size_lesser_error,Розмір повинен бути принаймні {0},The size should be atleast {0},The size should be atleast {0}
+currency_mismatched,{0},{0},{0}
+ip_address_not_supported,Немає підтримки IP-адреси,No support for Ip address,No support for Ip address
+should_be_valid_input,має бути дійсним введенням,should be a valid input,should be a valid input
+no_change_for_i18n,Пакет порожній,Pack is empty,Pack is empty
+NO_EMPTY_SCHEME,"Надайте домен без протоколу (http, https)","Provide the domain without the protocol (http, https)","Provide the domain without the protocol (http, https)"
+wrong_format,неправильний формат,wrong format,wrong format
+emoji_chars_not_allowed,Значення {0} недійсне,The value {0} is invalid,The value {0} is invalid
+amount_overflow,"Сума, яка обробляється {0}",Amount that is being processed {0},Amount that is being processed {0}
+param_should_not_be_sent,{0},{0},The parameter should not be sent. Should occur only during development phase.

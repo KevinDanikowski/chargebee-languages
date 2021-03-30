@@ -1,21 +1,21 @@
 key,value,reference value,description
-not_supported_for_moving_out_resource,,Sorry this operation is not possible now. Please try again after some time or contact us for assistance.,Sorry this operation is not possible now. Please try again after some time or contact us for assistance.
-login_mismatch_error,,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
-recaptcha_verification_failed,,Recaptcha verification failed. Try again,Recaptcha verification failed. Try again
-password_too_short,,Your password must have atleast 8 characters,Your password must have atleast 8 characters
-invalid_url,,Oops! This URL appears to be either expired or invalid.,Oops! This URL appears to be either expired or invalid.
-portal_access_disabled_for,,Customer portal access is disabled.,Customer portal access is disabled.
-invalid_return_cancel_url,,Oops! The return or cancel URL is invalid.,Oops! The return or cancel URL is invalid.
-portal_access_disabled_for_api,,Customer portal access via API is disabled.,Customer portal access via API is disabled.
-login_site_mismatch_error,,"Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service.","Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service."
-same_password_error,,New password should not be the current password,New password should not be the current password
-"subscription_canceled ",,This is a cancelled subscription. Please contact us for more details.,This is a cancelled subscription. Please contact us for more details.
-portal_session_status_not_supported,,Activating a portal session is not supported for this request.,Activating a portal session is not supported for this request.
-password_not_valid,,"Your password must have atleast one uppercase character, lowercase character and a number","Your password must have atleast one uppercase character, lowercase character and a number"
-setup_not_completed,,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.
-invalid_otp_error,,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
-email_not_verified,,You have not verified your email. Use the ''Sign Up'' option to get started.,You have not verified your email. Use the ''Sign Up'' option to get started.
-otp_mismatch_error,,Invalid one time password,Invalid one time password
-account_locked_error,,Your account has been locked due to security reasons.,Your account has been locked due to security reasons.
-portal_token_invalid,,Portal token has been expired or invalid.,Portal token has been expired or invalid.
-email_should_not_be_sent,,Email address is not allowed to be updated.,Email address is not allowed to be updated.
+not_supported_for_moving_out_resource,ขออภัยไม่สามารถดำเนินการนี้ได้ในขณะนี้ โปรดลองอีกครั้งในภายหลังหรือติดต่อเราเพื่อขอความช่วยเหลือ,Sorry this operation is not possible now. Please try again after some time or contact us for assistance.,Sorry this operation is not possible now. Please try again after some time or contact us for assistance.
+login_mismatch_error,การเข้าสู่ระบบล้มเหลวเนื่องจากข้อมูลรับรองไม่ถูกต้อง,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
+recaptcha_verification_failed,การยืนยัน Recaptcha ล้มเหลว ลองอีกครั้ง,Recaptcha verification failed. Try again,Recaptcha verification failed. Try again
+password_too_short,รหัสผ่านของคุณต้องมีอักขระอย่างน้อย 8 ตัว,Your password must have atleast 8 characters,Your password must have atleast 8 characters
+invalid_url,อ๊ะ! ดูเหมือนว่า URL นี้จะหมดอายุหรือไม่ถูกต้อง,Oops! This URL appears to be either expired or invalid.,Oops! This URL appears to be either expired or invalid.
+portal_access_disabled_for,การเข้าถึงพอร์ทัลของลูกค้าถูกปิดใช้งาน,Customer portal access is disabled.,Customer portal access is disabled.
+invalid_return_cancel_url,อ๊ะ! URL ส่งคืนหรือยกเลิกไม่ถูกต้อง,Oops! The return or cancel URL is invalid.,Oops! The return or cancel URL is invalid.
+portal_access_disabled_for_api,การเข้าถึงพอร์ทัลของลูกค้าผ่าน API ถูกปิดใช้งาน,Customer portal access via API is disabled.,Customer portal access via API is disabled.
+login_site_mismatch_error,"โปรดยืนยันรหัสอีเมล การสมัครใช้งานนี้จะใช้ได้เฉพาะเมื่อคุณเป็น ""สมาชิก"" ของบริการนี้อยู่แล้ว","Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service.","Please verify the email id. This signup works only if you are already a ""Subscriber"" of this service."
+same_password_error,รหัสผ่านใหม่ไม่ควรเป็นรหัสผ่านปัจจุบัน,New password should not be the current password,New password should not be the current password
+subscription_canceled ,นี่คือการสมัครรับข้อมูลที่ถูกยกเลิก โปรดติดต่อเราเพื่อขอรายละเอียดเพิ่มเติม,This is a cancelled subscription. Please contact us for more details.,This is a cancelled subscription. Please contact us for more details.
+portal_session_status_not_supported,ไม่สนับสนุนการเปิดใช้งานเซสชันพอร์ทัลสำหรับคำขอนี้,Activating a portal session is not supported for this request.,Activating a portal session is not supported for this request.
+password_not_valid,รหัสผ่านของคุณต้องมีอักขระตัวพิมพ์ใหญ่อักขระตัวพิมพ์เล็กและตัวเลขอย่างน้อยหนึ่งตัว,"Your password must have atleast one uppercase character, lowercase character and a number","Your password must have atleast one uppercase character, lowercase character and a number"
+setup_not_completed,คุณยังไม่ได้ตั้งค่าบัญชีพอร์ทัลลูกค้าของคุณ ใช้ตัวเลือก 'ลงทะเบียน' เพื่อเริ่มต้น,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.,You have not setup your customer portal account yet. Use the ''Sign Up'' option to get started.
+invalid_otp_error,การเข้าสู่ระบบล้มเหลวเนื่องจากข้อมูลรับรองไม่ถูกต้อง,Login failed due to incorrect credentials.,Login failed due to incorrect credentials.
+email_not_verified,คุณยังไม่ได้ยืนยันอีเมลของคุณ ใช้ตัวเลือก 'ลงทะเบียน' เพื่อเริ่มต้น,You have not verified your email. Use the ''Sign Up'' option to get started.,You have not verified your email. Use the ''Sign Up'' option to get started.
+otp_mismatch_error,รหัสผ่านครั้งเดียวไม่ถูกต้อง,Invalid one time password,Invalid one time password
+account_locked_error,บัญชีของคุณถูกล็อคเนื่องจากเหตุผลด้านความปลอดภัย,Your account has been locked due to security reasons.,Your account has been locked due to security reasons.
+portal_token_invalid,โทเค็นพอร์ทัลหมดอายุหรือไม่ถูกต้อง,Portal token has been expired or invalid.,Portal token has been expired or invalid.
+email_should_not_be_sent,ไม่อนุญาตให้อัปเดตที่อยู่อีเมล,Email address is not allowed to be updated.,Email address is not allowed to be updated.

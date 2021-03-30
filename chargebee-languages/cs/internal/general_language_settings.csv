@@ -1,7 +1,7 @@
 key,value,reference value,description
-invoice.footer.title.separator,,&,separator
-language.delimiter.full_stop,,.," sentence delimiter"
-language.quantity.all,,all," list - all items"
-language.adjective.to,,to," form 6th to 8th"
-language.delimiter.comma,,","," list separator"
-language.delimiter.and,,and," list separator - to separate the last word"
+invoice.footer.title.separator,&,&,separator
+language.delimiter.full_stop,.,., sentence delimiter
+language.quantity.all,Všechno,all, list - all items
+language.adjective.to,na,to, form 6th to 8th
+language.delimiter.comma,",",",", list separator
+language.delimiter.and,a,and, list separator - to separate the last word

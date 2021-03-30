@@ -1,27 +1,27 @@
 key,value,reference value,description
-zero_decimal_update_gateway,,Using {0} gateway with the configured currency is not allowed.,Using {0} gateway with the configured currency is not allowed.
-paypal_not_supported,,Selected currency is not supported since you have configured PayPal Express Checkout.,Selected currency is not supported since you have configured PayPal Express Checkout.
-paypal_setup_error,,An error occured while redirecting to PayPal.,An error occured while redirecting to PayPal.
-currency_not_supported,,Currency configured in Chargebee is not supported by {0}.,Currency configured in Chargebee is not supported by {0}.
-invalid_credential_with_message,,{0},{0}
-gateway_credential_missing,,Problem in processing your payment. Please try after some time.,Problem in processing your payment. Please try after some time.
-gw_credential_verification_failed,,{0},{0}
-gateway_down_with_message,,Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0},Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0}
-wepay_not_supported,,wepay gateway is not supported for this operation.,wepay gateway is not supported for this operation.
-delete_card_error,,Problem occurred while deleting the payment method. Please try after some time.,Problem occurred while deleting the payment method. Please try after some time.
-gateway_in_active_state,,Payment gateway is already in active state,Payment gateway is already in active state
-zero_decimal_update_site,,Chargebee doesn''t support the selected currency with {0} gateway.,Chargebee doesn''t support the selected currency with {0} gateway.
-default_gateway_not_configured,,Default payment gateway not configured.,Default payment gateway not configured.
-remove_archived_gw_not_supported,,Payment gateway cannot be removed as it is archived.,Payment gateway cannot be removed as it is archived.
-bank_account_payment_gateway_not_configured,,This operation is not supported as there is no payment gateway configured for bank account.,This operation is not supported as there is no payment gateway configured for bank account.
-empty_card_type_list,,Accepted Card types cannot not be empty,Accepted Card types cannot not be empty
-default_gateway_not_supported,,Default option is not supported for this gateway.,Default option is not supported for this gateway.
-gateway_not_supported,,Selected currency is not supported since you have configured {0}.,Selected currency is not supported since you have configured {0}.
-payment_gateway_not_configured,,This operation is not supported as there is no payment gateway configured.,This operation is not supported as there is no payment gateway configured.
-gateway_not_supported_for_mcp,,Chargebee doesn''t support multicurrency feature for {0} gateway.,Chargebee doesn''t support multicurrency feature for {0} gateway.
-gateway_configuration_failed,,{0}.,{0}.
-forbidden_to_remove,,Payment gateway cannot be removed as there are active subscriptions.,Payment gateway cannot be removed as there are active subscriptions.
-gateway_down,,Communication failure occurred when trying to contact the gateway. Please try after some time,Communication failure occurred when trying to contact the gateway. Please try after some time
-gocardless_redirect_error,,An error occured while redirecting to GoCardless.,An error occured while redirecting to GoCardless.
-invalid_credential,,Please check the submitted credentials. Not able to access the gateway.,Please check the submitted credentials. Not able to access the gateway.
-gateway_already_configured,,This gateway is already configured for the site. Probable reason: {0},This gateway is already configured for the site. Probable reason: {0}
+zero_decimal_update_gateway,Používání brány {0} s nakonfigurovanou měnou není povoleno.,Using {0} gateway with the configured currency is not allowed.,Using {0} gateway with the configured currency is not allowed.
+paypal_not_supported,"Vybraná měna není podporována, protože jste nakonfigurovali PayPal Express Checkout.",Selected currency is not supported since you have configured PayPal Express Checkout.,Selected currency is not supported since you have configured PayPal Express Checkout.
+paypal_setup_error,Při přesměrování na PayPal došlo k chybě.,An error occured while redirecting to PayPal.,An error occured while redirecting to PayPal.
+currency_not_supported,Měna nakonfigurovaná v Chargebee není podporována doménou {0}.,Currency configured in Chargebee is not supported by {0}.,Currency configured in Chargebee is not supported by {0}.
+invalid_credential_with_message,{0},{0},{0}
+gateway_credential_missing,Problém se zpracováním platby. Zkuste to prosím po nějaké době.,Problem in processing your payment. Please try after some time.,Problem in processing your payment. Please try after some time.
+gw_credential_verification_failed,{0},{0},{0}
+gateway_down_with_message,Při pokusu o kontaktování brány došlo k chybě komunikace. Zkuste to prosím po nějaké době. Pravděpodobný důvod: {0},Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0},Communication failure occurred when trying to contact the gateway. Please try after some time. Probable reason: {0}
+wepay_not_supported,brána wepay není pro tuto operaci podporována.,wepay gateway is not supported for this operation.,wepay gateway is not supported for this operation.
+delete_card_error,Při mazání platební metody došlo k problému. Zkuste to prosím po nějaké době.,Problem occurred while deleting the payment method. Please try after some time.,Problem occurred while deleting the payment method. Please try after some time.
+gateway_in_active_state,Platební brána je již v aktivním stavu,Payment gateway is already in active state,Payment gateway is already in active state
+zero_decimal_update_site,Chargebee nepodporuje vybranou měnu s bránou {0}.,Chargebee doesn''t support the selected currency with {0} gateway.,Chargebee doesn''t support the selected currency with {0} gateway.
+default_gateway_not_configured,Výchozí platební brána není nakonfigurována.,Default payment gateway not configured.,Default payment gateway not configured.
+remove_archived_gw_not_supported,"Platební bránu nelze odebrat, protože je archivována.",Payment gateway cannot be removed as it is archived.,Payment gateway cannot be removed as it is archived.
+bank_account_payment_gateway_not_configured,"Tato operace není podporována, protože pro bankovní účet není nakonfigurována žádná platební brána.",This operation is not supported as there is no payment gateway configured for bank account.,This operation is not supported as there is no payment gateway configured for bank account.
+empty_card_type_list,Přijaté typy karet nesmí být prázdné,Accepted Card types cannot not be empty,Accepted Card types cannot not be empty
+default_gateway_not_supported,Výchozí volba není pro tuto bránu podporována.,Default option is not supported for this gateway.,Default option is not supported for this gateway.
+gateway_not_supported,"Vybraná měna není podporována, protože jste nakonfigurovali {0}.",Selected currency is not supported since you have configured {0}.,Selected currency is not supported since you have configured {0}.
+payment_gateway_not_configured,"Tato operace není podporována, protože není nakonfigurována žádná platební brána.",This operation is not supported as there is no payment gateway configured.,This operation is not supported as there is no payment gateway configured.
+gateway_not_supported_for_mcp,Chargebee nepodporuje funkci více měn pro bránu {0}.,Chargebee doesn''t support multicurrency feature for {0} gateway.,Chargebee doesn''t support multicurrency feature for {0} gateway.
+gateway_configuration_failed,{0}.,{0}.,{0}.
+forbidden_to_remove,"Platební bránu nelze odebrat, protože existují aktivní předplatná.",Payment gateway cannot be removed as there are active subscriptions.,Payment gateway cannot be removed as there are active subscriptions.
+gateway_down,[object Object],Communication failure occurred when trying to contact the gateway. Please try after some time,Communication failure occurred when trying to contact the gateway. Please try after some time
+gocardless_redirect_error,Při přesměrování na GoCardless došlo k chybě.,An error occured while redirecting to GoCardless.,An error occured while redirecting to GoCardless.
+invalid_credential,Zkontrolujte zadaná pověření. Nelze získat přístup k bráně.,Please check the submitted credentials. Not able to access the gateway.,Please check the submitted credentials. Not able to access the gateway.
+gateway_already_configured,Tato brána je pro web již nakonfigurovaná. Pravděpodobný důvod: {0},This gateway is already configured for the site. Probable reason: {0},This gateway is already configured for the site. Probable reason: {0}

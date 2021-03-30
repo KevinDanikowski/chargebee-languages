@@ -1,92 +1,92 @@
 key,value,reference value,description
-cbjs_grp.bank,,Bank,Bank
-cbjs_grp.select_bank,,Select Bank,Select Bank
-cbjs_grp.list_supported_bank,,Fetching list of supported banks,Fetching list of supported banks
-inapp_checkout.customer.header,,Add your account details,Add your account details
-inapp_checkout.customer.header.edit,,Editing account details,Editing account details
-inapp_checkout.customer.update,,Update,Update
-inapp_checkout.customer.next,,Next,Next
-inapp_checkout.billing_address.header,,Add your billing address,Add your billing address
-inapp_checkout.billing_address.header.edit,,Editing billing address,Editing billing address
-inapp_checkout.billing_address.update,,Update,Update
-inapp_checkout.billing_address.next,,Next,Next
-inapp_checkout.shipping_address.header,,Add your shipping address,Add your shipping address
-inapp_checkout.shipping_address.header.edit,,Editing shipping address,Editing shipping address
-inapp_checkout.shipping_address.update,,Update,Update
-inapp_checkout.shipping_address.next,,Next,Next
-inapp_checkout.choose_sa.header,,Choose Shipping address,Choose Shipping address
-inapp_checkout.billing_address.copy_to_shipping,,Ship to my billing address,Ship to my billing address
-inapp_checkout.shipping_address.choose.add,,Add New,Add New
-inapp_checkout.payment_method.choose.add,,Add Payment Method,Add Payment Method
-inapp_checkout.payment_method.header,,Add your payment details,Add your payment details
-inapp_checkout.payment_method.header.edit,,Editing payment details,Editing payment details
-inapp_checkout.payment_method.header.select,,Select a payment method,Select a payment method
-inapp_checkout.payment_method.footer.choose,,Choose a different payment method,Choose a different payment method
-inapp_checkout.payment_method.update,,Update,Update
-inapp_checkout.payment_method.next,,Next,Next
-inapp_checkout.subscription.header,,Add your subscription details,Add your subscription details
-inapp_checkout.invoice.header,,Add your purchase details,Add your purchase details
-inapp_checkout.subscription.header.edit,,Editing Subscription Details,Editing Subscription Details
-inapp_checkout.invoice.header.edit,,Editing Purchase Details,Editing Purchase Details
-inapp_checkout.subscription.update,,Update,Update
-inapp_checkout.invoice.update,,Update,Update
-inapp_checkout.subscription.next,,Next,Next
-inapp_checkout.invoice.next,,Next,Next
-inapp_checkout.review.header,,Complete your order,Complete your order
-inapp_checkout.pay_review.header,,Complete your order,Complete your order
-inapp_checkout.review.subscribe_btn.current_charge_present.txt,,Pay %{amount} & subscribe,Pay %{amount} & subscribe
-inapp_checkout.review.subscribe_btn.current_charge_zero.txt,,Subscribe,Subscribe
-inapp_checkout.review.order.header,,Order summary,Order summary
-inapp_checkout.review.account.header,,Account,Account
-inapp_checkout.review.billing.header,,Billing,Billing
-inapp_checkout.review.shipping.header,,Shipping,Shipping
-inapp_checkout.review.billing_shipping.header,,Billing & Shipping,Billing & Shipping
-inapp_checkout.review.subscription.header,,Subscription Details,Subscription Details
-inapp_checkout.review.invoice.header,,Purchase Details,Purchase Details
-inapp_checkout.review.pm.header,,Payment,Payment
-inapp_checkout.review.more,,Review Details,Review Details
-inapp_checkout.shipping_address.header.choose,,Choose Shipping Address,Choose Shipping Address
-inapp_checkout.choose_pm.header,,Choose Payment Method,Choose Payment Method
-inapp_checkout.coupon.apply,,Apply,Apply
-inapp_checkout.coupon.label,,Apply coupon,Apply coupon
-inapp_checkout.coupon.placeholder,,Enter coupon code,Enter coupon code
-inapp_checkout.cart.header.edit,,Edit order,Edit order
-inapp_checkout.cart.header,,Your order,Your order
-inapp_checkout.cart.next,,Proceed To Checkout,Proceed To Checkout
-inapp_checkout.cart.remove,,Remove,Remove
-inapp_checkout.cart.recommended_addon_title,,Recommended addons,Recommended addons
-inapp_checkout.payment_method.card.display_name,,Card,Card
-inapp_checkout.payment_method.paypal.display_name,,PayPal,PayPal
+cbjs_grp.bank,banka,Bank,Bank
+cbjs_grp.select_bank,Vyberte Banka,Select Bank,Select Bank
+cbjs_grp.list_supported_bank,Načítání seznamu podporovaných bank,Fetching list of supported banks,Fetching list of supported banks
+inapp_checkout.customer.header,Přidejte podrobnosti o svém účtu,Add your account details,Add your account details
+inapp_checkout.customer.header.edit,Úpravy podrobností účtu,Editing account details,Editing account details
+inapp_checkout.customer.update,Aktualizace,Update,Update
+inapp_checkout.customer.next,další,Next,Next
+inapp_checkout.billing_address.header,Přidejte svou fakturační adresu,Add your billing address,Add your billing address
+inapp_checkout.billing_address.header.edit,Úprava fakturační adresy,Editing billing address,Editing billing address
+inapp_checkout.billing_address.update,Aktualizace,Update,Update
+inapp_checkout.billing_address.next,další,Next,Next
+inapp_checkout.shipping_address.header,Přidejte svoji dodací adresu,Add your shipping address,Add your shipping address
+inapp_checkout.shipping_address.header.edit,Úprava dodací adresy,Editing shipping address,Editing shipping address
+inapp_checkout.shipping_address.update,Aktualizace,Update,Update
+inapp_checkout.shipping_address.next,další,Next,Next
+inapp_checkout.choose_sa.header,Zvolte dodací adresu,Choose Shipping address,Choose Shipping address
+inapp_checkout.billing_address.copy_to_shipping,Odeslat na moji fakturační adresu,Ship to my billing address,Ship to my billing address
+inapp_checkout.shipping_address.choose.add,Přidat nový,Add New,Add New
+inapp_checkout.payment_method.choose.add,Přidat způsob platby,Add Payment Method,Add Payment Method
+inapp_checkout.payment_method.header,Přidejte své platební údaje,Add your payment details,Add your payment details
+inapp_checkout.payment_method.header.edit,Úpravy platebních údajů,Editing payment details,Editing payment details
+inapp_checkout.payment_method.header.select,Zvolit způsob platby,Select a payment method,Select a payment method
+inapp_checkout.payment_method.footer.choose,Vyberte jinou platební metodu,Choose a different payment method,Choose a different payment method
+inapp_checkout.payment_method.update,Aktualizace,Update,Update
+inapp_checkout.payment_method.next,další,Next,Next
+inapp_checkout.subscription.header,Přidejte podrobnosti o předplatném,Add your subscription details,Add your subscription details
+inapp_checkout.invoice.header,Přidejte podrobnosti o nákupu,Add your purchase details,Add your purchase details
+inapp_checkout.subscription.header.edit,Úpravy podrobností o předplatném,Editing Subscription Details,Editing Subscription Details
+inapp_checkout.invoice.header.edit,Úpravy podrobností o nákupu,Editing Purchase Details,Editing Purchase Details
+inapp_checkout.subscription.update,Aktualizace,Update,Update
+inapp_checkout.invoice.update,Aktualizace,Update,Update
+inapp_checkout.subscription.next,další,Next,Next
+inapp_checkout.invoice.next,další,Next,Next
+inapp_checkout.review.header,Vyplňte svoji objednávku,Complete your order,Complete your order
+inapp_checkout.pay_review.header,Vyplňte svoji objednávku,Complete your order,Complete your order
+inapp_checkout.review.subscribe_btn.current_charge_present.txt,Zaplaťte %{amount} a přihlaste se k odběru,Pay %{amount} & subscribe,Pay %{amount} & subscribe
+inapp_checkout.review.subscribe_btn.current_charge_zero.txt,předplatit,Subscribe,Subscribe
+inapp_checkout.review.order.header,Přehled objednávky,Order summary,Order summary
+inapp_checkout.review.account.header,Účet,Account,Account
+inapp_checkout.review.billing.header,Fakturace,Billing,Billing
+inapp_checkout.review.shipping.header,Lodní doprava,Shipping,Shipping
+inapp_checkout.review.billing_shipping.header,Fakturace a doprava,Billing & Shipping,Billing & Shipping
+inapp_checkout.review.subscription.header,Podrobnosti o předplatném,Subscription Details,Subscription Details
+inapp_checkout.review.invoice.header,Podrobnosti o nákupu,Purchase Details,Purchase Details
+inapp_checkout.review.pm.header,Způsob platby,Payment,Payment
+inapp_checkout.review.more,Zkontrolovat podrobnosti,Review Details,Review Details
+inapp_checkout.shipping_address.header.choose,Zvolte dodací adresu,Choose Shipping Address,Choose Shipping Address
+inapp_checkout.choose_pm.header,Vyberte způsob platby,Choose Payment Method,Choose Payment Method
+inapp_checkout.coupon.apply,Aplikovat,Apply,Apply
+inapp_checkout.coupon.label,Použít kupón,Apply coupon,Apply coupon
+inapp_checkout.coupon.placeholder,Zadejte kód kupónu,Enter coupon code,Enter coupon code
+inapp_checkout.cart.header.edit,Upravit objednávku,Edit order,Edit order
+inapp_checkout.cart.header,Vaše objednávka,Your order,Your order
+inapp_checkout.cart.next,Pokračovat k pokladně,Proceed To Checkout,Proceed To Checkout
+inapp_checkout.cart.remove,Odstranit,Remove,Remove
+inapp_checkout.cart.recommended_addon_title,Doporučené doplňky,Recommended addons,Recommended addons
+inapp_checkout.payment_method.card.display_name,Kartu,Card,Card
+inapp_checkout.payment_method.paypal.display_name,PayPal,PayPal,PayPal
 inapp_checkout.thankyou.header,,,
 inapp_checkout.thankyou.body,,,
-inapp_checkout.thankyou.close,,CLOSE,CLOSE
-inapp_checkout.otp.enter,,Enter your six-digit one time password,Enter your six-digit one time password
-inapp_checkout.password.enter,,Enter your password,Enter your password
-inapp_checkout.otp.resend,,Resend the one time password,Resend the one time password
-inapp_checkout.login.via_otp,,Login via one time password,Login via one time password
-inapp_checkout.otp.enter_password,,Enter password instead,Enter password instead
-inapp_checkout.otp_resend.notify,,New one time password send to your email address,New one time password send to your email address
-inapp_checkout.checkuser.error.multiple_subscriptions_not_allowed,,You already have a subscription with us,You already have a subscription with us
-inapp_checkout.otp.guest,,Proceed as guest,Proceed as guest
-inapp_checkout.checkuser.email,,Enter email to proceed,Enter email to proceed
-inapp_checkout.checkuser.next,,Next,Next
-inapp_checkout.modal_button.confirm,,Confirm,Confirm
-inapp_checkout.modal_button.cancel,,Cancel,Cancel
-inapp_checkout.po_number.label,,PO Number,PO Number
+inapp_checkout.thankyou.close,ZAVŘÍT,CLOSE,CLOSE
+inapp_checkout.otp.enter,Zadejte své šestimístné jednorázové heslo,Enter your six-digit one time password,Enter your six-digit one time password
+inapp_checkout.password.enter,Zadejte heslo,Enter your password,Enter your password
+inapp_checkout.otp.resend,Znovu odešlete jednorázové heslo,Resend the one time password,Resend the one time password
+inapp_checkout.login.via_otp,Přihlaste se pomocí jednorázového hesla,Login via one time password,Login via one time password
+inapp_checkout.otp.enter_password,Místo toho zadejte heslo,Enter password instead,Enter password instead
+inapp_checkout.otp_resend.notify,Nové jednorázové heslo zašlete na svou e-mailovou adresu,New one time password send to your email address,New one time password send to your email address
+inapp_checkout.checkuser.error.multiple_subscriptions_not_allowed,U nás již máte předplatné,You already have a subscription with us,You already have a subscription with us
+inapp_checkout.otp.guest,Pokračujte jako host,Proceed as guest,Proceed as guest
+inapp_checkout.checkuser.email,Pokračujte zadáním e-mailu,Enter email to proceed,Enter email to proceed
+inapp_checkout.checkuser.next,další,Next,Next
+inapp_checkout.modal_button.confirm,Potvrdit,Confirm,Confirm
+inapp_checkout.modal_button.cancel,zrušení,Cancel,Cancel
+inapp_checkout.po_number.label,číslo objednávky,PO Number,PO Number
 inapp_checkout.items_in_total.custom_label,,,
 inapp_checkout.discounts_applied.label,,,
-inapp_checkout.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-inapp_checkout.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-inapp_checkout.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-inapp_checkout.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-inapp_checkout.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-inapp_checkout.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-inapp_checkout.card.billing_address,,Use my billing address as card address,Use my billing address as card address
-inapp_checkout.card.shipping_address,,Use my shipping address as card address,Use my shipping address as card address
-inapp_checkout.item.breakdown.show,,See Details,See Details
-inapp_checkout.item.breakdown.hide,,Hide Details,Hide Details
-inapp_checkout.cart.trial.info,,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
-inapp_checkout.cart.note.plan.trial,,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
+inapp_checkout.payment_method.bacs.guarantee.header,Zpět k platbě,Back to Payment,Back to Payment
+inapp_checkout.payment_method.bank_account.btn.proceed_to_review,Pokračujte kontrolou,Proceed to Review,Proceed to Review
+inapp_checkout.payment_method.bank_account.btn.enter_iban,Zadejte IBAN,Enter IBAN,Enter IBAN
+inapp_checkout.payment_method.bank_account.btn.enter_local_details,Zadejte místní bankovní údaje,Enter local bank details,Enter local bank details
+inapp_checkout.payment_method.bank_account.btn.enter_your_name,Zadejte své jméno,Enter your name,Enter your name
+inapp_checkout.payment_method.bank_account.btn.enter_company_name,Zadejte název společnosti,Enter company name,Enter company name
+inapp_checkout.card.billing_address,Jako adresu karty použijte moji fakturační adresu,Use my billing address as card address,Use my billing address as card address
+inapp_checkout.card.shipping_address,Jako adresu karty použijte moji dodací adresu,Use my shipping address as card address,Use my shipping address as card address
+inapp_checkout.item.breakdown.show,Zobrazit podrobnosti,See Details,See Details
+inapp_checkout.item.breakdown.hide,Skrýt detaily,Hide Details,Hide Details
+inapp_checkout.cart.trial.info,Bude vám účtováno po %{plan_trial_period} zkušební verzi.,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
+inapp_checkout.cart.note.plan.trial,Bude vám účtováno po %{plan_trial_period} zkušební verzi.,You will be charged after the %{plan_trial_period} trial.,You will be charged after the %{plan_trial_period} trial.
 inapp_checkout.review.note.plan.trial,,,
 inapp_checkout.payment_method.note.plan.trial,,,
 inapp_checkout.cart.note.plan.no_trial,,,
@@ -96,270 +96,270 @@ inapp_checkout.customer.note,,,
 inapp_checkout.subscription.note,,,
 inapp_checkout.shipping_address.note,,,
 inapp_checkout.billing_address.note,,,
-inapp_checkout.cart.pay_now.label,,Pay now,Pay now
-inapp_checkout.cart.next_charge.label,,Next charge on %{date},Next charge on %{date}
-inapp_checkout.order_summary.charge_now.label,,Chargeable now,Chargeable now
-inapp_checkout.order_summary.next_charge.label,,Charges on %{date},Charges on %{date}
-inapp_checkout.order.edit.link,,Edit order,Edit order
-inapp_checkout.estimate_display_screen.header,,Your order summary,Your order summary
-inapp_checkout.credits_applied.label,,Credits applied,Credits applied
-inapp_checkout.non_rec_addon.tag,,ONE-TIME,ONE-TIME
-inapp_checkout.coupon.description,,%{amount} coupon applied,%{amount} coupon applied
-inapp_checkout.free_quantity.description,,%{units} units free,%{units} units free
-inapp_checkout.referral.title,,Refer your friends,Refer your friends
-inapp_checkout.referral.cb_reward,,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.
-inapp_checkout.referral.custom_reward,,Refer your friends and we will reward you when they purchase their first subscription.,Refer your friends and we will reward you when they purchase their first subscription.
-inapp_checkout.referral.friend_discount,,Your friend will get %{referral_friend_discount} discount.,Your friend will get %{referral_friend_discount} discount.
-inapp_checkout.referral.link_label,,Your referral link,Your referral link
-inapp_checkout.review.threedsWarning.non_trial,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_checkout.review.threedsWarning.trial,,"You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
-inapp_checkout.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_checkout.otp_email.subject,,Your One Time Password (OTP),Your One Time Password (OTP)
-inapp_checkout.otp_email.salutation,,"Hi there,","Hi there,"
-inapp_checkout.otp_email.otp_line,,%{otp} is your one time password,%{otp} is your one time password
-inapp_checkout.otp_email.desc,,The one time password is valid for 5 minutes from the time it is generated.,The one time password is valid for 5 minutes from the time it is generated.
-inapp_checkout.otp_sms.body,,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.
-inapp_checkout.multi_decimal.quantity.error,,Enter valid quantity,Enter valid quantity
-inapp_checkout.qty,,Qty,Qty
-inapp_checkout.review.opm.cash.desc,,You can make the payment by cash,You can make the payment by cash
-inapp_checkout.review.opm.check.desc,,You can find the payment transfer details as part of the invoice,You can find the payment transfer details as part of the invoice
-inapp_checkout.review.opm.bank_transfer.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.review.opm.ach_credit.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.review.opm.sepa_credit.desc,,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
-inapp_checkout.pm.consent.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.
-inapp_checkout.pm.never.save.txt,,Your payment information will not be saved in our system.,Your payment information will not be saved in our system.
-inapp_portal.recommended.addon.tag,,RECOMMENDED,RECOMMENDED
-inapp_portal.home.header,,Manage Subscriptions,Manage Subscriptions
-inapp_portal.locale.label,,Locale,Locale
-inapp_portal.home.footer,,Questions? Our Support Team would be glad to help,Questions? Our Support Team would be glad to help
-inapp_portal.home.account.link_text,,Account Information,Account Information
-inapp_portal.home.address.link_text,,Billing & Shipping Addresses,Billing & Shipping Addresses
-inapp_portal.home.payment_methods.link_text,,Payment Methods,Payment Methods
-inapp_portal.home.billing_history.link_text,,Billing History,Billing History
-inapp_portal.back,,Back,Back
-inapp_portal.subscription.header,,Subscription Details,Subscription Details
-inapp_portal.subscription.header.edit,,Edit Subscription Details,Edit Subscription Details
-inapp_portal.subscription.header.review,,Review subscription changes,Review subscription changes
-inapp_portal.account.header,,Account Details,Account Details
-inapp_portal.account.edit.txt,,Editing account details,Editing account details
-inapp_portal.account.header.edit,,Update your account details,Update your account details
-inapp_portal.account.header.edit.submit,,Update,Update
-inapp_portal.address.header,,Billing & Shipping Addresses,Billing & Shipping Addresses
-inapp_portal.address.billing.txt,,Billing,Billing
-inapp_portal.address.billing.edit.txt,,Editing billing details,Editing billing details
-inapp_portal.address.billing.add.txt,,Add your billing details,Add your billing details
-inapp_portal.address.shipping.txt,,Shipping,Shipping
-inapp_portal.address.shipping.edit.txt,,Editing shipping details,Editing shipping details
-inapp_portal.address.billing.header.edit,,Update your billing details,Update your billing details
-inapp_portal.address.billing.header.edit.submit,,Update,Update
-inapp_portal.address.shipping.header.edit,,Update your shipping details,Update your shipping details
-inapp_portal.address.shipping.header.edit.submit,,Update,Update
-inapp_portal.payment_method.header,,Payment Methods,Payment Methods
-inapp_portal.payment_method.link.add,,Add New,Add New
-inapp_portal.payment_method.link.add_new,,Add a payment method,Add a payment method
-inapp_portal.payment_method.header.add,,Add a payment method,Add a payment method
-inapp_portal.payment_method.header.select,,Select a payment method,Select a payment method
-inapp_portal.payment_method.footer.choose,,Choose a different payment method,Choose a different payment method
-inapp_portal.payment_method.header.add.submit,,Add,Add
-inapp_portal.payment_method.header.edit,,Update your payment method,Update your payment method
-inapp_portal.payment_method.header.edit.submit,,Update,Update
-inapp_portal.payment_method.header.verify,,Verify payment method,Verify payment method
-inapp_portal.payment_method.header.verify.submit,,Verify,Verify
-inapp_portal.billing_history.header,,Billing history,Billing history
-inapp_portal.billing_history.download,,Download,Download
-inapp_portal.billing_history.none,,No invoices to display,No invoices to display
-inapp_portal.subscription.header.edit.submit,,Review,Review
-inapp_portal.subscription.header.review.submit,,Update Subscription,Update Subscription
-inapp_portal.subscription.header.choose_pm,,Choose your payment method for this subscription,Choose your payment method for this subscription
-inapp_portal.subscription.update_sub_pm,,Update,Update
-inapp_portal.subscription.cancel.link.txt,,Cancel Subscription,Cancel Subscription
-inapp_portal.subscription.next.renewing_estimate.now,,You will be charged %{amount} for prorated charges via,You will be charged %{amount} for prorated charges via
-inapp_portal.subscription.next.renewing_estimate.eot.non_recurring,,You will be charged %{amount} via,You will be charged %{amount} via
-inapp_portal.subscription.next.renewing_estimate.eot,,You will be charged %{amount} every %{billing_period} via,You will be charged %{amount} every %{billing_period} via
-inapp_portal.subscription.next.renewing_estimate.eot.with_date,,Your next charge %{amount} will be on %{date} via,Your next charge %{amount} will be on %{date} via
-inapp_portal.subscription.next.credits_created.now,,You will not be charged for this change and %{amount} will be added as refundable credits,You will not be charged for this change and %{amount} will be added as refundable credits
-inapp_portal.subscription.details.trial.info,,"You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan","You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan"
-inapp_portal.subscription.details.cancellation_scheduled.info,,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
-inapp_portal.subscription.next.renewing_estimate.now_zero,," %{amount} charged from available credits."," %{amount} charged from available credits."
-inapp_portal.subscription.details.trial.info_today,,You trial will end today and you’ll be moved to the %{plan_name} plan,You trial will end today and you’ll be moved to the %{plan_name} plan
+inapp_checkout.cart.pay_now.label,Zaplať teď,Pay now,Pay now
+inapp_checkout.cart.next_charge.label,Další platba v %{date},Next charge on %{date},Next charge on %{date}
+inapp_checkout.order_summary.charge_now.label,Účtováno nyní,Chargeable now,Chargeable now
+inapp_checkout.order_summary.next_charge.label,Poplatky za %{date},Charges on %{date},Charges on %{date}
+inapp_checkout.order.edit.link,Upravit objednávku,Edit order,Edit order
+inapp_checkout.estimate_display_screen.header,Shrnutí objednávky,Your order summary,Your order summary
+inapp_checkout.credits_applied.label,Kredity byly použity,Credits applied,Credits applied
+inapp_checkout.non_rec_addon.tag,JEDNOU,ONE-TIME,ONE-TIME
+inapp_checkout.coupon.description,Uplatněn kupón %{amount},%{amount} coupon applied,%{amount} coupon applied
+inapp_checkout.free_quantity.description, %{units} jednotek zdarma,%{units} units free,%{units} units free
+inapp_checkout.referral.title,Doporučte své přátele,Refer your friends,Refer your friends
+inapp_checkout.referral.cb_reward,Doporučte své přátele a my vám při nákupu prvního předplatného dáme %{referral_credits}.,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.,Refer your friends and we will give you %{referral_credits} when they purchase their first subscription.
+inapp_checkout.referral.custom_reward,"Doporučte své přátele a my vám odmění, když si zakoupí své první předplatné.",Refer your friends and we will reward you when they purchase their first subscription.,Refer your friends and we will reward you when they purchase their first subscription.
+inapp_checkout.referral.friend_discount,Váš přítel dostane %{referral_friend_discount} slevu.,Your friend will get %{referral_friend_discount} discount.,Your friend will get %{referral_friend_discount} discount.
+inapp_checkout.referral.link_label,Váš odkaz,Your referral link,Your referral link
+inapp_checkout.review.threedsWarning.non_trial,Můžete být přesměrováni na vaši bankovní stránku pro 3D zabezpečené ověření.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_checkout.review.threedsWarning.trial,"Můžete být přesměrováni na vaši bankovní stránku pro 3D zabezpečené ověření, za které může být účtována částka tokenu, která bude automaticky plně vrácena.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
+inapp_checkout.3ds.auth.txt,"Povoluji organizaci %{organisation_name} uložit tuto platební metodu a automaticky účtovat tuto platební metodu, kdykoli je k ní přidruženo předplatné.",I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_checkout.otp_email.subject,Vaše jednorázové heslo (OTP),Your One Time Password (OTP),Your One Time Password (OTP)
+inapp_checkout.otp_email.salutation,"Ahoj,","Hi there,","Hi there,"
+inapp_checkout.otp_email.otp_line, %{otp} je vaše jednorázové heslo,%{otp} is your one time password,%{otp} is your one time password
+inapp_checkout.otp_email.desc,Jednorázové heslo je platné po dobu 5 minut od jeho vygenerování.,The one time password is valid for 5 minutes from the time it is generated.,The one time password is valid for 5 minutes from the time it is generated.
+inapp_checkout.otp_sms.body, %{otp} je vaše jednorázové heslo. Jednorázové heslo je platné po dobu 5 minut od jeho vygenerování.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.,%{otp} is your one time password. The one time password is valid for 5 minutes from the time it is generated.
+inapp_checkout.multi_decimal.quantity.error,Zadejte platné množství,Enter valid quantity,Enter valid quantity
+inapp_checkout.qty,Množství,Qty,Qty
+inapp_checkout.review.opm.cash.desc,Platbu můžete provést v hotovosti,You can make the payment by cash,You can make the payment by cash
+inapp_checkout.review.opm.check.desc,Podrobnosti o převodu platby najdete jako součást faktury,You can find the payment transfer details as part of the invoice,You can find the payment transfer details as part of the invoice
+inapp_checkout.review.opm.bank_transfer.desc,Platbu můžete provést na údaje o bankovním účtu uvedené na faktuře,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.review.opm.ach_credit.desc,Platbu můžete provést na bankovní údaje uvedené na faktuře,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.review.opm.sepa_credit.desc,Platbu můžete provést na údaje o bankovním účtu uvedené na faktuře,You can make the payment to the bank account details present in the invoice,You can make the payment to the bank account details present in the invoice
+inapp_checkout.pm.consent.txt,Povoluji organizaci %{organisation_name} uložit tuto platební metodu a automaticky účtovat této platební metodě veškeré budoucí transakce s ní spojené.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method for any future transactions associated with it.
+inapp_checkout.pm.never.save.txt,Vaše platební údaje nebudou v našem systému uloženy.,Your payment information will not be saved in our system.,Your payment information will not be saved in our system.
+inapp_portal.recommended.addon.tag,DOPORUČUJEME,RECOMMENDED,RECOMMENDED
+inapp_portal.home.header,Spravovat předplatné,Manage Subscriptions,Manage Subscriptions
+inapp_portal.locale.label,Národní prostředí,Locale,Locale
+inapp_portal.home.footer,Dotazy? Náš tým podpory vám rád pomůže,Questions? Our Support Team would be glad to help,Questions? Our Support Team would be glad to help
+inapp_portal.home.account.link_text,Informace o účtu,Account Information,Account Information
+inapp_portal.home.address.link_text,Fakturační a dodací adresy,Billing & Shipping Addresses,Billing & Shipping Addresses
+inapp_portal.home.payment_methods.link_text,platební metody,Payment Methods,Payment Methods
+inapp_portal.home.billing_history.link_text,Historie fakturace,Billing History,Billing History
+inapp_portal.back,Zadní,Back,Back
+inapp_portal.subscription.header,Podrobnosti o předplatném,Subscription Details,Subscription Details
+inapp_portal.subscription.header.edit,Upravit podrobnosti předplatného,Edit Subscription Details,Edit Subscription Details
+inapp_portal.subscription.header.review,Zkontrolujte změny předplatného,Review subscription changes,Review subscription changes
+inapp_portal.account.header,Detaily účtu,Account Details,Account Details
+inapp_portal.account.edit.txt,Úpravy podrobností účtu,Editing account details,Editing account details
+inapp_portal.account.header.edit,Aktualizujte podrobnosti svého účtu,Update your account details,Update your account details
+inapp_portal.account.header.edit.submit,Aktualizace,Update,Update
+inapp_portal.address.header,Fakturační a dodací adresy,Billing & Shipping Addresses,Billing & Shipping Addresses
+inapp_portal.address.billing.txt,Fakturace,Billing,Billing
+inapp_portal.address.billing.edit.txt,Úpravy fakturačních údajů,Editing billing details,Editing billing details
+inapp_portal.address.billing.add.txt,Přidejte své fakturační údaje,Add your billing details,Add your billing details
+inapp_portal.address.shipping.txt,Lodní doprava,Shipping,Shipping
+inapp_portal.address.shipping.edit.txt,Úpravy podrobností o dopravě,Editing shipping details,Editing shipping details
+inapp_portal.address.billing.header.edit,Aktualizujte své fakturační údaje,Update your billing details,Update your billing details
+inapp_portal.address.billing.header.edit.submit,Aktualizace,Update,Update
+inapp_portal.address.shipping.header.edit,Aktualizujte své dodací údaje,Update your shipping details,Update your shipping details
+inapp_portal.address.shipping.header.edit.submit,Aktualizace,Update,Update
+inapp_portal.payment_method.header,platební metody,Payment Methods,Payment Methods
+inapp_portal.payment_method.link.add,Přidat nový,Add New,Add New
+inapp_portal.payment_method.link.add_new,Přidejte platební metodu,Add a payment method,Add a payment method
+inapp_portal.payment_method.header.add,Přidejte platební metodu,Add a payment method,Add a payment method
+inapp_portal.payment_method.header.select,Zvolit způsob platby,Select a payment method,Select a payment method
+inapp_portal.payment_method.footer.choose,Vyberte jinou platební metodu,Choose a different payment method,Choose a different payment method
+inapp_portal.payment_method.header.add.submit,Přidat,Add,Add
+inapp_portal.payment_method.header.edit,Aktualizujte svoji platební metodu,Update your payment method,Update your payment method
+inapp_portal.payment_method.header.edit.submit,Aktualizace,Update,Update
+inapp_portal.payment_method.header.verify,Ověřte způsob platby,Verify payment method,Verify payment method
+inapp_portal.payment_method.header.verify.submit,Ověřit,Verify,Verify
+inapp_portal.billing_history.header,Historie fakturace,Billing history,Billing history
+inapp_portal.billing_history.download,Stažení,Download,Download
+inapp_portal.billing_history.none,Žádná nebo více faktur k zobrazení,No invoices to display,No invoices to display
+inapp_portal.subscription.header.edit.submit,Posouzení,Review,Review
+inapp_portal.subscription.header.review.submit,Aktualizovat předplatné,Update Subscription,Update Subscription
+inapp_portal.subscription.header.choose_pm,Vyberte způsob platby pro toto předplatné,Choose your payment method for this subscription,Choose your payment method for this subscription
+inapp_portal.subscription.update_sub_pm,Aktualizace,Update,Update
+inapp_portal.subscription.cancel.link.txt,Zrušit předplatné,Cancel Subscription,Cancel Subscription
+inapp_portal.subscription.next.renewing_estimate.now,Bude vám účtováno %{amount} za poměrné částky prostřednictvím,You will be charged %{amount} for prorated charges via,You will be charged %{amount} for prorated charges via
+inapp_portal.subscription.next.renewing_estimate.eot.non_recurring,Bude vám účtováno %{amount} prostřednictvím,You will be charged %{amount} via,You will be charged %{amount} via
+inapp_portal.subscription.next.renewing_estimate.eot,Bude vám účtováno %{amount} každé %{billing_period} prostřednictvím,You will be charged %{amount} every %{billing_period} via,You will be charged %{amount} every %{billing_period} via
+inapp_portal.subscription.next.renewing_estimate.eot.with_date,Vaše další platba %{amount} bude %{date} prostřednictvím,Your next charge %{amount} will be on %{date} via,Your next charge %{amount} will be on %{date} via
+inapp_portal.subscription.next.credits_created.now,Tato změna vám nebude účtována a %{amount} bude přidáno jako vratné kredity,You will not be charged for this change and %{amount} will be added as refundable credits,You will not be charged for this change and %{amount} will be added as refundable credits
+inapp_portal.subscription.details.trial.info,Zbývá vám %{remaining_trial_period} zkušební verze. Po vypršení zkušební doby budete přesunuti do plánu %{plan_name},"You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan","You have %{remaining_trial_period} of trial left. After your trial expires, you’ll be moved to the %{plan_name} plan"
+inapp_portal.subscription.details.cancellation_scheduled.info,Vaše předplatné bude zrušeno dne %{date},Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
+inapp_portal.subscription.next.renewing_estimate.now_zero, %{amount} účtováno z dostupných kreditů., %{amount} charged from available credits., %{amount} charged from available credits.
+inapp_portal.subscription.details.trial.info_today,Vaše zkušební verze dnes skončí a budete přesunuti do plánu %{plan_name},You trial will end today and you’ll be moved to the %{plan_name} plan,You trial will end today and you’ll be moved to the %{plan_name} plan
 inapp_portal.subscription.details.active.info,,,
-inapp_portal.subscription.details.non_renewing.info,,Your subscription will end on %{date},Your subscription will end on %{date}
-inapp_portal.subscription.details.cancelled.info,,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription
-inapp_portal.subscription.details.paused.info,,Your subscription is currently paused.,Your subscription is currently paused.
-inapp_portal.subscription.details.future.info,,Your subscription will start on %{date},Your subscription will start on %{date}
-inapp_portal.subscription.edit.txt,,Edit Subscription,Edit Subscription
-inapp_portal.choose_change_subscription.header,,Change subscription,Change subscription
-inapp_portal.subscription.edit.chooser_question,,When do you want to change the subscription?,When do you want to change the subscription?
-inapp_portal.subscription.change.immediately.option,,Change immediately,Change immediately
-inapp_portal.subscription.change.eot.option,,Change on next renewal(%{date}),Change on next renewal(%{date})
-inapp_portal.subscription.change.specific_date.option,,Change on a specific date,Change on a specific date
-inapp_portal.subscription.change.option.submit,,Change subscription,Change subscription
-inapp_portal.subscription.change.options.proceed,,proceed,proceed
-inapp_portal.subscription.cancel.specific_date.option,,Cancel on a specific date,Cancel on a specific date
-inapp_portal.remove_scheduled_changes.txt,,Remove scheduled changes,Remove scheduled changes
-inapp_portal.subscription.remove_scheduled_cancellation.link_txt,,Remove scheduled cancellation,Remove scheduled cancellation
-inapp_portal.remove_scheduled_changes.info,,These changes will be applied to your subscription from next renewal( %{date} ),These changes will be applied to your subscription from next renewal( %{date} )
-inapp_portal.payment_method.header.view,,Payment Method Details,Payment Method Details
-inapp_portal.payment_method.view.remove,,Remove Payment Method,Remove Payment Method
-inapp_portal.payment_method.view.edit,,Edit Payment Method,Edit Payment Method
-inapp_portal.payment_method.view.remove_prompt,,Are you sure you want to remove this payment method?,Are you sure you want to remove this payment method?
-inapp_portal.subscription_cf.header.edit,,Update your subscription details,Update your subscription details
-inapp_portal.subscription_cf.header.edit.submit,,Update,Update
+inapp_portal.subscription.details.non_renewing.info,Vaše předplatné skončí %{date},Your subscription will end on %{date},Your subscription will end on %{date}
+inapp_portal.subscription.details.cancelled.info,"ZRUŠENO. Vaše předplatné bylo zrušeno. Chcete-li znovu aktivovat předplatné, kontaktujte nás",CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription,CANCELED. Your subscription has been canceled. Contact us to reactivate your subscription
+inapp_portal.subscription.details.paused.info,Vaše předplatné je momentálně pozastaveno.,Your subscription is currently paused.,Your subscription is currently paused.
+inapp_portal.subscription.details.future.info,Vaše předplatné začne %{date},Your subscription will start on %{date},Your subscription will start on %{date}
+inapp_portal.subscription.edit.txt,Upravit předplatné,Edit Subscription,Edit Subscription
+inapp_portal.choose_change_subscription.header,Změnit předplatné,Change subscription,Change subscription
+inapp_portal.subscription.edit.chooser_question,Kdy chcete změnit předplatné?,When do you want to change the subscription?,When do you want to change the subscription?
+inapp_portal.subscription.change.immediately.option,Okamžitě změnit,Change immediately,Change immediately
+inapp_portal.subscription.change.eot.option,Změna při příštím obnovení ( %{date}),Change on next renewal(%{date}),Change on next renewal(%{date})
+inapp_portal.subscription.change.specific_date.option,Změna k určitému datu,Change on a specific date,Change on a specific date
+inapp_portal.subscription.change.option.submit,Změnit předplatné,Change subscription,Change subscription
+inapp_portal.subscription.change.options.proceed,pokračovat,proceed,proceed
+inapp_portal.subscription.cancel.specific_date.option,Storno v konkrétní den,Cancel on a specific date,Cancel on a specific date
+inapp_portal.remove_scheduled_changes.txt,Odebrat naplánované změny,Remove scheduled changes,Remove scheduled changes
+inapp_portal.subscription.remove_scheduled_cancellation.link_txt,Odebrat plánované zrušení,Remove scheduled cancellation,Remove scheduled cancellation
+inapp_portal.remove_scheduled_changes.info,Tyto změny budou použity na vaše předplatné od příštího obnovení ( %{date}),These changes will be applied to your subscription from next renewal( %{date} ),These changes will be applied to your subscription from next renewal( %{date} )
+inapp_portal.payment_method.header.view,Podrobnosti o způsobu platby,Payment Method Details,Payment Method Details
+inapp_portal.payment_method.view.remove,Odebrat způsob platby,Remove Payment Method,Remove Payment Method
+inapp_portal.payment_method.view.edit,Upravit způsob platby,Edit Payment Method,Edit Payment Method
+inapp_portal.payment_method.view.remove_prompt,Opravdu chcete tuto platební metodu odebrat?,Are you sure you want to remove this payment method?,Are you sure you want to remove this payment method?
+inapp_portal.subscription_cf.header.edit,Aktualizujte své předplatné,Update your subscription details,Update your subscription details
+inapp_portal.subscription_cf.header.edit.submit,Aktualizace,Update,Update
 inapp_portal.discounts_applied.label,,,
 inapp_portal.items_in_total.custom_label,,,
 inapp_portal.more_items_txt.custom_label,,,
-inapp_portal.home.gift_sub.gifted_by,,Recieved from %{name},Recieved from %{name}
-inapp_portal.sub_details.gift.gifted_by,,Gifted by %{name},Gifted by %{name}
-inapp_portal.subscription.cancel.header,,Cancel Subscription,Cancel Subscription
-inapp_portal.subscription.cancel.header.submit,,Confirm Cancellation,Confirm Cancellation
-inapp_portal.subscription.cancel.when,,When do you want to cancel the subscription?,When do you want to cancel the subscription?
-inapp_portal.subscription.cancel.eot.option,,Cancel on next renewal  (%{date}),Cancel on next renewal  (%{date})
-inapp_portal.subscription.cancel.immediately.option,,Cancel Immediately,Cancel Immediately
-inapp_portal.subscription.cancel.immediately.info,,Your subscription will be canceled immediately,Your subscription will be canceled immediately
-inapp_portal.subscription.cancel.eot.info,,Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
-inapp_portal.subscription.cancel.reason,,Reason for cancellation,Reason for cancellation
-inapp_portal.subscription.cancel.feedback,,Is there anything else you would like to let us know?,Is there anything else you would like to let us know?
-inapp_portal.subscription.cancel.reason.option,,Select a cancellation reason,Select a cancellation reason
-inapp_portal.subscription.canceled.reason_code.info,,Your subscription was canceled with the reason '%{reason}',Your subscription was canceled with the reason '%{reason}'
-inapp_portal.subscription.sch_cancel.reason_code.info,,Your subscription will be canceled with the reason '%{reason}',Your subscription will be canceled with the reason '%{reason}'
-inapp_portal.scheduled_changes.header,,View scheduled changes,View scheduled changes
-inapp_portal.scheduled_changes_navigation.header,,Changes from next renewal,Changes from next renewal
-inapp_portal.subscription_preview_navigation.header,,Subscription Details,Subscription Details
-inapp_portal.consent.header,,Permissions,Permissions
-inapp_portal.consent_section.name,,Permissions,Permissions
-inapp_portal.consent.revoke_alert,,Are you sure?,Are you sure?
-inapp_portal.consent.submit,,Update,Update
-inapp_portal.remove_scheduled_pause.confirm_txt,,The scheduled pause for your subscription will be removed. Continue?,The scheduled pause for your subscription will be removed. Continue?
-inapp_portal.resume_subscription_now.confirm_txt,,Your subscription will resume immediately. Continue?,Your subscription will resume immediately. Continue?
-inapp_portal.resume_now.link,,Resume now,Resume now
-inapp_portal.remove_scheduled_pause.link,,Remove Scheduled Pause,Remove Scheduled Pause
-inapp_portal.subscription.details.pause_scheduled.info,,Your subscription will be paused on %{date},Your subscription will be paused on %{date}
-inapp_portal.subscription.details.resume_scheduled.info,,Your subscription will resume on %{date},Your subscription will resume on %{date}
-inapp_portal.subscription.pause.link.txt,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.header,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.submit,,Pause Subscription,Pause Subscription
-inapp_portal.subscription.pause.immediate_indefinite.info,,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page
-inapp_portal.subscription.pause.immediate_fixed_time.info,,"Your subscription will be paused immediately, and will resume after %{pause_period_set} days.","Your subscription will be paused immediately, and will resume after %{pause_period_set} days."
-inapp_portal.subscription.pause.immediate_options.info,,Your subscription will be paused immediately.,Your subscription will be paused immediately.
-inapp_portal.subscription.pause.immediate_indefinite.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.immediate_fixed_time.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.immediate_options.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_indefinite.info,,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
-inapp_portal.subscription.pause.eot_fixed_time.info,,"Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days.","Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days."
-inapp_portal.subscription.pause.eot_options.info,,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
-inapp_portal.subscription.pause.eot_indefinite.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_fixed_time.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.eot_options.gen,,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
-inapp_portal.subscription.pause.chooser_question,,How long do you want to pause the subscription?,How long do you want to pause the subscription?
-inapp_portal.subscription.pause.custom_date,,Custom date,Custom date
-inapp_portal.subscription.pause.choose_specific_date,,(Choose a specific date),(Choose a specific date)
-inapp_portal.subscription.pause.pause_until,,Pause until,Pause until
-inapp_portal.payment_method_tag.primary,,Primary,Primary
-inapp_portal.payment_method_tag.backup,,Backup,Backup
-inapp_portal.payment_method.suggest_backup,,Backups come handy when your primary payment fails. Set a backup.,Backups come handy when your primary payment fails. Set a backup.
-inapp_portal.card.expiring,,Expires on %{card_expiry},Expires on %{card_expiry}
-inapp_portal.card.expired,,Expired on %{card_expiry},Expired on %{card_expiry}
-inapp_portal.pm.set_role.link,,Set this as primary or backup,Set this as primary or backup
-inapp_portal.pm.set_role.title,,Set this payment method as,Set this payment method as
-inapp_portal.pm.set_role.header,,Payment Method Settings,Payment Method Settings
-inapp_portal.pm.set_role.update_btn,,Update,Update
-inapp_portal.pm.set_role.skip_btn,,Skip,Skip
-inapp_portal.pm.remove_backup.link,,Remove as backup,Remove as backup
-inapp_portal.pm.remove_backup.message,,Remove backup? Backups come handy when your primary payment method fails.,Remove backup? Backups come handy when your primary payment method fails.
-inapp_portal.pm.remove_backup.confirm,,Remove,Remove
-inapp_portal.pm.set_primary.message,,Set this as primary? This will replace your current primary payment method,Set this as primary? This will replace your current primary payment method
-inapp_portal.pm.set_primary.confirm,,Confirm,Confirm
-inapp_portal.pm.set_primary.link,,Set as primary,Set as primary
-inapp_portal.pm.primary.desc.txt,,This is your primary payment method,This is your primary payment method
-inapp_portal.pm.backup.desc.txt,,This is your backup payment method,This is your backup payment method
-inapp_portal.pm.primary.warning.txt,,This will replace your current primary payment method,This will replace your current primary payment method
-inapp_portal.pm.backup.warning.txt,,This will replace your current backup payment method,This will replace your current backup payment method
-inapp_portal.pm.primary.info.txt,,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
-inapp_portal.pm.backup.info.txt,,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
-inapp_portal.pm.primary.desc.detail,,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
-inapp_portal.pm.backup.desc.detail,,This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
-inapp_portal.subscription.details.pm_warning,,"Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription.","Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription."
-inapp_portal.error.future_date.required,,Please provide a future date in correct format to process the request.,Please provide a future date in correct format to process the request.
-inapp_portal.addon_item_price_selection.header,,Change addon frequency,Change addon frequency
-inapp_portal.addon_item_price_selection.title,,Select billing frequency,Select billing frequency
-inapp_portal.addon_item_price_selection.update.btn,,Update,Update
-inapp_portal.item_selection.header,,Change plan,Change plan
-inapp_portal.item_selection.title,,Select billing frequency,Select billing frequency
-inapp_portal.item_selection.update.btn,,Update,Update
-inapp_portal.subscription.reactivate.link.txt,,Reactivate Subscription,Reactivate Subscription
-inapp_portal.reactivate_confirm.txt,,Are you sure you want to reactivate this subscription?,Are you sure you want to reactivate this subscription?
-inapp_portal.remove_cancellation.confirm_txt,,Are you sure you want to remove the scheduled cancellation?,Are you sure you want to remove the scheduled cancellation?
-inapp_portal.remove_scheduled_changes_confirm.txt,,Are you sure you want to remove the scheduled changes?,Are you sure you want to remove the scheduled changes?
-inapp_portal.modal_button.confirm,,Confirm,Confirm
-inapp_portal.modal_button.cancel,,Cancel,Cancel
-inapp_portal.subscriptions.load_more,,Load more,Load more
-inapp_portal.subscriptions.more,,See all your subscriptions,See all your subscriptions
-inapp_portal.portal_home.close,,Exit,Exit
-inapp_portal.change_item.txt,,Change,Change
-inapp_portal.add_addons.txt,,Add Addons,Add Addons
-inapp_portal.add_addons.btn,,Add,Add
-inapp_portal.edit_addon_item.btn,,Edit,Edit
-inapp_portal.add_addons.non_rec.title,,ONE-TIME CHARGES,ONE-TIME CHARGES
-inapp_portal.item.breakdown.show,,See Details,See Details
-inapp_portal.item.breakdown.hide,,Hide Details,Hide Details
-inapp_portal.subscription.view_breakup,,View breakdown,View breakdown
-inapp_portal.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-inapp_portal.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-inapp_portal.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-inapp_portal.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-inapp_portal.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-inapp_portal.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-inapp_portal.payment_method.bank_account.stripe_ach_verify_note,,You have a maximum of 10 attempts to verify your payment method.,You have a maximum of 10 attempts to verify your payment method.
-inapp_portal.home.gift_bar,,Gifted %{number} subscriptions,Gifted %{number} subscriptions
-inapp_portal.home.gift_header,,GIFT SUBSCRIPTIONS,GIFT SUBSCRIPTIONS
-inapp_portal.gift_tag.scheduled,,Gift to %{name} scheduled,Gift to %{name} scheduled
-inapp_portal.gift_tag.unclaimed,,Gift yet to be claimed by %{name},Gift yet to be claimed by %{name}
-inapp_portal.gift_tag.claimed,,Gifted to %{name},Gifted to %{name}
-inapp_portal.gift_tag.canceled,,Gift to %{name} has been canceled,Gift to %{name} has been canceled
-inapp_portal.gift_tag.expired,,Gifted to %{name} has been expired,Gifted to %{name} has been expired
-inapp_portal.gift_details_notification.scheduled,,Your gift will be sent to the recipient via email on %{date},Your gift will be sent to the recipient via email on %{date}
-inapp_portal.gift_details_notification.unclaimed,,Your gift is yet to be claimed by the recipient.,Your gift is yet to be claimed by the recipient.
-inapp_portal.gift_details_notification.canceled,,Your gift has been canceled,Your gift has been canceled
+inapp_portal.home.gift_sub.gifted_by,Přijato od %{name},Recieved from %{name},Recieved from %{name}
+inapp_portal.sub_details.gift.gifted_by,Darováno uživatelem %{name},Gifted by %{name},Gifted by %{name}
+inapp_portal.subscription.cancel.header,Zrušit předplatné,Cancel Subscription,Cancel Subscription
+inapp_portal.subscription.cancel.header.submit,Potvrďte zrušení,Confirm Cancellation,Confirm Cancellation
+inapp_portal.subscription.cancel.when,Kdy chcete zrušit předplatné?,When do you want to cancel the subscription?,When do you want to cancel the subscription?
+inapp_portal.subscription.cancel.eot.option,Zrušit při příštím obnovení ( %{date}),Cancel on next renewal  (%{date}),Cancel on next renewal  (%{date})
+inapp_portal.subscription.cancel.immediately.option,Zrušit okamžitě,Cancel Immediately,Cancel Immediately
+inapp_portal.subscription.cancel.immediately.info,Vaše předplatné bude okamžitě zrušeno,Your subscription will be canceled immediately,Your subscription will be canceled immediately
+inapp_portal.subscription.cancel.eot.info,Vaše předplatné bude zrušeno dne %{date},Your subscription will be canceled on %{date},Your subscription will be canceled on %{date}
+inapp_portal.subscription.cancel.reason,Důvod zrušení,Reason for cancellation,Reason for cancellation
+inapp_portal.subscription.cancel.feedback,"Máte ještě něco, co byste nám chtěli sdělit?",Is there anything else you would like to let us know?,Is there anything else you would like to let us know?
+inapp_portal.subscription.cancel.reason.option,Vyberte důvod zrušení,Select a cancellation reason,Select a cancellation reason
+inapp_portal.subscription.canceled.reason_code.info,Vaše předplatné bylo zrušeno z důvodu ' %{reason}',Your subscription was canceled with the reason '%{reason}',Your subscription was canceled with the reason '%{reason}'
+inapp_portal.subscription.sch_cancel.reason_code.info,Vaše předplatné bude zrušeno z důvodu ' %{reason}',Your subscription will be canceled with the reason '%{reason}',Your subscription will be canceled with the reason '%{reason}'
+inapp_portal.scheduled_changes.header,Zobrazit naplánované změny,View scheduled changes,View scheduled changes
+inapp_portal.scheduled_changes_navigation.header,Změny od příštího obnovení,Changes from next renewal,Changes from next renewal
+inapp_portal.subscription_preview_navigation.header,Podrobnosti o předplatném,Subscription Details,Subscription Details
+inapp_portal.consent.header,Oprávnění,Permissions,Permissions
+inapp_portal.consent_section.name,Oprávnění,Permissions,Permissions
+inapp_portal.consent.revoke_alert,Jsi si jistá?,Are you sure?,Are you sure?
+inapp_portal.consent.submit,Aktualizace,Update,Update
+inapp_portal.remove_scheduled_pause.confirm_txt,Plánovaná pauza pro vaše předplatné bude odstraněna. Pokračovat?,The scheduled pause for your subscription will be removed. Continue?,The scheduled pause for your subscription will be removed. Continue?
+inapp_portal.resume_subscription_now.confirm_txt,Vaše předplatné bude obnoveno okamžitě. Pokračovat?,Your subscription will resume immediately. Continue?,Your subscription will resume immediately. Continue?
+inapp_portal.resume_now.link,Pokračovat nyní,Resume now,Resume now
+inapp_portal.remove_scheduled_pause.link,Odebrat plánovanou pauzu,Remove Scheduled Pause,Remove Scheduled Pause
+inapp_portal.subscription.details.pause_scheduled.info,Vaše předplatné bude pozastaveno %{date},Your subscription will be paused on %{date},Your subscription will be paused on %{date}
+inapp_portal.subscription.details.resume_scheduled.info,Vaše předplatné bude obnoveno %{date},Your subscription will resume on %{date},Your subscription will resume on %{date}
+inapp_portal.subscription.pause.link.txt,Pozastavit předplatné,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.header,Pozastavit předplatné,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.submit,Pozastavit předplatné,Pause Subscription,Pause Subscription
+inapp_portal.subscription.pause.immediate_indefinite.info,Vaše předplatné bude okamžitě pozastaveno. Předplatné můžete kdykoli obnovit na stránce Podrobnosti předplatného,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page,Your subscription will be paused immediately. You can resume your subscription anytime from the Subscription Details Page
+inapp_portal.subscription.pause.immediate_fixed_time.info,Vaše předplatné bude okamžitě pozastaveno a bude obnoveno po %{pause_period_set} dnech.,"Your subscription will be paused immediately, and will resume after %{pause_period_set} days.","Your subscription will be paused immediately, and will resume after %{pause_period_set} days."
+inapp_portal.subscription.pause.immediate_options.info,Vaše předplatné bude okamžitě pozastaveno.,Your subscription will be paused immediately.,Your subscription will be paused immediately.
+inapp_portal.subscription.pause.immediate_indefinite.gen,Při pozastavení nebude vaše předplatné účtováno a nebude se obnovovat.,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.immediate_fixed_time.gen,Při pozastavení nebude vaše předplatné účtováno a nebude se obnovovat.,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.immediate_options.gen,Při pozastavení nebude vaše předplatné účtováno a nebude se obnovovat.,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_indefinite.info,Vaše předplatné bude pozastaveno %{date}.,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
+inapp_portal.subscription.pause.eot_fixed_time.info,Vaše předplatné bude pozastaveno %{date} a bude obnoveno po %{pause_period_set} dnech.,"Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days.","Your subscription will be paused on %{date} , and will resume after %{pause_period_set} days."
+inapp_portal.subscription.pause.eot_options.info,Vaše předplatné bude pozastaveno %{date}.,Your subscription will be paused on %{date}.,Your subscription will be paused on %{date}.
+inapp_portal.subscription.pause.eot_indefinite.gen,Při pozastavení nebude vaše předplatné účtováno a nebude se obnovovat.,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_fixed_time.gen,Při pozastavení nebude vaše předplatné účtováno a nebude se obnovovat.,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.eot_options.gen,Při pozastavení nebude vaše předplatné účtováno a nebude se obnovovat.,"On pausing, your subscription will not be billed, and will not renew.","On pausing, your subscription will not be billed, and will not renew."
+inapp_portal.subscription.pause.chooser_question,Jak dlouho chcete pozastavit předplatné?,How long do you want to pause the subscription?,How long do you want to pause the subscription?
+inapp_portal.subscription.pause.custom_date,Vlastní datum,Custom date,Custom date
+inapp_portal.subscription.pause.choose_specific_date,(Vyberte konkrétní datum),(Choose a specific date),(Choose a specific date)
+inapp_portal.subscription.pause.pause_until,Pauza do,Pause until,Pause until
+inapp_portal.payment_method_tag.primary,Hlavní,Primary,Primary
+inapp_portal.payment_method_tag.backup,Záloha,Backup,Backup
+inapp_portal.payment_method.suggest_backup,"Zálohy se hodí, když selže primární platba. Nastavit zálohu.",Backups come handy when your primary payment fails. Set a backup.,Backups come handy when your primary payment fails. Set a backup.
+inapp_portal.card.expiring,Platnost vyprší %{card_expiry},Expires on %{card_expiry},Expires on %{card_expiry}
+inapp_portal.card.expired,Platnost vypršela %{card_expiry},Expired on %{card_expiry},Expired on %{card_expiry}
+inapp_portal.pm.set_role.link,Nastavit jako primární nebo záložní,Set this as primary or backup,Set this as primary or backup
+inapp_portal.pm.set_role.title,Nastavit tuto platební metodu jako,Set this payment method as,Set this payment method as
+inapp_portal.pm.set_role.header,Nastavení platební metody,Payment Method Settings,Payment Method Settings
+inapp_portal.pm.set_role.update_btn,Aktualizace,Update,Update
+inapp_portal.pm.set_role.skip_btn,Přeskočit,Skip,Skip
+inapp_portal.pm.remove_backup.link,Odebrat jako zálohu,Remove as backup,Remove as backup
+inapp_portal.pm.remove_backup.message,"Odebrat zálohu? Zálohy se hodí, když selže primární platební metoda.",Remove backup? Backups come handy when your primary payment method fails.,Remove backup? Backups come handy when your primary payment method fails.
+inapp_portal.pm.remove_backup.confirm,Odstranit,Remove,Remove
+inapp_portal.pm.set_primary.message,Nastavit jako primární? Tím nahradíte aktuální primární platební metodu,Set this as primary? This will replace your current primary payment method,Set this as primary? This will replace your current primary payment method
+inapp_portal.pm.set_primary.confirm,Potvrdit,Confirm,Confirm
+inapp_portal.pm.set_primary.link,Nastavit jako hlavní,Set as primary,Set as primary
+inapp_portal.pm.primary.desc.txt,Toto je vaše primární platební metoda,This is your primary payment method,This is your primary payment method
+inapp_portal.pm.backup.desc.txt,Toto je vaše záložní platební metoda,This is your backup payment method,This is your backup payment method
+inapp_portal.pm.primary.warning.txt,Tím se nahradí vaše aktuální primární platební metoda,This will replace your current primary payment method,This will replace your current primary payment method
+inapp_portal.pm.backup.warning.txt,Tím nahradíte aktuální záložní platební metodu,This will replace your current backup payment method,This will replace your current backup payment method
+inapp_portal.pm.primary.info.txt,Tato částka bude účtována za všechny vaše automatické platby.,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
+inapp_portal.pm.backup.info.txt,"Toto bude záloha, když selže primární platební metoda.",This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
+inapp_portal.pm.primary.desc.detail,Tato částka bude účtována za všechny vaše automatické platby.,This will be charged for all your automatic payments.,This will be charged for all your automatic payments.
+inapp_portal.pm.backup.desc.detail,"Toto bude záloha, když selže primární platební metoda.",This will be the backup when your primary payment method fails.,This will be the backup when your primary payment method fails.
+inapp_portal.subscription.details.pm_warning,"Tuto platební metodu neustále aktualizujte, protože pro toto předplatné nebude použita záložní platební metoda.","Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription.","Make sure to keep this payment method updated, as your backup payment method will not be used for this subscription."
+inapp_portal.error.future_date.required,Ke zpracování žádosti uveďte budoucí datum ve správném formátu.,Please provide a future date in correct format to process the request.,Please provide a future date in correct format to process the request.
+inapp_portal.addon_item_price_selection.header,Změňte frekvenci doplňků,Change addon frequency,Change addon frequency
+inapp_portal.addon_item_price_selection.title,Vyberte frekvenci fakturace,Select billing frequency,Select billing frequency
+inapp_portal.addon_item_price_selection.update.btn,Aktualizace,Update,Update
+inapp_portal.item_selection.header,Změnit plán,Change plan,Change plan
+inapp_portal.item_selection.title,Vyberte frekvenci fakturace,Select billing frequency,Select billing frequency
+inapp_portal.item_selection.update.btn,Aktualizace,Update,Update
+inapp_portal.subscription.reactivate.link.txt,Znovu aktivujte předplatné,Reactivate Subscription,Reactivate Subscription
+inapp_portal.reactivate_confirm.txt,Opravdu chcete toto předplatné znovu aktivovat?,Are you sure you want to reactivate this subscription?,Are you sure you want to reactivate this subscription?
+inapp_portal.remove_cancellation.confirm_txt,Opravdu chcete odstranit plánované zrušení?,Are you sure you want to remove the scheduled cancellation?,Are you sure you want to remove the scheduled cancellation?
+inapp_portal.remove_scheduled_changes_confirm.txt,Opravdu chcete odebrat naplánované změny?,Are you sure you want to remove the scheduled changes?,Are you sure you want to remove the scheduled changes?
+inapp_portal.modal_button.confirm,Potvrdit,Confirm,Confirm
+inapp_portal.modal_button.cancel,zrušení,Cancel,Cancel
+inapp_portal.subscriptions.load_more,Načíst další,Load more,Load more
+inapp_portal.subscriptions.more,Zobrazit všechna vaše předplatná,See all your subscriptions,See all your subscriptions
+inapp_portal.portal_home.close,Výstup,Exit,Exit
+inapp_portal.change_item.txt,Změna,Change,Change
+inapp_portal.add_addons.txt,Přidat doplňky,Add Addons,Add Addons
+inapp_portal.add_addons.btn,Přidat,Add,Add
+inapp_portal.edit_addon_item.btn,Upravit,Edit,Edit
+inapp_portal.add_addons.non_rec.title,JEDNORÁZOVÉ POPLATKY,ONE-TIME CHARGES,ONE-TIME CHARGES
+inapp_portal.item.breakdown.show,Zobrazit podrobnosti,See Details,See Details
+inapp_portal.item.breakdown.hide,Skrýt detaily,Hide Details,Hide Details
+inapp_portal.subscription.view_breakup,Zobrazit rozdělení,View breakdown,View breakdown
+inapp_portal.payment_method.bacs.guarantee.header,Zpět k platbě,Back to Payment,Back to Payment
+inapp_portal.payment_method.bank_account.btn.proceed_to_review,Pokračujte kontrolou,Proceed to Review,Proceed to Review
+inapp_portal.payment_method.bank_account.btn.enter_iban,Zadejte IBAN,Enter IBAN,Enter IBAN
+inapp_portal.payment_method.bank_account.btn.enter_local_details,Zadejte místní bankovní údaje,Enter local bank details,Enter local bank details
+inapp_portal.payment_method.bank_account.btn.enter_your_name,Zadejte své jméno,Enter your name,Enter your name
+inapp_portal.payment_method.bank_account.btn.enter_company_name,Zadejte název společnosti,Enter company name,Enter company name
+inapp_portal.payment_method.bank_account.stripe_ach_verify_note,Máte maximálně 10 pokusů o ověření platební metody.,You have a maximum of 10 attempts to verify your payment method.,You have a maximum of 10 attempts to verify your payment method.
+inapp_portal.home.gift_bar,Nadané %{number} odběry,Gifted %{number} subscriptions,Gifted %{number} subscriptions
+inapp_portal.home.gift_header,DÁRKOVÉ PŘEDPLATNÉ,GIFT SUBSCRIPTIONS,GIFT SUBSCRIPTIONS
+inapp_portal.gift_tag.scheduled,Naplánován dárek pro %{name},Gift to %{name} scheduled,Gift to %{name} scheduled
+inapp_portal.gift_tag.unclaimed,"Dárek, který si zatím %{name} nevyzvedne",Gift yet to be claimed by %{name},Gift yet to be claimed by %{name}
+inapp_portal.gift_tag.claimed,Nadáno na %{name},Gifted to %{name},Gifted to %{name}
+inapp_portal.gift_tag.canceled,Dárek pro %{name} byl zrušen,Gift to %{name} has been canceled,Gift to %{name} has been canceled
+inapp_portal.gift_tag.expired,Nadání pro %{name} vypršelo,Gifted to %{name} has been expired,Gifted to %{name} has been expired
+inapp_portal.gift_details_notification.scheduled,Váš dárek bude odeslán příjemci e-mailem dne %{date},Your gift will be sent to the recipient via email on %{date},Your gift will be sent to the recipient via email on %{date}
+inapp_portal.gift_details_notification.unclaimed,Příjemce váš dar ještě nezískal.,Your gift is yet to be claimed by the recipient.,Your gift is yet to be claimed by the recipient.
+inapp_portal.gift_details_notification.canceled,Váš dárek byl zrušen,Your gift has been canceled,Your gift has been canceled
 inapp_portal.gift_details_notification.claimed,,,
-inapp_portal.gift_details_notification.expired,,Your gift was not claimed by the recipient,Your gift was not claimed by the recipient
-inapp_portal.gift.cancel_by_gifter,,Cancel the gift,Cancel the gift
-inapp_portal.gift.cancel_by_gifter.warning,,Are you sure you want to cancel this gift?,Are you sure you want to cancel this gift?
-inapp_portal.hierarchy.my_subscription.my_payment,,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
-inapp_portal.hierarchy.my_subscription.my_invoice,,This subscription is paid by %{customer_display_info} and invoiced to you.,This subscription is paid by %{customer_display_info} and invoiced to you.
-inapp_portal.hierarchy.my_subscription.parent_payment,,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
-inapp_portal.hierarchy.my_subscription.paid_parent,,Paid by %{customer_display_info},Paid by %{customer_display_info}
-inapp_portal.home.my_subscription.parent_pays,,Paid by %{customer_display_info},Paid by %{customer_display_info}
-inapp_portal.home.child_sub_bar.multiple,,%{number} Child subscriptions,%{number} Child subscriptions
-inapp_portal.home.child_sub_bar.single,,%{number} Child subscription,%{number} Child subscription
-inapp_portal.home.child_sub_header,,Child subscriptions,Child subscriptions
-inapp_portal.child_subs.navigation_header,,Child subscriptions,Child subscriptions
-inapp_portal.see_parent_invoices,,See invoices paid by %{customer_display_info} for your subscritpions.,See invoices paid by %{customer_display_info} for your subscritpions.
-inapp_portal.invoice.paid_for_child,,This invoice belongs to %{customer_display_info} and is paid by you.,This invoice belongs to %{customer_display_info} and is paid by you.
-inapp_portal.invoice.parent_only,,You are seeing this invoice as you are the parent of this customer.,You are seeing this invoice as you are the parent of this customer.
-inapp_portal.child_sub_detail.invoice.to_parent,,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
-inapp_portal.child_sub_detail.invoice.to_child,,This subscription is paid by you and invoiced to %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.
-inapp_portal.child_sub_detail.payment_and_invoice.to_child,,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
-inapp_portal.invoices.paid_py_parent,,%{customer_display_info} pays for this invoice.,%{customer_display_info} pays for this invoice.
-inapp_portal.invoice,,Invoice # %{id},Invoice # %{id}
-inapp_portal.payment_owner_billing_history.header,,Invoices of parent,Invoices of parent
-inapp_portal.child_subscription.header,,Child subscription details,Child subscription details
-inapp_portal.invoice.payment.status.not_paid,,Not Paid,Not Paid
-inapp_portal.invoice.payment.status.paid,,Paid,Paid
-inapp_portal.invoice.payment.status.payment_due,,Payment Due,Payment Due
-inapp_portal.invoice.payment.status.pending,,Pending,Pending
-inapp_portal.invoice.payment.status.posted,,Posted,Posted
-inapp_portal.invoice.payment.status.to_collect,,Collecting,Collecting
-inapp_portal.invoice.payment.status.upcoming,,Upcoming,Upcoming
-inapp_portal.invoice.payment.status.voided,,Voided,Voided
-inapp_portal.subscription.extend.header,,Extend your subscription,Extend your subscription
-inapp_portal.subscription.extend.submit,,Extend for another %{extension_period},Extend for another %{extension_period}
-inapp_portal.subscription.extend.expiry.warning,,Your current plan will expire on %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date}
-inapp_portal.subscription.extend.info,,Charges for extending your plan will be applicable on %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date}
-inapp_portal.subscription.extend.thankyou.header,,Thank you for extending the subscription,Thank you for extending the subscription
-inapp_portal.subscription.extend.thankyou.body,,Your subscription has been extended for another %{extension_period},Your subscription has been extended for another %{extension_period}
-inapp_portal.subscription.extend.thankyou.close,,CLOSE,CLOSE
-inapp_portal.review.pm.header,,Payment,Payment
-inapp_portal.review.pm.not_available,,No payment method available,No payment method available
+inapp_portal.gift_details_notification.expired,Příjemce váš dar nepožadoval,Your gift was not claimed by the recipient,Your gift was not claimed by the recipient
+inapp_portal.gift.cancel_by_gifter,Zrušte dárek,Cancel the gift,Cancel the gift
+inapp_portal.gift.cancel_by_gifter.warning,Opravdu chcete tento dárek zrušit?,Are you sure you want to cancel this gift?,Are you sure you want to cancel this gift?
+inapp_portal.hierarchy.my_subscription.my_payment,Toto předplatné hradíte vy a fakturujete vám.,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
+inapp_portal.hierarchy.my_subscription.my_invoice,Toto předplatné platí %{customer_display_info} a je vám fakturováno.,This subscription is paid by %{customer_display_info} and invoiced to you.,This subscription is paid by %{customer_display_info} and invoiced to you.
+inapp_portal.hierarchy.my_subscription.parent_payment,Toto předplatné platí a fakturuje %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
+inapp_portal.hierarchy.my_subscription.paid_parent,Zaplaceno %{customer_display_info},Paid by %{customer_display_info},Paid by %{customer_display_info}
+inapp_portal.home.my_subscription.parent_pays,Zaplaceno %{customer_display_info},Paid by %{customer_display_info},Paid by %{customer_display_info}
+inapp_portal.home.child_sub_bar.multiple, %{number} předplatného dítěte,%{number} Child subscriptions,%{number} Child subscriptions
+inapp_portal.home.child_sub_bar.single, %{number} předplatné dítěte,%{number} Child subscription,%{number} Child subscription
+inapp_portal.home.child_sub_header,Předplatné dítěte,Child subscriptions,Child subscriptions
+inapp_portal.child_subs.navigation_header,Předplatné dítěte,Child subscriptions,Child subscriptions
+inapp_portal.see_parent_invoices,Podívejte se na jednu nebo více faktur zaplacených %{customer_display_info} za vaše předplatné.,See invoices paid by %{customer_display_info} for your subscritpions.,See invoices paid by %{customer_display_info} for your subscritpions.
+inapp_portal.invoice.paid_for_child,Tato faktura patří %{customer_display_info} a je uhrazena vámi.,This invoice belongs to %{customer_display_info} and is paid by you.,This invoice belongs to %{customer_display_info} and is paid by you.
+inapp_portal.invoice.parent_only,"Tuto fakturu vidíte, protože jste rodičem tohoto zákazníka.",You are seeing this invoice as you are the parent of this customer.,You are seeing this invoice as you are the parent of this customer.
+inapp_portal.child_sub_detail.invoice.to_parent,Toto předplatné hradíte vy a fakturujete vám.,This subscription is paid by you and invoiced to you.,This subscription is paid by you and invoiced to you.
+inapp_portal.child_sub_detail.invoice.to_child,Toto předplatné platíte vy a fakturuje se na %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.,This subscription is paid by you and invoiced to %{customer_display_info}.
+inapp_portal.child_sub_detail.payment_and_invoice.to_child,Toto předplatné platí a fakturuje %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.,This subscription is paid by and invoiced to %{customer_display_info}.
+inapp_portal.invoices.paid_py_parent, %{customer_display_info} platí za tuto fakturu.,%{customer_display_info} pays for this invoice.,%{customer_display_info} pays for this invoice.
+inapp_portal.invoice,Číslo faktury %{id},Invoice # %{id},Invoice # %{id}
+inapp_portal.payment_owner_billing_history.header,Faktury mateřské společnosti,Invoices of parent,Invoices of parent
+inapp_portal.child_subscription.header,Podrobnosti o předplatném dítěte,Child subscription details,Child subscription details
+inapp_portal.invoice.payment.status.not_paid,Není zaplaceno,Not Paid,Not Paid
+inapp_portal.invoice.payment.status.paid,Zaplaceno,Paid,Paid
+inapp_portal.invoice.payment.status.payment_due,Splatná,Payment Due,Payment Due
+inapp_portal.invoice.payment.status.pending,čekající,Pending,Pending
+inapp_portal.invoice.payment.status.posted,Vyslán,Posted,Posted
+inapp_portal.invoice.payment.status.to_collect,Sbírání,Collecting,Collecting
+inapp_portal.invoice.payment.status.upcoming,Připravujeme,Upcoming,Upcoming
+inapp_portal.invoice.payment.status.voided,Zrušeno,Voided,Voided
+inapp_portal.subscription.extend.header,Prodlužte si předplatné,Extend your subscription,Extend your subscription
+inapp_portal.subscription.extend.submit,Prodloužení o další %{extension_period},Extend for another %{extension_period},Extend for another %{extension_period}
+inapp_portal.subscription.extend.expiry.warning,Platnost vašeho aktuálního plánu vyprší dne %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date},Your current plan will expire on %{sub_cancel_date}
+inapp_portal.subscription.extend.info,Poplatky za prodloužení vašeho tarifu budou účtovány %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date},Charges for extending your plan will be applicable on %{sub_cancel_date}
+inapp_portal.subscription.extend.thankyou.header,Děkujeme vám za prodloužení předplatného,Thank you for extending the subscription,Thank you for extending the subscription
+inapp_portal.subscription.extend.thankyou.body,Vaše předplatné bylo prodlouženo o další %{extension_period},Your subscription has been extended for another %{extension_period},Your subscription has been extended for another %{extension_period}
+inapp_portal.subscription.extend.thankyou.close,ZAVŘÍT,CLOSE,CLOSE
+inapp_portal.review.pm.header,Způsob platby,Payment,Payment
+inapp_portal.review.pm.not_available,Není k dispozici žádná platební metoda,No payment method available,No payment method available
 inapp_portal.home.note,,,
 inapp_portal.account.note,,,
 inapp_portal.edit_account.note,,,
@@ -374,140 +374,140 @@ inapp_portal.subscription.note.future,,,
 inapp_portal.subscription.note.non_renewing,,,
 inapp_portal.subscription.note.cancelled,,,
 inapp_portal.subscription.note.cancellation_scheduled,,,
-inapp_portal.estimate_display_screen.header,,Your order summary,Your order summary
-inapp_portal.manage_pm.redirect.label,,Go to app,Go to app
-inapp_portal.threeds.warning,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_portal.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_portal.home.promotions.link_text,,Refer & Earn,Refer & Earn
-inapp_portal.promotions.header,,Promotions,Promotions
+inapp_portal.estimate_display_screen.header,Shrnutí objednávky,Your order summary,Your order summary
+inapp_portal.manage_pm.redirect.label,Přejít na aplikaci,Go to app,Go to app
+inapp_portal.threeds.warning,Můžete být přesměrováni na vaši bankovní stránku pro 3D zabezpečené ověření.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_portal.3ds.auth.txt,"Povoluji organizaci %{organisation_name} uložit tuto platební metodu a automaticky účtovat tuto platební metodu, kdykoli je k ní přidruženo předplatné.",I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_portal.home.promotions.link_text,Doporučit a vydělat,Refer & Earn,Refer & Earn
+inapp_portal.promotions.header,Propagace,Promotions,Promotions
 inapp_portal.subscription.note.pause_subscription,,,
-inapp_portal.setup_password.section.name,,Set up Password,Set up Password
-inapp_portal.setup_password.header,,Set up your Password,Set up your Password
-inapp_portal.change_password.section.name,,Change Password,Change Password
-inapp_portal.change_password_verify.header,,Change your Password,Change your Password
-inapp_portal.verify_otp.header,,Enter OTP,Enter OTP
-inapp_portal.change_password_verify.next,,Proceed,Proceed
-inapp_portal.change_password_verify.current_password.label,,Enter your current password,Enter your current password
-inapp_portal.change_password.header,,Enter new password,Enter new password
-inapp_portal.new_password.label,,Enter new password,Enter new password
-inapp_portal.new_password.update_btn,,Update,Update
-inapp_portal.password.validation.desc,,Your password must have,Your password must have
-inapp_portal.password.validation.min_char,,At least 8 characters,At least 8 characters
-inapp_portal.password.validation.number,,At least one number,At least one number
-inapp_portal.password.validation.special,,"At least one special character @$!%*#?&() ","At least one special character @$!%*#?&() "
+inapp_portal.setup_password.section.name,Nastavit heslo,Set up Password,Set up Password
+inapp_portal.setup_password.header,Nastavte své heslo,Set up your Password,Set up your Password
+inapp_portal.change_password.section.name,Změnit heslo,Change Password,Change Password
+inapp_portal.change_password_verify.header,Změňte si své heslo,Change your Password,Change your Password
+inapp_portal.verify_otp.header,Zadejte OTP,Enter OTP,Enter OTP
+inapp_portal.change_password_verify.next,Pokračovat,Proceed,Proceed
+inapp_portal.change_password_verify.current_password.label,Zadejte své současné heslo,Enter your current password,Enter your current password
+inapp_portal.change_password.header,Zadejte nové heslo,Enter new password,Enter new password
+inapp_portal.new_password.label,Zadejte nové heslo,Enter new password,Enter new password
+inapp_portal.new_password.update_btn,Aktualizace,Update,Update
+inapp_portal.password.validation.desc,Vaše heslo musí mít,Your password must have,Your password must have
+inapp_portal.password.validation.min_char,Minimálně 8 znaků,At least 8 characters,At least 8 characters
+inapp_portal.password.validation.number,Alespoň jedno číslo,At least one number,At least one number
+inapp_portal.password.validation.special,Alespoň jeden speciální znak @ $!% * Number? & (),At least one special character @$!%*#?&() ,At least one special character @$!%*#?&() 
 inapp_portal.subscription.summary.additionalInfo,,,
 inapp_portal.child_subscription.summary.additionalInfo,,,
-inapp_portal.contract_term.summary.title,,Subscription Terms,Subscription Terms
-inapp_portal.contract_term.summary.total_contract_value,,Total contract value,Total contract value
-inapp_portal.contract_term.summary.billing_cycle,,Billing cycles,Billing cycles
-inapp_portal.contract_term.summary.end_action_renew,,Contract renews,Contract renews
-inapp_portal.contract_term.summary.end_action_evergreen,,Contract ends,Contract ends
-inapp_portal.contract_term.summary.end_action_evergreen_sub_active,,subscription will remain active,subscription will remain active
-inapp_portal.contract_term.summary.end_action_cancel,,Contract ends,Contract ends
-inapp_portal.contract_term.summary.end_action_renew_once,,"Contract renews for one more term on ","Contract renews for one more term on "
-inapp_portal.contract_term.details.header.title,,Contract Summary,Contract Summary
-inapp_portal.contract_term.details.tcv.title,,Total contract value,Total contract value
-inapp_portal.contract_term.details.term.title,,Contract term,Contract term
-inapp_portal.contract_term.details.term.to,,to,to
-inapp_portal.contract_term.details.bill_cyc.title,,Billing cycles,Billing cycles
-inapp_portal.contract_term.details.bill_cyc.total,,Total,Total
-inapp_portal.contract_term.details.bill_cyc.billed,,Billed,Billed
-inapp_portal.contract_term.details.term_end.title,,On contract term end,On contract term end
-inapp_portal.contract_term.details.term_end.renew,,Contract will renew for %{number} billing cycles,Contract will renew for %{number} billing cycles
-inapp_portal.contract_term.details.term_end.evergreen,,Contract ends (subscription will remain active),Contract ends (subscription will remain active)
-inapp_portal.contract_term.details.term_end.cancel,,Contract and subscription end.,Contract and subscription end.
-inapp_portal.contract_term.details.term_end.renew_once,,Contract will renew for one more term.,Contract will renew for one more term.
-inapp_portal.contract_term.details.grace_period.title,,Cancel before,Cancel before
-inapp_portal.contract_term.details.grace_period.note,,If you do not want your contract to renew.,If you do not want your contract to renew.
-inapp_portal.contract_term.details.end_action.cancel.notification,,Your subscription will be canceled at the end of contract term on %{date},Your subscription will be canceled at the end of contract term on %{date}
-inapp_portal.contract_term.details.end_action.renew_next_bill_cyc.notification,,Your contract will renew for one more term. Charges will apply until the end of the next contract term.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.
-inapp_portal.contract_term.order_summary.tcv,,Total contract value,Total contract value
-inapp_portal.contract_term.subscription.note,,This subscription is on contract,This subscription is on contract
-inapp_portal.contract_term.cancel.end_action.cancel.title,,Your subscription will be canceled at the end of the contract term on %{date},Your subscription will be canceled at the end of the contract term on %{date}
-inapp_portal.contract_term.cancel.end_action.cancel.notification,,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.
-inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.title,,Your subscription will renew for one more contract term after %{date},Your subscription will renew for one more contract term after %{date}
-inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.notification,,Your subscription passed the cut-off date for cancellation and will renew for one more term.,Your subscription passed the cut-off date for cancellation and will renew for one more term.
-inapp_portal.contract_term.reactivate.confirmation_text,,Your subscription will reactivate without contract terms,Your subscription will reactivate without contract terms
-inapp_portal.multi_decimal.quantity.error,,Enter valid quantity,Enter valid quantity
-inapp_portal.qty,,Qty,Qty
-paynow.button.txt,,Pay now: %{amount},Pay now: %{amount}
-paynow.header.txt,,You have %{total} unpaid invoice(s). Your total due is %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount}
-paynow.no_invoices.txt,,You have no unpaid invoices,You have no unpaid invoices
-paynow.header.choosepm.txt,,Choose Payment Method,Choose Payment Method
-paynow.modal.newpm.use,,Use a different payment method,Use a different payment method
-paynow.header.addpm.txt,,Add Payment Method,Add Payment Method
-paynow.thankyou.header,,Your payment was successful!,Your payment was successful!
+inapp_portal.contract_term.summary.title,Podmínky předplatného,Subscription Terms,Subscription Terms
+inapp_portal.contract_term.summary.total_contract_value,Celková hodnota zakázky,Total contract value,Total contract value
+inapp_portal.contract_term.summary.billing_cycle,Fakturační cykly,Billing cycles,Billing cycles
+inapp_portal.contract_term.summary.end_action_renew,Smlouva se obnovuje,Contract renews,Contract renews
+inapp_portal.contract_term.summary.end_action_evergreen,Smlouva končí,Contract ends,Contract ends
+inapp_portal.contract_term.summary.end_action_evergreen_sub_active,předplatné zůstane aktivní,subscription will remain active,subscription will remain active
+inapp_portal.contract_term.summary.end_action_cancel,Smlouva končí,Contract ends,Contract ends
+inapp_portal.contract_term.summary.end_action_renew_once,Smlouva se obnovuje na další období,Contract renews for one more term on ,Contract renews for one more term on 
+inapp_portal.contract_term.details.header.title,Shrnutí smlouvy,Contract Summary,Contract Summary
+inapp_portal.contract_term.details.tcv.title,Celková hodnota zakázky,Total contract value,Total contract value
+inapp_portal.contract_term.details.term.title,Smlouva,Contract term,Contract term
+inapp_portal.contract_term.details.term.to,na,to,to
+inapp_portal.contract_term.details.bill_cyc.title,Fakturační cykly,Billing cycles,Billing cycles
+inapp_portal.contract_term.details.bill_cyc.total,Celkový,Total,Total
+inapp_portal.contract_term.details.bill_cyc.billed,Účtováno,Billed,Billed
+inapp_portal.contract_term.details.term_end.title,Na konci smluvního období,On contract term end,On contract term end
+inapp_portal.contract_term.details.term_end.renew,Smlouva bude obnovena na %{number} fakturačních cyklů,Contract will renew for %{number} billing cycles,Contract will renew for %{number} billing cycles
+inapp_portal.contract_term.details.term_end.evergreen,Smlouva končí (předplatné zůstane aktivní),Contract ends (subscription will remain active),Contract ends (subscription will remain active)
+inapp_portal.contract_term.details.term_end.cancel,Konec smlouvy a předplatného.,Contract and subscription end.,Contract and subscription end.
+inapp_portal.contract_term.details.term_end.renew_once,Smlouva bude obnovena na další období.,Contract will renew for one more term.,Contract will renew for one more term.
+inapp_portal.contract_term.details.grace_period.title,Zrušit dříve,Cancel before,Cancel before
+inapp_portal.contract_term.details.grace_period.note,"Pokud si nepřejete, aby byla vaše smlouva obnovena.",If you do not want your contract to renew.,If you do not want your contract to renew.
+inapp_portal.contract_term.details.end_action.cancel.notification,Vaše předplatné bude zrušeno na konci smluvního období %{date},Your subscription will be canceled at the end of contract term on %{date},Your subscription will be canceled at the end of contract term on %{date}
+inapp_portal.contract_term.details.end_action.renew_next_bill_cyc.notification,Vaše smlouva bude obnovena na další období. Poplatky budou účtovány do konce příštího smluvního období.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.,Your contract will renew for one more term. Charges will apply until the end of the next contract term.
+inapp_portal.contract_term.order_summary.tcv,Celková hodnota zakázky,Total contract value,Total contract value
+inapp_portal.contract_term.subscription.note,Toto předplatné je na základě smlouvy,This subscription is on contract,This subscription is on contract
+inapp_portal.contract_term.cancel.end_action.cancel.title,Vaše předplatné bude zrušeno na konci smluvního období %{date},Your subscription will be canceled at the end of the contract term on %{date},Your subscription will be canceled at the end of the contract term on %{date}
+inapp_portal.contract_term.cancel.end_action.cancel.notification,"Vaše předplatné zůstane aktivní a budou účtovány poplatky, dokud smlouva neskončí. Máte dotazy? Kontaktujte nás.",Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.,Your subscription will remain active and charges will apply until the contract ends. Have questions? Contact us.
+inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.title,Vaše předplatné se obnoví o další smluvní období po %{date},Your subscription will renew for one more contract term after %{date},Your subscription will renew for one more contract term after %{date}
+inapp_portal.contract_term.cancel.end_action.renew_next_bill_cyc.notification,Vaše předplatné uplynulo v mezním datu zrušení a bude obnoveno o další období.,Your subscription passed the cut-off date for cancellation and will renew for one more term.,Your subscription passed the cut-off date for cancellation and will renew for one more term.
+inapp_portal.contract_term.reactivate.confirmation_text,Vaše předplatné se znovu aktivuje bez smluvních podmínek,Your subscription will reactivate without contract terms,Your subscription will reactivate without contract terms
+inapp_portal.multi_decimal.quantity.error,Zadejte platné množství,Enter valid quantity,Enter valid quantity
+inapp_portal.qty,Množství,Qty,Qty
+paynow.button.txt,Zaplaťte nyní: %{amount},Pay now: %{amount},Pay now: %{amount}
+paynow.header.txt,Máte %{total} nezaplacených faktur. Celková vaše splatná částka je %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount},You have %{total} unpaid invoice(s). Your total due is %{amount}
+paynow.no_invoices.txt,Nemáte žádnou nezaplacenou jednu nebo více faktur,You have no unpaid invoices,You have no unpaid invoices
+paynow.header.choosepm.txt,Vyberte způsob platby,Choose Payment Method,Choose Payment Method
+paynow.modal.newpm.use,Použijte jinou platební metodu,Use a different payment method,Use a different payment method
+paynow.header.addpm.txt,Přidat způsob platby,Add Payment Method,Add Payment Method
+paynow.thankyou.header,Vaše platba byla úspěšná!,Your payment was successful!,Your payment was successful!
 paynow.thankyou.body,,,
-paynow.thankyou.close,,CLOSE,CLOSE
-paynow.modal_button.confirm,,Confirm,Confirm
-paynow.modal_button.cancel,,Cancel,Cancel
-paynow.payment_method.bacs.guarantee.header,,Back to Payment,Back to Payment
-paynow.payment_method.bank_account.btn.proceed_to_review,,Proceed to Review,Proceed to Review
-paynow.payment_method.bank_account.btn.enter_iban,,Enter IBAN,Enter IBAN
-paynow.payment_method.bank_account.btn.enter_local_details,,Enter local bank details,Enter local bank details
-paynow.payment_method.bank_account.btn.enter_your_name,,Enter your name,Enter your name
-paynow.payment_method.bank_account.btn.enter_company_name,,Enter company name,Enter company name
-paynow.redirect.label,,Go to app,Go to app
-paynow.threeds.warning,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-paynow.3ds.auth.txt,,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
-inapp_nl_portal.login.txt,,Enter your email address to login,Enter your email address to login
-inapp_nl_portal.otp.enter,,Enter the one time password sent to your email to continue,Enter the one time password sent to your email to continue
-inapp_nl_portal.password.enter,,Enter the password for your account,Enter the password for your account
-inapp_nl_portal.otp.resend,,Resend the one time password,Resend the one time password
-inapp_nl_portal.otp.next,,Login,Login
-inapp_nl_portal.login.via_otp,,Login via one time password,Login via one time password
-inapp_nl_portal.password.use,,Enter password instead,Enter password instead
-inapp_nl_portal.login.next,,Continue,Continue
-inapp_nl_portal.login.header,,Manage Your Subscriptions,Manage Your Subscriptions
-inapp_nl_portal.forgot_password.link.txt,,Forgot password?,Forgot password?
+paynow.thankyou.close,ZAVŘÍT,CLOSE,CLOSE
+paynow.modal_button.confirm,Potvrdit,Confirm,Confirm
+paynow.modal_button.cancel,zrušení,Cancel,Cancel
+paynow.payment_method.bacs.guarantee.header,Zpět k platbě,Back to Payment,Back to Payment
+paynow.payment_method.bank_account.btn.proceed_to_review,Pokračujte kontrolou,Proceed to Review,Proceed to Review
+paynow.payment_method.bank_account.btn.enter_iban,Zadejte IBAN,Enter IBAN,Enter IBAN
+paynow.payment_method.bank_account.btn.enter_local_details,Zadejte místní bankovní údaje,Enter local bank details,Enter local bank details
+paynow.payment_method.bank_account.btn.enter_your_name,Zadejte své jméno,Enter your name,Enter your name
+paynow.payment_method.bank_account.btn.enter_company_name,Zadejte název společnosti,Enter company name,Enter company name
+paynow.redirect.label,Přejít na aplikaci,Go to app,Go to app
+paynow.threeds.warning,Můžete být přesměrováni na vaši bankovní stránku pro 3D zabezpečené ověření.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+paynow.3ds.auth.txt,"Povoluji organizaci %{organisation_name} uložit tuto platební metodu a automaticky účtovat tuto platební metodu, kdykoli je k ní přidruženo předplatné.",I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.,I authorize %{organisation_name} to save this payment method and automatically charge this payment method whenever a subscription is associated with it.
+inapp_nl_portal.login.txt,Zadejte svou e-mailovou adresu pro přihlášení,Enter your email address to login,Enter your email address to login
+inapp_nl_portal.otp.enter,Pokračujte zadáním jednorázového hesla zaslaného na váš e-mail,Enter the one time password sent to your email to continue,Enter the one time password sent to your email to continue
+inapp_nl_portal.password.enter,Zadejte heslo pro svůj účet,Enter the password for your account,Enter the password for your account
+inapp_nl_portal.otp.resend,Znovu odešlete jednorázové heslo,Resend the one time password,Resend the one time password
+inapp_nl_portal.otp.next,Přihlásit se,Login,Login
+inapp_nl_portal.login.via_otp,Přihlaste se pomocí jednorázového hesla,Login via one time password,Login via one time password
+inapp_nl_portal.password.use,Místo toho zadejte heslo,Enter password instead,Enter password instead
+inapp_nl_portal.login.next,Pokračovat,Continue,Continue
+inapp_nl_portal.login.header,Spravujte své předplatné,Manage Your Subscriptions,Manage Your Subscriptions
+inapp_nl_portal.forgot_password.link.txt,Zapomenuté heslo?,Forgot password?,Forgot password?
 inapp_nl_portal.account.summary.additionalInfo,,,
-inapp_checkout.gift.cart.header,,Your gift order,Your gift order
-inapp_checkout.gift.cart.header.edit,,Edit your gift order,Edit your gift order
-inapp_checkout.gift.cart.next,,Proceed to checkout,Proceed to checkout
-inapp_checkout.gift.gift_details.header,,Add your gift details,Add your gift details
-inapp_checkout.gift.gift_details.header.edit,,Edit your gift details,Edit your gift details
-inapp_checkout.gift.gift_details.update,,Update,Update
-inapp_checkout.gift.gift_details.next,,Next,Next
-inapp_checkout.gift.gift_details.receiver_info.subheading,,Whom is this gift for?,Whom is this gift for?
-inapp_checkout.gift.gift_details.schedule.subheading,,Gift date & time,Gift date & time
-inapp_checkout.gift.gift_details.schedule.immediately,,Send immediately,Send immediately
-inapp_checkout.gift.gift_details.schedule.date,,Send on specific date and time,Send on specific date and time
-inapp_checkout.gift.gift_details.message.subheading,,Personal message,Personal message
-inapp_checkout.gift.gift_details.message.helptext,,The message will be sent to the recipient with your gift,The message will be sent to the recipient with your gift
-inapp_checkout.gift.gift_details.message.placeholder,,Your gift message,Your gift message
-inapp_checkout.gift.customer.header,,Add recipient information,Add recipient information
-inapp_checkout.gift.customer.header.edit,,Edit recipient information,Edit recipient information
-inapp_checkout.gift.customer.update,,Update,Update
-inapp_checkout.gift.customer.next,,Next,Next
-inapp_checkout.gift.billing_address.update,,Update,Update
-inapp_checkout.gift.billing_address.next,,Next,Next
-inapp_checkout.gift.billing_address.header,,Add your billing details,Add your billing details
-inapp_checkout.gift.billing_address.header.edit,,Edit your billing details,Edit your billing details
-inapp_checkout.gift.shipping_address.header,,Add recipient shipping address,Add recipient shipping address
-inapp_checkout.gift.shipping_address.header.edit,,Edit recipient shipping address,Edit recipient shipping address
-inapp_checkout.gift.shipping_address.update,,Update,Update
-inapp_checkout.gift.shipping_address.next,,Next,Next
-inapp_checkout.gift.payment_method.header,,Add your payment information,Add your payment information
-inapp_checkout.gift.payment_method.header.edit,,Edit your payment information,Edit your payment information
-inapp_checkout.gift.payment_method.update,,Update,Update
-inapp_checkout.gift.payment_method.next,,Next,Next
-inapp_checkout.gift.review.gift.header,,Gift details,Gift details
-inapp_checkout.gift.review.gift.your_message.label,,Personal Message,Personal Message
-inapp_checkout.gift.review.gift.from.label,,From,From
-inapp_checkout.gift.review.gift.scheduled_at.label,,Scheduled,Scheduled
-inapp_checkout.gift.review.gift.immediately.label,,Immediately sent,Immediately sent
-inapp_checkout.gift.review.shipping.header,,Recipient shipping address,Recipient shipping address
-inapp_checkout.gift.review.account.header,,Recipient details,Recipient details
-inapp_checkout.gift.subscription.header,,Add gift subscription details,Add gift subscription details
-inapp_checkout.gift.subscription.header.edit,,Edit gift subscription details,Edit gift subscription details
-inapp_checkout.gift.subscription.update,,Update,Update
-inapp_checkout.gift.subscription.next,,Next,Next
-inapp_checkout.gift.review.header,,Complete your order,Complete your order
-inapp_checkout.gift.review.btn.txt,,Pay %{amount} & place gift order,Pay %{amount} & place gift order
+inapp_checkout.gift.cart.header,Vaše dárková objednávka,Your gift order,Your gift order
+inapp_checkout.gift.cart.header.edit,Upravte svou dárkovou objednávku,Edit your gift order,Edit your gift order
+inapp_checkout.gift.cart.next,Pokračujte k pokladně,Proceed to checkout,Proceed to checkout
+inapp_checkout.gift.gift_details.header,Přidejte podrobnosti o svém daru,Add your gift details,Add your gift details
+inapp_checkout.gift.gift_details.header.edit,Upravte údaje o daru,Edit your gift details,Edit your gift details
+inapp_checkout.gift.gift_details.update,Aktualizace,Update,Update
+inapp_checkout.gift.gift_details.next,další,Next,Next
+inapp_checkout.gift.gift_details.receiver_info.subheading,Pro koho je tento dárek určen?,Whom is this gift for?,Whom is this gift for?
+inapp_checkout.gift.gift_details.schedule.subheading,Datum a čas daru,Gift date & time,Gift date & time
+inapp_checkout.gift.gift_details.schedule.immediately,Odeslat ihned,Send immediately,Send immediately
+inapp_checkout.gift.gift_details.schedule.date,Odeslat v konkrétní datum a čas,Send on specific date and time,Send on specific date and time
+inapp_checkout.gift.gift_details.message.subheading,Osobní zpráva,Personal message,Personal message
+inapp_checkout.gift.gift_details.message.helptext,Zpráva bude odeslána příjemci s vaším dárkem,The message will be sent to the recipient with your gift,The message will be sent to the recipient with your gift
+inapp_checkout.gift.gift_details.message.placeholder,Vaše dárková zpráva,Your gift message,Your gift message
+inapp_checkout.gift.customer.header,Přidejte informace o příjemci,Add recipient information,Add recipient information
+inapp_checkout.gift.customer.header.edit,Upravit informace o příjemci,Edit recipient information,Edit recipient information
+inapp_checkout.gift.customer.update,Aktualizace,Update,Update
+inapp_checkout.gift.customer.next,další,Next,Next
+inapp_checkout.gift.billing_address.update,Aktualizace,Update,Update
+inapp_checkout.gift.billing_address.next,další,Next,Next
+inapp_checkout.gift.billing_address.header,Přidejte své fakturační údaje,Add your billing details,Add your billing details
+inapp_checkout.gift.billing_address.header.edit,Upravte své fakturační údaje,Edit your billing details,Edit your billing details
+inapp_checkout.gift.shipping_address.header,Přidejte dodací adresu příjemce,Add recipient shipping address,Add recipient shipping address
+inapp_checkout.gift.shipping_address.header.edit,Upravit dodací adresu příjemce,Edit recipient shipping address,Edit recipient shipping address
+inapp_checkout.gift.shipping_address.update,Aktualizace,Update,Update
+inapp_checkout.gift.shipping_address.next,další,Next,Next
+inapp_checkout.gift.payment_method.header,Přidejte své platební údaje,Add your payment information,Add your payment information
+inapp_checkout.gift.payment_method.header.edit,Upravte své platební údaje,Edit your payment information,Edit your payment information
+inapp_checkout.gift.payment_method.update,Aktualizace,Update,Update
+inapp_checkout.gift.payment_method.next,další,Next,Next
+inapp_checkout.gift.review.gift.header,Podrobnosti o dárku,Gift details,Gift details
+inapp_checkout.gift.review.gift.your_message.label,Osobní zpráva,Personal Message,Personal Message
+inapp_checkout.gift.review.gift.from.label,Z,From,From
+inapp_checkout.gift.review.gift.scheduled_at.label,Naplánováno,Scheduled,Scheduled
+inapp_checkout.gift.review.gift.immediately.label,Okamžitě odesláno,Immediately sent,Immediately sent
+inapp_checkout.gift.review.shipping.header,Dodací adresa příjemce,Recipient shipping address,Recipient shipping address
+inapp_checkout.gift.review.account.header,Údaje o příjemci,Recipient details,Recipient details
+inapp_checkout.gift.subscription.header,Přidejte podrobnosti o předplatném dárku,Add gift subscription details,Add gift subscription details
+inapp_checkout.gift.subscription.header.edit,Upravit podrobnosti o předplatném dárku,Edit gift subscription details,Edit gift subscription details
+inapp_checkout.gift.subscription.update,Aktualizace,Update,Update
+inapp_checkout.gift.subscription.next,další,Next,Next
+inapp_checkout.gift.review.header,Vyplňte svoji objednávku,Complete your order,Complete your order
+inapp_checkout.gift.review.btn.txt,Zaplaťte %{amount} a proveďte dárkovou objednávku,Pay %{amount} & place gift order,Pay %{amount} & place gift order
 inapp_checkout.gift.thankyou.header,,,
 inapp_checkout.gift.thankyou.body,,,
-inapp_checkout.gift.thankyou.close,,CLOSE,CLOSE
-inapp_checkout.gift.review.self_gift.warning,,You seem to be sending the gift to your own email address.,You seem to be sending the gift to your own email address.
+inapp_checkout.gift.thankyou.close,ZAVŘÍT,CLOSE,CLOSE
+inapp_checkout.gift.review.self_gift.warning,"Zdá se, že posíláte dárek na svou vlastní e-mailovou adresu.",You seem to be sending the gift to your own email address.,You seem to be sending the gift to your own email address.
 inapp_checkout.gift.payment_method.note.plan.no_trial,,,
 inapp_checkout.gift.cart.note.plan.no_trial,,,
 inapp_checkout.gift.review.note.plan.no_trial,,,
@@ -515,37 +515,37 @@ inapp_checkout.gift.customer.note,,,
 inapp_checkout.gift.subscription.note,,,
 inapp_checkout.gift.shipping_address.note,,,
 inapp_checkout.gift.billing_address.note,,,
-inapp_checkout.gift.review.threedsWarning.non_trial,,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
-inapp_checkout.gift.review.threedsWarning.trial,,"You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
-inapp_checkout.gift_claim.modal_button.cancel,,Cancel,Cancel
-inapp_checkout.gift_claim.modal_button.confirm,,Confirm,Confirm
-inapp_checkout.gift_claim.cart.header,,Your gift,Your gift
-inapp_checkout.gift_claim.cart.header.edit,,Your gift,Your gift
-inapp_checkout.gift_claim.cart.next,,Proceed to claim,Proceed to claim
-inapp_checkout.gift_claim.cart.body_desc,,Congratulations on your gift! You need to claim it to get started!,Congratulations on your gift! You need to claim it to get started!
-inapp_checkout.gift_claim.customer.body_desc,,"Here are the details that we have got. You can update this information, if required.","Here are the details that we have got. You can update this information, if required."
-inapp_checkout.gift_claim.customer.header,,Add your account information,Add your account information
-inapp_checkout.gift_claim.customer.header.edit,,Edit your account information,Edit your account information
-inapp_checkout.gift_claim.customer.update,,Update,Update
-inapp_checkout.gift_claim.customer.next,,Next,Next
-inapp_checkout.gift_claim.shipping_address.header,,Add your shipping address,Add your shipping address
-inapp_checkout.gift_claim.shipping_address.header.edit,,Edit your shipping address,Edit your shipping address
-inapp_checkout.gift_claim.shipping_address.update,,Update,Update
-inapp_checkout.gift_claim.shipping_address.next,,Next,Next
+inapp_checkout.gift.review.threedsWarning.non_trial,Můžete být přesměrováni na vaši bankovní stránku pro 3D zabezpečené ověření.,You may be redirected to your bank page for 3D secure verification.,You may be redirected to your bank page for 3D secure verification.
+inapp_checkout.gift.review.threedsWarning.trial,"Můžete být přesměrováni na vaši bankovní stránku pro 3D zabezpečené ověření, za které může být účtována částka tokenu, která bude automaticky plně vrácena.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically.","You may be redirected to your bank page for 3D secure verification for which a token amount may be charged,which will be fully refunded automatically."
+inapp_checkout.gift_claim.modal_button.cancel,zrušení,Cancel,Cancel
+inapp_checkout.gift_claim.modal_button.confirm,Potvrdit,Confirm,Confirm
+inapp_checkout.gift_claim.cart.header,Tvůj dárek,Your gift,Your gift
+inapp_checkout.gift_claim.cart.header.edit,Tvůj dárek,Your gift,Your gift
+inapp_checkout.gift_claim.cart.next,Pokračujte v reklamaci,Proceed to claim,Proceed to claim
+inapp_checkout.gift_claim.cart.body_desc,"Gratulujeme k vašemu daru! Chcete-li začít, musíte si jej nárokovat!",Congratulations on your gift! You need to claim it to get started!,Congratulations on your gift! You need to claim it to get started!
+inapp_checkout.gift_claim.customer.body_desc,"Zde jsou podrobnosti, které máme. V případě potřeby můžete tyto informace aktualizovat.","Here are the details that we have got. You can update this information, if required.","Here are the details that we have got. You can update this information, if required."
+inapp_checkout.gift_claim.customer.header,Přidejte informace o svém účtu,Add your account information,Add your account information
+inapp_checkout.gift_claim.customer.header.edit,Upravte informace o svém účtu,Edit your account information,Edit your account information
+inapp_checkout.gift_claim.customer.update,Aktualizace,Update,Update
+inapp_checkout.gift_claim.customer.next,další,Next,Next
+inapp_checkout.gift_claim.shipping_address.header,Přidejte svoji dodací adresu,Add your shipping address,Add your shipping address
+inapp_checkout.gift_claim.shipping_address.header.edit,Upravte dodací adresu,Edit your shipping address,Edit your shipping address
+inapp_checkout.gift_claim.shipping_address.update,Aktualizace,Update,Update
+inapp_checkout.gift_claim.shipping_address.next,další,Next,Next
 inapp_checkout.gift_claim.shipping_address.body_desc,,,
-inapp_checkout.gift_claim.review.shipping.header,,Shipping address,Shipping address
-inapp_checkout.gift_claim.review.account.header,,Account,Account
-inapp_checkout.gift_claim.review.subscription.header,,Subscription details,Subscription details
-inapp_checkout.gift_claim.subscription.header,,Add gift subscription details,Add gift subscription details
-inapp_checkout.gift_claim.subscription.header.edit,,Edit gift subscription details,Edit gift subscription details
-inapp_checkout.gift_claim.subscription.update,,Update,Update
-inapp_checkout.gift_claim.subscription.next,,Next,Next
+inapp_checkout.gift_claim.review.shipping.header,Doručovací adresa,Shipping address,Shipping address
+inapp_checkout.gift_claim.review.account.header,Účet,Account,Account
+inapp_checkout.gift_claim.review.subscription.header,Podrobnosti o předplatném,Subscription details,Subscription details
+inapp_checkout.gift_claim.subscription.header,Přidejte podrobnosti o předplatném dárku,Add gift subscription details,Add gift subscription details
+inapp_checkout.gift_claim.subscription.header.edit,Upravit podrobnosti o předplatném dárku,Edit gift subscription details,Edit gift subscription details
+inapp_checkout.gift_claim.subscription.update,Aktualizace,Update,Update
+inapp_checkout.gift_claim.subscription.next,další,Next,Next
 inapp_checkout.gift_claim.subscription.body_desc,,,
-inapp_checkout.gift_claim.review.header,,Claim your gift,Claim your gift
-inapp_checkout.gift_claim.review.btn.txt,,Claim Gift,Claim Gift
+inapp_checkout.gift_claim.review.header,Získejte svůj dárek,Claim your gift,Claim your gift
+inapp_checkout.gift_claim.review.btn.txt,Získejte dárek,Claim Gift,Claim Gift
 inapp_checkout.gift_claim.thankyou.header,,,
 inapp_checkout.gift_claim.thankyou.body,,,
-inapp_checkout.gift_claim.thankyou.close,,CLOSE,CLOSE
+inapp_checkout.gift_claim.thankyou.close,ZAVŘÍT,CLOSE,CLOSE
 inapp_checkout.gift_claim.cart.note.plan.no_trial,,,
 inapp_checkout.gift_claim.review.note.plan.no_trial,,,
 inapp_checkout.gift_claim.customer.note,,,

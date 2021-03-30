@@ -1,59 +1,59 @@
 key,value,reference value,description
-sort_param_order_invalid,,The specified sort order {0} is invalid,The specified sort order {0} is invalid
-updgrade_api_err_msg,,{0},{0}
-wrong_value,,wrong value,wrong value
-found_card_pattern,,{0},{0}
-upload_error,,Error while uploading file,Error while uploading file
-ILLEGAL_DOMAIN,,{0} domain is not allowed,{0} domain is not allowed
-param_fixed_size_error,,The size should be of {0},The size should be of {0}
-mcp_api_v1_err,,Upgrade to API V2 is needed as MCP is enabled,Upgrade to API V2 is needed as MCP is enabled
-multipart_post,,Cannot set multipart for other than post method,Cannot set multipart for other than post method
-ILLEGAL_DNS,,The domain resolves to internal ip address range which is not allowed.,The domain resolves to internal ip address range which is not allowed.
-param_not_supported,,{0},{0}
-mustache_not_allowed,,mustache tags are not allowed,mustache tags are not allowed
-param_value_lesser_error,,It should be atleast {0},It should be atleast {0}
-param_exceeded_error,,It should not be more than {0},It should not be more than {0}
-not_an_image,,Uploaded file should be an image.,Uploaded file should be an image.
-UNKNOWN_HOST,,"Unable to resolve {0} domain ","Unable to resolve {0} domain "
-EMPTY_SCHEME,,URL should start with http:// or https:// protocol,URL should start with http:// or https:// protocol
-validate.mul_sub_entry,,The customer {0} already has a subscription.,The customer {0} already has a subscription.
-file_size_limit_exceeded,,Upload file size cannot exceed {0},Upload file size cannot exceed {0}
-invalid_range,,first value {0} should not be more than second value {1},first value {0} should not be more than second value {1}
-timestamp_future_only,,Unix timestamp should be in future,Unix timestamp should be in future
-param_wrong_value,,Value {0} specified for this param is incorrect,The returned parameter has incorrect value
-timestamp_past_only,,Unix timestamp should be in past,Unix timestamp should be in past
-param_lesser_error,,It should be atleast {0},It should be atleast {0}
-param_invalid,,The value {0} is invalid,The value {0} is invalid
-should_be_valid_date,,wrong date format,wrong date format
-UNSUPPORTED_SCHEME,,{0} is not supported. Only http and https are supported,{0} is not supported. Only http and https are supported
-image_scrambled,,Uploaded image is scrambled.,Uploaded image is scrambled.
-charge_not_more_than_zero,,Amount to charge should be more than zero,Amount to charge should be more than zero
-param_cannot_exceed,,{0},{0}
-param_should_not_be_blank,,cannot be blank,cannot be blank
-not_in_allowed_values,,not in allowed values,not in allowed values
-size_limit_exceeded,,{0} should not be more than {1} characters,{0} should not be more than {1} characters
-email_cannot_be_empty,,Email field cannot be empty,Email field cannot be empty
-email_not_in_allowed_size_range,,Email id size should not be more than {0},Email id size should not be more than {0}
-param_size_exceeded_error,,The size should not be more than {0},The size should not be more than {0}
-param_should_be_blank,,should be blank,should be blank
-param_required,,cannot be blank,The parameter is not sent or is empty. Incase you are getting the  parameter's value from the user then it is better to do validation  for mandatory fields on your end rather than passing it to ChargeBee and then handling the error.
-resource_not_unique,,{0} resource already exists,{0} resource already exists
-duplicate_addon_entry,,Duplicate addon entry is not allowed.,Duplicate addon entry is not allowed.
-filter_param_operator_invalid,,The specified filter operator {0} is invalid,The specified filter operator {0} is invalid
-ILLEGAL_DOMAIN_SUFFIX,,{0} domain suffix is not allowed,{0} domain suffix is not allowed
-param_invalid_msg,,{0},{0}
-validate.param_not_unique,,The value {0} is already present.,The value {0} is already present.
-UNSUPPORTED_PORT,," Only [443, 80, 8443, 8080, 9001] ports are allowed"," Only [443, 80, 8443, 8080, 9001] ports are allowed"
-timestamp_future_only_or_zero,,Unix timestamp should be in future or zero to indicate immediate,Unix timestamp should be in future or zero to indicate immediate
-params_required,,{0},Parameters for the resource is required.
-wrong_format_pattern,,Should be in {0} format,Should be in {0} format
-param_size_lesser_error,,The size should be atleast {0},The size should be atleast {0}
-currency_mismatched,,{0},{0}
-ip_address_not_supported,,No support for Ip address,No support for Ip address
-should_be_valid_input,,should be a valid input,should be a valid input
-no_change_for_i18n,,Pack is empty,Pack is empty
-NO_EMPTY_SCHEME,,"Provide the domain without the protocol (http, https)","Provide the domain without the protocol (http, https)"
-wrong_format,,wrong format,wrong format
-emoji_chars_not_allowed,,The value {0} is invalid,The value {0} is invalid
-amount_overflow,,Amount that is being processed {0},Amount that is being processed {0}
-param_should_not_be_sent,,{0},The parameter should not be sent. Should occur only during development phase.
+sort_param_order_invalid,Den angivne sorteringsrækkefølge {0} er ugyldig,The specified sort order {0} is invalid,The specified sort order {0} is invalid
+updgrade_api_err_msg,{0},{0},{0}
+wrong_value,forkert værdi,wrong value,wrong value
+found_card_pattern,{0},{0},{0}
+upload_error,Fejl under upload af fil,Error while uploading file,Error while uploading file
+ILLEGAL_DOMAIN,{0} domæne er ikke tilladt,{0} domain is not allowed,{0} domain is not allowed
+param_fixed_size_error,Størrelsen skal være på {0},The size should be of {0},The size should be of {0}
+mcp_api_v1_err,"Opgradering til API version 2 er nødvendig, da MCP er aktiveret",Upgrade to API V2 is needed as MCP is enabled,Upgrade to API V2 is needed as MCP is enabled
+multipart_post,Kan ikke indstille multipart til andre end postmetoden,Cannot set multipart for other than post method,Cannot set multipart for other than post method
+ILLEGAL_DNS,"Domænet løser det interne IP-adresseområde, som ikke er tilladt.",The domain resolves to internal ip address range which is not allowed.,The domain resolves to internal ip address range which is not allowed.
+param_not_supported,{0},{0},{0}
+mustache_not_allowed,overskæg tags er ikke tilladt,mustache tags are not allowed,mustache tags are not allowed
+param_value_lesser_error,Det skal være mindst {0},It should be atleast {0},It should be atleast {0}
+param_exceeded_error,Det bør ikke være mere end {0},It should not be more than {0},It should not be more than {0}
+not_an_image,Uploadet fil skal være et billede.,Uploaded file should be an image.,Uploaded file should be an image.
+UNKNOWN_HOST,{0} domæne kunne ikke løses,Unable to resolve {0} domain ,Unable to resolve {0} domain 
+EMPTY_SCHEME,URL skal starte med http: // eller https: // protokol,URL should start with http:// or https:// protocol,URL should start with http:// or https:// protocol
+validate.mul_sub_entry,Kunden {0} har allerede et abonnement.,The customer {0} already has a subscription.,The customer {0} already has a subscription.
+file_size_limit_exceeded,Uploadfilstørrelse må ikke overstige {0},Upload file size cannot exceed {0},Upload file size cannot exceed {0}
+invalid_range,første værdi {0} bør ikke være mere end anden værdi {1},first value {0} should not be more than second value {1},first value {0} should not be more than second value {1}
+timestamp_future_only,Unix-tidsstempel skal være i fremtiden,Unix timestamp should be in future,Unix timestamp should be in future
+param_wrong_value,"Værdien {0}, der er angivet for denne parameter, er forkert",Value {0} specified for this param is incorrect,The returned parameter has incorrect value
+timestamp_past_only,Unix-tidsstempel skal være i fortiden,Unix timestamp should be in past,Unix timestamp should be in past
+param_lesser_error,Det skal være mindst {0},It should be atleast {0},It should be atleast {0}
+param_invalid,Værdien {0} er ugyldig,The value {0} is invalid,The value {0} is invalid
+should_be_valid_date,forkert datoformat,wrong date format,wrong date format
+UNSUPPORTED_SCHEME,{0} understøttes ikke. Kun http og https understøttes,{0} is not supported. Only http and https are supported,{0} is not supported. Only http and https are supported
+image_scrambled,Uploadet billede krypteres.,Uploaded image is scrambled.,Uploaded image is scrambled.
+charge_not_more_than_zero,"Beløbet, der skal opkræves, skal være mere end nul",Amount to charge should be more than zero,Amount to charge should be more than zero
+param_cannot_exceed,{0},{0},{0}
+param_should_not_be_blank,kan ikke være blank,cannot be blank,cannot be blank
+not_in_allowed_values,ikke i tilladte værdier,not in allowed values,not in allowed values
+size_limit_exceeded,{0} må ikke være mere end {1} tegn,{0} should not be more than {1} characters,{0} should not be more than {1} characters
+email_cannot_be_empty,E-mail-felt kan ikke være tomt,Email field cannot be empty,Email field cannot be empty
+email_not_in_allowed_size_range,E-mail-id-størrelse bør ikke være mere end {0},Email id size should not be more than {0},Email id size should not be more than {0}
+param_size_exceeded_error,Størrelsen må ikke være mere end {0},The size should not be more than {0},The size should not be more than {0}
+param_should_be_blank,skal være blank,should be blank,should be blank
+param_required,kan ikke være blank,cannot be blank,The parameter is not sent or is empty. Incase you are getting the  parameter's value from the user then it is better to do validation  for mandatory fields on your end rather than passing it to ChargeBee and then handling the error.
+resource_not_unique,{0} ressource findes allerede,{0} resource already exists,{0} resource already exists
+duplicate_addon_entry,Duplicate addon entry er ikke tilladt.,Duplicate addon entry is not allowed.,Duplicate addon entry is not allowed.
+filter_param_operator_invalid,Den angivne filteroperatør {0} er ugyldig,The specified filter operator {0} is invalid,The specified filter operator {0} is invalid
+ILLEGAL_DOMAIN_SUFFIX,{0} domænesuffiks er ikke tilladt,{0} domain suffix is not allowed,{0} domain suffix is not allowed
+param_invalid_msg,{0},{0},{0}
+validate.param_not_unique,Værdien {0} er allerede til stede.,The value {0} is already present.,The value {0} is already present.
+UNSUPPORTED_PORT," Kun [443, 80, 8443, 8080, 9001] porte er tilladt"," Only [443, 80, 8443, 8080, 9001] ports are allowed"," Only [443, 80, 8443, 8080, 9001] ports are allowed"
+timestamp_future_only_or_zero,Unix-tidsstempel skal være i fremtiden eller nul for at angive øjeblikkelig,Unix timestamp should be in future or zero to indicate immediate,Unix timestamp should be in future or zero to indicate immediate
+params_required,{0},{0},Parameters for the resource is required.
+wrong_format_pattern,Skal være i {0} format,Should be in {0} format,Should be in {0} format
+param_size_lesser_error,Størrelsen skal være mindst {0},The size should be atleast {0},The size should be atleast {0}
+currency_mismatched,{0},{0},{0}
+ip_address_not_supported,Ingen support til IP-adresse,No support for Ip address,No support for Ip address
+should_be_valid_input,skal være et gyldigt input,should be a valid input,should be a valid input
+no_change_for_i18n,Pakken er tom,Pack is empty,Pack is empty
+NO_EMPTY_SCHEME,"Giv domænet uden protokollen (http, https)","Provide the domain without the protocol (http, https)","Provide the domain without the protocol (http, https)"
+wrong_format,forkert format,wrong format,wrong format
+emoji_chars_not_allowed,Værdien {0} er ugyldig,The value {0} is invalid,The value {0} is invalid
+amount_overflow,"Beløb, der behandles {0}",Amount that is being processed {0},Amount that is being processed {0}
+param_should_not_be_sent,{0},{0},The parameter should not be sent. Should occur only during development phase.

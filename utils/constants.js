@@ -195,6 +195,7 @@ const recommendedReplacements = {
   '%{from_date} to %{to_date}': '%{from_date} - %{to_date}',
   'Discounts/credits': 'Discounts or credits',
   'invoice(s)': 'one or more invoices',
+  '</li<li>': '</li><li>',
 }
 
 // Some words here are only used in sentences, and not as a single value

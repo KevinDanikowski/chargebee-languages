@@ -1,28 +1,28 @@
 key,value,reference value,description
-exceeded_allowed_coupon_code_limit,,Only {0} coupon codes allowed per coupon set.,Only {0} coupon codes allowed per coupon set.
-invalid_request_with_no_applicable_coupon,,coupon not found or not a applicable coupon,coupon not found or not a applicable coupon
-api_coupon_not_applied,,coupon {0} has not been applied on this subscription,coupon {0} has not been applied on this subscription
-error_while_uploading_coupon_code,,Error during upload. Duplicate coupon code found at row {0}.,Error during upload. Duplicate coupon code found at row {0}.
-already_redeemed,,The coupon {0} is already redeemed for this subscription,The coupon {0} is already redeemed for this subscription
-rec_coupon_not_supported,,Coupon {0} cannot be applied as only one-time coupons are supported,Coupon {0} cannot be applied as only one-time coupons are supported
-cannot_delete_archived_coupon_code,,Cannot delete used coupon code,Cannot delete used coupon code
-un_supported_file_format,,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
-cannot_delete_exhausted_coupon_set,,Cannot delete exhausted Coupon Set,Cannot delete exhausted Coupon Set
-max_redemptions_reached,,The passed coupon {0} has already been redeemed {1} times. No more redemptions are allowed,Maximum redemption count of the coupon is exceeded.
-too_many_characters_in_coupon_code,,More than {0} characters is found at coupon code in row {1},More than {0} characters is found at coupon code in row {1}
-invalid_coupon,,No such coupon found,No such coupon found
-coupon_set_name_alreay_exists,,coupon set name already exists for another coupon.,coupon set name already exists for another coupon.
-applicable_item_limit_exceeded,,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.
-invalid_subscription_state,,Invalid subscription state to apply/change coupon,Invalid subscription state to apply/change coupon
-exceeded_allowed_coupon_set_limit,,Only {0} coupon sets allowed per coupon.,Only {0} coupon sets allowed per coupon.
-cannot_archive_redeemed_coupon_code,,Cannot archive a redeemed coupon code,Cannot archive a redeemed coupon code
-two_coupons_of_same_type,,This coupon cannot be applied for this subscription. Please contact the seller for more details.,This coupon cannot be applied for this subscription. Please contact the seller for more details.
-no_such_coupon,,No such coupon {0} to redeem,Coupon is not found
-coupon_not_applicable,,Coupon {0} cannot be applied as it is not applicable to any of the items,Coupon is not applicable for any of the passed item
-no_coupon_code_found,,No coupon codes found in the file.,No coupon codes found in the file.
-coupon_expired,,Applied coupon {0} has already expired on {1},Applied coupon {0} has already expired on {1}
-invalid_request_with_no_coupon,,No coupons have been applied on this subscription,No coupons have been applied on this subscription
-could_not_read_the_file,,Could not able to read the content in CSV file.,Could not able to read the content in CSV file.
-invalid_coupon_code,,Invalid coupon code,Invalid coupon code
-coupon_code_not_applicable_for_this_coupon,,Coupon code is not applicable for this coupon,Coupon code is not applicable for this coupon
-coupon_code_already_exists,,Coupon code already exists. Duplicate not allowed,Coupon code already exists. Duplicate not allowed
+exceeded_allowed_coupon_code_limit,Kun {0} kuponkoder tilladt pr. Kuponsæt.,Only {0} coupon codes allowed per coupon set.,Only {0} coupon codes allowed per coupon set.
+invalid_request_with_no_applicable_coupon,kupon ikke fundet eller ikke en relevant kupon,coupon not found or not a applicable coupon,coupon not found or not a applicable coupon
+api_coupon_not_applied,kuponen {0} er ikke anvendt på dette abonnement,coupon {0} has not been applied on this subscription,coupon {0} has not been applied on this subscription
+error_while_uploading_coupon_code,Fejl under upload. Duplikatkuponkode blev fundet i række {0}.,Error during upload. Duplicate coupon code found at row {0}.,Error during upload. Duplicate coupon code found at row {0}.
+already_redeemed,Kuponen {0} er allerede indløst til dette abonnement,The coupon {0} is already redeemed for this subscription,The coupon {0} is already redeemed for this subscription
+rec_coupon_not_supported,"Kupon {0} kan ikke anvendes, da kun engangskuponer understøttes",Coupon {0} cannot be applied as only one-time coupons are supported,Coupon {0} cannot be applied as only one-time coupons are supported
+cannot_delete_archived_coupon_code,Kan ikke slette brugt kuponkode,Cannot delete used coupon code,Cannot delete used coupon code
+un_supported_file_format,Ikke-understøttet filformat. Kun CSV-filer er tilladt,Unsupported file format. Only CSV files are allowed,Unsupported file format. Only CSV files are allowed
+cannot_delete_exhausted_coupon_set,Kan ikke slette udtømt kuponsæt,Cannot delete exhausted Coupon Set,Cannot delete exhausted Coupon Set
+max_redemptions_reached,Den beståede kupon {0} er allerede blevet indløst {1} gange. Ingen flere indløsninger er tilladt,The passed coupon {0} has already been redeemed {1} times. No more redemptions are allowed,Maximum redemption count of the coupon is exceeded.
+too_many_characters_in_coupon_code,Mere end {0} tegn findes i kuponkoden i række {1},More than {0} characters is found at coupon code in row {1},More than {0} characters is found at coupon code in row {1}
+invalid_coupon,Ingen sådan kupon fundet,No such coupon found,No such coupon found
+coupon_set_name_alreay_exists,kuponsættets navn findes allerede for en anden kupon.,coupon set name already exists for another coupon.,coupon set name already exists for another coupon.
+applicable_item_limit_exceeded,En eller flere kuponer har mere end {0} anvendelige varer. Kontakt support@chargebee.com for yderligere oplysninger.,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.,One or more coupon has more than {0} applicable items. Please contact support@chargebee.com for further details.
+invalid_subscription_state,Ugyldig abonnementsstatus til anvendelse / ændring af kupon,Invalid subscription state to apply/change coupon,Invalid subscription state to apply/change coupon
+exceeded_allowed_coupon_set_limit,Kun {0} kuponsæt er tilladt pr. Kupon.,Only {0} coupon sets allowed per coupon.,Only {0} coupon sets allowed per coupon.
+cannot_archive_redeemed_coupon_code,Kan ikke arkivere en indløst kuponkode,Cannot archive a redeemed coupon code,Cannot archive a redeemed coupon code
+two_coupons_of_same_type,Denne kupon kan ikke anvendes til dette abonnement. Kontakt sælgeren for flere detaljer.,This coupon cannot be applied for this subscription. Please contact the seller for more details.,This coupon cannot be applied for this subscription. Please contact the seller for more details.
+no_such_coupon,Ingen sådan kupon {0} at indløse,No such coupon {0} to redeem,Coupon is not found
+coupon_not_applicable,"Kupon {0} kan ikke anvendes, da den ikke gælder for nogen af ​​varerne",Coupon {0} cannot be applied as it is not applicable to any of the items,Coupon is not applicable for any of the passed item
+no_coupon_code_found,Ingen kuponkoder fundet i filen.,No coupon codes found in the file.,No coupon codes found in the file.
+coupon_expired,Anvendt kupon {0} er allerede udløbet den {1},Applied coupon {0} has already expired on {1},Applied coupon {0} has already expired on {1}
+invalid_request_with_no_coupon,Der er ikke anvendt kuponer på dette abonnement,No coupons have been applied on this subscription,No coupons have been applied on this subscription
+could_not_read_the_file,Kunne ikke læse indholdet i CSV-fil.,Could not able to read the content in CSV file.,Could not able to read the content in CSV file.
+invalid_coupon_code,Ugyldig kuponkode,Invalid coupon code,Invalid coupon code
+coupon_code_not_applicable_for_this_coupon,Kuponkode gælder ikke for denne kupon,Coupon code is not applicable for this coupon,Coupon code is not applicable for this coupon
+coupon_code_already_exists,Der findes allerede kuponkode. Kopi er ikke tilladt,Coupon code already exists. Duplicate not allowed,Coupon code already exists. Duplicate not allowed

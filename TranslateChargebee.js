@@ -3,6 +3,7 @@ const Confirm = require('prompt-confirm')
 const { get: _get, set: _set } = require('lodash')
 const PromisePool = require('@supercharge/promise-pool')
 const csv = require('csv-parser')
+const ora = require('ora')
 const createCsvWriter = require('csv-writer').createObjectCsvWriter
 const { handleTextReplacement, asyncForEach, postTranslationProcessing } = require('./utils/helpers')
 const {
@@ -11,6 +12,8 @@ const {
   recommendedIgnoreValues,
   recommendedWarnIfValuesTranslated,
 } = require('./utils/constants')
+const consoleProgress = ora(`%0 Reading Files`)
+
 const fileExists = file => fs.existsSync(file)
 const translator = fileExists('./translator.js')
   ? require('./translator')
@@ -187,6 +190,7 @@ const runTranslation = async ({
   warnIfValuesTranslated = recommendedWarnIfValuesTranslated,
 }) => {
   const languages = directories.filter(lang => folders.includes(lang))
+  consoleProgress.start()
 
   await asyncForEach(languages, async language => {
     const dir = LANGUAGE_FOLDER + '/' + language
@@ -221,6 +225,12 @@ const runTranslation = async ({
     let failedTranslations = []
     let unreviewedTranslations = []
 
+    const updateProgress = () => {
+      const currentLength = successfulTranslations.length + failedTranslations.length + unreviewedTranslations.length
+      consoleProgress.start(
+        `%${Math.round((currentLength / entriesToTranslate.length) * 1.01 * 100)} (${language}) Translating`
+      )
+    }
     // 1. translate entries with workers
     await PromisePool.for(entriesToTranslate)
       .withConcurrency(concurrentTranslations)
@@ -254,11 +264,15 @@ const runTranslation = async ({
           } else {
             successfulTranslations.push(translatedEntry)
           }
+          updateProgress()
         } catch (e) {
           if (logs) console.error('Translation Error', e)
           failedTranslations.push(entry)
+          updateProgress()
         }
       })
+
+    consoleProgress.start(`%99 (${language}) Writing CSVs`)
 
     // 2. update CSVs
     await updateCSVs(successfulTranslations)
@@ -274,8 +288,7 @@ const runTranslation = async ({
       fs.writeFileSync(file, JSON.stringify(failedTranslations), 'utf-8')
       console.info(`Created failed translations file ${file}`)
     }
-
-    console.info(`Finished translating ${language}`)
+    consoleProgress.stopAndPersist({ text: `100% (${language}) Finished!` })
   })
 }
 

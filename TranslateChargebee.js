@@ -358,7 +358,7 @@ if (process.env.SAVE_UNREVIEWED_TRANSLATIONS) {
   ]
   runTranslation({
     translator,
-    logs: true,
+    logs: false,
     concurrentTranslations: 10,
     folders: ['bg'],
     ignoreFiles: defaultIgnoreFiles,

@@ -58,7 +58,9 @@ const fixChargebeeVariables = (origional, rawTranslated) => {
   formattedString = formattedString.replace(/({) *([0-9]) *(})/gi, '$1$2$3')
 
   // fix the % { variable } by removing added spaces
-  formattedString = formattedString.replace(/(%) *({) *([a-z0-9_\\-\\.]+) *(})/gi, '$1$2$3$4') // doens't get ٪ which is arabic or other right ot left languages
+  formattedString = formattedString.replace(/(%|％) *({) *([a-z0-9_\\-\\.]+) *(})/gi, '$1$2$3$4') // doens't get ٪ which is arabic or other right ot left languages
+  // fix switch of percent sign from % to ％
+  formattedString = formattedString.replace(/(％)({[a-z0-9_\\-\\.]+})/gi, '%$2')
   // fix the%{variable} by adding a space before it if it accidentally got removed
   formattedString = formattedString.replace(noSpaceBeforeVariable, ' $1')
 

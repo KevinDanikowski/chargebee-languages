@@ -8,6 +8,16 @@ There is a sample provided for all the languages that are machine translated tha
 
 # Running
 
+# Option 1 Pre-translated values in your project
+
+**First: copy your language pack**, place it in a folder named `project-languages`
+
+**Second: update translated values**, run `npm run update-project-folder` to update all the missing values with their corresponding values from `chargebee-languages` which are already translated
+
+**(optional) Third: translate your left over values**, follow Option 2, but use the `LANGUAGE_FOLDER=project-languages` config in step 3 like `LANGUAGE_FOLDER=project-languages npm run translate`. This will translate the remaining values missing (including your `mandatory` folders)
+
+# Option 2 Translate the values yourself, or update missing values
+
 **First: Config**, edit the config in `TranslateChargebee.js` if the defaults don't work for you. FYI there is around 2250 keys to translate per blank language.
 
 ```js

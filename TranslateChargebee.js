@@ -28,6 +28,7 @@ const translator = fileExists('./translator.js')
 
 const CONTENT_DIR = process.env.LANGUAGE_DIRECTORY || 'chargebee-languages'
 const LANGUAGE_FOLDER = __dirname + '/' + CONTENT_DIR
+const PROJECT_FOLDER = __dirname + '/project-languages'
 const english = 'en'
 
 const PRE_TRANSLATED_CONTENT = {}
@@ -153,6 +154,7 @@ const updateCSVs = async entries => {
       // 1. get entries
       const csvContent = await parseCSV(file, false)
       // 2. update entries
+      // NOTE: this will only update entries currently in the file, if the key doesn't exist in the file it won't get updated (as it should be)
       const formattedEntries = csvContent.map(content => {
         const translatedEntry = entriesToUpdate.find(entry => entry.key === content.key)
 
@@ -169,6 +171,25 @@ const updateCSVs = async entries => {
       await csvWriter.writeRecords(formattedEntries) // returns a promise
     }
   })
+}
+
+const getAllDirEntries = async ({ dir, updateFiles, ignoreFiles, useTranslatedValuesIfAvailable }) => {
+  const categories = getDirectories(dir)
+
+  let allLanguageEntries = []
+
+  await asyncForEach(categories, async category => {
+    const entries = await getDirCSVEntries({
+      dir: dir + '/' + category,
+      updateFiles,
+      ignoreFiles,
+      useTranslatedValuesIfAvailable,
+    })
+
+    allLanguageEntries = [...allLanguageEntries, ...entries]
+  })
+
+  return allLanguageEntries
 }
 
 const directories = getDirectories(LANGUAGE_FOLDER).filter(d => chargebeeLanguageSymbols.includes(d))
@@ -194,20 +215,8 @@ const runTranslation = async ({
 
   await asyncForEach(languages, async language => {
     const dir = LANGUAGE_FOLDER + '/' + language
-    const categories = getDirectories(dir)
 
-    let allLanguageEntries = []
-
-    await asyncForEach(categories, async category => {
-      const entries = await getDirCSVEntries({
-        dir: dir + '/' + category,
-        updateFiles,
-        ignoreFiles,
-        useTranslatedValuesIfAvailable,
-      })
-
-      allLanguageEntries = [...allLanguageEntries, ...entries]
-    })
+    const allLanguageEntries = await getAllDirEntries({ dir, updateFiles, ignoreFiles, useTranslatedValuesIfAvailable })
 
     const entriesToTranslate = allLanguageEntries.filter(entry => {
       if (ignoreIfValue && entry.value) {
@@ -337,6 +346,52 @@ const deleteReviewFiles = async ({ folders = directories }) => {
   })
 }
 
+const updateProjectFolder = async ({ folders, updateFiles, ignoreFiles, updateKeys, ignoreKeys }) => {
+  // Use PROJECT_FOLDER
+  const languages = getDirectories(PROJECT_FOLDER)
+    .filter(d => chargebeeLanguageSymbols.includes(d))
+    .filter(lang => !Array.isArray(folders) || folders.includes(lang))
+
+  await asyncForEach(languages, async language => {
+    const dir = LANGUAGE_FOLDER + '/' + language
+
+    // 1. get all pre-translated content
+    const allLanguageEntries = await getAllDirEntries({
+      dir,
+      updateFiles,
+      ignoreFiles,
+      useTranslatedValuesIfAvailable: true,
+    })
+    const entriesToReference = allLanguageEntries.filter(entry => {
+      // if no value, don't include, it's not helpful
+      if (!entry.value) {
+        return false
+      } else if (Array.isArray(ignoreKeys) && ignoreKeys.includes(entry.key)) {
+        return false
+      } else if (Array.isArray(updateKeys) && !updateKeys.includes(entry.key)) {
+        return false
+      } else {
+        return true
+      }
+    })
+
+    // 2. grab all referencable entries, each key that can be updated will be updated
+    const entriesToUpdate = entriesToReference.map(entry => {
+      entry.translation = entry.value
+      entry.source = entry.source.replace(`${CONTENT_DIR}/${language}`, `project-languages/${language}`)
+
+      return entry
+    })
+
+    // 3. update CSVs
+    await updateCSVs(entriesToUpdate)
+
+    console.info(`Updated ${language}`)
+  })
+
+  console.info(`Done!`)
+}
+
 if (process.env.SAVE_UNREVIEWED_TRANSLATIONS) {
   const prompt = new Confirm(
     'Have you updated the "translated" values in the JSON files (easily confused with "value" values)?'
@@ -350,6 +405,11 @@ if (process.env.SAVE_UNREVIEWED_TRANSLATIONS) {
   )
   prompt.run().then(() => {
     deleteReviewFiles({})
+  })
+} else if (process.env.UPDATE_PROJECT_FOLDER) {
+  const prompt = new Confirm('Update "project-languages" with pre-translated values from "chargebee-languages"?')
+  prompt.run().then(() => {
+    updateProjectFolder({})
   })
 } else {
   // typically you don't want to translate these files, or you want to be sure you do. They're all in the mandatory folder.

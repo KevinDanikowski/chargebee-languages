@@ -1,14 +1,15 @@
 {
   "name": "chargebee-languages",
   "version": "1.0.0",
-  "description": "",
+  "description": "Easy to use method to translate language packs for chargebee.",
   "main": "TranslateChargebee.js",
   "scripts": {
     "translate": "node TranslateChargebee.js",
     "save-reviewed": "SAVE_UNREVIEWED_TRANSLATIONS=true node TranslateChargebee.js",
-    "delete-reviews": "DELETE_REVIEW_FILES=true node TranslateChargebee.js"
+    "delete-reviews": "DELETE_REVIEW_FILES=true node TranslateChargebee.js",
+    "update-project-folder": "UPDATE_PROJECT_FOLDER=true node TranslateChargebee.js"
   },
-  "author": "",
+  "author": "Kevin Danikowski",
   "license": "MIT",
   "dependencies": {
     "@supercharge/promise-pool": "^1.6.1",

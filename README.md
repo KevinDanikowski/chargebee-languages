@@ -10,7 +10,7 @@ There is a sample provided for all the languages that are machine translated tha
 
 # Option 1 Pre-translated values in your project
 
-**First: copy your language pack**, place it in a folder named `project-languages`
+**First: copy your language pack**, place it in a folder named `project-languages`. _You don't need all the supported languages, it will only copy over the languages you support in the project folder_
 
 **Second: update translated values**, run `npm run update-project-folder` to update all the missing values with their corresponding values from `chargebee-languages` which are already translated
 

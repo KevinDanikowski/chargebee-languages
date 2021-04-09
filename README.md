@@ -77,6 +77,7 @@ module.exports = async ({ to, from, text }) => {
 
 There are a list of keys there exceed the 500 character upload limit imposed by chargebee:
 
+```js
 { key: 'hp_v3.pm.agreement.gocardless_autogiro9', length: 577 },
 { key: 'hp_v3.pm.agreement.gocardless_autogiro3', length: 518 },
 { key: 'hp_v3.pm.agreement.gocardless_autogiro4', length: 520 },
@@ -88,11 +89,14 @@ There are a list of keys there exceed the 500 character upload limit imposed by 
 { key: 'hp_v3.pm.agreement.gocardless_becs_nz_terms_condition', length: 1392 },
 { key: 'hp_v3.pm.agreement.gocardless_becs_terms_condition', length: 6003 },
 { key: 'hp_v3.pm.agreement.gocardless_autogiro10', length: 561 }
+```
 
 And two that are close:
 
+```js
 { key: 'hp_v3.pm.agreement.stripe_sepa', length: 482 },
 { key: 'hp_v3.pm.agreement.gocardless_becs_4', length: 468 }
+```
 
 It may be worth ignoring these incase the translations come in over 500 characters leaving you unable to upload.
 

@@ -392,7 +392,27 @@ const updateProjectFolder = async ({ folders, updateFiles, ignoreFiles, updateKe
   console.info(`Done!`)
 }
 
-if (process.env.SAVE_UNREVIEWED_TRANSLATIONS) {
+// run some manipulations here to get some info, no direct use case
+const test = async ({ folders, updateFiles, ignoreFiles, useTranslatedValuesIfAvailable = false }) => {
+  const languages = directories.filter(lang => folders.includes(lang))
+
+  await asyncForEach(languages, async language => {
+    const dir = LANGUAGE_FOLDER + '/' + language
+
+    const allLanguageEntries = await getAllDirEntries({ dir, updateFiles, ignoreFiles, useTranslatedValuesIfAvailable })
+
+    const filtered = allLanguageEntries
+      .filter(entry => entry['reference value'].length < 500 && entry['reference value'].length > 450)
+      .map(entry => ({ key: entry.key, length: entry['reference value'].length }))
+    console.info('allLanguageEntries', filtered)
+  })
+}
+
+if (process.env.TEST) {
+  test({
+    folders: ['id'],
+  })
+} else if (process.env.SAVE_UNREVIEWED_TRANSLATIONS) {
   const prompt = new Confirm(
     'Have you updated the "translated" values in the JSON files (easily confused with "value" values)?'
   )

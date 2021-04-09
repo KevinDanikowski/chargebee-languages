@@ -71,6 +71,35 @@ module.exports = async ({ to, from, text }) => {
 
 **Seventh: Delete reviewed and failed**, run `npm run delete-reviews` to delete the `UNREVIEWED_TRANSLATIONS.json` and `FAILED_TRANSLATIONS.json` in all the language directories.
 
+# Disclaimers and Items To Watch Out For
+
+## 500 Character Limit
+
+There are a list of keys there exceed the 500 character upload limit imposed by chargebee:
+
+{ key: 'hp_v3.pm.agreement.gocardless_autogiro9', length: 577 },
+{ key: 'hp_v3.pm.agreement.gocardless_autogiro3', length: 518 },
+{ key: 'hp_v3.pm.agreement.gocardless_autogiro4', length: 520 },
+{ key: 'hp_v3.pm.agreement.gocardless_autogiro1', length: 1076 },
+{ key: 'hp_v3.pm.agreement.gocardless_autogiro7', length: 564 },
+{ key: 'hp_v3.pm.agreement.gocardless_autogiro8', length: 562 },
+{ key: 'hp_v3.pm.agreement.gocardless_autogiro6', length: 923 },
+{ key: 'hp_v3.pm.agreement.cybersource_ach1', length: 1063 },
+{ key: 'hp_v3.pm.agreement.gocardless_becs_nz_terms_condition', length: 1392 },
+{ key: 'hp_v3.pm.agreement.gocardless_becs_terms_condition', length: 6003 },
+{ key: 'hp_v3.pm.agreement.gocardless_autogiro10', length: 561 }
+
+And two that are close:
+
+{ key: 'hp_v3.pm.agreement.stripe_sepa', length: 482 },
+{ key: 'hp_v3.pm.agreement.gocardless_becs_4', length: 468 }
+
+It may be worth ignoring these incase the translations come in over 500 characters leaving you unable to upload.
+
+## Upload Size
+
+Currently restricted to 1MB unzipped size and 2MB zipped size. These limits need to be increased to 12MB and 3MB minimally, respectively. I've opened a ticket for this to be increased and will update the repo accordingly.
+
 # Contributions
 
 Open an issue and make a corresponding PR. It will get reviewed within a couple days.

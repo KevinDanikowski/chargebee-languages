@@ -1,6 +1,6 @@
 const fs = require('fs')
 const Confirm = require('prompt-confirm')
-const { get: _get, set: _set } = require('lodash')
+const { get: _get, set: _set, uniqBy: _uniqBy } = require('lodash')
 const PromisePool = require('@supercharge/promise-pool')
 const csv = require('csv-parser')
 const ora = require('ora')
@@ -134,6 +134,25 @@ const getDirCSVEntries = async ({ dir, updateFiles, ignoreFiles, useTranslatedVa
   })
 
   return formattedEntries
+}
+
+const removeDuplicateKeysInCSVs = async files => {
+  await asyncForEach(files, async file => {
+    if (fileExists(file)) {
+      // 1. get entries
+      const csvContent = await parseCSV(file, false)
+
+      // 2. unique filter
+      const uniqueFiltered = _uniqBy(csvContent, i => i.key)
+
+      // 3. update file
+      const csvWriter = createCsvWriter({
+        path: file,
+        header: Object.keys(csvContent[0]).map(key => ({ id: key, title: key })),
+      })
+      await csvWriter.writeRecords(uniqueFiltered) // returns a promise
+    }
+  })
 }
 
 const updateCSVs = async entries => {
@@ -392,6 +411,43 @@ const updateProjectFolder = async ({ folders, updateFiles, ignoreFiles, updateKe
   console.info(`Done!`)
 }
 
+const removeDuplicateKeys = async ({ folders, updateFiles, ignoreFiles, useTranslatedValuesIfAvailable = false }) => {
+  // Use PROJECT_FOLDER
+  const languages = getDirectories(PROJECT_FOLDER)
+    .filter(d => chargebeeLanguageSymbols.includes(d))
+    .filter(lang => !Array.isArray(folders) || folders.includes(lang))
+
+  await asyncForEach(languages, async language => {
+    const dir = PROJECT_FOLDER + '/' + language
+
+    const categories = getDirectories(dir)
+
+    await asyncForEach(categories, async category => {
+      const categoryDir = dir + '/' + category
+      const allFiles = getCSVsInDir(categoryDir)
+
+      let files = []
+
+      if (Array.isArray(updateFiles) || Array.isArray(ignoreFiles)) {
+        files = allFiles.filter(file => {
+          let include = true
+          if (Array.isArray(ignoreFiles) && ignoreFiles.includes(file)) {
+            include = false
+          } else if (Array.isArray(updateFiles) && !updateFiles.includes(file)) {
+            include = false
+          }
+
+          return include
+        })
+      } else {
+        files = allFiles
+      }
+
+      await removeDuplicateKeysInCSVs(files.map(f => `${categoryDir}/${f}`))
+    })
+  })
+}
+
 // run some manipulations here to get some info, no direct use case
 const test = async ({ folders, updateFiles, ignoreFiles, useTranslatedValuesIfAvailable = false }) => {
   const languages = directories.filter(lang => folders.includes(lang))
@@ -429,9 +485,44 @@ if (process.env.TEST) {
 } else if (process.env.UPDATE_PROJECT_FOLDER) {
   const prompt = new Confirm('Update "project-languages" with pre-translated values from "chargebee-languages"?')
   prompt.run().then(() => {
-    updateProjectFolder({})
+    const optionallyIgnoreTooLongTranslations = [
+      { key: 'hp_v3.pm.agreement.stripe_sepa', length: 482 },
+      { key: 'hp_v3.pm.agreement.gocardless_becs_4', length: 468 },
+      { key: 'hp_v3.pm.agreement.gocardless_autogiro9', length: 577 },
+      { key: 'hp_v3.pm.agreement.gocardless_autogiro3', length: 518 },
+      { key: 'hp_v3.pm.agreement.gocardless_autogiro4', length: 520 },
+      { key: 'hp_v3.pm.agreement.gocardless_autogiro1', length: 1076 },
+      { key: 'hp_v3.pm.agreement.gocardless_autogiro7', length: 564 },
+      { key: 'hp_v3.pm.agreement.gocardless_autogiro8', length: 562 },
+      { key: 'hp_v3.pm.agreement.gocardless_autogiro6', length: 923 },
+      { key: 'hp_v3.pm.agreement.cybersource_ach1', length: 1063 },
+      {
+        key: 'hp_v3.pm.agreement.gocardless_becs_nz_terms_condition',
+        length: 1392,
+      },
+      {
+        key: 'hp_v3.pm.agreement.gocardless_becs_terms_condition',
+        length: 6003,
+      },
+      { key: 'hp_v3.pm.agreement.gocardless_autogiro10', length: 561 },
+    ]
+    const recommendedKeysToIgnore = optionallyIgnoreTooLongTranslations.map(k => k.key)
+
+    updateProjectFolder({
+      ignoreKeys: recommendedKeysToIgnore,
+    })
   })
-} else {
+} else if (process.env.REMOVE_DUPLICATE_KEYS) {
+  const includeFiles = ['tax_validation_options.csv']
+  const prompt = new Confirm(
+    `Are you sure you want to remove duplicate keys in ${includeFiles.length} files in the project-languages folder?`
+  )
+  prompt.run().then(() => {
+    removeDuplicateKeys({
+      updateFiles: includeFiles,
+    })
+  })
+} else if (process.env.TRANSLATE) {
   // typically you don't want to translate these files, or you want to be sure you do. They're all in the mandatory folder.
   const defaultIgnoreFiles = [
     'invoice_customizations.csv',
@@ -443,6 +534,7 @@ if (process.env.TEST) {
     'organization_details.csv',
   ]
   runTranslation({
+    // example config below
     translator,
     logs: false,
     concurrentTranslations: 10,

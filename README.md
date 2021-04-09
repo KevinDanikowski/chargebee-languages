@@ -100,6 +100,10 @@ It may be worth ignoring these incase the translations come in over 500 characte
 
 Currently restricted to 1MB unzipped size and 2MB zipped size. These limits need to be increased to 12MB and 3MB minimally, respectively. I've opened a ticket for this to be increased and will update the repo accordingly.
 
+## Duplicate Keys
+
+There are a few keys which are created in duplicate by Chargebee incorrectly. You may want to manually remove them. They're in `tax_validation_options.csv`. You can use the command `npm run remove-duplicate-keys` which will only include this file, you can add more if necessary.
+
 # Contributions
 
 Open an issue and make a corresponding PR. It will get reviewed within a couple days.

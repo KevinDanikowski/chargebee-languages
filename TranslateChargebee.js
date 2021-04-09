@@ -29,6 +29,7 @@ const translator = fileExists('./translator.js')
 const CONTENT_DIR = process.env.LANGUAGE_DIRECTORY || 'chargebee-languages'
 const LANGUAGE_FOLDER = __dirname + '/' + CONTENT_DIR
 const PROJECT_FOLDER = __dirname + '/project-languages'
+const LIVE_PROJECT_FOLDER = __dirname + '/live-project-languages'
 const english = 'en'
 
 const PRE_TRANSLATED_CONTENT = {}
@@ -136,6 +137,7 @@ const getDirCSVEntries = async ({ dir, updateFiles, ignoreFiles, useTranslatedVa
   return formattedEntries
 }
 
+// these files have paths
 const removeDuplicateKeysInCSVs = async files => {
   await asyncForEach(files, async file => {
     if (fileExists(file)) {
@@ -151,6 +153,44 @@ const removeDuplicateKeysInCSVs = async files => {
         header: Object.keys(csvContent[0]).map(key => ({ id: key, title: key })),
       })
       await csvWriter.writeRecords(uniqueFiltered) // returns a promise
+    }
+  })
+}
+
+const fixMismatchedKeysInCSVs = async (files, fixPath, referencePath) => {
+  await asyncForEach(files, async file => {
+    const fixFile = fixPath + '/' + file
+    const referenceFile = referencePath + '/' + file
+    if (fileExists(referenceFile) && fileExists(fixFile)) {
+      // 1. get entries
+      const referenceCSVContent = await parseCSV(referenceFile, false)
+      const fixCSVContent = await parseCSV(fixFile, false)
+
+      // 2. format fixFile entries
+      const formattedEntries = fixCSVContent.map(entry => {
+        const getKeyStem = key => {
+          if (typeof key !== 'string') return key
+          return key.substr(0, key.lastIndexOf('.'))
+        }
+        const referenceEntry = referenceCSVContent.find(
+          refEntry =>
+            refEntry['reference value'] === entry['reference value'] &&
+            getKeyStem(refEntry.key) === getKeyStem(entry.key)
+        )
+        const key = referenceEntry && referenceEntry.key ? referenceEntry.key : entry.key
+
+        return {
+          ...entry,
+          key,
+        }
+      })
+
+      // 3. update fixFile
+      const csvWriter = createCsvWriter({
+        path: fixFile,
+        header: Object.keys(fixCSVContent[0]).map(key => ({ id: key, title: key })),
+      })
+      await csvWriter.writeRecords(formattedEntries) // returns a promise
     }
   })
 }
@@ -448,6 +488,44 @@ const removeDuplicateKeys = async ({ folders, updateFiles, ignoreFiles, useTrans
   })
 }
 
+const fixMismatchedKeys = async ({ folders, updateFiles, ignoreFiles }) => {
+  // Use LIVE_PROJECT_FOLDER
+  const languages = getDirectories(PROJECT_FOLDER)
+    .filter(d => chargebeeLanguageSymbols.includes(d))
+    .filter(lang => !Array.isArray(folders) || folders.includes(lang))
+
+  await asyncForEach(languages, async language => {
+    const dir = PROJECT_FOLDER + '/' + language
+
+    const categories = getDirectories(dir)
+
+    await asyncForEach(categories, async category => {
+      const fixCategoryDir = dir + '/' + category
+      const referenceCategoryDir = LIVE_PROJECT_FOLDER + '/' + language + '/' + category
+      const allFiles = getCSVsInDir(fixCategoryDir)
+
+      let files = []
+
+      if (Array.isArray(updateFiles) || Array.isArray(ignoreFiles)) {
+        files = allFiles.filter(file => {
+          let include = true
+          if (Array.isArray(ignoreFiles) && ignoreFiles.includes(file)) {
+            include = false
+          } else if (Array.isArray(updateFiles) && !updateFiles.includes(file)) {
+            include = false
+          }
+
+          return include
+        })
+      } else {
+        files = allFiles
+      }
+
+      await fixMismatchedKeysInCSVs(files, fixCategoryDir, referenceCategoryDir)
+    })
+  })
+}
+
 // run some manipulations here to get some info, no direct use case
 const test = async ({ folders, updateFiles, ignoreFiles, useTranslatedValuesIfAvailable = false }) => {
   const languages = directories.filter(lang => folders.includes(lang))
@@ -519,6 +597,16 @@ if (process.env.TEST) {
   )
   prompt.run().then(() => {
     removeDuplicateKeys({
+      updateFiles: includeFiles,
+    })
+  })
+} else if (process.env.FIX_MISMATCHED_KEYS) {
+  const includeFiles = ['reason_codes.csv']
+  const prompt = new Confirm(
+    `Are you sure you want to copy the fix mismatched keys from ${includeFiles.length} files in the live-project-languages folder to the project-languages folder?`
+  )
+  prompt.run().then(() => {
+    fixMismatchedKeys({
       updateFiles: includeFiles,
     })
   })

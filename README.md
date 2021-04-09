@@ -71,7 +71,7 @@ module.exports = async ({ to, from, text }) => {
 
 **Seventh: Delete reviewed and failed**, run `npm run delete-reviews` to delete the `UNREVIEWED_TRANSLATIONS.json` and `FAILED_TRANSLATIONS.json` in all the language directories.
 
-# Disclaimers and Items To Watch Out For
+# IMPORTANT: Disclaimers and Items To Watch Out For
 
 ## 500 Character Limit
 
@@ -107,6 +107,10 @@ Currently restricted to 1MB unzipped size and 2MB zipped size. These limits need
 ## Duplicate Keys
 
 There are a few keys which are created in duplicate by Chargebee incorrectly. You may want to manually remove them. They're in `tax_validation_options.csv`. You can use the command `npm run remove-duplicate-keys` which will only include this file, you can add more if necessary.
+
+## Mismatches
+
+The file `reason_codes.csv` has keys that don't match live vs test environment. For example, `dy.subscription_cancellation.16CKpzSRTq5be683` can have the last segment of the key slightly different in live, and throws "missing" or "new" key errors. Thus, if you are using the `project-folder` for your test keys, to update them to the appropriate live keys, you will need to use the function `npm run fix-mismatched-keys`. It will take the prod key names from a folder named `live-project-languages` and update them in `project-languages`.
 
 # Contributions
 

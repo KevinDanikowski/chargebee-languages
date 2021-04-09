@@ -8,7 +8,8 @@
     "save-reviewed": "SAVE_UNREVIEWED_TRANSLATIONS=true node TranslateChargebee.js",
     "delete-reviews": "DELETE_REVIEW_FILES=true node TranslateChargebee.js",
     "update-project-folder": "UPDATE_PROJECT_FOLDER=true node TranslateChargebee.js",
-    "remove-duplicate-keys": "REMOVE_DUPLICATE_KEYS=true node TranslateChargebee.js"
+    "remove-duplicate-keys": "REMOVE_DUPLICATE_KEYS=true node TranslateChargebee.js",
+    "fix-mismatched-keys": "FIX_MISMATCHED_KEYS=true node TranslateChargebee.js"
   },
   "author": "Kevin Danikowski",
   "license": "MIT",

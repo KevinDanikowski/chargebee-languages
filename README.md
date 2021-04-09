@@ -116,6 +116,8 @@ The file `reason_codes.csv` has keys that don't match live vs test environment. 
 
 - Uploading a failed file will not overwrite the current file; you will not lose your current language zip file
 - You can upload with missing language directories, it will not error
+- after you upload, you no longer see a "download language pack" button. You can now only download using the "download" button next to your language pack file name. If you add languages, they will be in this pack.
+- If you delete a language, the translations will be saved, but no longer come from the download pack. When you activate it again, you will see it still translated (chargebee saves your translations)
 - You cannot upload new keys that don't exist
 - You cannot upload over 500 characters (currently)
 - Upload zip size has caps (might not be an issue any longer)

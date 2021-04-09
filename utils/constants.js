@@ -197,6 +197,7 @@ const recommendedReplacements = {
   'invoice(s)': 'one or more invoices',
   '</li<li>': '</li><li>',
   [`<div class='text-center'>`]: `<div class="text-center">`,
+  // should consider adding hp_v3.pm.agreement.stripe_sepa or other legal disclosures over 500 characters here and make them into a shortened version
 }
 
 // Some words here are only used in sentences, and not as a single value

@@ -8,7 +8,7 @@ There is a sample provided for all the languages that are machine translated tha
 
 # Running
 
-# Option 1 Pre-translated values in your project
+# Option 1 Pre-translated values in your project (typical use case)
 
 **First: copy your language pack**, place it in a folder named `project-languages`. _You don't need all the supported languages, it will only copy over the languages you support in the project folder_
 
@@ -102,7 +102,7 @@ It may be worth ignoring these incase the translations come in over 500 characte
 
 ## Upload Size
 
-Currently restricted to 1MB unzipped size and 2MB zipped size. These limits need to be increased to 12MB and 3MB minimally, respectively. I've opened a ticket for this to be increased and will update the repo accordingly.
+(This may be fixed, it's fixed on my account) Currently restricted to 1MB unzipped size and 2MB zipped size. These limits need to be increased to 12MB and 3MB minimally, respectively. I've opened a ticket for this to be increased and will update the repo accordingly.
 
 ## Duplicate Keys
 
@@ -110,7 +110,49 @@ There are a few keys which are created in duplicate by Chargebee incorrectly. Yo
 
 ## Mismatches
 
-The file `reason_codes.csv` has keys that don't match live vs test environment. For example, `dy.subscription_cancellation.16CKpzSRTq5be683` can have the last segment of the key slightly different in live, and throws "missing" or "new" key errors. Thus, if you are using the `project-folder` for your test keys, to update them to the appropriate live keys, you will need to use the function `npm run fix-mismatched-keys`. It will take the prod key names from a folder named `live-project-languages` and update them in `project-languages`.
+The file `reason_codes.csv` has keys that don't match live vs test environment. For example, `dy.subscription_cancellation.16CKpzSRTq5be683` can have the last segment of the key slightly different in live, and throws "new" key errors. Thus, if you are using the `project-folder` for your test keys, to update them to the appropriate live keys, you will need to use the function `npm run fix-mismatched-keys`. It will take the prod key names from a folder named `live-project-languages` and update them in `project-languages`.
+
+# Uploading Notes | FAQ
+
+- Uploading a failed file will not overwrite the current file; you will not lose your current language zip file
+- You can upload with missing language directories, it will not error
+- You cannot upload new keys that don't exist
+- You cannot upload over 500 characters (currently)
+- Upload zip size has caps (might not be an issue any longer)
+
+# Translations
+
+| Symbol / folder name | language name |  translation method   | notes |
+| -------------------- | :-----------: | :-------------------: | :---: |
+| bg                   |               | automated translation |       |
+| cs                   |               | automated translation |       |
+| da                   |               | automated translation |       |
+| de                   |               | automated translation |       |
+| es                   |               | automated translation |       |
+| et                   |               | automated translation |       |
+| fi                   |               | automated translation |       |
+| fr                   |               | automated translation |       |
+| hu                   |               | automated translation |       |
+| id                   |               | automated translation |       |
+| it                   |               | automated translation |       |
+| ja                   |               | automated translation |       |
+| ko                   |               | automated translation |       |
+| lt                   |               | automated translation |       |
+| lv                   |               | automated translation |       |
+| nl                   |               | automated translation |       |
+| no                   |               | automated translation |       |
+| pl                   |               | automated translation |       |
+| pt                   |               | automated translation |       |
+| ro                   |               | automated translation |       |
+| ru                   |               | automated translation |       |
+| sk                   |               | automated translation |       |
+| sl                   |               | automated translation |       |
+| sv                   |               | automated translation |       |
+| th                   |               | automated translation |       |
+| tr                   |               | automated translation |       |
+| uk                   |               | automated translation |       |
+| vi                   |               | automated translation |       |
+| zh                   |               | automated translation |       |
 
 # Contributions
 

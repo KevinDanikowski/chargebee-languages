@@ -1,3 +1,7 @@
+# Officially Moved
+
+Repo officially moved to https://github.com/smodin-io/chargebee-languages and is now maintained by Smodin.io
+
 # Chargebee Language Translation Support Package
 
 Chargebee allows a certain number of languages out of the box (https://www.chargebee.com/docs/supported-locales.html), roughly 6. There are, however, around 30 supported by chargebee which you can choose to translate yourself (https://www.chargebee.com/docs/configure-multiple-languages.html). Here is a simple node package to translate those languages easily and efficiently.
